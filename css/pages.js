@@ -12,8 +12,7 @@ const WIKI_CONFIG = {
   footer: "IHK Wirtschaftsfachwirt · Nur für internen Gebrauch",
 
   modules: [
-    { id: "rewe", label: "Rechnungswesen",           icon: "🧮", color: "#B42318" },
-    { id: "bm",   label: "Betriebliches Management", icon: "⚙️", color: "#2563EB" },
+    { id: "rewe", label: "Rechnungswesen", icon: "🧮", color: "#B42318" },
   ],
 
   pages: [
@@ -58,15 +57,5 @@ const WIKI_CONFIG = {
       keywords: ["kostenartenrechnung", "kostengliederung", "einzelkosten", "gemeinkosten", "fixkosten", "variable kosten", "fixkostendegression", "proportionale kosten", "degressive kosten", "progressive kosten", "sprungfixe kosten", "intervall-fixe kosten", "mittelwertverfahren", "gewogener mittelwert", "gleitender mittelwert", "arithmetischer mittelwert", "lagerkarteikarte", "istkosten", "normalkosten", "plankosten", "istkostenrechnung", "normalkostenrechnung", "plankostenrechnung", "soll-ist-vergleich", "abweichungsanalyse", "kapazitätsgrenze", "stückkosten", "bab", "betriebsabrechnungsbogen"]
     },
 
-    // ── Betriebliches Management ─────────────────────────────
-    {
-      id: "bm_ls03",
-      module: "bm",
-      title: "LS03 · Wissensmanagement",
-      file: "pages/bm_ls03.html",
-      status: "entwurf",
-      updated: "28.06.2026",
-      keywords: ["wissensmanagement", "seci", "nonaka", "implizites wissen", "explizites wissen", "wissensspirale"]
-    },
   ]
 };

@@ -70,6 +70,57 @@ function toggleModule(id, heading) {
   heading.querySelector('.collapse-arrow').textContent = isOpen ? '▸' : '▾';
 }
 
+// ── SUCHBEGRIFF HERVORHEBEN & HINSPRINGEN ───────────────────
+function highlightSearchTerm() {
+  const params = new URLSearchParams(window.location.search);
+  const term   = params.get('q');
+  if (!term) return;
+
+  const main = document.querySelector('.main');
+  if (!main) return;
+
+  // Alle Textknoten durchsuchen und Treffer markieren
+  const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      const tag = node.parentElement?.tagName?.toLowerCase();
+      if (['script','style','noscript'].includes(tag)) return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+
+  const regex   = new RegExp(`(${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+  const matches = [];
+  let node;
+
+  while ((node = walker.nextNode())) {
+    if (regex.test(node.textContent)) matches.push(node);
+  }
+
+  let firstMark = null;
+  matches.forEach(node => {
+    const frag = document.createDocumentFragment();
+    const parts = node.textContent.split(regex);
+    parts.forEach(part => {
+      if (regex.test(part)) {
+        const mark = document.createElement('mark');
+        mark.className = 'search-highlight';
+        mark.textContent = part;
+        if (!firstMark) firstMark = mark;
+        frag.appendChild(mark);
+      } else {
+        frag.appendChild(document.createTextNode(part));
+      }
+      regex.lastIndex = 0;
+    });
+    node.parentNode.replaceChild(frag, node);
+  });
+
+  // Zum ersten Treffer scrollen
+  if (firstMark) {
+    setTimeout(() => firstMark.scrollIntoView({ behavior: 'smooth', block: 'center' }), 200);
+  }
+}
+
 // ── VOLLTEXT-SUCHE via Lunr.js ───────────────────────────────
 let lunrIndex   = null;
 let searchDocs  = {};
@@ -127,7 +178,8 @@ async function initSearch() {
         const page = WIKI_CONFIG.pages.find(p => p.id === h.ref);
         const m    = page ? WIKI_CONFIG.modules.find(mx => mx.id === page.module) : null;
         if (!doc) return '';
-        return `<a href="${r}/${doc.file}">
+        const url = `${r}/${doc.file}?q=${encodeURIComponent(q)}`;
+        return `<a href="${url}">
           <strong>${doc.title}</strong>
           <span>${m ? m.icon + ' ' + m.label : doc.kicker}</span>
         </a>`;
@@ -222,4 +274,5 @@ document.addEventListener('DOMContentLoaded', () => {
   buildSidebar();
   buildIndexPage();
   initSearch();
+  highlightSearchTerm();
 });

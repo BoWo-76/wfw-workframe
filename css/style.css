@@ -157,6 +157,13 @@ body {
   line-height: 1.35;
 }
 
+mark.search-highlight {
+  background: #FFF176;
+  color: var(--ink);
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
 /* MAIN */
 .main {
   margin-left: var(--sidebar-w);
