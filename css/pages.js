@@ -38,6 +38,16 @@ const WIKI_CONFIG = {
       keywords: ["finanzbuchhaltung", "fibu", "grundbuch", "hauptbuch", "nebenbuch", "jahresabschluss", "bilanz", "guv", "anhang", "bilanzansatz", "bilanzbewertung", "going concern", "niederstwertprinzip", "höchstwertprinzip", "anschaffungskosten", "abschreibung", "afa", "linear", "degressiv", "leistungsabschreibung", "gwg", "geringwertige wirtschaftsgüter", "sammelposten", "fifo", "lifo", "hifo", "bewertungsvereinfachung", "skonto", "rückstellung", "verbindlichkeit", "periodenfremder aufwand", "übergangsjahr", "debitoren", "kreditoren", "festwert", "gruppenbewertung", "durchschnittsbewertung"]
     },
 
+    {
+      id: "rewe_ls03",
+      module: "rewe",
+      title: "LS03 · Grundlagen KLR",
+      file: "pages/rewe_ls03.html",
+      status: "fertig",
+      updated: "28.06.2026",
+      keywords: ["klr", "kosten- und leistungsrechnung", "selbstkosten", "deckungsbeitrag", "wirtschaftlichkeit", "angebotspreis", "einzelkosten", "gemeinkosten", "fixkosten", "variable kosten", "fixkostendegression", "bab", "proportional", "degressiv", "progressiv", "neutraler aufwand", "zusatzkosten", "anderskosten", "grundkosten", "zweckaufwand", "kalkulatorischer unternehmerlohn", "kalkulatorische abschreibung", "wiederbeschaffungswert", "absatzleistung", "lagerleistung", "innerbetriebliche leistung", "bestandserhöhung", "kostenartenrechnung", "kostenstellenrechnung", "kostenträgerrechnung"]
+    },
+
     // ── Betriebliches Management ─────────────────────────────
     {
       id: "bm_ls03",

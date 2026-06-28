@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LS03 Grundlagen KLR – WFW Wiki</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../index.html">WFW<span>Wiki</span></a>
+  <div class="search-wrap">
+    <input id="search-input" type="search" placeholder="Thema suchen …" autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+</div>
+
+<div class="layout">
+  <nav class="sidebar"></nav>
+
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="../index.html">Startseite</a> › Rechnungswesen › LS03 Grundlagen KLR
+    </div>
+    <div class="page-header">
+      <div class="kicker">Rechnungswesen · Lernskript</div>
+      <h1>LS03 · Grundlagen der Kosten- und Leistungsrechnung</h1>
+      <div class="meta">
+        <span>Selbstkosten · Deckungsbeiträge · Einzel-/Gemeinkosten · Aufwand vs. Kosten</span>
+        <span>Stand: April 2026</span>
+        <span><span class="badge ok">Fertig</span></span>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>Kapitel 1 · Zentrale Grundbegriffe der KLR</h2>
+
+    <div class="pruef-box">
+      KLR ist internes Rechnungswesen — Unternehmenssteuerung, keine externe Rechenschaftspflicht. Kern-Prüfungsfragen: Was unterscheidet KLR von Fibu? Was sind Selbstkosten? Wie wird Wirtschaftlichkeit gemessen?
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Kosten- und Leistungsrechnung (KLR)</div>
+      Internes Rechnungswesen. Erfasst und verrechnet Kosten und Leistungen — eigene Größen die sich von Aufwand und Ertrag der Fibu systemisch unterscheiden. Hauptziel: periodenbezogene Gegenüberstellung von Kosten und Leistungen → Betriebsergebnis.
+    </div>
+
+    <h3>Fibu vs. KLR im Vergleich</h3>
+    <div class="two-col">
+      <div class="content-card">
+        <h4>Finanzbuchhaltung (extern)</h4>
+        <ul>
+          <li>Gesetzlich vorgeschrieben (HGB, Steuerrecht)</li>
+          <li>Adressaten: Finanzamt, Banken, Gläubiger</li>
+          <li>Periode: Geschäftsjahr</li>
+          <li>Spricht von <strong>Aufwand und Ertrag</strong></li>
+          <li>Stichtag: 31.12. (Jahresabschluss)</li>
+        </ul>
+      </div>
+      <div class="content-card">
+        <h4>KLR (intern)</h4>
+        <ul>
+          <li>Freiwillig, intern gestaltet</li>
+          <li>Adressaten: Unternehmensleitung, Controlling</li>
+          <li>Periode: Monat, Quartal, Jahr</li>
+          <li>Spricht von <strong>Kosten und Leistungen</strong></li>
+          <li>Laufend, operativ</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>Die vier zentralen Grundbegriffe</h3>
+    <table>
+      <thead><tr><th>Begriff</th><th>Definition</th><th>Formel</th><th>Preisuntergrenze</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Selbstkosten</strong></td>
+          <td>Alle Kosten für Erstellung und Verkauf betrieblicher Leistungen</td>
+          <td>—</td>
+          <td><strong>Langfristig</strong> — Verkaufspreis muss mindestens Selbstkosten decken</td>
+        </tr>
+        <tr>
+          <td><strong>Deckungsbeitrag (DB)</strong></td>
+          <td>Überschuss nach Abzug variabler Kosten vom Umsatz. Dient zur Deckung der Fixkosten.</td>
+          <td>DB = Umsatz − variable Kosten</td>
+          <td><strong>Kurzfristig</strong> — Produkt sollte mindestens positiven DB liefern</td>
+        </tr>
+        <tr>
+          <td><strong>Wirtschaftlichkeit</strong></td>
+          <td>Verhältnis von Leistung zu Kosten. Relative Kennzahl — sagt nichts über absolute Höhe von Gewinn/Verlust.</td>
+          <td>w = Leistung / Kosten</td>
+          <td>w &gt; 1 = wirtschaftlich / w = 1 = kostendeckend / w &lt; 1 = ineffizient</td>
+        </tr>
+        <tr>
+          <td><strong>Angebotspreis</strong></td>
+          <td>Auf Basis der Selbstkosten kalkulierter Preis für den Absatzmarkt</td>
+          <td>Angebotspreis = Selbstkosten + Gewinnzuschlag</td>
+          <td>—</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — KLR vs. Fibu</strong>In der Fibu: Aufwand und Ertrag. In der KLR: Kosten und Leistungen. Die Begriffe sind nicht deckungsgleich — das ist systemisch begründet. Wer Aufwand und Kosten gleichsetzt, verliert Punkte.</div>
+    </div>
+
+    <h3>Die drei Bereiche der KLR</h3>
+    <div class="notice info">
+      <div>ℹ️</div>
+      <div><strong>Aufbau KLR</strong>Kostenartenrechnung (Was ist angefallen?) → Kostenstellenrechnung (Wo ist es angefallen?) → Kostenträgerrechnung (Wofür ist es angefallen?). Dieser Aufbau zieht sich durch alle weiteren Lernskripte.</div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>Kapitel 2 · Kosteneinteilung: Verrechenbarkeit &amp; Beschäftigung</h2>
+
+    <div class="pruef-box">
+      Zwei Einteilungen, zwei verschiedene Zwecke. Einzel- vs. Gemeinkosten → entscheidend für BAB und Zuschlagskalkulation. Fix vs. Variabel → entscheidend für Deckungsbeitragsrechnung und Teilkostenrechnung.
+    </div>
+
+    <h3>A) Nach Verrechenbarkeit: Einzel- vs. Gemeinkosten</h3>
+    <table>
+      <thead><tr><th>Kostenart</th><th>Erläuterung</th><th>Beispiele</th><th>Relevanz</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Einzelkosten</strong></td>
+          <td>Direkt und verursachungsgerecht einem Produkt zuordenbar. Kein Schlüssel nötig.</td>
+          <td>Fertigungsmaterial, Fertigungslöhne, Verpackungen</td>
+          <td>BAB – Zuschlagskalkulation</td>
+        </tr>
+        <tr>
+          <td><strong>Gemeinkosten</strong></td>
+          <td>Nicht direkt zurechenbar. Fallen für den Gemeinbetrieb an, werden über Schlüssel (Zuschlagssätze im BAB) auf Kostenstellen verteilt.</td>
+          <td>Miete, Gehälter, Strom, Abschreibungen, Steuern</td>
+          <td>BAB – Zuschlagssätze</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Gemeinkosten ≠ Fixkosten!</strong>Gemeinkosten betrifft die <em>Zurechenbarkeit</em> (direkt/indirekt). Fix/variabel betrifft das <em>Kostenverhalten</em> (bei Beschäftigungsänderung).
+        <ul style="margin-top:6px">
+          <li>Miete = Gemeinkosten UND Fixkosten</li>
+          <li>Fertigungsmaterial = Einzelkosten UND variable Kosten</li>
+          <li>Stromkosten Produktion = Gemeinkosten UND variabel</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>B) Nach Beschäftigung: Fix- vs. Variable Kosten</h3>
+    <table>
+      <thead><tr><th>Kostenart</th><th>Erläuterung</th><th>Beispiele</th><th>Stückkosten-Effekt</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Variable Kosten</strong></td>
+          <td>Ändern sich proportional mit dem Beschäftigungsgrad. Mehr Produktion → mehr Kosten.</td>
+          <td>Rohmaterial, Fertigungslöhne (Akkord), Energiekosten</td>
+          <td>Konstant pro Stück</td>
+        </tr>
+        <tr>
+          <td><strong>Fixkosten</strong></td>
+          <td>Bleiben bei Beschäftigungsschwankungen gleich (Bereitschaftskosten). Entstehen unabhängig davon ob produziert wird.</td>
+          <td>Miete, Versicherungen, Gehälter, Abschreibungen</td>
+          <td>Sinken bei mehr Ausbringung (Fixkostendegression)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Arten von Fixkosten</h3>
+    <div class="two-col">
+      <div class="content-card">
+        <h4>Absolut-fixe Kosten</h4>
+        <p>Bleiben auch bei starken Beschäftigungsschwankungen konstant.</p>
+        <p>Beispiele: Kfz-Versicherungen, lineare Abschreibungen</p>
+      </div>
+      <div class="content-card">
+        <h4>Intervall-fixe Kosten</h4>
+        <p>Bleiben in bestimmten Auslastungsbereichen konstant, steigen dann sprunghaft an.</p>
+        <p>Beispiele: Anmietung zusätzlicher Gebäude, Neueinstellungen bei Kapazitätsausweitung</p>
+      </div>
+    </div>
+
+    <h3>Drei Arten variabler Kosten (Prüfungswissen!)</h3>
+    <table>
+      <thead><tr><th>Art</th><th>Verhalten</th><th>Stückkosten</th><th>Beispiele</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Proportional</strong></td><td>Steigen im gleichen Verhältnis wie Ausbringung</td><td>Konstant</td><td>Rohstoffverbrauch, Akkordlöhne</td></tr>
+        <tr><td><strong>Degressiv</strong></td><td>Steigen unterproportional</td><td>Sinken bei mehr Ausbringung</td><td>Energiekosten, Materialeinsatz mit Mengenrabatten</td></tr>
+        <tr><td><strong>Progressiv</strong></td><td>Steigen überproportional</td><td>Steigen bei mehr Ausbringung</td><td>Überstundenzuschläge, Instandhaltungskosten, Ausschusskosten</td></tr>
+      </tbody>
+    </table>
+
+    <div class="notice info">
+      <div>ℹ️</div>
+      <div><strong>Hinweis</strong>In der Prüfung wird meist der proportionale Fall berechnet. Wenn ein Graph gezeigt wird oder die Frage lautet „Nennen Sie Arten variabler Kosten" — alle drei müssen bekannt sein.</div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>Kapitel 3 · Abgrenzung: Aufwand vs. Kosten</h2>
+
+    <div class="pruef-box">
+      Klassiker. Prüfungsfragen: Was ist neutraler Aufwand? Was sind Anderskosten? Was sind Zusatzkosten? Der Unterschied zwischen Grundkosten und kalkulatorischen Kosten muss mit Beispielen sitzen.
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Aufwand (Fibu) vs. Kosten (KLR)</div>
+      <strong>Aufwand:</strong> Gesamter Werteverzehr einer Periode — inkl. betriebsfremder, periodenfremder und außerordentlicher Vorgänge.<br>
+      <strong>Kosten:</strong> Nur der Werteverzehr der zur Erstellung betrieblicher Leistungen notwendig ist.<br>
+      → Aufwand und Kosten sind nicht deckungsgleich.
+    </div>
+
+    <h3>Abgrenzungsschema</h3>
+    <table>
+      <thead><tr><th>Begriff</th><th>Fibu?</th><th>KLR?</th><th>Erläuterung</th><th>Beispiele</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Zweckaufwand (Grundkosten)</strong></td>
+          <td>✅ Ja</td><td>✅ Ja</td>
+          <td>Aufwand der dem Betriebszweck dient. In beiden Rechnungen in gleicher Höhe.</td>
+          <td>Materialverbrauch, Fertigungslöhne</td>
+        </tr>
+        <tr>
+          <td><strong>Neutraler Aufwand</strong></td>
+          <td>✅ Ja</td><td>❌ Nein</td>
+          <td>Aufwand der nicht dem Kerngeschäft dient. In der KLR nicht als Kosten erfasst.</td>
+          <td>Spenden, Steuernachzahlungen, Forderungsverluste, Schadensfälle</td>
+        </tr>
+        <tr>
+          <td><strong>Zusatzkosten</strong></td>
+          <td>❌ Nein</td><td>✅ Ja</td>
+          <td>Kosten denen kein Aufwand in der Fibu gegenübersteht. Kalkulatorische Größen.</td>
+          <td>Kalk. Unternehmerlohn, kalk. Miete (Eigennutzung)</td>
+        </tr>
+        <tr>
+          <td><strong>Anderskosten</strong></td>
+          <td>In anderer Höhe</td><td>In anderer Höhe</td>
+          <td>Zweckaufwand der in der KLR in abweichender Höhe angesetzt wird.</td>
+          <td>Kalk. Abschreibungen (auf Wiederbeschaffungswert), kalk. Zinsen</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Drei Beispiele prüfungsscharf</h3>
+    <div class="def-box">
+      <div class="def-term">Neutraler Aufwand — Spende</div>
+      Unternehmen spendet 5.000 €. Fibu: Aufwand (Spenden). KLR: keine Kosten — kein betrieblicher Zweck. Erscheint im KLR-Ergebnis nicht.
+    </div>
+    <div class="def-box">
+      <div class="def-term">Zusatzkosten — Kalkulatorischer Unternehmerlohn</div>
+      Einzelunternehmer entnimmt keinen Lohn. Fibu: kein Aufwand (Privatentnahme). KLR: Kosten in Höhe eines fiktiven Lohns. Zweck: Vergleichbarkeit mit Kapitalgesellschaften — sonst kalkuliert der Einzelunternehmer seine Leistung zu günstig.
+    </div>
+    <div class="def-box">
+      <div class="def-term">Anderskosten — Kalkulatorische Abschreibungen</div>
+      Fibu: Abschreibung auf historische Anschaffungskosten. KLR: Abschreibung auf Wiederbeschaffungswert (aktueller Marktpreis). Bei Inflation: KLR-Abschreibung &gt; Fibu-Abschreibung.
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Anderskosten erkennen</strong>Entscheidend: Liegt derselbe Posten in beiden Rechnungen vor — aber in unterschiedlicher Höhe? → Anderskosten. Liegt er nur in einer Rechnung vor → neutraler Aufwand oder Zusatzkosten.</div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>Kapitel 4 · Leistungen</h2>
+
+    <div class="pruef-box">
+      Leistung ≠ Ertrag — genauso wie Kosten ≠ Aufwand. Drei Leistungsarten mit Beispiel und Abgrenzung. Was ist der Unterschied zwischen Absatzleistung und Lagerleistung? Wann liegt eine innerbetriebliche Leistung vor?
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Leistung (KLR)</div>
+      In Geld bewerteter Output aus der betrieblichen Tätigkeit. Gegenstück zu Kosten — genau wie Ertrag das Gegenstück zu Aufwand in der Fibu ist. In der KLR werden nur Grundleistungen (Zweckerträge) erfasst. Neutrale Erträge (z.B. Wertpapiererträge) sind keine Leistungen in der KLR.
+    </div>
+
+    <h3>Leistung vs. Ertrag</h3>
+    <div class="two-col">
+      <div class="content-card">
+        <h4>Ertrag (Fibu)</h4>
+        <p>Gesamter in Geld bewerteter Wertzuwachs einer Periode — inkl. betriebsfremder und periodenfremder Vorgänge.</p>
+      </div>
+      <div class="content-card">
+        <h4>Leistung (KLR)</h4>
+        <p>Nur der Wertzuwachs aus dem Kerngeschäft. Neutrale Erträge sind keine Leistungen in der KLR.</p>
+      </div>
+    </div>
+
+    <h3>Die drei Leistungsarten</h3>
+    <table>
+      <thead><tr><th>Leistungsart</th><th>Definition</th><th>Bewertung</th><th>Beispiel</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Absatzleistung</strong></td>
+          <td>In der Periode abgesetzte (verkaufte) Produkte und Dienstleistungen. Realisierter Umsatz aus dem Kerngeschäft.</td>
+          <td>Verkaufspreise (netto)</td>
+          <td>Verkauf von 1.000 Stühlen à 80 € netto = 80.000 € Absatzleistung</td>
+        </tr>
+        <tr>
+          <td><strong>Lagerleistung</strong></td>
+          <td>In der Periode erstellte, aber nicht verkaufte Produkte die auf Lager genommen wurden. Entspricht der Bestandserhöhung.</td>
+          <td>Herstellkosten</td>
+          <td>200 produzierte, aber nicht verkaufte Stühle gehen ins Lager</td>
+        </tr>
+        <tr>
+          <td><strong>Innerbetriebliche Leistung</strong></td>
+          <td>Leistungen die für den eigenen Betrieb erstellt wurden — nicht nach außen abgesetzt.</td>
+          <td>Herstellkosten</td>
+          <td>Eigene Instandhaltungsabteilung repariert Maschinen. Eigene Tischlerei baut Regale.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Lagerleistung ist eine Leistung, kein Ertrag!</strong>Bestandserhöhung erscheint in der Fibu als Ertrag (Bestandsveränderung in der GuV). In der KLR ist sie eine Lagerleistung. Bestandsminderung verringert die Leistung. IHK fragt: „Das Unternehmen produziert mehr als es verkauft. Was ist die Differenz in der KLR?" → Lagerleistung.</div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>Prüfungs-Checkliste</h2>
+    <ul>
+      <li>Unterschied Fibu (extern) und KLR (intern) mit je zwei Merkmalen erklären</li>
+      <li>Selbstkosten, Wirtschaftlichkeit, Angebotspreis und Deckungsbeitrag mit Formel definieren</li>
+      <li>Einzel- von Gemeinkosten unterscheiden — warum können Gemeinkosten auch variabel sein?</li>
+      <li>Fix- vs. variable Kosten und Stückkosten-Effekt bei steigender Ausbringung erklären</li>
+      <li>Sachverhalt korrekt einordnen: neutraler Aufwand / Zweckaufwand / Zusatzkosten / Anderskosten</li>
+      <li>Je ein Beispiel für Zusatzkosten und Anderskosten nennen und Unterschied erklären</li>
+      <li>Absatzleistung, Lagerleistung und innerbetriebliche Leistung mit Beispiel unterscheiden</li>
+      <li>Erklären warum Lagerleistung eine Leistung ist und was das in der KLR bedeutet</li>
+    </ul>
+
+  </main>
+</div>
+
+<footer class="page-footer">
+  <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
+  <div>REWE LS03 · Stand: April 2026</div>
+</footer>
+
+<script src="../css/pages.js"></script>
+<script src="../css/engine.js"></script>
+</body>
+</html>

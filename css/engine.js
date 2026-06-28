@@ -113,14 +113,14 @@ function buildSearch() {
   });
 }
 
-// ── INDEX PAGE ───────────────────────────────────────────────
+// ── INDEX PAGE (einklappbare Module) ────────────────────────
 function buildIndexPage() {
   const container = document.getElementById('wiki-index');
   if (!container) return;
 
   let html = '';
 
-  WIKI_CONFIG.modules.forEach(mod => {
+  WIKI_CONFIG.modules.forEach((mod, idx) => {
     const pages = WIKI_CONFIG.pages.filter(p => p.module === mod.id);
     if (!pages.length) return;
 
@@ -128,10 +128,13 @@ function buildIndexPage() {
     const draft = pages.filter(p => p.status === 'entwurf').length;
     const total = pages.length;
     const pct   = Math.round((done / total) * 100);
+    const listId = `idx-mod-${mod.id}`;
+    const isOpen = idx === 0; // erstes Modul standardmäßig offen
 
     html += `
       <div class="module-block">
-        <div class="module-header" style="border-left-color:${mod.color}">
+        <div class="module-header" style="border-left-color:${mod.color};cursor:pointer"
+             onclick="toggleIndexModule('${listId}', this)">
           <span class="module-icon">${mod.icon}</span>
           <div>
             <div class="module-title">${mod.label}</div>
@@ -142,9 +145,10 @@ function buildIndexPage() {
               <div class="progress-fill" style="width:${pct}%;background:${mod.color}"></div>
             </div>
             <span>${pct}%</span>
+            <span class="idx-arrow" style="font-size:13px;margin-left:8px;opacity:.6">${isOpen ? '▾' : '▸'}</span>
           </div>
         </div>
-        <div class="page-list">`;
+        <div class="page-list" id="${listId}" style="display:${isOpen ? 'block' : 'none'}">`;
 
     pages.forEach(p => {
       const b = STATUS_BADGE[p.status];
@@ -164,6 +168,14 @@ function buildIndexPage() {
   });
 
   container.innerHTML = html;
+}
+
+function toggleIndexModule(id, header) {
+  const el = document.getElementById(id);
+  const isOpen = el.style.display !== 'none';
+  el.style.display = isOpen ? 'none' : 'block';
+  const arrow = header.querySelector('.idx-arrow');
+  if (arrow) arrow.textContent = isOpen ? '▸' : '▾';
 }
 
 // ── TOPBAR ───────────────────────────────────────────────────
