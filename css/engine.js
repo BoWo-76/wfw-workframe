@@ -1,5 +1,5 @@
 // ============================================================
-// WIKI ENGINE — liest WIKI_CONFIG und baut alles automatisch
+// WIKI ENGINE — Sidebar, Index, Volltext-Suche via Lunr.js
 // ============================================================
 
 const STATUS_BADGE = {
@@ -12,12 +12,10 @@ function getRoot() {
   return window.location.pathname.includes('/pages/') ? '..' : '.';
 }
 
-// ── SIDEBAR mit auf/einklappbaren Modulen ───────────────────
+// ── SIDEBAR ─────────────────────────────────────────────────
 function buildSidebar() {
   const r = getRoot();
   const current = window.location.pathname.split('/').pop();
-
-  // Welches Modul ist aktuell aktiv?
   const activePage = WIKI_CONFIG.pages.find(p => p.file.split('/').pop() === current);
   const activeModule = activePage ? activePage.module : null;
 
@@ -32,9 +30,8 @@ function buildSidebar() {
   WIKI_CONFIG.modules.forEach(mod => {
     const pages = WIKI_CONFIG.pages.filter(p => p.module === mod.id);
     if (!pages.length) return;
-
     const isOpen = mod.id === activeModule;
-    const modId = `mod-${mod.id}`;
+    const modId  = `mod-${mod.id}`;
 
     html += `
       <div class="nav-section">
@@ -45,11 +42,10 @@ function buildSidebar() {
         <div class="module-pages" id="${modId}" style="display:${isOpen ? 'block' : 'none'}">`;
 
     pages.forEach(p => {
-      const fileName = p.file.split('/').pop();
-      const isActive = current === fileName;
-      const dot = p.status === 'fertig' ? '●' : p.status === 'entwurf' ? '◐' : '○';
+      const fileName  = p.file.split('/').pop();
+      const isActive  = current === fileName;
+      const dot       = p.status === 'fertig' ? '●' : p.status === 'entwurf' ? '◐' : '○';
       const clickable = p.status !== 'geplant';
-
       if (clickable) {
         html += `<a href="${r}/${p.file}" ${isActive ? 'class="active"' : ''}>
           <span class="icon" style="font-size:10px;opacity:.6">${dot}</span> ${p.title}
@@ -60,50 +56,82 @@ function buildSidebar() {
         </span>`;
       }
     });
-
     html += `</div></div>`;
   });
 
   document.querySelectorAll('.sidebar').forEach(el => el.innerHTML = html);
 }
 
-// Toggle-Funktion für Module
 function toggleModule(id, heading) {
-  const el = document.getElementById(id);
+  const el     = document.getElementById(id);
   const isOpen = el.style.display !== 'none';
   el.style.display = isOpen ? 'none' : 'block';
   heading.classList.toggle('open', !isOpen);
   heading.querySelector('.collapse-arrow').textContent = isOpen ? '▸' : '▾';
 }
 
-// ── SEARCH ──────────────────────────────────────────────────
-function buildSearch() {
-  const r = getRoot();
-  const input = document.getElementById('search-input');
+// ── VOLLTEXT-SUCHE via Lunr.js ───────────────────────────────
+let lunrIndex   = null;
+let searchDocs  = {};
+
+async function initSearch() {
+  const r       = getRoot();
+  const input   = document.getElementById('search-input');
   const results = document.getElementById('search-results');
   if (!input || !results) return;
 
+  // search-index.json laden
+  try {
+    const res  = await fetch(`${r}/search-index.json`);
+    const docs = await res.json();
+
+    docs.forEach(d => { searchDocs[d.id] = d; });
+
+    lunrIndex = lunr(function () {
+      this.ref('id');
+      this.field('title', { boost: 10 });
+      this.field('kicker', { boost: 5 });
+      this.field('body');
+      this.pipeline.remove(lunr.stemmer); // kein Stemming für Deutsch
+      docs.forEach(d => this.add(d));
+    });
+  } catch (e) {
+    console.warn('search-index.json nicht gefunden — Suche deaktiviert.');
+    input.placeholder = 'Suche nicht verfügbar';
+    input.disabled = true;
+    return;
+  }
+
   input.addEventListener('input', () => {
-    const q = input.value.trim().toLowerCase();
+    const q = input.value.trim();
     if (q.length < 2) { results.style.display = 'none'; return; }
 
-    const hits = WIKI_CONFIG.pages.filter(p =>
-      p.status !== 'geplant' && (
-        p.title.toLowerCase().includes(q) ||
-        p.keywords.some(k => k.includes(q))
-      )
-    );
+    let hits = [];
+    try {
+      // Wildcard-Suche: jedes Wort mit * anhängen
+      const query = q.split(/\s+/).map(w => `${w}*`).join(' ');
+      hits = lunrIndex.search(query);
+    } catch (e) {
+      hits = [];
+    }
 
     if (hits.length === 0) {
       results.innerHTML = '<div class="no-result">Keine Treffer.</div>';
     } else {
-      const mod = id => WIKI_CONFIG.modules.find(m => m.id === id);
-      results.innerHTML = hits.map(h =>
-        `<a href="${r}/${h.file}">
-          <strong>${h.title}</strong>
-          <span>${mod(h.module)?.icon} ${mod(h.module)?.label}</span>
-        </a>`
-      ).join('');
+      const mod = id => WIKI_CONFIG.modules.find(m => {
+        const page = WIKI_CONFIG.pages.find(p => p.id === id);
+        return page && m.id === page.module;
+      });
+      results.innerHTML = hits.slice(0, 8).map(h => {
+        const doc  = searchDocs[h.ref];
+        const page = WIKI_CONFIG.pages.find(p => p.id === h.ref);
+        const m    = page ? WIKI_CONFIG.modules.find(mx => mx.id === page.module) : null;
+        if (!doc) return '';
+        return `<a href="${r}/${doc.file}">
+          <strong>${doc.title}</strong>
+          <span>${m ? m.icon + ' ' + m.label : doc.kicker}</span>
+        </a>`;
+      }).join('');
     }
     results.style.display = 'block';
   });
@@ -129,7 +157,7 @@ function buildIndexPage() {
     const total = pages.length;
     const pct   = Math.round((done / total) * 100);
     const listId = `idx-mod-${mod.id}`;
-    const isOpen = idx === 0; // erstes Modul standardmäßig offen
+    const isOpen = idx === 0;
 
     html += `
       <div class="module-block">
@@ -151,7 +179,7 @@ function buildIndexPage() {
         <div class="page-list" id="${listId}" style="display:${isOpen ? 'block' : 'none'}">`;
 
     pages.forEach(p => {
-      const b = STATUS_BADGE[p.status];
+      const b         = STATUS_BADGE[p.status];
       const clickable = p.status !== 'geplant';
       html += clickable
         ? `<a class="page-item" href="${p.file}">
@@ -171,19 +199,19 @@ function buildIndexPage() {
 }
 
 function toggleIndexModule(id, header) {
-  const el = document.getElementById(id);
+  const el     = document.getElementById(id);
   const isOpen = el.style.display !== 'none';
   el.style.display = isOpen ? 'none' : 'block';
-  const arrow = header.querySelector('.idx-arrow');
+  const arrow  = header.querySelector('.idx-arrow');
   if (arrow) arrow.textContent = isOpen ? '▸' : '▾';
 }
 
 // ── TOPBAR ───────────────────────────────────────────────────
 function buildTopbar() {
-  const r = getRoot();
+  const r  = getRoot();
   const el = document.querySelector('.topbar .brand');
   if (el) {
-    el.href = `${r}/index.html`;
+    el.href      = `${r}/index.html`;
     el.innerHTML = `${WIKI_CONFIG.brand}<span>Wiki</span>`;
   }
 }
@@ -192,6 +220,6 @@ function buildTopbar() {
 document.addEventListener('DOMContentLoaded', () => {
   buildTopbar();
   buildSidebar();
-  buildSearch();
   buildIndexPage();
+  initSearch();
 });

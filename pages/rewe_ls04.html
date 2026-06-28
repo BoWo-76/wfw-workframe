@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LS04 Kostenartenrechnung – WFW Wiki</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../index.html">WFW<span>Wiki</span></a>
+  <div class="search-wrap">
+    <input id="search-input" type="search" placeholder="Thema suchen …" autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+</div>
+
+<div class="layout">
+  <nav class="sidebar"></nav>
+
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="../index.html">Startseite</a> › Rechnungswesen › LS04 Kostenartenrechnung
+    </div>
+    <div class="page-header">
+      <div class="kicker">Rechnungswesen · Lernskript</div>
+      <h1>LS04 · Kostenartenrechnung</h1>
+      <div class="meta">
+        <span>Kostengliederung · Beschäftigungsabhängigkeit · Mittelwerte · Systeme</span>
+        <span>Stand: April 2026</span>
+        <span><span class="badge ok">Fertig</span></span>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>Kapitel 1 · Grundlagen der Kostenartenrechnung</h2>
+
+    <div class="pruef-box">
+      Kostenartenrechnung ist die erste Stufe der KLR — beantwortet: „Welche Kosten sind entstanden?" Prüfungsrelevant: Welche Kostenarten gibt es? Was sind Einzel- vs. Gemeinkosten? Nach welchen Kriterien werden Kosten eingeteilt?
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Kostenartenrechnung — Einordnung</div>
+      Erste von drei Stufen der KLR. Erfasst und gliedert systematisch alle betriebsbedingten, bewerteten Güterverbräuche (Kosten) einer Abrechnungsperiode.
+    </div>
+
+    <h3>Die drei KLR-Stufen</h3>
+    <table>
+      <thead><tr><th>Stufe</th><th>Frage</th><th>Aufgabe</th></tr></thead>
+      <tbody>
+        <tr><td><strong>1. Kostenartenrechnung</strong></td><td>Welche Kosten?</td><td>Systematische Erfassung und Gliederung aller Kosten</td></tr>
+        <tr><td><strong>2. Kostenstellenrechnung</strong></td><td>Wo sind die Kosten entstanden?</td><td>Verteilung auf Betriebsbereiche über den BAB</td></tr>
+        <tr><td><strong>3. Kostenträgerrechnung</strong></td><td>Wofür sind die Kosten entstanden?</td><td>Zuordnung zu Produkten / Aufträgen</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Vier Einteilungskriterien für Kostenarten</h3>
+    <table>
+      <thead><tr><th>Kriterium</th><th>Kostenarten</th><th>Beispiele</th></tr></thead>
+      <tbody>
+        <tr><td><strong>(1) Nach Entstehungsursache</strong></td><td>Materialkosten, Personalkosten, Abschreibungen, Kommunikationskosten, betriebliche Steuern</td><td>Stahlverbrauch, Löhne, AfA Maschinen, Telefon, Cloud-Dienste, Grundsteuer</td></tr>
+        <tr><td><strong>(2) Nach Verrechenbarkeit</strong></td><td>Einzelkosten, Gemeinkosten</td><td>Fertigungslohn (direkt), Hallenmiete (indirekt)</td></tr>
+        <tr><td><strong>(3) Nach Beschäftigungsverhalten</strong></td><td>Fixkosten, variable Kosten</td><td>Gebäude-AfA (fix), Rohstoff (variabel)</td></tr>
+        <tr><td><strong>(4) Nach Ermittlungsart</strong></td><td>Istkosten, Normalkosten, Plankosten</td><td>→ Kapitel 4</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Einzelkosten vs. Gemeinkosten</h3>
+    <div class="two-col">
+      <div class="content-card">
+        <h4>Einzelkosten</h4>
+        <p>Direkt und verursachungsgerecht einem Kostenträger zurechenbar. Kein Verteilungsschlüssel nötig.</p>
+        <ul>
+          <li>Fertigungsmaterial (z.B. Stahlblech für Kühlschrank)</li>
+          <li>Fertigungslöhne (Arbeitszeit direkt am Produkt)</li>
+          <li>Spezialverpackungen (produktspezifisch)</li>
+          <li>Sondereinzelkosten der Fertigung (z.B. Spezialwerkzeug)</li>
+        </ul>
+      </div>
+      <div class="content-card">
+        <h4>Gemeinkosten</h4>
+        <p>Nicht direkt dem Produkt zurechenbar. Fallen für den Gesamtbetrieb an — Verteilung über Schlüssel (BAB).</p>
+        <ul>
+          <li>Gehälter der Verwaltung</li>
+          <li>Stromkosten der Produktionshalle</li>
+          <li>Grundsteuer, Gebäude-AfA</li>
+          <li>Reparatur- und Wartungskosten</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Gemeinkosten ≠ Fixkosten</strong>Gemeinkosten betrifft die <em>Zurechenbarkeit</em> zu einem Produkt. Fixkosten betrifft das <em>Verhalten bei Beschäftigungsschwankungen</em>. Stromkosten der Produktion = Gemeinkosten aber variabel. Gehälter = Gemeinkosten und Fixkosten. Fertigungsmaterial = Einzelkosten und variabel.</div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>Kapitel 2 · Beschäftigungsabhängigkeit: Fix, Variabel &amp; Mischformen</h2>
+
+    <div class="pruef-box">
+      Fixkosten und variable Kosten verhalten sich grundlegend unterschiedlich — besonders bei den Stückkosten. Prüfungsklassiker: Tabellen mit Ausbringung, Gesamtkosten und Stückkosten ausfüllen oder auswerten. Alle drei Arten variabler Kosten kennen.
+    </div>
+
+    <h3>Fixkosten (Bereitschaftskosten)</h3>
+    <p>Entstehen unabhängig von der Beschäftigung — auch wenn gar nicht produziert wird. Mit steigender Ausbringung sinken die fixen Stückkosten: <strong>Fixkostendegression</strong>.</p>
+
+    <div class="two-col">
+      <div class="content-card">
+        <h4>Absolut-fixe Kosten</h4>
+        <p>Bleiben unverändert egal wie stark die Auslastung schwankt.</p>
+        <p>Beispiele: Kfz-Versicherung, lineare Abschreibungen, Grundmiete</p>
+      </div>
+      <div class="content-card">
+        <h4>Intervall-fixe Kosten (sprungfix)</h4>
+        <p>Bleiben innerhalb eines Beschäftigungsbereichs konstant — steigen sprunghaft bei Kapazitätsüberschreitung.</p>
+        <p>Beispiele: Anmietung zusätzlicher Lagerhalle, Neueinstellung bei Kapazitätserweiterung</p>
+      </div>
+    </div>
+
+    <h3>Fixkostendegression — Rechenbeispiel</h3>
+    <table>
+      <thead><tr><th>Ausbringung (St.)</th><th>Gesamtkosten (€)</th><th>Stückkosten (€)</th></tr></thead>
+      <tbody>
+        <tr><td>50</td><td>3.000,00</td><td>60,00</td></tr>
+        <tr><td>100</td><td>3.000,00</td><td>30,00</td></tr>
+        <tr><td>150</td><td>3.000,00</td><td>20,00</td></tr>
+        <tr><td>200</td><td>3.000,00</td><td>15,00</td></tr>
+        <tr><td>250</td><td>3.000,00</td><td>12,00</td></tr>
+        <tr><td>300</td><td>3.000,00</td><td>10,00</td></tr>
+      </tbody>
+    </table>
+    <div class="notice info">
+      <div>ℹ️</div>
+      <div>Gesamtkosten konstant bei 3.000 €. Stückkosten sinken von 60,00 € auf 10,00 € — Fixkostendegression.</div>
+    </div>
+
+    <h3>Variable Kosten — drei Unterarten</h3>
+    <table>
+      <thead><tr><th>Art</th><th>Gesamtkosten</th><th>Stückkosten</th><th>Beispiele</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Proportional</strong></td><td>Steigen gleichmäßig mit Ausbringung</td><td>Konstant</td><td>Rohstoffverbrauch, Akkordlöhne</td></tr>
+        <tr><td><strong>Degressiv</strong></td><td>Steigen unterproportional</td><td>Sinken bei mehr Ausbringung</td><td>Energiekosten mit Mengenrabatten</td></tr>
+        <tr><td><strong>Progressiv</strong></td><td>Steigen überproportional</td><td>Steigen bei mehr Ausbringung</td><td>Überstundenzuschläge, Ausschusskosten</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Vergleichstabellen der drei Varianten</h3>
+    <table>
+      <thead><tr><th>Ausbringung</th><th>Prop. GK (€)</th><th>Prop. SK (€)</th><th>Degr. GK (€)</th><th>Degr. SK (€)</th><th>Progr. GK (€)</th><th>Progr. SK (€)</th></tr></thead>
+      <tbody>
+        <tr><td>50</td><td>500</td><td>10,00</td><td>500</td><td>10,00</td><td>500</td><td>10,00</td></tr>
+        <tr><td>100</td><td>1.000</td><td>10,00</td><td>900</td><td>9,00</td><td>1.200</td><td>12,00</td></tr>
+        <tr><td>150</td><td>1.500</td><td>10,00</td><td>1.200</td><td>8,00</td><td>2.100</td><td>14,00</td></tr>
+        <tr><td>200</td><td>2.000</td><td>10,00</td><td>1.400</td><td>7,00</td><td>3.200</td><td>16,00</td></tr>
+        <tr><td>250</td><td>2.500</td><td>10,00</td><td>1.500</td><td>6,00</td><td>4.500</td><td>18,00</td></tr>
+        <tr><td>300</td><td>3.000</td><td>10,00</td><td>—</td><td>—</td><td>6.000</td><td>20,00</td></tr>
+      </tbody>
+    </table>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Drei klassische Prüfungsfallen</strong>
+        <ul style="margin-top:6px">
+          <li><strong>Einzelkosten können fix sein:</strong> Sondereinzelkosten der Fertigung (Spezialwerkzeug für Auftrag) = direkt zurechenbar (Einzelkosten) aber mengenunabhängig (fix).</li>
+          <li><strong>Fixkosten sind nicht immer konstant:</strong> Sprungfixe Kosten bleiben nur innerhalb eines Kapazitätsbereichs konstant — „fix" bedeutet „nicht beschäftigungsabhängig", nicht „niemals veränderlich".</li>
+          <li><strong>Mittelwerte sind keine Einstandspreise:</strong> Der gewogene Mittelwert ist eine rechnerische Hilfsgröße — nicht der tatsächliche Einkaufspreis einer Charge.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>Kapitel 3 · Bewertung von Kostenarten: Mittelwertverfahren</h2>
+
+    <div class="pruef-box">
+      Gewogener gleitender Mittelwert ist das Prüfungsthema — mit Tabelle berechnen können. Grundprinzip: Nach jedem Zugang wird ein neuer Durchschnittspreis berechnet, zu dem alle Lagerabgänge bewertet werden.
+    </div>
+
+    <h3>Die drei Mittelwertverfahren</h3>
+    <table>
+      <thead><tr><th>Verfahren</th><th>Berechnung</th><th>Eigenschaften</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Arithmetischer Mittelwert</strong></td>
+          <td>Summe aller Einkaufspreise ÷ Anzahl der Zugänge</td>
+          <td>Einfach. Nachteil: Ignoriert Mengenunterschiede — 1 Stück und 1.000 Stück werden gleich gewichtet.</td>
+        </tr>
+        <tr>
+          <td><strong>Gleitender Mittelwert</strong></td>
+          <td>Neuer Durchschnittspreis nach jedem einzelnen Zugang auf Basis des aktuellen Gesamtbestands</td>
+          <td>Sehr genau. Nachteil: Rechenintensiv bei vielen Zugängen.</td>
+        </tr>
+        <tr>
+          <td><strong>Gewogener gleitender Mittelwert</strong></td>
+          <td>Neuberechnung bei jedem Zugang unter Berücksichtigung der Mengen</td>
+          <td>Berücksichtigt Mengen. Verhindert Ergebnisverzerrungen durch Preisschwankungen. <strong>Prüfungsrelevant!</strong></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Formel: Gewogener gleitender Mittelwert</h3>
+    <div class="def-box">
+      <div class="def-term">⌀-Preis = (Wert Altbestand + Wert Zugang) ÷ (Menge Altbestand + Menge Zugang)</div>
+      Der berechnete Durchschnittspreis gilt für alle Abgänge bis zum nächsten Zugang.<br>
+      Abgänge werden <strong>immer</strong> zum zuletzt gültigen ⌀-Preis bewertet — nie neu berechnet.
+    </div>
+
+    <h3>Rechenbeispiel — Lagerkarteikarte</h3>
+    <table>
+      <thead><tr><th>Vorgang</th><th>Menge (St.)</th><th>Einzelpreis (€)</th><th>Gesamtwert (€)</th><th>Bestand (St.)</th><th>⌀-Preis (€)</th><th>Lagerwert (€)</th></tr></thead>
+      <tbody>
+        <tr><td>Anfangsbestand</td><td>200</td><td>10,00</td><td>2.000,00</td><td>200</td><td>10,00</td><td>2.000,00</td></tr>
+        <tr><td>Zugang</td><td>100</td><td>13,00</td><td>1.300,00</td><td>300</td><td><strong>11,00</strong></td><td>3.300,00</td></tr>
+        <tr><td>Abgang</td><td>150</td><td>—</td><td>1.650,00</td><td>150</td><td>11,00</td><td>1.650,00</td></tr>
+        <tr><td>Zugang</td><td>200</td><td>14,00</td><td>2.800,00</td><td>350</td><td><strong>12,71</strong></td><td>4.450,00</td></tr>
+        <tr><td>Abgang</td><td>100</td><td>—</td><td>1.271,00</td><td>250</td><td>12,71</td><td>3.179,00</td></tr>
+      </tbody>
+    </table>
+
+    <div class="def-box">
+      <div class="def-term">Rechenwege</div>
+      <strong>Zugang 1:</strong> (200 × 10,00 + 100 × 13,00) ÷ (200 + 100) = 3.300 ÷ 300 = <strong>11,00 €</strong><br>
+      <strong>Zugang 2:</strong> (150 × 11,00 + 200 × 14,00) ÷ (150 + 200) = 4.450 ÷ 350 = <strong>12,71 €</strong>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>Kapitel 4 · Kostenrechnungssysteme nach dem Zeitbezug</h2>
+
+    <div class="pruef-box">
+      Ist-, Normal- und Plankosten — drei Systeme mit unterschiedlichem Zeitbezug und Steuerungszweck. Prüfungsfrage: Wofür eignet sich welches System? Was ist der Vorteil von Plankosten gegenüber Istkosten?
+    </div>
+
+    <h3>Die drei Systeme im Vergleich</h3>
+    <table>
+      <thead><tr><th>System</th><th>Zeitbezug</th><th>Datenbasis</th><th>Hauptzweck</th><th>Nachteil</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Istkostenrechnung</strong></td>
+          <td>Vergangenheit (abgelaufen)</td>
+          <td>Tatsächliche Kosten der Periode</td>
+          <td>Nachkalkulation, Abrechnung</td>
+          <td>Nicht planbar. Für Kontrollzwecke ungeeignet — kein Sollwert für Soll-Ist-Vergleich.</td>
+        </tr>
+        <tr>
+          <td><strong>Normalkostenrechnung</strong></td>
+          <td>Vergangenheit (geglättet)</td>
+          <td>⌀ mehrerer Istkosten-Perioden</td>
+          <td>Stabile Kalkulation, langfristige Preisuntergrenzen</td>
+          <td>Zukunftsbezug fehlt — nur Vergangenheitswerte.</td>
+        </tr>
+        <tr>
+          <td><strong>Plankostenrechnung</strong></td>
+          <td>Zukunft (vorab)</td>
+          <td>Geplante Mengen × geplante Preise</td>
+          <td>Budgetierung, Soll-Ist-Analyse, Abweichungsanalyse</td>
+          <td>Hoher Planungsaufwand.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Istkosten für Kontrolle ungeeignet</strong>Vergleicht man zwei Perioden auf Basis von Istkosten, weiß man nicht ob ein Kostenanstieg auf höhere Preise, mehr Verbrauch oder mehr Produktion zurückzuführen ist. Die Plankostenrechnung trennt diese Einflüsse systematisch durch den Soll-Ist-Vergleich.</div>
+    </div>
+
+    <h3>Wirtschaftliche Kapazitätsgrenze</h3>
+    <div class="def-box">
+      <div class="def-term">Wirtschaftliche Kapazitätsgrenze</div>
+      Der Auslastungspunkt an dem ein Betrieb am effizientesten produziert. Bis zu diesem Punkt sinken die Stückkosten kontinuierlich (Fixkostendegression). Wird die Grenze überschritten, steigen die Kosten überproportional an.
+    </div>
+
+    <h3>Ursachen der Kostensteigerung jenseits der Kapazitätsgrenze</h3>
+    <ul>
+      <li>Überstundenzuschläge (progressive Lohnkosten)</li>
+      <li>Erhöhter Maschinenverschleiß (höhere Instandhaltungskosten)</li>
+      <li>Qualitätsmängel und Ausschuss (steigende Nacharbeitskosten)</li>
+    </ul>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>Prüfungs-Checkliste</h2>
+    <ul>
+      <li>Drei Stufen der KLR erklären und Kostenartenrechnung korrekt einordnen</li>
+      <li>Einzel- von Gemeinkosten unterscheiden — warum Gemeinkosten ≠ Fixkosten?</li>
+      <li>Fixkostendegression erklären und Stückkosten aus Gesamtkosten und Ausbringung berechnen</li>
+      <li>Alle drei Arten variabler Kosten (proportional, degressiv, progressiv) mit Beispiel und Stückkostenverhalten</li>
+      <li>Gewogenen gleitenden Mittelwert aus Lagerkarteikarte berechnen</li>
+      <li>Unterschied arithmetischer vs. gewogener Mittelwert erklären</li>
+      <li>Ist-, Normal- und Plankostenrechnung unterscheiden — Hauptzweck jedes Systems</li>
+      <li>Warum ist Istkostenrechnung für Kontrollzwecke ungeeignet?</li>
+      <li>Wirtschaftliche Kapazitätsgrenze erklären — drei Ursachen für progressive Kosten jenseits</li>
+    </ul>
+
+  </main>
+</div>
+
+<footer class="page-footer">
+  <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
+  <div>REWE LS04 · Stand: April 2026</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script src="../css/pages.js"></script>
+<script src="../css/engine.js"></script>
+</body>
+</html>

@@ -48,6 +48,25 @@ const WIKI_CONFIG = {
       keywords: ["klr", "kosten- und leistungsrechnung", "selbstkosten", "deckungsbeitrag", "wirtschaftlichkeit", "angebotspreis", "einzelkosten", "gemeinkosten", "fixkosten", "variable kosten", "fixkostendegression", "bab", "proportional", "degressiv", "progressiv", "neutraler aufwand", "zusatzkosten", "anderskosten", "grundkosten", "zweckaufwand", "kalkulatorischer unternehmerlohn", "kalkulatorische abschreibung", "wiederbeschaffungswert", "absatzleistung", "lagerleistung", "innerbetriebliche leistung", "bestandserhöhung", "kostenartenrechnung", "kostenstellenrechnung", "kostenträgerrechnung"]
     },
 
-    
+    {
+      id: "rewe_ls04",
+      module: "rewe",
+      title: "LS04 · Kostenartenrechnung",
+      file: "pages/rewe_ls04.html",
+      status: "fertig",
+      updated: "28.06.2026",
+      keywords: ["kostenartenrechnung", "kostengliederung", "einzelkosten", "gemeinkosten", "fixkosten", "variable kosten", "fixkostendegression", "proportionale kosten", "degressive kosten", "progressive kosten", "sprungfixe kosten", "intervall-fixe kosten", "mittelwertverfahren", "gewogener mittelwert", "gleitender mittelwert", "arithmetischer mittelwert", "lagerkarteikarte", "istkosten", "normalkosten", "plankosten", "istkostenrechnung", "normalkostenrechnung", "plankostenrechnung", "soll-ist-vergleich", "abweichungsanalyse", "kapazitätsgrenze", "stückkosten", "bab", "betriebsabrechnungsbogen"]
+    },
+
+    // ── Betriebliches Management ─────────────────────────────
+    {
+      id: "bm_ls03",
+      module: "bm",
+      title: "LS03 · Wissensmanagement",
+      file: "pages/bm_ls03.html",
+      status: "entwurf",
+      updated: "28.06.2026",
+      keywords: ["wissensmanagement", "seci", "nonaka", "implizites wissen", "explizites wissen", "wissensspirale"]
+    },
   ]
 };
