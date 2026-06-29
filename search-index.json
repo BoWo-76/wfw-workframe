@@ -1,10 +1,94 @@
 [
   {
+    "id": "about",
+    "title": "Über dieses Wiki",
+    "kicker": "WFW Wiki",
+    "file": "pages/about.html",
+    "body": "Startseite › Über dieses Wiki WFW Wiki Über dieses Wiki IHK Wirtschaftsfachwirt · Persönliches Lernwiki Stand: 29.06.2026 Boris Wolff Logistik- & Administrationsfachmann · IHK Wirtschaftsfachwirt (in Ausbildung) Trier, Deutschland · Freelance: Prozessdokumentation, SOPs, interne Wiki-Systeme Inhalt auf einen Blick – Lernseiten – Module – Fertig gestellt Module Worum geht es? Dieses Wiki ist ein persönliches Lernwerkzeug, das parallel zur berufsbegleitenden IHK-Prüfungsvorbereitung Wirtschaftsfachwirt entstanden ist. Das Programm umfasst Inhalte, die normalerweise auf 2–3 Jahre verteilt werden, und wird hier in einem 7-Monats-Kompaktkurs absolviert. Anstatt Notizen in PDFs oder Heftchen zu sammeln, wurde ein strukturiertes, durchsuchbares HTML-Wiki aufgebaut – mit einheitlichem Design, farbcodierten Boxen für Definitionen, Prüfungsfallen und Merksätzen sowie Volltextsuche über alle Skripte hinweg. Technische Umsetzung Statisches HTML – kein CMS, keine Datenbank Volltextsuche via Lunr.js Automatische Sidebar & Startseite per engine.js Responsive & druckoptimiert Hosting: GitHub Pages (kostenlos) Versionierung: GitHub Desktop Zuletzt-besucht-Tracker (localStorage) Farbsystem: Definitionen, Merksätze, Prüfungsfallen 💼 Portfolio-Demo Dieses Wiki dient gleichzeitig als Demonstration für Freelance-Leistungen auf Fiverr. Es zeigt, wie interne Wissensdatenbanken, SOPs und Prozessdokumentationen als sauberes, pflegeleichtes HTML-Wiki aufgebaut werden können – ohne teure Software, ohne laufende Lizenzkosten, vollständig im eigenen Browser nutzbar. Kontakt Boris Wolff · Trier, Deutschland Fiverr: fiverr.com (Prozessdokumentation · SOPs · Wiki-Systeme)"
+  },
+  {
     "id": "finanz_ls01",
     "title": "LS01 · Investitionsrechnung",
     "kicker": "Finanzmanagement · LS01",
     "file": "pages/finanz_ls01.html",
     "body": "Startseite › Finanzmanagement › LS01 Investitionsrechnung Finanzmanagement · LS01 LS01 · Investitionsrechnung Investitionsarten · Investitionsentscheidungen · Statische und dynamische Verfahren · Wirtschaftliche Nutzungsdauer Stand: 29.06.2026 Fertig 1 · Investition und Finanzierung 1.1 Zusammenhang Investition und Finanzierung Definition – Investition & Finanzierung Investition = Verwendung finanzieller Mittel für Vermögensteile → Aktivseite der Bilanz (Mittelverwendung) Finanzierung = Beschaffung von Kapital → Passivseite der Bilanz (Mittelherkunft) Merksatz Summe Aktivseite = Summe Passivseite → Keine Investition ohne Finanzierung und umgekehrt. 1.2 Investitionsarten Nach dem Objekt Art Beschreibung Beispiele Immaterielle Investitionen Ausgaben zur Stärkung der Wettbewerbsfähigkeit Lizenzen, Schutzrechte, Geschäftswerte, Personalentwicklung Real-/Sachinvestitionen Beschaffung von Sachgütern (Anlage- und Umlaufvermögen) Bewegliche Sachen (Maschinen, Vorräte), unbewegliche Sachen (Grundstücke, Gebäude) Finanzinvestitionen Beschaffung von Forderungs- oder Beteiligungsrechten Aktien, Wertpapiere, Geschäftsanteile, Rentenpapiere Nach dem Planungshorizont Horizont Bedeutung Strategisch Langfristig, grundlegende Unternehmensausrichtung Taktisch Mittelfristig, Umsetzung strategischer Vorgaben Operativ Kurzfristig, laufender Geschäftsbetrieb Nach dem Zweck Art Beschreibung Gründungs-/Errichtungsinvestitionen Erstmalige Grundausstattung bei Unternehmensstart Ersatzinvestitionen Alte Vermögensgegenstände werden durch neue ersetzt Erweiterungs-/Ergänzungsinvestitionen Kapazitätserweiterung, Schaffung zusätzlicher Kapazitäten Rationalisierungsinvestitionen Prozessoptimierung, Produktivitätssteigerung (verbesserte Technologie) Sicherungs-/Unabhängigkeitsinvestitionen Steigerung der Sicherheit/Unabhängigkeit, z. B. gegenüber Lieferanten oder Kunden Zusatzwissen (nicht Bestandteil des Dozentenskripts) Fachbuch unterscheidet zusätzlich: Netto- vs. Bruttoinvestitionen (Brutto = Netto + Reinvestitionen), Umstellungs- und Diversifizierungsinvestitionen sowie Desinvestitionen (Verkauf stillgelegter Anlagen). 2 · Investitionsentscheidungen 2.1 Fragestellungen Einzelentscheidung: Lohnt sich diese Investition überhaupt? Auswahlentscheidung: Welche von mehreren Alternativen ist die vorteilhafteste? Wirtschaftliche Nutzungsdauer / optimaler Ersatzzeitpunkt: Wie lange soll eine Anlage betrieben werden? Investitions- und Programmplanung: Welche Kombination von Investitionen ist optimal? 2.2 Phasen der Investitionsentscheidung Phase Inhalt 1. Anregungsphase Interne und externe Impulse mit Beschreibung von Dringlichkeit und erwarteten Vor-/Nachteilen 2. Suchphase Festlegung der Bewertungskriterien (quantitativ + qualitativ) sowie Suche nach Alternativlösungen 3. Entscheidungsphase Zusammenführung und Gewichtung der ermittelten Werte → Auswahl der optimalen Alternative 4. Durchführungsphase Vorbereitung und Umsetzung der Investitionsmaßnahme 5. Kontrollphase Soll-Ist-Vergleich, Analyse von Abweichungen, Erfahrungswerte für künftige Planungen Hinweis Bezeichnung und Anzahl der Phasen sind in der Literatur nicht einheitlich. Steinhofs Skript nennt diese Phasen nicht explizit — sie stammen aus dem Fachbuch und sind eine sinnvolle Ergänzung. 2.3 Kriterien der Investitionsentscheidung Quantitative Kriterien Kosten, Gewinn, Rentabilität Amortisationsdauer Kapitalwert, interner Zinsfuß, Annuität Möglichkeiten und Grenzen der Finanzierung Steuern Qualitative Kriterien Unternehmenspolitik Technische Nutzungsdauer Investitionsrisiko Technische und rechtliche Rahmenbedingungen Unabhängigkeit (von Lieferanten/Kunden) Merksatz Schlussendlich bilden die Verfahren der Investitionsrechnung die Grundlage für Investitionsentscheidungen. 3 · Investitionsrechenverfahren – Überblick Gruppe Verfahren Merkmale Statische Verfahren Kostenvergleich, Gewinnvergleich, Rentabilitätsvergleich, Amortisationsvergleich Einfache Anwendung · Durchschnittsperiode · Kosten und Leistungen · Keine Berücksichtigung des Zeitwerts Dynamische Verfahren Kapitalwertmethode, interner Zinsfuß, Annuitätenmethode, Amortisation (dynamisch), wirtschaftliche Nutzungsdauer Zinseszinseffekt · Alle Perioden · Ein- und Auszahlungen · Aufwendiger, aber genauer Simultanverfahren Lineare Programmierung u. a. Gleichzeitige Berücksichtigung von Absatz-, Produktions-, Investitions- und Finanzierungsmöglichkeiten ⛔ Prüfungsfalle – Statisch vs. Dynamisch Statische Verfahren arbeiten mit Kosten und Leistungen (Kostenrechnung), dynamische Verfahren mit Ein- und Auszahlungen (Zahlungsströme). Grundlegender Unterschied — nicht verwechseln! 4 · Statische Investitionsrechnung Hinweis Statische Verfahren betrachten eine repräsentative Durchschnittsperiode . Alle vier Verfahren bauen aufeinander auf: Kostenvergleich → Gewinnvergleich → Rentabilitätsvergleich → Amortisationsvergleich. 4.1 Kostenvergleichsrechnung Vergleich der Kosten von zwei oder mehreren Investitionsobjekten. Gewählt wird die Alternative mit den geringsten Kosten . Situation Entscheidungsregel Identische Investitionen (gleiche Kapazitätsnutzung) Wähle Alternative mit geringsten Kosten je Periode Nicht identische Investitionen (verschiedene Kapazität) Wähle Alternative mit geringsten Kosten je Mengeneinheit Kritische Menge (zukünftige Auslastung unbekannt) Ermittle Menge, bei der beide gleiche Kosten haben → dann Entscheidung nach voraussichtlicher Nutzung Rechengrößen Kalk. Abschreibung (AfA) = (WBW bzw. AHK − Restwert) / Nutzungsdauer Kalk. Zinsen (Z) = (AHK + Restwert) / 2 × i Kritische Menge (x) = (K F2 − K F1 ) / (k v1 − k v2 ) ⛔ Prüfungsfalle – WBW oder AHK? Steinhofs Skript nennt beim Abschreibungszähler: „Wiederbeschaffungswert bzw. Anschaffungs- oder Herstellungskosten\". Bei der Kostenvergleichsrechnung wird der WBW bevorzugt , wenn bekannt (zukunftsorientiert). Fehlt der WBW, werden AHK verwendet. In der Prüfung gilt: Was in der Aufgabe gegeben ist, das verwenden. 4.2 Gewinnvergleichsrechnung Ergänzt die Kostenvergleichsrechnung um die Erlöse . Gewählt wird die Alternative mit dem höchsten Gewinn . Rechengrößen Gewinn = Leistung − Kosten Kritische Menge = (K F2 − K F1 ) / (db 2 − db 1 ) db = Deckungsbeitrag pro Stück (Preis − variable Stückkosten) Situation Entscheidungsregel Einzelentscheidung Investiere wenn Gewinn > 0 bzw. ≥ Mindestgewinn Auswahlentscheidung (Kapazität bekannt) Wähle Alternative mit höchstem Gewinn Auswahlentscheidung (Kapazität unbekannt) Ermittle Gewinn in Abhängigkeit von der voraussichtlichen Kapazitätsnutzung 4.3 Rentabilitätsrechnung Setzt den Gewinn ins Verhältnis zum eingesetzten Kapital. Besonders sinnvoll beim Vergleich von Investitionen unterschiedlicher Kapitaleinsätze . Rechengrößen (nach Steinhof) Rentabilität = (Gewinn + kalk. Zinsen) × 100 / Ø gebundenes Kapital Ø gebundenes Kapital = (AHK + Restwert) / 2 Ø gebundenes Kapital (WBW-Ansatz) = (WBW + Restwert) / 2 [wenn RW = 0: WBW / 2] ⛔ Prüfungsfalle – Formelvariant Rentabilität Für dieses Skript und den Unterricht gilt die Formel nach Steinhof: Rentabilität = (Gewinn + kalk. Zinsen) × 100 / Ø gebundenes Kapital. Fachbücher verwenden teilweise eine abweichende Variante ohne die Addition der kalk. Zinsen im Zähler. Situation Entscheidungsregel Einzelentscheidung Investiere wenn R ≥ Mindestverzinsung Auswahlentscheidung Wähle Alternative mit höchster Rentabilität 4.4 Amortisationsrechnung (statisch) Auch: Kapitalrückflussmethode / Payback-Methode. Misst die Vorteilhaftigkeit einer Investition anhand der Kapitalrückflusszeit (Amortisationsdauer) . Merksatz Je kürzer die Amortisationsdauer, desto vorteilhafter ist die Investition. Situation Entscheidungsregel Einzelentscheidung Investiere wenn t w ≤ t* (Zielwert) Auswahlentscheidung Wähle Alternative mit geringster Amortisationsdauer Methode 1: Durchschnittsmethode Unterstellt einen gleichbleibenden jährlichen Kapitalrückfluss. Amortisationsdauer = (AHK − Restwert) / durchschnittlicher Jahresrückfluss Variante A: Jahresrückfluss = Gewinn +"
+  },
+  {
+    "id": "modul_basics",
+    "title": "Basics Wirtschaftsrechnen",
+    "kicker": "Modul",
+    "file": "pages/modul_basics.html",
+    "body": "Startseite › Basics Wirtschaftsrechnen Modul Basics Wirtschaftsrechnen"
+  },
+  {
+    "id": "modul_bm",
+    "title": "Betriebliches Management",
+    "kicker": "Modul",
+    "file": "pages/modul_bm.html",
+    "body": "Startseite › Betriebliches Management Modul Betriebliches Management"
+  },
+  {
+    "id": "modul_finanz",
+    "title": "Finanzmanagement",
+    "kicker": "Modul",
+    "file": "pages/modul_finanz.html",
+    "body": "Startseite › Finanzmanagement Modul Finanzmanagement"
+  },
+  {
+    "id": "modul_fuehrung",
+    "title": "Führung und Zusammenarbeit",
+    "kicker": "Modul",
+    "file": "pages/modul_fuehrung.html",
+    "body": "Startseite › Führung und Zusammenarbeit Modul Führung und Zusammenarbeit"
+  },
+  {
+    "id": "modul_logistik",
+    "title": "Logistik und Distribution",
+    "kicker": "Modul",
+    "file": "pages/modul_logistik.html",
+    "body": "Startseite › Logistik und Distribution Modul Logistik und Distribution"
+  },
+  {
+    "id": "modul_marketing",
+    "title": "Marketing und Vertrieb",
+    "kicker": "Modul",
+    "file": "pages/modul_marketing.html",
+    "body": "Startseite › Marketing und Vertrieb Modul Marketing und Vertrieb"
+  },
+  {
+    "id": "modul_methodik",
+    "title": "Lern- und Arbeitsmethodik",
+    "kicker": "Modul",
+    "file": "pages/modul_methodik.html",
+    "body": "Startseite › Lern- und Arbeitsmethodik Modul Lern- und Arbeitsmethodik"
+  },
+  {
+    "id": "modul_recht",
+    "title": "Recht und Steuern",
+    "kicker": "Modul",
+    "file": "pages/modul_recht.html",
+    "body": "Startseite › Recht und Steuern Modul Recht und Steuern"
+  },
+  {
+    "id": "modul_rewe",
+    "title": "Rechnungswesen",
+    "kicker": "Modul",
+    "file": "pages/modul_rewe.html",
+    "body": "Startseite › Rechnungswesen Modul Rechnungswesen"
+  },
+  {
+    "id": "modul_uf",
+    "title": "Unternehmensführung",
+    "kicker": "Modul",
+    "file": "pages/modul_uf.html",
+    "body": "Startseite › Unternehmensführung Modul Unternehmensführung"
+  },
+  {
+    "id": "modul_vwlbwl",
+    "title": "Volks- und Betriebswirtschaft",
+    "kicker": "Modul",
+    "file": "pages/modul_vwlbwl.html",
+    "body": "Startseite › Volks- und Betriebswirtschaft Modul Volks- und Betriebswirtschaft"
   },
   {
     "id": "recht_ls01",
