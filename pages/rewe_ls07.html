@@ -64,7 +64,7 @@
       <strong>Rechenbeispiel – Fixkostendegression</strong><br>
       Fixkosten gesamt: 60.000 € (konstant). Variable Stückkosten: 5 €/Stück.
       <table style="margin-top:0.5rem">
-        <thead><tr><th>Produktionsmenge (Stück)</th><th>Fixkosten gesamt (€)</th><th>Fixkosten/Stück (€)</th><th>Variable Kosten/Stück (€)</th><th>Selbstkosten/Stück (€)</th></tr></thead>
+        <thead><tr><th>Menge (Stück)</th><th>Kfix gesamt (€)</th><th>Kfix/Stück (€)</th><th>kv/Stück (€)</th><th>SK/Stück (€)</th></tr></thead>
         <tbody>
           <tr><td>10.000</td><td>60.000</td><td>6,00</td><td>5,00</td><td>11,00</td></tr>
           <tr><td>20.000</td><td>60.000</td><td>3,00</td><td>5,00</td><td>8,00</td></tr>
@@ -296,20 +296,30 @@
 
     <div class="notice info">
       <strong>Rechenbeispiel – Relativer DB und Produktionsoptimum</strong><br>
-      Maximale Kapazität: 4.000 Std./Monat. Erwarteter Absatz: A 6.000, B 5.000, C 10.000 Stück.
+      Maximale Kapazität: 4.000 Std./Monat · Erwarteter Absatz: A 6.000, B 5.000, C 10.000 Stück
       <table style="margin-top:0.5rem">
-        <thead><tr><th>Produktart</th><th>Stückpreis (€)</th><th>var. Stückkosten (€)</th><th>db abs. (€)</th><th>Zeit/Stück (Std.)</th><th>db<sub>rel</sub> (€/Std.)</th><th>Rang</th></tr></thead>
+        <thead><tr><th>Produkt</th><th>Preis (€)</th><th>kv (€)</th><th>db abs. (€)</th><th>Zeit/Stück (Std.)</th><th>db<sub>rel</sub> (€/Std.)</th><th>Rang</th></tr></thead>
         <tbody>
           <tr><td>A</td><td>100</td><td>60</td><td>40</td><td>0,50</td><td>80,00</td><td>3</td></tr>
           <tr><td>B</td><td>80</td><td>40</td><td>40</td><td>0,30</td><td>133,33</td><td>2</td></tr>
           <tr><td>C</td><td>50</td><td>30</td><td>20</td><td>0,10</td><td>200,00</td><td>1</td></tr>
         </tbody>
       </table>
-      <strong>Schritt 1 – Kapazitätsbedarf nach Rangfolge (C → B → A):</strong><br>
-      C: 10.000 × 0,10 = 1.000 Std. | B: 5.000 × 0,30 = 1.500 Std. | A: 6.000 × 0,50 = 3.000 Std.<br><br>
-      <strong>Schritt 2 – Verbleibende Kapazität:</strong><br>
-      4.000 − 1.000 − 1.500 = 1.500 Std. für A → 1.500 ÷ 0,50 = <strong>3.000 Stück A</strong> (statt 6.000)<br><br>
-      <strong>Optimales Produktionsprogramm:</strong> C vollständig (10.000), B vollständig (5.000), A nur 3.000 Stück.
+    </div>
+
+    <div class="notice info">
+      <strong>Schritt 1 – Kapazitätsbedarf nach Rangfolge (C → B → A)</strong>
+      <table style="margin-top:0.5rem">
+        <thead><tr><th>Produkt</th><th>Absatz</th><th>Zeit/Stück</th><th>Kapazitätsbedarf</th><th>Verbleibend</th></tr></thead>
+        <tbody>
+          <tr><td><strong>C</strong> (Rang 1)</td><td>10.000 Stück</td><td>× 0,10 Std.</td><td>= 1.000 Std.</td><td>3.000 Std.</td></tr>
+          <tr><td><strong>B</strong> (Rang 2)</td><td>5.000 Stück</td><td>× 0,30 Std.</td><td>= 1.500 Std.</td><td>1.500 Std.</td></tr>
+          <tr><td><strong>A</strong> (Rang 3)</td><td>6.000 Stück</td><td>× 0,50 Std.</td><td>= 3.000 Std. ⚠</td><td>–</td></tr>
+        </tbody>
+      </table>
+      <strong>Schritt 2 – Verbleibende Kapazität für A:</strong><br>
+      1.500 Std. ÷ 0,50 Std./Stück = <strong>3.000 Stück A</strong> (statt 6.000 — Engpass!)<br><br>
+      <strong>Optimales Produktionsprogramm:</strong> C vollständig (10.000) · B vollständig (5.000) · A nur 3.000 Stück
     </div>
 
     <div class="notice danger">
@@ -326,20 +336,28 @@
 
     <h3 id="kap5-1">5.1 Vollkosten vs. Teilkosten – systematischer Vergleich</h3>
 
-    <table>
-      <thead>
-        <tr><th>Merkmal</th><th>Vollkostenrechnung</th><th>Teilkostenrechnung</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><strong>Kostenverteilung</strong></td><td>Alle Kosten (fix + variabel) auf Produkte</td><td>Nur variable Kosten auf Produkte; Fixkosten als Block</td></tr>
-        <tr><td><strong>Fixkosten</strong></td><td>Werden proportionalisiert und auf Produkte umgelegt</td><td>Werden als Gesamtbetrag von der Summe der DB abgezogen</td></tr>
-        <tr><td><strong>Ergebnis je Produkt</strong></td><td>Gewinn oder Verlust nach Selbstkosten</td><td>Stückdeckungsbeitrag (db) – Beitrag zur Fixkostendeckung</td></tr>
-        <tr><td><strong>Preisuntergrenze</strong></td><td>Langfristig: Selbstkosten (LPUG)</td><td>Kurzfristig: variable Stückkosten (KPUG)</td></tr>
-        <tr><td><strong>Stärke</strong></td><td>Langfristige Kapazitäts- und Vollkostenplanung; Preisfindung auf Vollkostenbasis</td><td>Kurzfristige Entscheidungen: Zusatzauftrag, Sortiment, Engpass</td></tr>
-        <tr><td><strong>Schwäche</strong></td><td>Proportionalisierungsfehler; verfälschte Stückkosten bei Mengenänderung</td><td>Kein vollständiger Kostenüberblick; Fixkosten müssen separat überwacht werden</td></tr>
-        <tr><td><strong>Entscheidungsrelevanz</strong></td><td>Langfristig (Preisfindung, Kapazitätsplanung, Investition)</td><td>Kurzfristig (Zusatzauftrag, Sortiment, Engpass, Preisuntergrenzen)</td></tr>
-      </tbody>
-    </table>
+    <div class="two-col">
+      <div class="content-card">
+        <strong>Vollkostenrechnung</strong><br><br>
+        <strong>Kostenverteilung:</strong> Alle Kosten (fix + variabel) auf Produkte<br>
+        <strong>Fixkosten:</strong> Werden proportionalisiert und auf Produkte umgelegt<br>
+        <strong>Ergebnis je Produkt:</strong> Gewinn oder Verlust nach Selbstkosten<br>
+        <strong>Preisuntergrenze:</strong> Langfristig = Selbstkosten (LPUG)<br>
+        <strong>Stärke:</strong> Langfristige Kapazitäts- und Vollkostenplanung; Preisfindung<br>
+        <strong>Schwäche:</strong> Proportionalisierungsfehler; verfälschte Stückkosten bei Mengenänderung<br>
+        <strong>Entscheidungsrelevanz:</strong> Langfristig (Preisfindung, Kapazitätsplanung, Investition)
+      </div>
+      <div class="content-card">
+        <strong>Teilkostenrechnung</strong><br><br>
+        <strong>Kostenverteilung:</strong> Nur variable Kosten auf Produkte; Fixkosten als Block<br>
+        <strong>Fixkosten:</strong> Werden als Gesamtbetrag von der Summe der DB abgezogen<br>
+        <strong>Ergebnis je Produkt:</strong> Stückdeckungsbeitrag (db) – Beitrag zur Fixkostendeckung<br>
+        <strong>Preisuntergrenze:</strong> Kurzfristig = variable Stückkosten (KPUG)<br>
+        <strong>Stärke:</strong> Kurzfristige Entscheidungen: Zusatzauftrag, Sortiment, Engpass<br>
+        <strong>Schwäche:</strong> Kein vollständiger Kostenüberblick; Fixkosten müssen separat überwacht werden<br>
+        <strong>Entscheidungsrelevanz:</strong> Kurzfristig (Zusatzauftrag, Sortiment, Engpass, Preisuntergrenzen)
+      </div>
+    </div>
 
     <h3 id="kap5-2">5.2 Fixkostenremanenz</h3>
 
@@ -370,8 +388,8 @@
         <tr><td>Umsatzerlöse</td><td>300.000</td><td>200.000</td><td>500.000</td></tr>
         <tr><td>− variable Kosten</td><td>180.000</td><td>140.000</td><td>320.000</td></tr>
         <tr><td><strong>= Deckungsbeitrag</strong></td><td><strong>120.000</strong></td><td><strong>60.000</strong></td><td><strong>180.000</strong></td></tr>
-        <tr><td>− Fixkosten der Periode</td><td></td><td></td><td>150.000</td></tr>
-        <tr><td><strong>= Betriebsergebnis</strong></td><td></td><td></td><td><strong>30.000</strong></td></tr>
+        <tr><td>− Fixkosten der Periode</td><td colspan="2" style="text-align:center;color:#888;font-style:italic">nicht auf Produkte verteilt</td><td>150.000</td></tr>
+        <tr><td><strong>= Betriebsergebnis</strong></td><td colspan="2"></td><td><strong>30.000</strong></td></tr>
       </tbody>
     </table>
     <p style="font-size:0.85rem;color:#555">Fixkosten werden nicht auf Produkte aufgeteilt – nur der Gesamtblock wird abgezogen.</p>
