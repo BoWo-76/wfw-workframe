@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LS07 · Voll- und Teilkostenrechnung – WFW Wiki</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="topbar-brand" href="../index.html">WFW Wiki</a>
+    <div class="topbar-search">
+      <input type="search" id="search-input" placeholder="Suchen …" autocomplete="off">
+      <div id="search-results" class="search-dropdown"></div>
+    </div>
+    <button class="print-btn" onclick="window.print()">🖨 Drucken</button>
+  </div>
+</div>
+
+<div class="layout">
+  <nav class="sidebar" id="sidebar"></nav>
+
+  <main class="main">
+
+    <div class="breadcrumb">
+      <a href="../index.html">Start</a> › <span>Rechnungswesen</span> › <span>LS07</span>
+    </div>
+
+    <div class="page-header">
+      <div class="page-header-module">Rechnungswesen · LS07</div>
+      <h1 class="page-header-title">Voll- und Teilkostenrechnung</h1>
+      <p class="page-header-sub">Deckungsbeitragsrechnung · Break-Even-Analyse · Engpassoptimierung · Fixkostenremanenz</p>
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 1 – PROBLEM DER VOLLKOSTENRECHNUNG
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap1">1 · Das Problem der Vollkostenrechnung</h2>
+
+    <div class="pruef-box">
+      Die Vollkostenrechnung ist das Standardverfahren der Kalkulation – aber sie hat einen systemimmanenten Fehler: Sie behandelt Fixkosten so, als wären sie variabel. Daraus entstehen gefährliche Fehlentscheidungen.
+    </div>
+
+    <h3 id="kap1-1">1.1 Was die Vollkostenrechnung macht</h3>
+
+    <div class="def-box">
+      <strong>Definition – Vollkostenrechnung</strong><br>
+      Verteilt sämtliche Kosten der Periode (fixe + variable) auf die Kostenträger. Sie ist <strong>periodenbezogen</strong>: Alle Kosten einer Abrechnungsperiode werden vollständig erfasst und auf die hergestellten Produkte verteilt. Ergebnis: Selbstkosten pro Stück, die sowohl variable als auch fixe Kostenanteile enthalten. Grundlage: differenzierende Zuschlagskalkulation über den BAB.
+    </div>
+
+    <h3 id="kap1-2">1.2 Der Proportionalisierungsfehler</h3>
+
+    <p>Fixkosten sind per Definition beschäftigungsunabhängig – sie fallen auch bei Produktionsmenge null an. Wenn die Vollkostenrechnung sie dennoch auf Stückzahlen umlegt, werden sie <strong>proportionalisiert</strong>: Sie verhalten sich dann rechnerisch wie variable Kosten, obwohl sie es nicht sind.</p>
+
+    <div class="notice danger">
+      ⛔ <strong>Prüfungsfalle – Fixkostendegression</strong><br>
+      Fixe Kosten in Summe bleiben konstant. Die <strong>fixen Stückkosten sinken</strong> mit zunehmender Produktionsmenge (Fixkostendegression) – und steigen, wenn die Stückzahl sinkt. Das hat nichts mit der Effizienz des Betriebs zu tun. Wer bei rückläufigen Absatzzahlen höhere Stückkosten ausweist, obwohl nichts teurer geworden ist, darf das nicht mit Ineffizienz erklären – es ist reine Mathematik.
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Fixkostendegression</strong><br>
+      Fixkosten gesamt: 60.000 € (konstant). Variable Stückkosten: 5 €/Stück.
+      <table style="margin-top:0.5rem">
+        <thead><tr><th>Produktionsmenge (Stück)</th><th>Fixkosten gesamt (€)</th><th>Fixkosten/Stück (€)</th><th>Variable Kosten/Stück (€)</th><th>Selbstkosten/Stück (€)</th></tr></thead>
+        <tbody>
+          <tr><td>10.000</td><td>60.000</td><td>6,00</td><td>5,00</td><td>11,00</td></tr>
+          <tr><td>20.000</td><td>60.000</td><td>3,00</td><td>5,00</td><td>8,00</td></tr>
+          <tr><td>30.000</td><td>60.000</td><td>2,00</td><td>5,00</td><td>7,00</td></tr>
+        </tbody>
+      </table>
+      Die variablen Stückkosten (5 €) bleiben konstant. Die fixen Stückkosten halbieren sich bei Verdoppelung der Menge.
+    </div>
+
+    <div class="notice ok">
+      <strong>Merksatz – Fixkostendegression</strong><br>
+      Fixkostendegression ist kein Effizienzgewinn, sondern reine Mathematik: Der gleiche Fixkostenbetrag wird auf mehr Stücke verteilt – das Unternehmen arbeitet nicht besser, es produziert mehr.
+    </div>
+
+    <h3 id="kap1-3">1.3 Warum das zu Fehlentscheidungen führt</h3>
+
+    <div class="two-col">
+      <div class="content-card">
+        <strong>Preispolitik-Fehler</strong><br><br>
+        Ein Produkt mit positivem Stück-DB erscheint in der Vollkostenrechnung als verlustreich, weil die Fixkosten „mitschleppen". Es wird aus dem Sortiment genommen – obwohl es zur Fixkostendeckung beiträgt. Die Fixkosten fallen trotzdem weiter an.
+      </div>
+      <div class="content-card">
+        <strong>Zusatzauftrag-Fehler</strong><br><br>
+        Ein Zusatzauftrag wird zu einem Preis unter den Selbstkosten angeboten. Die Vollkostenrechnung zeigt Verlust – die Teilkostenrechnung zeigt: Solange der Preis über den variablen Kosten liegt, trägt der Auftrag zur Fixkostendeckung bei. Er erhöht den Gewinn.
+      </div>
+    </div>
+
+    <h3 id="kap1-4">1.4 Leer- und Nutzkosten</h3>
+
+    <p>Bei Unterbeschäftigung entstehen <strong>Leerkosten</strong> – der Teil der Fixkosten, der auf nicht genutzte Kapazität entfällt.</p>
+
+    <div class="pruef-box">
+      <strong>Nutzkosten = Fixkosten × Auslastungsgrad (%)</strong><br>
+      <strong>Leerkosten = Fixkosten − Nutzkosten</strong>
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Leerkosten</strong><br>
+      Fixkosten einer Maschine: 45.000 €. Auslastung: 75 %.<br>
+      Nutzkosten = 45.000 × 0,75 = <strong>33.750 €</strong><br>
+      Leerkosten = 45.000 − 33.750 = <strong>11.250 €</strong><br>
+      Die 11.250 € entstehen, weil 25 % der Kapazität ungenutzt bleibt – aber die Kosten trotzdem anfallen.<br>
+      Leerkosten entstehen nur bei Unterbeschäftigung, nie bei Vollauslastung.
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 2 – TEILKOSTENRECHNUNG
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap2">2 · Grundzüge der Teilkostenrechnung</h2>
+
+    <div class="def-box">
+      <strong>Definition – Teilkostenrechnung / Deckungsbeitragsrechnung</strong><br>
+      Die Teilkostenrechnung weist den Kostenträgern nur die <strong>variablen Kosten</strong> zu. Die Fixkosten werden als geschlossener Block in der Ergebnisrechnung der Periode abgezogen – nicht auf die einzelnen Produkte aufgeteilt. Fixe Kosten werden nicht proportionalisiert.
+    </div>
+
+    <h3 id="kap2-1">2.1 Die zentralen Formeln</h3>
+
+    <div class="pruef-box">
+      <strong>Stückdeckungsbeitrag (db)</strong><br>
+      <code>db = p − k<sub>v</sub></code><br>
+      Verkaufspreis (p) − variable Stückkosten (k<sub>v</sub>) | Zeigt: Wie viel trägt eine Einheit zur Fixkostendeckung bei?
+    </div>
+
+    <div class="pruef-box">
+      <strong>Deckungsbeitrag der Periode (DB)</strong><br>
+      <code>DB = db × Absatzmenge</code><br>
+      Alternativ: <code>DB = Umsatzerlöse (E) − variable Kosten der Periode (K<sub>v</sub>)</code>
+    </div>
+
+    <div class="pruef-box">
+      <strong>Betriebsergebnis</strong><br>
+      <code>Betriebsergebnis = Summe DB − Fixkosten der Periode</code><br>
+      Positiv = Gewinn | Negativ = Verlust
+    </div>
+
+    <h3 id="kap2-2">2.2 Interpretation des Stückdeckungsbeitrags</h3>
+
+    <div class="two-col">
+      <div class="content-card">
+        <strong>DB &gt; 0 (positiv)</strong><br><br>
+        Das Produkt leistet einen Beitrag zur Deckung der Fixkosten. Es soll im Sortiment bleiben – auch wenn die Vollkostenrechnung es als „Verlustbringer" ausweist. Entscheidend ist: Ohne das Produkt wären die Fixkosten weiterhin zu tragen.
+      </div>
+      <div class="content-card">
+        <strong>DB &lt; 0 (negativ)</strong><br><br>
+        Das Produkt deckt nicht einmal seine variablen Kosten. Jedes verkaufte Stück erhöht den Verlust. Das Produkt sollte aus dem Sortiment genommen werden, <strong>sofern keine strategischen Gründe vorliegen</strong> (z. B. Lockvogelangebot, Kuppelprodukt, Vollsortimentspflicht).
+      </div>
+    </div>
+
+    <h3 id="kap2-3">2.3 Beispiel: Produktionsprogrammplanung bei freier Kapazität</h3>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Drei Aufträge, freie Kapazität</strong>
+      <table style="margin-top:0.5rem">
+        <thead><tr><th></th><th>Auftrag A (€)</th><th>Auftrag B (€)</th><th>Auftrag C (€)</th></tr></thead>
+        <tbody>
+          <tr><td>Verkaufserlöse der Periode</td><td>420.000</td><td>310.000</td><td>264.000</td></tr>
+          <tr><td>− variable Kosten der Periode</td><td>200.000</td><td>190.000</td><td>140.000</td></tr>
+          <tr><td><strong>= Deckungsbeitrag</strong></td><td><strong>220.000</strong></td><td><strong>120.000</strong></td><td><strong>124.000</strong></td></tr>
+        </tbody>
+      </table>
+      Summe DB = 220.000 + 120.000 + 124.000 = <strong>464.000 €</strong><br>
+      − fixe Kosten = 456.700 €<br>
+      = Betriebsergebnis = <strong>7.300 € Gewinn</strong><br><br>
+      Alle drei Aufträge haben einen positiven DB → alle lohnen sich. Bei freier Kapazität entscheidet ausschließlich der <strong>absolute DB</strong> – ein positiver DB reicht, um den Auftrag anzunehmen.
+    </div>
+
+    <h3 id="kap2-4">2.4 Beispiel: Negativer DB – Sortimentsbereinigung</h3>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Erzeugnis II mit negativem DB</strong>
+      <table style="margin-top:0.5rem">
+        <thead><tr><th></th><th>I (€)</th><th>II (€)</th><th>III (€)</th><th>IV (€)</th></tr></thead>
+        <tbody>
+          <tr><td>Verkaufserlöse</td><td>260.000</td><td>325.000</td><td>680.000</td><td>450.000</td></tr>
+          <tr><td>− Einzelkosten</td><td>120.000</td><td>300.000</td><td>400.000</td><td>270.000</td></tr>
+          <tr><td>− variable Gemeinkosten</td><td>40.000</td><td>150.000</td><td>120.000</td><td>120.000</td></tr>
+          <tr><td><strong>= Deckungsbeitrag</strong></td><td><strong>100.000</strong></td><td><strong>−125.000</strong></td><td><strong>160.000</strong></td><td><strong>60.000</strong></td></tr>
+        </tbody>
+      </table>
+      Fixkosten: 250.000 €<br>
+      <strong>Mit allen 4 Erzeugnissen:</strong> (100 − 125 + 160 + 60) − 250 = <strong>−55.000 € Verlust</strong><br>
+      <strong>Erzeugnis II eliminieren:</strong> (100 + 160 + 60) − 250 = <strong>70.000 € Gewinn</strong>
+    </div>
+
+    <div class="notice danger">
+      ⛔ <strong>Prüfungsfalle – Elimination und Fixkosten</strong><br>
+      Wenn ein Produkt eliminiert wird, entfallen nur die <strong>variablen Kosten</strong> dieses Produkts – nicht die Fixkosten. Fixkosten bleiben zunächst bestehen (<strong>Fixkostenremanenz</strong>). Nur wenn Kapazitäten tatsächlich abgebaut werden (Kündigung, Vertragsende), sinken auch die Fixkosten.
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 3 – BREAK-EVEN-ANALYSE
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap3">3 · Break-Even-Analyse (Gewinnschwelle)</h2>
+
+    <div class="def-box">
+      <strong>Definition – Break-Even-Point (BEP)</strong><br>
+      Die Absatzmenge, bei der Erlöse und Gesamtkosten genau gleich sind – das Betriebsergebnis beträgt null. Unterhalb des BEP: Verlustzone. Oberhalb des BEP: Gewinnzone.
+    </div>
+
+    <h3 id="kap3-1">3.1 Formeln</h3>
+
+    <div class="pruef-box">
+      <strong>Break-Even-Menge (x<sub>BEP</sub>)</strong><br>
+      <code>x<sub>BEP</sub> = K<sub>fix</sub> ÷ db</code><br>
+      Fixkosten geteilt durch Stückdeckungsbeitrag | <strong>Ergebnis immer aufrunden</strong> – erst ab der nächsten vollen Einheit ist die Gewinnschwelle überschritten.
+    </div>
+
+    <div class="pruef-box">
+      <strong>Zielgewinn-Menge (x<sub>Ziel</sub>)</strong><br>
+      <code>x<sub>Ziel</sub> = (K<sub>fix</sub> + G<sub>Ziel</sub>) ÷ db</code><br>
+      Fixkosten plus angestrebter Zielgewinn, geteilt durch den Stückdeckungsbeitrag. Gibt die Mindestabsatzmenge an, um einen vorgegebenen Gewinn zu erzielen.
+    </div>
+
+    <div class="notice info">
+      <strong>Herleitung</strong><br>
+      Am BEP gilt: Erlöse = Gesamtkosten, also p · x = k<sub>v</sub> · x + K<sub>fix</sub>.<br>
+      Umstellen: (p − k<sub>v</sub>) · x = K<sub>fix</sub> → x<sub>BEP</sub> = K<sub>fix</sub> ÷ db
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Break-Even-Point</strong><br>
+      Verkaufspreis p = 216 €, variable Stückkosten k<sub>v</sub> = 100 €, Fixkosten K<sub>fix</sub> = 400.000 €<br><br>
+      db = 216 − 100 = <strong>116 €/Stück</strong><br>
+      x<sub>BEP</sub> = 400.000 ÷ 116 = 3.448,3 → <strong>ab 3.449 Stück wird Gewinn erzielt</strong><br><br>
+      Probe: Erlöse = 3.449 × 216 = 744.984 € | Gesamtkosten = 3.449 × 100 + 400.000 = 744.900 € → Gewinn: 84 €
+    </div>
+
+    <h3 id="kap3-2">3.2 Break-Even-Diagramm</h3>
+
+    <p>Das Diagramm zeigt Erlöse, Gesamtkosten (GK) und Fixkosten (FK) in Abhängigkeit von der Menge. Der Schnittpunkt von Erlösgerade und GK-Gerade ist der Break-Even-Point.</p>
+
+    <div class="notice info">
+      <strong>Aufbau des Diagramms</strong><br>
+      Y-Achse: Kosten / Erlöse (€) · X-Achse: Menge (x)<br>
+      FK-Linie: waagerecht auf Höhe der Fixkosten (konstant)<br>
+      GK-Linie: startet bei K<sub>fix</sub>, steigt mit Steigung k<sub>v</sub><br>
+      Erlösgerade: startet bei 0, steigt mit Steigung p<br>
+      <strong>Links vom BEP:</strong> Verlustzone (GK &gt; Erlöse)<br>
+      <strong>Rechts vom BEP:</strong> Gewinnzone (Erlöse &gt; GK)<br>
+      Die Fläche zwischen Erlösgerade und GK-Linie rechts vom BEP entspricht dem Gewinn.
+    </div>
+
+    <div class="notice ok">
+      <strong>Merksatz – Break-Even-Logik</strong><br>
+      Jede verkaufte Einheit <em>oberhalb</em> des BEP erzielt einen Gewinn in Höhe des Stückdeckungsbeitrags db. Jede Einheit <em>unterhalb</em> des BEP erhöht den Verlust um db.<br>
+      Höhere Fixkosten verschieben den BEP nach rechts · Höherer db zieht ihn nach links.
+    </div>
+
+    <div class="notice danger">
+      ⛔ <strong>Prüfungsfalle – BEP immer aufrunden</strong><br>
+      Der BEP-Wert ist mathematisch meist kein ganzzahliges Ergebnis. Da man keine Bruchstücke verkauft, wird <strong>immer aufgerundet</strong>. Erst ab der nächsten vollen Einheit ist die Gewinnschwelle überschritten.
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 4 – ENTSCHEIDUNGSSITUATIONEN
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap4">4 · Entscheidungssituationen</h2>
+
+    <h3 id="kap4-1">4.1 Zusatzaufträge annehmen?</h3>
+
+    <div class="pruef-box">
+      <strong>Entscheidungsregel – Zusatzauftrag</strong><br>
+      Ein Zusatzauftrag ist wirtschaftlich sinnvoll, wenn der erzielte Deckungsbeitrag positiv ist:<br>
+      <strong>Angebotspreis &gt; variable Stückkosten → Auftrag annehmen</strong><br>
+      Voraussetzung: Es müssen <strong>freie Kapazitäten</strong> vorhanden sein. Bei voller Auslastung verdrängt der Zusatzauftrag vollkostendeckende Aufträge → dann entscheidet der Opportunitätskostenvergleich.
+    </div>
+
+    <div class="notice info">
+      <strong>Praxisbeispiel – Zusatzauftrag richtig bewerten</strong><br>
+      Selbstkosten pro Stück: 80 €. Variable Kosten pro Stück: 50 €. Zusatzauftrag: 65 € pro Stück.<br><br>
+      <strong>Vollkostenrechnung:</strong> 65 − 80 = −15 € → Ablehnen (Verlust).<br>
+      <strong>Teilkostenrechnung:</strong> db = 65 − 50 = +15 € → Annehmen (positiver DB, freie Kapazitäten vorhanden).<br><br>
+      Bei freien Kapazitäten erhöht der Zusatzauftrag den Betriebsgewinn um 15 € je Stück, weil die Fixkosten ohnehin anfallen.
+    </div>
+
+    <h3 id="kap4-2">4.2 Sortimentsoptimierung bei Engpass</h3>
+
+    <p>Wenn Kapazitäten begrenzt sind, reicht der absolute db allein nicht aus. Entscheidend ist, wie viel db pro Engpasseinheit ein Produkt erzielt.</p>
+
+    <div class="pruef-box">
+      <strong>Relativer Deckungsbeitrag (db<sub>rel</sub>) – IHK-Standardformel</strong><br>
+      <code>db<sub>rel</sub> = db (€/Stück) ÷ Fertigungszeit pro Stück (Std./Stück) = €/Std.</code><br><br>
+      Alternativ (Dozentenskript): <code>db<sub>rel</sub> = db × Produktionskoeffizient</code><br>
+      Produktionskoeffizient = 1 Std. ÷ Fertigungszeit/Stück | Beide Formeln liefern das gleiche Ergebnis.
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Relativer DB und Produktionsoptimum</strong><br>
+      Maximale Kapazität: 4.000 Std./Monat. Erwarteter Absatz: A 6.000, B 5.000, C 10.000 Stück.
+      <table style="margin-top:0.5rem">
+        <thead><tr><th>Produktart</th><th>Stückpreis (€)</th><th>var. Stückkosten (€)</th><th>db abs. (€)</th><th>Zeit/Stück (Std.)</th><th>db<sub>rel</sub> (€/Std.)</th><th>Rang</th></tr></thead>
+        <tbody>
+          <tr><td>A</td><td>100</td><td>60</td><td>40</td><td>0,50</td><td>80,00</td><td>3</td></tr>
+          <tr><td>B</td><td>80</td><td>40</td><td>40</td><td>0,30</td><td>133,33</td><td>2</td></tr>
+          <tr><td>C</td><td>50</td><td>30</td><td>20</td><td>0,10</td><td>200,00</td><td>1</td></tr>
+        </tbody>
+      </table>
+      <strong>Schritt 1 – Kapazitätsbedarf nach Rangfolge (C → B → A):</strong><br>
+      C: 10.000 × 0,10 = 1.000 Std. | B: 5.000 × 0,30 = 1.500 Std. | A: 6.000 × 0,50 = 3.000 Std.<br><br>
+      <strong>Schritt 2 – Verbleibende Kapazität:</strong><br>
+      4.000 − 1.000 − 1.500 = 1.500 Std. für A → 1.500 ÷ 0,50 = <strong>3.000 Stück A</strong> (statt 6.000)<br><br>
+      <strong>Optimales Produktionsprogramm:</strong> C vollständig (10.000), B vollständig (5.000), A nur 3.000 Stück.
+    </div>
+
+    <div class="notice danger">
+      ⛔ <strong>Prüfungsfalle – Absoluter vs. relativer DB bei Engpass</strong><br>
+      Bei Engpass ist ausschließlich der <strong>relative DB</strong> entscheidend, nicht der absolute. Produkte A und B haben hier den gleichen absoluten db (40 €). Trotzdem ist B vorteilhafter, weil B pro Stunde 133,33 € bringt, A nur 80 €. Ohne Engpassbetrachtung käme man zur falschen Reihenfolge.<br>
+      <strong>Merkrege IHK-Prüfung: Bei Engpass → relativen DB berechnen und danach rangieren.</strong>
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 5 – VERGLEICH & FIXKOSTENREMANENZ
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap5">5 · Vergleich &amp; Fixkostenremanenz</h2>
+
+    <h3 id="kap5-1">5.1 Vollkosten vs. Teilkosten – systematischer Vergleich</h3>
+
+    <table>
+      <thead>
+        <tr><th>Merkmal</th><th>Vollkostenrechnung</th><th>Teilkostenrechnung</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Kostenverteilung</strong></td><td>Alle Kosten (fix + variabel) auf Produkte</td><td>Nur variable Kosten auf Produkte; Fixkosten als Block</td></tr>
+        <tr><td><strong>Fixkosten</strong></td><td>Werden proportionalisiert und auf Produkte umgelegt</td><td>Werden als Gesamtbetrag von der Summe der DB abgezogen</td></tr>
+        <tr><td><strong>Ergebnis je Produkt</strong></td><td>Gewinn oder Verlust nach Selbstkosten</td><td>Stückdeckungsbeitrag (db) – Beitrag zur Fixkostendeckung</td></tr>
+        <tr><td><strong>Preisuntergrenze</strong></td><td>Langfristig: Selbstkosten (LPUG)</td><td>Kurzfristig: variable Stückkosten (KPUG)</td></tr>
+        <tr><td><strong>Stärke</strong></td><td>Langfristige Kapazitäts- und Vollkostenplanung; Preisfindung auf Vollkostenbasis</td><td>Kurzfristige Entscheidungen: Zusatzauftrag, Sortiment, Engpass</td></tr>
+        <tr><td><strong>Schwäche</strong></td><td>Proportionalisierungsfehler; verfälschte Stückkosten bei Mengenänderung</td><td>Kein vollständiger Kostenüberblick; Fixkosten müssen separat überwacht werden</td></tr>
+        <tr><td><strong>Entscheidungsrelevanz</strong></td><td>Langfristig (Preisfindung, Kapazitätsplanung, Investition)</td><td>Kurzfristig (Zusatzauftrag, Sortiment, Engpass, Preisuntergrenzen)</td></tr>
+      </tbody>
+    </table>
+
+    <h3 id="kap5-2">5.2 Fixkostenremanenz</h3>
+
+    <div class="def-box">
+      <strong>Definition – Fixkostenremanenz</strong><br>
+      Fixkostenremanenz beschreibt das Phänomen, dass Fixkosten bei sinkender Beschäftigung <strong>nicht sofort abgebaut werden können</strong>. Sie „bleiben kleben" (lateinisch: remaneo = ich bleibe). Ursachen: Kündigungsfristen, laufende Mietverträge, Abschreibungen auf Anlagen. Fixkosten sinken erst, wenn Kapazitäten tatsächlich abgebaut werden – durch Kündigung, Vertragsende oder Veräußerung von Anlagen.
+    </div>
+
+    <div class="notice info">
+      <strong>Praxisbeispiel – Fixkostenremanenz</strong><br>
+      Ein Unternehmen verliert 30 % seiner Aufträge. Die variablen Kosten sinken sofort um 30 %. Die Fixkosten (Miete, Verwaltungsgehälter, Maschinenleasingraten) bleiben jedoch zunächst vollständig bestehen – Verträge laufen noch 12 Monate.<br><br>
+      <strong>Vollkostenrechnung:</strong> Die gestiegenen Stückkosten werden auf die verbleibenden Produkte umgelegt – sie erscheinen teurer, obwohl sie nicht teurer produziert wurden.<br>
+      <strong>Teilkostenrechnung:</strong> Der Rückgang im DB wird sofort sichtbar. Die Fixkosten erscheinen als unveränderter Block – das Problem ist transparent und steuerbar.
+    </div>
+
+    <div class="notice info">
+      <strong>Auswirkung auf Entscheidungen</strong><br>
+      Wenn Produkte eliminiert werden, verschwinden nur deren variable Kosten – die Fixkosten verteilen sich auf die restlichen Produkte, bis Kapazitäten tatsächlich abgebaut werden. Entscheidungen zur Sortimentsbereinigung müssen deshalb immer mit einem <strong>Zeitplan zum Fixkostenabbau</strong> verknüpft werden.
+    </div>
+
+    <h3 id="kap5-3">5.3 Schematischer Aufbau der Deckungsbeitragsrechnung</h3>
+
+    <table>
+      <thead>
+        <tr><th>Position</th><th>Produkt A (€)</th><th>Produkt B (€)</th><th>Gesamt (€)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Umsatzerlöse</td><td>300.000</td><td>200.000</td><td>500.000</td></tr>
+        <tr><td>− variable Kosten</td><td>180.000</td><td>140.000</td><td>320.000</td></tr>
+        <tr><td><strong>= Deckungsbeitrag</strong></td><td><strong>120.000</strong></td><td><strong>60.000</strong></td><td><strong>180.000</strong></td></tr>
+        <tr><td>− Fixkosten der Periode</td><td></td><td></td><td>150.000</td></tr>
+        <tr><td><strong>= Betriebsergebnis</strong></td><td></td><td></td><td><strong>30.000</strong></td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:0.85rem;color:#555">Fixkosten werden nicht auf Produkte aufgeteilt – nur der Gesamtblock wird abgezogen.</p>
+
+    <div class="notice ok">
+      <strong>Merksatz – Vollkosten und Teilkosten ergänzen sich</strong><br>
+      Für die langfristige Preisfindung (Angebotskalkulation, Vollkostendeckung) ist die Vollkostenrechnung unersetzbar. Für kurzfristige Entscheidungen (Zusatzauftrag, Sortiment, Engpassoptimierung) liefert die Teilkostenrechnung die prüfungsrelevante Antwort. <strong>Beide Systeme haben ihre Berechtigung – sie beantworten verschiedene Fragen.</strong>
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 6 – PRÜFUNGSFRAGEN
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap6">6 · Prüfungsfragen</h2>
+
+    <div class="notice warn">
+      Keine Musterlösungen – aktiv erarbeiten!
+    </div>
+
+    <h3>Block 1 – Vollkostenrechnung &amp; Fixkostendegression</h3>
+    <ol>
+      <li>Was versteht man unter dem Proportionalisierungsfehler der Vollkostenrechnung? Welche Konsequenz hat das für Preisentscheidungen? <em>(Begriffserklärung + Konsequenz)</em></li>
+      <li>Ein Unternehmen hat Fixkosten von 80.000 €. Bei 10.000 Stück betragen die Selbstkosten 18 €/Stück, bei 20.000 Stück 13 €/Stück. Erkläre das Phänomen und berechne die variablen Stückkosten. <em>(Fixkostendegression)</em></li>
+      <li>Was sind Leerkosten? Ein Unternehmen hat Maschinenkosten (fix) von 60.000 € und ist zu 80 % ausgelastet. Berechne Nutz- und Leerkosten. <em>(Leerkosten)</em></li>
+    </ol>
+
+    <h3>Block 2 – Deckungsbeitragsrechnung</h3>
+    <ol start="4">
+      <li>Verkaufspreis 120 €, variable Stückkosten 75 €, Absatz 5.000 Stück, Fixkosten 180.000 €. Berechne db, DB und das Betriebsergebnis. <em>(Vollständige DB-Rechnung)</em></li>
+      <li>Ein Produkt zeigt in der Vollkostenrechnung einen Verlust von 20 €/Stück. Der Stückdeckungsbeitrag beträgt +15 €. Soll das Produkt aus dem Sortiment genommen werden? Begründe. <em>(Entscheidungslogik)</em></li>
+      <li>Erzeugnis I: DB = 90.000 €. Erzeugnis II: DB = −40.000 €. Fixkosten: 70.000 €. Wie hoch ist das Betriebsergebnis? Was ändert sich, wenn Erzeugnis II eliminiert wird (Fixkosten bleiben unverändert)? <em>(Sortimentsbereinigung)</em></li>
+    </ol>
+
+    <h3>Block 3 – Break-Even-Analyse</h3>
+    <ol start="7">
+      <li>Verkaufspreis 95 €, variable Kosten 55 €, Fixkosten 320.000 €. Berechne den Break-Even-Point. Ab wie vielen Stück wird Gewinn erzielt? <em>(BEP immer aufrunden)</em></li>
+      <li>Erkläre den Unterschied zwischen Verlust- und Gewinnzone im Break-Even-Diagramm. Was sagt die Steigung der Erlösgerade im Vergleich zur Gesamtkostengerade aus? <em>(Diagramm-Interpretation)</em></li>
+    </ol>
+
+    <h3>Block 4 – Entscheidungssituationen</h3>
+    <ol start="9">
+      <li>Selbstkosten 90 €, variable Kosten 55 €. Ein Kunde bietet 70 € für einen Zusatzauftrag an (freie Kapazitäten vorhanden). Soll der Auftrag angenommen werden? Begründe mit Vollkosten- und Teilkostenlogik. <em>(Zusatzauftrag-Entscheidung)</em></li>
+      <li>Drei Produkte: X (db = 60 €, 0,4 Std./Stück), Y (db = 45 €, 0,25 Std./Stück), Z (db = 30 €, 0,15 Std./Stück). Kapazität: 2.000 Std. Ermittle die relativen DB und die Rangfolge. <em>(Relativer DB bei Engpass)</em></li>
+      <li>Was ist Fixkostenremanenz? Nenne zwei konkrete Beispiele und erkläre, warum die Teilkostenrechnung dieses Problem transparenter macht als die Vollkostenrechnung. <em>(Begriffserklärung + Systemvergleich)</em></li>
+    </ol>
+
+    <h3>Transferaufgaben</h3>
+    <div class="notice warn">
+      <strong>T1 – Deckungsbeitragsrechnung &amp; Break-Even (Möbel GmbH)</strong><br>
+      Bürostuhl: Verkaufspreis 180 €, variable Stückkosten 110 €, Fixkosten 350.000 €/Periode. Geplanter Absatz: 6.000 Stück.<br>
+      (a) Berechne db, DB und Betriebsergebnis. (b) Berechne den Break-Even-Point. (c) Bei welchem Absatz erzielt das Unternehmen einen Gewinn von 70.000 €? (d) Großkunde möchte 500 Stück zu 120 € (Zusatzauftrag, freie Kapazität). Annehmen?
+    </div>
+    <div class="notice warn">
+      <strong>T2 – Engpassoptimierung</strong><br>
+      Drei Produkte: A (p = 200 €, k<sub>v</sub> = 130 €, 0,6 Std./Stück, max. 3.000 Stück), B (p = 150 €, k<sub>v</sub> = 90 €, 0,4 Std./Stück, max. 4.000 Stück), C (p = 80 €, k<sub>v</sub> = 50 €, 0,2 Std./Stück, max. 5.000 Stück). Kapazität: 3.500 Std./Monat.<br>
+      (a) Berechne absolute und relative DB aller drei Produkte. (b) Erstelle die Rangfolge. (c) Ermittle das optimale Produktionsprogramm und berechne den maximalen Gesamt-DB.
+    </div>
+
+
+    <!-- VERWANDTE THEMEN -->
+    <div class="related-topics">
+      <h3>Verwandte Themen</h3>
+      <ul>
+        <li><a href="rewe_ls06.html">LS06 · Kostenträgerrechnung &amp; Kalkulation</a> – Vollkostenrechnung, KPUG/LPUG</li>
+        <li><a href="rewe_ls04.html">LS04 · Kostenartenrechnung</a> – Fixe vs. variable Kosten, Kostenverlauf</li>
+        <li><a href="rewe_ls03.html">LS03 · Grundlagen KLR</a> – Deckungsbeitrag, Grundbegriffe</li>
+      </ul>
+    </div>
+
+  </main>
+</div>
+
+<footer class="page-footer">
+  <span>WFW Wiki · Rechnungswesen LS07</span>
+  <span>Stand: 29.06.2026</span>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script src="../css/pages.js"></script>
+<script src="../css/engine.js"></script>
+</body>
+</html>
