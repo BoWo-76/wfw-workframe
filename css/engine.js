@@ -262,6 +262,19 @@ function buildIndexPage() {
       </a>`;
   });
 
+  // About-Kachel als 12. Kachel
+  html += `
+    <a class="module-tile" href="pages/about.html"
+       style="--tile-color:#444;">
+      <div class="tile-icon">ℹ️</div>
+      <div class="tile-label">Über dieses Wiki</div>
+      <div class="tile-meta">Portfolio · Technik · Autor</div>
+      <div class="tile-progress">
+        <div class="tile-bar"><div class="tile-fill" style="width:100%"></div></div>
+        <span class="tile-pct">Boris Wolff</span>
+      </div>
+    </a>`;
+
   html += '</div>';
   container.innerHTML = html;
 }

@@ -1,9 +1,9 @@
 /* ── KACHEL-GRID STARTSEITE ── */
 .module-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1.2rem;
-  margin: 1.5rem 0;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.8rem;
+  margin: 1.2rem 0;
 }
 
 .module-tile {
@@ -11,8 +11,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1.4rem 1rem 1.2rem;
-  border-radius: 12px;
+  padding: 1rem 0.7rem 0.9rem;
+  border-radius: 10px;
   background: var(--tile-color, #888);
   color: #fff;
   text-decoration: none;
@@ -23,35 +23,35 @@
 }
 
 .module-tile:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
   text-decoration: none;
 }
 
-.tile-icon { font-size: 2.2rem; margin-bottom: 0.5rem; }
+.tile-icon { font-size: 1.6rem; margin-bottom: 0.35rem; }
 
 .tile-label {
   font-family: Arial, sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   font-weight: 700;
-  line-height: 1.3;
-  margin-bottom: 0.4rem;
+  line-height: 1.25;
+  margin-bottom: 0.3rem;
 }
 
 .tile-meta {
   font-family: Arial, sans-serif;
-  font-size: 0.7rem;
-  opacity: 0.8;
-  margin-bottom: 0.6rem;
+  font-size: 0.65rem;
+  opacity: 0.82;
+  margin-bottom: 0.45rem;
 }
 
 .tile-progress { width: 100%; }
 
 .tile-bar {
-  height: 4px;
+  height: 3px;
   background: rgba(255,255,255,0.3);
   border-radius: 2px;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.25rem;
   overflow: hidden;
 }
 
@@ -59,12 +59,11 @@
   height: 100%;
   background: rgba(255,255,255,0.9);
   border-radius: 2px;
-  transition: width 0.4s;
 }
 
 .tile-pct {
   font-family: Arial, sans-serif;
-  font-size: 0.68rem;
+  font-size: 0.63rem;
   opacity: 0.85;
 }
 
@@ -110,13 +109,9 @@
   text-decoration: none;
 }
 
-.script-item.disabled {
-  opacity: 0.5;
-  cursor: default;
-}
+.script-item.disabled { opacity: 0.5; cursor: default; }
 
 .script-icon { font-size: 1.3rem; flex-shrink: 0; }
-
 .script-info { flex: 1; }
 .script-info strong { display: block; font-size: 0.95rem; margin-bottom: 0.15rem; }
 .script-info span { font-size: 0.78rem; color: #777; font-family: Arial, sans-serif; }
@@ -126,8 +121,6 @@
   margin-left: auto;
   display: flex;
   align-items: center;
-  opacity: 0.9;
-  transition: opacity 0.15s;
+  flex-shrink: 0;
 }
-.topbar-logo:hover { opacity: 1; }
 .topbar-logo img { display: block; }
