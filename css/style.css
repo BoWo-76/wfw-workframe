@@ -51,6 +51,34 @@ body {
   text-decoration: none;
 }
 .topbar .brand span { color: #7EDFC0; }
+
+/* SIDEBAR TOGGLE BUTTON */
+.sidebar-toggle {
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.75);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 5px;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: background 0.15s, color 0.15s;
+}
+.sidebar-toggle:hover {
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+}
+
+/* TOPBAR LOGO */
+.topbar-logo {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.topbar-logo img { display: block; }
+
 .search-wrap { flex: 1; max-width: 440px; position: relative; }
 .search-wrap input {
   width: 100%;
@@ -105,7 +133,21 @@ body {
   top: 52px; left: 0; bottom: 0;
   overflow-y: auto;
   padding: 14px 0 40px;
+  transition: transform 0.25s ease;
+  z-index: 90;
 }
+
+/* SIDEBAR EINGEKLAPPT */
+body.sidebar-collapsed .sidebar {
+  transform: translateX(calc(-1 * var(--sidebar-w)));
+}
+body.sidebar-collapsed .main {
+  margin-left: 0;
+}
+body.sidebar-collapsed .page-footer {
+  margin-left: 0;
+}
+
 .nav-section { margin-bottom: 4px; }
 .nav-heading {
   font-size: 11px;
@@ -231,6 +273,7 @@ mark.search-highlight {
   flex: 1;
   padding: 32px 40px 60px;
   max-width: 920px;
+  transition: margin-left 0.25s ease;
 }
 
 /* BREADCRUMB */
@@ -424,6 +467,7 @@ a.page-item:hover { background: var(--primary-soft); color: var(--primary-dark);
 /* FOOTER */
 .page-footer {
   margin-left: var(--sidebar-w);
+  transition: margin-left 0.25s ease;
   border-top: 1px solid var(--line);
   padding: 10px 40px;
   font-size: 12px;

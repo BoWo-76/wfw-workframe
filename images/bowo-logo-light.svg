@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 52" width="220" height="52">
+  <!-- Kreis weiß mit grünem Rand -->
+  <circle cx="26" cy="26" r="24" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+  <!-- Initialen weiß -->
+  <text x="26" y="32" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#ffffff" letter-spacing="0.5">BoWo</text>
+  <!-- Trennlinie -->
+  <line x1="59" y1="12" x2="59" y2="40" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <!-- Name weiß -->
+  <text x="68" y="22" text-anchor="start" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" letter-spacing="1.5">BORIS WOLFF</text>
+  <!-- Subtitle hellgrün/mint -->
+  <text x="68" y="36" text-anchor="start" font-family="Arial, sans-serif" font-size="8.5" font-weight="400" fill="#7EDFC0" letter-spacing="1.2">CONSULTING &amp; DOCUMENTATION</text>
+</svg>

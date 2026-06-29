@@ -338,6 +338,53 @@ function buildModulePage() {
   container.innerHTML = html;
 }
 
+
+// ── SIDEBAR TOGGLE ───────────────────────────────────────────
+const SIDEBAR_KEY = 'wfw_sidebar_open';
+
+function initSidebarToggle() {
+  // Toggle-Button in Topbar einfügen (vor dem brand)
+  const topbar = document.querySelector('.topbar');
+  if (!topbar) return;
+
+  const btn = document.createElement('button');
+  btn.className = 'sidebar-toggle';
+  btn.innerHTML = '☰';
+  btn.title = 'Navigation ein-/ausblenden';
+  btn.setAttribute('aria-label', 'Sidebar umschalten');
+
+  // Vor dem .brand einfügen
+  const brand = topbar.querySelector('.brand');
+  if (brand) topbar.insertBefore(btn, brand);
+
+  // Startzustand bestimmen
+  const isIndex = window.location.pathname.split('/').pop() === 'index.html'
+               || window.location.pathname.endsWith('/');
+  const stored  = localStorage.getItem(SIDEBAR_KEY);
+
+  // Startseite: standardmäßig zu; Unterseiten: standardmäßig offen
+  const startOpen = stored !== null ? stored === 'true' : !isIndex;
+
+  if (!startOpen) document.body.classList.add('sidebar-collapsed');
+
+  btn.addEventListener('click', () => {
+    const isCollapsed = document.body.classList.toggle('sidebar-collapsed');
+    localStorage.setItem(SIDEBAR_KEY, (!isCollapsed).toString());
+  });
+}
+
+
+// ── LOGO ─────────────────────────────────────────────────────
+function buildLogo() {
+  const topbar = document.querySelector('.topbar');
+  if (!topbar || topbar.querySelector('.topbar-logo')) return;
+  const r = getRoot();
+  const logo = document.createElement('div');
+  logo.className = 'topbar-logo';
+  logo.innerHTML = `<img src="${r}/images/bowo-logo-light.svg" alt="BoWo – Boris Wolff" height="34">`;
+  topbar.appendChild(logo);
+}
+
 // ── TOPBAR ───────────────────────────────────────────────────
 function buildTopbar() {
   const r  = getRoot();
@@ -352,6 +399,8 @@ function buildTopbar() {
 document.addEventListener('DOMContentLoaded', () => {
   trackVisit();
   buildTopbar();
+  initSidebarToggle();
+  buildLogo();
   buildSidebar();
   buildIndexPage();
   buildModulePage();
