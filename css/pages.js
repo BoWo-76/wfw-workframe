@@ -102,5 +102,15 @@ const WIKI_CONFIG = {
       file: "pages/recht_ls03.html", status: "fertig", updated: "29.06.2026",
       keywords: ["kaufvertrag", "angebot", "annahme", "invitatio ad offerendum", "veränderte annahme", "trennungsprinzip", "abstraktionsprinzip", "verpflichtungsgeschäft", "verfügungsgeschäft", "eigentum", "besitz", "mietvertrag", "dienstvertrag", "werkvertrag", "darlehen", "leasing", "dienst vs. werk", "verbrauchsgüterkauf", "fernabsatz", "widerrufsrecht"]
     },
+    {
+      id: "recht_ls04", module: "recht", title: "LS04 · Körperschaftsteuer",
+      file: "pages/recht_ls04.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["körperschaftsteuer", "kst", "kstg", "verdeckte gewinnausschüttung", "vga", "verdeckte einlage", "§ 8b kstg", "schachtelprivileg", "zinsschranke", "§ 8a kstg", "verlustabzug", "§ 8c kstg", "§ 8d kstg", "einlagekonto", "§ 27 kstg", "abgeltungsteuer", "teileinkünfteverfahren", "tev", "solidaritätszuschlag"]
+    },
+    {
+      id: "recht_ls05", module: "recht", title: "LS05 · Gewerbesteuer",
+      file: "pages/recht_ls05.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["gewerbesteuer", "gewst", "gewstg", "realsteuer", "gewerbeertrag", "hinzurechnung", "§ 8 gewstg", "kürzung", "§ 9 gewstg", "freibetrag", "hebesatz", "steuermesszahl", "zerlegung", "§ 28 gewstg", "arbeitslöhne", "§ 35 estg", "anrechnung"]
+    },
   ]
 };
