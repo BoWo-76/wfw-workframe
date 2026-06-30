@@ -181,5 +181,15 @@ const WIKI_CONFIG = {
       file: "pages/uf_ls05.html", status: "fertig", updated: "30.06.2026",
       keywords: ["kennzahlen", "kennzahlensystem", "eindimensional", "mehrdimensional", "du-pont-schema", "roi", "umsatzrentabilität", "kapitalumschlag", "balanced scorecard", "bsc", "kaplan norton", "finanzperspektive", "kundenperspektive", "prozessperspektive", "lern- und entwicklungsperspektive", "plankostenrechnung", "forecasting", "soll-ist-vergleich", "starre plankostenrechnung", "flexible plankostenrechnung", "grenzplankostenrechnung", "kano-modell", "basisanforderung", "leistungsanforderung", "begeisterungsanforderung", "kundennutzen", "primärmarktforschung", "sekundärmarktforschung", "befragung", "beobachtung", "experiment", "kundenwertanalyse", "betriebsstatistik", "balkendiagramm", "liniendiagramm", "flächendiagramm", "kreisdiagramm", "struktogramm"]
     },
+    {
+      id: "uf_ls06", module: "uf", title: "LS06 · Personalführung / Personalplanung / Personalbeschaffung",
+      file: "pages/uf_ls06.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["personalführung", "führung", "strukturelle führung", "personale führung", "macht", "motivation", "maslow", "bedürfnispyramide", "selbstverwirklichung", "herzberg", "zwei-faktoren-theorie", "motivatoren", "hygienefaktoren", "glasl lievegoed", "führungsstile", "autoritär", "kooperativ", "laissez-faire", "situativer führungsstil", "reifegrad", "aufgabenorientierung", "mitarbeiterorientierung", "partizipationsorientierung", "grid-konzept", "managerial grid", "blake mouton", "führungstechniken", "management by objectives", "mbo", "management by exception", "mbe", "management by delegation", "mbd", "delegation", "gruppe", "team", "arbeitsgruppe", "projektgruppe", "tuckman", "forming", "storming", "norming", "performing", "adjourning", "belbin", "laterale führung", "geteilte führung", "virtuelle teams", "gruppenkohäsion", "gruppenkonvergenz", "groupthink", "personalplanung", "bedarfsplanung", "beschaffungsplanung", "nettopersonalbedarf", "personalbeschaffung", "interne beschaffung", "externe beschaffung", "6 r der logistik", "assessment-center", "entgeltformen", "zeitlohn", "akkordlohn", "prämienlohn", "ergänzungslohn", "potenziallohn"]
+    },
+    {
+      id: "uf_ls07", module: "uf", title: "LS07 · Personalentwicklung",
+      file: "pages/uf_ls07.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["personalentwicklung", "anforderungsprofil", "eignungsprofil", "entwicklungslücke", "aufstiegsfortbildung", "anpassungsfortbildung", "erweiterungsfortbildung", "erhaltungsfortbildung", "bedarfsanalyse", "zielformulierung", "maßnahmenplanung", "evaluation", "potenzialanalyse", "kompetenzkategorien", "fachkompetenz", "führungskompetenz", "methodenkompetenz", "sozialkompetenz", "wertewahrnehmung", "personalportfolio", "leistungsträger", "potenzialträger", "routinekraft", "problemfall", "on the job", "off the job", "job rotation", "hospitation", "coaching", "mentoring", "projektlernen", "seminare", "supervision", "fachkonferenzen", "karriereplanung", "leistungsgerechtigkeit", "anforderungsgerechtigkeit", "sozialgerechtigkeit"]
+    },
   ]
 };
