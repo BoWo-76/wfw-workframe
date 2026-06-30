@@ -31,12 +31,14 @@ wfw-wiki1/
     changelog.json        ← NEU: zentraler Changelog (siehe unten)
   pages/
     about.html
+    handbuch.html          ← NEU: Nutzerhandbuch (Meta-Seite, module: null)
     modul_[id].html        ← 11 Modul-Übersichtsseiten (auto-generiert)
     rewe_ls01.html … rewe_ls09.html
     finanz_ls01.html
     recht_ls01.html … recht_ls08.html
     bm_ls01.html, bm_ls01e.html, bm_ls02.html … bm_ls04.html
-    uf_ls01.html, uf_ls02.html
+    uf_ls01.html … uf_ls07.html
+    vwlbwl_ls01.html … vwlbwl_ls06.html   ← NEU: Modul VWL/BWL komplett
   images/
     bowo-logo.svg, bowo-logo-light.svg, [weitere Grafiken]
 ```
@@ -59,6 +61,8 @@ wfw-wiki1/
 4. Claude liefert nur die eine geänderte HTML-Datei
 
 **Neu:** Bei PDF-Quellen mit „📷 Grafik einfügen"-Platzhaltern (z.B. Dozentenskript-Verweise) übernimmt Claude diese vorerst als gelb hinterlegte Hinweisbox mit Bildbeschreibung + Quellenseite (`.notice.warn`), bis die echte Grafik nachgeliefert wird.
+
+**Wichtig (aus Erfahrung):** Boris benennt exportierte Grafiken oft mit dem Präfix „Grafik " (z.B. `Grafik Kaufmannseigenschaft.png`), nicht nur mit dem reinen Bildnamen. Beim Einfügen eines `<img src="...">`-Tags immer den von Boris genannten Dateinamen exakt (inkl. Leerzeichen/Präfix) übernehmen — nicht eigenständig kürzen oder vereinheitlichen, sonst zeigt das Bild nicht an (404).
 
 ---
 
@@ -134,8 +138,16 @@ LS05 Analysemethoden ✅ (Du-Pont-Schema, Balanced Scorecard, Plankostenrechnung
 LS06 Personalführung / Personalplanung / Personalbeschaffung ✅ (Maslow, Herzberg, Führungsstile, Grid-Konzept, MbO/MbE/MbD, Tuckman, Belbin, Nettopersonalbedarfsplanung, Entgeltformen) — mehrere "📷 Grafik einfügen"-Platzhalter offen
 LS07 Personalentwicklung ✅ (Fortbildungsarten, Potenzialanalyse, Kompetenzkategorien, Personalportfolio, on-the-job/off-the-job-Qualifizierung) — mehrere "📷 Grafik einfügen"-Platzhalter offen
 
+### Volks- und Betriebswirtschaft (vwlbwl) — ABGESCHLOSSEN ✅ (LS01–LS06, Dozent Steinhof)
+LS01 Grundlagen der VWL (VWL/BWL-Abgrenzung, Bedürfniskette, Produktionsfaktoren, Preis-Mengen-Diagramm, Marktformen) ✅
+LS02 Wettbewerb, Kartellrecht & Staatliche Eingriffe (Kartellarten, Wirtschaftsordnungen, Mindest-/Höchstpreise, Marktversagen) ✅
+LS03 Konjunktur, Stabilitätspolitik & Geldpolitik (Magisches Viereck, Konjunkturphasen, Arbeitslosigkeit, Inflation, Fiskalpolitik) ✅
+LS04 Geldpolitik & monetäre Grundlagen (Geldfunktionen, M1/M2/M3, Quantitätsgleichung, Keynes vs. Monetarismus) ✅
+LS05 EZB-Instrumente & Transmissionsmechanismus (Offenmarktgeschäfte, Tenderverfahren, Mindestreserve, Grenzen der Geldpolitik) ✅
+LS06 Außenwirtschaft (Außenhandelsrisiken, Freihandel/Protektionismus, EU-Binnenmarkt, Maastricht-Kriterien, inkl. 18 Übungsfragen) ✅
+
 ### Noch leer (Modul-Übersichtsseiten vorhanden, Skripte fehlen)
-basics · methodik · vwlbwl · marketing · fuehrung · logistik
+basics · methodik · marketing · fuehrung · logistik
 
 ---
 
@@ -249,7 +261,7 @@ basics · methodik · vwlbwl · marketing · fuehrung · logistik
 - **Zuletzt besucht:** localStorage, 5 Einträge, in Sidebar
 
 ### NEU: Notizzettel (📝, nur auf Lernseiten)
-- Icon in der Topbar (rechts, neben Logo), Panel slide-in von rechts
+- Icon in der Topbar (direkt neben dem Suchfeld, siehe „Topbar-Icon-Positionierung" unten), Panel slide-in von rechts
 - Pro Skript eigener Eintrag in `localStorage` (Key: `wfw_notiz_<page.id>`), gerätegebunden — kein Sync zwischen Geräten (bewusst so, siehe unten)
 - Auto-Save beim Tippen (debounced)
 - Orangener Badge-Punkt am Icon, wenn Notiz Inhalt hat
@@ -275,7 +287,16 @@ basics · methodik · vwlbwl · marketing · fuehrung · logistik
 - Implementiert in `engine.js` (`initChangelog()`) und `style.css` (Klassen `.changelog-toggle`, `.changelog-panel`, `.changelog-date-group` etc.)
 - **Standard-Workflow ab sofort:** Bei jeder neuen oder geänderten Seite wird automatisch und ungefragt ein passender Eintrag in `changelog.json` ergänzt (gleiche Automatik wie bei `pages.js`) — neue Seiten als `"aktion": "neu"`, inhaltliche Überarbeitungen bestehender Seiten als `"aktion": "update"`
 
+### NEU: Nutzerhandbuch (`pages/handbuch.html`)
+- Meta-Seite (`module: null`, wie `about.html`), erklärt Navigation, Suche, Box-System, Formelglossar, Changelog und empfohlenen Lernablauf
+- Verlinkt von der Startseite im Intro-Bereich (`<p class="wiki-meta-links">`) — Link zu `about.html` ("Über dieses Wiki") wurde dort bewusst entfernt, da dafür bereits Kachel + Sidebar-Eintrag existieren; nur der Handbuch-Link blieb stehen
+- **WICHTIGE STANDING-REGEL (seit 30.06.2026):** Sobald ein neues Feature im Wiki eingebaut wird (z.B. neues Topbar-Icon, neue Funktion, neue Bedienlogik), muss `handbuch.html` entsprechend mitaktualisiert werden, damit es immer den aktuellen Funktionsumfang widerspiegelt. Diese Regel ist dauerhaft im Memory von Claude hinterlegt und gilt automatisch, ohne dass Boris explizit danach fragen muss.
+
+### NEU: Changelog-Pflege — "Neu"-Markierung rotieren
+- **WICHTIGE STANDING-REGEL (seit 30.06.2026):** Sobald eine neue Datumsgruppe in `changelog.json` erstellt wird, muss bei ALLEN älteren, bereits bestehenden Einträgen das Attribut `"aktion": "neu"` entfernt werden (Property komplett löschen, nicht auf einen anderen Wert setzen). Nur die aktuell neueste Datumsgruppe behält die "Neu"-Markierung. `engine.js` rendert kein Badge, wenn `aktion` fehlt (`e.aktion === 'neu'` ist einfach `false`/`undefined`) — kein Rendering-Fehler. Diese Regel ist dauerhaft im Memory von Claude hinterlegt.
+
 ---
+
 
 ## Lieferformat
 - Geänderte/neue Dateien werden einzeln per `present_files` geliefert (kein ZIP mehr im aktuellen Workflow)
@@ -288,7 +309,8 @@ basics · methodik · vwlbwl · marketing · fuehrung · logistik
 
 ## Bekannte technische Details
 - `engine.js` fügt Logo, Sidebar-Toggle, Notizzettel-Button, Formelglossar-Button und Changelog-Button automatisch ein — NICHT manuell in HTML
-- Init-Reihenfolge in `engine.js` (DOMContentLoaded): `buildLogo()` → `initNotizzettel()` → `initFormelzeichen()` → `initChangelog()` → `buildSidebar()` … (Reihenfolge ist wichtig für korrekte Button-Platzierung in der Topbar: von links nach rechts in der Topbar erscheinen Changelog-Button, Formelglossar-Button, Notizzettel-Button, Logo)
+- Init-Reihenfolge in `engine.js` (DOMContentLoaded): `buildLogo()` → `initNotizzettel()` → `initFormelzeichen()` → `initChangelog()` → `buildSidebar()` …
+- **Topbar-Icon-Positionierung (Stand 30.06.2026, korrigiert):** Alle drei Buttons (📜 Changelog, Σ Formelglossar, 📝 Notizzettel) werden direkt **rechts neben dem Suchfeld** eingefügt (`topbar.insertBefore(btn, searchWrap.nextSibling)` bzw. relativ dazu verkettet), NICHT mehr vor dem Logo. Ursprünglich hatten alle drei Buttons `margin-left: auto` in `style.css`, was sie unabhängig voneinander an den rechten Rand zog (große Lücken zwischen Suchfeld, Icons und Logo). Das `margin-left: auto` wurde aus `.notiz-toggle`, `.formel-toggle` und `.changelog-toggle` entfernt — nur `.topbar-logo` behält es (zieht das BoWo-Logo bewusst ganz nach rechts). Visuelle Reihenfolge in der Topbar von links nach rechts: ☰ Sidebar-Toggle → Brand "WFWWiki" → Suchfeld → 📜 Changelog → Σ Formelglossar → 📝 Notizzettel → (Lücke) → BoWo-Logo
 - `build-index.bat` nach jeder neuen Seite ausführen (Node.js erforderlich)
 - `.notice { display: block }` — verhindert Flex-Layout-Fehler bei Merksätzen
 - GitHub Pages URL: `https://bowo-76.github.io/wfw-wiki1/`
