@@ -2,54 +2,192 @@
   {
     "datum": "30.06.2026",
     "eintraege": [
-      { "modul": "vwlbwl", "titel": "LS06 · Außenwirtschaft", "aktion": "neu" },
-      { "modul": "vwlbwl", "titel": "LS05 · EZB-Instrumente & Transmissionsmechanismus", "aktion": "neu" },
-      { "modul": "vwlbwl", "titel": "LS04 · Geldpolitik & monetäre Grundlagen", "aktion": "neu" },
-      { "modul": null, "titel": "Nutzerhandbuch", "aktion": "neu" },
-      { "modul": "vwlbwl", "titel": "LS03 · Konjunktur, Stabilitätspolitik & Geldpolitik", "aktion": "neu" },
-      { "modul": "vwlbwl", "titel": "LS02 · Wettbewerb, Kartellrecht & Staatliche Eingriffe", "aktion": "neu" },
-      { "modul": "vwlbwl", "titel": "LS01 · Grundlagen der VWL", "aktion": "neu" },
-      { "modul": "uf", "titel": "LS07 · Personalentwicklung", "aktion": "neu" },
-      { "modul": "uf", "titel": "LS06 · Personalführung / Personalplanung / Personalbeschaffung", "aktion": "neu" },
-      { "modul": "uf", "titel": "LS05 · Analysemethoden", "aktion": "neu" },
-      { "modul": "uf", "titel": "LS04 · Organisationsentwicklung", "aktion": "neu" },
-      { "modul": "uf", "titel": "LS03 · Ablauforganisation", "aktion": "neu" },
-      { "modul": "uf", "titel": "LS02 · Aufbauorganisation", "aktion": "neu" },
-      { "modul": "uf", "titel": "LS01 · Betriebliche Planungsprozesse", "aktion": "neu" },
-      { "modul": "bm", "titel": "LS04 · Informationstechnologie im Betrieb", "aktion": "neu" },
-      { "modul": "bm", "titel": "LS03 · Wissensmanagement im Betrieb", "aktion": "neu" },
-      { "modul": "bm", "titel": "LS02 · Betriebliche Planungsprozesse & Betriebsstatistik", "aktion": "neu" },
-      { "modul": "bm", "titel": "LS01-E · Gegenstromverfahren & Zielsystem im Gleichgewicht (Ergänzung)", "aktion": "neu" },
-      { "modul": "bm", "titel": "LS01 · Strategische & operative Planungsgrundlagen", "aktion": "neu" },
-      { "modul": "recht", "titel": "LS08 · Weitere Steuerarten und AO", "aktion": "neu" },
-      { "modul": "recht", "titel": "LS07 · Umsatzsteuer", "aktion": "neu" },
-      { "modul": "recht", "titel": "LS06 · Kapitalertragsteuer und Abgeltungsteuer", "aktion": "neu" },
-      { "modul": "recht", "titel": "LS05 · Gewerbesteuer", "aktion": "neu" },
-      { "modul": "recht", "titel": "LS04 · Körperschaftsteuer", "aktion": "neu" }
+      {
+        "modul": "vwlbwl",
+        "titel": "LS06 · Außenwirtschaft",
+        "aktion": "neu"
+      },
+      {
+        "modul": "vwlbwl",
+        "titel": "LS05 · EZB-Instrumente & Transmissionsmechanismus",
+        "aktion": "neu"
+      },
+      {
+        "modul": "vwlbwl",
+        "titel": "LS04 · Geldpolitik & monetäre Grundlagen",
+        "aktion": "neu"
+      },
+      {
+        "modul": null,
+        "titel": "Nutzerhandbuch",
+        "aktion": "neu"
+      },
+      {
+        "modul": "vwlbwl",
+        "titel": "LS03 · Konjunktur, Stabilitätspolitik & Geldpolitik",
+        "aktion": "neu"
+      },
+      {
+        "modul": "vwlbwl",
+        "titel": "LS02 · Wettbewerb, Kartellrecht & Staatliche Eingriffe",
+        "aktion": "neu"
+      },
+      {
+        "modul": "vwlbwl",
+        "titel": "LS01 · Grundlagen der VWL",
+        "aktion": "neu"
+      },
+      {
+        "modul": "uf",
+        "titel": "LS07 · Personalentwicklung",
+        "aktion": "neu"
+      },
+      {
+        "modul": "uf",
+        "titel": "LS06 · Personalführung / Personalplanung / Personalbeschaffung",
+        "aktion": "neu"
+      },
+      {
+        "modul": "uf",
+        "titel": "LS05 · Analysemethoden",
+        "aktion": "neu"
+      },
+      {
+        "modul": "uf",
+        "titel": "LS04 · Organisationsentwicklung",
+        "aktion": "neu"
+      },
+      {
+        "modul": "uf",
+        "titel": "LS03 · Ablauforganisation",
+        "aktion": "neu"
+      },
+      {
+        "modul": "uf",
+        "titel": "LS02 · Aufbauorganisation",
+        "aktion": "neu"
+      },
+      {
+        "modul": "uf",
+        "titel": "LS01 · Betriebliche Planungsprozesse",
+        "aktion": "neu"
+      },
+      {
+        "modul": "bm",
+        "titel": "LS04 · Informationstechnologie im Betrieb",
+        "aktion": "neu"
+      },
+      {
+        "modul": "bm",
+        "titel": "LS03 · Wissensmanagement im Betrieb",
+        "aktion": "neu"
+      },
+      {
+        "modul": "bm",
+        "titel": "LS02 · Betriebliche Planungsprozesse & Betriebsstatistik",
+        "aktion": "neu"
+      },
+      {
+        "modul": "bm",
+        "titel": "LS01-E · Gegenstromverfahren & Zielsystem im Gleichgewicht (Ergänzung)",
+        "aktion": "neu"
+      },
+      {
+        "modul": "bm",
+        "titel": "LS01 · Strategische & operative Planungsgrundlagen",
+        "aktion": "neu"
+      },
+      {
+        "modul": "recht",
+        "titel": "LS08 · Weitere Steuerarten und AO",
+        "aktion": "neu"
+      },
+      {
+        "modul": "recht",
+        "titel": "LS07 · Umsatzsteuer",
+        "aktion": "neu"
+      },
+      {
+        "modul": "recht",
+        "titel": "LS06 · Kapitalertragsteuer und Abgeltungsteuer",
+        "aktion": "neu"
+      },
+      {
+        "modul": "recht",
+        "titel": "LS05 · Gewerbesteuer",
+        "aktion": "neu"
+      },
+      {
+        "modul": "recht",
+        "titel": "LS04 · Körperschaftsteuer",
+        "aktion": "neu"
+      }
     ]
   },
   {
     "datum": "29.06.2026",
     "eintraege": [
-      { "modul": null, "titel": "Über dieses Wiki", "aktion": "neu" },
-      { "modul": "finanz", "titel": "LS01 · Investitionsrechnung", "aktion": "neu" },
-      { "modul": "recht", "titel": "LS03 · Kaufvertrag & Vertragsarten", "aktion": "neu" },
-      { "modul": "recht", "titel": "LS02 · Schuldrecht & AGB", "aktion": "neu" },
-      { "modul": "recht", "titel": "LS01 · Grundlagen des Rechts", "aktion": "neu" },
-      { "modul": "rewe", "titel": "LS09 · Planungsrechnung", "aktion": "neu" },
-      { "modul": "rewe", "titel": "LS08 · Auswertung betriebswirtschaftlicher Zahlen", "aktion": "neu" },
-      { "modul": "rewe", "titel": "LS07 · Voll- und Teilkostenrechnung", "aktion": "neu" }
+      {
+        "modul": null,
+        "titel": "Über dieses Wiki"
+      },
+      {
+        "modul": "finanz",
+        "titel": "LS01 · Investitionsrechnung"
+      },
+      {
+        "modul": "recht",
+        "titel": "LS03 · Kaufvertrag & Vertragsarten"
+      },
+      {
+        "modul": "recht",
+        "titel": "LS02 · Schuldrecht & AGB"
+      },
+      {
+        "modul": "recht",
+        "titel": "LS01 · Grundlagen des Rechts"
+      },
+      {
+        "modul": "rewe",
+        "titel": "LS09 · Planungsrechnung"
+      },
+      {
+        "modul": "rewe",
+        "titel": "LS08 · Auswertung betriebswirtschaftlicher Zahlen"
+      },
+      {
+        "modul": "rewe",
+        "titel": "LS07 · Voll- und Teilkostenrechnung"
+      }
     ]
   },
   {
     "datum": "28.06.2026",
     "eintraege": [
-      { "modul": "rewe", "titel": "LS06 · Kostenträgerrechnung & Kalkulation", "aktion": "neu" },
-      { "modul": "rewe", "titel": "LS05 · Kostenstellenrechnung & BAB", "aktion": "neu" },
-      { "modul": "rewe", "titel": "LS04 · Kostenartenrechnung", "aktion": "neu" },
-      { "modul": "rewe", "titel": "LS03 · Grundlagen KLR", "aktion": "neu" },
-      { "modul": "rewe", "titel": "LS02 · Grundlagen Finanzbuchhaltung", "aktion": "neu" },
-      { "modul": "rewe", "titel": "LS01 · Grundlagen Rechnungswesen", "aktion": "neu" }
+      {
+        "modul": "rewe",
+        "titel": "LS06 · Kostenträgerrechnung & Kalkulation"
+      },
+      {
+        "modul": "rewe",
+        "titel": "LS05 · Kostenstellenrechnung & BAB"
+      },
+      {
+        "modul": "rewe",
+        "titel": "LS04 · Kostenartenrechnung"
+      },
+      {
+        "modul": "rewe",
+        "titel": "LS03 · Grundlagen KLR"
+      },
+      {
+        "modul": "rewe",
+        "titel": "LS02 · Grundlagen Finanzbuchhaltung"
+      },
+      {
+        "modul": "rewe",
+        "titel": "LS01 · Grundlagen Rechnungswesen"
+      }
     ]
   }
 ]
