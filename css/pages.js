@@ -154,5 +154,17 @@ const WIKI_CONFIG = {
       file: "pages/bm_ls04.html", status: "fertig", updated: "30.06.2026",
       keywords: ["informationstechnologie", "it-elemente", "hardware", "software", "wws", "warenwirtschaftssystem", "erp", "enterprise resource planning", "mis", "management-informationssystem", "data warehouse", "informationsquellen", "interne quellen", "externe quellen", "it-kosten", "it-risiken", "wordingart"]
     },
+
+    // ── Unternehmensführung ──────────────────────────────────
+    {
+      id: "uf_ls01", module: "uf", title: "LS01 · Betriebliche Planungsprozesse",
+      file: "pages/uf_ls01.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["unternehmen", "betrieb", "maximalprinzip", "minimalprinzip", "optimumprinzip", "zielsystem", "sachziele", "formalziele", "antinomisch", "smart", "gegenstromverfahren", "top-down", "bottom-up", "pdca", "deming-kreis", "regelkreis", "strategische planung", "operative planung", "porter", "kostenführerschaft", "differenzierung", "fokussierung", "ansoff-matrix", "diversifikation", "penetrationsstrategie", "skimming", "shareholder", "stakeholder", "corporate identity", "eisberg-modell", "schein", "ims", "integriertes managementsystem", "pest-analyse", "benchmarking", "swot", "produktlebenszyklus", "bcg-matrix"]
+    },
+    {
+      id: "uf_ls02", module: "uf", title: "LS02 · Aufbauorganisation",
+      file: "pages/uf_ls02.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["aufbauorganisation", "ablauforganisation", "organigramm", "aufgabenanalyse", "aufgabensynthese", "kosiol", "stelle", "instanz", "stabstelle", "abteilung", "leitungstiefe", "führungsspanne", "leitungsbreite", "steile pyramide", "flache pyramide", "funktionale organisation", "divisionale organisation", "spartenorganisation", "profit center", "regionale organisation", "einlinienorganisation", "stablinienorganisation", "mehrlinienorganisation", "matrixorganisation", "tensororganisation", "funktionendiagramm", "raci", "controlling", "marketingorganisation"]
+    },
   ]
 };
