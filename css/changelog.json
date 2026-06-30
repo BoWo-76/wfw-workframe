@@ -2,6 +2,9 @@
   {
     "datum": "30.06.2026",
     "eintraege": [
+      { "modul": "vwlbwl", "titel": "LS03 · Konjunktur, Stabilitätspolitik & Geldpolitik", "aktion": "neu" },
+      { "modul": "vwlbwl", "titel": "LS02 · Wettbewerb, Kartellrecht & Staatliche Eingriffe", "aktion": "neu" },
+      { "modul": "vwlbwl", "titel": "LS01 · Grundlagen der VWL", "aktion": "neu" },
       { "modul": "uf", "titel": "LS07 · Personalentwicklung", "aktion": "neu" },
       { "modul": "uf", "titel": "LS06 · Personalführung / Personalplanung / Personalbeschaffung", "aktion": "neu" },
       { "modul": "uf", "titel": "LS05 · Analysemethoden", "aktion": "neu" },
