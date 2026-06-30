@@ -127,5 +127,22 @@ const WIKI_CONFIG = {
       file: "pages/recht_ls08.html", status: "fertig", updated: "30.06.2026",
       keywords: ["grundsteuer", "grunderwerbsteuer", "grest", "erbschaftsteuer", "schenkungsteuer", "erbstg", "freibetrag", "abgabenordnung", "ao", "verwaltungsakt", "§ 118 ao", "bekanntgabe", "§ 122 ao", "4-tage-regel", "festsetzungsverjährung", "§ 169 ao", "einspruch", "§ 347 ao", "steuerhinterziehung", "§ 370 ao", "selbstanzeige", "§ 371 ao"]
     },
+
+    // ── Betriebliches Management ─────────────────────────────
+    {
+      id: "bm_ls01", module: "bm", title: "LS01 · Strategische & operative Planungsgrundlagen",
+      file: "pages/bm_ls01.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["unternehmensphilosophie", "leitbild", "unternehmenskultur", "mission", "vision", "corporate identity", "corporate design", "corporate communication", "corporate behavior", "planung", "regelkreis", "strategisch", "taktisch", "operativ", "zielsystem", "zielpyramide", "sachziele", "formalziele", "zielbeziehungen", "smart", "swot", "normstrategien"]
+    },
+    {
+      id: "bm_ls01e", module: "bm", title: "LS01-E · Gegenstromverfahren & Zielsystem im Gleichgewicht (Ergänzung)",
+      file: "pages/bm_ls01e.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["gegenstromverfahren", "top-down", "bottom-up", "zielsystem im gleichgewicht", "balanced scorecard", "smart", "finanzen kunden prozesse mitarbeiter"]
+    },
+    {
+      id: "bm_ls02", module: "bm", title: "LS02 · Betriebliche Planungsprozesse & Betriebsstatistik",
+      file: "pages/bm_ls02.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["betriebsstatistik", "planungsrechnung", "vergleichsrechnung", "zeitvergleich", "betriebsvergleich", "soll-ist-vergleich", "absolute kennzahlen", "verhältniskennzahlen", "abc-analyse", "xyz-analyse", "rentabilität", "eigenkapitalrentabilität", "gesamtkapitalrentabilität", "umsatzrentabilität", "roi", "du-pont", "produktivität", "wirtschaftlichkeit", "ausschussquote", "liquiditätsgrade", "goldene bilanzregel", "anlagendeckungsgrad", "eigenkapitalquote", "verschuldungsgrad"]
+    },
   ]
 };

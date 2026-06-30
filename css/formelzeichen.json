@@ -42,5 +42,20 @@
       { "symbol": "KapESt", "bedeutung": "Kapitalertragsteuer" },
       { "symbol": "vGA", "bedeutung": "Verdeckte Gewinnausschüttung" }
     ]
+  },
+  {
+    "modul": "bm",
+    "eintraege": [
+      { "symbol": "ROI", "bedeutung": "Return on Investment = Umsatzrentabilität × Kapitalumschlag = Gewinn / Gesamtkapital" },
+      { "symbol": "ROS", "bedeutung": "Return on Sales / Umsatzrentabilität = Gewinn / Umsatz × 100" },
+      { "symbol": "EKR", "bedeutung": "Eigenkapitalrentabilität = Gewinn / Eigenkapital × 100" },
+      { "symbol": "GKR", "bedeutung": "Gesamtkapitalrentabilität = (Gewinn + FK-Zinsen) / Gesamtkapital × 100" },
+      { "symbol": "EKQ", "bedeutung": "Eigenkapitalquote = Eigenkapital / Gesamtkapital × 100" },
+      { "symbol": "FK", "bedeutung": "Fremdkapital" },
+      { "symbol": "EK", "bedeutung": "Eigenkapital" },
+      { "symbol": "tkm", "bedeutung": "Tonnenkilometer – Maßeinheit der Transportleistung" },
+      { "symbol": "SMART", "bedeutung": "Spezifisch – Messbar – Akzeptiert – Realistisch – Terminiert (Zielformulierungskriterien)" },
+      { "symbol": "SWOT", "bedeutung": "Strengths – Weaknesses – Opportunities – Threats (Stärken-Schwächen-Chancen-Risiken-Analyse)" }
+    ]
   }
 ]
