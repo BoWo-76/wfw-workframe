@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nutzerhandbuch – WFW Wiki</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../index.html">WFW<span>Wiki</span></a>
+  <div class="search-wrap">
+    <input id="search-input" type="search" placeholder="Thema suchen …" autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+</div>
+
+<div class="layout">
+  <nav class="sidebar"></nav>
+
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="../index.html">Startseite</a> › Nutzerhandbuch
+    </div>
+    <div class="page-header">
+      <div class="kicker">Meta · Anleitung</div>
+      <h1>Nutzerhandbuch</h1>
+      <div class="meta">
+        <span>Wie du das WFW Wiki am effektivsten nutzt</span>
+        <span>Stand: 30.06.2026</span>
+        <span><span class="badge ok">Fertig</span></span>
+      </div>
+    </div>
+
+    <p class="wiki-intro">Dieses Wiki ist als persönliches Lernsystem für die IHK-Prüfung Wirtschaftsfachwirt aufgebaut. Diese Seite erklärt kurz, wie Navigation, Suche und die wiederkehrenden Bausteine funktionieren — damit du auch nach einer längeren Pause sofort wieder reinfindest.</p>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>1 · Navigation</h2>
+
+    <h3>1.1 Startseite</h3>
+    <p>Die Startseite zeigt ein Kachel-Grid mit allen Modulen. Jede Kachel zeigt den Modulnamen, die Anzahl fertiger Seiten und einen Fortschrittsbalken. Ein Klick auf eine Kachel führt zur Modul-Übersichtsseite mit allen Lernskripten (LS) dieses Moduls.</p>
+
+    <h3>1.2 Sidebar</h3>
+    <p>Die linke Sidebar zeigt alle Module mit ihren Seiten als ausklappbare Liste. So springst du direkt zu einem einzelnen Lernskript, ohne über die Startseite zu gehen — praktisch beim Querlesen zwischen Modulen während der Prüfungsvorbereitung.</p>
+
+    <h3>1.3 Status-Icons</h3>
+    <div class="notice info">
+      <div>ℹ️</div>
+      <div><strong>Legende</strong>● Fertig &nbsp;·&nbsp; ◐ Entwurf &nbsp;·&nbsp; ○ Geplant<br>Die Volltextsuche durchsucht nur fertige und Entwurfs-Seiten — geplante (noch leere) Seiten tauchen in Suchergebnissen nicht auf.</div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>2 · Suche</h2>
+
+    <p>Oben im Topbar findest du die Volltextsuche. Sie basiert auf Lunr.js und durchsucht Titel, Inhalte und Stichwörter (Keywords) aller fertigen und Entwurfs-Seiten gleichzeitig — modulübergreifend.</p>
+
+    <div class="two-col">
+      <div class="content-card">
+        <h4>Wann nutzen?</h4>
+        Wenn du nach einem konkreten Begriff suchst (z.B. „FMEA", „Liquidität", „Kartellarten") und nicht weißt, in welchem Modul er steht.
+      </div>
+      <div class="content-card">
+        <h4>Tipp</h4>
+        Suche nach Fachbegriffen, nicht nach ganzen Sätzen — die Trefferqualität ist bei einzelnen Stichworten am besten.
+      </div>
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Hinweis</strong>Nach jedem neu hinzugefügten Lernskript muss <code>build-index.bat</code> ausgeführt werden, sonst taucht die neue Seite nicht in den Suchergebnissen auf (der Suchindex wird nicht automatisch beim Laden generiert).</div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>3 · Aufbau eines Lernskripts</h2>
+
+    <p>Jedes Lernskript folgt demselben Box-System, damit du auf einen Blick erkennst, welche Art von Information du gerade liest:</p>
+
+    <div class="def-box">
+      <div class="def-term">Definition-Box</div>
+      Enthält die exakte, prüfungsrelevante Definition eines Begriffs — Formulierung möglichst nah am IHK-Sprachgebrauch.
+    </div>
+
+    <div class="pruef-box">
+      Dies ist die <strong>Prüfungsrelevanz-Box</strong> direkt am Kapitelanfang — sie erklärt in 1–2 Sätzen, worauf die IHK bei diesem Kapitel besonders Wert legt.
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle</strong>Markiert typische Verwechslungen oder Fehler, die in der Prüfung Punkte kosten — z.B. Begriffe, die ähnlich klingen, aber Gegenteiliges bedeuten.</div>
+    </div>
+
+    <div class="notice ok">
+      <div>⚡</div>
+      <div><strong>Merksatz</strong>Eine kompakte, auswendig zu lernende Kernaussage — meist eine Formel oder ein Kausalzusammenhang.</div>
+    </div>
+
+    <div class="notice info">
+      <div>🧠</div>
+      <div><strong>Merkhilfe</strong>Eselsbrücken, Akronyme oder bildhafte Eselsbrücken, um sich Inhalte leichter zu merken.</div>
+    </div>
+
+    <p>Tabellen werden für Vergleiche (z.B. Marktformen, Wirtschaftsordnungen) genutzt, <code>two-col</code>/<code>content-card</code>-Kacheln für Gegenüberstellungen von zwei bis vier gleichwertigen Konzepten. Jedes Lernskript endet mit einer <strong>Prüfungs-Checkliste</strong> zum Abhaken sowie den <strong>Top-5-Prüfungsfallen</strong> auf einen Blick.</p>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>4 · Formelzeichen-Glossar</h2>
+
+    <p>Modulübergreifendes Nachschlagewerk für Formelzeichen und Abkürzungen (z.B. <code>i</code>, <code>q</code>, <code>EK</code>, <code>ROI</code>) — sortiert nach Modul (Finanzierung, Rechnungswesen, Recht, Betriebliches Management). Nützlich, wenn du beim Lernen ein Symbol siehst und schnell die Bedeutung nachschlagen willst, ohne erst das passende Lernskript zu suchen.</p>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>5 · Changelog</h2>
+
+    <p>Zeigt chronologisch, welche Lernskripte zuletzt hinzugekommen oder überarbeitet worden sind — gruppiert nach Datum, mit Modulkennzeichnung. Praktisch, um nachzuvollziehen, was seit dem letzten Lerndurchgang neu ist.</p>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>6 · Empfohlener Lernablauf</h2>
+
+    <ol>
+      <li>Modul auf der Startseite auswählen, Fortschrittsbalken als Orientierung nutzen</li>
+      <li>Lernskript komplett lesen, Definition- und Prüfungsfalle-Boxen besonders aufmerksam</li>
+      <li>Prüfungs-Checkliste am Ende durchgehen — jeden Punkt laut und ohne Spicken erklären</li>
+      <li>Bei unsicheren Formelzeichen im Formelglossar nachschlagen</li>
+      <li>Vor der Prüfung: gezielt über die Suche nach den „Top-5-Prüfungsfallen" aller Module suchen und wiederholen</li>
+    </ol>
+
+  </main>
+</div>
+
+<footer class="page-footer">
+  <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
+  <div>Nutzerhandbuch · Stand: 30.06.2026</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script src="../css/pages.js"></script>
+<script src="../css/engine.js"></script>
+</body>
+</html>

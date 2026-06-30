@@ -31,6 +31,11 @@ const WIKI_CONFIG = {
       file: "pages/about.html", status: "fertig", updated: "29.06.2026",
       keywords: ["über", "about", "wiki", "boris wolff", "wirtschaftsfachwirt", "ihk", "fiverr", "portfolio"]
     },
+    {
+      id: "handbuch", module: null, title: "Nutzerhandbuch",
+      file: "pages/handbuch.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["handbuch", "anleitung", "navigation", "suche", "box-system", "definition-box", "prüfungsfalle", "merksatz", "merkhilfe", "formelglossar", "changelog", "lernablauf", "bedienungsanleitung", "hilfe"]
+    },
 
     // ── Rechnungswesen ───────────────────────────────────────
     {
