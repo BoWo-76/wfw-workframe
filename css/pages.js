@@ -166,5 +166,20 @@ const WIKI_CONFIG = {
       file: "pages/uf_ls02.html", status: "fertig", updated: "30.06.2026",
       keywords: ["aufbauorganisation", "ablauforganisation", "organigramm", "aufgabenanalyse", "aufgabensynthese", "kosiol", "stelle", "instanz", "stabstelle", "abteilung", "leitungstiefe", "führungsspanne", "leitungsbreite", "steile pyramide", "flache pyramide", "funktionale organisation", "divisionale organisation", "spartenorganisation", "profit center", "regionale organisation", "einlinienorganisation", "stablinienorganisation", "mehrlinienorganisation", "matrixorganisation", "tensororganisation", "funktionendiagramm", "raci", "controlling", "marketingorganisation"]
     },
+    {
+      id: "uf_ls03", module: "uf", title: "LS03 · Ablauforganisation",
+      file: "pages/uf_ls03.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["ablauforganisation", "arbeitsteilung", "taylorismus", "one best way", "akkordlohn", "job enlargement", "job enrichment", "agile arbeitsteilung", "scrum", "kanban", "arbeitsablaufdiagramm", "flussdiagramm", "swimlane", "funktionsband", "und-verzweigung", "oder-verzweigung", "gantt-diagramm", "henry gantt", "netzplantechnik", "vkn", "ekn", "anordnungsbeziehung", "aob", "normalfolge", "anfangsfolge", "endfolge", "sprungfolge", "faz", "fez", "saz", "sez", "gesamtpuffer", "freier puffer", "kritischer pfad", "vorwärtsrechnung", "rückwärtsrechnung"]
+    },
+    {
+      id: "uf_ls04", module: "uf", title: "LS04 · Organisationsentwicklung",
+      file: "pages/uf_ls04.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["organisationsentwicklung", "institutioneller begriff", "instrumentaler begriff", "funktionaler begriff", "unternehmensentwicklung", "change management", "vuka", "volatilität", "unsicherheit", "komplexität", "ambiguität", "bani", "brittle", "anxious", "non-linear", "incomprehensible", "raat", "resilience", "awareness", "adaptability", "transparency", "formale organisation", "informale organisation", "mintzberg", "strategiebrücke", "intendierte strategie", "realisierte strategie", "emergente strategie", "lewin", "unfreezing", "moving", "refreezing", "drei-phasen-modell", "widerstände", "rationale widerstände", "soziale widerstände", "emotionale widerstände", "innere kündigung", "lernende organisation", "peter senge", "systemdenken"]
+    },
+    {
+      id: "uf_ls05", module: "uf", title: "LS05 · Analysemethoden",
+      file: "pages/uf_ls05.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["kennzahlen", "kennzahlensystem", "eindimensional", "mehrdimensional", "du-pont-schema", "roi", "umsatzrentabilität", "kapitalumschlag", "balanced scorecard", "bsc", "kaplan norton", "finanzperspektive", "kundenperspektive", "prozessperspektive", "lern- und entwicklungsperspektive", "plankostenrechnung", "forecasting", "soll-ist-vergleich", "starre plankostenrechnung", "flexible plankostenrechnung", "grenzplankostenrechnung", "kano-modell", "basisanforderung", "leistungsanforderung", "begeisterungsanforderung", "kundennutzen", "primärmarktforschung", "sekundärmarktforschung", "befragung", "beobachtung", "experiment", "kundenwertanalyse", "betriebsstatistik", "balkendiagramm", "liniendiagramm", "flächendiagramm", "kreisdiagramm", "struktogramm"]
+    },
   ]
 };
