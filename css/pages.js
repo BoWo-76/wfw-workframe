@@ -112,5 +112,20 @@ const WIKI_CONFIG = {
       file: "pages/recht_ls05.html", status: "fertig", updated: "30.06.2026",
       keywords: ["gewerbesteuer", "gewst", "gewstg", "realsteuer", "gewerbeertrag", "hinzurechnung", "§ 8 gewstg", "kürzung", "§ 9 gewstg", "freibetrag", "hebesatz", "steuermesszahl", "zerlegung", "§ 28 gewstg", "arbeitslöhne", "§ 35 estg", "anrechnung"]
     },
+    {
+      id: "recht_ls06", module: "recht", title: "LS06 · Kapitalertragsteuer und Abgeltungsteuer",
+      file: "pages/recht_ls06.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["kapitalertragsteuer", "kapest", "abgeltungsteuer", "sparerpauschbetrag", "freistellungsauftrag", "günstigerprüfung", "teileinkünfteverfahren", "tev", "§ 20 estg", "§ 17 estg", "verlustverrechnung", "aktientopf", "streubesitz", "§ 8b kstg"]
+    },
+    {
+      id: "recht_ls07", module: "recht", title: "LS07 · Umsatzsteuer",
+      file: "pages/recht_ls07.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["umsatzsteuer", "ust", "ustg", "mehrwertsteuer", "vorsteuerabzug", "vorsteuer", "reverse-charge", "§ 13b ustg", "kleinunternehmer", "§ 19 ustg", "innergemeinschaftliche lieferung", "leistungsort", "steuersatz", "regelsteuersatz", "ermäßigter steuersatz", "rechnung", "§ 14 ustg", "§ 15a ustg"]
+    },
+    {
+      id: "recht_ls08", module: "recht", title: "LS08 · Weitere Steuerarten und AO",
+      file: "pages/recht_ls08.html", status: "fertig", updated: "30.06.2026",
+      keywords: ["grundsteuer", "grunderwerbsteuer", "grest", "erbschaftsteuer", "schenkungsteuer", "erbstg", "freibetrag", "abgabenordnung", "ao", "verwaltungsakt", "§ 118 ao", "bekanntgabe", "§ 122 ao", "4-tage-regel", "festsetzungsverjährung", "§ 169 ao", "einspruch", "§ 347 ao", "steuerhinterziehung", "§ 370 ao", "selbstanzeige", "§ 371 ao"]
+    },
   ]
 };
