@@ -3,6 +3,16 @@
     "datum": "01.07.2026",
     "eintraege": [
       {
+        "modul": null,
+        "titel": "🎴 Karteikarten (Leitner-System) – neues Lernwerkzeug",
+        "aktion": "neu"
+      },
+      {
+        "modul": null,
+        "titel": "Nutzerhandbuch · Karteikarten-Abschnitt ergänzt",
+        "aktion": "update"
+      },
+      {
         "modul": "methodik",
         "titel": "LS01 · Lernmethoden im Überblick (Eigenrecherche)",
         "aktion": "neu"

@@ -662,13 +662,40 @@ function initWerkzeugkasten() {
   btn.title     = 'Werkzeugkasten öffnen';
   btn.setAttribute('aria-label', 'Werkzeugkasten öffnen');
 
-  // Links vom Changelog-Icon einfügen — ergibt Reihenfolge: 🧰 📜 Σ 📝 Logo
+  // Links vom Changelog-Icon einfügen — ergibt Reihenfolge: 🎴 🧰 📜 Σ 📝 Logo
   const changelogBtn = topbar.querySelector('.changelog-toggle');
   const formelBtn    = topbar.querySelector('.formel-toggle');
   const logo         = topbar.querySelector('.topbar-logo');
   if (changelogBtn)      topbar.insertBefore(btn, changelogBtn);
   else if (formelBtn)    topbar.insertBefore(btn, formelBtn);
   else if (logo)         topbar.insertBefore(btn, logo);
+  else topbar.appendChild(btn);
+}
+
+// ── KARTEIKARTEN-BUTTON ──────────────────────────────────────
+// Fügt 🎴-Link in die Topbar ein (links vom 🧰-Werkzeugkasten-Icon).
+// Öffnet karteikarten.html im selben Tab.
+function initKarteikartenLink() {
+  const topbar = document.querySelector('.topbar');
+  if (!topbar) return;
+  const r = getRoot();
+
+  const btn = document.createElement('a');
+  btn.className = 'kk-toggle';
+  btn.href      = `${r}/karteikarten.html`;
+  btn.innerHTML = '🎴';
+  btn.title     = 'Karteikarten öffnen';
+  btn.setAttribute('aria-label', 'Karteikarten öffnen');
+
+  // Links vom Werkzeugkasten-Icon einfügen, sonst gleiche Fallback-Kette
+  const wkBtn         = topbar.querySelector('.wk-toggle');
+  const changelogBtn  = topbar.querySelector('.changelog-toggle');
+  const formelBtn     = topbar.querySelector('.formel-toggle');
+  const logo          = topbar.querySelector('.topbar-logo');
+  if (wkBtn)              topbar.insertBefore(btn, wkBtn);
+  else if (changelogBtn)  topbar.insertBefore(btn, changelogBtn);
+  else if (formelBtn)     topbar.insertBefore(btn, formelBtn);
+  else if (logo)          topbar.insertBefore(btn, logo);
   else topbar.appendChild(btn);
 }
 
@@ -703,6 +730,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initFormelzeichen();
   initChangelog();
   initWerkzeugkasten();
+  initKarteikartenLink();
   buildSidebar();
   buildIndexPage();
   buildModulePage();

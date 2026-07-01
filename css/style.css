@@ -365,6 +365,27 @@ mark.search-highlight {
   border-color: rgba(255,255,255,0.45);
 }
 
+/* KARTEIKARTEN TOPBAR-BUTTON */
+.kk-toggle {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 6px;
+  line-height: 1;
+  flex-shrink: 0;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: background 0.15s, border-color 0.15s;
+}
+.kk-toggle:hover {
+  background: rgba(255,255,255,0.26);
+  border-color: rgba(255,255,255,0.45);
+}
+
 /* Sidebar-Variablen für Werkzeugkasten */
 :root {
   --text:   var(--ink);
