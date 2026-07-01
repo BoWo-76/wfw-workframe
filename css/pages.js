@@ -259,5 +259,10 @@ const WIKI_CONFIG = {
       file: "pages/basics_ls03.html", status: "fertig", updated: "01.07.2026",
       keywords: ["buchungskreislauf", "ebk", "sbk", "eröffnungsbilanzkonto", "schlussbilanzkonto", "buchungssatz", "soll", "haben", "aktivkonto", "passivkonto", "bestandskonto", "erfolgskonto", "aufwandskonto", "ertragskonto", "guv", "gewinn- und verlustkonto", "eigenkapital", "aktivtausch", "passivtausch", "aktiv-passiv-mehrung", "aktiv-passiv-minderung", "bilanzveränderung", "inventur", "inventar", "eröffnungsbilanz", "schlussbilanz", "umsatzsteuer", "buchführung", "laufende buchungen"]
     },
+    {
+      id: "basics_ls17", module: "basics", title: "LS17 · Zinsrechnung – Von den Grundlagen zum Zinseszins",
+      file: "pages/basics_ls17.html", status: "fertig", updated: "01.07.2026",
+      keywords: ["zinsrechnung", "zinsen", "zinseszins", "kapital", "zinssatz", "aufzinsungsfaktor", "herzstückformel", "jahreszinsen", "monatszinsen", "tageszinsen", "unterjährige verzinsung", "30/360", "act/360", "act/act", "kaufmännische zinsformel", "euro-zinsformel", "bgb-zinsformel", "verzugszinsen", "formeln umstellen", "bruchstrich", "einzeiler", "linearisierung", "taschenrechner"]
+    },
   ]
 };

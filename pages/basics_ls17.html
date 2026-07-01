@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LS17 · Zinsrechnung – WFW Wiki</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../index.html">WFW<span>Wiki</span></a>
+  <div class="search-wrap">
+    <input id="search-input" type="search" placeholder="Thema suchen …" autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+  <!-- Sidebar-Toggle, Werkzeugkasten-Button, Changelog-Button, Formelglossar-Button,
+       Notizzettel-Button und Logo werden von engine.js automatisch eingefügt -->
+</div>
+
+<div class="layout">
+  <nav class="sidebar"></nav>
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="../index.html">Startseite</a> › Basics Wirtschaftsrechnen › LS17 Zinsrechnung
+    </div>
+    <div class="page-header">
+      <div class="kicker">Basics Wirtschaftsrechnen · LS17</div>
+      <h1>LS17 · Zinsrechnung – Von den Grundlagen zum Zinseszins</h1>
+      <div class="meta">
+        <span>Dozent: Kreß & Steinhof</span>
+        <span>Stand: 01.07.2026</span>
+        <span><span class="badge ok">Fertig</span></span>
+      </div>
+    </div>
+
+    <div class="notice danger">
+      <strong>⛔ Fehler hier kosten fast immer Punkte!</strong>
+      Die Zinsrechnung ist ein absolutes Basis-Handwerkszeug. Ob in der Investitionsrechnung, bei Finanzierungen oder im Controlling – wer die Zinsformeln nicht sicher beherrscht oder beim Umstellen patzt, verschenkt wertvolle Punkte in der IHK-Prüfung.
+    </div>
+
+    <p>Dieses Skript ist strikt <strong>nutzenorientiert</strong>. Bevor du eine Formel anwendest, stelle dir immer die folgenden vier Fragen. Sie sind dein roter Faden durch jede Zinsrechenaufgabe.</p>
+
+    <div class="notice ok">
+      <strong>🔥 Die 4 Grundfragen der Zinsrechnung (Deine Checkliste)</strong>
+      <ol>
+        <li><strong>Was ist gegeben?</strong> (Kapital K, Zinssatz p, Zinsen Z, Zeit t)</li>
+        <li><strong>Was wird gesucht?</strong> (Eine der vier Grundgrößen)</li>
+        <li><strong>Welcher Zeitraum?</strong> (Ein Jahr, mehrere Jahre oder unterjährig?)</li>
+        <li><strong>Wie werden Zinsen verwendet?</strong> (Auszahlung = einfache Zinsen | Verbleib = Zinseszins?)</li>
+      </ol>
+      Erst wenn du diese vier Fragen beantwortet hast, wählst du die passende Formel aus.
+    </div>
+
+    <h2>Kapitel 1: Grundlagen, Terminologie & das Herzstück</h2>
+
+    <h3>1.1 Grundlagen und Terminologie</h3>
+    <p>Bevor wir rechnen, müssen die Vokabeln sitzen. In der IHK-Prüfung werden oft Synonyme verwendet – lass dich davon nicht verwirren.</p>
+
+    <div class="two-col">
+      <div class="content-card">
+        <strong>K = Kapital</strong>
+        <p>Darlehensbetrag, Anlagebetrag, Kreditsumme, Barwert</p>
+      </div>
+      <div class="content-card">
+        <strong>p = Zinssatz</strong>
+        <p>immer in Prozent p.a. (per annum / pro Jahr), z. B. 5 %</p>
+      </div>
+      <div class="content-card">
+        <strong>Z = Zinsen</strong>
+        <p>der absolute Euro-Betrag, den die Zinsen ausmachen</p>
+      </div>
+      <div class="content-card">
+        <strong>Zeitvariablen</strong>
+        <p>n = Anzahl Jahre · m = Anzahl Monate · t = Anzahl Tage</p>
+      </div>
+    </div>
+
+    <h3>1.2 Das Herzstück: Die allgemeine Zinsformel</h3>
+    <p>Alle einfachen Zinsformeln basieren auf einer einzigen Logik. Anstatt drei Formeln zu lernen, lerne dieses eine System.</p>
+
+    <div class="def-box">
+      <strong>Das Herzstück der Zinsrechnung</strong><br>
+      Z = (K · p · Zeit) / (100 · Basis)
+    </div>
+
+    <p>Die Variablen „Zeit" und „Basis" passen sich an die Aufgabe an:</p>
+
+    <table>
+      <thead>
+        <tr><th>Zeitraum</th><th>Variable „Zeit"</th><th>Variable „Basis"</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Ganzes Jahr</td><td>1 (oder n für Jahre)</td><td>1</td></tr>
+        <tr><td>Monate</td><td>m (Anzahl Monate)</td><td>12</td></tr>
+        <tr><td>Tage</td><td>t (Anzahl Tage)</td><td>360 (oder 365)</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.3 Beispiel: Jahreszinsen</h3>
+    <div class="notice info">
+      <strong>📝 Aufgabe</strong>
+      Ein Unternehmen nimmt einen Kontokorrentkredit in Höhe von 50.000 € auf. Der Zinssatz beträgt 8 % p.a. Wie hoch ist die Zinsbelastung für ein volles Jahr?
+      <p><strong>Lösung (mit Herzstück-Formel):</strong><br>
+      Zeit = 1, Basis = 1<br>
+      Z = (50.000 € · 8 · 1) / (100 · 1) = <strong>4.000 €</strong></p>
+    </div>
+
+    <h2>Kapitel 2: Zinsrechnung über mehrere Jahre (ohne Zinseszins)</h2>
+
+    <h3>2.1 Das Prinzip</h3>
+    <p>Wenn ein Kapital über mehrere Jahre (n) angelegt wird und die Zinsen jedes Jahr entnommen bzw. ausgezahlt werden, bleibt das Grundkapital immer gleich. Es gibt hierbei keinen Zinseszinseffekt. Wir nutzen die Herzstück-Formel mit Zeit = n und Basis = 1.</p>
+
+    <div class="def-box">
+      <strong>Mehrjährige Zinsformel (ohne Zinseszins)</strong><br>
+      Z = (K · p · n) / 100
+    </div>
+
+    <h3>2.2 Prüfungsbeispiel</h3>
+    <div class="notice info">
+      <strong>📝 Aufgabe</strong>
+      Ein Gesellschafter gewährt seinem Unternehmen ein Darlehen über 120.000 € zu 4 % p.a. Die Laufzeit beträgt 3 Jahre. Die Zinsen werden jährlich auf sein Privatkonto überwiesen. Wie hoch ist der gesamte Zinsaufwand nach 3 Jahren?
+      <p><strong>Lösung:</strong><br>
+      Z = (120.000 € · 4 · 3) / 100<br>
+      Z = 1.440.000 / 100 = <strong>14.400 €</strong></p>
+    </div>
+
+    <div class="notice danger">
+      <strong>⛔ Die wichtigste Entscheidung in der Prüfung!</strong>
+      Die Weiche zwischen einfacher Verzinsung und Zinseszins ist ein klassischer Punktelieferant. Präge dir diesen Merksatz ein:
+      <ul>
+        <li>Zinsen werden <strong>ausgezahlt</strong> → KEIN Zinseszins</li>
+        <li>Zinsen <strong>bleiben stehen</strong> → ZINSESZINS (Kapitalwachstum)</li>
+      </ul>
+    </div>
+
+    <h2>Kapitel 3: Zinseszinsrechnung</h2>
+
+    <h3>3.1 Das Prinzip (Zinsen auf Zinsen)</h3>
+    <p>Bleiben die Zinsen am Ende eines Jahres auf dem Konto, erhöhen sie das Kapital für das nächste Jahr. Im Folgejahr werden also nicht nur das ursprüngliche Kapital, sondern auch die bereits verdienten Zinsen verzinst. Das ist der Zinseszinseffekt.</p>
+
+    <h3>3.2 Der Aufzinsungsfaktor (q)</h3>
+    <p>Um Zinseszinsen elegant zu berechnen, nutzen wir den Aufzinsungsfaktor q:</p>
+
+    <div class="def-box">
+      <strong>Aufzinsungsfaktor</strong><br>
+      q = 1 + (p / 100)
+    </div>
+    <p>Beispiel: Bei 5 % Zinsen ist q = 1,05.</p>
+
+    <div class="def-box">
+      <strong>Zinseszinsformel (Endkapital)</strong><br>
+      K<sub>n</sub> = K<sub>0</sub> · q<sup>n</sup>
+      <p style="margin-top:0.5rem; font-weight:400;">
+        K<sub>n</sub> = Endkapital nach n Jahren · K<sub>0</sub> = Anfangskapital · q = Aufzinsungsfaktor · n = Anzahl der Jahre
+      </p>
+    </div>
+
+    <h3>3.3 Vergleichsrechnung: Der Zinseszins-Effekt</h3>
+    <div class="notice info">
+      <strong>📝 Aufgabe</strong>
+      10.000 € werden für 3 Jahre zu 3 % p.a. angelegt.
+      <p><strong>Fall A (ohne Zinseszins):</strong> Zinsen werden jährlich ausgezahlt.<br>
+      Gesamtzins = (10.000 · 3 · 3) / 100 = 900,00 €. Endbetrag: 10.900,00 €.</p>
+      <p><strong>Fall B (mit Zinseszins):</strong> Zinsen werden mitverzinst.<br>
+      Endkapital K<sub>3</sub> = 10.000 · (1,03)<sup>3</sup> = 10.927,27 €. Gesamtzins: 927,27 €.</p>
+    </div>
+
+    <div class="notice ok">
+      <strong>✓ Merksatz</strong>
+      Der Zinseszins wirkt exponentiell. Je länger die Laufzeit und je höher der Zins, desto größer der Hebel!
+    </div>
+
+    <h3>3.4 Prüfungsbeispiel (Komplexer)</h3>
+    <div class="notice info">
+      <strong>📝 Aufgabe</strong>
+      Welches Kapital (K<sub>0</sub>) muss man heute zu 4 % p.a. anlegen, um nach 5 Jahren über ein Endkapital von 20.000 € zu verfügen? (Zinseszins)
+      <p><strong>Lösung:</strong><br>
+      1. Formel umstellen: K<sub>0</sub> = K<sub>n</sub> / q<sup>n</sup><br>
+      2. q ermitteln: q = 1 + (4/100) = 1,04<br>
+      3. Einsetzen: K<sub>0</sub> = 20.000 € / (1,04)<sup>5</sup><br>
+      4. Ausrechnen: K<sub>0</sub> = 20.000 € / 1,21665… = <strong>16.438,54 €</strong></p>
+    </div>
+
+    <h2>Kapitel 4: Unterjährige Verzinsung</h2>
+    <p>Wird ein Betrag nicht für ein ganzes Jahr, sondern nur für Monate (m) oder Tage (t) verzinst, nutzen wir wieder die Herzstück-Formel.</p>
+
+    <h3>4.1 Monatszinsen</h3>
+    <div class="def-box">
+      <strong>Monatszinsformel</strong><br>
+      Z = (K · p · m) / (100 · 12)
+      <p style="margin-top:0.5rem; font-weight:400;">Oder zusammengefasst im Nenner: / 1200</p>
+    </div>
+
+    <div class="notice info">
+      <strong>📝 Beispiel Monatszinsen</strong>
+      Ein Kapital von 8.000 € wird für 5 Monate zu 6 % p.a. angelegt. Wie hoch sind die Zinsen?
+      <p>Z = (8.000 · 6 · 5) / (100 · 12) = 240.000 / 1200 = <strong>200,00 €</strong></p>
+    </div>
+
+    <h3>4.2 Tageszinsen</h3>
+    <div class="def-box">
+      <strong>Tageszinsformel</strong><br>
+      Z = (K · p · t) / (100 · 360)
+      <p style="margin-top:0.5rem; font-weight:400;">Oder zusammengefasst im Nenner: / 36000 (bei 360 Tagen)</p>
+    </div>
+
+    <div class="notice info">
+      <strong>📝 Beispiel Tageszinsen</strong>
+      Eine Lieferantenrechnung über 12.000 € wird 24 Tage zu spät bezahlt. Der Lieferant berechnet 9 % Verzugszinsen p.a. Wie hoch sind die Verzugszinsen? (Rechne mit 360 Tagen/Jahr.)
+      <p><strong>Lösung:</strong><br>
+      Z = (12.000 € · 9 · 24) / (100 · 360)<br>
+      Z = 2.592.000 / 36.000 = <strong>72,00 €</strong></p>
+    </div>
+
+    <h2>Kapitel 5: Verschiedene Zinsmethoden (Prüfungsregeln)</h2>
+    <p>In der Praxis und in Prüfungen gibt es unterschiedliche Methoden, wie Tage gezählt werden. Die Methode wird oft als Bruch dargestellt: Zählweise der Tage im Monat / Zählweise der Tage im Jahr.</p>
+
+    <div class="notice ok">
+      <strong>🔥 IHK-Standardregeln für Zinsmethoden</strong>
+      Diese Regeln geben dir Sicherheit in der Prüfung, wenn die Methode nicht explizit genannt wird:
+      <ul>
+        <li>Wenn nichts angegeben ist → <strong>30/360</strong> (Kaufmännische Methode).</li>
+        <li>Wenn „kalendergenau" oder „BGB" steht → <strong>act/act</strong> (Effektivzinsmethode).</li>
+        <li>Wenn „international" oder „Geldmarkt" steht → <strong>act/360</strong> (Euro-Zinsformel).</li>
+      </ul>
+    </div>
+
+    <div class="two-col">
+      <div class="content-card">
+        <strong>5.1 Kaufmännische Zinsformel (30/360)</strong>
+        <p>Der absolute Standard in der kaufmännischen Ausbildung.<br>
+        Monat: Jeder Monat wird pauschal mit 30 Tagen gerechnet.<br>
+        Jahr: Das Jahr hat pauschal 360 Tage (12 Monate × 30 Tage).</p>
+      </div>
+      <div class="content-card">
+        <strong>5.2 Euro-Zinsformel (act/360)</strong>
+        <p>Wird oft im internationalen Geldmarkt verwendet.<br>
+        Monat (act = actual): kalendergenau gezählt (Januar = 31, Februar = 28/29).<br>
+        Jahr (360): trotzdem pauschal mit 360 Tagen gerechnet.</p>
+      </div>
+    </div>
+
+    <div class="content-card">
+      <strong>5.3 BGB-Zinsformel (act/act)</strong>
+      <p>Gesetzlich im BGB verankert, z. B. für Verbraucherkredite.<br>
+      Monat (act): kalendergenaue Zählung der Tage.<br>
+      Jahr (act): Das Jahr hat exakt 365 Tage (bzw. 366 im Schaltjahr).</p>
+    </div>
+
+    <div class="notice danger">
+      <strong>⛔ Typischer Prüfungsfehler</strong>
+      Du berechnest Verzugszinsen nach BGB (act/act), teilst in der Formel aber aus Gewohnheit durch 360 statt durch 365. Achte penibel auf den Aufgabentext! Steht dort „BGB" oder „kalendergenau", ist die Basis 365 (oder 366).
+    </div>
+
+    <h2>Kapitel 6: Anleitung zum Formeln umstellen</h2>
+    <p>Oft sind in der Prüfung die Zinsen (Z) bereits gegeben, und du musst das Kapital (K), den Zinssatz (p) oder die Zeit (t) berechnen. Hier scheitern viele an der Mathematik. Der sicherste Weg ist die Linearisierung der Formel.</p>
+
+    <h3>Schritt 1: Die Formel auf eine Linie bringen</h3>
+    <p>Wir nehmen die Tageszinsformel: Z = (K · p · t) / (100 · 360). Um den Bruchstrich wegzubekommen, multiplizieren wir beide Seiten mit dem Nenner (100 · 360). Das ergibt die universelle „Einzeiler-Formel":</p>
+
+    <div class="def-box">
+      <strong>Die universelle Basis-Gleichung</strong><br>
+      K · p · t = Z · 360 · 100
+    </div>
+
+    <h3>Schritt 2: Nach der gesuchten Variable auflösen</h3>
+    <p><strong>Regel:</strong> Alles, was auf der Seite der gesuchten Variable stört, wandert mit einem Geteilt-Zeichen (bzw. unter den Bruchstrich) auf die andere Seite.</p>
+
+    <table>
+      <thead>
+        <tr><th>Gesucht</th><th>Bruchstrich-Variante (fürs Papier)</th><th>Einzeilige Variante (für den Taschenrechner)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Kapital (K)</td><td>K = (Z · 360 · 100) / (p · t)</td><td>K = (Z * 360 * 100) / (p * t)</td></tr>
+        <tr><td>Zinssatz (p)</td><td>p = (Z · 360 · 100) / (K · t)</td><td>p = (Z * 360 * 100) / (K * t)</td></tr>
+        <tr><td>Tage (t)</td><td>t = (Z · 360 · 100) / (K · p)</td><td>t = (Z * 360 * 100) / (K * p)</td></tr>
+      </tbody>
+    </table>
+
+    <div class="notice danger">
+      <strong>⛔ Wichtig für die Taschenrechner-Eingabe</strong>
+      Wenn du die einzeilige Variante in den Taschenrechner tippst, musst du zwingend Klammern um den Nenner setzen!
+      <p>Falsch: 1000 / 5 * 10 (Rechner rechnet 1000/5 = 200, dann 200×10 = 2000)<br>
+      Richtig: 1000 / (5 * 10) (Rechner rechnet 1000/50 = 20)</p>
+    </div>
+
+    <div class="related-topics">
+      <h3>Verwandte Themen</h3>
+      <ul>
+        <li><a href="basics_ls01.html">LS01 · Dreisatz – Bruchstrichmethode</a> – Grundrechenverfahren, das mit der Zinsformel verwandt ist</li>
+        <li><a href="basics_ls02.html">LS02 · Durchschnittsrechnung</a> – weiteres kaufmännisches Rechenverfahren</li>
+        <li><a href="finanz_ls01.html">Finanzmanagement LS01 · Investitionsrechnung</a> – Aufzinsungs-/Abzinsungsfaktor als Basis der dynamischen Verfahren</li>
+      </ul>
+    </div>
+  </main>
+</div>
+
+<footer class="page-footer">
+  <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
+  <div>BASICS LS17 · Stand: 01.07.2026</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script src="../css/pages.js"></script>
+<script src="../css/engine.js"></script>
+</body>
+</html>

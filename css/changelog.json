@@ -4,6 +4,11 @@
     "eintraege": [
       {
         "modul": "basics",
+        "titel": "LS17 · Zinsrechnung – Von den Grundlagen zum Zinseszins",
+        "aktion": "neu"
+      },
+      {
+        "modul": "basics",
         "titel": "LS03 · Buchungskreislauf EBK–SBK",
         "aktion": "neu"
       },
