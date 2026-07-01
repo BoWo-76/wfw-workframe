@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LS20 · Mathematische Grundlagen – WFW Wiki</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../index.html">WFW<span>Wiki</span></a>
+  <div class="search-wrap">
+    <input id="search-input" type="search" placeholder="Thema suchen …" autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+</div>
+
+<div class="layout">
+  <nav class="sidebar"></nav>
+
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="../index.html">Startseite</a> › <a href="modul_basics.html">Basics Wirtschaftsrechnen</a> › LS20
+    </div>
+
+    <div class="page-header">
+      <div class="kicker">Basics Wirtschaftsrechnen · Mathematik</div>
+      <h1>LS20 · Mathematische Grundlagen – Das Fundament für die IHK-Prüfung</h1>
+      <div class="meta">
+        <span>👤 Kreß &amp; Steinhof</span>
+        <span>Stand: 01.07.2026</span>
+      </div>
+    </div>
+
+    <div class="pruef-box">
+      Viele verlieren Punkte in der Prüfung nicht wegen BWL, sondern wegen einfacher Rechenfehler. Wer Zins und Tilgung nicht sauber trennt oder bei Klammern patzt, verschenkt wertvolle Zeit und Punkte.
+    </div>
+
+    <h2>Kapitel 1 · Rechnen mit Klammern</h2>
+    <h3>1.1 Die Hierarchie der Mathematik</h3>
+    <p>In der Betriebswirtschaftslehre werden häufig verschiedene Rechenoperationen in einer einzigen Formel kombiniert (z. B. bei Gesamtkosten oder Zuschlagskalkulation). Um eindeutige Ergebnisse zu erzielen, folgt die Mathematik einer strikten Hierarchie.</p>
+    <div class="def-box">
+      <div class="def-term">📘 Die KLAPPS-Regel (Prioritätenfolge)</div>
+      1. Klammern zuerst berechnen (innere vor äußeren)<br>
+      2. Potenzen und Wurzeln auflösen<br>
+      3. Punktrechnung (Multiplikation und Division)<br>
+      4. Strichrechnung (Addition und Subtraktion)
+    </div>
+    <p>Wenn du unsicher bist: rechne immer Schritt für Schritt mit Klammern. Keine Abkürzungen!</p>
+
+    <h3>1.2 Betriebswirtschaftliche Anwendung</h3>
+    <p>Ein klassisches Beispiel ist die Berechnung eines Verkaufspreises nach Abzug eines Rabatts. Wird die Hierarchie missachtet, führt dies zu gravierenden Fehlkalkulationen.</p>
+    <div class="notice danger">
+      <strong>📝 Beispiel:</strong> Ein Produkt kostet 100 €, Rabatt 10 €, davon 5 Stück gekauft.<br>
+      <strong>Falsch:</strong> 100 − 10 · 5 = 100 − 50 = 50 € (Punkt vor Strich, aber kaufmännische Logik ignoriert)<br>
+      <strong>Korrekt:</strong> (100 − 10) · 5 = 90 · 5 = <strong>450 €</strong> (Klammer erzwingt die vorherige Subtraktion des Rabatts)
+    </div>
+
+    <h3>1.3 Klammern auflösen (Ausmultiplizieren)</h3>
+    <p>Steht ein Faktor vor einer Klammer, muss dieser mit jedem Element innerhalb der Klammer multipliziert werden (Distributivgesetz):</p>
+    <div class="def-box">a · (b + c) = a · b + a · c</div>
+    <div class="notice warn">
+      <strong>⚠️ Vorsicht Falle! Das Minus vor der Klammer</strong>
+      Steht ein Minuszeichen vor einer Klammer, drehen sich beim Auflösen alle Vorzeichen in der Klammer um — eine der häufigsten Fehlerquellen in der Kosten- und Leistungsrechnung.<br>
+      <strong>Beispiel:</strong> 500 − (200 − 50) = 500 − 200 + 50 = <strong>350</strong>
+    </div>
+
+    <h2>Kapitel 2 · Funktionen mit Variablen</h2>
+    <h3>2.1 Das Konzept der Unbekannten</h3>
+    <p>In der IHK-Prüfung verbergen sich hinter Variablen konkrete betriebswirtschaftliche Größen: K₀ (Barwert), i (Zinssatz), n (Laufzeit) oder x (Produktionsmenge). Eine Variable ist lediglich ein Platzhalter für eine noch zu ermittelnde Zahl.</p>
+
+    <h3>2.2 Zusammenfassen von Variablen</h3>
+    <p>Variablen können nur dann addiert oder subtrahiert werden, wenn sie exakt gleich sind — vergleichbar mit einer Inventur: Äpfel und Birnen können nicht in einer Summe zusammengefasst werden.</p>
+    <div class="def-box">
+      <div class="def-term">📗 Regel zum Zusammenfassen</div>
+      Gleiche Variablen dürfen addiert/subtrahiert werden: 3x + 5x = 8x<br>
+      Ungleiche Variablen bleiben getrennt: 3x + 5y (keine weitere Vereinfachung möglich)<br>
+      Variablen mit unterschiedlichen Potenzen bleiben getrennt: 2x² + 4x (nicht zusammenfassbar)
+    </div>
+
+    <h3>2.3 Interpretation für Entscheidungen (Break-Even-Analyse)</h3>
+    <p>Zentrales Anwendungsgebiet für Variablen: die Gewinnschwellenanalyse (Break-Even-Point). Ziel: ab welcher Menge entsteht genau Gewinn — der Punkt, an dem Erlös und Kosten gleich sind.</p>
+    <div class="notice info">
+      <strong>📝 Szenario</strong>
+      Ein Produkt wird für 10 € pro Stück verkauft, variable Kosten 6 € pro Stück, Fixkosten 2.000 €.<br>
+      Erlöse = Kosten → 10x = 6x + 2.000<br>
+      Die Variable x ist die Stückzahl — Ziel: alle x auf eine Seite bringen, um zu ermitteln, ab welcher Menge Gewinn entsteht (Lösungstechnik: siehe Kapitel 3).
+    </div>
+
+    <h2>Kapitel 3 · Formeln umstellen (Hauptfokus)</h2>
+    <h3>3.1 Die Waagen-Metapher</h3>
+    <p>Das Umstellen von Formeln ist die wichtigste mathematische Fähigkeit für angehende Wirtschaftsfachwirte. Eine Gleichung ist wie eine perfekt ausbalancierte Waage — das Gleichheitszeichen (=) ist der Drehpunkt. Man muss stets das Gegenteil machen (Plus wird Minus, Mal wird Geteilt).</p>
+    <div class="pruef-box">
+      <strong>🔥 Das Herzstück: die Äquivalenzumformung</strong><br>
+      Was auf der linken Seite der Gleichung passiert, muss exakt so auf der rechten Seite passieren. Ziel jeder Umformung: die Isolation der gesuchten Variablen auf einer Seite. Man löst „rückwärts" auf, indem man stets die Gegenoperation anwendet.
+    </div>
+
+    <h3>3.2 Die Gegenoperationen</h3>
+    <table>
+      <tr><th>Vorhandene Operation</th><th>Gegenoperation (zum Isolieren)</th><th>Kommando-Schreibweise</th></tr>
+      <tr><td>Addition (+)</td><td>Subtraktion (−)</td><td>| − Wert</td></tr>
+      <tr><td>Subtraktion (−)</td><td>Addition (+)</td><td>| + Wert</td></tr>
+      <tr><td>Multiplikation (·)</td><td>Division (:)</td><td>| : Wert</td></tr>
+      <tr><td>Potenz (z. B. x²)</td><td>Wurzel (z. B. √)</td><td>| √</td></tr>
+    </table>
+
+    <h3>3.3 Schritt-für-Schritt-Beispiel: Einfache Verzinsung</h3>
+    <p>Zinsformel: Z = K₀ · i · n. Gegeben: Z, K₀, n. Gesucht: Zinssatz (i).</p>
+    <div class="notice ok">
+      Ausgangsformel: Z = K₀ · i · n<br>
+      Schritt 1: i isolieren — K₀ und n sind über ein Malzeichen (·) gebunden.<br>
+      Schritt 2: Gegenoperation zu Multiplikation ist Division — beide Seiten durch (K₀ · n) teilen.<br>
+      Umformung: Z = K₀ · i · n | : (K₀ · n)<br>
+      <strong>Ergebnis: i = Z / (K₀ · n)</strong>
+    </div>
+
+    <h3>3.4 Komplexes Beispiel: Zinseszinsrechnung</h3>
+    <p>Zinseszinsformel: Kₙ = K₀ · qⁿ. Diese Formel muss in der Prüfung fließend in alle Richtungen umgestellt werden können. Geld wächst nicht linear, sondern durch den Zinseszins immer schneller.</p>
+
+    <div class="two-col">
+      <div class="content-card">
+        <h4>Fall A: Barwert (K₀) gesucht (Abzinsen)</h4>
+        Kₙ = K₀ · qⁿ | : qⁿ<br>
+        <strong>K₀ = Kₙ / qⁿ</strong><br><br>
+        Zeigt, wie viel Kapital heute angelegt werden muss, um in n Jahren einen Zielbetrag zu erreichen.
+      </div>
+      <div class="content-card">
+        <h4>Fall B: Zinsfaktor (q) gesucht</h4>
+        Kₙ = K₀ · qⁿ | : K₀<br>
+        Kₙ / K₀ = qⁿ | ⁿ√ (n-te Wurzel ziehen)<br>
+        <strong>q = ⁿ√(Kₙ / K₀)</strong>
+      </div>
+    </div>
+
+    <div class="notice warn">
+      <strong>⚠️ Vorsicht Falle! Die Reihenfolge der Umformung</strong>
+      Beim Umstellen von Formeln gilt die <strong>umgekehrte</strong> KLAPPS-Regel: Man schält die Variable wie eine Zwiebel von außen nach innen ab. Zuerst Strichrechnungen (+/−) auf die andere Seite bringen, dann Punktrechnungen (·/:), und ganz am Schluss erst Potenzen oder Klammern auflösen.
+    </div>
+
+    <h2>Kapitel 4 · Potenzieren und Radizieren</h2>
+    <h3>4.1 Exponentielles Wachstum (Potenzen)</h3>
+    <p>Potenzen beschreiben den Zinseszinseffekt: Werden Zinsen dem Kapital zugeschlagen und im Folgejahr mitverzinst, wächst das Kapital exponentiell. Die Potenz qⁿ bedeutet, dass der Zinsfaktor q genau n-mal mit sich selbst multipliziert wird (3³ ist einfach 3 × 3 × 3).</p>
+    <div class="def-box">
+      <div class="def-term">🪻 Wichtige Potenzregeln für die Prüfung</div>
+      Irgendetwas hoch Null ist immer 1: q⁰ = 1 (das Kapital im Jahr 0 wurde noch nicht verzinst)<br>
+      Multiplikation bei gleicher Basis: q² · q³ = q⁵ (Exponenten werden addiert)
+    </div>
+
+    <h3>4.2 Die Umkehrung: Radizieren (Wurzelziehen)</h3>
+    <p>Die Gegenoperation zum Potenzieren — benötigt, um einen durchschnittlichen Wachstumsfaktor oder Zinssatz über mehrere Perioden zu ermitteln.</p>
+    <div class="notice ok">
+      <strong>📝 Beispiel aus der Praxis</strong>
+      Ein Kapital ist in 4 Jahren von 10.000 € auf 12.155 € gewachsen. Wie hoch war die durchschnittliche jährliche Verzinsung?<br>
+      q⁴ = 12.155 / 10.000 = 1,2155<br>
+      q = ⁴√1,2155 ≈ 1,05<br>
+      Interpretation: Zinsfaktor q = 1,05, also i = 0,05 bzw. <strong>5 % p.a.</strong>
+    </div>
+
+    <div class="notice danger">
+      <strong>⚠️ Vorsicht Falle! Wurzel aus Summen</strong>
+      Aus einer Summe oder Differenz darf niemals einzeln die Wurzel gezogen werden!<br>
+      <strong>Falsch:</strong> √(16 + 9) = √16 + √9 = 4 + 3 = 7<br>
+      <strong>Korrekt:</strong> √(16 + 9) = √25 = <strong>5</strong>
+    </div>
+
+    <h2>Kapitel 5 · Typische Prüfungsfallen &amp; Checkliste</h2>
+    <h3>5.1 Die Top-3-Fehlerquellen</h3>
+    <div class="pruef-box">
+      90 % der Fehler in der Prüfung entstehen nicht durch fehlendes Wissen, sondern durch Unaufmerksamkeit beim Tippen oder Vorzeichen.
+    </div>
+
+    <table>
+      <tr><th>Fehler</th><th>Erklärung &amp; Regel</th></tr>
+      <tr>
+        <td><strong>1. Runden in Zwischenschritten</strong></td>
+        <td>Werden Zinsfaktoren (z. B. q = 1,035) in Zwischenrechnungen gerundet, potenziert sich der Fehler bei langen Laufzeiten massiv. Regel: mit dem exakten Wert weiterrechnen (Ans-Taste nutzen), erst das Endergebnis auf zwei Nachkommastellen runden.</td>
+      </tr>
+      <tr>
+        <td><strong>2. Zinssatz (i) vs. Zinsfaktor (q) verwechselt</strong></td>
+        <td>In Formeln wie der Rentenrechnung tauchen oft q und i gleichzeitig auf (z. B. q − 1). Bei 4 % Zins ist i = 0,04 und q = 1,04 — die falsche Zahl macht das Ergebnis unbrauchbar.</td>
+      </tr>
+      <tr>
+        <td><strong>3. Brüche falsch in den Taschenrechner getippt</strong></td>
+        <td>Steht im Zähler oder Nenner eine Summe (z. B. qⁿ − 1), muss diese zwingend in Klammern gesetzt werden, wenn kein echter Bruchstrich dargestellt wird — sonst greift „Punkt vor Strich" und es wird nur die letzte Zahl geteilt.</td>
+      </tr>
+    </table>
+
+    <h3>5.2 Plausibilitäts-Checkliste für das Endergebnis</h3>
+    <ul>
+      <li>☐ Schritte IMMER der Reihe nach abarbeiten — nicht springen. Systematik schlägt Panik.</li>
+      <li>☐ Einheiten-Check: Passt die Einheit zur gesuchten Größe? (Zinssatz → % oder Dezimalzahl &lt; 1, nicht Euro)</li>
+      <li>☐ Größenordnungs-Check (Finanzierung): Ist der Barwert (K₀) logischerweise kleiner als der Endwert (Kₙ)? (Bei positiven Zinsen muss das so sein)</li>
+      <li>☐ Größenordnungs-Check (Kostenrechnung): Sind die variablen Stückkosten kleiner als der Verkaufspreis? (Sonst kein positiver Deckungsbeitrag)</li>
+      <li>☐ Die Probe: berechnetes Ergebnis wieder in die Ausgangsformel einsetzen — geht die Gleichung auf beiden Seiten auf?</li>
+    </ul>
+
+    <div class="related-topics">
+      <h2>Verwandte Themen</h2>
+      <div class="related-links">
+        <a href="basics_ls16.html">📄 LS16 · Prozentrechnen</a>
+        <a href="basics_ls17.html">📄 LS17 · Zinsrechnung</a>
+        <a href="basics_ls18.html">📄 LS18 · Darlehenstilgung</a>
+        <a href="basics_ls19.html">📄 LS19 · Rentenrechnung</a>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<footer class="page-footer">
+  <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
+  <div>Basics Wirtschaftsrechnen · LS20</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script src="../css/pages.js"></script>
+<script src="../css/engine.js"></script>
+</body>
+</html>

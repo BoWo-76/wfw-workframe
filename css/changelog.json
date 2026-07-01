@@ -4,6 +4,21 @@
     "eintraege": [
       {
         "modul": "basics",
+        "titel": "LS20 · Mathematische Grundlagen",
+        "aktion": "neu"
+      },
+      {
+        "modul": "basics",
+        "titel": "LS19 · Rentenrechnung",
+        "aktion": "neu"
+      },
+      {
+        "modul": "basics",
+        "titel": "LS18 · Darlehenstilgung",
+        "aktion": "neu"
+      },
+      {
+        "modul": "basics",
         "titel": "LS16 · Prozentrechnen – Grundlagen & Prüfungsrelevanz",
         "aktion": "neu"
       },

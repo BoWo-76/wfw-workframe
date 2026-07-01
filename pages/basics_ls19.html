@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LS19 · Rentenrechnung – WFW Wiki</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../index.html">WFW<span>Wiki</span></a>
+  <div class="search-wrap">
+    <input id="search-input" type="search" placeholder="Thema suchen …" autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+</div>
+
+<div class="layout">
+  <nav class="sidebar"></nav>
+
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="../index.html">Startseite</a> › <a href="modul_basics.html">Basics Wirtschaftsrechnen</a> › LS19
+    </div>
+
+    <div class="page-header">
+      <div class="kicker">Basics Wirtschaftsrechnen · Finanzmathematik</div>
+      <h1>LS19 · Rentenrechnung – Von den Grundlagen zur Prüfungsrelevanz</h1>
+      <div class="meta">
+        <span>👤 Kreß &amp; Steinhof</span>
+        <span>Stand: 01.07.2026</span>
+      </div>
+    </div>
+
+    <p>Die Rentenrechnung ist ein zentrales Werkzeug der Finanzmathematik und ein wiederkehrendes Thema in der IHK-Prüfung. Sie bewertet Zahlungsströme über die Zeit und ist die Grundlage für Investitionsentscheidungen, Vermögensplanung und die Bewertung von Krediten.</p>
+    <div class="pruef-box">
+      Kernkonzept: der Zeitwert des Geldes. Ein Euro heute ist mehr wert als ein Euro in der Zukunft. Wer Barwert und Endwert verwechselt, verliert sichere Punkte.
+    </div>
+
+    <h2>Kapitel 1 · Grundlagen &amp; zentrale Variablen</h2>
+    <table>
+      <tr><th>Variable</th><th>Bedeutung</th><th>Typische Frage</th></tr>
+      <tr><td><strong>Rente (R)</strong></td><td>Die konstante, periodische Zahlung (z. B. Sparrate, Leasingrate).</td><td>„Wie hoch ist die monatliche Rate?"</td></tr>
+      <tr><td><strong>Laufzeit (n)</strong></td><td>Die Anzahl der Perioden (Jahre, Monate), über die die Zahlungen erfolgen.</td><td>„Wie lange muss gespart werden?"</td></tr>
+      <tr><td><strong>Zinssatz (i) / Zinsfaktor (q)</strong></td><td>Der Preis des Geldes pro Periode. q = 1 + i.</td><td>„Welcher Zinssatz wird erzielt?"</td></tr>
+      <tr><td><strong>Barwert (B₀)</strong></td><td>Der heutige Wert aller zukünftigen Rentenzahlungen.</td><td>„Was ist die Investition heute wert?"</td></tr>
+      <tr><td><strong>Endwert (Eₙ)</strong></td><td>Der zukünftige Wert aller Rentenzahlungen am Ende der Laufzeit.</td><td>„Welches Kapital steht am Ende zur Verfügung?"</td></tr>
+    </table>
+
+    <div class="two-col">
+      <div class="content-card">
+        <h4>Aufzinsen</h4>
+        Man berechnet den zukünftigen Wert einer heutigen Zahlung (Endwert). Man bewegt sich auf der Zeitachse nach rechts.
+      </div>
+      <div class="content-card">
+        <h4>Abzinsen</h4>
+        Man berechnet den heutigen Wert einer zukünftigen Zahlung (Barwert). Man bewegt sich auf der Zeitachse nach links.
+      </div>
+    </div>
+
+    <h2>Kapitel 2 · Die zwei Achsen der Rentenrechnung</h2>
+    <p>Jede Aufgabe lässt sich anhand von zwei zentralen Fragen einordnen, die zur richtigen Formel führen:</p>
+    <ol>
+      <li><strong>Was wird gesucht?</strong> Der Wert am Anfang (Barwert) oder am Ende (Endwert) der Laufzeit?</li>
+      <li><strong>Wann wird gezahlt?</strong> Am Ende der Periode (nachschüssig, der Standardfall) oder am Anfang (vorschüssig)?</li>
+    </ol>
+
+    <h3>Die 4 Kernformeln der Rentenrechnung</h3>
+    <div class="def-box">
+      <div class="def-term">Nachschüssiger Rentenbarwert (Bₙ)</div>
+      Bₙ = R · (qⁿ − 1) / (qⁿ · (q − 1))
+    </div>
+    <div class="def-box">
+      <div class="def-term">Vorschüssiger Rentenbarwert (Bᵥ)</div>
+      Bᵥ = Bₙ · q
+    </div>
+    <div class="def-box">
+      <div class="def-term">Nachschüssiger Rentenendwert (Eₙ)</div>
+      Eₙ = R · (qⁿ − 1) / (q − 1)
+    </div>
+    <div class="def-box">
+      <div class="def-term">Vorschüssiger Rentenendwert (Eᵥ)</div>
+      Eᵥ = Eₙ · q
+    </div>
+
+    <div class="notice warn">
+      <strong>Prüfungsfokus: die richtige Wahl</strong>
+      Die größte Herausforderung ist nicht die Formel selbst, sondern die richtige Auswahl anhand der Fragestellung. Schlüsselwörter wie „heutiger Wert", „Kreditbetrag" (Barwert) oder „Endkapital", „angesparter Betrag" (Endwert) sind entscheidend.
+    </div>
+
+    <h2>Kapitel 3 · Praxisbeispiele &amp; Interpretation</h2>
+    <p>Die reine Berechnung ist nur die halbe Miete. In der Prüfung zählt die Interpretation des Ergebnisses im betriebswirtschaftlichen Kontext.</p>
+
+    <h3>Beispiel 1: Vermögensaufbau (Rentenendwert)</h3>
+    <p>10 Jahre lang werden monatlich 200 € auf ein Konto gespart, das mit 3 % p.a. (0,25 % pro Monat) verzinst wird — nachschüssige Einzahlung. Welches Kapital steht am Ende zur Verfügung?</p>
+    <p>Gesucht: Endwert (Eₙ). R = 200 €, n = 120 Monate, i = 0,0025 (q = 1,0025)</p>
+    <p>Eₙ = 200 · (1,0025¹²⁰ − 1) / (1,0025 − 1) = <strong>27.945,56 €</strong></p>
+    <div class="notice info">
+      <strong>Interpretation für die Prüfung</strong>
+      Der Rentenendwert zeigt den reinen Vermögensaufbau inklusive Zinseszinseffekt. Er trifft keine Aussage über die Wirtschaftlichkeit im Vergleich zu anderen Anlagen, sondern nur über den finalen Betrag.
+    </div>
+
+    <h3>Beispiel 2: Investitionsentscheidung (Rentenbarwert)</h3>
+    <p>Ein Unternehmen kann eine Maschine leasen: Leasingrate 15.000 € jährlich über 5 Jahre (nachschüssig), interner Kalkulationszinssatz 6 % p.a. Welchen Betrag dürfte die Maschine maximal kosten, damit sich das Leasing lohnt?</p>
+    <p>Gesucht: Barwert (Bₙ). R = 15.000 €, n = 5 Jahre, i = 0,06 (q = 1,06)</p>
+    <p>Bₙ = 15.000 · (1,06⁵ − 1) / (1,06⁵ · 0,06) = <strong>63.181,55 €</strong></p>
+    <p>Erweiterung: Kostet die Maschine 60.000 €, lohnt sich die Investition?</p>
+    <p>Kapitalwert = Barwert der Einzahlungen − Anschaffungskosten = 63.181,55 € − 60.000 € = <strong>+3.181,55 €</strong></p>
+    <div class="notice ok">
+      <strong>Interpretation für die Prüfung</strong>
+      Der positive Kapitalwert zeigt, dass die Investition die geforderte Mindestverzinsung von 6 % nicht nur erreicht, sondern übertrifft — die Investition ist finanziell vorteilhaft.
+    </div>
+
+    <h2>Kapitel 4 · Sonderfälle &amp; Vertiefung</h2>
+
+    <h3>4.1 Die ewige Rente</h3>
+    <p>Eine Rente, die unendlich lange gezahlt wird (z. B. aus einer Stiftung). Da die Laufzeit unendlich ist, gibt es nur einen Barwert.</p>
+    <div class="def-box">
+      <div class="def-term">Formel</div>
+      Barwert (B₀) = R / i
+    </div>
+    <div class="notice ok">
+      <strong>📝 Beispiel</strong>
+      Eine Stiftung will jährlich 50.000 € ausschütten, der Kapitalmarkt bietet 4 % Zinsen. Nötiges Stiftungskapital: B₀ = 50.000 € / 0,04 = <strong>1.250.000 €</strong>
+    </div>
+
+    <h3>4.2 Unterjährige Verzinsung</h3>
+    <p>Erfolgen Rentenzahlungen und Zinsgutschrift in kürzeren Abständen als einem Jahr (z. B. monatlich), müssen Zinssatz und Laufzeit angepasst werden.</p>
+    <ul>
+      <li><strong>Periodenzinssatz (i_per):</strong> Jahreszinssatz / Anzahl der Perioden (z. B. i / 12)</li>
+      <li><strong>Periodenanzahl (n_per):</strong> Laufzeit in Jahren · Anzahl der Perioden (z. B. n · 12)</li>
+    </ul>
+    <div class="notice info">
+      <strong>Der Zinseszinseffekt</strong>
+      Je häufiger innerhalb eines Jahres verzinst wird (z. B. monatlich statt jährlich), desto stärker wirkt der Zinseszinseffekt und desto höher fällt der Endwert aus.
+    </div>
+
+    <h3>4.3 Verbindung zur Annuitätentilgung</h3>
+    <p>Die Formel zur Berechnung einer konstanten Darlehensrate (Annuität) ist eine direkte Anwendung der Rentenrechnung.</p>
+    <div class="notice warn">
+      <strong>Die Brücke der Themen</strong>
+      Der ursprüngliche Darlehensbetrag ist der Barwert der zukünftigen Ratenzahlungen. Die Rentenrechnung bildet somit die mathematische Grundlage der Annuitätentilgung (siehe LS18).
+    </div>
+
+    <h2>Kapitel 5 · Typische Prüfungsfallen</h2>
+    <div class="notice danger">
+      <strong>⚠️ Falle 1: Barwert und Endwert verwechselt</strong>
+      Der Klassiker: Frage „Was ist es heute wert?" und Endwertformel benutzt. Immer zuerst die Zeitachse klären: Wert am Anfang oder am Ende?
+    </div>
+    <div class="notice danger">
+      <strong>⚠️ Falle 2: Vorschüssig vs. nachschüssig ignoriert</strong>
+      Steht im Text „Zahlung zu Beginn des Jahres" oder „am 01.01.", muss die vorschüssige Formel (Multiplikation mit q) verwendet werden. Standard ist immer nachschüssig.
+    </div>
+    <div class="notice danger">
+      <strong>⚠️ Falle 3: Falscher Zinsfaktor (q)</strong>
+      Besonders bei unterjährigen Zahlungen: Wird der Zinssatz korrekt auf die Periode umgerechnet? (6 % p.a. sind NICHT 6 % pro Monat).
+    </div>
+    <div class="notice danger">
+      <strong>⚠️ Falle 4: Taschenrechner-Fehler</strong>
+      Die Formeln sind komplex — eine falsche Klammer oder vergessene Potenz zerstört das Ergebnis. Immer den Rechenweg sauber aufschreiben.
+    </div>
+
+    <h2>Kapitel 6 · Checkliste für die Prüfung</h2>
+    <ol>
+      <li><strong>Was ist die Kernfrage?</strong> Wert heute (Barwert) oder in der Zukunft (Endwert)?</li>
+      <li><strong>Wann wird gezahlt?</strong> Am Anfang (vorschüssig) oder am Ende (nachschüssig) der Periode?</li>
+      <li><strong>Welche Variablen sind gegeben?</strong> R, n, i, B₀ oder Eₙ? Was wird gesucht?</li>
+      <li><strong>Sind die Perioden konsistent?</strong> Passen Zahlungsrhythmus, Laufzeit und Zinssatz zusammen (z. B. alles in Monaten)?</li>
+      <li><strong>Formel auswählen und einsetzen.</strong> Konzentriert rechnen.</li>
+      <li><strong>Ist das Ergebnis logisch?</strong> Ein Barwert muss kleiner sein als die Summe aller Rentenzahlungen, ein Endwert muss größer sein (Plausibilitätscheck!).</li>
+    </ol>
+
+    <div class="related-topics">
+      <h2>Verwandte Themen</h2>
+      <div class="related-links">
+        <a href="basics_ls18.html">📄 LS18 · Darlehenstilgung</a>
+        <a href="basics_ls17.html">📄 LS17 · Zinsrechnung</a>
+        <a href="finanz_ls01.html">📄 Finanzmanagement LS01 · Investitionsrechnung</a>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<footer class="page-footer">
+  <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
+  <div>Basics Wirtschaftsrechnen · LS19</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script src="../css/pages.js"></script>
+<script src="../css/engine.js"></script>
+</body>
+</html>

@@ -329,5 +329,20 @@ const WIKI_CONFIG = {
       file: "pages/basics_ls17.html", status: "fertig", updated: "01.07.2026",
       keywords: ["zinsrechnung", "zinsen", "zinseszins", "kapital", "zinssatz", "aufzinsungsfaktor", "herzstückformel", "jahreszinsen", "monatszinsen", "tageszinsen", "unterjährige verzinsung", "30/360", "act/360", "act/act", "kaufmännische zinsformel", "euro-zinsformel", "bgb-zinsformel", "verzugszinsen", "formeln umstellen", "bruchstrich", "einzeiler", "linearisierung", "taschenrechner"]
     },
+    {
+      id: "basics_ls18", module: "basics", title: "LS18 · Darlehenstilgung – Grundlagen & Prüfungsrelevanz",
+      file: "pages/basics_ls18.html", status: "fertig", updated: "01.07.2026",
+      keywords: ["darlehenstilgung", "zins vs. tilgung", "ratentilgung", "abzahlungsdarlehen", "annuitätentilgung", "annuitätendarlehen", "annuitätenfaktor", "kapitalwiedergewinnungsfaktor", "restschuld", "tilgungsplan", "rate", "annuität", "endfälliges darlehen", "liquiditätsabfluss", "zinsaufwand"]
+    },
+    {
+      id: "basics_ls19", module: "basics", title: "LS19 · Rentenrechnung – Von den Grundlagen zur Prüfungsrelevanz",
+      file: "pages/basics_ls19.html", status: "fertig", updated: "01.07.2026",
+      keywords: ["rentenrechnung", "rentenbarwert", "rentenendwert", "barwert", "endwert", "nachschüssig", "vorschüssig", "ewige rente", "unterjährige verzinsung", "periodenzinssatz", "aufzinsen", "abzinsen", "zeitwert des geldes", "kapitalwert", "leasingrate", "sparrate"]
+    },
+    {
+      id: "basics_ls20", module: "basics", title: "LS20 · Mathematische Grundlagen – Das Fundament für die IHK-Prüfung",
+      file: "pages/basics_ls20.html", status: "fertig", updated: "01.07.2026",
+      keywords: ["mathematische grundlagen", "klapps-regel", "klammern", "punkt vor strich", "distributivgesetz", "variablen", "break-even-analyse", "formeln umstellen", "äquivalenzumformung", "gegenoperationen", "potenzieren", "radizieren", "wurzelziehen", "zinseszins", "rundungsfehler", "zinsfaktor"]
+    },
   ]
 };

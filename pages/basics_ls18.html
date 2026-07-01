@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LS18 · Darlehenstilgung – WFW Wiki</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../index.html">WFW<span>Wiki</span></a>
+  <div class="search-wrap">
+    <input id="search-input" type="search" placeholder="Thema suchen …" autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+</div>
+
+<div class="layout">
+  <nav class="sidebar"></nav>
+
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="../index.html">Startseite</a> › <a href="modul_basics.html">Basics Wirtschaftsrechnen</a> › LS18
+    </div>
+
+    <div class="page-header">
+      <div class="kicker">Basics Wirtschaftsrechnen · Finanzmathematik</div>
+      <h1>LS18 · Darlehenstilgung – Grundlagen &amp; Prüfungsrelevanz</h1>
+      <div class="meta">
+        <span>👤 Kreß &amp; Steinhof</span>
+        <span>Stand: 01.07.2026</span>
+      </div>
+    </div>
+
+    <p>Die Berechnung von Darlehen ist ein Standardthema in der IHK-Prüfung, das weit über reines Rechnen hinausgeht. Es testet das Verständnis für Liquidität, Aufwand und die finanzielle Steuerung eines Unternehmens. Wer Zins und Tilgung nicht sauber trennt, verliert sichere Punkte.</p>
+
+    <h2>Kapitel 1 · Grundlagen &amp; zentrale Variablen</h2>
+    <table>
+      <tr><th>Variable</th><th>Bedeutung</th></tr>
+      <tr><td><strong>Darlehenssumme (K)</strong></td><td>Der ursprüngliche Kreditbetrag, der ausgezahlt wird.</td></tr>
+      <tr><td><strong>Zinssatz (p.a.)</strong></td><td>Der Preis für das geliehene Kapital, angegeben in Prozent pro Jahr.</td></tr>
+      <tr><td><strong>Laufzeit (n)</strong></td><td>Der Zeitraum, über den das Darlehen zurückgezahlt wird.</td></tr>
+      <tr><td><strong>Zins (Z)</strong></td><td>Der absolute Betrag, der für die Kapitalüberlassung gezahlt wird.</td></tr>
+      <tr><td><strong>Tilgung (T)</strong></td><td>Der Betrag, der zur Rückführung der eigentlichen Schuld dient.</td></tr>
+      <tr><td><strong>Rate / Annuität (A)</strong></td><td>Die regelmäßige Zahlung an die Bank, bestehend aus Zins und Tilgung (A = Z + T).</td></tr>
+      <tr><td><strong>Restschuld (RS)</strong></td><td>Der noch offene Darlehensbetrag zu einem bestimmten Zeitpunkt.</td></tr>
+    </table>
+    <div class="notice info">
+      <strong>Für die Prüfung entscheidend</strong>
+      In der Prüfung werden selten alle Variablen abgefragt — entscheidend ist, die Bedeutung im Kontext der Aufgabe zu erkennen und die gesuchte Größe sicher herzuleiten.
+    </div>
+
+    <h2>Kapitel 2 · Zins vs. Tilgung – Der entscheidende Unterschied</h2>
+    <p>Die saubere Trennung von Zins und Tilgung ist der Kern des Verständnisses. Ihre Auswirkungen auf die Unternehmensbücher sind fundamental verschieden.</p>
+    <div class="pruef-box">
+      <strong>Zins = Aufwand.</strong> Zinsen mindern den Gewinn und werden in der GuV erfasst.<br>
+      <strong>Tilgung = neutrale Auszahlung.</strong> Reiner Aktivtausch (Bankguthaben sinkt, Verbindlichkeit sinkt) — keine Auswirkung auf den Gewinn.<br>
+      <strong>Rate (Annuität) = Liquiditätsabfluss.</strong> Die gesamte Rate (Zins + Tilgung) verlässt das Unternehmen und belastet die Liquidität.
+    </div>
+
+    <h3>Buchhalterische Logik</h3>
+    <p>Zahlung einer Rate von 1.000 €, bestehend aus 200 € Zinsen und 800 € Tilgung:</p>
+    <ul>
+      <li><strong>GuV-Perspektive:</strong> Nur die 200 € Zinsen erscheinen als Zinsaufwand und schmälern das Betriebsergebnis.</li>
+      <li><strong>Bilanz-Perspektive:</strong> Die Verbindlichkeiten gegenüber Kreditinstituten sinken um 800 €, das Bankguthaben sinkt um die volle Rate von 1.000 €.</li>
+      <li><strong>Cashflow-Perspektive:</strong> Die Liquidität wird mit der vollen Auszahlung von 1.000 € belastet.</li>
+    </ul>
+
+    <h2>Kapitel 3 · Die Ratentilgung (Abzahlungsdarlehen)</h2>
+    <p>Bei der Ratentilgung bleibt der Tilgungsanteil über die gesamte Laufzeit konstant. Da die Restschuld mit jeder Zahlung sinkt, verringert sich auch der Zinsanteil — dies führt zu einer sinkenden Gesamtrate.</p>
+    <ul>
+      <li>Konstanter Tilgungsbetrag (z. B. Darlehenssumme / Laufzeit)</li>
+      <li>Sinkender Zinsanteil (da die Restschuld sinkt)</li>
+      <li>Sinkende Gesamtrate (Annuität)</li>
+    </ul>
+    <div class="notice info">
+      <strong>Vergleich zur Annuitätentilgung</strong>
+      Die Anfangsbelastung (erste Rate) ist bei der Ratentilgung höher, nimmt jedoch im Zeitverlauf ab. Das führt zu schnellerer Entschuldung und insgesamt geringeren Zinskosten.
+    </div>
+
+    <h3>Beispiel: Tilgungsplan Ratendarlehen</h3>
+    <p>Darlehen: 100.000 €, Zinssatz: 5 % p.a., Laufzeit: 5 Jahre. Konstante Tilgung = 20.000 €/Jahr.</p>
+    <table>
+      <tr><th>Jahr</th><th>Restschuld (Beginn)</th><th>Zins (5 %)</th><th>Tilgung</th><th>Rate (Z+T)</th><th>Restschuld (Ende)</th></tr>
+      <tr><td>1</td><td>100.000,00 €</td><td>5.000,00 €</td><td>20.000,00 €</td><td>25.000,00 €</td><td>80.000,00 €</td></tr>
+      <tr><td>2</td><td>80.000,00 €</td><td>4.000,00 €</td><td>20.000,00 €</td><td>24.000,00 €</td><td>60.000,00 €</td></tr>
+      <tr><td>3</td><td>60.000,00 €</td><td>3.000,00 €</td><td>20.000,00 €</td><td>23.000,00 €</td><td>40.000,00 €</td></tr>
+      <tr><td>4</td><td>40.000,00 €</td><td>2.000,00 €</td><td>20.000,00 €</td><td>22.000,00 €</td><td>20.000,00 €</td></tr>
+      <tr><td>5</td><td>20.000,00 €</td><td>1.000,00 €</td><td>20.000,00 €</td><td>21.000,00 €</td><td>0,00 €</td></tr>
+    </table>
+
+    <h2>Kapitel 4 · Die Annuitätentilgung (Annuitätendarlehen)</h2>
+    <p>Der Klassiker bei Immobilienfinanzierungen. Die Rate (Annuität) bleibt über die gesamte Laufzeit konstant — ihre Zusammensetzung verschiebt sich systematisch von Zins zu Tilgung.</p>
+    <ul>
+      <li>Konstante Gesamtrate (Annuität)</li>
+      <li>Sinkender Zinsanteil (da die Restschuld sinkt)</li>
+      <li>Steigender Tilgungsanteil (da die Rate konstant ist)</li>
+    </ul>
+    <div class="notice warn">
+      <strong>Strategische Einordnung</strong>
+      Die konstante Rate erleichtert die finanzielle Planung, kann aber im Vergleich zur Ratentilgung zu einer insgesamt höheren Zinsbelastung führen, da die Entschuldung anfangs langsamer verläuft.
+    </div>
+
+    <h3>4.1 Berechnung der Annuität</h3>
+    <div class="def-box">
+      <div class="def-term">Annuitätenformel (Kapitalwiedergewinnungsfaktor)</div>
+      A = K · [ (qⁿ · (q−1)) / (qⁿ − 1) ], wobei q = 1 + (p/100)
+    </div>
+
+    <h3>4.2 Beispiel: Tilgungsplan Annuitätendarlehen</h3>
+    <p>Darlehen: 100.000 €, Zinssatz: 5 % p.a., Laufzeit: 5 Jahre. Berechnete Annuität (A) = <strong>23.097,48 €</strong>.</p>
+    <table>
+      <tr><th>Jahr</th><th>Restschuld (Beginn)</th><th>Zins (5 %)</th><th>Tilgung (A−Z)</th><th>Annuität</th><th>Restschuld (Ende)</th></tr>
+      <tr><td>1</td><td>100.000,00 €</td><td>5.000,00 €</td><td>18.097,48 €</td><td>23.097,48 €</td><td>81.902,52 €</td></tr>
+      <tr><td>2</td><td>81.902,52 €</td><td>4.095,13 €</td><td>19.002,35 €</td><td>23.097,48 €</td><td>62.900,17 €</td></tr>
+      <tr><td>3</td><td>62.900,17 €</td><td>3.145,01 €</td><td>19.952,47 €</td><td>23.097,48 €</td><td>42.947,70 €</td></tr>
+      <tr><td>4</td><td>42.947,70 €</td><td>2.147,39 €</td><td>20.950,09 €</td><td>23.097,48 €</td><td>21.997,61 €</td></tr>
+      <tr><td>5</td><td>21.997,61 €</td><td>1.099,88 €</td><td>21.997,60 €</td><td>23.097,48 €</td><td>0,01 € ≈ 0 € (Rundungsdifferenz)</td></tr>
+    </table>
+
+    <h3>4.3 Formeln zur Direktberechnung</h3>
+    <p>Diese Formeln erlauben Werte für einzelne Jahre — ohne den gesamten Plan aufzustellen (häufiger Prüfungsansatz):</p>
+    <div class="def-box">
+      <div class="def-term">Restschuld nach x Jahren (RSₓ)</div>
+      RSₓ = K · qˣ − A · [ (qˣ − 1) / (q − 1) ]
+    </div>
+    <div class="def-box">
+      <div class="def-term">Tilgung im Jahr x (Tₓ)</div>
+      T₁ = A − Z₁ &nbsp;·&nbsp; Tₓ = T₁ · q^(x−1)
+    </div>
+
+    <h2>Kapitel 5 · Vergleich und betriebswirtschaftliche Bewertung</h2>
+    <p>Die Wahl der Tilgungsart ist eine strategische Entscheidung, die Liquidität und Rentabilität direkt beeinflusst.</p>
+    <table>
+      <tr><th>Kriterium</th><th>Ratentilgung</th><th>Annuitätentilgung</th></tr>
+      <tr><td>Gesamte Zinslast</td><td>15.000,00 €</td><td>15.487,41 €</td></tr>
+      <tr><td>Liquiditätsbelastung (1. Jahr)</td><td>25.000,00 € (hoch)</td><td>23.097,48 € (geringer)</td></tr>
+      <tr><td>Liquiditätsbelastung (letztes Jahr)</td><td>21.000,00 € (niedrig)</td><td>23.097,48 € (konstant)</td></tr>
+      <tr><td>Planbarkeit</td><td>Schwieriger (sinkende Raten)</td><td>Sehr gut (konstante Raten)</td></tr>
+    </table>
+
+    <div class="two-col">
+      <div class="content-card">
+        <h4>Ratentilgung</h4>
+        Sinnvoll für Unternehmen, die eine hohe Anfangsbelastung tragen können und an schneller Entschuldung sowie minimalen Gesamtzinskosten interessiert sind — oft bei Maschinenfinanzierungen.
+      </div>
+      <div class="content-card">
+        <h4>Annuitätentilgung</h4>
+        Ideal für langfristige Planungen und Investitionen, bei denen eine konstante, kalkulierbare Belastung im Vordergrund steht (z. B. Immobilien). Die Liquidität wird zu Beginn geschont.
+      </div>
+    </div>
+    <div class="notice info">
+      <strong>Fazit für die Entscheidung</strong>
+      Die Wahl der Tilgungsart ist immer ein Kompromiss zwischen Liquidität und Zinskosten.
+    </div>
+
+    <h2>Kapitel 6 · Typische Prüfungsfallen</h2>
+    <div class="notice danger">
+      <strong>⚠️ Falle 1: Verwechslung von Rate und Tilgung</strong>
+      Die Rate (Annuität) ist die gesamte Zahlung, die Tilgung nur der Teil, der die Schuld reduziert. Häufigste Fehlerquelle: Verwechslung von Aufwand (Zins) und Auszahlung (Annuität).
+    </div>
+    <div class="notice danger">
+      <strong>⚠️ Falle 2: Falsche Zinsberechnung</strong>
+      Zinsen werden IMMER auf die Restschuld zu Beginn der Periode berechnet, nicht auf die ursprüngliche Darlehenssumme (Ausnahme: endfälliges Darlehen).
+    </div>
+    <div class="notice danger">
+      <strong>⚠️ Falle 3: Falsche Basis bei prozentualen Angaben</strong>
+      Bei „Tilgungsanteil im ersten Jahr in Prozent" ist die Basis die Annuität, nicht die Darlehenssumme!
+    </div>
+    <div class="notice danger">
+      <strong>⚠️ Falle 4: Ignorieren der Liquiditätswirkung</strong>
+      Frage: „Wie hoch ist die Auswirkung auf Jahresergebnis und Liquidität?" Antwort: Nur der Zins beeinflusst das Ergebnis, die gesamte Rate aber die Liquidität.
+    </div>
+
+    <div class="related-topics">
+      <h2>Verwandte Themen</h2>
+      <div class="related-links">
+        <a href="basics_ls19.html">📄 LS19 · Rentenrechnung</a>
+        <a href="basics_ls09.html">📄 LS09 · Leasing im Rechnungswesen</a>
+        <a href="basics_ls10.html">📄 LS10 · Darlehen und Disagio</a>
+        <a href="finanz_ls01.html">📄 Finanzmanagement LS01 · Investitionsrechnung</a>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<footer class="page-footer">
+  <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
+  <div>Basics Wirtschaftsrechnen · LS18</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script src="../css/pages.js"></script>
+<script src="../css/engine.js"></script>
+</body>
+</html>
