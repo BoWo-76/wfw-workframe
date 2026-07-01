@@ -47,8 +47,8 @@ wfw-wiki1/
   images/
     bowo-logo.svg, bowo-logo-light.svg, [weitere Grafiken]
     wk/                   ← NEU: PNG-Exporte der Werkzeugkasten-Folien
-      wk_uebersicht_1.png … wk_uebersicht_4.png
-      wk1_ishikawa_s1.png, wk1_ishikawa_s2.png, … (vollständige Liste siehe unten)
+      wk_uebersicht_1.PNG … wk_uebersicht_4.PNG
+      wk1_ishikawa_s1.PNG, wk1_ishikawa_s2.PNG, … (vollständige Liste siehe unten)
 ```
 
 ---
@@ -324,6 +324,7 @@ methodik · marketing · fuehrung · logistik
 - **Sidebar standardmäßig offen** (localStorage-Key: `wfw_wk_sidebar_open`)
 - **Cross-Referenzen:** Tools, die in mehreren WKs gelistet sind, zeigen einen `(→ WK X)`-Badge und verlinken auf die Quelle. Nur eine PNG-Kopie nötig.
 - **Pflege:** Neue Tools → Eintrag in `css/wk-config.js` + PNG-Dateien in `images/wk/` ablegen
+- **WICHTIG – Dateiendung:** PowerPoint exportiert PNGs immer mit `.PNG` (Großbuchstaben). GitHub Pages (Linux) ist case-sensitiv, Windows nicht → lokal funktioniert alles, auf GitHub Pages erscheint nichts. **Lösung: In `wk-config.js` immer `.PNG` (Großbuchstaben) eintragen**, nicht `.png`. Gilt für alle Bilder in `images/wk/`.
 - Implementiert in `engine.js` (`initWerkzeugkasten()`) und `style.css` (`.wk-toggle`)
 
 #### wk-config.js — Struktur
@@ -339,17 +340,17 @@ const WK_CONFIG = {
           label: null,          // null = kein Trennlabel (für Übersicht-Einträge)
           tools: [
             { id: "wk1_uebersicht", label: "Gesamtübersicht WK I", icon: "≡",
-              seiten: ["images/wk/wk_uebersicht_1.png"] }
+              seiten: ["images/wk/wk_uebersicht_1.PNG"] }
           ]
         },
         {
           label: "Ursachenanalyse",   // sichtbares Trennlabel in Sidebar
           tools: [
             { id: "wk1_ishikawa", label: "Ishikawa-Diagramm",
-              seiten: ["images/wk/wk1_ishikawa_s1.png", "images/wk/wk1_ishikawa_s2.png"] },
+              seiten: ["images/wk/wk1_ishikawa_s1.PNG", "images/wk/wk1_ishikawa_s2.PNG"] },
             // Cross-Referenz auf ein anderes WK:
             { id: "wk1_nutzwert_ref", label: "Nutzwertanalyse",
-              seiten: ["images/wk/wk3_nutzwert_s1.png", "images/wk/wk3_nutzwert_s2.png"],
+              seiten: ["images/wk/wk3_nutzwert_s1.PNG", "images/wk/wk3_nutzwert_s2.PNG"],
               quelle: "WK III" }
           ]
         }
@@ -363,36 +364,36 @@ const WK_CONFIG = {
 #### PNG-Dateinamen-Konvention (`images/wk/`)
 ```
 Gesamtübersichten (aus Gesamtübersicht-PPTX):
-  wk_uebersicht_1.png … wk_uebersicht_4.png
+  wk_uebersicht_1.PNG … wk_uebersicht_4.PNG
 
 WK I (aus WK I PPTX, je Tool 2 Seiten):
-  wk1_ishikawa_s1/s2        wk1_5why_s1/s2
-  wk1_pdca_s1/s2            wk1_pareto_analyse_s1/s2
-  wk1_fmea_s1/s2            wk1_abc_s1/s2
-  wk1_pareto_prinzip_s1/s2  wk1_swot_s1/s2
-  wk1_benchmarking_s1/s2    wk1_szenariotechnik_s1/s2
-  wk1_kosten_nutzen_s1/s2   wk1_morphkasten_s1/s2
-  wk1_smart_s1/s2           wk1_zielpyramide_s1/s2
-  wk1_netzplan_s1/s2        wk1_gantt_s1/s2
-  wk1_meilenstein_s1/s2     wk1_stakeholder_s1/s2
-  wk1_mindmap_s1/s2         wk1_brainstorming_s1/s2
-  wk1_6hut_s1/s2
+  wk1_ishikawa_s1.PNG/s2.PNG        wk1_5why_s1.PNG/s2.PNG
+  wk1_pdca_s1.PNG/s2.PNG            wk1_pareto_analyse_s1.PNG/s2.PNG
+  wk1_fmea_s1.PNG/s2.PNG            wk1_abc_s1.PNG/s2.PNG
+  wk1_pareto_prinzip_s1.PNG/s2.PNG  wk1_swot_s1.PNG/s2.PNG
+  wk1_benchmarking_s1.PNG/s2.PNG    wk1_szenariotechnik_s1.PNG/s2.PNG
+  wk1_kosten_nutzen_s1.PNG/s2.PNG   wk1_morphkasten_s1.PNG/s2.PNG
+  wk1_smart_s1.PNG/s2.PNG           wk1_zielpyramide_s1.PNG/s2.PNG
+  wk1_netzplan_s1.PNG/s2.PNG        wk1_gantt_s1.PNG/s2.PNG
+  wk1_meilenstein_s1.PNG/s2.PNG     wk1_stakeholder_s1.PNG/s2.PNG
+  wk1_mindmap_s1.PNG/s2.PNG         wk1_brainstorming_s1.PNG/s2.PNG
+  wk1_6hut_s1.PNG/s2.PNG
 
 WK II (aus WK II PPTX):
-  wk2_pestel_s1/s2          wk2_stakeholder_s1/s2
-  wk2_portfolio_bcg_s1/s2   wk2_szenariotechnik_s1/s2
-  wk2_mta_s1/s2             wk2_six_sigma_s1/s2
+  wk2_pestel_s1.PNG/s2.PNG          wk2_stakeholder_s1.PNG/s2.PNG
+  wk2_portfolio_bcg_s1.PNG/s2.PNG   wk2_szenariotechnik_s1.PNG/s2.PNG
+  wk2_mta_s1.PNG/s2.PNG             wk2_six_sigma_s1.PNG/s2.PNG
 
 WK III (aus WK III PPTX):
-  wk3_nutzwert_s1/s2              wk3_entscheidungsmatrix_s1/s2
-  wk3_kosten_nutzen_s1/s2         wk3_scoring_s1/s2
-  wk3_sensitivitaet_s1/s2         wk3_szenariotechnik_s1/s2
+  wk3_nutzwert_s1.PNG/s2.PNG              wk3_entscheidungsmatrix_s1.PNG/s2.PNG
+  wk3_kosten_nutzen_s1.PNG/s2.PNG         wk3_scoring_s1.PNG/s2.PNG
+  wk3_sensitivitaet_s1.PNG/s2.PNG         wk3_szenariotechnik_s1.PNG/s2.PNG
 
 WK IV (aus WK IV PPTX):
-  wk4_projektorganisation_s1/s2   wk4_org_formen_s1/s2
-  wk4_mag_dreieck_s1/s2           wk4_projektplanung_s1/s2
-  wk4_risikoanalyse_s1/s2         wk4_projektsteuerung_s1/s2
-  wk4_projektdoku_s1/s2
+  wk4_projektorganisation_s1.PNG/s2.PNG   wk4_org_formen_s1.PNG/s2.PNG
+  wk4_mag_dreieck_s1.PNG/s2.PNG           wk4_projektplanung_s1.PNG/s2.PNG
+  wk4_risikoanalyse_s1.PNG/s2.PNG         wk4_projektsteuerung_s1.PNG/s2.PNG
+  wk4_projektdoku_s1.PNG/s2.PNG
 ```
 
 ---
