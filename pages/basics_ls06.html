@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LS06 · Bezugskosten im Beschaffungsbereich – WFW Wiki</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../index.html">WFW<span>Wiki</span></a>
+  <div class="search-wrap">
+    <input id="search-input" type="search" placeholder="Thema suchen …" autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+  <!-- Sidebar-Toggle, Werkzeugkasten-Button, Changelog-Button, Formelglossar-Button,
+       Notizzettel-Button und Logo werden von engine.js automatisch eingefügt -->
+</div>
+
+<div class="layout">
+  <nav class="sidebar"></nav>
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="../index.html">Startseite</a> › Basics Wirtschaftsrechnen › LS06 Bezugskosten
+    </div>
+    <div class="page-header">
+      <div class="kicker">Basics Wirtschaftsrechnen · LS06</div>
+      <h1>LS06 · Bezugskosten im Beschaffungsbereich</h1>
+      <div class="meta">
+        <span>Dozent: Kreß & Steinhof</span>
+        <span>Stand: 01.07.2026</span>
+        <span><span class="badge ok">Fertig</span></span>
+      </div>
+    </div>
+
+    <p>Dieses Skript behandelt die buchhalterische Erfassung von Bezugskosten (auch Anschaffungsnebenkosten genannt) im Industriebetrieb. Der Umgang mit diesen Kosten ist ein zentrales Thema im Beschaffungsbereich und erfordert ein klares Verständnis der angewandten Buchungsmethode des Unternehmens.</p>
+
+    <div class="def-box">
+      <strong>Gesetzliche Grundlage</strong>
+      Im Rahmen der Anschaffungskosten (§ 255 HGB) gehören Bezugskosten zu den Anschaffungsnebenkosten. In der Buchführung werden sie je nach Methode entweder aktiviert (bestandsorientiert) oder sofort als Aufwand erfasst.
+    </div>
+
+    <h2>Kapitel 1: Was sind Bezugskosten?</h2>
+    <p>Bezugskosten sind alle Aufwendungen, die zusätzlich zum eigentlichen Warenwert (dem reinen Einkaufspreis) anfallen, um die Ware vom Lieferanten in das eigene Unternehmen zu transportieren und betriebsbereit zu machen.</p>
+
+    <p>Typische Beispiele für Bezugskosten sind:</p>
+    <ul>
+      <li>Frachtkosten (Spedition, Bahn, LKW)</li>
+      <li>Rollgelder (Transport vom Bahnhof/Hafen zum Werk)</li>
+      <li>Transportversicherungen</li>
+      <li>Zölle (bei Einfuhr aus Drittländern)</li>
+      <li>Spezialverpackungen (die berechnet werden)</li>
+    </ul>
+
+    <h2>Kapitel 2: Die bestandsorientierte Methode</h2>
+
+    <div class="notice ok">
+      <strong>✓ Entscheidungsregel: Bestandsorientiert</strong>
+      Bestandsorientiert = Klasse 2 Konten. Das Lager wird aufgebaut. Ein Aufwand entsteht erst später beim tatsächlichen Verbrauch der Materialien in der Produktion.
+    </div>
+
+    <h3>2.1 Grundprinzip</h3>
+    <p>Bei der bestandsorientierten Methode werden alle Einkäufe zunächst als Vermögenszuwachs betrachtet. Die eingekauften Werkstoffe (Roh-, Hilfs-, Betriebsstoffe) werden direkt auf den aktiven Bestandskonten (Kontenklasse 2) gebucht.</p>
+    <p>Da die Bezugskosten den Wert der eingelagerten Ware erhöhen (sie machen die Ware wertvoller, da sie nun am Bestimmungsort verfügbar ist), müssen sie ebenfalls aktiviert werden.</p>
+
+    <h3>2.2 Das Bezugskostenkonto (Klasse 2)</h3>
+    <p>Um die Übersichtlichkeit zu wahren, bucht man die Bezugskosten nicht direkt auf das Hauptkonto (z. B. 2000 Rohstoffe), sondern auf ein spezielles Unterkonto (z. B. 2001 Bezugskosten für Rohstoffe).</p>
+
+    <div class="notice warn">
+      <strong>⚠ Wichtige Klarstellung zu den Konten</strong>
+      Ein häufiger Irrtum ist die Annahme, dass das Vorhandensein eines Kontos namens „Bezugskosten" automatisch auf die aufwandsorientierte Methode hindeutet. Das ist falsch!
+      <p>Bezugskostenkonten existieren für beide Methoden als Unterkonten:</p>
+      <ul>
+        <li>In der bestandsorientierten Methode in der Kontenklasse 2 (z. B. 2001)</li>
+        <li>In der aufwandsorientierten Methode in der Kontenklasse 6 (z. B. 6001)</li>
+      </ul>
+    </div>
+
+    <h3>2.3 Buchungsbeispiel</h3>
+    <div class="notice info">
+      <strong>📝 Aufgabe</strong>
+      Wir kaufen Rohstoffe für 10.000 € netto auf Ziel. Der Spediteur berechnet uns zusätzlich 500 € netto für den Transport. (Umsatzsteuer 19 %)
+      <pre>2000 Rohstoffe                    10.000,00 €
+2001 Bezugskosten für Rohstoffe      500,00 €
+2600 Vorsteuer                     1.995,00 €
+   an 4400 Verbindlichkeiten a. LL       12.495,00 €</pre>
+      <p>Hinweis: Am Jahresende wird das Unterkonto 2001 über das Hauptkonto 2000 abgeschlossen, wodurch sich der finale Bilanzwert der Rohstoffe erhöht.</p>
+    </div>
+
+    <h2>Kapitel 3: Die aufwandsorientierte Methode</h2>
+
+    <div class="notice ok">
+      <strong>✓ Entscheidungsregel: Aufwandsorientiert</strong>
+      Aufwandsorientiert = Klasse 6 Konten. Der Aufwand wird sofort beim Einkauf gebucht. Unterjährig wird kein Lager über Bestandskonten geführt.
+    </div>
+
+    <h3>3.1 Grundprinzip</h3>
+    <p>Bei der aufwandsorientierten Methode (auch verbrauchsorientierte Methode genannt) geht man davon aus, dass die eingekauften Materialien direkt in den Produktionsprozess fließen. Daher wird unterjährig kein Lager über Bestandskonten geführt.</p>
+    <p>Der gesamte Einkaufswert wird sofort als Aufwand in der Kontenklasse 6 gebucht. Folglich müssen auch die dazugehörigen Bezugskosten sofort als Aufwand erfasst werden.</p>
+
+    <h3>3.2 Das Bezugskostenkonto (Klasse 6)</h3>
+    <p>Auch hier nutzt man der Übersichtlichkeit halber ein Unterkonto. Dieses liegt nun aber im Aufwandsbereich (z. B. 6001 Bezugskosten für Rohstoffe) und ist ein Unterkonto zum Hauptaufwandskonto (6000 Aufwendungen für Rohstoffe).</p>
+
+    <h3>3.3 Buchungsbeispiel</h3>
+    <div class="notice info">
+      <strong>📝 Aufgabe</strong>
+      Gleicher Fall: Wir kaufen Rohstoffe für 10.000 € netto auf Ziel. Der Spediteur berechnet uns zusätzlich 500 € netto für den Transport. (Umsatzsteuer 19 %)
+      <pre>6000 Aufwendungen für Rohstoffe   10.000,00 €
+6001 Bezugskosten für Rohstoffe      500,00 €
+2600 Vorsteuer                     1.995,00 €
+   an 4400 Verbindlichkeiten a. LL       12.495,00 €</pre>
+      <p>Hinweis: Am Jahresende wird das Unterkonto 6001 über das Hauptkonto 6000 abgeschlossen. Der gesamte Betrag mindert als Aufwand den Gewinn in der GuV.</p>
+    </div>
+
+    <h2>Kapitel 4: Gegenüberstellung und Vergleich</h2>
+
+    <div class="notice ok">
+      <strong>✓ Der wichtigste Merksatz</strong>
+      Bestandsorientiert = kein Aufwand beim Einkauf. Aufwandsorientiert = Aufwand sofort.
+    </div>
+
+    <h3>4.1 Prüfungsrelevanz: Auswirkung auf Bilanz vs. GuV</h3>
+    <p>In Prüfungen wird oft nach den Auswirkungen eines Einkaufs auf den Jahresabschluss gefragt. Hier zeigt sich der fundamentale Unterschied der beiden Methoden:</p>
+
+    <table>
+      <thead>
+        <tr><th>Methode</th><th>Auswirkung im Moment des Einkaufs</th><th>Abschluss am Jahresende</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Bestandsorientiert</td>
+          <td>Aktivtausch / Bilanzverlängerung: Das Vermögen (Aktiva) steigt. Keine Auswirkung auf den Gewinn (GuV bleibt unberührt).</td>
+          <td>Unterkonto (2001) wird über Hauptkonto (2000) abgeschlossen. (Buchung: 2000 an 2001)</td>
+        </tr>
+        <tr>
+          <td>Aufwandsorientiert</td>
+          <td>Gewinnminderung: Der Aufwand steigt sofort. Dies mindert den Gewinn in der GuV unmittelbar.</td>
+          <td>Unterkonto (6001) wird über Hauptkonto (6000) abgeschlossen. (Buchung: 6000 an 6001)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Kapitel 5: Typische Prüfungsfallen</h2>
+    <p>Beim Thema Bezugskosten gibt es klassische Stolpersteine, die in Klausuren regelmäßig zu Punktabzügen führen. Achte besonders auf die folgenden Punkte:</p>
+
+    <div class="notice danger">
+      <strong>⛔ Prüfungsfalle 1: Falscher Steuersatz bei Bezugskosten</strong>
+      Oft wird in Aufgaben eine Rechnung präsentiert, bei der die Frachtkosten separat ausgewiesen sind. Manche Prüflinge geraten ins Grübeln, welcher Steuersatz für die Fracht gilt.
+      <p>In Prüfungen gilt: Bezugskosten teilen in der Regel den Steuersatz der Hauptleistung. Kaufst du Rohstoffe mit 19 % USt, unterliegen auch die dazugehörigen Transportkosten 19 % USt. (Grundsatz: Die Nebenleistung teilt das Schicksal der Hauptleistung.)</p>
+    </div>
+
+    <div class="notice danger">
+      <strong>⛔ Prüfungsfalle 2: Methode verwechselt</strong>
+      Du buchst aus Gewohnheit aufwandsorientiert (Klasse 6), obwohl in der Aufgabenstellung explizit steht: „Das Unternehmen bucht bestandsorientiert."
+      <p>Lösung: Markiere dir in der Prüfung immer als Erstes, welche Methode gefordert ist!</p>
+    </div>
+
+    <div class="notice danger">
+      <strong>⛔ Prüfungsfalle 3: Abschlussbuchung vergessen</strong>
+      Wenn in einer Aufgabe der Jahresabschluss gefordert ist, darf das Bezugskostenkonto nicht direkt in die Schlussbilanz (SBK) oder GuV gebucht werden.
+      <p>Regel: Das Unterkonto (Bezugskosten) wird immer zuerst über das dazugehörige Hauptkonto (Rohstoffe bzw. Aufwendungen für Rohstoffe) abgeschlossen!</p>
+    </div>
+
+    <h2>Kapitel 6: Zusammenfassung / Checkliste</h2>
+    <div class="notice info">
+      <strong>Checkliste bei jeder Aufgabe zu Bezugskosten</strong>
+      <ol>
+        <li><strong>Methode klären:</strong> Bucht das Unternehmen bestandsorientiert (Klasse 2) oder aufwandsorientiert (Klasse 6)?</li>
+        <li><strong>Konten identifizieren:</strong> Hauptkonto (z. B. 2000 oder 6000) und passendes Unterkonto für Bezugskosten (z. B. 2001 oder 6001) bereitlegen.</li>
+        <li><strong>Beträge trennen:</strong> Warenwert auf das Hauptkonto, Bezugskosten auf das Unterkonto buchen.</li>
+        <li><strong>Vorsteuer berechnen:</strong> aus der Summe von Warenwert und Bezugskosten (Steuersatz der Hauptleistung beachten!).</li>
+        <li><strong>Abschluss (falls gefordert):</strong> Am Jahresende das Unterkonto zwingend über das Hauptkonto abschließen.</li>
+      </ol>
+    </div>
+
+    <div class="related-topics">
+      <h3>Verwandte Themen</h3>
+      <ul>
+        <li><a href="basics_ls04.html">LS04 · Umsatzsteuer im Buchungskreislauf</a> – Vorsteuerberechnung bei Beschaffungsvorgängen</li>
+        <li><a href="basics_ls05.html">LS05 · Abschreibungen GWG</a> – aufwands- vs. bestandsorientierte Buchung bei GWG</li>
+        <li><a href="basics_ls03.html">LS03 · Buchungskreislauf EBK–SBK</a> – Grundlogik der Bestandskonten</li>
+      </ul>
+    </div>
+  </main>
+</div>
+
+<footer class="page-footer">
+  <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
+  <div>BASICS LS06 · Stand: 01.07.2026</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script src="../css/pages.js"></script>
+<script src="../css/engine.js"></script>
+</body>
+</html>

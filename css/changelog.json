@@ -4,6 +4,21 @@
     "eintraege": [
       {
         "modul": "basics",
+        "titel": "LS06 · Bezugskosten im Beschaffungsbereich",
+        "aktion": "neu"
+      },
+      {
+        "modul": "basics",
+        "titel": "LS05 · Geringwertige Wirtschaftsgüter (GWG) – Abschreibung",
+        "aktion": "neu"
+      },
+      {
+        "modul": "basics",
+        "titel": "LS04 · Die Umsatzsteuer im Buchungskreislauf",
+        "aktion": "neu"
+      },
+      {
+        "modul": "basics",
         "titel": "LS17 · Zinsrechnung – Von den Grundlagen zum Zinseszins",
         "aktion": "neu"
       },

@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LS04 · Umsatzsteuer im Buchungskreislauf – WFW Wiki</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../index.html">WFW<span>Wiki</span></a>
+  <div class="search-wrap">
+    <input id="search-input" type="search" placeholder="Thema suchen …" autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+  <!-- Sidebar-Toggle, Werkzeugkasten-Button, Changelog-Button, Formelglossar-Button,
+       Notizzettel-Button und Logo werden von engine.js automatisch eingefügt -->
+</div>
+
+<div class="layout">
+  <nav class="sidebar"></nav>
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="../index.html">Startseite</a> › Basics Wirtschaftsrechnen › LS04 Umsatzsteuer
+    </div>
+    <div class="page-header">
+      <div class="kicker">Basics Wirtschaftsrechnen · LS04</div>
+      <h1>LS04 · Die Umsatzsteuer im Buchungskreislauf</h1>
+      <div class="meta">
+        <span>Dozent: Kreß & Steinhof</span>
+        <span>Stand: 01.07.2026</span>
+        <span><span class="badge ok">Fertig</span></span>
+      </div>
+    </div>
+
+    <h2>1. Grundlagen: Das System der Umsatzsteuer</h2>
+
+    <h3>1.1 Die Erfolgsneutralität</h3>
+    <p>Die Umsatzsteuer ist für Unternehmen grundsätzlich <strong>erfolgsneutral</strong>. Das bedeutet, sie stellt weder einen Aufwand (der den Gewinn mindert) noch einen Ertrag (der den Gewinn erhöht) dar. Das Unternehmen fungiert lediglich als Treuhänder für das Finanzamt: Es nimmt die Steuer vom Endverbraucher ein und leitet sie an das Finanzamt weiter.</p>
+
+    <div class="notice ok">
+      <strong>✓ Merksatz zur Erfolgsneutralität</strong>
+      Da die Umsatzsteuer den Gewinn nicht beeinflusst, wird sie in der Regel streng getrennt von den Aufwands- und Ertragskonten auf eigenen Bestandskonten (Forderungen oder Verbindlichkeiten gegenüber dem Finanzamt) gebucht.
+    </div>
+
+    <h3>1.2 Die zwei Perspektiven: Vorsteuer und Umsatzsteuer</h3>
+    <p>Je nachdem, ob das Unternehmen einkauft oder verkauft, kommen unterschiedliche Konten zum Einsatz:</p>
+
+    <table>
+      <thead>
+        <tr><th>Perspektive</th><th>Konto</th><th>Kontoart</th><th>Bedeutung</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Einkauf (wir erhalten eine Rechnung)</td><td>Vorsteuer (VSt)</td><td>Aktivkonto</td><td>Forderung gegenüber dem Finanzamt, wird später verrechnet</td></tr>
+        <tr><td>Verkauf (wir schreiben eine Rechnung)</td><td>Umsatzsteuer (USt)</td><td>Passivkonto</td><td>Verbindlichkeit gegenüber dem Finanzamt</td></tr>
+      </tbody>
+    </table>
+
+    <h2>2. Buchung beim Einkauf (Vorsteuer)</h2>
+
+    <h3>2.1 Grundprinzip beim Einkauf</h3>
+    <p>Die Vorsteuer wird beim Einkauf erfasst. Wenn wir Waren, Rohstoffe oder Dienstleistungen einkaufen, stellt uns der Lieferant die Umsatzsteuer in Rechnung. Aus unserer Sicht ist dies die Vorsteuer. Da wir diese vom Finanzamt zurückfordern können (bzw. verrechnen dürfen), buchen wir sie auf der Soll-Seite (Zugang auf einem Aktivkonto).</p>
+
+    <div class="notice warn">
+      <strong>⚠ Wichtig: Netto- und Bruttobeträge</strong>
+      Aufwands- und Anlagekonten werden in der Regel <strong>netto</strong> gebucht. Konten, die den Zahlungsfluss oder die Schulden abbilden (wie Bank, Kasse, Verbindlichkeiten a. LL), werden in der Regel <strong>brutto</strong> gebucht.
+    </div>
+
+    <h3>2.2 Besonderheit bei Rohstoffen: Zwei Buchungsmethoden</h3>
+    <p>Beim Einkauf von Roh-, Hilfs- und Betriebsstoffen muss in der Prüfung genau auf die Aufgabenstellung geachtet werden. Es gibt zwei zulässige Methoden:</p>
+
+    <div class="two-col">
+      <div class="content-card">
+        <strong>A) Aufwandsorientierte Buchungsmethode (häufigster Fall)</strong>
+        <p>Die Rohstoffe werden direkt bei Anschaffung als Aufwand gebucht.</p>
+        <pre>Aufwendungen für Rohstoffe (netto)
+Vorsteuer (Steuerbetrag)
+an Verbindlichkeiten a. LL (brutto)</pre>
+      </div>
+      <div class="content-card">
+        <strong>B) Bestandsorientierte Buchungsmethode</strong>
+        <p>Die Rohstoffe werden zunächst als Vermögenswert auf das Bestandskonto gebucht. Der Aufwand entsteht erst später bei der Entnahme für die Produktion.</p>
+        <pre>Rohstoffe (netto)
+Vorsteuer (Steuerbetrag)
+an Verbindlichkeiten a. LL (brutto)</pre>
+      </div>
+    </div>
+
+    <div class="notice info">
+      <strong>📝 Zahlenbeispiel (Aufwandsorientiert)</strong>
+      Zieleinkauf von Rohstoffen: Warenwert 10.000 € netto zzgl. 19 % USt.
+      <pre>Aufwendungen für Rohstoffe   10.000 €
+Vorsteuer                     1.900 €
+   an Verbindlichkeiten a. LL         11.900 €</pre>
+    </div>
+
+    <h2>3. Buchung beim Verkauf (Umsatzsteuer)</h2>
+
+    <h3>3.1 Grundprinzip beim Verkauf</h3>
+    <p>Die Umsatzsteuer wird beim Verkauf erfasst. Wenn wir eigene Erzeugnisse oder Waren verkaufen, stellen wir dem Kunden die Umsatzsteuer in Rechnung. Diese eingenommene Steuer gehört nicht uns, sondern dem Finanzamt. Daher buchen wir sie als Verbindlichkeit auf der Haben-Seite.</p>
+
+    <h3>3.2 Buchungssatz beim Verkauf</h3>
+    <p>Auch hier gilt: Das Ertragskonto (Umsatzerlöse) wird in der Regel netto gebucht, während das Forderungs- oder Bankkonto den Bruttobetrag aufnimmt.</p>
+
+    <div class="def-box">
+      <strong>Buchungssatz Verkauf</strong>
+      <pre>Forderungen a. LL (brutto)
+   an Umsatzerlöse (netto)
+   an Umsatzsteuer (Steuerbetrag)</pre>
+    </div>
+
+    <div class="notice info">
+      <strong>📝 Zahlenbeispiel</strong>
+      Zielverkauf von eigenen Erzeugnissen: Warenwert 20.000 € netto zzgl. 19 % USt.
+      <pre>Forderungen a. LL   23.800 €
+   an Umsatzerlöse           20.000 €
+   an Umsatzsteuer            3.800 €</pre>
+    </div>
+
+    <h2>4. Skonto und die Steuerkorrektur</h2>
+
+    <h3>4.1 Die didaktische Logik hinter der Skontobuchung</h3>
+    <p>Zieht ein Kunde bei der Zahlung Skonto ab, überweist er weniger als den ursprünglich in Rechnung gestellten Bruttobetrag. Das hat eine wichtige Konsequenz für die Umsatzsteuer: Da die Umsatzsteuer bei der Rechnungsstellung auf Basis des vollen Betrags berechnet und als Verbindlichkeit erfasst wurde, ist diese Verbindlichkeit nun zu hoch. Das Finanzamt darf nur die Steuer auf das fordern, was wir <em>tatsächlich</em> eingenommen haben. Daher muss der Steueranteil aus dem abgezogenen Brutto-Skontobetrag herausgerechnet und die Umsatzsteuer entsprechend korrigiert (gemindert) werden.</p>
+
+    <h3>4.2 Buchung bei gewährtem Skonto (Kunde zahlt an uns)</h3>
+    <p>Der Skontoabzug stellt für uns eine Erlösschmälerung dar. Das Konto „Gewährte Skonti" ist ein Unterkonto der Umsatzerlöse und wird netto gebucht.</p>
+
+    <div class="notice info">
+      <strong>📝 Zahlenbeispiel: Kundenzahlung mit Skonto</strong>
+      Ursprüngliche Forderung: 11.900 € (brutto). Der Kunde überweist unter Abzug von 2 % Skonto.
+      <p>1. Skonto brutto berechnen: 11.900 € × 2 % = 238 €<br>
+      2. Überweisungsbetrag: 11.900 € − 238 € = 11.662 €<br>
+      3. Skonto aufteilen: 238 € ÷ 1,19 = 200 € (netto) / Steuerkorrektur = 38 €</p>
+      <p><strong>Buchung:</strong></p>
+      <pre>Bank                            11.662 €
+Gewährte Skonti (Erlösschmälerung)   200 €
+Umsatzsteuer                          38 €
+   an Forderungen a. LL                    11.900 €</pre>
+    </div>
+
+    <div class="notice info">
+      <strong>ℹ Hinweis zum Lieferantenskonto</strong>
+      Das gleiche Prinzip gilt umgekehrt beim Einkauf: Ziehen wir bei der Zahlung an einen Lieferanten Skonto ab, mindert sich unser Aufwand (oder Bestand) und wir müssen unsere Vorsteuer-Forderung gegenüber dem Finanzamt entsprechend nach unten korrigieren.
+    </div>
+
+    <h2>5. Verrechnung: Zahllast und Vorsteuerüberhang</h2>
+
+    <h3>5.1 Die Verrechnung der Steuerkonten</h3>
+    <p>Am Ende des Voranmeldungszeitraums (z. B. monatlich) müssen die Forderungen aus der Vorsteuer mit den Verbindlichkeiten aus der Umsatzsteuer verrechnet werden. Erst durch diese Verrechnung ermitteln wir, ob wir dem Finanzamt per Saldo Geld schulden oder ob wir eine Erstattung erhalten.</p>
+
+    <div class="notice danger">
+      <strong>⛔ Typischer Formulierungsfehler</strong>
+      In der Praxis hört man oft: „Das kleinere Konto wird über das größere abgeschlossen." Diese Formulierung ist fachlich unpräzise. Korrekt ist: Die Vorsteuer (Forderung) wird mit der Umsatzsteuer (Verbindlichkeit) <strong>verrechnet</strong>.
+    </div>
+
+    <h3>5.2 Fall A: Die Zahllast (Umsatzsteuer &gt; Vorsteuer)</h3>
+    <p>Übersteigt die eingenommene Umsatzsteuer die gezahlte Vorsteuer, entsteht eine <strong>Zahllast</strong>. Dies ist der Normalfall bei profitablen Unternehmen, da der Verkaufswert in der Regel höher ist als der Einkaufswert. Die Zahllast ist der Betrag, der tatsächlich an das Finanzamt überwiesen werden muss.</p>
+
+    <div class="def-box">
+      <strong>Verrechnung & Zahllast</strong>
+      <pre>1. Verrechnung:
+Umsatzsteuer an Vorsteuer (mit dem Saldo des Vorsteuerkontos)
+
+2. Überweisung der Zahllast:
+Umsatzsteuer an Bank</pre>
+    </div>
+
+    <h3>5.3 Fall B: Der Vorsteuerüberhang (Vorsteuer &gt; Umsatzsteuer)</h3>
+    <p>Haben wir in einer Periode mehr eingekauft oder investiert als verkauft (z. B. bei großen Maschinenkäufen), übersteigt die Vorsteuer die Umsatzsteuer. In diesem Fall entsteht ein <strong>Vorsteuerüberhang</strong>. Das Finanzamt erstattet uns diesen Differenzbetrag.</p>
+
+    <div class="def-box">
+      <strong>Verrechnung & Vorsteuerüberhang</strong>
+      <pre>1. Verrechnung:
+Umsatzsteuer an Vorsteuer (mit dem Saldo des Umsatzsteuerkontos)
+
+2. Erstattung durch das Finanzamt:
+Bank an Vorsteuer</pre>
+    </div>
+
+    <h2>6. Prüfungsrelevante Zusammenfassung</h2>
+
+    <table>
+      <thead>
+        <tr><th>Thema</th><th>Regel / Merksatz</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Erfolgsneutralität</td><td>Umsatzsteuer und Vorsteuer beeinflussen den Gewinn nicht. Sie werden auf eigenen Bestandskonten gebucht.</td></tr>
+        <tr><td>Vorsteuer (Einkauf)</td><td>Wird beim Einkauf erfasst. Ist eine Forderung gegenüber dem Finanzamt (Aktivkonto, Buchung im Soll).</td></tr>
+        <tr><td>Umsatzsteuer (Verkauf)</td><td>Wird beim Verkauf erfasst. Ist eine Verbindlichkeit gegenüber dem Finanzamt (Passivkonto, Buchung im Haben).</td></tr>
+        <tr><td>Rohstoffe</td><td>Aufgabenstellung beachten! Aufwandsorientiert (Aufwendungen für Rohstoffe) vs. bestandsorientiert (Rohstoffe).</td></tr>
+        <tr><td>Skonto</td><td>Skonto mindert das tatsächliche Entgelt. Daher muss die Steuer (USt oder VSt) anteilig korrigiert werden. Gewährte Skonti sind Erlösschmälerungen.</td></tr>
+        <tr><td>Verrechnung</td><td>Vorsteuer und Umsatzsteuer werden miteinander verrechnet.</td></tr>
+        <tr><td>Zahllast</td><td>Umsatzsteuer ist größer als Vorsteuer → Überweisung an das Finanzamt.</td></tr>
+        <tr><td>Vorsteuerüberhang</td><td>Vorsteuer ist größer als Umsatzsteuer → Erstattung durch das Finanzamt.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="notice warn">
+      <strong>⚠ Letzter Tipp für Buchungssätze</strong>
+      Prüfe immer, ob du den Netto- oder Bruttobetrag gegeben hast. In der IHK-Prüfung beträgt der Steuersatz, sofern nicht anders angegeben, in der Regel 19 %.
+      <p>Brutto zu Netto: Bruttobetrag ÷ 1,19<br>
+      Netto zu Steuer: Nettobetrag × 0,19</p>
+    </div>
+
+    <div class="related-topics">
+      <h3>Verwandte Themen</h3>
+      <ul>
+        <li><a href="basics_ls03.html">LS03 · Buchungskreislauf EBK–SBK</a> – Grundlogik von Bestandskonten und Buchungssätzen</li>
+        <li><a href="basics_ls05.html">LS05 · Abschreibungen GWG</a> – nutzt ebenfalls Netto-/Brutto- und Vorsteuerlogik</li>
+        <li><a href="basics_ls06.html">LS06 · Bezugskosten</a> – aufwands- vs. bestandsorientierte Buchung im direkten Vergleich</li>
+      </ul>
+    </div>
+  </main>
+</div>
+
+<footer class="page-footer">
+  <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
+  <div>BASICS LS04 · Stand: 01.07.2026</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script src="../css/pages.js"></script>
+<script src="../css/engine.js"></script>
+</body>
+</html>
