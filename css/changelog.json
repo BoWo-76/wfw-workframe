@@ -3,6 +3,11 @@
     "datum": "01.07.2026",
     "eintraege": [
       {
+        "modul": null,
+        "titel": "Nutzerhandbuch · Werkzeugkasten-Abschnitt ergänzt",
+        "aktion": "update"
+      },
+      {
         "modul": "basics",
         "titel": "LS20 · Mathematische Grundlagen",
         "aktion": "neu"
