@@ -290,6 +290,21 @@ const WIKI_CONFIG = {
       keywords: ["leasing", "leasingnehmer", "leasinggeber", "wirtschaftliches eigentum", "rechtliches eigentum", "operating-leasing", "spezial-leasing", "finanzierungs-leasing", "grundmietzeit", "40-90 prozent regel", "aktivierung", "verbindlichkeiten aus leasing", "zinsanteil", "tilgungsanteil"]
     },
     {
+      id: "basics_ls10", module: "basics", title: "LS10 · Darlehen und Disagio – Buchung und Abgrenzung",
+      file: "pages/basics_ls10.html", status: "fertig", updated: "01.07.2026",
+      keywords: ["darlehen", "disagio", "damnum", "tilgung", "zinsaufwand", "arap", "aktiver rechnungsabgrenzungsposten", "verbindlichkeiten ggü. kreditinstituten", "zusammengesetzter buchungssatz", "erfolgsneutral", "auflösung arap"]
+    },
+    {
+      id: "basics_ls11", module: "basics", title: "LS11 · Grundlagen des Jahresabschlusses (HGB)",
+      file: "pages/basics_ls11.html", status: "fertig", updated: "01.07.2026",
+      keywords: ["jahresabschluss", "hgb", "bilanz", "guv", "gewinn- und verlustrechnung", "jahresüberschuss", "jahresfehlbetrag", "inventur", "inventar", "aufstellungsfrist", "offenlegungsfrist", "vorsichtsprinzip", "niederstwertprinzip", "höchstwertprinzip", "imparitätsprinzip", "anschaffungswertprinzip", "transitorisch", "antizipativ", "ara", "pra", "rechnungsabgrenzungsposten", "rückstellungen", "sbk"]
+    },
+    {
+      id: "basics_ls12", module: "basics", title: "LS12 · Kosten-Leistungsrechnung (KLR) – Grundlagen",
+      file: "pages/basics_ls12.html", status: "fertig", updated: "01.07.2026",
+      keywords: ["klr", "kosten-leistungsrechnung", "fibu", "rechnungskreis", "abgrenzungsrechnung", "neutrale aufwendungen", "neutrale erträge", "kalkulatorische kosten", "anderskosten", "zusatzkosten", "kalkulatorische abschreibung", "kalkulatorische zinsen", "kalkulatorischer unternehmerlohn", "kalkulatorische miete", "kalkulatorische wagnisse", "kostenartenrechnung", "kostenstellenrechnung", "kostenträgerrechnung", "bab", "einzelkosten", "gemeinkosten", "fixe kosten", "variable kosten", "fixkostendegression"]
+    },
+    {
       id: "basics_ls17", module: "basics", title: "LS17 · Zinsrechnung – Von den Grundlagen zum Zinseszins",
       file: "pages/basics_ls17.html", status: "fertig", updated: "01.07.2026",
       keywords: ["zinsrechnung", "zinsen", "zinseszins", "kapital", "zinssatz", "aufzinsungsfaktor", "herzstückformel", "jahreszinsen", "monatszinsen", "tageszinsen", "unterjährige verzinsung", "30/360", "act/360", "act/act", "kaufmännische zinsformel", "euro-zinsformel", "bgb-zinsformel", "verzugszinsen", "formeln umstellen", "bruchstrich", "einzeiler", "linearisierung", "taschenrechner"]

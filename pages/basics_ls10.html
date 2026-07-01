@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LS10 · Darlehen und Disagio – WFW Wiki</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../index.html">WFW<span>Wiki</span></a>
+  <div class="search-wrap">
+    <input id="search-input" type="search" placeholder="Thema suchen …" autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+  <!-- Sidebar-Toggle, Werkzeugkasten-Button, Changelog-Button, Formelglossar-Button,
+       Notizzettel-Button und Logo werden von engine.js automatisch eingefügt -->
+</div>
+
+<div class="layout">
+  <nav class="sidebar"></nav>
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="../index.html">Startseite</a> › Basics Wirtschaftsrechnen › LS10 Darlehen
+    </div>
+    <div class="page-header">
+      <div class="kicker">Basics Wirtschaftsrechnen · LS10</div>
+      <h1>LS10 · Darlehen und Disagio – Buchung und Abgrenzung</h1>
+      <div class="meta">
+        <span>Dozent: Kreß & Steinhof</span>
+        <span>Stand: 01.07.2026</span>
+        <span><span class="badge ok">Fertig</span></span>
+      </div>
+    </div>
+
+    <p>Dieses Skript behandelt die buchhalterische Erfassung von Darlehen und die Besonderheit des Disagios (auch Damnum genannt). In der Prüfung wird häufig getestet, ob du den Unterschied zwischen erfolgsneutralen und erfolgswirksamen Vorgängen bei der Darlehensrückzahlung kennst und ob du das Disagio korrekt über die Laufzeit abgrenzen kannst.</p>
+
+    <h2>Kapitel 1: Grundlagen des Darlehens</h2>
+
+    <h3>1.1 Das Grundverständnis</h3>
+    <p>Wenn ein Unternehmen ein Darlehen aufnimmt, fließt Geld auf das Bankkonto, gleichzeitig entsteht eine Schuld gegenüber der Bank. Wichtig für das Verständnis der Buchungssätze ist die strikte Trennung der folgenden Begriffe:</p>
+
+    <div class="two-col">
+      <div class="content-card">
+        <strong>Darlehen (Verbindlichkeit)</strong>
+        <p>Das ist die reine Schuld. Sie steht auf der Passivseite der Bilanz.</p>
+      </div>
+      <div class="content-card">
+        <strong>Tilgung</strong>
+        <p>Das ist die reine Rückzahlung der Schuld. Die Tilgung ist <strong>erfolgsneutral</strong>! Sie mindert lediglich die Verbindlichkeit und den Bankbestand, berührt aber nicht die GuV.</p>
+      </div>
+    </div>
+    <div class="content-card">
+      <strong>Zinsen</strong>
+      <p>Das ist die „Miete" für das geliehene Geld. Zinsen sind <strong>Aufwand</strong>! Sie mindern den Gewinn und werden über das Konto „Zinsaufwendungen" gebucht.</p>
+    </div>
+
+    <h2>Kapitel 2: Das Disagio (Damnum)</h2>
+
+    <h3>2.1 Was ist ein Disagio?</h3>
+    <p>Oft zahlt die Bank nicht den vollen Darlehensbetrag aus. Es wird ein sogenannter Abschlag (Disagio) einbehalten. Das Unternehmen leiht sich beispielsweise 100.000 €, bekommt aber nur 95.000 € auf das Konto überwiesen. Zurückgezahlt werden müssen am Ende trotzdem die vollen 100.000 €.</p>
+
+    <div class="notice info">
+      <strong>ℹ Warum macht man das?</strong>
+      Das Disagio ist wirtschaftlich gesehen nichts anderes als vorweggenommene Zinsen. Im Gegenzug für das Einbehalten des Disagios gewährt die Bank in der Regel einen niedrigeren laufenden Nominalzinssatz.
+    </div>
+
+    <h3>2.2 Die buchhalterische Behandlung (ARAP)</h3>
+    <p>Da das Disagio eine Zinsvorauszahlung für die gesamte Laufzeit des Darlehens darstellt, darf es nicht sofort im Jahr der Auszahlung komplett als Aufwand gebucht werden. Es muss über die Laufzeit des Darlehens verteilt werden. Hierfür nutzen wir den Aktiven Rechnungsabgrenzungsposten (ARAP). Laut HGB besteht hierfür ein Wahlrecht, steuerrechtlich ist die Aktivierung Pflicht. In Prüfungen wird in der Regel die Aktivierung erwartet.</p>
+
+    <div class="notice ok">
+      <strong>✓ Merksatz</strong>
+      ARAP = Aufwand gehört in Zukunft, deshalb Aktivseite.
+    </div>
+
+    <h2>Kapitel 3: Buchung der Darlehensaufnahme</h2>
+    <div class="notice info">
+      <strong>📝 Aufgabe</strong>
+      Wir nehmen ein Darlehen über 100.000 € auf. Die Bank behält ein Disagio von 5 % ein und überweist den Restbetrag auf unser Bankkonto.
+      <p><strong>Schritt 1 – Beträge ermitteln:</strong><br>
+      Darlehenssumme (Verbindlichkeit): 100.000 €<br>
+      Disagio (5 % von 100.000 €): 5.000 €<br>
+      Auszahlungsbetrag (Bank): 95.000 €</p>
+      <p><strong>Schritt 2 – Buchungssatz bilden:</strong> Das Bankkonto mehrt sich (Aktivkonto, Soll). Der ARAP wird gebildet (Aktivkonto, Soll). Die Verbindlichkeiten gegenüber Kreditinstituten mehren sich (Passivkonto, Haben).</p>
+      <pre>Bank                          95.000 €
+ARAP                           5.000 €
+   an Verbindlichkeiten ggü. KI       100.000 €</pre>
+    </div>
+
+    <h2>Kapitel 4: Die laufende Ratenzahlung</h2>
+
+    <h3>4.1 Trennung von Zins und Tilgung</h3>
+    <p>Wenn die regelmäßige Rate an die Bank gezahlt wird (z. B. jährlich), besteht diese Rate in der Regel aus zwei Komponenten: der Tilgung und den Zinsen. Diese müssen im Buchungssatz zwingend getrennt werden.</p>
+
+    <div class="notice info">
+      <strong>📝 Aufgabe</strong>
+      Am Jahresende überweisen wir die erste Rate an die Bank. Die Rate beträgt insgesamt 55.000 €. Davon sind 50.000 € Tilgung und 5.000 € Zinsen.
+      <p>Die Verbindlichkeit sinkt (Soll), der Zinsaufwand entsteht (Soll) und das Bankguthaben sinkt (Haben). Zusammengesetzter Buchungssatz:</p>
+      <pre>Verbindlichkeiten   50.000 €
+Zinsaufwand          5.000 €
+   an Bank                   55.000 €</pre>
+    </div>
+
+    <h2>Kapitel 5: Auflösung des ARAP (Jahresabschluss)</h2>
+
+    <h3>5.1 Verteilung über die Laufzeit</h3>
+    <p>Das beim Start gebuchte Disagio (im ARAP) muss nun über die Laufzeit des Darlehens als Aufwand in die GuV gebucht werden. Die Auflösung erfolgt meist linear (wenn nichts anderes angegeben ist).</p>
+
+    <div class="notice info">
+      <strong>📝 Aufgabe</strong>
+      Das Darlehen aus Kapitel 3 (Disagio: 5.000 €) hat eine Laufzeit von 5 Jahren. Buche die anteilige Auflösung des Disagios am Ende des ersten Jahres.
+      <p><strong>Schritt 1 – Jährlichen Aufwand berechnen:</strong> 5.000 € ÷ 5 Jahre = 1.000 € pro Jahr.</p>
+      <p><strong>Schritt 2 – Buchungssatz bilden:</strong> Der ARAP (Aktivkonto) muss gemindert werden (Haben). Gleichzeitig entsteht der Zinsaufwand (Soll).</p>
+      <pre>Zinsaufwendungen   1.000 €
+   an ARAP                 1.000 €</pre>
+    </div>
+
+    <h2>Kapitel 6: Typische Fehler und Prüfungs-Checkliste</h2>
+
+    <div class="notice danger">
+      <strong>⛔ Fehler 1: Tilgung als Aufwand gebucht</strong>
+      Die Tilgung wird fälschlicherweise auf ein Aufwandskonto gebucht. → Falsch! Tilgung ist erfolgsneutral und mindert nur das Konto „Verbindlichkeiten".
+    </div>
+
+    <div class="notice danger">
+      <strong>⛔ Fehler 2: Disagio sofort als Aufwand gebucht</strong>
+      Das Disagio wird bei Auszahlung direkt auf „Zinsaufwendungen" gebucht. → Falsch! Es muss zwingend als ARAP aktiviert und über die Laufzeit verteilt werden.
+    </div>
+
+    <div class="notice danger">
+      <strong>⛔ Fehler 3: Auflösung des ARAP vergessen</strong>
+      Im Jahresabschluss wird vergessen, den anteiligen ARAP in den Zinsaufwand umzubuchen.
+    </div>
+
+    <div class="notice info">
+      <strong>Prüfungs-Checkliste</strong>
+      <ul>
+        <li>Ist bei der Darlehensaufnahme ein Disagio angegeben?</li>
+        <li>Wurde der Auszahlungsbetrag (Bank) korrekt berechnet (Darlehenssumme minus Disagio)?</li>
+        <li>Wurde das Disagio bei der Auszahlung auf das Konto ARAP gebucht?</li>
+        <li>Wurden bei der Ratenzahlung Zins (Aufwand) und Tilgung (Verbindlichkeit) sauber getrennt?</li>
+        <li>Zinsanteil prüfen: Wird ein Zinssatz oder Zinsbetrag vorgegeben?</li>
+        <li>Wurde der Buchungssatz für die Rate als zusammengesetzter Buchungssatz formuliert?</li>
+        <li>Wurde am Jahresende daran gedacht, den ARAP anteilig (meist linear) aufzulösen?</li>
+      </ul>
+    </div>
+
+    <div class="related-topics">
+      <h3>Verwandte Themen</h3>
+      <ul>
+        <li><a href="basics_ls17.html">LS17 · Zinsrechnung</a> – Grundlage für die Zinsberechnung bei Darlehensraten</li>
+        <li><a href="basics_ls11.html">LS11 · Jahresabschluss Grundlagen</a> – ARAP als Beispiel transitorischer Rechnungsabgrenzung</li>
+        <li><a href="basics_ls05.html">LS05 · Abschreibungen GWG</a> – weiteres bilanzielles Abgrenzungsthema</li>
+      </ul>
+    </div>
+  </main>
+</div>
+
+<footer class="page-footer">
+  <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
+  <div>BASICS LS10 · Stand: 01.07.2026</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script src="../css/pages.js"></script>
+<script src="../css/engine.js"></script>
+</body>
+</html>

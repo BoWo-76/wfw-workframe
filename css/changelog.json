@@ -4,6 +4,21 @@
     "eintraege": [
       {
         "modul": "basics",
+        "titel": "LS12 · Kosten-Leistungsrechnung (KLR) – Grundlagen",
+        "aktion": "neu"
+      },
+      {
+        "modul": "basics",
+        "titel": "LS11 · Grundlagen des Jahresabschlusses (HGB)",
+        "aktion": "neu"
+      },
+      {
+        "modul": "basics",
+        "titel": "LS10 · Darlehen und Disagio – Buchung und Abgrenzung",
+        "aktion": "neu"
+      },
+      {
+        "modul": "basics",
         "titel": "LS09 · Leasing im Rechnungswesen",
         "aktion": "neu"
       },
