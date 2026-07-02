@@ -3,6 +3,11 @@
     "datum": "01.07.2026",
     "eintraege": [
       {
+        "modul": "finanz",
+        "titel": "Quiz LS01 · Investitionsrechnung (10 Fragen)",
+        "aktion": "neu"
+      },
+      {
         "modul": null,
         "titel": "❓ Quiz (Multiple Choice) – neues Lernwerkzeug, 5 Beispielfragen",
         "aktion": "neu"

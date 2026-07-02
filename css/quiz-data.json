@@ -1,5 +1,145 @@
 [
   {
+    "id": "finanz_ls01_q1",
+    "modul": "finanz",
+    "ls": "finanz_ls01",
+    "frage": "Welche Aussage beschreibt eine Investition korrekt?",
+    "optionen": [
+      "Verwendung finanzieller Mittel für Vermögensteile.",
+      "Beschaffung von Eigen- und Fremdkapital.",
+      "Auszahlung von Löhnen.",
+      "Aufnahme eines Kredits."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Eine Investition ist die Mittelverwendung auf der Aktivseite; Finanzierung beschreibt die Mittelherkunft."
+  },
+  {
+    "id": "finanz_ls01_q2",
+    "modul": "finanz",
+    "ls": "finanz_ls01",
+    "frage": "Welche Investitionsart dient der Schaffung zusätzlicher Kapazitäten?",
+    "optionen": [
+      "Ersatzinvestition",
+      "Erweiterungsinvestition",
+      "Rationalisierungsinvestition",
+      "Finanzinvestition"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Erweiterungsinvestitionen erhöhen die Kapazität des Unternehmens."
+  },
+  {
+    "id": "finanz_ls01_q3",
+    "modul": "finanz",
+    "ls": "finanz_ls01",
+    "frage": "Welches Verfahren gehört zu den statischen Investitionsrechenverfahren?",
+    "optionen": [
+      "Interner Zinsfuß",
+      "Kapitalwertmethode",
+      "Kostenvergleichsrechnung",
+      "Annuitätenmethode"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Kosten-, Gewinn-, Rentabilitäts- und Amortisationsvergleich sind statische Verfahren."
+  },
+  {
+    "id": "finanz_ls01_q4",
+    "modul": "finanz",
+    "ls": "finanz_ls01",
+    "frage": "Warum gilt „Keine Investition ohne Finanzierung“?",
+    "optionen": [
+      "Weil Investitionen immer aus Eigenkapital bezahlt werden.",
+      "Weil jede Investition eine entsprechende Kapitalbeschaffung voraussetzt.",
+      "Weil Finanzierung ausschließlich die Aktivseite verändert.",
+      "Weil Investitionen immer kreditfinanziert sind."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Investition und Finanzierung bilden Mittelverwendung und Mittelherkunft derselben Bilanz."
+  },
+  {
+    "id": "finanz_ls01_q5",
+    "modul": "finanz",
+    "ls": "finanz_ls01",
+    "frage": "Wann wird bei der Kostenvergleichsrechnung mit Kosten je Mengeneinheit entschieden?",
+    "optionen": [
+      "Bei identischer Kapazität.",
+      "Bei unbekanntem Zinssatz.",
+      "Bei unterschiedlicher Kapazität der Alternativen.",
+      "Immer."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Unterschiedliche Leistungen müssen über Stückkosten vergleichbar gemacht werden."
+  },
+  {
+    "id": "finanz_ls01_q6",
+    "modul": "finanz",
+    "ls": "finanz_ls01",
+    "frage": "Wodurch unterscheiden sich dynamische Verfahren grundlegend von statischen?",
+    "optionen": [
+      "Sie arbeiten mit Deckungsbeiträgen.",
+      "Sie berücksichtigen den Zeitwert des Geldes.",
+      "Sie verwenden keine Kosten.",
+      "Sie verzichten auf Zinssätze."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Dynamische Verfahren rechnen mit Ein- und Auszahlungen und berücksichtigen den Zinseszinseffekt."
+  },
+  {
+    "id": "finanz_ls01_q7",
+    "modul": "finanz",
+    "ls": "finanz_ls01",
+    "frage": "Welche Formel gilt laut Unterricht für die Rentabilitätsrechnung?",
+    "optionen": [
+      "Gewinn / Umsatz × 100",
+      "Gewinn / durchschnittlich gebundenes Kapital × 100",
+      "(Gewinn + kalk. Zinsen) × 100 / durchschnittlich gebundenes Kapital",
+      "Deckungsbeitrag / Kapital × 100"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Im Unterricht wird ausdrücklich die Steinhof-Formel verwendet."
+  },
+  {
+    "id": "finanz_ls01_q8",
+    "modul": "finanz",
+    "ls": "finanz_ls01",
+    "frage": "Der Wiederbeschaffungswert ist in einer Aufgabe gegeben. Welche Größe wird für die kalkulatorische Abschreibung verwendet?",
+    "optionen": [
+      "Immer die Anschaffungskosten.",
+      "Immer der Restwert.",
+      "Der Wiederbeschaffungswert.",
+      "Der Durchschnitt aus AHK und WBW."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Ist der Wiederbeschaffungswert gegeben, wird er laut Skript bevorzugt verwendet."
+  },
+  {
+    "id": "finanz_ls01_q9",
+    "modul": "finanz",
+    "ls": "finanz_ls01",
+    "frage": "Eine Investition erzielt einen Kapitalwert von +8.000 €. Welche Entscheidung ist richtig?",
+    "optionen": [
+      "Die Investition ist unvorteilhaft.",
+      "Die Mindestverzinsung wurde nicht erreicht.",
+      "Die Investition ist vorteilhaft.",
+      "Es sind keine Aussagen möglich."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Ein positiver Kapitalwert bedeutet, dass die Mindestverzinsung überschritten wurde."
+  },
+  {
+    "id": "finanz_ls01_q10",
+    "modul": "finanz",
+    "ls": "finanz_ls01",
+    "frage": "Zwei Investitionen unterscheiden sich nur in der Amortisationsdauer. Alternative A amortisiert sich nach 3 Jahren, Alternative B nach 5 Jahren. Welche ist nach der Amortisationsrechnung vorzuziehen?",
+    "optionen": [
+      "Alternative A",
+      "Alternative B",
+      "Beide sind gleichwertig.",
+      "Das hängt nur vom Gewinn ab."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Nach der statischen Amortisationsrechnung ist die kürzere Kapitalrückflusszeit vorteilhaft."
+  },
+  {
     "id": "recht_ls04_q1",
     "modul": "recht",
     "ls": "recht_ls04",
