@@ -4,6 +4,11 @@
     "eintraege": [
       {
         "modul": "basics",
+        "titel": "Quiz: alle 138 Fragen zu Basics Wirtschaftsrechnen entfernt",
+        "aktion": "update"
+      },
+      {
+        "modul": "basics",
         "titel": "Quiz LS10 · Darlehen/Disagio, LS11 · Jahresabschluss, LS12 · KLR & LS13 · Bewertungsgrundsätze (je 12 Fragen)",
         "aktion": "neu"
       },
