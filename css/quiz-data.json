@@ -978,5 +978,425 @@
     ],
     "correctIndex": 1,
     "erklaerung": "Die Buchungsmethode bestimmt alle Konten."
+  },
+  {
+    "id": "basics_ls07_q1",
+    "modul": "basics",
+    "ls": "basics_ls07",
+    "frage": "Privatkonten gibt es bei ...",
+    "optionen": [
+      "EU/PG",
+      "GmbH",
+      "AG",
+      "allen"
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Kapitalgesellschaften haben keine Privatkonten."
+  },
+  {
+    "id": "basics_ls07_q2",
+    "modul": "basics",
+    "ls": "basics_ls07",
+    "frage": "Privatkonten sind Unterkonten von ...",
+    "optionen": [
+      "EK",
+      "GuV",
+      "Bank",
+      "Kasse"
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Sie werden über EK abgeschlossen."
+  },
+  {
+    "id": "basics_ls07_q3",
+    "modul": "basics",
+    "ls": "basics_ls07",
+    "frage": "Privatentnahmen sind ...",
+    "optionen": [
+      "Aufwand",
+      "Ertrag",
+      "erfolgsneutral",
+      "steuerfrei"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Gewinn bleibt unverändert."
+  },
+  {
+    "id": "basics_ls07_q4",
+    "modul": "basics",
+    "ls": "basics_ls07",
+    "frage": "Geldentnahme USt?",
+    "optionen": [
+      "ja",
+      "nein",
+      "7%",
+      "19%"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Keine USt."
+  },
+  {
+    "id": "basics_ls07_q5",
+    "modul": "basics",
+    "ls": "basics_ls07",
+    "frage": "Sachentnahme Bemessung?",
+    "optionen": [
+      "Buchwert",
+      "Wiederbeschaffungskosten",
+      "AK",
+      "Zeitwert"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Netto."
+  },
+  {
+    "id": "basics_ls07_q6",
+    "modul": "basics",
+    "ls": "basics_ls07",
+    "frage": "Privateinlage erhöht ...",
+    "optionen": [
+      "EK",
+      "Aufwand",
+      "Ertrag",
+      "USt"
+    ],
+    "correctIndex": 0,
+    "erklaerung": "EK steigt."
+  },
+  {
+    "id": "basics_ls07_q7",
+    "modul": "basics",
+    "ls": "basics_ls07",
+    "frage": "ESt vom Firmenkonto?",
+    "optionen": [
+      "Aufwand",
+      "Privatentnahme",
+      "VSt",
+      "Bank"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Privatsteuer."
+  },
+  {
+    "id": "basics_ls07_q8",
+    "modul": "basics",
+    "ls": "basics_ls07",
+    "frage": "Abschluss Entnahmen?",
+    "optionen": [
+      "EK an Privat",
+      "Privat an EK",
+      "GuV an Privat",
+      "SBK"
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Entnahmen mindern EK."
+  },
+  {
+    "id": "basics_ls07_q9",
+    "modul": "basics",
+    "ls": "basics_ls07",
+    "frage": "Laptop eingelegt USt?",
+    "optionen": [
+      "19",
+      "7",
+      "keine",
+      "immer"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Keine USt."
+  },
+  {
+    "id": "basics_ls07_q10",
+    "modul": "basics",
+    "ls": "basics_ls07",
+    "frage": "Prüfungsfehler?",
+    "optionen": [
+      "Privat=Aufwand",
+      "Bank",
+      "EK",
+      "VSt"
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Erfolgsneutral."
+  },
+  {
+    "id": "basics_ls08_q1",
+    "modul": "basics",
+    "ls": "basics_ls08",
+    "frage": "Sofortrabatt?",
+    "optionen": [
+      "buchen",
+      "nicht separat",
+      "Skonto",
+      "Bonus"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Direkt geminderter Betrag."
+  },
+  {
+    "id": "basics_ls08_q2",
+    "modul": "basics",
+    "ls": "basics_ls08",
+    "frage": "Skonto ist...",
+    "optionen": [
+      "vorher",
+      "nachträglich",
+      "Bonus",
+      "Provision"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Nach Zahlung."
+  },
+  {
+    "id": "basics_ls08_q3",
+    "modul": "basics",
+    "ls": "basics_ls08",
+    "frage": "Skonti Unterkonto...",
+    "optionen": [
+      "Bank",
+      "Umsatz",
+      "Forderung",
+      "Kasse"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Erlösschmälerung."
+  },
+  {
+    "id": "basics_ls08_q4",
+    "modul": "basics",
+    "ls": "basics_ls08",
+    "frage": "USt bei Skonto?",
+    "optionen": [
+      "Sollkorrektur",
+      "Haben",
+      "gar nicht",
+      "VSt"
+    ],
+    "correctIndex": 0,
+    "erklaerung": "USt sinkt."
+  },
+  {
+    "id": "basics_ls08_q5",
+    "modul": "basics",
+    "ls": "basics_ls08",
+    "frage": "Anzahlung ist...",
+    "optionen": [
+      "Erlös",
+      "Verbindlichkeit",
+      "Aufwand",
+      "EK"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Vor Leistung."
+  },
+  {
+    "id": "basics_ls08_q6",
+    "modul": "basics",
+    "ls": "basics_ls08",
+    "frage": "USt entsteht...",
+    "optionen": [
+      "Lieferung",
+      "Zahlung",
+      "Jahresende",
+      "nie"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Bei Zahlung."
+  },
+  {
+    "id": "basics_ls08_q7",
+    "modul": "basics",
+    "ls": "basics_ls08",
+    "frage": "Anzahlung verrechnen...",
+    "optionen": [
+      "Doppel-USt vermeiden",
+      "Gewinn",
+      "AfA",
+      "VSt"
+    ],
+    "correctIndex": 0,
+    "erklaerung": ""
+  },
+  {
+    "id": "basics_ls08_q8",
+    "modul": "basics",
+    "ls": "basics_ls08",
+    "frage": "Fehler?",
+    "optionen": [
+      "Sofortrabatt buchen",
+      "Bank",
+      "Netto",
+      "Forderung"
+    ],
+    "correctIndex": 0,
+    "erklaerung": ""
+  },
+  {
+    "id": "basics_ls08_q9",
+    "modul": "basics",
+    "ls": "basics_ls08",
+    "frage": "Anzahlung auf Erlöse?",
+    "optionen": [
+      "ja",
+      "nein",
+      "halb",
+      "nur netto"
+    ],
+    "correctIndex": 1,
+    "erklaerung": ""
+  },
+  {
+    "id": "basics_ls08_q10",
+    "modul": "basics",
+    "ls": "basics_ls08",
+    "frage": "Skonto zuerst von...",
+    "optionen": [
+      "Netto",
+      "Brutto",
+      "USt",
+      "Rabatt"
+    ],
+    "correctIndex": 1,
+    "erklaerung": ""
+  },
+  {
+    "id": "basics_ls09_q1",
+    "modul": "basics",
+    "ls": "basics_ls09",
+    "frage": "Entscheidend...",
+    "optionen": [
+      "rechtlich",
+      "wirtschaftlich",
+      "Besitz",
+      "Preis"
+    ],
+    "correctIndex": 1,
+    "erklaerung": ""
+  },
+  {
+    "id": "basics_ls09_q2",
+    "modul": "basics",
+    "ls": "basics_ls09",
+    "frage": "Operating wie...",
+    "optionen": [
+      "Miete",
+      "Kauf",
+      "Darlehen",
+      "Miete"
+    ],
+    "correctIndex": 0,
+    "erklaerung": ""
+  },
+  {
+    "id": "basics_ls09_q3",
+    "modul": "basics",
+    "ls": "basics_ls09",
+    "frage": "Operating aktiviert...",
+    "optionen": [
+      "LN (Leasingnehmer)",
+      "LG (Leasinggeber)",
+      "beide",
+      "keiner"
+    ],
+    "correctIndex": 1,
+    "erklaerung": ""
+  },
+  {
+    "id": "basics_ls09_q4",
+    "modul": "basics",
+    "ls": "basics_ls09",
+    "frage": "Spezialleasing...",
+    "optionen": [
+      "LG (Leasinggeber)",
+      "LN (Leasingnehmer)",
+      "beide",
+      "keiner"
+    ],
+    "correctIndex": 1,
+    "erklaerung": ""
+  },
+  {
+    "id": "basics_ls09_q5",
+    "modul": "basics",
+    "ls": "basics_ls09",
+    "frage": "40-90-Regel...",
+    "optionen": [
+      "AfA",
+      "Eigentum",
+      "USt",
+      "Zins"
+    ],
+    "correctIndex": 1,
+    "erklaerung": ""
+  },
+  {
+    "id": "basics_ls09_q6",
+    "modul": "basics",
+    "ls": "basics_ls09",
+    "frage": "30% ND...",
+    "optionen": [
+      "LN (Leasingnehmer)",
+      "LG (Leasinggeber)",
+      "beide",
+      "keiner"
+    ],
+    "correctIndex": 0,
+    "erklaerung": ""
+  },
+  {
+    "id": "basics_ls09_q7",
+    "modul": "basics",
+    "ls": "basics_ls09",
+    "frage": "Aktivierung LN...",
+    "optionen": [
+      "Maschinen an Leasingverb.",
+      "Aufwand",
+      "Bank",
+      "AfA"
+    ],
+    "correctIndex": 0,
+    "erklaerung": ""
+  },
+  {
+    "id": "basics_ls09_q8",
+    "modul": "basics",
+    "ls": "basics_ls09",
+    "frage": "Rate enthält...",
+    "optionen": [
+      "Tilgung+Zins+VSt",
+      "nur Zins",
+      "nur Tilgung",
+      "nur VSt"
+    ],
+    "correctIndex": 0,
+    "erklaerung": ""
+  },
+  {
+    "id": "basics_ls09_q9",
+    "modul": "basics",
+    "ls": "basics_ls09",
+    "frage": "Formfehler...",
+    "optionen": [
+      "Kurzform",
+      "Soll/Haben",
+      "egal",
+      "keiner"
+    ],
+    "correctIndex": 0,
+    "erklaerung": ""
+  },
+  {
+    "id": "basics_ls09_q10",
+    "modul": "basics",
+    "ls": "basics_ls09",
+    "frage": "Erster Schritt...",
+    "optionen": [
+      "Leasingart",
+      "Rate",
+      "AfA",
+      "USt"
+    ],
+    "correctIndex": 0,
+    "erklaerung": ""
   }
 ]
