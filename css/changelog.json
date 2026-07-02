@@ -3,6 +3,11 @@
     "datum": "01.07.2026",
     "eintraege": [
       {
+        "modul": null,
+        "titel": "Quiz: Fragenanzahl-Auswahl vor Sessionstart (10/20/30/Alle)",
+        "aktion": "update"
+      },
+      {
         "modul": "basics",
         "titel": "Quiz LS03 · Buchungskreislauf EBK–SBK & LS04 · Umsatzsteuer (je 10 Fragen)",
         "aktion": "neu"

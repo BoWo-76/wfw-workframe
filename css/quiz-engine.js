@@ -58,6 +58,13 @@ let quizAnswered = false;
 
     .qz-empty { color: var(--muted); font-family: Arial, sans-serif; font-size: 14px; padding: 30px 0; text-align: center; }
 
+    .qz-count-row { display: flex; align-items: center; gap: 10px; margin: 6px 0 4px; }
+    .qz-count-row label { font-size: 13px; color: var(--muted); font-family: Arial, sans-serif; }
+    .qz-count-row select {
+      font-family: Arial, sans-serif; font-size: 14px; padding: 7px 10px;
+      border: 1px solid var(--line); border-radius: 7px; background: var(--card); color: var(--ink);
+    }
+
     /* ── QUIZ SESSION ── */
     .qz-session { display: none; flex-direction: column; align-items: center; padding-top: 10px; }
     .qz-session.active { display: flex; }
@@ -183,6 +190,15 @@ function qzSelectModule(modId) {
 }
 
 // ── DASHBOARD ────────────────────────────────────────────────
+const QZ_COUNT_PREF_KEY = 'wfw_qz_count_pref';
+
+function qzCountOptions(total) {
+  const steps = [10, 20, 30, 50];
+  const opts = steps.filter(s => s < total);
+  opts.push(total); // "Alle" immer als letzte, größte Option
+  return [...new Set(opts)];
+}
+
 function renderQZDashboard() {
   const container = document.getElementById('qz-main');
   if (!container) return;
@@ -191,6 +207,10 @@ function renderQZDashboard() {
 
   const questions = quizModuleFilter ? QUIZ_ALL.filter(q => q.modul === quizModuleFilter) : QUIZ_ALL;
   const lsCount = new Set(questions.map(q => q.ls).filter(Boolean)).size;
+
+  const countOpts = qzCountOptions(questions.length);
+  const storedPref = parseInt(localStorage.getItem(QZ_COUNT_PREF_KEY), 10);
+  const defaultCount = (storedPref && countOpts.includes(storedPref)) ? storedPref : (countOpts.includes(10) ? 10 : countOpts[0]);
 
   let html = `
     <div class="page-header" style="margin-bottom:18px">
@@ -203,8 +223,16 @@ function renderQZDashboard() {
       <div class="qz-stat-card"><div class="qz-stat-num">${lsCount}</div><div class="qz-stat-label">Lernskripte abgedeckt</div></div>
     </div>
 
+    ${questions.length > 0 ? `
+    <div class="qz-count-row">
+      <label for="qz-count-select">Anzahl Fragen pro Durchlauf</label>
+      <select id="qz-count-select">
+        ${countOpts.map(n => `<option value="${n}" ${n === defaultCount ? 'selected' : ''}>${n === questions.length ? `Alle (${n})` : n}</option>`).join('')}
+      </select>
+    </div>` : ''}
+
     <div class="qz-cta-row">
-      <button class="qz-btn primary" ${questions.length === 0 ? 'disabled' : ''} onclick="qzStartQuiz()">▶️ Quiz starten (${questions.length} Fragen)</button>
+      <button class="qz-btn primary" ${questions.length === 0 ? 'disabled' : ''} onclick="qzStartQuiz()">▶️ Quiz starten</button>
     </div>
 
     ${questions.length === 0 ? '<div class="qz-empty">Für dieses Modul liegen noch keine Fragen vor. Sobald ein Fragen-PDF verarbeitet wurde, taucht es hier automatisch auf.</div>' : ''}
@@ -215,11 +243,17 @@ function renderQZDashboard() {
 // ── QUIZ-SESSION ─────────────────────────────────────────────
 function qzStartQuiz() {
   const pool = quizModuleFilter ? QUIZ_ALL.filter(q => q.modul === quizModuleFilter) : QUIZ_ALL;
+  const select = document.getElementById('qz-count-select');
+  const requestedCount = select ? parseInt(select.value, 10) : pool.length;
+  try { localStorage.setItem(QZ_COUNT_PREF_KEY, requestedCount.toString()); } catch (e) {}
+
   quizQueue = [...pool];
   for (let i = quizQueue.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [quizQueue[i], quizQueue[j]] = [quizQueue[j], quizQueue[i]];
   }
+  quizQueue = quizQueue.slice(0, Math.min(requestedCount, quizQueue.length));
+
   quizIdx = 0;
   quizStats = { richtig: 0, falsch: 0 };
   if (quizQueue.length === 0) return;
