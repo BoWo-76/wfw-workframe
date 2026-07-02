@@ -750,6 +750,28 @@ function buildTopbar() {
 }
 
 // ── INIT ─────────────────────────────────────────────────────
+// ── FEEDBACK-BUTTON ──────────────────────────────────────────
+// Fügt ✉️-Link in die Topbar ein (unmittelbar vor dem Logo).
+// Öffnet das E-Mail-Programm des Besuchers mit vorausgefülltem Betreff.
+function initFeedbackLink() {
+  const topbar = document.querySelector('.topbar');
+  if (!topbar) return;
+
+  const subject = encodeURIComponent('Feedback zum WFW Wiki');
+  const body    = encodeURIComponent('Hallo,\n\nich habe folgendes Feedback zum WFW Wiki:\n\n');
+
+  const btn = document.createElement('a');
+  btn.className = 'feedback-toggle';
+  btn.href      = `mailto:wfw.wiki@gmail.com?subject=${subject}&body=${body}`;
+  btn.innerHTML = '✉️';
+  btn.title     = 'Feedback per E-Mail senden';
+  btn.setAttribute('aria-label', 'Feedback per E-Mail senden');
+
+  const logo = topbar.querySelector('.topbar-logo');
+  if (logo) topbar.insertBefore(btn, logo);
+  else topbar.appendChild(btn);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   trackVisit();
   buildTopbar();
@@ -761,6 +783,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initWerkzeugkasten();
   initKarteikartenLink();
   initQuizLink();
+  initFeedbackLink();
   buildSidebar();
   buildIndexPage();
   buildModulePage();

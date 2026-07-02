@@ -33,8 +33,8 @@ const WIKI_CONFIG = {
     },
     {
       id: "handbuch", module: null, title: "Nutzerhandbuch",
-      file: "pages/handbuch.html", status: "fertig", updated: "01.07.2026",
-      keywords: ["handbuch", "anleitung", "navigation", "suche", "box-system", "definition-box", "prüfungsfalle", "merksatz", "merkhilfe", "formelglossar", "changelog", "werkzeugkasten", "lernablauf", "bedienungsanleitung", "hilfe"]
+      file: "pages/handbuch.html", status: "fertig", updated: "02.07.2026",
+      keywords: ["handbuch", "anleitung", "navigation", "suche", "box-system", "definition-box", "prüfungsfalle", "merksatz", "merkhilfe", "formelglossar", "changelog", "werkzeugkasten", "karteikarten", "quiz", "feedback", "lernablauf", "bedienungsanleitung", "hilfe"]
     },
 
     // ── Lern- und Arbeitsmethodik ────────────────────────────

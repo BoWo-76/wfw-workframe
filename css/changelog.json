@@ -3,6 +3,16 @@
     "datum": "02.07.2026",
     "eintraege": [
       {
+        "modul": null,
+        "titel": "✉️ Feedback-Button (mailto) in Topbar aller Seiten",
+        "aktion": "neu"
+      },
+      {
+        "modul": null,
+        "titel": "Nutzerhandbuch · Feedback-Abschnitt ergänzt",
+        "aktion": "update"
+      },
+      {
         "modul": "finanz",
         "titel": "LS01 · Investitionsrechnung – Rechenbeispiele & Rechenschemata in allen Kapiteln ergänzt (Kostenvergleich, Gewinnvergleich, Rentabilität, Auf-/Abzinsung, Kapitalwert, Annuität, interner Zinsfuß, wirtschaftliche Nutzungsdauer)",
         "aktion": "neu"
