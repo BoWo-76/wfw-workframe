@@ -1,0 +1,72 @@
+[
+  {
+    "id": "recht_ls04_q1",
+    "modul": "recht",
+    "ls": "recht_ls04",
+    "frage": "Welche Aussage zur Körperschaftsteuer (KSt) trifft zu?",
+    "optionen": [
+      "Sie wird auf das Einkommen natürlicher Personen erhoben.",
+      "Sie wird auf das zu versteuernde Einkommen von Kapitalgesellschaften erhoben.",
+      "Sie ersetzt die Umsatzsteuer bei Kapitalgesellschaften.",
+      "Sie wird nur bei Verlustausschüttung fällig."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Körperschaftsteuer ist das Pendant zur Einkommensteuer für juristische Personen (z. B. GmbH, AG) und wird auf das zu versteuernde Einkommen (zvE) der Kapitalgesellschaft erhoben."
+  },
+  {
+    "id": "basics_ls13_q1",
+    "modul": "basics",
+    "ls": "basics_ls13",
+    "frage": "Ein Unternehmen bucht einen Gewinn aus Wertsteigerung eines Wertpapiers, obwohl es noch nicht verkauft wurde. Gegen welchen Grundsatz wird verstoßen?",
+    "optionen": [
+      "Grundsatz der Bilanzidentität",
+      "Grundsatz der Bewertungsstetigkeit",
+      "Realisationsprinzip",
+      "Grundsatz der Periodenabgrenzung"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das Realisationsprinzip (Teil des Vorsichtsprinzips, § 252 Abs. 1 Nr. 4 HGB) besagt: Gewinne dürfen erst bei tatsächlichem Verkauf gebucht werden, nicht bei bloßer Wertsteigerung."
+  },
+  {
+    "id": "basics_ls13_q2",
+    "modul": "basics",
+    "ls": "basics_ls13",
+    "frage": "Was passiert mit einer Forderung, deren Kunde im Februar Insolvenz anmeldet, wenn die finanzielle Schieflage nachweislich schon im Dezember bestand?",
+    "optionen": [
+      "Die Forderung bleibt unverändert, da die Insolvenz erst 2026 bekannt wurde.",
+      "Die Forderung muss zum 31.12. abgeschrieben werden (wertaufhellend).",
+      "Die Forderung darf erst im Folgejahr abgeschrieben werden (wertbegründend).",
+      "Die Forderung wird automatisch storniert."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Da die Schieflage objektiv schon am Stichtag (31.12.) bestand, handelt es sich um eine wertaufhellende Tatsache — sie muss in der Bilanz zum 31.12. berücksichtigt werden."
+  },
+  {
+    "id": "basics_ls18_q1",
+    "modul": "basics",
+    "ls": "basics_ls18",
+    "frage": "Welche Aussage zur Annuitätentilgung ist korrekt?",
+    "optionen": [
+      "Die Tilgung bleibt über die Laufzeit konstant, die Rate sinkt.",
+      "Die Gesamtrate bleibt konstant, der Tilgungsanteil steigt mit der Zeit.",
+      "Der Zinsanteil steigt mit der Zeit, weil die Restschuld wächst.",
+      "Annuitätentilgung wird ausschließlich bei Maschinenfinanzierungen eingesetzt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Bei der Annuitätentilgung bleibt die Gesamtrate (Annuität) konstant. Da die Restschuld sinkt, sinkt der Zinsanteil und der Tilgungsanteil steigt entsprechend."
+  },
+  {
+    "id": "methodik_ls01_q1",
+    "modul": "methodik",
+    "ls": "methodik_ls01",
+    "frage": "Welche Lernmethode nutzt gezielt den 'Testing-Effekt' — also das aktive Abrufen von Wissen ohne Vorlage?",
+    "optionen": [
+      "SQ3R-Methode",
+      "Cornell-Methode",
+      "Active Recall",
+      "Loci-Methode"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Active Recall zwingt das Gehirn, Informationen aktiv aus dem Gedächtnis abzurufen statt sie passiv zu lesen — das ist der Kern des Testing-Effekts und nachweislich effektiver als wiederholtes Lesen."
+  }
+]

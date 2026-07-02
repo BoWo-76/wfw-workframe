@@ -4,6 +4,16 @@
     "eintraege": [
       {
         "modul": null,
+        "titel": "❓ Quiz (Multiple Choice) – neues Lernwerkzeug, 5 Beispielfragen",
+        "aktion": "neu"
+      },
+      {
+        "modul": null,
+        "titel": "Nutzerhandbuch · Quiz-Abschnitt ergänzt",
+        "aktion": "update"
+      },
+      {
+        "modul": null,
         "titel": "🎴 Karteikarten (Leitner-System) – neues Lernwerkzeug",
         "aktion": "neu"
       },

@@ -699,6 +699,35 @@ function initKarteikartenLink() {
   else topbar.appendChild(btn);
 }
 
+// ── QUIZ-BUTTON ───────────────────────────────────────────────
+// Fügt ❓-Link in die Topbar ein (links vom 🎴-Karteikarten-Icon).
+// Öffnet quiz.html im selben Tab.
+function initQuizLink() {
+  const topbar = document.querySelector('.topbar');
+  if (!topbar) return;
+  const r = getRoot();
+
+  const btn = document.createElement('a');
+  btn.className = 'qz-toggle';
+  btn.href      = `${r}/quiz.html`;
+  btn.innerHTML = '❓';
+  btn.title     = 'Quiz öffnen';
+  btn.setAttribute('aria-label', 'Quiz öffnen');
+
+  // Links vom Karteikarten-Icon einfügen, sonst gleiche Fallback-Kette
+  const kkBtn         = topbar.querySelector('.kk-toggle');
+  const wkBtn         = topbar.querySelector('.wk-toggle');
+  const changelogBtn  = topbar.querySelector('.changelog-toggle');
+  const formelBtn     = topbar.querySelector('.formel-toggle');
+  const logo          = topbar.querySelector('.topbar-logo');
+  if (kkBtn)              topbar.insertBefore(btn, kkBtn);
+  else if (wkBtn)         topbar.insertBefore(btn, wkBtn);
+  else if (changelogBtn)  topbar.insertBefore(btn, changelogBtn);
+  else if (formelBtn)     topbar.insertBefore(btn, formelBtn);
+  else if (logo)          topbar.insertBefore(btn, logo);
+  else topbar.appendChild(btn);
+}
+
 // ── LOGO ─────────────────────────────────────────────────────
 function buildLogo() {
   const topbar = document.querySelector('.topbar');
@@ -731,6 +760,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initChangelog();
   initWerkzeugkasten();
   initKarteikartenLink();
+  initQuizLink();
   buildSidebar();
   buildIndexPage();
   buildModulePage();
