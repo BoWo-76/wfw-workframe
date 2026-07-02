@@ -3,6 +3,11 @@
     "datum": "02.07.2026",
     "eintraege": [
       {
+        "modul": "finanz",
+        "titel": "LS01 · Kostenvergleichsrechnung – Sonderfall unterschiedliche Kapazitäten ergänzt (IHK-Prüfungsbeispiel, Fixkosten-Proportionalisierungsfalle, externe Quelle verlinkt)",
+        "aktion": "update"
+      },
+      {
         "modul": null,
         "titel": "✉️ Feedback-Button (mailto) in Topbar aller Seiten",
         "aktion": "neu"

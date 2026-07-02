@@ -276,6 +276,89 @@
       <strong>Ergebnis:</strong> Maschine A ist mit 39.000 € knapp kostengünstiger als Maschine B (39.400 €) → Maschine A wählen.
     </div>
 
+    <h4>Sonderfall: unterschiedliche Kapazitäten</h4>
+    <p>Haben die verglichenen Alternativen <strong>unterschiedliche Kapazitäten</strong> und ist zusätzlich eine geplante <strong>Absatzmenge</strong> gegeben, wird gerechnet <strong>mit der Absatzmenge</strong> — nicht mit der Kapazität. Die Kapazität dient nur dazu, aus den Vollauslastungskosten die variablen Stückkosten (k<sub>v</sub>) zu ermitteln.</p>
+
+    <div class="notice ok">
+      <strong>Merksatz</strong><br>
+      Solange schon die <strong>kleinere</strong> Kapazität die geplante Absatzmenge locker abdeckt, reicht der normale Periodenvergleich mit der Absatzmenge aus. Erst wenn die Absatzmenge die kleinere Kapazität übersteigen würde, braucht man zwingend die kritische Menge, um zu prüfen, ab wann sich die größere Alternative lohnt.
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – unterschiedliche Kapazitäten (IHK-Prüfungsaufgabe)</strong><br>
+      Zwei Angebote für eine Fertigungslinie, Kalkulationszinssatz 8 %, geplante Absatzmenge 8.000 Stück/Jahr.
+      <table style="margin-top:0.5rem">
+        <thead><tr><th></th><th>Angebot 1</th><th>Angebot 2</th></tr></thead>
+        <tbody>
+          <tr><td>Anschaffungskosten</td><td>530.000 €</td><td>584.000 €</td></tr>
+          <tr><td>Restwert</td><td>15.000 €</td><td>20.000 €</td></tr>
+          <tr><td>Nutzungsdauer</td><td>8 Jahre</td><td>6 Jahre</td></tr>
+          <tr><td>Kapazität</td><td>8.500 Stück</td><td>9.500 Stück</td></tr>
+          <tr><td>Variable Kosten bei Vollauslastung</td><td>918.000 €</td><td>969.000 €</td></tr>
+          <tr><td>Sonstige Fixkosten</td><td>47.625 €</td><td>64.840 €</td></tr>
+        </tbody>
+      </table>
+
+      <p style="margin:0.8rem 0 0.3rem"><strong>Schritt 1 — variable Stückkosten aus der Kapazität ableiten:</strong></p>
+      k<sub>v1</sub> = 918.000 € / 8.500 = <strong>108 €/Stück</strong> &nbsp;·&nbsp; k<sub>v2</sub> = 969.000 € / 9.500 = <strong>102 €/Stück</strong>
+
+      <p style="margin:0.8rem 0 0.3rem"><strong>Schritt 2 — Fixkosten je Angebot:</strong></p>
+      <div class="two-col">
+        <div class="content-card">
+          <strong>Angebot 1</strong><br>
+          Kalk. AfA = (530.000−15.000)/8 = <strong>64.375 €</strong><br>
+          Kalk. Zinsen = (530.000+15.000)/2×0,08 = <strong>21.800 €</strong><br>
+          + sonstige Fixkosten 47.625 €<br>
+          <strong>= Fixkosten gesamt 133.800 €</strong>
+        </div>
+        <div class="content-card">
+          <strong>Angebot 2</strong><br>
+          Kalk. AfA = (584.000−20.000)/6 = <strong>94.000 €</strong><br>
+          Kalk. Zinsen = (584.000+20.000)/2×0,08 = <strong>24.160 €</strong><br>
+          + sonstige Fixkosten 64.840 €<br>
+          <strong>= Fixkosten gesamt 183.000 €</strong>
+        </div>
+      </div>
+
+      <p style="margin:0.8rem 0 0.3rem"><strong>Schritt 3 — Kostenvergleich Periode, ausgewertet bei der Absatzmenge (x = 8.000):</strong></p>
+      <table style="margin-top:0.5rem">
+        <thead><tr><th></th><th>Angebot 1</th><th>Angebot 2</th></tr></thead>
+        <tbody>
+          <tr><td>Fixkosten</td><td>133.800 €</td><td>183.000 €</td></tr>
+          <tr><td>Variable Kosten (k<sub>v</sub> × 8.000)</td><td>864.000 €</td><td>816.000 €</td></tr>
+          <tr><td><strong>Gesamtkosten</strong></td><td><strong>997.800 €</strong></td><td><strong>999.000 €</strong></td></tr>
+        </tbody>
+      </table>
+      <strong>Ergebnis:</strong> Angebot 1 ist bei der erwarteten Absatzmenge knapp günstiger (997.800 € vs. 999.000 €) → Angebot 1 wählen.
+
+      <p style="margin:0.8rem 0 0.3rem"><strong>Kritische Menge (Kontrolle):</strong></p>
+      x = (K<sub>F2</sub> − K<sub>F1</sub>) / (k<sub>v1</sub> − k<sub>v2</sub>) = (183.000 − 133.800) / (108 − 102) = 49.200 / 6 = <strong>8.200 Stück</strong><br>
+      Die geplanten 8.000 Stück liegen knapp <strong>unter</strong> der kritischen Menge → bestätigt exakt das Ergebnis: unterhalb von 8.200 Stück ist Angebot 1 günstiger, oberhalb kippt es zu Angebot 2.
+    </div>
+
+    <div class="notice danger">
+      ⛔ <strong>Prüfungsfalle – Fixkosten-Proportionalisierung</strong><br>
+      Man darf die kapazitätsbasierten Fixkosten je Stück (z. B. 133.800 € / 8.500 = 15,74 €/Stück) <strong>nicht</strong> mit der Absatzmenge weiterrechnen (15,74 € + 108 €) × 8.000 — das unterstellt fälschlich, Fixkosten würden mit der Beschäftigung „mitschrumpfen". Fixkosten fallen in voller Höhe an, unabhängig von der produzierten Menge.<br><br>
+      <strong>Zwei saubere, gleichwertige Rechenwege:</strong>
+      <ol style="margin-top:0.4rem">
+        <li><strong>Gesamtkosten:</strong> Fixkosten + (k<sub>v</sub> × Absatzmenge) — direkt bei der Absatzmenge ausgewertet, keine Stückkosten-Umrechnung nötig (so im Beispiel oben).</li>
+        <li><strong>Stückkosten, aber konsistent:</strong> Fixkosten je Stück <strong>bei der Absatzmenge</strong> (133.800 € / 8.000 = 16,73 €/Stück), nicht bei der Kapazität — führt zum selben Ergebnis (16,73 + 108 = 124,73 €/Stück × 8.000 = 997.800 €).</li>
+      </ol>
+      Beide Wege sind korrekt, solange Fix- und variable Kosten auf <strong>dieselbe Bezugsmenge</strong> bezogen werden.
+    </div>
+
+    <div class="notice info">
+      <strong>Zwei parallele Sichtweisen, nicht vermischen</strong><br>
+      In offiziellen Musterlösungen tauchen oft <strong>beide</strong> Betrachtungen nebeneinander auf — das ist zulässig, solange man sie getrennt hält:
+      <table style="margin-top:0.5rem">
+        <thead><tr><th>Sichtweise</th><th>Rechengröße</th><th>Beantwortet</th></tr></thead>
+        <tbody>
+          <tr><td>Kostenvergleich <strong>Periode</strong></td><td>Absatzmenge (8.000)</td><td>„Was kostet uns die Periode bei der geplanten Auslastung?" → Entscheidungsgrundlage</td></tr>
+          <tr><td>Kostenvergleich <strong>Mengeneinheit</strong></td><td>Kapazität (8.500 / 9.500)</td><td>„Was kostet theoretisch ein Stück bei Vollauslastung?" → ergänzende Zusatzinfo, keine Entscheidungsbasis</td></tr>
+        </tbody>
+      </table>
+    </div>
+
     <h3 id="kap4-2">4.2 Gewinnvergleichsrechnung</h3>
     <p>Ergänzt die Kostenvergleichsrechnung um die <strong>Erlöse</strong>. Gewählt wird die Alternative mit dem <strong>höchsten Gewinn</strong>.</p>
 
@@ -696,6 +779,7 @@
       <ul>
         <li><a href="rewe_ls03.html">REWE LS03 · Grundlagen KLR</a> – Kosten- und Leistungsbegriffe (Grundlage statischer Verfahren)</li>
         <li><a href="rewe_ls05.html">REWE LS05 · BAB</a> – Zuschlagssätze als Grundlage für Kostenvergleichsrechnungen</li>
+        <li><a href="https://www.controllingportal.de/Fachinfo/Investitionsrechnung/Kostenvergleichsrechnung-Erlaeuterung-mit-Beispiel.html" target="_blank" rel="noopener">controllingportal.de – Kostenvergleichsrechnung, Erläuterung mit Beispiel</a> (externe Quelle, Prof. Dr. Hoberg) – vertiefende Erklärung zum Sonderfall unterschiedlicher Kapazitäten</li>
       </ul>
     </div>
 
