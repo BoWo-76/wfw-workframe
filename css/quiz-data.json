@@ -838,5 +838,1125 @@
     ],
     "correctIndex": 2,
     "erklaerung": "Die Merkhilfe zur Abgrenzung lautet: Das WWS beantwortet die Frage nach den Warenströmen und Beständen („Was haben wir?“). Das übergeordnete ERP beantwortet das „Wie steuern wir?“. Das MIS liefert die verdichtete Antwort auf: „Was bedeutet das für das Management?“ (Kennzahlen)."
+  },
+  {
+    "id": "recht_ls01_q1",
+    "modul": "recht",
+    "ls": "recht_ls01",
+    "frage": "Das Bürgerliche Gesetzbuch (BGB) ist ein staatliches Gesetz, das vom Gesetzgeber erlassen wurde. Welchem Rechtsgebiet ist das BGB primär zuzuordnen und warum?",
+    "optionen": [
+      "Dem Öffentlichen Recht, da es ein staatliches Gesetz ist.",
+      "Dem Privatrecht, da es die Rechtsbeziehungen zwischen gleichgeordneten Personen regelt.",
+      "Dem Öffentlichen Recht, weil der Staat als übergeordnete Instanz die Verträge kontrolliert.",
+      "Dem Strafrecht, da Verstöße gegen Verträge automatisch strafbar sind."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Vorsicht vor der Prüfungsfalle: Das BGB ist zwar ein staatliches Gesetz, gehört aber zum Privatrecht. Entscheidend für die Zuordnung ist nicht, wer das Gesetz erlassen hat, sondern welche Rechtsbeziehung es regelt (Gleichordnung im Privatrecht vs. Über-/Unterordnung im Öffentlichen Recht)."
+  },
+  {
+    "id": "recht_ls01_q2",
+    "modul": "recht",
+    "ls": "recht_ls01",
+    "frage": "Wie werden Tiere im deutschen Zivilrecht gemäß § 90a BGB rechtlich eingeordnet?",
+    "optionen": [
+      "Tiere sind rechtlich den juristischen Personen des öffentlichen Rechts gleichgestellt.",
+      "Tiere sind Sachen im Sinne des § 90 BGB, da sie körperliche Gegenstände sind.",
+      "Tiere sind keine Sachen, auf sie werden jedoch die für Sachen geltenden Vorschriften entsprechend angewendet, soweit nicht etwas anderes bestimmt ist.",
+      "Tiere sind voll rechtsfähige und geschäftsfähige Rechtssubjekte."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Laut § 90a BGB sind Tiere keine Sachen. Um am Rechtsverkehr teilzunehmen (z. B. Kauf oder Übereignung), werden die Vorschriften für Sachen aber entsprechend auf sie angewendet."
+  },
+  {
+    "id": "recht_ls01_q3",
+    "modul": "recht",
+    "ls": "recht_ls01",
+    "frage": "Ein zwei Wochen altes Neugeborenes wird von den Großeltern testamentarisch als Alleinerbe für ein Mietshaus eingesetzt. Welche rechtliche Eigenschaft besitzt das Baby in diesem Moment?",
+    "optionen": [
+      "Es ist voll geschäftsfähig, da die Erbschaft einen rechtlichen Vorteil bringt.",
+      "Es ist weder rechtsfähig noch geschäftsfähig.",
+      "Es ist rechtsfähig, aber geschäftsunfähig.",
+      "Es ist beschränkt geschäftsfähig gemäß dem Taschengeldparagrafen."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Rechtsfähigkeit ist die Fähigkeit, Träger von Rechten und Pflichten zu sein, und beginnt bei natürlichen Personen mit der Vollendung der Geburt. Geschäftsfähigkeit ist dagegen die Fähigkeit, diese Rechte selbstständig auszuüben, welche erst ab 7 Jahren (beschränkt) bzw. 18 Jahren (voll) eintritt."
+  },
+  {
+    "id": "recht_ls01_q4",
+    "modul": "recht",
+    "ls": "recht_ls01",
+    "frage": "Ein 14-Jähriger schließt einen Mobilfunkvertrag (Laufzeit 24 Monate) ab. Er möchte die monatlichen Raten in Höhe von 15 € vollständig von seinem monatlichen Taschengeld (50 €) bezahlen. Ist dieser Vertrag nach § 110 BGB (Taschengeldparagraf) ohne Zustimmung der Eltern wirksam?",
+    "optionen": [
+      "Ja, weil die monatliche Rate deutlich unter seinem monatlichen Taschengeld liegt.",
+      "Ja, da es sich um ein einseitig verpflichtendes Rechtsgeschäft handelt.",
+      "Nein, da der Taschengeldparagraf eine sofortige, vollständige Bewirkung der gesamten Leistung fordert; Ratenzahlungen und Dauerschuldverhältnisse sind davon ausgeschlossen.",
+      "Nein, weil der Taschengeldparagraf eine strikte gesetzliche Höchstgrenze von 10 € pro Kauf vorschreibt."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Der Taschengeldparagraf (§ 110 BGB) greift nur, wenn der Minderjährige die geschuldete Leistung *vollständig* bewirkt (bezahlt). Dauerschuldverhältnisse wie Handyverträge oder Abos sowie Ratenkäufe sind strukturell ausgeschlossen, da die Verpflichtung für die Zukunft bestehen bleibt."
+  },
+  {
+    "id": "recht_ls01_q5",
+    "modul": "recht",
+    "ls": "recht_ls01",
+    "frage": "Die 16-jährige Lara absolviert ein verpflichtendes Schulpraktikum in einer Buchhandlung. Ohne das Wissen ihrer Eltern unterschreibt sie dort einen Kaufvertrag über eine Lieferung Fachbücher für den Laden im Wert von 800 €. Ist dieser Vertrag über § 113 BGB (Dienst- oder Arbeitsverhältnis) wirksam?",
+    "optionen": [
+      "Ja, weil sie sich im Rahmen ihres Praktikums im Betrieb aufhält.",
+      "Nein, da ein Schulpraktikum kein freies Dienst- oder Arbeitsverhältnis im Sinne des § 113 BGB ist und der Vertrag somit schwebend unwirksam bleibt.",
+      "Ja, da der Vertrag für den Betrieb geschlossen wurde und § 113 BGB automatische Vertretungsmacht verleiht.",
+      "Nein, da Verträge über 500 € bei Minderjährigen grundsätzlich von Anfang an absolut nichtig sind."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Prüfungsfalle: Schulpraktika fallen nicht unter § 113 BGB. Zudem gewährt § 113 BGB dem Minderjährigen zwar erweiterte Rechte für Geschäfte, die *sein eigenes* Arbeitsverhältnis betreffen, er verleiht ihm jedoch keine Vertretungsmacht, um Verträge *für den Ausbildungsbetrieb* abzuschließen. Der Vertrag ist mangels Elternzustimmung schwebend unwirksam."
+  },
+  {
+    "id": "recht_ls01_q6",
+    "modul": "recht",
+    "ls": "recht_ls01",
+    "frage": "Worin besteht der rechtliche Hauptunterschied zwischen einem Vertreter und einem Boten bei der Abgabe einer Willenserklärung?",
+    "optionen": [
+      "Der Vertreter übermittelt eine komplett fremde Willenserklärung, der Bote gibt eine eigene Erklärung ab.",
+      "Der Vertreter handelt immer in geheimer Vertretung, der Bote muss seinen Namen stets nennen.",
+      "Der Vertreter gibt eine eigene Willenserklärung innerhalb eines eigenen Entscheidungsspielraums ab, während der Bote lediglich eine fremde Willenserklärung ohne eigenen Gestaltungsspielraum übermittelt.",
+      "Ein Vertreter wird nur im Öffentlichen Recht eingesetzt, ein Bote ausschließlich im Privatrecht."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Abgrenzung ist eine beliebte IHK-Frage: Der Vertreter bildet einen eigenen Willen und gibt eine eigene Willenserklärung im Namen des Vertretenen ab (§ 164 BGB). Der Bote hingegen fungiert bloß als „menschliches Transportmittel“ für eine bereits fertige, fremde Willenserklärung."
+  },
+  {
+    "id": "recht_ls01_q7",
+    "modul": "recht",
+    "ls": "recht_ls01",
+    "frage": "Welcher Grundsatz gilt im deutschen Zivilrecht bezüglich der Form von Rechtsgeschäften, sofern das Gesetz keine spezielle Form ausdrücklich vorschreibt?",
+    "optionen": [
+      "Grundsatz des Schriftformzwangs",
+      "Grundsatz der Formfreiheit",
+      "Grundsatz der notariellen Pflichtbeurkundung",
+      "Grundsatz der Textform nach § 126b BGB"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Im deutschen Recht gilt der Grundsatz der Formfreiheit. Verträge können grundsätzlich mündlich, schriftlich oder durch schlüssiges (konkludentes) Handeln wirksam geschlossen werden, es sei denn, das Gesetz schreibt eine Ausnahme vor."
+  },
+  {
+    "id": "recht_ls01_q8",
+    "modul": "recht",
+    "ls": "recht_ls01",
+    "frage": "Was ist die gesetzliche Rechtsfolge, wenn ein Rechtsgeschäft eine gesetzlich zwingend vorgeschriebene Form (z. B. die Schriftform bei einer Kündigung) missachtet?",
+    "optionen": [
+      "Das Rechtsgeschäft ist schwebend unwirksam und kann geheilt werden.",
+      "Das Rechtsgeschäft ist anfechtbar und muss aktiv widerrufen werden.",
+      "Das Rechtsgeschäft ist gemäß § 125 BGB grundsätzlich nichtig (von Anfang an unwirksam).",
+      "Das Rechtsgeschäft bleibt voll wirksam, zieht jedoch ein Bußgeld nach sich."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Ein Verstoß gegen gesetzliche Formvorschriften führt nach § 125 BGB unweigerlich zur Nichtigkeit des Rechtsgeschäfts. Es wird rechtlich so behandelt, als sei es nie zustande gekommen (ex tunc)."
+  },
+  {
+    "id": "recht_ls01_q9",
+    "modul": "recht",
+    "ls": "recht_ls01",
+    "frage": "Ein Käufer unterschreibt einen Kaufvertrag über ein Auto, weil er fälschlicherweise glaubt, die Benzinpreise würden in der nächsten Woche drastisch sinken. Als dies nicht geschieht, will er den Vertrag wegen Irrtums anfechten. Liegt ein zulässiger Anfechtungsgrund vor?",
+    "optionen": [
+      "Ja, es handelt sich um einen klassischen Inhaltsirrtum nach § 119 BGB.",
+      "Ja, da es sich um eine verkehrswesentliche Eigenschaft der Marktlage handelt.",
+      "Nein, es handelt sich um einen unbeachtlichen Motivirrtum im Beweggrund, welcher nicht zur Anfechtung berechtigt.",
+      "Nein, Verträge über Fahrzeuge können generell niemals angefochten werden."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Prüfungsfalle Motivirrtum: Ein Irrtum in der persönlichen Motivations- oder Erwartungslage (Beweggrund) ist ein unbeachtlicher Irrtum. § 119 BGB schützt ausschließlich den Erklärungs-, Inhalts- und Eigenschaftsirrtum."
+  },
+  {
+    "id": "recht_ls01_q10",
+    "modul": "recht",
+    "ls": "recht_ls01",
+    "frage": "Wie unterscheidet sich ein anfechtbares Rechtsgeschäft in seiner anfänglichen Wirksamkeit von einem von Anfang an nichtigen Rechtsgeschäft?",
+    "optionen": [
+      "Das nichtige Geschäft ist zunächst voll wirksam, das anfechtbare Geschäft ist von Beginn an tot.",
+      "Ein anfechtbares Rechtsgeschäft ist zunächst voll wirksam; wird es jedoch erfolgreich und fristgerecht angefochten, gilt es als von Anfang an (ex tunc) nichtig.",
+      "Das anfechtbare Geschäft wird erst durch die Genehmigung der Behörden wirksam.",
+      "Es gibt keinen Unterschied; beide Kategorien sind exakt dasselbe."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Nichtige Rechtsgeschäfte sind von vornherein unwirksam. Anfechtbare Rechtsgeschäfte sind dagegen voll wirksam. Erst durch die aktive Abgabe einer Anfechtungserklärung wird das Geschäft rückwirkend (ex tunc) vernichtet. Versäumt man die Frist, bleibt das Geschäft dauerhaft wirksam."
+  },
+  {
+    "id": "recht_ls02_q1",
+    "modul": "recht",
+    "ls": "recht_ls02",
+    "frage": "Ein Logistikdienstleister verpflichtet sich vertraglich dazu, eine sensible Warensendung termingerecht zu transportieren. Wie wird der Logistikdienstleister im juristischen Sprachgebrauch dieses Schuldverhältnisses bezeichnet?",
+    "optionen": [
+      "Als Gläubiger, da er die Ware in Besitz nimmt.",
+      "Als Zivilrechtsempfänger, weil er den Transport steuert.",
+      "Als Schuldner, da er vertraglich dazu verpflichtet ist, die geschuldete Leistung (den Transport) zu bewirken.",
+      "Er ist weder Schuldner noch Gläubiger, da es sich nicht um eine Geldschuld handelt."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Vorsicht vor der IHK-Prüfungsfalle: Im juristischen Sinne ist ein „Schuldner“ nicht automatisch jemand, der Geld schuldet. Schuldner ist jede Partei, die zu einer Leistung (egal ob Übergabe, Dienstleistung, Transport oder Unterlassung) verpflichtet ist. Der Vertragspartner, der diese Leistung fordern darf, ist der Gläubiger."
+  },
+  {
+    "id": "recht_ls02_q2",
+    "modul": "recht",
+    "ls": "recht_ls02",
+    "frage": "Ein Supermarkt hat in seinen Verträgen mit Kunden nichts Besonderes vereinbart. Ein Kunde rutscht im Laden auf frisch gewischten, nassen Fliesen aus und verletzt sich, weil kein Warnschild aufgestellt war. Kann sich der Kunde auf die Verletzung einer Vertragspflicht berufen?",
+    "optionen": [
+      "Nein, da Schadensersatz nur bei der Verletzung von Hauptleistungspflichten verlangt werden kann.",
+      "Ja, denn nach § 241 Abs. 2 BGB entstehen kraft Gesetzes Nebenpflichten (Schutz- und Rücksichtnahmepflichten), die auch ohne ausdrückliche Vereinbarung gelten.",
+      "Nein, da Pflichten ohne schriftliche Fixierung im Vertrag rechtlich komplett wirkungslos sind.",
+      "Ja, allerdings nur, wenn der Kunde den Einkauf bereits an der Kasse bezahlt hat."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Nebenpflichten (wie Schutz-, Aufklärungs- oder Informationspflichten) entstehen nach § 241 Abs. 2 BGB automatisch kraft Gesetzes mit dem Schuldverhältnis. Sie bezwecken den Schutz der Rechte, Rechtsgüter und Interessen des anderen Teils und müssen nicht extra vereinbart werden."
+  },
+  {
+    "id": "recht_ls02_q3",
+    "modul": "recht",
+    "ls": "recht_ls02",
+    "frage": "Ein Großhändler vereinbart mit einem Kunden im Kaufvertrag schriftlich: „Lieferung fest bis zum 15. März“. Der Großhändler liefert bis zum 16. März nicht. Der Kunde hat keine Mahnung geschickt. Befindet sich der Großhändler im Schuldnerverzug?",
+    "optionen": [
+      "Nein, da ohne eine ausdrückliche Mahnung nach Fälligkeit niemals ein Verzug eintreten kann.",
+      "Ja, da nach § 286 Abs. 2 Nr. 1 BGB eine Mahnung entbehrlich ist, wenn für die Leistung ein Kalendertermin vertraglich vereinbart wurde.",
+      "Nein, weil Verzug bei Kaufleuten generell erst nach einer Frist von 30 Tagen eintritt.",
+      "Ja, allerdings wird dafür die Zustimmung des zuständigen Amtsgerichts benötigt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Grundregel besagt, dass Verzug erst durch eine Mahnung nach Fälligkeit eintritt (§ 286 Abs. 1 BGB). Die wichtigste Ausnahme (Prüfungsfalle!) regelt § 286 Abs. 2 Nr. 1 BGB: Ist ein konkreter Kalendertermin vereinbart, gerät der Schuldner mit Ablauf dieses Tages automatisch in Verzug – ganz ohne Mahnung."
+  },
+  {
+    "id": "recht_ls02_q4",
+    "modul": "recht",
+    "ls": "recht_ls02",
+    "frage": "Ein Händler bietet Äpfel an und liefert diese pünktlich und ordnungsgemäß zum vereinbarten Termin beim Supermarkt an. Der Supermarkt verweigert unbegründet die Annahme der Ware. Welche rechtliche Situation liegt vor?",
+    "optionen": [
+      "Der Händler gerät in Schuldnerverzug, da die Leistung nicht abgeschlossen wurde.",
+      "Der Vertrag wird durch die Nichtannahme automatisch wegen Unmöglichkeit nichtig.",
+      "Der Supermarkt gerät in Annahmeverzug (Gläubigerverzug) nach § 293 BGB; der Händler kann u. a. Lagerkosten geltend machen.",
+      "Es liegt ein Verstoß gegen das gesetzliche Verbot nach § 134 BGB vor."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Wenn der Schuldner die Leistung fällig und ordnungsgemäß anbietet, der Gläubiger diese aber nicht annimmt, gerät der Gläubiger in Annahmeverzug (§ 293 BGB). Die Gefahr- und Haftungsregeln verschieben sich dann zulasten des Gläubigers, und der Schuldner kann Mehraufwendungen (z. B. Lagerkosten) verlangen."
+  },
+  {
+    "id": "recht_ls02_q5",
+    "modul": "recht",
+    "ls": "recht_ls02",
+    "frage": "In einem Kaufvertrag vereinbaren zwei Parteien individuell eine Lieferzeit von „14 Tagen“. In den beigefügten AGB des Verkäufers steht jedoch standardisiert: „Die Lieferzeit beträgt 6 Wochen“. Welche Frist ist rechtlich maßgeblich?",
+    "optionen": [
+      "Die 6 Wochen aus den AGB, da gedruckte Klauseln Vorrang vor handschriftlichen Notizen haben.",
+      "Es gilt ein Mittelwert von genau 4 Wochen.",
+      "Die individuell ausgehandelte Frist von 14 Tagen, da Individualabreden den AGB gemäß § 305b BGB immer vorgehen.",
+      "Der gesamte Vertrag wird wegen widersprüchlicher Klauseln nach § 125 BGB komplett nichtig."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Typische Prüfungsfalle: Gemäß § 305b BGB (Vorrang der Individualabrede) gilt das, was zwischen den Parteien im Einzelfall tatsächlich ausgehandelt und vereinbart wurde, immer vor den Standard-AGB – selbst wenn die AGB das Gegenteil behaupten."
+  },
+  {
+    "id": "recht_ls02_q6",
+    "modul": "recht",
+    "ls": "recht_ls02",
+    "frage": "Ein Online-Händler übersendet einem Verbraucher die Allgemeinen Geschäftsbedingungen (AGB) erst zwei Tage nach dem erfolgreichen Abschluss des Kaufvertrags per E-Mail. Sind die AGB wirksamer Vertragsbestandteil geworden?",
+    "optionen": [
+      "Ja, es reicht völlig aus, wenn die AGB innerhalb einer Woche nach Vertragsschluss zugehen.",
+      "Nein, da eine Einbeziehung nach § 305 Abs. 2 BGB u. a. voraussetzt, dass der Verwender bei Vertragsschluss ausdrücklich darauf hinweist und die Möglichkeit zur Kenntnisnahme gewährt.",
+      "Ja, da im Online-Handel die AGB immer automatisch als einbezogen gelten.",
+      "Nein, weil AGB im Verkehr mit Verbrauchern gesetzlich generell verboten sind."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Für eine wirksame Einbeziehung von AGB müssen drei Voraussetzungen kumulativ *bei Vertragsschluss* erfüllt sein: Ausdrücklicher Hinweis, zumutbare Möglichkeit der Kenntnisnahme und das Einverständnis des Partners. Werden AGB erst nachträglich übersandt, sind sie nicht Vertragsbestandteil geworden."
+  },
+  {
+    "id": "recht_ls02_q7",
+    "modul": "recht",
+    "ls": "recht_ls02",
+    "frage": "In den AGB eines Möbelhändlers versteckt sich unter der unscheinbaren Überschrift „Sonstige Regelungen“ eine Klausel, nach welcher der Käufer automatisch ein teures, zweijähriges Zeitschriften-Abo abschließt. Wie ist diese Klausel rechtlich zu bewerten?",
+    "optionen": [
+      "Sie ist wirksam, da der Kunde den Vertrag freiwillig unterschrieben hat.",
+      "Sie wird nach § 305c BGB (Überraschende Klauseln) erst gar nicht Vertragsbestandteil, da sie so ungewöhnlich ist, dass der Partner nicht mit ihr zu rechnen braucht.",
+      "Sie führt dazu, dass der gesamte Möbelkaufvertrag unheilbar nichtig wird.",
+      "Sie ist wirksam, sofern das Abo nicht mehr als die Hälfte des Möbelpreises kostet."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Bestimmungen in AGB, die nach den Umständen – insbesondere nach dem äußeren Erscheinungsbild des Vertrags – so ungewöhnlich sind, dass der Vertragspartner mit ihnen nicht zu rechnen braucht, werden gemäß § 305c BGB nicht Vertragsbestandteil."
+  },
+  {
+    "id": "recht_ls02_q8",
+    "modul": "recht",
+    "ls": "recht_ls02",
+    "frage": "Ein Bauunternehmer zahlt seit Jahren seine Rechnungen beim Zulieferer absichtlich immer 30 Tage zu spät. Der Zulieferer hat dies über Jahre hinweg stillschweigend akzeptiert. Plötzlich und ohne jede Vorwarnung verlangt der Zulieferer nun für eine neue Rechnung eine hohe Vertragsstrafe. Gegen welches zivilrechtliche Prinzip verstößt dieses widersprüchliche Verhalten?",
+    "optionen": [
+      "Gegen das Verbot des Wuchers nach § 138 BGB.",
+      "Gegen den Grundsatz von Treu und Glauben (§ 242 BGB) in Form des Verbots widersprüchlichen Verhaltens (venire contra factum proprium).",
+      "Gegen die Abschlussfreiheit der Vertragsfreiheit.",
+      "Gegen das prozessuale Recht der sachlichen Zuständigkeit."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "§ 242 BGB (Treu und Glauben) ist eine Generalklausel und dient den Gerichten u. a. als Korrektiv gegen Rechtsmissbrauch. Wer über Jahre hinweg ein bestimmtes Verhalten klaglos akzeptiert und dadurch Vertrauen schafft, darf nicht ohne Vorankündigung schlagartig entgegengesetzt handeln (Verbot widersprüchlichen Verhaltens)."
+  },
+  {
+    "id": "recht_ls02_q9",
+    "modul": "recht",
+    "ls": "recht_ls02",
+    "frage": "Ein Gläubiger möchte eine ausstehende Forderung aus einem Kaufvertrag im Wert von exakt 13.500 € gerichtlich einklagen. Welches Gericht ist unter Berücksichtigung des Streitwerts seit dem 01.01.2026 sachlich zuständig?",
+    "optionen": [
+      "Das Amtsgericht, da es für alle privatrechtlichen Streitigkeiten zuständig ist.",
+      "Das Landgericht, da der Streitwert über der Grenze von 10.000 € liegt.",
+      "Das Amtsgericht, weil die Grenze für das Landgericht erst ab 20.000 € beginnt.",
+      "Das Bundesarbeitsgericht, da es sich um eine vertragliche Pflicht handelt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Für die sachliche Zuständigkeit ist der Streitwert entscheidend. Das Amtsgericht ist für Streitwerte bis zu einschließlich 10.000 € zuständig (§ 23 Nr. 1 GVG). Bei einem Streitwert von über 10.000 € liegt die sachliche Zuständigkeit beim Landgericht."
+  },
+  {
+    "id": "recht_ls02_q10",
+    "modul": "recht",
+    "ls": "recht_ls02",
+    "frage": "Worin unterscheidet sich der Begriff des „Erfüllungsortes“ grundlegend vom Begriff des „Gerichtsstandes“?",
+    "optionen": [
+      "Der Erfüllungsort regelt die sachliche Zuständigkeit, der Gerichtsstand die örtliche Zuständigkeit.",
+      "Es gibt keinen Unterschied, beide Begriffe sind im BGB absolut synonym gebräuchlich.",
+      "Der Erfüllungsort (§ 269 BGB) ist eine materiell-rechtliche Frage (Wo muss die Leistung erbracht werden?), während der Gerichtsstand (§§ 12 ff. ZPO) eine prozessuale Frage ist (Welches Gericht ist örtlich zuständig?).",
+      "Der Gerichtsstand gilt nur für Kaufleute (B2B), der Erfüllungsort ausschließlich für Verbraucher (B2C)."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Vorsicht vor der Verwechslung in der Prüfung: Der Erfüllungsort bestimmt, wo der Schuldner seine Leistungshandlung erbringen muss und wer Kosten/Transportrisiko trägt (§ 269 BGB). Der Gerichtsstand regelt dagegen rein prozessual, an welchem geografischen Ort das zuständige Gericht bei einer Klage angerufen werden muss (§§ 12 ff. ZPO)."
+  },
+  {
+    "id": "recht_ls03_q1",
+    "modul": "recht",
+    "ls": "recht_ls03",
+    "frage": "Ein Kunde sieht im Schaufenster eines Elektronikgeschäfts ein Smartphone mit einem Preisschild von „499 €“. Er geht in den Laden und erklärt dem Verkäufer, dass er das Gerät zu diesem Preis kaufen möchte. Wie ist die Warenauslage rechtlich zu qualifizieren?",
+    "optionen": [
+      "Als verbindliches Angebot des Händlers gemäß § 145 BGB.",
+      "Als bloße Aufforderung zur Abgabe eines Angebots (invitatio ad offerendum), bei der erst der Kunde das rechtliche Angebot abgibt.",
+      "Als Verpflichtungsgeschäft, das den Händler sofort zur Übereignung zwingt.",
+      "Als einseitiges Rechtsgeschäft, das mit dem Betreten des Ladens wirksam wird."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Typische IHK-Prüfungsfalle: Preisschilder im Regal, Schaufensterauslagen oder Produktseiten im Online-Shop sind kein verbindliches Angebot, sondern eine *invitatio ad offerendum*. Erst der Kunde gibt das Angebot ab (z. B. durch Legen der Ware aufs Kassenband), welches der Händler annehmen oder ablehnen kann."
+  },
+  {
+    "id": "recht_ls03_q2",
+    "modul": "recht",
+    "ls": "recht_ls03",
+    "frage": "Ein Großhändler bietet einem Kunden schriftlich an: „Biete Ihnen 50 Drucker zum Stückpreis von 200 €, Lieferung innerhalb von 5 Tagen.“ Der Kunde antwortet per E-Mail: „Ich nehme das Angebot an, brauche die Drucker aber erst in 4 Wochen.“ Ist ein Kaufvertrag zustande gekommen?",
+    "optionen": [
+      "Ja, weil der Kunde das Angebot ausdrücklich angenommen hat und der Preis unverändert bleibt.",
+      "Nein, die Antwort gilt nach § 150 Abs. 2 BGB als Ablehnung verbunden mit einem neuen Antrag des Kunden.",
+      "Ja, der Vertrag gilt als „mit Vorbehalt“ geschlossen.",
+      "Nein, weil Verträge über Drucker zwingend der notariellen Beurkundung bedürfen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Ein Vertrag kommt nur bei vollständiger inhaltlicher Übereinstimmung von Angebot und Annahme zustande. Jede Erweiterung, Einschränkung oder sonstige Änderung (hier die geänderte Lieferfrist) gilt rechtlich als Ablehnung des alten Angebots und ist gleichzeitig ein neues Angebot (§ 150 Abs. 2 BGB)."
+  },
+  {
+    "id": "recht_ls03_q3",
+    "modul": "recht",
+    "ls": "recht_ls03",
+    "frage": "Ein Käufer unterschreibt beim Autohändler einen schriftlichen Kaufvertrag über einen Neuwagen. Wann wird der Käufer rechtlich Eigentümer des Fahrzeugs?",
+    "optionen": [
+      "Sofort mit der Unterschrift unter dem Kaufvertrag (Verpflichtungsgeschäft).",
+      "Erst wenn der Kaufpreis vollständig beim Händler bar eingezahlt oder überwiesen wurde.",
+      "Durch das zusätzliche Verfügungsgeschäft nach § 929 BGB, also durch Einigung und Übergabe des Fahrzeugs.",
+      "Sobald die Zulassungsstelle den Fahrzeugbrief auf den Namen des Käufers ausstellt."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Nach dem Trennungs- und Abstraktionsprinzip überträgt der Kaufvertrag (das Verpflichtungsgeschäft) noch kein Eigentum, sondern begründet nur die Pflicht dazu. Das Eigentum an beweglichen Sachen (Mobilien) geht erst durch das separate Verfügungsgeschäft nach § 929 BGB (Einigung und Übergabe) über."
+  },
+  {
+    "id": "recht_ls03_q4",
+    "modul": "recht",
+    "ls": "recht_ls03",
+    "frage": "Wer ist im Rahmen eines gegenseitigen Kaufvertrags nach § 433 BGB rechtlich als „Schuldner“ anzusehen?",
+    "optionen": [
+      "Ausschließlich der Käufer, weil er die Zahlung des Kaufpreises schuldet.",
+      "Ausschließlich der Verkäufer, weil er die mangelfreie Ware liefern muss.",
+      "Keine der beiden Parteien, da im Zivilrecht nur von Gläubigern gesprochen wird.",
+      "Beide Parteien, da im Kaufvertrag jede Partei gleichzeitig Gläubiger und Schuldner von Hauptleistungspflichten ist."
+    ],
+    "correctIndex": 3,
+    "erklaerung": "Lass dich in der Prüfung nicht verwirren: Wegen der Doppelrolle im Kaufvertrag schuldet der Verkäufer die Übergabe und Übereignung der mangelfreien Sache, während der Käufer die Zahlung und Abnahme schuldet (§ 433 BGB). Beide sind somit zeitgleich Gläubiger und Schuldner."
+  },
+  {
+    "id": "recht_ls03_q5",
+    "modul": "recht",
+    "ls": "recht_ls03",
+    "frage": "Ein Student leiht sich in der Universitätsbibliothek ein Fachbuch für seine Prüfungsvorbereitung aus. Welche rechtliche Beziehung hat der Student zu diesem Buch, solange er es zu Hause auf dem Schreibtisch liegen hat?",
+    "optionen": [
+      "Er ist Eigentümer, da er die umfassende rechtliche Herrschaft ausübt.",
+      "Er ist Besitzer, weil er die tatsächliche Gewalt über das Buch erlangt hat (§ 854 BGB).",
+      "Er ist sowohl Besitzer als auch Eigentümer geworden.",
+      "Er hat keinerlei rechtliche Beziehung, da das Buch Eigentum des Bundeslandes bleibt und Besitz ein Mietverhältnis voraussetzt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Besitz (§ 854 BGB) beschreibt die reine tatsächliche Gewalt über eine Sache (wer sie aktuell hat). Eigentum (§ 903 BGB) beschreibt hingegen die umfassendste rechtliche Herrschaft (wem die Sache gehört). Der Student hat das Buch, die Bibliothek bleibt Eigentümerin."
+  },
+  {
+    "id": "recht_ls03_q6",
+    "modul": "recht",
+    "ls": "recht_ls03",
+    "frage": "Ein Unternehmer beauftragt einen Steuerberater mit der Erstellung des Jahresabschlusses. Welcher Vertragstyp liegt hier vor und was wird im Kern geschuldet?",
+    "optionen": [
+      "Ein Werkvertrag (§ 631 BGB), da ein konkreter, messbarer Erfolg (der fertige und korrekte Jahresabschluss) geschuldet wird.",
+      "Ein Dienstvertrag (§ 611 BGB), weil der Steuerberater lediglich seine Arbeitszeit und ein Bemühen schuldet, ohne für das Ergebnis zu haften.",
+      "Ein Sachdarlehen, da Dokumente und Zahlen vorübergehend überlassen werden.",
+      "Ein Kaufvertrag nach § 433 BGB, da der Abschluss am Ende käuflich erworben wird."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Bei der Abgrenzung gilt: Wird ein konkreter Erfolg (ein fertiges Werk, eine Reparatur, ein fertiger Abschluss) geschuldet, handelt es sich um einen Werkvertrag (§ 631 BGB). Wird dagegen nur eine reine Tätigkeit geschuldet (wie bei einem Arzt oder Nachhilfelehrer), liegt ein Dienstvertrag (§ 611 BGB) vor."
+  },
+  {
+    "id": "recht_ls03_q7",
+    "modul": "recht",
+    "ls": "recht_ls03",
+    "frage": "Ein Verbraucher kauft auf einem Flohmarkt von einer Privatperson eine gebrauchte Kaffeemaschine. Nach einer Woche stellt sich ein schwerer technischer Defekt heraus. Kann sich der Käufer auf die verbraucherschützenden Sonderregeln des Verbrauchsgüterkaufs (§ 474 BGB) berufen?",
+    "optionen": [
+      "Ja, weil der Kauf von beweglichen Sachen durch Verbraucher immer unter den Verbrauchsgüterkauf fällt.",
+      "Nein, da ein Verbrauchsgüterkauf nach § 474 BGB zwingend voraussetzt, dass ein Unternehmer (§ 14 BGB) als Verkäufer und ein Verbraucher (§ 13 BGB) als Käufer agieren.",
+      "Ja, sofern der Kaufpreis einen Betrag von 50 € überschritten hat.",
+      "Nein, weil gebrauchte Waren gesetzlich niemals der Gewährleistung unterliegen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die strengen Schutzrechte des Verbrauchsgüterkaufs (wie die zweijährige Gewährleistung oder die Beweislastumkehr) greifen nur in der Konstellation Unternehmer (B) an Verbraucher (C). Ein Privatverkauf unterliegt den allgemeinen Vorschriften des Kaufrechts."
+  },
+  {
+    "id": "recht_ls03_q8",
+    "modul": "recht",
+    "ls": "recht_ls03",
+    "frage": "Eine Verbraucherin bestellt in einem Onlineshop (organisiertes Fernabsatzsystem) per Smartphone ein Kleid. Nach der Lieferung stellt sie fest, dass ihr die Farbe in der Realität doch nicht gefällt. Welches Recht kann sie ohne Angabe von Gründen geltend machen?",
+    "optionen": [
+      "Sie kann den Vertrag wegen Irrtums nach § 119 BGB anfechten.",
+      "Sie hat bei einem Fernabsatzvertrag (§ 312c BGB) ein gesetzliches Widerrufsrecht von 14 Tagen nach § 355 BGB.",
+      "Kein Recht, da auch im Internet der Grundsatz „gekauft ist gekauft“ ohne Ausnahme gilt.",
+      "Sie kann den Vertrag wegen Sittenwidrigkeit nach § 138 BGB für nichtig erklären lassen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Der Gesetzgeber schützt Verbraucher bei Verträgen, die ausschließlich über Fernkommunikationsmittel (Internet, Telefon etc.) geschlossen werden, durch das Fernabsatzwiderrufsrecht (§§ 312c, 355 BGB). Sie kann den Vertrag innerhalb von 14 Tagen ab Erhalt ohne Mangel oder Fehler grundlos rückabwickeln."
+  },
+  {
+    "id": "recht_ls03_q9",
+    "modul": "recht",
+    "ls": "recht_ls03",
+    "frage": "Ein Verbraucher bestellt online eine Packung frische, tiefgekühlte Erdbeeren sowie ein nach seinen individuellen Maßen angefertigtes Plissee-Rollo für sein Wohnzimmerfenster. Nach der Lieferung möchte er beide Artikel widerrufen. Ist dies möglich?",
+    "optionen": [
+      "Ja, das 14-tägige Widerrufsrecht gilt ausnahmslos für alle im Fernabsatz bestellten Waren.",
+      "Nein, für beide Artikel greift eine gesetzliche Ausnahme vom Widerrufsrecht (§ 356 BGB) für schnell verderbliche Waren und individuell angefertigte Produkte.",
+      "Er kann nur das Rollo widerrufen, da Lebensmittel vom Onlinehandel generell ausgeschlossen sind.",
+      "Er kann nur die Erdbeeren widerrufen, da maßangefertigte Artikel immer vom Umtausch ausgeschlossen, aber widerrufbar sind."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das BGB sieht klare Ausnahmen vom Widerrufsrecht vor, um Unternehmer zu schützen. Hierzu gehören unter anderem Waren, die nach Kundenspezifikation angefertigt werden (Maßanfertigungen), sowie schnell verderbliche Waren (wie frische Lebensmittel). Ein Widerruf ist für beide Artikel ausgeschlossen."
+  },
+  {
+    "id": "recht_ls03_q10",
+    "modul": "recht",
+    "ls": "recht_ls03",
+    "frage": "Worin liegt der primäre Unterschied zwischen einem gesetzlichen Widerruf (§ 355 BGB) und einer zivilrechtlichen Anfechtung (§ 119 BGB)?",
+    "optionen": [
+      "Der Widerruf führt zur Nichtigkeit von Anfang an (ex tunc), die Anfechtung nur für die Zukunft.",
+      "Der Widerruf erfordert immer einen gravierenden Willensmangel (z. B. Drohung), während die Anfechtung grundlos möglich ist.",
+      "Der Widerruf ist ein grundloses Verbraucherrecht bei bestimmten Verträgen (z. B. Fernabsatz), während die Anfechtung einen beweisbaren Willensmangel (Irrtum, Täuschung) voraussetzt und den Vertrag rückwirkend vernichtet.",
+      "Es gibt keinen Unterschied, es handelt sich lediglich um zwei verschiedene Begriffe für das exakt gleiche Prozedere."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Wichtige Abgrenzung für die Prüfung: Der Widerruf schützt den Verbraucher vor unüberlegten Distanzgeschäften und benötigt keinen Fehler oder Grund. Die Anfechtung hingegen beseitigt eine Willenserklärung rückwirkend (von Anfang an = *ex tunc*), setzt aber zwingend das Vorliegen eines gesetzlichen Anfechtungsgrundes (z. B. Inhalts- oder Erklärungsirrtum) voraus."
+  },
+  {
+    "id": "recht_ls04_q1",
+    "modul": "recht",
+    "ls": "recht_ls04",
+    "frage": "Die XYZ-Stiftung ist eine nichtrechtsfähige Stiftung des privaten Rechts mit Sitz im Inland. Das zuständige Finanzamt möchte die Stiftung zur Körperschaftsteuer heranziehen. Die Stiftung wendet ein, sie sei keine juristische Person und somit nicht steuerpflichtig. Wie ist die Rechtslage?",
+    "optionen": [
+      "Der Einwand ist korrekt. Gemäß § 1 KStG unterliegen ausschließlich im Handelsregister eingetragene juristische Personen der Körperschaftsteuer.",
+      "Der Einwand ist falsch. § 1 KStG erfasst neben juristischen Personen des Privatrechts ausdrücklich auch Personenvereinigungen sowie nichtrechtsfähige Anstalten und Stiftungen.",
+      "Der Einwand ist korrekt, da nichtrechtsfähige Gebilde im deutschen Steuerrecht grundsätzlich wie eine GbR nach dem Einkommensteuergesetz (EStG) behandelt werden.",
+      "Der Einwand ist falsch, da Stiftungen im Gegensatz zu GmbHs und AGs einer pauschalen Gewerbesteuer von 25 % unterliegen, die die KSt ersetzt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Typische IHK-Prüfungsfalle: Der Begriff „juristische Person“ allein ist für die Körperschaftsteuer zu eng gefasst. Das Gesetz erstreckt die unbeschränkte KSt-Pflicht in § 1 KStG ganz bewusst auch auf Personenvereinigungen ohne eigene Rechtspersönlichkeit sowie auf nichtrechtsfähige Anstalten, Vermögensmassen und Stiftungen."
+  },
+  {
+    "id": "recht_ls04_q2",
+    "modul": "recht",
+    "ls": "recht_ls04",
+    "frage": "Drei Gründer lassen am 15. Mai den Gesellschaftsvertrag für eine neue Logistik-GmbH notariell beurkunden. Die Eintragung im Handelsregister (HR) erfolgt erst einige Wochen später am 20. Juni. Ab welchem Zeitpunkt beginnt für die Vorgesellschaft (GmbH i.G.) die Körperschaftsteuerpflicht?",
+    "optionen": [
+      "Erst am 20. Juni mit der finalen Eintragung im Handelsregister.",
+      "Rückwirkend zum 1. Januar des laufenden Kalenderjahres.",
+      "Bereits am 15. Mai mit der notariellen Beurkundung des Gesellschaftsvertrags.",
+      "Erst mit der Eröffnung des ersten geschäftlichen Bankkontos."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Körperschaftsteuerpflicht beginnt mit der Entstehung der Vorgesellschaft (GmbH i.G.), und das ist der Moment der notariellen Beurkundung des Gesellschaftsvertrags. Vorsicht in der IHK-Prüfung: Die Gewerbesteuerpflicht setzt nach vereinfachter Prüfungsdarstellung regulär erst mit der tatsächlichen Handelsregistereintragung ein – diese zeitliche Verschiebung wird sehr gerne abgefragt."
+  },
+  {
+    "id": "recht_ls04_q3",
+    "modul": "recht",
+    "ls": "recht_ls04",
+    "frage": "Ein eingetragener, gemeinnütziger Sportverein betreibt im eigenen Vereinsheim eine kleine, öffentlich zugängliche Gaststätte in Eigenregie, um die Vereinskasse aufzubessern. Wie werden die Gewinne aus dieser Gaststätte körperschaftsteuerlich behandelt?",
+    "optionen": [
+      "Sie sind nach § 5 KStG vollständig steuerbefreit, weil die Gewinne ausschließlich für den gemeinnützigen Zweck des Sportvereins verwendet werden.",
+      "Sie unterliegen der KSt, da der Betrieb einer Gaststätte einen wirtschaftlichen Geschäftsbetrieb (§ 14 AO) darstellt und kein steuerbefreiter Zweckbetrieb (§ 65 AO) ist.",
+      "Sie sind steuerfrei, sofern die Gaststätte nicht mehr als 3 Tage pro Woche geöffnet hat.",
+      "Sie unterliegen der Einkommensteuer, die direkt von den Vorstandsmitgliedern privat abgeführt werden muss."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Steuerbefreiung für gemeinnützige Körperschaften nach § 5 Abs. 1 Nr. 9 KStG gilt strikt nur für den ideellen Bereich und die reine Vermögensverwaltung. Sobald ein wirtschaftlicher Geschäftsbetrieb (§ 14 AO) vorliegt, der im Wettbewerb mit anderen Marktteilnehmern steht (wie ein öffentliches Vereinsrestaurant), entfällt die Befreiung für diesen Bereich und die Gewinne sind KSt-pflichtig."
+  },
+  {
+    "id": "recht_ls04_q4",
+    "modul": "recht",
+    "ls": "recht_ls04",
+    "frage": "Bei der Ermittlung des zu versteuernden Einkommens (zvE) einer GmbH stößt der Steuerberater auf verschiedene Aufwendungen. Welche der folgenden Positionen darf den steuerlichen Gewinn der Kapitalgesellschaft als Betriebsausgabe mindern?",
+    "optionen": [
+      "Die im Wirtschaftsjahr geleisteten Vorauszahlungen zur Körperschaftsteuer und zum Solidaritätszuschlag.",
+      "Die an das Finanzamt abgeführte Gewerbesteuer der GmbH.",
+      "Eine vom Gericht verhängte Geldbuße wegen eines Verstoßes gegen das Arbeitszeitgesetz.",
+      "Das marktübliche und angemessene Gehalt eines angestellten Fremdgeschäftsführers."
+    ],
+    "correctIndex": 3,
+    "erklaerung": "Gemäß § 10 KStG i.V.m. § 4 Abs. 5b EStG sind Steuern vom Einkommen (KSt, Soli) sowie die Gewerbesteuer und behördliche Geldbußen/Geldstrafen absolut nicht abziehbare Aufwendungen. Sie müssen dem handelsrechtlichen Jahresüberschuss bei der Einkommensermittlung wieder hinzugerechnet werden. Das angemessene Gehalt eines Geschäftsführers ist hingegen eine reguläre, abziehbare Betriebsausgabe."
+  },
+  {
+    "id": "recht_ls04_q5",
+    "modul": "recht",
+    "ls": "recht_ls04",
+    "frage": "Eine GmbH zahlt an die Mitglieder ihres dreiköpfigen Aufsichtsrats für deren Überwachungstätigkeit im abgelaufenen Jahr eine Vergütung von insgesamt 30.000 €. Wie wird dieser Aufwand im Rahmen der KSt-Einkommensermittlung behandelt?",
+    "optionen": [
+      "Die Vergütung ist in voller Höhe (30.000 €) als Betriebsausgabe abziehbar.",
+      "Die Vergütung ist nach § 10 Nr. 4 KStG in voller Höhe nicht abziehbar und muss komplett hinzugerechnet werden.",
+      "Die Vergütung ist nach § 10 Nr. 4 KStG zur Hälfte (15.000 €) nicht abziehbar und wird dem handelsrechtlichen Gewinn wieder hinzugerechnet.",
+      "Aufsichtsratsvergütungen dürfen das Einkommen nur mindern, wenn die GmbH an der Börse notiert ist."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Eine beliebte IHK-Prüfungsfalle lautet, dass Aufsichtsratsvergütungen gar nicht abziehbar seien. Das ist falsch. Gemäß § 10 Nr. 4 KStG sind Vergütungen an Aufsichtsrat- oder Verwaltungsratsmitglieder exakt zur Hälfte (50 %) nicht abziehbar. Die andere Hälfte bleibt eine steuerlich wirksame Betriebsausgabe."
+  },
+  {
+    "id": "recht_ls04_q6",
+    "modul": "recht",
+    "ls": "recht_ls04",
+    "frage": "Ein Alleingesellschafter-Geschäftsführer zahlt sich selbst ein jährliches Gehalt von 300.000 EUR aus der GmbH aus. Ein ordentlicher und gewissenhafter Geschäftsleiter hätte einem familienfremden Angestellten in vergleichbarer Position auf dem Markt jedoch maximal 120.000 EUR gezahlt. Welche steuerliche Auswirkung ergibt sich auf der Ebene der GmbH?",
+    "optionen": [
+      "Das gesamte Gehalt von 300.000 EUR wird als unangemessen eingestuft und dem Gewinn der GmbH hinzugerechnet.",
+      "Die Angemessenheitsgrenze gilt nur für DAX-Konzerne, bei einer GmbH ist die Gehaltshöhe steuerlich vollkommen irrelevant.",
+      "Die Differenz von 180.000 EUR stellt eine verdeckte Gewinnausschüttung (vGA) dar; sie wird dem Einkommen der GmbH hinzugerechnet und erhöht deren KSt-Belastung.",
+      "Die 180.000 EUR gelten als verdeckte Einlage, welche das zu versteuernde Einkommen der GmbH mindert."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Da der Vermögensvorteil (das überhöhte Gehalt) seine Ursache im Gesellschaftsverhältnis hat und einem Fremdvergleich nicht standhält, liegt eine verdeckte Gewinnausschüttung (vGA) vor (§ 8 Abs. 3 Satz 2 KStG). Eine vGA ist stets Gewinnverwendung und darf den steuerlichen Gewinn der Gesellschaft nicht mindern; die Differenz muss dem Einkommen hinzugerechnet werden."
+  },
+  {
+    "id": "recht_ls04_q7",
+    "modul": "recht",
+    "ls": "recht_ls04",
+    "frage": "Wenn eine verdeckte Gewinnausschüttung (vGA) festgestellt wird, fordert die IHK-Prüfung meist die getrennte Betrachtung von zwei Ebenen. Wie wird die oben genannte vGA über 180.000 EUR auf der zweiten Ebene – also direkt beim betroffenen Gesellschafter (natürliche Person, hält Anteile im Privatvermögen) – besteuert?",
+    "optionen": [
+      "Sie unterliegt beim Gesellschafter der regulären Gewerbesteuer, da es sich um gewerbliche Einkünfte handelt.",
+      "Sie gilt als Kapitalertrag nach § 20 Abs. 1 Nr. 1 Satz 2 EStG und unterliegt im Regelfall der 25%igen Abgeltungsteuer (zzgl. Solidaritätszuschlag).",
+      "Sie ist beim Gesellschafter komplett steuerfrei, da die GmbH die Summe bereits über die KSt versteuert hat.",
+      "Sie wird zwingend dem persönlichen Einkommensteuertarif (bis zu 45 %) unterworfen, ohne dass ein Antrag gestellt werden kann."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Eine vGA hat eine doppelte steuerliche Konsequenz, die in Prüfungen strikt getrennt geprüft werden muss: Auf Ebene der Gesellschaft erfolgt die Hinzurechnung zum Einkommen. Auf Ebene des Gesellschafters gilt die vGA als Kapitalertrag (§ 20 EStG) und unterliegt der Abgeltungsteuer (25 %) oder auf Antrag dem Teileinkünfteverfahren (TEV), sofern die Voraussetzungen erfüllt sind. Kapitalerträge im Privatvermögen sind zudem nicht gewerbesteuerpflichtig."
+  },
+  {
+    "id": "recht_ls04_q8",
+    "modul": "recht",
+    "ls": "recht_ls04",
+    "frage": "Die Logistik-Holding GmbH hält 100 % der Anteile an ihrer Tochtergesellschaft, der Transport-GmbH. Die Tochter-GmbH schüttet eine offene Dividende in Höhe von 50.000 EUR an die Mutter-GmbH aus. Wie hoch ist der Betrag, der bei der Mutter-GmbH effektiv der Körperschaftsteuer unterworfen wird?",
+    "optionen": [
+      "Die vollen 50.000 EUR, da Dividenden zwischen Kapitalgesellschaften voll steuerpflichtig sind.",
+      "0 EUR, da Beteiligungserträge zwischen Kapitalgesellschaften zu 100 % bedingungslos und ohne Abzüge steuerfrei sind.",
+      "30.000 EUR, weil das Teileinkünfteverfahren (TEV) eine 60%ige Steuerpflicht anordnet.",
+      "2.500 EUR, da die Dividende gemäß § 8b KStG grundsätzlich steuerfrei ist, jedoch 5 % (2.500 EUR) pauschal als nicht abziehbare Betriebsausgaben gelten."
+    ],
+    "correctIndex": 3,
+    "erklaerung": "Um eine Kaskadenbesteuerung (Mehrfachbesteuerung) innerhalb von Beteiligungsketten zu vermeiden, regelt § 8b Abs. 1 KStG, dass Dividenden von Tochter-Kapitalgesellschaften bei der Mutter-Kapitalgesellschaft steuerfrei sind. Allerdings bestimmt § 8b Abs. 5 KStG, dass 5 % dieser Bezüge pauschal als nicht abziehbare Betriebsausgaben gelten. Das führt zu einer effektiven Steuerfreiheit von 95 %; versteuert werden müssen demnach nur 5 % (hier 2.500 EUR)."
+  },
+  {
+    "id": "recht_ls04_q9",
+    "modul": "recht",
+    "ls": "recht_ls04",
+    "frage": "Eine mittelständische GmbH weist im laufenden Jahr einen Nettozinsaufwand (Zinsaufwand abzüglich Zinserträge) von insgesamt 3,5 Millionen EUR auf. Geschäftsführer und Gesellschafter betonen, dass die Zinsschranke (§ 8a KStG) sie nicht betreffe, da sie kein internationaler Großkonzern sind. Ist diese Aussage korrekt?",
+    "optionen": [
+      "Ja, die Zinsschranke findet im deutschen Steuerrecht ausschließlich auf börsennotierte Konzerne mit ausländischen Tochtergesellschaften Anwendung.",
+      "Nein, die Zinsschranke betrifft grundsätzlich jede Körperschaft (auch Einzelgesellschaften), sofern der Nettozinsaufwand die gesetzliche Freigrenze von 3 Millionen EUR übersteigt.",
+      "Ja, da die Zinsschranke bei mittelständischen GmbHs durch das pauschale Abzugsverfahren von 40 % ersetzt wird.",
+      "Nein, die Zinsschranke greift ab dem ersten Euro Zinsaufwand, es gibt für GmbHs überhaupt keine Freigrenzen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Prüfungsfalle: Die Zinsschranke (§ 8a KStG) ist kein reines Konzernrecht. Sie greift grundsätzlich bei jeder Körperschaft, sobald der Nettozinsaufwand die Freigrenze von 3 Millionen EUR überschreitet. In diesem Fall ist der Zinsaufwand primär nur noch bis zur Höhe von 30 % des steuerlichen EBITDA abziehbar."
+  },
+  {
+    "id": "recht_ls04_q10",
+    "modul": "recht",
+    "ls": "recht_ls04",
+    "frage": "Eine GmbH schüttet einen Betrag aus ihrem steuerlichen Einlagekonto (§ 27 KStG) an ihre Gesellschafter aus. Wie ist diese spezifische Ausschüttung beim Empfänger (natürliche Person, Anteile im Privatvermögen) steuerlich zu qualifizieren?",
+    "optionen": [
+      "Sie unterliegt als reguläre Dividende der 25%igen Abgeltungsteuer.",
+      "Sie ist beim Gesellschafter nicht steuerbar, mindert jedoch die Anschaffungskosten seiner Beteiligung (wodurch sich ein späterer Veräußerungsgewinn erhöht).",
+      "Sie ist in voller Höhe einkommensteuerpflichtig, aber von der Körperschaftsteuer befreit.",
+      "Sie ist dauerhaft und vollkommen steuerfrei, ohne dass dies Auswirkungen auf zukünftige Transaktionen hat."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das steuerliche Einlagekonto (§ 27 KStG) erfasst Einlagen der Gesellschafter, die nicht aus versteuerten Gewinnen der GmbH stammen. Eine Ausschüttung hieraus ist beim Empfänger keine steuerbare Gewinnausschüttung, sondern eine steuerfreie Einlagenrückgewähr. Sie ist jedoch nicht *dauerhaft* steuerfrei: Da sie die steuerlichen Anschaffungskosten der Beteiligung mindert, führt sie bei einem späteren Verkauf der Anteile zu einem entsprechend höheren, steuerpflichtigen Veräußerungsgewinn."
+  },
+  {
+    "id": "recht_ls05_q1",
+    "modul": "recht",
+    "ls": "recht_ls05",
+    "frage": "Ein selbstständiger IT-Consultant betreibt seine Kanzlei als Einzelunternehmer im Inland und erzielt ausschließlich Einkünfte aus freiberuflicher Tätigkeit. Das zuständige Finanzamt fordert ihn zur Abgabe einer Gewerbesteuererklärung auf. Wie ist die Rechtslage?",
+    "optionen": [
+      "Der Consultant ist gewerbestuerpflichtig, da im deutschen Steuerrecht jede nachhaltige, selbstständige Tätigkeit mit Gewinnerzielungsabsicht der Gewerbesteuer unterliegt.",
+      "Der Consultant ist nicht gewerbestuerpflichtig. Als Freiberufler (Einzelperson) betreibt er keinen Gewerbebetrieb im Sinne des § 2 Abs. 1 GewStG i.V.m. § 15 EStG.",
+      "Der Consultant ist nur dann steuerpflichtig, wenn sein Jahresüberschuss den steuerlichen Grundfreibetrag von 24.500 EUR unterschreitet.",
+      "Der Consultant unterliegt kraft Rechtsform der Gewerbesteuer, da IT-Dienstleistungen gesetzlich immer als gewerbliche Infektion gewertet werden."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Gemäß § 2 Abs. 1 GewStG unterliegt der Gewerbesteuer nur ein stehender Gewerbebetrieb im Inland. Freiberufler, die als Einzelperson agieren, fallen nicht unter den Gewerbebegriff des § 15 EStG und sind somit grundsätzlich von der Gewerbesteuer befreit. Eine Ausnahme gilt für Personengesellschaften bei einer gewerblichen Infektion."
+  },
+  {
+    "id": "recht_ls05_q2",
+    "modul": "recht",
+    "ls": "recht_ls05",
+    "frage": "Die Ertragshoheit der Gewerbesteuer liegt in Deutschland bei den Gemeinden. Wer besitzt jedoch die Gesetzgebungskompetenz für das Gewerbesteuergesetz (GewStG)?",
+    "optionen": [
+      "Ausschließlich die jeweilige Gemeinde über ihre kommunale Satzungskompetenz.",
+      "Die Bundesländer im Rahmen der konkurrierenden Gesetzgebung, weshalb die Steuermesszahl je Bundesland variiert.",
+      "Der Bund (Bundesrecht), weshalb die wesentlichen Regelungen und die Steuermesszahl von 3,5 % bundeseinheitlich gelten.",
+      "Die Europäische Union, um eine Wettbewerbsverzerrung innerhalb der Mitgliedstaaten zu verhindern."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Typische IHK-Prüfungsfalle: Obwohl die Gewerbesteuer die wichtigste Einnahmequelle der Gemeinden ist (volle Ertragshoheit nach Art. 106 Abs. 6 GG), liegt die Gesetzgebungskompetenz beim Bund. Das GewStG ist Bundesrecht, weshalb Kernkomponenten wie die Steuermesszahl (3,5 %) bundeseinheitlich starr geregelt sind. Die Gemeinden steuern ihre Belastung ausschließlich über den Hebesatz."
+  },
+  {
+    "id": "recht_ls05_q3",
+    "modul": "recht",
+    "ls": "recht_ls05",
+    "frage": "Zwei Logistik-Unternehmen (eine GmbH und ein Einzelunternehmer) erwirtschaften in derselben Gemeinde jeweils einen maßgebenden Gewerbeertrag von exakt 20.000 EUR. Wie hoch ist der Gewerbesteuermessbetrag für die beiden Unternehmen?",
+    "optionen": [
+      "Bei beiden beträgt der Messbetrag 0 EUR, da für alle Unternehmensformen ein einheitlicher Freibetrag von 24.500 EUR gilt.",
+      "Beim Einzelunternehmer beträgt der Messbetrag 0 EUR (wegen des Freibetrags von 24.500 EUR); bei der GmbH beträgt er 700 EUR, da sie keinen Freibetrag erhält.",
+      "Bei der GmbH beträgt der Messbetrag 0 EUR; beim Einzelunternehmer beträgt er 700 EUR, da Kapitalgesellschaften gesetzlich privilegiert sind.",
+      "Bei beiden beträgt der Messbetrag 700 EUR, da Freibeträge erst nach der Multiplikation mit der Steuermesszahl (3,5 %) abgezogen werden."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Der Freibetrag in Höhe von 24.500 EUR gemäß § 11 Abs. 1 GewStG gilt ausschließlich für Einzelunternehmer und Personengesellschaften. Kapitalgesellschaften (wie eine GmbH oder AG) erhalten diesen Freibetrag nicht; sie unterliegen der Gewerbesteuer kraft Rechtsform ab dem ersten Euro Gewerbeertrag. Berechnung GmbH: 20.000 EUR × 3,5 % = 700 EUR."
+  },
+  {
+    "id": "recht_ls05_q4",
+    "modul": "recht",
+    "ls": "recht_ls05",
+    "frage": "Im Rahmen einer IHK-Klausur sollst du den „maßgebenden Gewerbeertrag“ für die Berechnung des Steuermessbetrags ermitteln. Das vorläufige Zwischenergebnis nach Hinzurechnungen und Kürzungen beläuft sich bei einer OHG auf 155.480 EUR. Welchen Schritt musst du nun zwingend durchführen?",
+    "optionen": [
+      "Den Betrag nach den allgemeinen kaufmännischen Regeln auf 155.500 EUR aufrunden.",
+      "Den Betrag unverändert mit 3,5 % multiplizieren, da Rundungen nur bei Kapitalgesellschaften zulässig sind.",
+      "Den Freibetrag von 24.500 EUR abziehen und das Ergebnis nach § 11 Abs. 1 Satz 3 GewStG auf volle 100 EUR nach unten abrunden.",
+      "Den Betrag durch den Hebesatz der Gemeinde teilen, um den Zerlegungsmaßstab zu erhalten."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Eine beliebte IHK-Prüfungsfalle: Der maßgebende Gewerbeertrag muss vor der Anwendung der Steuermesszahl (3,5 %) auf volle 100 EUR nach unten abgerundet werden (§ 11 Abs. 1 Satz 3 GewStG). Im Fall der OHG wird zudem vorher der Freibetrag von 24.500 EUR abgezogen. Es wird grundsätzlich immer abgerundet, niemals aufgerundet."
+  },
+  {
+    "id": "recht_ls05_q5",
+    "modul": "recht",
+    "ls": "recht_ls05",
+    "frage": "Eine GmbH hat im abgelaufenen Wirtschaftsjahr folgende Aufwendungen verbucht: Schuldzinsen für einen Bankkredit über 150.000 EUR und Mietaufwendungen für eine Lagerhalle (unbewegliches Wirtschaftsgut) in Höhe von 120.000 EUR. Wie hoch ist die Summe der Finanzierungsanteile auf der Stufe 1 der gewerbesteuerlichen Hinzurechnung (§ 8 Nr. 1 GewStG)?",
+    "optionen": [
+      "270.000 EUR, da alle Zinsen und Mieten auf Stufe 1 immer zu 100 % in die Summe einfließen.",
+      "150.000 EUR, da Mieten für unbewegliche Wirtschaftsgüter vollständig von der Hinzurechnung ausgenommen sind.",
+      "210.000 EUR, weil Zinsen zu 100 % (150.000 EUR) und unbewegliche Mieten zu 50 % (60.000 EUR) als Finanzierungsanteile gelten.",
+      "27.000 EUR, da pauschal von allen Aufwendungen im Unternehmen 10 % herangezogen werden."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Auf Stufe 1 der Hinzurechnungsermittlung nach § 8 Nr. 1 GewStG werden die Aufwendungen mit ihren jeweiligen gesetzlichen Prozentsätzen angesetzt. Schuldzinsen zählen zu 100 % (§ 8 Nr. 1a GewStG), Mieten für unbewegliche Wirtschaftsgüter zu 50 % (§ 8 Nr. 1e GewStG). Berechnung: (150.000 × 100 %) + (120.000 × 50 %) = 150.000 + 60.000 = 210.000 EUR."
+  },
+  {
+    "id": "recht_ls05_q6",
+    "modul": "recht",
+    "ls": "recht_ls05",
+    "frage": "Bezugnehmend auf die vorherige Frage (Summe der Finanzierungsanteile beträgt 210.000 EUR): Wie hoch ist die tatsächliche (finale) Hinzurechnung zum Gewerbeertrag der GmbH auf Stufe 2?",
+    "optionen": [
+      "210.000 EUR, da Freibeträge für Kapitalgesellschaften bei der Hinzurechnung nicht anwendbar sind.",
+      "2.500 EUR, berechnet aus: (210.000 EUR Summe − 200.000 EUR Freibetrag) × 25 %.",
+      "10.000 EUR, da nach Abzug des Freibetrags der verbleibende Restbetrag zu 100 % hinzugerechnet wird.",
+      "0 EUR, da die Summe der Finanzierungsanteile den Schwellenwert von 300.000 EUR nicht überschreitet."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Klassischer Prüfungsfehler: Viele rechnen direkt mit den Prozentsätzen der Stufe 1 als finale Hinzurechnung. Richtig ist die zweistufige Formel: Von der Summe aller Finanzierungsanteile wird zuerst der Freibetrag von 200.000 EUR abgezogen. Nur der übersteigende Betrag wird zu 25 % dem Gewinn hinzugerechnet. Rechnung: (210.000 − 200.000) × 25 % = 10.000 × 25 % = 2.500 EUR."
+  },
+  {
+    "id": "recht_ls05_q7",
+    "modul": "recht",
+    "ls": "recht_ls05",
+    "frage": "Ein reines Grundstücksunternehmen (GmbH) verwaltet ausschließlich eigenen Grundbesitz und beantragt die erweiterte Kürzung nach § 9 Nr. 1 GewStG, um die Gewerbesteuerlast vollständig zu neutralisieren. Auf dem Dach der Liegenschaft generiert eine Photovoltaikanlage Strom, der für 800 EUR im Jahr in das öffentliche Netz eingespeist wird. Welche Auswirkung hat dieser Nebenumsatz?",
+    "optionen": [
+      "Keine, da Kleinstbeträge unter einer Bagatellgrenze von 2.000 EUR gewerbesteuerlich ignoriert werden.",
+      "Der Anspruch auf die erweiterte Kürzung geht vollständig verloren, da das Unternehmen nicht mehr *ausschließlich* eigenen Grundbesitz verwaltet.",
+      "Nur der Gewinn aus dem Stromverkauf unterliegt der Gewerbesteuer, die Mieterträge bleiben ungekürzt steuerfrei.",
+      "Die GmbH verliert dadurch rückwirkend ihre gesamte Rechtsfähigkeit und wird steuerlich wie eine GbR behandelt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die erweiterte Kürzung für Grundstücksunternehmen nach § 9 Nr. 1 GewStG setzt eine strikte Ausschließlichkeit voraus. Bereits geringfügige, nicht begünstigte gewerbliche Nebentätigkeiten (wie der Betrieb einer Photovoltaikanlage oder die Mitvermietung von Betriebsvorrichtungen) zerstören das Privileg der erweiterten Kürzung für das gesamte Unternehmen vollständig."
+  },
+  {
+    "id": "recht_ls05_q8",
+    "modul": "recht",
+    "ls": "recht_ls05",
+    "frage": "Wie verhält sich die gezahlte Gewerbesteuer seit dem Jahr 2008 im Hinblick auf die Gewinn- und Einkommensermittlung eines Unternehmens?",
+    "optionen": [
+      "Sie ist als unbeschränkte Betriebsausgabe abziehbar und mindert sowohl den einkommensteuerlichen Gewinn als auch das zvE der KSt.",
+      "Sie ist gemäß § 4 Abs. 5b EStG keine abziehbare Betriebsausgabe mehr; sie darf den steuerlichen Gewinn aus Gewerbebetrieb nicht mindern.",
+      "Sie kann wahlweise als Betriebsausgabe oder als außergewöhnliche Belastung in der privaten Steuererklärung geltend gemacht werden.",
+      "Sie wird direkt vom Solidaritätszuschlag abgezogen, sodass sich die steuerliche Gesamtbelastung automatisch reduziert."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Seit 2008 ist die Gewerbesteuer durch die Einführung des § 4 Abs. 5b EStG (i.V.m. § 8 KStG) ein absolut nicht abziehbarer Aufwand. Sie neutralisiert sich bei der Gewinnermittlung nicht selbst, was zu einer höheren steuerlichen Bemessungsgrundlage für die Einkommensteuer bzw. Körperschaftsteuer und somit auch für den Solidaritätszuschlag führt."
+  },
+  {
+    "id": "recht_ls05_q9",
+    "modul": "recht",
+    "ls": "recht_ls05",
+    "frage": "Ein Einzelunternehmer betreibt eine gewerbliche Spedition in einer Gemeinde mit einem Hebesatz von exakt 400 %. Welche steuerliche Konsequenz ergibt sich für ihn aus der Steuerermäßigung nach § 35 EStG?",
+    "optionen": [
+      "Er hat eine erhebliche Restbelastung zu tragen, da bei Hebesätzen ab 200 % grundsätzlich keine Anrechnung mehr stattfindet.",
+      "Die Gewerbesteuer wird über die pauschale Anrechnung (das 4-fache des Messbetrags) auf seine persönliche Einkommensteuer vollständig kompensiert.",
+      "Er erhält den überschießenden Anrechnungsbetrag vom Finanzamt bar erstattet, falls seine Einkommensteuer auf 0 EUR sinkt.",
+      "Da § 35 EStG nur für Kapitalgesellschaften gilt, hat die Vorschrift für den Einzelunternehmer keinerlei Relevanz."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Gemäß § 35 EStG wird natürlichen Personen (Einzelunternehmern und Partnern von Personengesellschaften) das 4-fache des Gewerbesteuermessbetrags auf die Einkommensteuer angerechnet. Bei einem Hebesatz von exakt 400 % entspricht das Vierfache des Messbetrags exakt der zu zahlenden Gewerbesteuer (3,5 % × 400 % = 14 % Belastung vs. 3,5 % × 4 = 14 % Anrechnung), was zu einer vollständigen Kompensation führt. Bei Hebesätzen über 400 % verbleibt eine unkompensierte Restbelastung."
+  },
+  {
+    "id": "recht_ls05_q10",
+    "modul": "recht",
+    "ls": "recht_ls05",
+    "frage": "Ein großes Logistikunternehmen unterhält Betriebsstätten in drei verschiedenen Gemeinden. Der einheitliche Gewerbesteuermessbetrag muss nun im Rahmen der sogenannten Zerlegung (§§ 28 ff. GewStG) aufgeteilt werden. Welcher gesetzliche Maßstab ist hierfür zwingend anzuwenden?",
+    "optionen": [
+      "Das Verhältnis der in den einzelnen Gemeinden erzielten Umsätze.",
+      "Das Verhältnis der in den jeweiligen Betriebsstätten erwirtschafteten Gewinne.",
+      "Das Verhältnis der an den Standorten gezahlten Arbeitslöhne (wobei auch Minijobs mitzählen).",
+      "Die geografische Quadratmeterzahl der genutzten Lager- und Büroflächen."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Eine klassische IHK-Prüfungsfalle besteht darin, den Zerlegungsmaßstab mit dem Umsatz oder Gewinn zu verwechseln. Gesetzlicher Maßstab für die Aufteilung des Steuermessbetrags auf die beteiligten Gemeinden sind gemäß § 29 GewStG ausschließlich die Arbeitslöhne. Auch Vergütungen für Minijobs fließen in diese Berechnung voll mit ein."
+  },
+  {
+    "id": "recht_ls06_q1",
+    "modul": "recht",
+    "ls": "recht_ls06",
+    "frage": "Ein Steuerpflichtiger erzielt im laufenden Jahr Kapitalerträge im Privatvermögen. Bei der Berechnung der steuerlichen Gesamtbelastung (ohne Kirchensteuer) rechnet er: 25 % (KapESt) + 5,5 % (Solidaritätszuschlag) = 30,5 % Gesamtbelastung. Warum ist dieser Rechenweg eine typische IHK-Prüfungsfalle?",
+    "optionen": [
+      "Weil der Solidaritätszuschlag im Privatvermögen seit 2021 für Kapitalerträge vollständig abgeschafft wurde.",
+      "Weil der Solidaritätszuschlag nicht auf die Kapitalerträge, sondern als Zuschlag (5,5 %) auf die festgesetzte KapESt berechnet wird, was eine Gesamtbelastung von 26,375 % ergibt.",
+      "Weil der Solidaritätszuschlag vom Kapitalertrag abgezogen wird, bevor die KapESt berechnet wird, wodurch die Belastung sinkt.",
+      "Weil Kapitalgesellschaften die KapESt pauschal mit 15 % versteuern und der Solidaritätszuschlag nur für Einzelunternehmen gilt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Der Solidaritätszuschlag beträgt 5,5 % *auf die KapESt*, nicht auf die Kapitalerträge selbst. Beispiel: 1.000 € Ertrag × 25 % = 250 € KapESt. Darauf 5,5 % Soli = 13,75 €. Gesamtbelastung: 263,75 € (entspricht 26,375 %). Wer die Prozentsätze einfach addiert, scheitert an dieser IHK-Hürde."
+  },
+  {
+    "id": "recht_ls06_q2",
+    "modul": "recht",
+    "ls": "recht_ls06",
+    "frage": "Ein Steuerpflichtiger hält ein Sparkonto und ein Depot im Privatvermögen. Zudem führt er ein betriebliches Girokonto für sein Einzelunternehmen, auf dem ebenfalls Zinserträge anfallen. Wie werden die Zinsen des betrieblichen Kontos steuerlich behandelt?",
+    "optionen": [
+      "Sie unterliegen der 25%igen Abgeltungsteuer, da alle Zinsen im deutschen Steuerrecht pauschal an der Quelle abgegolten werden.",
+      "Sie unterliegen dem Teileinkünfteverfahren (TEV), da es sich um Erträge eines Einzelunternehmens handelt.",
+      "Sie fallen nach dem Subsidiaritätsprinzip (§ 20 Abs. 8 EStG) unter die betriebliche Einkunftsart; es greift keine Abgeltungsteuer, sondern die reguläre betriebliche Besteuerung.",
+      "Sie sind vollständig steuerfrei, sofern der Unternehmer den Sparerpauschbetrag von 1.000 EUR auf das Betriebskonto überträgt."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Systemgrenze beachten: Die Abgeltungsteuer von 25 % gilt primär für Kapitalerträge im Privatvermögen. Nach dem Subsidiaritätsprinzip (§ 20 Abs. 8 EStG) werden Kapitalerträge, die dem Betriebsvermögen zuzurechnen sind, von den betrieblichen Einkunftsarten verdrängt und fließen in den normalen Gewerbegewinn ein."
+  },
+  {
+    "id": "recht_ls06_q3",
+    "modul": "recht",
+    "ls": "recht_ls06",
+    "frage": "Ein Anleger hat im Jahr 2005 Aktien gekauft und hält diese im Privatvermögen. Im Jahr 2026 verkauft er diese Anteile mit einem erheblichen Kursgewinn. Wie wird dieser Veräußerungsgewinn einkommensteuerlich behandelt?",
+    "optionen": [
+      "Der Gewinn unterliegt der Abgeltungsteuer von 25 %, da jegliche Aktienverkäufe ab dem Jahr 2009 steuerpflichtig sind.",
+      "Der Gewinn unterliegt zwingend dem Teileinkünfteverfahren (TEV), da die Haltefrist über 10 Jahre beträgt.",
+      "Der Gewinn ist grundsätzlich steuerfrei, da für Aktien, die vor dem 01.01.2009 erworben wurden, Altbestandsschutz gilt (sofern die einjährige Spekulationsfrist der alten Rechtslage abgelaufen war).",
+      "Der Gewinn wird mit dem persönlichen Steuersatz des Anlegers besteuert, wobei ein Freibetrag von 24.500 EUR abgezogen wird."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Für Kapitalanlagen gilt ein strenger Stichtag: Kursgewinne aus Aktienveräußerungen sind grundsätzlich nur dann steuerpflichtig, wenn die Wertpapiere nach dem 31.12.2008 erworben wurden. Vor dem 01.01.2009 erworbene Aktien genießen Altbestandsschutz und können nach Ablauf der damaligen einjährigen Spekulationsfrist steuerfrei veräußert werden."
+  },
+  {
+    "id": "recht_ls06_q4",
+    "modul": "recht",
+    "ls": "recht_ls06",
+    "frage": "Ein lediger Student erzielt im Jahr Zinserträge aus Festgeld in Höhe von 3.000 EUR. Weitere Einkünfte hat er nicht. Da sein persönlicher Einkommensteuersatz bei 0 % liegt, behält die Bank dennoch zunächst 25 % KapESt ein, weil er keinen Freistellungsauftrag eingereicht hat. Was sollte der Student tun?",
+    "optionen": [
+      "Nichts, da die Abgeltungsteuer eine endgültige Wirkung hat und einbehaltene Beträge bei Geringverdienern verfallen.",
+      "Er sollte eine Günstigerprüfung (§ 32d Abs. 6 EStG) im Rahmen der Einkommensteuererklärung beantragen, damit die Erträge mit seinem niedrigeren persönlichen Steuersatz (0 %) versteuert und die einbehaltene KapESt erstattet wird.",
+      "Er muss das Teileinkünfteverfahren beantragen, um 40 % der Zinsen steuerfrei zu stellen.",
+      "Er kann den Sparerpauschbetrag nachträglich auf 3.000 EUR erhöhen lassen, da er Student ist."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Günstigerprüfung nach § 32d Abs. 6 EStG erfolgt auf Antrag im Rahmen der Jahresveranlagung. Das Finanzamt prüft, ob der persönliche Steuersatz des Steuerpflichtigen unter dem Abgeltungssatz von 25 % liegt. Ist dies der Fall (typisch bei Studenten, Rentnern oder Geringverdienern), werden die Erträge dem niedrigeren Tarif unterworfen und zu viel gezahlte Quellensteuer erstattet."
+  },
+  {
+    "id": "recht_ls06_q5",
+    "modul": "recht",
+    "ls": "recht_ls06",
+    "frage": "Welche Auswirkung hat das rechtliche Beantragen des Teileinkünfteverfahrens (TEV) für eine Dividende im Privatvermögen auf den gesetzlichen Sparerpauschbetrag?",
+    "optionen": [
+      "Der Sparerpauschbetrag erhöht sich für diese Dividende auf 2.000 EUR.",
+      "Der Sparerpauschbetrag gilt unverändert für die Dividende, zusätzlich dürfen 40 % der Werbungskosten abgezogen werden.",
+      "Der Sparerpauschbetrag gilt im TEV nicht; die Erträge verlassen die Abgeltungssphäre und tatsächliche Werbungskosten dürfen stattdessen zu 60 % abgezogen werden.",
+      "Das TEV setzt zwingend voraus, dass der Sparerpauschbetrag im selben Jahr vollständig aufgebraucht wurde."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das ist die klassische „Pauschbetragsfalle“ der IHK-Prüfung: Wechselt man für eine Dividende auf Antrag in das Teileinkünfteverfahren, verlässt dieser Ertrag die Abgeltungssphäre. Die Folge ist, dass der Sparerpauschbetrag auf diese Dividende nicht mehr angewendet werden kann. Ein Abzug von Aufwendungen ist dann nur noch über den Nachweis *tatsächlicher* Werbungskosten (begrenzt auf 60 % nach § 3c Abs. 2 EStG) möglich."
+  },
+  {
+    "id": "recht_ls06_q6",
+    "modul": "recht",
+    "ls": "recht_ls06",
+    "frage": "Ein Steuerpflichtiger hält im Privatvermögen Anteile an verschiedenen börsennotierten Aktiengesellschaften. Im laufenden Jahr erzielt er aus dem Verkauf der Aktie X einen Verlust von 2.000 EUR. Aus der Aktie Y erhält er eine Dividende von 3.000 EUR. Wie dürfen diese Posten bankenintern miteinander verrechnet werden?",
+    "optionen": [
+      "Der Aktienverlust von 2.000 EUR wird vollständig mit der Dividende von 3.000 EUR verrechnet, sodass nur noch 1.000 EUR versteuert werden müssen.",
+      "Eine Verrechnung ist komplett ausgeschlossen, da Verluste unter der Abgeltungsteuer verfallen und nicht vorgeträgt werden dürfen.",
+      "Der Aktienverlust von 2.000 EUR darf nach § 20 Abs. 6 Satz 4 EStG ausschließlich mit Gewinnen aus Aktienveräußerungen (Kursgewinnen) verrechnet werden; eine Verrechnung mit Dividenden oder Zinsen ist unzulässig.",
+      "Der Verlust kann unbegrenzt mit anderen Einkunftsarten (z.B. dem Gehalt aus nichtselbstständiger Arbeit) ausgeglichen werden."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das deutsche Steuerrecht sieht eine strenge Verlustverrechnungsbeschränkung für Kapitalanlagen vor: Verluste aus Kapitalvermögen dürfen generell nicht mit anderen Einkunftsarten verrechnet werden. Innerhalb des Kapitalvermögens gilt zudem die Verschärfung, dass *Aktienverluste* nur mit Gewinnen aus *Aktienveräußerungen* ausgeglichen werden dürfen – eine Verrechnung mit Zinsen oder Dividenden ist bankintern gesperrt."
+  },
+  {
+    "id": "recht_ls06_q7",
+    "modul": "recht",
+    "ls": "recht_ls06",
+    "frage": "Ein Anleger erleidet über sein Depot bei Bank A erhebliche Aktienverluste. Bei Bank B erzielt er im selben Jahr hohe Aktiengewinne. Wie kann er eine bankenübergreifende Verlustverrechnung für das laufende Jahr im Rahmen seiner Steuererklärung erwirken?",
+    "optionen": [
+      "Die Banken tauschen die Daten am Jahresende automatisch elektronisch untereinander aus.",
+      "Er muss bis zum 15. Dezember des laufenden Jahres bei Bank A eine Verlustbescheinigung (§ 43a Abs. 3 Satz 4 EStG) beantragen.",
+      "Er muss dem Finanzamt lediglich die monatlichen Kontoauszüge beider Banken formlos vorlegen.",
+      "Eine bankenübergreifende Verrechnung von Aktienverlusten ist gesetzlich kategorisch ausgeschlossen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Möchte man Verluste zwischen verschiedenen Kreditinstituten im selben Jahr verrechnen, muss bis zum Ausschlussdatum (**15. Dezember des laufenden Jahres**) eine förmliche Verlustbescheinigung bei der verlustübertragenden Bank beantragt werden. Ohne diese Bescheinigung werden die Verluste bankintern in das nächste Jahr vorgetragen und eine nachträgliche Verrechnung über die Steuererklärung für das aktuelle Jahr ist ausgeschlossen."
+  },
+  {
+    "id": "recht_ls06_q8",
+    "modul": "recht",
+    "ls": "recht_ls06",
+    "frage": "Die Mutter-GmbH hält eine Beteiligung von 8 % an einer Tochter-GmbH (Streubesitz). Zu Beginn des Kalenderjahres schüttet die Tochter-GmbH eine Dividende an die Mutter-GmbH aus. Wie wird diese Dividende auf Ebene der empfangenden Kapitalgesellschaft körperschaftsteuerlich behandelt?",
+    "optionen": [
+      "Sie ist nach § 8b Abs. 1 KStG zu 95 % steuerfrei, da es sich um eine Ausschüttung zwischen Kapitalgesellschaften handelt.",
+      "Sie unterliegt dem Teileinkünfteverfahren, weshalb 60 % des Betrags versteuert werden müssen.",
+      "Sie ist nach § 8b Abs. 4 KStG zu 100 % voll körperschaftsteuerpflichtig, da die Beteiligungsquote unter der Streubesitzgrenze von 10 % liegt.",
+      "Sie ist in voller Höhe steuerfrei, unterliegt jedoch einer pauschalen Gewerbesteuer von 15 %."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das ist eine beliebte Schnittstellen-Falle zum Körperschaftsteuerrecht (§ 8b KStG): Bezüge (Dividenden) einer Kapitalgesellschaft sind nur dann zu 95 % steuerfrei, wenn die Beteiligung zu Beginn des Kalenderjahres mindestens 10 % betrug (§ 8b Abs. 4 KStG – Streubesitzgrenze). Liegt die Quote darunter (wie hier mit 8 %), ist die Dividende zu 100 % voll KSt-pflichtig. (Vorsicht: Für Veräußerungsgewinne gilt diese 10 %-Grenze im KSt-Recht hingegen nicht)."
+  },
+  {
+    "id": "recht_ls06_q9",
+    "modul": "recht",
+    "ls": "recht_ls06",
+    "frage": "Ein Steuerpflichtiger hält eine Beteiligung von exakt 3 % an einer GmbH im Privatvermögen und ist dort gleichzeitig als angestellter Betriebsleiter beruflich tätig (er übt maßgeblichen unternehmerischen Einfluss aus). Er veräußert diese Anteile im Jahr 2026 mit Gewinn. Welche Vorschrift regelt diesen Vorgang zwingend?",
+    "optionen": [
+      "Der Gewinn unterliegt der 25%igen Abgeltungsteuer nach § 20 Abs. 2 EStG.",
+      "Der Vorgang fällt zwingend unter § 17 EStG (gewerbliche Einkünfte), da die Beteiligungsquote ≥ 1 % beträgt; es greift zwingend das Teileinkünfteverfahren (TEV).",
+      "Die Veräußerung ist in voller Höhe steuerfrei, da die Beteiligung unter der wesentlichen Grenze von 25 % liegt.",
+      "Der Gewinn wird nach den Regeln der Körperschaftsteuer mit pauschal 15 % versteuert."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Sobald ein Steuerpflichtiger innerhalb der letzten 5 Jahre zu mindestens 1 % an einer Kapitalgesellschaft beteiligt war, regelt § 17 EStG die Veräußerung dieser Anteile zwingend als gewerbliche Einkünfte. Dies verdrängt die Abgeltungsteuer (§ 20 EStG) kraft Gesetzes. Als Rechtsfolge greift zwingend das Teileinkünfteverfahren (60 % steuerpflichtig, 40 % steuerfrei)."
+  },
+  {
+    "id": "recht_ls06_q10",
+    "modul": "recht",
+    "ls": "recht_ls06",
+    "frage": "Ein verheiratetes Ehepaar wird steuerlich zusammen veranlagt und erzielt gemeinschaftlich Kapitalerträge im Privatvermögen. Wie hoch ist der maximale Sparerpauschbetrag, den das Ehepaar gemeinsam in Anspruch nehmen kann?",
+    "optionen": [
+      "1.000 EUR, da der Pauschbetrag personengebunden ist und pro Steuererklärung nur einmal gewährt wird.",
+      "2.000 EUR, da sich der gesetzliche Höchstbetrag von 1.000 EUR bei einer Zusammenveranlagung nach § 20 Abs. 9 EStG verdoppelt.",
+      "4.000 EUR, sofern beide Ehegatten berufstätig sind und einen gemeinsamen Freistellungsauftrag erteilen.",
+      "Es gibt keinen festen Höchstbetrag; der Abzug richtet sich nach den tatsächlich nachgewiesenen Werbungskosten."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Der gesetzliche Sparerpauschbetrag nach § 20 Abs. 9 EStG dient als pauschaler Werbungskostenersatz und beträgt für Einzelpersonen (ledig) 1.000 EUR. Bei Ehegatten, die zusammen veranlagt werden, verdoppelt sich dieser Höchstbetrag auf insgesamt 2.000 EUR. Tatsächliche Werbungskosten darüber hinaus dürfen im Privatvermögen nicht abgezogen werden."
+  },
+  {
+    "id": "recht_ls07_q1",
+    "modul": "recht",
+    "ls": "recht_ls07",
+    "frage": "Ein Student verkauft sein privates, gebrauchtes Smartphone über ein Online-Portal an eine andere Privatperson für 450 EUR. Wie ist dieser Vorgang umsatzsteuerlich einzuordnen?",
+    "optionen": [
+      "Der Vorgang ist steuerbar und unterliegt dem ermäßigten Steuersatz von 7 %, da es sich um gebrauchte Gegenstände des täglichen Bedarfs handelt.",
+      "Der Vorgang ist steuerbar, aber nach § 4 UStG steuerfrei, da Verkäufe zwischen Privatpersonen grundsätzlich von der Umsatzsteuer befreit sind.",
+      "Der Vorgang ist nicht steuerbar, da es an der Voraussetzung des § 1 Abs. 1 Nr. 1 i.V.m. § 2 UStG fehlt – der Student agiert hier nicht als Unternehmer im Rahmen eines Unternehmens.",
+      "Der Vorgang ist steuerbar, da jede entgeltliche Lieferung im Inland die Umsatzsteuerpflicht auslöst, unabhängig von der Person des Verkäufers."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Typische IHK-Prüfungsfalle: Der Unterschied zwischen „nicht steuerbar“ und „steuerfrei“. Damit ein Umsatz steuerbar ist, müssen alle vier Voraussetzungen des § 1 Abs. 1 Nr. 1 UStG kumulativ erfüllt sein (Lieferung/Leistung, Unternehmer, im Rahmen des Unternehmens, im Inland). Da eine Privatperson kein Unternehmer im Sinne des § 2 UStG ist, liegt der Vorgang komplett außerhalb des Umsatzsteuergesetzes – er ist nicht steuerbar."
+  },
+  {
+    "id": "recht_ls07_q2",
+    "modul": "recht",
+    "ls": "recht_ls07",
+    "frage": "Ein deutscher IT-Dienstleister (Unternehmer mit Sitz in München) erbringt eine Software-Beratung per Videokonferenz für die Rechtsabteilung eines Maschinenbauunternehmens (Unternehmer mit Sitz in Lyon, Frankreich). Wo befindet sich der Leistungsort für diese sonstige Leistung?",
+    "optionen": [
+      "In Deutschland (München), da die Beratung physisch vom deutschen Unternehmer an seinem Arbeitsplatz erbracht wird (Unternehmerortprinzip).",
+      "In Frankreich (Lyon), da bei sonstigen Leistungen im B2B-Bereich gemäß § 3a Abs. 2 UStG das Empfängerortprinzip gilt.",
+      "Der Leistungsort ist gesplittet: Zu 50 % in Deutschland und zu 50 % in Frankreich.",
+      "Es gibt keinen Leistungsort, da digitale Dienstleistungen innerhalb der EU vom Umsatzsteuerrecht vollständig ausgenommen sind."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Eine beliebte Hürde in Klausuren: Bei sonstigen Leistungen im B2B-Verhältnis (Unternehmer an Unternehmer) verschiebt § 3a Abs. 2 UStG den Leistungsort an den Sitz des Leistungsempfängers (Empfängerortprinzip). Der physische Ort der Erbringung ist hierbei irrelevant. Folge ist in der Praxis meist das Reverse-Charge-Verfahren (§ 13b UStG)."
+  },
+  {
+    "id": "recht_ls07_q3",
+    "modul": "recht",
+    "ls": "recht_ls07",
+    "frage": "Welche der folgenden steuerfreien Ausgangsleistungen schließt den Vorsteuerabzug für die direkt zugeordneten Eingangsleistungen des Unternehmers nach § 15 Abs. 2 UStG zwingend aus?",
+    "optionen": [
+      "Eine innergemeinschaftliche Lieferung von Waren an einen französischen Großhändler (§ 4 Nr. 1b UStG).",
+      "Eine Ausfuhrlieferung von Maschinen in die Schweiz (Drittland, § 4 Nr. 1a UStG).",
+      "Die langfristige Vermietung einer Gewerbeimmobilie an einen Arzt, der ausschließlich steuerfreie Heilbehandlungen durchführt (ohne Option zur Steuerpflicht, § 4 Nr. 12 UStG).",
+      "Die Lieferung von Büchern und E-Books an Endverbraucher."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Es gibt zwei Arten von Steuerbefreiungen: Echte Befreiungen *mit* Vorsteuerabzug (z. B. Exporte und innergemeinschaftliche Lieferungen nach § 15 Abs. 3 UStG) – hier bleibt die Vorsteuer abziehbar. Und unechte Befreiungen *ohne* Vorsteuerabzug (z. B. Vermietung nach § 4 Nr. 12 UStG oder Heilbehandlungen). Werden Eingangsleistungen (z. B. Handwerkerrechnungen) direkt für eine solche unecht steuerfreie Vermietung genutzt, wird die Vorsteuer zum Kostenfaktor und darf nicht abgezogen werden."
+  },
+  {
+    "id": "recht_ls07_q4",
+    "modul": "recht",
+    "ls": "recht_ls07",
+    "frage": "Ein Gastronom betreibt ein Restaurant in Trier. Er verkauft eine Portion Lasagne an einen Gast. Macht es für den anzuwendenden Umsatzsteuersatz einen Unterschied, ob der Gast die Lasagne im Restaurant verzehrt oder sie verpackt mit nach Hause nimmt?",
+    "optionen": [
+      "Nein, Lebensmittel unterliegen im Gastgewerbe immer einheitlich dem Regelsteuersatz von 19 %.",
+      "Nein, Speisen sind Grundnahrungsmittel und unterliegen daher in beiden Fällen dem ermäßigten Steuersatz von 7 %.",
+      "Ja: Der Verzehr im Restaurant gilt als Restaurantleistung und unterliegt dem Regelsteuersatz von 19 %; die Mitnahme (\"To-Go\") gilt als Lieferung von Lebensmitteln und unterliegt dem ermäßigten Satz von 7 %.",
+      "Ja: Der Verzehr im Restaurant unterliegt 7 %; die Mitnahme wird mit 19 % besteuert, da Verpackungsmaterialien den Steuersatz anheben."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Klassische Abgrenzungsfrage der IHK: Restaurantleistungen (Verzehr vor Ort mit Dienstleistungselementen wie Tisch, Service, Geschirr) unterliegen dem Regelsteuersatz von 19 %. Die bloße Abgabe von Speisen zur Mitnahme wird steuerlich als reine Lieferung von Lebensmitteln eingestuft und profitiert vom ermäßigten Steuersatz von 7 %."
+  },
+  {
+    "id": "recht_ls07_q5",
+    "modul": "recht",
+    "ls": "recht_ls07",
+    "frage": "Ein Unternehmer kauft im Januar Büromaterial für sein Unternehmen. Die Rechnung des Händlers weist einen Bruttobetrag von 357 EUR aus (inklusive 19 % Umsatzsteuer). Wie hoch ist die abziehbare Vorsteuer, die der Unternehmer in seiner Voranmeldung geltend machen kann?",
+    "optionen": [
+      "67,83 EUR (berechnet aus 357 EUR × 19 %).",
+      "57,00 EUR (berechnet aus 357 EUR ÷ 1,19 = 300 EUR Netto; davon 19 % Umsatzsteuer).",
+      "35,70 EUR, da pauschal immer 10 % des Bruttobetrags als Vorsteuer erstattet werden.",
+      "0 EUR, da Büromaterial unter die Kleinbetragsregelung fällt und keine Vorsteuer enthält."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Bemessungsgrundlage für die Umsatzsteuer ist immer das Entgelt (= der Nettobetrag). Bei einem Bruttobetrag inklusive 19 % Umsatzsteuer muss der Betrag durch 1,19 geteilt werden, um den Nettobetrag zu ermitteln (357 EUR ÷ 1,19 = 300 EUR). Die USt bzw. Vorsteuer beträgt somit 19 % von 300 EUR = 57 EUR. Die Formel \"Brutto × Steuersatz\" ist mathematisch falsch."
+  },
+  {
+    "id": "recht_ls07_q6",
+    "modul": "recht",
+    "ls": "recht_ls07",
+    "frage": "Ein Unternehmer erhält eine Rechnung über eine Lieferung von Waren. Bei der Überprüfung stellt er fest, dass der leistende Unternehmer zwar seinen Namen, den Nettobetrag und die Umsatzsteuer ausgewiesen hat, jedoch die fortlaufende Rechnungsnummer vergessen hat. Welche Konsequenz hat dies für den Vorsteuerabzug?",
+    "optionen": [
+      "Keine, solange die Umsatzsteuer vom Aussteller ordnungsgemäß abgeführt wurde.",
+      "Der Vorsteuerabzug ist für den Empfänger grundsätzlich ausgeschlossen, da eine ordnungsgemäße Rechnung nach § 14 Abs. 4 UStG zwingend alle gesetzlichen Pflichtangaben enthalten muss.",
+      "Das Finanzamt kürzt den Vorsteuerabzug pauschal um 50 %.",
+      "Der Empfänger muss die Umsatzsteuer stattdessen selbst an sein Finanzamt abführen (Reverse-Charge)."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Zu den strengen Voraussetzungen des Vorsteuerabzugs gehört eine ordnungsgemäße Rechnung nach § 14 UStG. Fehlt auch nur eine der gesetzlichen Pflichtangaben (wie die fortlaufende Rechnungsnummer, die Steuernummer/USt-IdNr. des Leistenden oder der Leistungszeitpunkt), versagt das Finanzamt im Rahmen einer Prüfung den Vorsteuerabzug vollständig."
+  },
+  {
+    "id": "recht_ls07_q7",
+    "modul": "recht",
+    "ls": "recht_ls07",
+    "frage": "Ein Unternehmer unterliegt der gesetzlichen Soll-Besteuerung (§ 13 Abs. 1 Nr. 1a UStG). Er erbringt im Monat Mai eine Maschinenreparatur für einen Kunden und stellt am 31. Mai die Rechnung aus. Der Kunde bezahlt die Rechnung vereinbarungsgemäß erst am 15. Juli. In welchem Umsatzsteuer-Voranmeldezeitraum muss der Unternehmer die Umsatzsteuer anmelden und abführen?",
+    "optionen": [
+      "Im Voranmeldezeitraum Mai, da die Steuer bei der Soll-Besteuerung mit Ablauf des Zeitraums entsteht, in dem die Leistung ausgeführt wurde – unabhängig vom Zahlungseingang.",
+      "Im Voranmeldezeitraum Juli, da die Umsatzsteuer grundsätzlich eine Verkehrssteuer ist, die erst bei tatsächlichem Geldfluss fällig wird.",
+      "Aufgeteilt zu gleichen Teilen auf die Monate Mai, Juni und Juli.",
+      "Gar nicht, da Reparaturleistungen erst in der Jahreserklärung erfasst werden müssen."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Bei der Soll-Besteuerung (dem gesetzlichen Regelfall) entsteht die Steuerschuld mit Ablauf des Voranmeldezeitraums, in dem die Leistung erbracht wurde. Auf den Zeitpunkt der Rechnungsstellung oder den tatsächlichen Zahlungseingang kommt es nicht an. (Der Liquiditätsvorteil durch Entstehung erst bei Zahlung gilt nur bei der genehmigten Ist-Besteuerung)."
+  },
+  {
+    "id": "recht_ls07_q8",
+    "modul": "recht",
+    "ls": "recht_ls07",
+    "frage": "Ein selbstständiger Hochzeitsfotograf hat im Vorjahr einen umsatzsteuerrelevanten Gesamtumsatz von 22.000 EUR erzielt. Für das laufende Jahr erwartet er einen Umsatz von voraussichtlich 45.000 EUR. Er nimmt die Kleinunternehmerregelung nach § 19 UStG in Anspruch. Was muss er bei der Rechnungsstellung an seine Kunden zwingend beachten?",
+    "optionen": [
+      "Er muss in den Rechnungen 19 % Umsatzsteuer ausweisen, darf diese aber behalten.",
+      "Er darf in seinen Rechnungen keine Umsatzsteuer offen ausweisen und hat keinen Anspruch auf den Abzug von Vorsteuern aus seinen Eingangsrechnungen.",
+      "Er muss auf den Nettobetrag pauschal 7 % Aufschlag für das Finanzamt erheben.",
+      "Er ist von der Rechnungsstellung komplett befreit und darf nur Quittungen ausstellen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Ein Kleinunternehmer nach § 19 UStG (Grenzen: Vorjahr ≤ 25.000 EUR, laufendes Jahr voraussichtlich ≤ 100.000 EUR) wird so behandelt, als erhebe er keine Umsatzsteuer. Als Spiegelbild dazu darf er in seinen Rechnungen keine Umsatzsteuer ausweisen und hat im Gegenzug auch keinen Vorsteuerabzug."
+  },
+  {
+    "id": "recht_ls07_q9",
+    "modul": "recht",
+    "ls": "recht_ls07",
+    "frage": "Was passiert, wenn der Fotograf aus der vorherigen Frage (rechtlicher Status: Kleinunternehmer) in einer Rechnung über 2.380 EUR fälschlicherweise \"enthält 19 % USt = 380 EUR\" offen ausweist?",
+    "optionen": [
+      "Das Finanzamt ignoriert den Ausweis, da der Fotograf den Status als Kleinunternehmer besitzt.",
+      "Der Empfänger der Rechnung darf die 380 EUR als Vorsteuer abziehen, das Finanzamt holt sich das Geld beim Fotografen.",
+      "Unrichtiger Steuerausweis nach § 14c Abs. 1 UStG: Der Fotograf schuldet den ausgewiesenen Steuerbetrag von 380 EUR kraft Gesetzes dem Finanzamt; der Empfänger darf die Vorsteuer trotzdem nicht abziehen.",
+      "Die Rechnung wird automatisch zivilrechtlich ungültig und der Kunde muss die Leistung nicht bezahlen."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Eine extrem gefährliche IHK-Prüfungsfalle: Weist ein Kleinunternehmer (oder jemand, der eine steuerfreie Leistung erbringt) fälschlicherweise Umsatzsteuer offen in einer Rechnung aus, greift die Sanktion des § 14c Abs. 1 UStG (unrichtiger Steuerausweis). Er schuldet diesen Betrag sofort dem Finanzamt. Der Leistungsempfänger darf diesen Betrag jedoch *nicht* als Vorsteuer abziehen, da es sich nicht um eine gesetzlich geschuldete Steuer handelt."
+  },
+  {
+    "id": "recht_ls07_q10",
+    "modul": "recht",
+    "ls": "recht_ls07",
+    "frage": "Ein deutsches Bauunternehmen beauftragt einen Subunternehmer (ebenfalls ein deutsches Bauunternehmen) mit der Durchführung von Rohbauarbeiten für ein betriebliches Projekt in Frankfurt. Der Subunternehmer stellt eine Netto-Rechnung mit dem Hinweis „Steuerschuldnerschaft des Leistungsempfängers“. Welches Verfahren greift hier und wer muss die Umsatzsteuer anmelden?",
+    "optionen": [
+      "Es greift das normale Verfahren: Der Subunternehmer hat einen Fehler gemacht und muss die Rechnung um 19 % USt ergänzen.",
+      "Es greift das Reverse-Charge-Verfahren nach § 13b UStG: Die Steuerschuldnerschaft geht auf den Empfänger (das beauftragende Bauunternehmen) über. Dieser deklariert die Umsatzsteuer und zieht sie zeitgleich als Vorsteuer ab.",
+      "Das Verfahren ist nicht steuerbar, da Umsätze zwischen zwei Bauunternehmen gesetzlich von der Umsatzsteuer befreit sind.",
+      "Die Umsatzsteuer entfällt vollständig, da das Projekt im Inland stattfindet."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Bei bestimmten gesetzlich definierten Umsätzen im Inland – unter anderem bei Bauleistungen zwischen zwei Bauunternehmern – geht die Steuerschuldnerschaft gemäß § 13b UStG auf den Leistungsempfänger über (Reverse-Charge). Der leistende Unternehmer stellt eine Netto-Rechnung aus. Für den Empfänger ist der Vorgang bei voller Vorsteuerabzugsberechtigung ein reiner, liquiditätsneutraler Buchungsposten (Anmeldung der USt und gleichzeitiger Abzug als Vorsteuer)."
+  },
+  {
+    "id": "recht_ls08_q1",
+    "modul": "recht",
+    "ls": "recht_ls08",
+    "frage": "Ein Unternehmer betreibt in einer deutschen Gemeinde ein Gewerbe und besitzt dort auch das betrieblich genutzte Grundstück. Er ermittelt am Jahresende seinen steuerlichen Gewinn. Welche Regelung gilt für die Abziehbarkeit von Grundsteuer und Gewerbesteuer als Betriebsausgabe?",
+    "optionen": [
+      "Seit 2008 sind sowohl die Grundsteuer als auch die Gewerbesteuer vollständig nicht abziehbare Betriebsausgaben (§ 4 Abs. 5b EStG).",
+      "Beide Steuern sind uneingeschränkt als Betriebsausgabe abziehbar, da sie direkt an das betriebliche Objekt bzw. den Betrieb anknüpfen.",
+      "Die Grundsteuer ist eine abziehbare Betriebsausgabe und mindert den steuerlichen Gewinn, während die Gewerbesteuer seit 2008 nicht mehr als Betriebsausgabe abgezogen werden darf.",
+      "Die Gewerbesteuer ist abziehbar, die Grundsteuer hingegen nicht, da es sich bei Letzterer um eine reine Privatsteuer handelt."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Eine klassische IHK-Prüfungsfalle: Ein Gewerbebetrieb zahlt zwar beide Realsteuern, aber sie werden steuerlich komplett unterschiedlich behandelt. Während die Grundsteuer weiterhin den steuerlichen Gewinn als Betriebsausgabe mindern darf, ist der Betriebsausgabenabzug für die Gewerbesteuer gemäß § 4 Abs. 5b EStG seit dem Jahr 2008 explizit ausgeschlossen."
+  },
+  {
+    "id": "recht_ls08_q2",
+    "modul": "recht",
+    "ls": "recht_ls08",
+    "frage": "Die Geschäftsführung der Immobilien-GmbH Alpha möchte ein gewerbliches Grundstück erwerben. Um Grunderwerbsteuer (GrESt) zu sparen, wird ein sogenannter „Share Deal“ durchgeführt: Es wird nicht das Grundstück selbst gekauft (Asset Deal), sondern Anteile an der Besitz-GmbH Beta, der das Grundstück gehört. Unter welcher Voraussetzung fällt bei diesem Share Deal laut Skript dennoch Grunderwerbsteuer an?",
+    "optionen": [
+      "Sobald mindestens 50 % der Anteile an der Gesellschaft erworben werden.",
+      "Grunderwerbsteuer fällt bei einem Share Deal niemals an, da sich der Eigentümer im Grundbuch nicht ändert.",
+      "Wenn im Rahmen des Anteilskaufs (Ergänzungstatbestand nach § 1 Abs. 3 GrEStG) mindestens 90 % der Anteile an der Gesellschaft erworben werden.",
+      "Nur dann, wenn das Grundstück innerhalb einer Frist von 5 Jahren nach dem Anteilskauf weiterverkauft wird."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Beim reinen Anteilskauf (Share Deal) wechselt grundsätzlich nur der Eigentümer der Gesellschaft, nicht der Eigentümer des Grundstücks, weshalb primär keine GrESt anfällt. Das Gesetz kontert dieses Gestaltungsmodell jedoch mit einem Ergänzungstatbestand (§ 1 Abs. 3 GrEStG): Wird eine Beteiligung von mindestens 90 % der Anteile erreicht oder vereinigt, wird der Vorgang wie ein Grundstückskauf behandelt und es fällt GrESt an."
+  },
+  {
+    "id": "recht_ls08_q3",
+    "modul": "recht",
+    "ls": "recht_ls08",
+    "frage": "Ein Großvater verstirbt und hinterlässt seinem Enkel ein Vermögen. Der Vater des Enkels (das Kind des Erblassers) lebt zum Zeitpunkt des Erbfalls noch. Welcher persönliche Freibetrag nach dem ErbStG steht dem Enkel für diesen Erwerb von Todes wegen zu?",
+    "optionen": [
+      "500.000 EUR, da Enkel in Steuerklasse I grundsätzlich den Höchstsatz erhalten.",
+      "400.000 EUR, da Enkel beim Generationensprung immer den Freibetrag ihrer Eltern erben.",
+      "200.000 EUR, da der Freibetrag für Enkel gemäß § 16 Abs. 1 Nr. 3 ErbStG auf diesen Betrag festgelegt ist, solange der dazwischenliegende Elternteil noch lebt.",
+      "20.000 EUR, da Enkel steuerlich wie entferntere Verwandte in Steuerklasse II behandelt werden."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Der Freibetrag für Enkel richtet sich nach den familiären Lebensumständen im Moment des Erwerbs: Lebt das Kind des Erblassers (der Elternteil des Enkels) noch, beträgt der Freibetrag 200.000 EUR. Ist dieser Elternteil jedoch bereits vorverstorben, rückt der Enkel an dessen Stelle nach (Generationensprung) und erhält den höheren Freibetrag von 400.000 EUR (§ 16 Abs. 1 Nr. 2 ErbStG)."
+  },
+  {
+    "id": "recht_ls08_q4",
+    "modul": "recht",
+    "ls": "recht_ls08",
+    "frage": "Ein Vater schenkt seiner Tochter im Jahr 2026 einen Geldbetrag von 350.000 EUR. Fünf Jahre später (im Jahr 2031) schenkt er ihr eine Immobilie im Wert von weiteren 200.000 EUR. Wie wird die Schenkungsteuer für die zweite Übertragung im Jahr 2031 ermittelt?",
+    "optionen": [
+      "Die Schenkung aus 2031 ist komplett steuerfrei, da sie unter dem Freibetrag von 400.000 EUR liegt und jede Schenkung einzeln betrachtet wird.",
+      "Beide Schenkungen werden zusammengerechnet (§ 14 ErbStG), da sie innerhalb von 10 Jahren stattfinden. Der Gesamterwerb beträgt 550.000 EUR, wovon der Tochter einmalig der Freibetrag von 400.000 EUR abgezogen wird. Die restlichen 150.000 EUR sind zu versteuern.",
+      "Der Freibetrag halbiert sich bei der zweiten Schenkung automatisch auf 200.000 EUR.",
+      "Auf Schenkungen unter lebenden Personen findet die 10-Jahres-Regelung keine Anwendung, diese gilt nur für echte Erbschaften."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Prüfungsfalle 10-Jahres-Frist: Schenkungen und Erbschaften von derselben Person innerhalb eines Zeitraums von 10 Jahren werden steuerlich zusammengerechnet (§ 14 ErbStG). Der persönliche Freibetrag (hier 400.000 EUR für Kinder) gilt für die Gesamtsumme der Erwerbe innerhalb dieser Dekade – nicht für jeden Vorgang einzeln. Erst nach Ablauf von vollen 10 Jahren steht der Freibetrag wieder neu zur Verfügung."
+  },
+  {
+    "id": "recht_ls08_q5",
+    "modul": "recht",
+    "ls": "recht_ls08",
+    "frage": "Ein neu gegründeter Gewerbetreibender überschreitet in seinem ersten Geschäftsjahr die Umsatzgrenze von 800.000 EUR. Ab wann ist er im darauffolgenden Jahr steuerrechtlich nach § 141 AO zur Buchführung verpflichtet?",
+    "optionen": [
+      "Automatisch ab dem 1. Januar des Folgejahres kraft Gesetzes, analog zu den handelsrechtlichen Vorschriften (§ 238 HGB).",
+      "Rückwirkend ab dem Tag der Gewerbeanmeldung, sobald die Zahlen feststehen.",
+      "Erst ab dem Beginn des Wirtschaftsjahres, das auf die ausdrückliche Mitteilung (Finanzamts-Bescheid) des Finanzamtes über den Eintritt der Buchführungspflicht folgt.",
+      "Gar nicht, da die steuerrechtliche Buchführungspflicht ausschließlich an den Gewinn (nicht an den Umsatz) anknüpft."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Wichtige Abgrenzung zwischen Steuerrecht und Handelsrecht: Die handelsrechtliche Buchführungspflicht nach § 238 HGB entsteht bei Kaufleuten automatisch kraft Gesetz. Die steuerrechtliche Buchführungspflicht nach § 141 AO für gewerbliche Unternehmer (Grenzen durch das Wachstumschancengesetz angehoben auf Umsatz > 800.000 EUR oder Gewinn > 85.000 EUR) entsteht dagegen *nicht* automatisch, sondern bedarf zwingend einer ausdrücklichen Mitteilung durch das Finanzamt. Sie gilt erst für die Zukunft (Folgejahr)."
+  },
+  {
+    "id": "recht_ls08_q6",
+    "modul": "recht",
+    "ls": "recht_ls08",
+    "frage": "Ein Buchhalter sortiert die Buchungsbelege und Ausgangsrechnungen für das Geschäftsjahr 2026. Die letzte Buchung und der letzte Rechnungsbeleg datieren vom 14. August 2026. Wann beginnt die gesetzliche 10-jährige Aufbewahrungsfrist nach der Abgabenordnung (§ 147 AO) für diese Unterlagen und wann endet sie?",
+    "optionen": [
+      "Sie beginnt am Tag der Belegerstellung (14.08.2026) und endet exakt 10 Jahre später am 14.08.2036.",
+      "Sie beginnt mit dem Ablauf des Kalenderjahres, in dem der letzte Eintrag gemacht wurde – also am 31.12.2026 um 24:00 Uhr. Sie endet folglich am 31.12.2036.",
+      "Sie beginnt erst mit der Einreichung der dazugehörigen Steuererklärung beim Finanzamt im Folgejahr.",
+      "Die Frist für Buchungsbelege beträgt nach AO generell nur 6 Jahre, beginnend mit dem Belegdatum."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Fristdauer für Bücher, Bilanzen und Buchungsbelege beträgt zwar 10 Jahre (während Geschäftsbriefe 6 Jahre erfordern), die entscheidende Prüfungsfalle liegt jedoch beim Fristbeginn: Die Frist läuft nicht ab Belegdatum, sondern beginnt erst mit dem Schluss (Ende) des Kalenderjahres, in dem der letzte Eintrag, die Bilanzfeststellung oder der Beleg erstellt wurde. Für das Jahr 2026 beginnt der Fristlauf somit am 31.12.2026 und endet am 31.12.2036."
+  },
+  {
+    "id": "recht_ls08_q7",
+    "modul": "recht",
+    "ls": "recht_ls08",
+    "frage": "Das Finanzamt wirft einen Einkommensteuerbescheid am Montag, den 3. März, in den Postbriefkasten. Es handelt sich um einen klassischen schriftlichen Verwaltungsakt per Post im Inland. Wann gilt dieser Steuerbescheid gemäß der Bekanntgabefiktion der AO als bekannt gegeben?",
+    "optionen": [
+      "Am Tag des Einwurfs in den Postkasten, also am Montag, den 3. März (Tag 0).",
+      "Am darauffolgenden Werktag (Dienstag, 4. März), da Postlaufzeiten im Inland pauschal mit einem Tag angesetzt werden.",
+      "Am vierten Tag nach der Aufgabe zur Post (Zählweise: Aufgabetag = Tag 0). Montag (0) -> Dienstag (1) -> Mittwoch (2) -> Donnerstag (3) -> Freitag, den 7. März (4. Tag = Bekanntgabe).",
+      "Exakt einen Monat nach dem Datum des Poststempels."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Nach § 122 Abs. 2 Nr. 1 AO gilt ein schriftlicher Verwaltungsakt am vierten Tag nach der Aufgabe zur Post als bekannt gegeben (Bekanntgabefiktion). Wichtig für die IHK-Zählweise: Der Aufgabetag ist Tag 0. Fällt dieser errechnete vierte Tag auf ein Wochenende oder einen Feiertag, greift zusätzlich § 108 Abs. 3 AO und verschiebt die Bekanntgabe (und damit den Start der Einspruchsfrist) auf den nächsten Werktag. Da der Freitag ein normaler Werktag ist, bleibt es beim 7. März."
+  },
+  {
+    "id": "recht_ls08_q8",
+    "modul": "recht",
+    "ls": "recht_ls08",
+    "frage": "Ein Steuerpflichtiger hat seine Einkommensteuererklärung für das Jahr 2026 ordnungsgemäß und pünktlich im darauffolgenden Jahr 2027 beim Finanzamt eingereicht. Es liegt kein Fall von Steuerhinterziehung oder leichtfertiger Verkürzung vor. Wann beginnt die reguläre Festsetzungsverjährung und wann endet sie?",
+    "optionen": [
+      "Sie beginnt mit Ablauf des Entstehungsjahres (31.12.2026) und endet nach 4 Jahren am 31.12.2030.",
+      "Sie beginnt wegen der Anlaufhemmung (§ 170 Abs. 2 Nr. 1 AO) erst mit Ablauf des Kalenderjahres, in dem die Steuererklärung eingereicht wurde (31.12.2027). Die 4-jährige Frist endet somit am 31.12.2031.",
+      "Sie beginnt sofort am Tag der Abgabe der Erklärung und läuft tagesgenau 4 Jahre.",
+      "Die Frist beginnt bei Abgabe immer erst pauschal nach 3 Jahren (maximale Anlaufhemmung)."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Für die Festsetzungsverjährung (Regelfall 4 Jahre) ist die Anlaufhemmung nach § 170 Abs. 2 Nr. 1 AO elementar: Wird eine Steuererklärung eingereicht, beginnt die Frist erst mit Ablauf des Kalenderjahres, in dem die Erklärung abgegeben wurde. Wird die Erklärung für 2026 im Jahr 2027 abgegeben, läuft die Frist vom 31.12.2027 bis zum 31.12.2031. (Wird gar keine Erklärung abgegeben, greift die maximale Anlaufhemmung von 3 Jahren)."
+  },
+  {
+    "id": "recht_ls08_q9",
+    "modul": "recht",
+    "ls": "recht_ls08",
+    "frage": "Ein Unternehmer legt fristgerecht Einspruch gegen einen Umsatzsteuerbescheid ein, da er einen gravierenden Berechnungsfehler des Finanzamtes vermutet. Er stellt gleichzeitig keinen weiteren Antrag. Muss er die geforderte Steuernachzahlung vorerst an das Finanzamt überweisen?",
+    "optionen": [
+      "Nein, ein rechtzeitiger Einspruch hat im Steuerrecht immer eine automatische aufschiebende Wirkung, die Zahlung wird bis zur Entscheidung ausgesetzt.",
+      "Ja, der Einspruch hat gemäß § 361 AO grundsätzlich keine aufschiebende Wirkung. Die Steuer muss fristgerecht gezahlt werden, es sei denn, es wurde ein Antrag auf Aussetzung der Vollziehung (AdV) gestellt und genehmigt.",
+      "Er muss nur 50 % des strittigen Betrags bezahlen, die andere Hälfte wird bis zur Klärung gesperrt.",
+      "Nein, Zahlungsaufforderungen ruhen bei behördlichen Einsprüchen generell so lange, bis die übergeordnete Instanz (Finanzgericht) entschieden hat."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Grundprinzip im Steuerrecht: „Erst zahlen, dann streiten!“ Der Einspruch hat nach § 361 AO keine aufschiebende Wirkung. Um den Geldfluss zu stoppen, muss der Steuerpflichtige explizit eine Aussetzung der Vollziehung (AdV) beantragen. Dies ist bei ernstlichen Zweifeln an der Rechtmäßigkeit möglich. Wird die AdV gewährt, entfallen zwar Säumniszuschläge, im Falle des Unterliegens drohen jedoch Aussetzungszinsen (§ 237 AO) in Höhe von 1,8 % p.a."
+  },
+  {
+    "id": "recht_ls08_q10",
+    "modul": "recht",
+    "ls": "recht_ls08",
+    "frage": "Bei einer Betriebsprüfung stellt sich heraus, dass ein Unternehmer über Jahre hinweg bewusst Umsätze nicht verbucht und dadurch Steuern verkürzt hat. Welcher Tatbestand liegt vor, welche Festsetzungsfrist gilt hierdurch und wie unterscheidet sich dies von der bloßen Fahrlässigkeit?",
+    "optionen": [
+      "Es liegt eine leichtfertige Steuerverkürzung vor; die Festsetzungsfrist beträgt 5 Jahre. Bei Vorsatz wären es 4 Jahre.",
+      "Es handelt sich um eine Steuerhinterziehung (§ 370 AO), da das Handeln vorsätzlich war. Es ist eine Straftat und die Festsetzungsfrist verlängert sich drastisch auf 10 Jahre. Bei bloßer Fahrlässigkeit (leichtfertige Verkürzung, § 378 AO) läge eine Ordnungswidrigkeit mit 5 Jahren Frist vor.",
+      "Es liegt ein reiner Buchungsfehler vor, der nach § 129 AO (offenbare Unrichtigkeit) jederzeit folgenlos innerhalb der regulären 4 Jahre berichtigt werden kann.",
+      "Vorsätzliche Verkürzung ist im Steuerrecht straffrei, sofern innerhalb von 4 Jahren eine pauschale Nachversteuerung vorgenommen wird."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die AO unterscheidet strikt nach dem Verschulden: Vorsätzliche Verkürzung ist Steuerhinterziehung (§ 370 AO) – eine handfeste Straftat (Freiheitsstrafe bis zu 5, in schweren Fällen 10 Jahre) mit einer verlängerten Festsetzungsfrist von 10 Jahren. Die bloß fahrlässige (leichtfertige) Steuerverkürzung (§ 378 AO) ist hingegen eine Ordnungswidrigkeit (Bußgeld bis 50.000 EUR), bei der sich die Festsetzungsfrist auf 5 Jahre beläuft (statt der regulären 4 Jahre im sachlichen Regelfall)."
   }
 ]

@@ -3,6 +3,11 @@
     "datum": "01.07.2026",
     "eintraege": [
       {
+        "modul": "recht",
+        "titel": "Quiz LS01–LS08 · Grundlagen des Rechts bis Weitere Steuerarten & AO (komplettes Modul, 80 Fragen)",
+        "aktion": "neu"
+      },
+      {
         "modul": "bm",
         "titel": "Quiz LS01-E · Gegenstromverfahren, LS02 · Betriebsstatistik, LS03 · Wissensmanagement & LS04 · IT im Betrieb (je 10 Fragen)",
         "aktion": "neu"
