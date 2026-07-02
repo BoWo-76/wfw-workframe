@@ -1958,5 +1958,1265 @@
     ],
     "correctIndex": 1,
     "erklaerung": "Die AO unterscheidet strikt nach dem Verschulden: Vorsätzliche Verkürzung ist Steuerhinterziehung (§ 370 AO) – eine handfeste Straftat (Freiheitsstrafe bis zu 5, in schweren Fällen 10 Jahre) mit einer verlängerten Festsetzungsfrist von 10 Jahren. Die bloß fahrlässige (leichtfertige) Steuerverkürzung (§ 378 AO) ist hingegen eine Ordnungswidrigkeit (Bußgeld bis 50.000 EUR), bei der sich die Festsetzungsfrist auf 5 Jahre beläuft (statt der regulären 4 Jahre im sachlichen Regelfall)."
+  },
+  {
+    "id": "rewe_ls01_q1",
+    "modul": "rewe",
+    "ls": "rewe_ls01",
+    "frage": "Ein Großhändler betreibt in Trier einen gut gehenden Betrieb mit 20 Mitarbeitern und bundesweitem Vertrieb. Da er stark im operativen Geschäft eingebunden ist, hat er sich bisher nicht in das Handelsregister eintragen lassen. Wie ist seine kaufmännische Eigenschaft und die Wirkung einer nachträglichen Eintragung rechtlich korrekt zu beurteilen?",
+    "optionen": [
+      "Er gilt bis zur Eintragung als Nicht-Kaufmann. Erst durch die Eintragung wird er zum Kannkaufmann, wobei die Eintragung eine konstitutive (rechtsbegründende) Wirkung besitzt.",
+      "Da er die Rechtsform einer GmbH nicht gewählt hat, greift für ihn das HGB überhaupt nicht, sondern ausschließlich das BGB.",
+      "Er ist bereits kraft Gesetzes Istkaufmann, da sein Geschäftsbetrieb nach Art und Umfang eine kaufmännische Organisation erfordert. Die Eintragung im Handelsregister ist für ihn verpflichtend, hat aber lediglich eine deklaratorische (rechtsbezeugende) Wirkung.",
+      "Er ist ein Scheinkaufmann, da er ohne Eintragung wie ein Kaufmann am Markt agiert. Die Wirkung einer Eintragung wäre hier rein freiwillig."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das Skript warnt explizit vor der Prüfungsfalle „Deklaratorisch ≠ freiwillig“. Wer ein Handelsgewerbe betreibt, das eine kaufmännische Organisation erfordert, ist automatisch Istkaufmann nach § 1 HGB. Die Eintragung im Handelsregister ist Pflicht, wirkt aber nur deklaratorisch – sie bestätigt also nur den bereits bestehenden Status."
+  },
+  {
+    "id": "rewe_ls01_q2",
+    "modul": "rewe",
+    "ls": "rewe_ls01",
+    "frage": "In einer IHK-Prüfungsaufgabe soll geprüft werden, ob eine Tätigkeit als Gewerbebetrieb nach § 15 EStG einzustufen ist. Welche der folgenden Kombinationen enthält ausschließlich Merkmale, die für einen Gewerbebetrieb zwingend vorliegen müssen, und nennt eine korrekte Ausnahme, die nicht vorliegen darf?",
+    "optionen": [
+      "Selbstständigkeit, Gewinnerzielungsabsicht, Liebhaberei; Ausnahme: Freier Beruf.",
+      "Selbstständigkeit, Nachhaltigkeit, Gewinnerzielungsabsicht, Beteiligung am allgemeinen wirtschaftlichen Verkehr; Ausnahme: Freier Beruf (z. B. Arzt, Anwalt).",
+      "Kapitalgesellschaft, Gemeinnützigkeit, Angestelltenverhältnis; Ausnahme: Land- und Forstwirtschaft.",
+      "Nachhaltigkeit, Umsatz über 800.000 €, Eintragung im HR; Ausnahme: Kiosk-Betreiber."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Laut Skript müssen die vier positiven Merkmale (Selbstständigkeit, Nachhaltigkeit, Gewinnerzielungsabsicht, Beteiligung am Verkehr) kumulativ vorliegen. Freie Berufe (§ 18 EStG) sowie die Land- und Forstwirtschaft (§ 13 EStG) sind gesetzlich explizit ausgenommen und dürfen für einen Gewerbebetrieb nicht vorliegen."
+  },
+  {
+    "id": "rewe_ls01_q3",
+    "modul": "rewe",
+    "ls": "rewe_ls01",
+    "frage": "Eine neu gegründete GmbH hat ihren Gesellschaftsvertrag notariell beurkundet, der Antrag auf Eintragung liegt beim Amtsgericht, die Eintragung im Handelsregister steht jedoch noch aus. Welcher kaufmännische Status liegt vor und welche Rechtswirkung hat die spätere Eintragung?",
+    "optionen": [
+      "Die GmbH ist bereits mit Unterschrift des Notars Istkaufmann; die Eintragung ist rein deklaratorisch.",
+      "Die GmbH erlangt ihre Kaufmannseigenschaft als Formkaufmann kraft Rechtsform erst mit der Eintragung im Handelsregister; die Wirkung ist somit konstitutiv.",
+      "Sie ist ein Kannkaufmann, da die Eintragung im ersten Jahr für Kapitalgesellschaften immer freiwillig ist.",
+      "Ohne Eintragung wird sie automatisch als Nicht-Kaufmann behandelt und behält diesen Status dauerhaft."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Kapitalgesellschaften (GmbH, AG) sind Formkaufleute nach § 6 HGB. Ihre Kaufmannseigenschaft und rechtliche Existenz entstehen erst mit der Eintragung ins Handelsregister (rechtsbegründende / konstitutive Wirkung)."
+  },
+  {
+    "id": "rewe_ls01_q4",
+    "modul": "rewe",
+    "ls": "rewe_ls01",
+    "frage": "Ein Einzelkaufmann erwirtschaftet im Geschäftsjahr 2024 einen Umsatz von 850.000 € und einen Jahresüberschuss von 75.000 €. Im folgenden Geschäftsjahr 2025 erzielt er einen Umsatz von 790.000 € und einen Jahresüberschuss von 85.000 €. Ist er für das Geschäftsjahr 2026 von der handelsrechtlichen Buchführungspflicht nach § 241a HGB befreit?",
+    "optionen": [
+      "Nein, da er in beiden Jahren jeweils eine der beiden kritischen Grenzen überschritten hat.",
+      "Ja, da für den Entfall der Befreiung beide Grenzen (Umsatz > 800.000 € UND Jahresüberschuss > 80.000 €) an zwei aufeinanderfolgenden Geschäftsjahren gleichzeitig überschritten werden müssen. Da dies nicht der Fall ist, bleibt er befreit.",
+      "Nein, Einzelkaufleute sind laut HGB grundsätzlich immer zu 100 % buchführungspflichtig, völlig unabhängig von Schwellenwerten.",
+      "Ja, weil im Jahr 2025 der Umsatz unter 800.000 € sank. Das Vorjahr wird bei der IHK-Betrachtung grundsätzlich ignoriert."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Nach § 241a HGB tritt die Befreiung ein bzw. bleibt bestehen, solange nicht an zwei aufeinanderfolgenden Geschäftsjahren beide Grenzen (Umsatz > 800.000 € und Gewinn > 80.000 €) überschritten werden. Da im Jahr 2024 der Gewinn unter der Grenze lag und im Jahr 2025 der Umsatz unter der Grenze lag, sind die Voraussetzungen für eine Buchführungspflicht nicht erfüllt; eine einfache EÜR genügt."
+  },
+  {
+    "id": "rewe_ls01_q5",
+    "modul": "rewe",
+    "ls": "rewe_ls01",
+    "frage": "Ein Prokurist möchte zur Absicherung der Liquidität ein betriebliches Grundstück veräußern und den Firmennamen im Handelsregister leicht abändern, da dies Dritten gegenüber nicht beschränkt wurde. Ist er zu diesen Handlungen gesetzlich berechtigt?",
+    "optionen": [
+      "Ja, da die Prokura eine umfassende Handelsvollmacht ist, die im Außenverhältnis Dritten gegenüber nicht beschränkt werden kann.",
+      "Ja, solange er den Verkaufserlös komplett auf das Geschäftskonto einzahlt.",
+      "Nein. Grundstücksverkäufe und Grundlagengeschäfte (wie die Änderung der Firma oder der Unternehmensverkauf) sind gesetzliche Ausnahmen, die ein Prokurist nicht vornehmen darf.",
+      "Er darf die Firma ändern, aber unter keinen Umständen Verträge gerichtlich unterschreiben."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Prokura (§§ 48–53 HGB) ist zwar im Außenverhältnis nicht beschränkbar, das Gesetz schließt jedoch sogenannte Grundlagengeschäfte (Unternehmensverkauf, Änderung der Firma) sowie Grundstücksverkäufe explizit aus. Hierzu ist eine gesonderte Vollmacht oder die Geschäftsführung direkt erforderlich."
+  },
+  {
+    "id": "rewe_ls01_q6",
+    "modul": "rewe",
+    "ls": "rewe_ls01",
+    "frage": "Ein Kleingewerbetreibender nutzt für seine Rechnungen und Briefköpfe ohne HR-Eintragung ein Logo mit dem Zusatz „Handelsagentur & Partner“ und erweckt im Geschäftsverkehr gezielt den Eindruck eines großen Logistikunternehmens. Welche rechtliche Konsequenz ergibt sich daraus bei Streitigkeiten mit seinen Lieferanten?",
+    "optionen": [
+      "Keine, da er rechtlich ein Nicht-Kaufmann ist und für ihn ausschließlich das BGB gilt.",
+      "Er wird als Scheinkaufmann behandelt. Wer im Geschäftsverkehr wie ein Kaufmann auftritt, wird im Rechtsverkehr auch wie ein Kaufmann behandelt und haftet nach den strengen Regeln des HGB.",
+      "Er wird automatisch zum Kannkaufmann ernannt und das Amtsgericht trägt ihn zwangsweise ein.",
+      "Der Vertrag ist wegen arglistiger Täuschung von vornherein absolut nichtig."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Prinzip des Scheinkaufmanns dient dem Vertrauensschutz im Handelsverkehr. Erweckt jemand bewusst den Rechtsschein, Kaufmann zu sein, muss er sich gegenüber gutgläubigen Dritten auch so behandeln lassen (ungewollte Rechtsfolge). Dies unterscheidet ihn vom Kannkaufmann, welcher die Eintragung bewusst und freiwillig wählt."
+  },
+  {
+    "id": "rewe_ls01_q7",
+    "modul": "rewe",
+    "ls": "rewe_ls01",
+    "frage": "In einer Prüfungsaufgabe sollst du die Finanzbuchhaltung von der Kosten- und Leistungsrechnung (KLR) anhand des Betrachtungsobjekts und der Erfolgsermittlung abgrenzen. Welche Aussage entspricht exakt der Systematik deines Skripts?",
+    "optionen": [
+      "Die FiBu betrachtet den Betrieb (die technische Einheit); die KLR betrachtet das Unternehmen als rechtliche Gesamtheit.",
+      "Die FiBu ermittelt das Betriebsergebnis mittels Kosten und Leistungen; die KLR ermittelt das Unternehmsersgebnis mittels Aufwand und Ertrag.",
+      "Die FiBu betrachtet das Unternehmen als Ganzes (rechtliche Einheit) und stellt Aufwand und Ertrag gegenüber. Die KLR fokussiert rein auf den Betrieb (Ort der Leistungserstellung) und stellt Kosten und Leistungen gegenüber.",
+      "Es gibt keinen Unterschied im Betrachtungsobjekt; beide Systeme betrachten das Unternehmen und sind gesetzlich absolut identisch geregelt."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das ist der absolute IHK-Dauerläufer. Merke dir die feste Verknüpfung aus deinem Skript: FiBu = Unternehmen = Aufwand/Ertrag = Unternehmensergebnis vs. KLR = Betrieb = Kosten/Leistungen = Betriebsergebnis."
+  },
+  {
+    "id": "rewe_ls01_q8",
+    "modul": "rewe",
+    "ls": "rewe_ls01",
+    "frage": "Ein Unternehmen verbucht eine Abschreibung auf eine Produktionsmaschine. Gleichzeitig verbucht es eine Spende an den örtlichen Sportverein. Wie werden diese beiden Vorgänge in der Finanzbuchhaltung (FiBu) und in der Kosten- und Leistungsrechnung (KLR) eingeordnet?",
+    "optionen": [
+      "Beide Positionen sind Kosten und fließen unverändert in die KLR ein.",
+      "Die Abschreibung ist Aufwand (FiBu) und betriebsbedingter Güterverbrauch (= Kosten in der KLR). Die Spende ist ein neutraler (betriebsfremder) Aufwand; sie wird in der KLR eliminiert und fließt dort nicht ein.",
+      "Spenden sind kalkulatorische Kosten; Abschreibungen sind neutrale Aufwendungen.",
+      "Die FiBu erfasst Spenden nicht, da kein Belegprinzip für Geschenke existiert."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Skript trennt sauber: Nur der rein betriebsbedingte Güterverbrauch stellt Kosten dar. Neutrale Aufwendungen (betriebsfremd, außerordentlich, periodenfremd) wie eine Spende haben im Betriebszweck nichts verloren und werden in der Abgrenzungsrechnung der KLR komplett gestrichen."
+  },
+  {
+    "id": "rewe_ls01_q9",
+    "modul": "rewe",
+    "ls": "rewe_ls01",
+    "frage": "Ein Industrieunternehmen verzeichnet am Jahresende einen absehbaren, drohenden Forderungsausfall bei einem Großkunden, der jedoch rechtlich noch nicht final vollzogen ist. Welcher Grundsatz ordnungsgemäßer Buchführung (GoB) zwingt das Unternehmen zum sofortigen Ausweis des Risikos und wie lautet die IHK-Begründung für diese Asymmetrie?",
+    "optionen": [
+      "Das Realisationsprinzip; es schützt den Unternehmer vor zu hohen Steuerzahlungen.",
+      "Das Imparitätsprinzip als Teil des Vorsichtsprinzips; es verlangt, dass absehbare Verluste sofort berücksichtigt werden müssen, während Gewinne erst bei Realisierung ausgewiesen werden dürfen. Es dient dem Gläubigerschutz.",
+      "Der Grundsatz der Periodenabgrenzung; er verlangt eine gleichmäßige Aufteilung von Verlusten über 10 Jahre.",
+      "Das Belegprinzip, da drohende Verluste bereits als fiktiver Beleg gelten."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Imparitätsprinzip bricht die Symmetrie auf: Verluste werden sofort bei Erkennbarkeit erfasst, Gewinne erst nach tatsächlichem Verkauf (Realisationsprinzip). Sinn und Zweck dieser Regelung ist der Gläubigerschutz, damit sich das Unternehmen extern nicht reicher ausweist, als es tatsächlich ist. Diese Begründung wird in der IHK-Prüfung explizit verlangt."
+  },
+  {
+    "id": "rewe_ls01_q10",
+    "modul": "rewe",
+    "ls": "rewe_ls01",
+    "frage": "Das Controlling stellt bei der Jahresauswertung fest, dass ein Produktbereich einen Wirtschaftlichkeitsgrad von w = 1,3 erzielt hat, die Rentabilität des eingesetzten Kapitals jedoch extrem ungenügend ausgefallen ist. Welche Aussage klärt diesen Sachverhalt anhand der Prüfungsfallen deines Skripts auf?",
+    "optionen": [
+      "Ein Wirtschaftlichkeitsgrad von 1,3 bedeutet Kostendeckung, weshalb kein Gewinn für die Rentabilität übrig bleibt.",
+      "Das ist mathematisch unmöglich; wenn die Wirtschaftlichkeit > 1 ist, muss auch die Rentabilität zwingend hoch sein.",
+      "Ein Unternehmen kann absolut wirtschaftlich arbeiten (w > 1), aber dennoch eine niedrige Rentabilität aufweisen, wenn das dafür eingesetzte Kapital im Verhältnis zum Gewinn unverhältnismäßig hoch war.",
+      "Wirtschaftlichkeit misst ausschließlich Mengenverhältnisse (z. B. Stück pro Arbeitsstunde) und hat keinen Bezug zu Ertrag oder Aufwand."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Exakt eine der beiden genannten Prüfungsfallen im Skript: Wirtschaftlichkeit (W = Ertrag / Aufwand) ist eine dimensionslose Kennzahl. Arbeitet man mit 1,3, ist der Ertrag höher als der Aufwand. Wenn jedoch zur Erzielung dieses Ergebnisses ein gigantischer Kapitalapparat nötig war, fällt die Rentabilität (Gewinn / Kapital * 100) extrem gering aus."
+  },
+  {
+    "id": "rewe_ls02_q1",
+    "modul": "rewe",
+    "ls": "rewe_ls02",
+    "frage": "Ein Buchhalter erfasst eine Kassenbuchung vom 15.04.2026. Er ordnet den Beleg zunächst streng nach dem Datum ein und überträgt den Wert am Folgetag auf das Sachkonto „Bank“. In welche Bücher floss dieser Geschäftsvorfall in welcher Reihenfolge ein und nach welchen Ordnungsprinzipien arbeiten diese?",
+    "optionen": [
+      "Der Vorgang floss zuerst in das Hauptbuch (zeitliche Ordnung) und danach in das Grundbuch (sachliche Ordnung).",
+      "Der Vorgang floss zuerst in das Grundbuch (chronologische/zeitliche Ordnung) und danach in das Hauptbuch (systematische/sachliche Ordnung).",
+      "Die Erfassung erfolgt in beiden Büchern absolut gleichzeitig, da beide nach dem identischen, sachlich-chronologischen Mischprinzip arbeiten.",
+      "Das Grundbuch erfasst nur Bestände, während das Hauptbuch ausschließlich für Nebenbücher wie die Debitorenbuchhaltung zuständig ist."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Skript warnt ausdrücklich vor dieser Prüfungsfalle: Ein Geschäftsvorfall fließt immer zuerst in das Grundbuch (auch Journal genannt) ein, wo er rein chronologisch nach dem Zeitfaktor erfasst wird. Erst danach erfolgt die Übertragungsbuchung in das Hauptbuch, welches die Beträge systematisch auf den einzelnen Sachkonten (wie Bank oder Kasse) ordnet."
+  },
+  {
+    "id": "rewe_ls02_q2",
+    "modul": "rewe",
+    "ls": "rewe_ls02",
+    "frage": "In der IHK-Abschlussprüfung sollst du den Unterschied zwischen den Begriffen „Bilanzansatz“ und „Bilanzbewertung“ rechtlich sauber voneinander abgrenzen. Welche Aussage gibt die Systematik des HGB korrekt wieder?",
+    "optionen": [
+      "Der Bilanzansatz klärt die Frage der Höhe nach (Euro-Betrag), während die Bilanzbewertung prüft, ob das Objekt dem Grunde nach überhaupt in die Bilanz darf.",
+      "Der Bilanzansatz regelt ausschließlich die Passiva, während die Bilanzbewertung nur für die Aktiva angewendet wird.",
+      "Der Bilanzansatz klärt dem Grunde nach, ob für ein Objekt eine Ansatzpflicht, ein Ansatzverbot oder ein Ansatzwahlrecht vorliegt. Die Bilanzbewertung regelt im zweiten Schritt die Höhe nach, mit welchem Euro-Betrag das Objekt geführt wird.",
+      "Beide Begriffe sind gesetzlich vollkommen synonym und beschreiben die identischen Paragrafen der §§ 242–245 HGB."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Trennung zwischen „dem Grunde nach“ (Ansatz: Erscheint das Objekt in der Bilanz oder greift z. B. ein Ansatzverbot wie beim selbst erstellten Firmenwert?) und „der Höhe nach“ (Bewertung: Welcher Euro-Wert wird unter Beachtung von Anschaffungskosten, Niederst- oder Höchstwertprinzip eingetragen?) ist ein fundamentaler IHK-Prüfungsbestandteil."
+  },
+  {
+    "id": "rewe_ls02_q3",
+    "modul": "rewe",
+    "ls": "rewe_ls02",
+    "frage": "Das HGB verfolgt mit seinen Bewertungsvorschriften (Niederstwertprinzip auf der Aktivseite, Höchstwertprinzip auf der Passivseite) eine bewusste Asymmetrie. Welchem übergeordneten Zweck dient diese ungleiche Behandlung von Vermögen und Schulden primär?",
+    "optionen": [
+      "Dem Fiskusschutz, um die staatlichen Steuereinnahmen unter allen Umständen zu maximieren.",
+      "Dem Gläubigerschutz, indem das Vermögen im Zweifel eher zu niedrig und die Schulden eher zu hoch ausgewiesen werden, um eine zu optimistische Darstellung der Unternehmenslage zu verhindern.",
+      "Dem Umweltschutz, um den Materialverbrauch durch verringerte Abschreibungswerte künstlich einzudämmen.",
+      "Der Bilanzidentität, damit die Schlussbilanz mathematisch niemals mit der Eröffnungsbilanz übereinstimmen kann."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Vorsichtsprinzips nach § 252 Abs. 1 Nr. 4 HGB fordert genau diese Asymmetrie. Das Niederstwertprinzip (Aktiva) sorgt dafür, dass absehbare Wertminderungen sofort erfasst werden, während das Höchstwertprinzip (Passiva) verlangt, Schulden oder Rückstellungen im Zweifel mit dem höheren Erfüllungsbetrag anzusetzen. Dies dient dem Gläubigerschutz."
+  },
+  {
+    "id": "rewe_ls02_q4",
+    "modul": "rewe",
+    "ls": "rewe_ls02",
+    "frage": "Ein Unternehmen kauft eine neue Produktionsmaschine. Der Netto-Listenpreis beträgt 100.000 €. Der Lieferant gewährt 10 % Rabatt und 2 % Skonto auf den geminderten Preis. Für Fracht und Fundamentierung fallen zusätzlich 5.000 € Netto-Nebenkosten an. Die Umsatzsteuer beträgt 19 %. Wie hoch sind die Anschaffungskosten der Maschine nach § 255 Abs. 1 HGB für die Bilanzierung?",
+    "optionen": [
+      "111.860 € (inklusive der vollen Umsatzsteuer, da diese immer zu den Anschaffungskosten zählt)",
+      "93.200 € (Netto-Listenpreis abzüglich Rabatt und Skonto, ohne Nebenkosten)",
+      "100.000 € (Es gilt immer starr der reine Listenpreis des Lieferanten)",
+      "93.200 € (Anschaffungspreis gemindert um Rabatt und Skonto: 90.000 € − 1.800 € = 88.200 €) plus 5.000 € Anschaffungsnebenkosten = 93.200 €. Die Umsatzsteuer bleibt außen vor."
+    ],
+    "correctIndex": 3,
+    "erklaerung": "Die Ermittlung lautet gemessenen an den Netto-Werten: Anschaffungspreis (100.000 €) minus Preisminderungen (10 % Rabatt = 10.000 € → Zwischenstand 90.000 €; davon 2 % Skonto = 1.800 € → Netto-Einkaufspreis 88.200 €) plus Anschaffungsnebenkosten (5.000 € Fracht/Montage) = 93.200 €. Die Umsatzsteuer (Vorsteuer) gehört nicht zu den Anschaffungskosten."
+  },
+  {
+    "id": "rewe_ls02_q5",
+    "modul": "rewe",
+    "ls": "rewe_ls02",
+    "frage": "Ein Unternehmen möchte eine neu erworbene Betriebsausstattung degressiv abschreiben, um in den ersten Jahren den Gewinn und damit die Steuerlast effektiv zu drücken. Wie ist dieses Vorhaben handelsrechtlich und steuerrechtlich zu beurteilen?",
+    "optionen": [
+      "Das Verfahren ist sowohl im Handelsrecht als auch im Steuerrecht uneingeschränkt und dauerhaft für alle Anlagegüter als Standardmethode zugelassen.",
+      "Die degressive Abschreibung ist ausschließlich handelsrechtlich zwingend vorgeschrieben; im Steuerrecht gilt ein striktes Verbot.",
+      "Die degressive AfA ist laut Skript nur steuerlich zulässig (unter Beachtung zeitlich befristeter Sonderregelungen). In der Handelsbilanz ist sie nicht zulässig – hier ist zwingend die lineare Abschreibung anzuwenden.",
+      "Beide Rechtskreise verbieten die degressive AfA vollständig; erlaubt ist ausschließlich die Leistungs-AfA nach Maschinenstunden."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Dies ist ein klassisches IHK-Transferthema: Die degressive Abschreibung (mit sinkenden Jahresbeträgen) ist in der Handelsbilanz unzulässig – dort herrscht Linearzwang. Steuerrechtlich ist sie unter bestimmten Bedingungen erlaubt, erfordert jedoch im Laufe der Zeit den rechnerischen Wechsel auf die lineare Methode, sobald diese höhere Beträge liefert."
+  },
+  {
+    "id": "rewe_ls02_q6",
+    "modul": "rewe",
+    "ls": "rewe_ls02",
+    "frage": "Ein Anlagegut hat eine Nutzungsdauer von n = 8 Jahren. Es wird steuerlich mit einem degressiven Abschreibungssatz von p = 20 % abgeschrieben. In welchem Jahr muss mathematisch spätestens von der degressiven zur linearen Abschreibung gewechselt werden, um den optimalen Restwertverlauf zu erzielen?",
+    "optionen": [
+      "Im 3. Jahr",
+      "Im 4. Jahr",
+      "Im 5. Jahr",
+      "Im 7. Jahr"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Formel aus dem Lernskript lautet: i = (n − 100 ÷ p) + 1. Setzt man die Werte ein, ergibt sich: i = (8 − 100 ÷ 20) + 1 = (8 − 5) + 1 = 4. Jahr. Ab dem vierten Wirtschaftsjahr ist der lineare Abschreibungsbetrag bezogen auf den Restbuchwert höher als der degressive Betrag."
+  },
+  {
+    "id": "rewe_ls02_q7",
+    "modul": "rewe",
+    "ls": "rewe_ls02",
+    "frage": "Ein Unternehmer kauft für den Bürobetrieb fünf neue ergonomische Bürostühle zu einem Preis von je 850 € brutto (inkl. 19 % Umsatzsteuer). Wie sind diese Gegenstände im Rahmen der geringwertigen Wirtschaftsgüter (GWG) zu behandeln?",
+    "optionen": [
+      "Da der Bruttobetrag über 800 € liegt, müssen die Stühle zwingend als normales Anlagevermögen einzeln über die volle Nutzungsdauer abgeschrieben werden.",
+      "Die GWG-Grenzen beziehen sich immer auf den Nettobetrag. 850 € brutto entsprechen 714,29 € netto. Damit fallen die Stühle in die Stufe zwischen 250,01 € und 800 € und es besteht das Wahlrecht zwischen Sofortabschreibung oder Einstellung in den Sammelposten (Pool).",
+      "Bürostühle sind im Verbund zu sehen und gelten daher generell nicht als selbstständig nutzbar; ein GWG-Ansatz ist grundsätzlich ausgeschlossen.",
+      "Güter unter 1.000 € brutto müssen immer zwingend über genau 5 Jahre im Poolverfahren abgeschrieben werden."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Hier schnappt die IHK-Prüfungsfalle zu: GWG-Grenzen sind reine Nettogrenzen. Da der Nettowert von 714,29 € den Schwellenwert von 800 € nicht überschreitet (und die Kriterien beweglich, abnutzbar, Anlagevermögen und selbstständig nutzbar erfüllt sind), greift das steuerliche Wahlrecht der zweiten GWG-Stufe."
+  },
+  {
+    "id": "rewe_ls02_q8",
+    "modul": "rewe",
+    "ls": "rewe_ls02",
+    "frage": "In Zeiten stark anziehender Einkaufspreise (Inflation) auf dem Rohstoffmarkt analysiert das Controlling die Auswirkungen der Verbrauchsfolgeverfahren auf den ausgewiesenen Jahresgewinn. Welches zulässige Verfahren weist bei steigenden Einkaufspreisen den höchsten fiktiven Gewinn aus und warum?",
+    "optionen": [
+      "Das LiFo-Verfahren, weil die günstigen alten Bestände als verbraucht unterstellt werden.",
+      "Das HiFo-Verfahren, da die teuerste Ware im Lager verbleibt und den Vermögenswert künstlich aufbläht.",
+      "Das FiFo-Verfahren, weil unterstellt wird, dass die älteren (günstigeren) Bestände zuerst verbraucht wurden. Dadurch stehen in der GuV niedrigere Aufwendungen, während die teuren Neueinkäufe im Lager verbleiben und zu einem höheren Endbestand führen.",
+      "Die Durchschnittsbewertung führt in jeder Marktphase mathematisch immer zum absolut höchsten Gewinn."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das ist ein absoluter IHK-Klassiker. Bei FiFo (First in, First out) wandert die billige Altware zuerst in den Aufwand (GuV). Das Lager bewertet sich nach den jüngsten, teuren Zugängen. Ergebnis: Weniger Aufwand = höherer Bilanzwert = höherer Gewinn (und damit eine höhere Steuerlast). Bei LiFo ist es exakt umgekehrt."
+  },
+  {
+    "id": "rewe_ls02_q9",
+    "modul": "rewe",
+    "ls": "rewe_ls02",
+    "frage": "Ein Mitarbeiter der Kreditorenbuchhaltung zieht bei der Bezahlung einer Rohstofflieferung vereinbarungsgemäß 2 % Skonto ab. Er möchte diesen Betrag als „Sonstigen betrieblichen Ertrag“ verbuchen. Wie ist diese Buchungsabsicht fachlich zu beurteilen?",
+    "optionen": [
+      "Das ist völlig korrekt, da Skonto einen finanzwirtschaftlichen Ertrag für schnelle Zahlung darstellt.",
+      "Fachlich falsch. Ein beim Wareneinkauf gezogenes Skonto ist kein Ertrag, sondern mindert direkt die Anschaffungskosten der aktivierten Vermögenswerte (bzw. den entsprechenden Aufwand).",
+      "Skonto darf in der Fibu überhaupt nicht gebucht werden, sondern wird ausschließlich statistisch in der KLR erfasst.",
+      "Die Buchung ist wahlfrei; sie kann entweder als Ertrag oder als außerordentliche Verbindlichkeit dargestellt werden."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Skript hebt diese Prüfungsfalle hervor: Wer Skonto auf der Einkaufsseite als Ertrag bucht, liegt fachlich falsch. Skonti mindern die Anschaffungskosten nach § 255 Abs. 1 HGB. Auf der Verkaufsseite (beim Kunden) mindert ein gewährtes Skonto wiederum die Erlöse und stellt ebenfalls keinen Aufwand dar."
+  },
+  {
+    "id": "rewe_ls02_q10",
+    "modul": "rewe",
+    "ls": "rewe_ls02",
+    "frage": "Für den Jahresabschluss müssen zwei Passivpositionen abgegrenzt werden: Zum einen steht eine feste Kredittilgung zum 01.06. des Folgejahres an, zum anderen muss für eine drohende Steuernachzahlung des abgelaufenen Jahres vorgesorgt werden. Wie erfolgt die Zuordnung auf der Passivseite der Bilanz?",
+    "optionen": [
+      "Beide Positionen müssen als Verbindlichkeit ausgewiesen werden, da beide den Charakter von Fremdkapital haben.",
+      "Die Kredittilgung wird als Rückstellung gebildet; die Steuernachzahlung ist eine klassische Verbindlichkeit.",
+      "Die Kredittilgung ist eine Verbindlichkeit (Betrag und Fälligkeitstermin stehen exakt fest). Die drohende Steuernachzahlung ist eine Rückstellung, da die Höhe und/oder der genaue Zahlungszeitpunkt noch ungewiss sind.",
+      "Rückstellungen gehören auf die Aktivseite; Verbindlichkeiten gehören auf die Passivseite."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Trennung basiert auf dem Kriterium der Gewissheit: Stehen Betrag und Fälligkeit fest, handelt es sich um eine Verbindlichkeit. Liegt dagegen Ungewissheit bezüglich der exakten Höhe oder des exakten Eintrittszeitpunkts vor (wobei die Verursachung im alten Jahr lag), muss nach vernünftiger kaufmännischer Beurteilung eine Rückstellung gebildet werden."
+  },
+  {
+    "id": "rewe_ls03_q1",
+    "modul": "rewe",
+    "ls": "rewe_ls03",
+    "frage": "Ein Industrieunternehmen stellt am Periodenende die Daten der Finanzbuchhaltung (externes Rechnungswesen) den Daten der Kosten- und Leistungsrechnung (internes Rechnungswesen) gegenüber. Welche begriffliche und systemische Gegenüberstellung entspricht exakt der Struktur der Datei rewe_ls03_2.html?",
+    "optionen": [
+      "Die Fibu ist freiwillig und spricht von Kosten und Leistungen, während die KLR gesetzlich vorgeschrieben ist und von Aufwand und Ertrag spricht.",
+      "Die Fibu richtet sich an interne Adressaten wie die Unternehmensleitung. Die KLR richtet sich an das Finanzamt und nutzt als Betrachtungsperiode starr das gesamte Geschäftsjahr.",
+      "Die gesetzlich vorgeschriebene Fibu richtet sich an externe Adressaten und erfasst Aufwand und Ertrag. Die freiwillige KLR dient der internen Unternehmenssteuerung und stellt laufend Kosten und Leistungen gegenüber.",
+      "Es gibt keinen systemischen Unterschied; beide Bereiche nutzen dieselben Konten und führen starr am 31.12. zur Ermittlung des steuerlichen Gewinns."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Datei rewe_ls03_2.html trennt die beiden Bereiche strikt: Die Finanzbuchhaltung ist gesetzlich vorgeschrieben, blickt auf das Geschäftsjahr, bedient externe Adressaten (Finanzamt, Banken) und operiert mit den Begriffen Aufwand und Ertrag. Die KLR hingegen läuft operativ, ist freiwillig für die interne Steuerung gedacht und stellt Kosten und Leistungen gegenüber. Wer diese Begriffe vermischt, läuft in eine klassische IHK-Prüfungsfalle."
+  },
+  {
+    "id": "rewe_ls03_q2",
+    "modul": "rewe",
+    "ls": "rewe_ls03",
+    "frage": "Ein Produktionsbetrieb möchte für ein neues Bauteil die kalkulatorischen Kennzahlen analysieren, um strategische Vertriebsentscheidungen zu treffen. Welche Aussage bezüglich der Preisuntergrenzen und Erfolgsgrößen ist laut Datei rewe_ls03_2.html inhaltlich korrekt?",
+    "optionen": [
+      "Der Deckungsbeitrag (Umsatz minus variable Kosten) definiert die langfristige Preisuntergrenze, da er alle Fixkosten sofort eliminiert.",
+      "Die Selbstkosten (alle Kosten für Erstellung und Verkauf) definieren die langfristige Preisuntergrenze, da der Verkaufspreis diese langfristig mindestens decken muss.",
+      "Ein Wirtschaftlichkeitsgrad von genau w = 1 bedeutet, dass das Unternehmen absolut ineffizient arbeitet und hohe Verluste einfährt.",
+      "Die Wirtschaftlichkeit (Leistung dividiert durch Kosten) ist eine absolute Kennzahl, die direkt die genaue Euro-Höhe des Gewinns ausweist."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Nach dem Lernskript definieren die Selbstkosten die langfristige Preisuntergrenze – ein Produkt muss diese auf Dauer einspielen, um rentabel zu sein. Der Deckungsbeitrag bildet hingegen die kurzfristige Preisuntergrenze. Die Kennzahl Wirtschaftlichkeit (w = Leistung ÷ Kosten) ist relativ; bei w = 1 arbeitet ein Betrieb genau kostendeckend, bei w > 1 wirtschaftlich."
+  },
+  {
+    "id": "rewe_ls03_q3",
+    "modul": "rewe",
+    "ls": "rewe_ls03",
+    "frage": "In einer Prüfungsaufgabe wird behauptet: „Gemeinkosten sind im Unternehmen immer automatisch auch Fixkosten, während Einzelkosten ausnahmslos variabel sind.“ Wie ist diese Behauptung anhand der Warnungen in der Datei rewe_ls03_2.html zu beurteilen?",
+    "optionen": [
+      "Die Behauptung ist absolut korrekt, da Zurechenbarkeit und Kostenverhalten exakt dasselbe Phänomen beschreiben.",
+      "Die Behauptung ist falsch, weil Einzelkosten überhaupt nicht direkt auf ein Produkt verrechnet werden können.",
+      "Die Behauptung ist falsch. Einzel-/Gemeinkosten betreffen die Zurechenbarkeit (direkt/indirekt), während fix/variabel das Kostenverhalten bei Beschäftigungsänderung beschreibt. So können Stromkosten in der Produktion variabel, aber dennoch Gemeinkosten sein.",
+      "Gemeinkosten existieren in der KLR gar nicht, sondern werden ausschließlich in der Fibu über das Grundbuch erfasst."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Datei rewe_ls03_2.html hebt diese Prüfungsfalle explizit hervor: Gemeinkosten ungleich Fixkosten! Die Einteilung in Einzel- und Gemeinkosten regelt die Frage, ob Kosten direkt (ohne Schlüssel) oder indirekt (über den Betriebsabrechnungsbogen) zugeordnet werden. Fix und variabel beschreibt das Verhalten bei Auslastungsschwankungen. Stromkosten in der Produktion sind ein klassisches Beispiel für variable Gemeinkosten."
+  },
+  {
+    "id": "rewe_ls03_q4",
+    "modul": "rewe",
+    "ls": "rewe_ls03",
+    "frage": "Ein Logistikbetrieb steigert seine monatliche Ausbringungsmenge (Beschäftigungsgrad) durch eine Optimierung der Prozesse erheblich. Die absolute Miete für das Lagergebäude bleibt dabei unverändert. Welcher Effekt stellt sich bezüglich der Fixkosten pro Stück (Stückkosten) ein?",
+    "optionen": [
+      "Die Fixkosten pro Stück steigen proportional mit der Ausbringungsmenge an.",
+      "Die Fixkosten pro Stück sinken bei steigender Ausbringung (sogenannte Fixkostendegression).",
+      "Die Fixkosten pro Stück bleiben mathematisch völlig starr und unverändert, da Miete ein absolut fixer Wert ist.",
+      "Die Stückkosten verhalten sich progressiv und steigen sprunghaft an, sobald die erste Einheit produziert wurde."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Während die Fixkosten in ihrer Gesamtheit (absolut-fix) bei Beschäftigungsschwankungen gleich bleiben, verteilen sie sich bei einer höheren Produktionsmenge auf mehr Einheiten. Das bedeutet: Die Fixkosten pro Stück sinken bei steigender Ausbringung. Dieser fundamentale Effekt wird in der KLR als Fixkostendegression bezeichnet."
+  },
+  {
+    "id": "rewe_ls03_q5",
+    "modul": "rewe",
+    "ls": "rewe_ls03",
+    "frage": "Neben den proportionalen Verläufen fordert die IHK-Prüfungs-Checkliste auch das Beherrschen nicht-proportionaler variabler Kostenverläufe. Welche Zuordnung von Kostenverhalten und Beispiel entspricht der Systematik der Datei rewe_ls03_2.html?",
+    "optionen": [
+      "Degressive variable Kosten steigen überproportional; ein Beispiel sind Überstundenzuschläge.",
+      "Progressive variable Kosten steigen unterproportional; ein Beispiel ist der Materialeinsatz mit Mengenrabatten.",
+      "Progressive variable Kosten steigen überproportional zur Ausbringung (z. B. Überstundenzuschläge oder Ausschusskosten), während degressive variable Kosten unterproportional steigen (z. B. Materialeinsatz mit Mengenrabatten).",
+      "Variable Kosten sinken in ihrer Gesamtheit immer, wenn mehr produziert wird."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das Lernskript unterscheidet drei Arten variabler Kosten: Proportional (gleichbleibende Stückkosten, z. B. Rohstoff), degressiv (unterproportional steigend durch Mengenrabatte) und progressiv (überproportional steigend durch zusätzliche Belastungen wie Überstundenzuschläge oder vermeidbaren Ausschuss)."
+  },
+  {
+    "id": "rewe_ls03_q6",
+    "modul": "rewe",
+    "ls": "rewe_ls03",
+    "frage": "Ein Unternehmen leistet eine Spende in Höhe von 5.000 € an einen Sportverein und verbucht dies in der Finanzbuchhaltung. Wie wird dieser Vorgang in der KLR-Abgrenzungsrechnung gemäß Datei rewe_ls03_2.html behandelt?",
+    "optionen": [
+      "Als Zweckaufwand (Grundkosten), da Spenden direkt dem primären Betriebszweck dienen und ungekürzt in die KLR einfließen.",
+      "Als Anderskosten, weil der Betrag in der KLR zwingend auf den Wiederbeschaffungswert angepasst werden muss.",
+      "Der Vorgang wird als neutraler Aufwand eingestuft, da er nicht dem betrieblichen Kerngeschäft dient. Er wird in der KLR eliminiert und fließt nicht in die Kosten ein.",
+      "Als Zusatzkosten, denen in der Fibu überhaupt kein Aufwand gegenübersteht."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Neutraler Aufwand zeichnet sich dadurch aus, dass er zwar in der Fibu den Gesamterfolg mindert, aber keinen Bezug zum eigentlichen Betriebszweck hat (betriebsfremd, periodenfremd oder außerordentlich). Eine Spende ist ein klassischer betriebsfremder, neutraler Aufwand. Sie wird in der KLR nicht als Kosten erfasst und taucht im Betriebsergebnis nicht auf."
+  },
+  {
+    "id": "rewe_ls03_q7",
+    "modul": "rewe",
+    "ls": "rewe_ls03",
+    "frage": "Ein Einzelunternehmer arbeitet voll in seinem Betrieb mit, zahlt sich selbst jedoch kein vertragliches Gehalt aus, sondern tätigt bei Bedarf Privatentnahmen. Wie wird dieser Sachverhalt in der KLR abgebildet und begründet?",
+    "optionen": [
+      "In der KLR wird gar nichts erfasst, um den Gewinn künstlich so hoch wie möglich auszuweisen.",
+      "Es werden Zusatzkosten in Form eines kalkulatorischen Unternehmerlohns angesetzt, um die Vergleichbarkeit mit Kapitalgesellschaften zu gewährleisten und Leistungen nicht zu günstig zu kalkulieren.",
+      "Der Vorgang wird als Anderskosten verbucht, da in der Fibu bereits ein Aufwand in abweichender Höhe vorliegt.",
+      "Es handelt sich um neutralen Ertrag, da der Verzicht auf Lohn den Wert des Unternehmens direkt steigert."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Da der Einzelunternehmer in der Fibu kein Gehalt als Aufwand verbuchen darf (Privatentnahmen sind kein Aufwand), steht dieser betrieblichen Leistung zunächst kein Aufwand gegenüber. In der KLR wird daher ein fiktiver kalkulatorischer Unternehmerlohn als Zusatzkosten angesetzt. Dies sichert die reale Preiskalkulation und die Branchenvergleichbarkeit."
+  },
+  {
+    "id": "rewe_ls03_q8",
+    "modul": "rewe",
+    "ls": "rewe_ls03",
+    "frage": "Ein Betrieb besitzt eine Maschine, die in der Fibu linear auf Basis der historischen Anschaffungskosten abgeschrieben wird. In der KLR wird die Abschreibung stattdessen vom voraussichtlichen (höheren) Wiederbeschaffungswert berechnet. Um welche kalkulatorische Kategorie handelt es sich hierbei?",
+    "optionen": [
+      "Um Zusatzkosten, da Abschreibungen in der Fibu grundsätzlich verboten sind.",
+      "Um neutralen Aufwand, da Wertverzehr im Kerngeschäft der KLR nichts zu suchen hat.",
+      "Um Anderskosten, da derselbe Posten (Abschreibung) zwar in beiden Systemen vorliegt, in der KLR jedoch ein abweichender (anderer) Wert angesetzt wird.",
+      "Um eine reine Absatzleistung, die direkt als Umsatz verbucht wird."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Datei rewe_ls03_2.html liefert eine einfache Faustformel zur Vermeidung der Prüfungsfalle: Liegt der Posten in beiden Rechnungen vor, aber in unterschiedlicher Höhe, handelt es sich um Anderskosten. Typisches Beispiel sind kalkulatorische Abschreibungen, die inflationsbedingt auf Basis des Wiederbeschaffungswerts über den historischen Werten der Fibu liegen."
+  },
+  {
+    "id": "rewe_ls03_q9",
+    "modul": "rewe",
+    "ls": "rewe_ls03",
+    "frage": "Ein Möbelhersteller produziert in einer Periode 1.000 Stühle. Davon werden 800 Stück direkt an Kunden verkauft. Die restlichen 200 Stück werden im eigenen Lager eingelagert. Wie wird die Bestandserhöhung von 200 Stühlen in der KLR eingeordnet?",
+    "optionen": [
+      "Sie ist ein neutraler Aufwand und mindert das Betriebsergebnis sofort vollständig.",
+      "Sie wird als Lagerleistung (erstellte, aber nicht verkaufte Produkte) zu Herstellkosten bewertet und stellt eine legitime Leistungsart der KLR dar.",
+      "Die 200 Stühle gelten als innerbetriebliche Leistung, da sie für den direkten Verbrauch in der eigenen Verwaltung bestimmt sind.",
+      "In der KLR zählen ausschließlich abgesetzte Waren; die eingelagerten Stühle werden komplett ignoriert."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die KLR kennt drei Leistungsarten: Absatzleistungen (Umsatz), Lagerleistungen (Bestandserhöhungen) und innerbetriebliche Leistungen (Eigenreparaturen oder Eigenbauten). Die produzierten, aber noch nicht verkauften Stühle wandern ins Vorratsvermögen und werden als Lagerleistung zu Herstellkosten erfasst. Sie erhöhen den Output der Periode."
+  },
+  {
+    "id": "rewe_ls03_q10",
+    "modul": "rewe",
+    "ls": "rewe_ls03",
+    "frage": "Die unternehmenseigene Werkstattabteilung repariert eine große Produktionsmaschine im Werk, anstatt einen teuren externen Dienstleister zu beauftragen. Wie ist dieser Vorgang laut Datei rewe_ls03_2.html in der KLR zu erfassen?",
+    "optionen": [
+      "Der Vorgang ist ein neutraler Ertrag, da dem Unternehmen kein Geld abgeflossen ist.",
+      "Der Vorgang stellt eine Absatzleistung dar, da die Werkstatt theoretisch an Dritte hätte verkaufen können.",
+      "Es handelt sich um eine innerbetriebliche Leistung, die zu Herstellkosten bewertet wird, da die Leistung für den eigenen Betrieb erstellt und nicht nach außen abgesetzt wurde.",
+      "Solche Vorgänge sind in der KLR verboten, da jede Reparatur zwingend über den BAB als reiner Aufwand der Fibu isoliert bleiben muss."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Leistungen, die im Unternehmen verbleiben und der Aufrechterhaltung des eigenen Betriebs dienen (wie Reparaturen durch die eigene Instandhaltung), fallen unter die Kategorie der innerbetrieblichen Leistungen. Sie werden zu Herstellkosten bewertet und verrechnet."
+  },
+  {
+    "id": "rewe_ls04_q1",
+    "modul": "rewe",
+    "ls": "rewe_ls04",
+    "frage": "Ein Controller bereitet eine Präsentation für die Geschäftsführung vor, um die logische Abfolge der Kostenrechnung im Betrieb zu erklären. Er möchte die erste Stufe der KLR präzise definieren. Welche Frage und Aufgabe wird der Kostenartenrechnung gemäß der Datei rewe_ls04.html zugeordnet?",
+    "optionen": [
+      "Die Kostenartenrechnung beantwortet die Frage: „Wofür sind die Kosten entstanden?“ und ordnet sie direkt den Kostenträgern zu.",
+      "Sie beantwortet die Frage: „Wo sind die Kosten entstanden?“ und verteilt diese über den Betriebsabrechnungsbogen (BAB).",
+      "Sie beantwortet die Kernfrage: „Welche Kosten?“ und hat die Aufgabe, alle betriebsbedingten, bewerteten Güterverbräuche einer Abrechnungsperiode systematisch zu erfassen und zu gliedern.",
+      "Sie befasst sich ausschließlich mit der Zukunftsplanung und ermittelt die Plankosten für das nächste Geschäftsjahr, während die Vergangenheit ignoriert wird."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die KLR ist in drei aufeinanderaufbauende Stufen unterteilt. Die Kostenartenrechnung bildet die 1. Stufe. Sie klärt das Fundament („Welche Kosten?“) durch systematische Erfassung und Gliederung. Erst danach folgen die Kostenstellenrechnung („Wo?“, 2. Stufe) und die Kostenträgerrechnung („Wofür?“, 3. Stufe)."
+  },
+  {
+    "id": "rewe_ls04_q2",
+    "modul": "rewe",
+    "ls": "rewe_ls04",
+    "frage": "In einer IHK-Prüfungsklausur taucht die Behauptung auf, dass variable Kosten und Gemeinkosten begrifflich absolut identisch sind, da sie sich beide mit der Produktionsmenge verändern. Wie ist dieser Sachverhalt laut den Warnhinweisen in der Datei rewe_ls04.html korrekt voneinander abzugrenzen?",
+    "optionen": [
+      "Die Behauptung ist richtig; es gibt in der KLR keinen Unterschied zwischen Zurechenbarkeit und Beschäftigungsverhalten.",
+      "Die Behauptung ist falsch. Gemeinkosten betrifft das Kriterium der Zurechenbarkeit zum Produkt (indirekt über Schlüssel), während variable Kosten das Verhalten bei Beschäftigungsschwankungen beschreiben. Stromkosten der Produktion sind beispielsweise Gemeinkosten, aber variabel.",
+      "Die Behauptung ist falsch, weil Gemeinkosten im Gegensatz zu variablen Kosten immer direkt und verursachungsgerecht ohne Schlüssel auf das Produkt gebucht werden.",
+      "Fixe Kosten und Einzelkosten sind vollkommen synonym, da Einzelkosten per Definition niemals schwanken können."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Skript warnt eindringlich vor dieser klassischen IHK-Prüfungsfalle: „Gemeinkosten ≠ Fixkosten“. Die Einteilung nach Verrechenbarkeit trennt Einzelkosten (direkt zuordenbar) von Gemeinkosten (indirekt/Schlüsselung im BAB). Die Einteilung nach Beschäftigungsabhängigkeit trennt fix von variabel. So sind Gehälter fix und Gemeinkosten, während Produktionsstrom variabel, aber ebenfalls Gemeinkosten darstellt."
+  },
+  {
+    "id": "rewe_ls04_q3",
+    "modul": "rewe",
+    "ls": "rewe_ls04",
+    "frage": "Es wird oft angenommen, dass Einzelkosten zwingend immer proportional mit der Ausbringungsmenge steigen müssen. Das Skript rewe_ls04.html deckt hier jedoch eine theoretische Ausnahme auf. Welches Beispiel belegt, dass Einzelkosten auch einen fixen Charakter aufweisen können?",
+    "optionen": [
+      "Die allgemeine Hallenmiete, da sie direkt auf ein einzelnes Produkt verrechnet wird.",
+      "Die Grundsteuer, da sie sich je nach hergestelltem Produkt monatlich verändert.",
+      "Sondereinzelkosten der Fertigung, wie ein spezielles Werkzeug, das exakt für einen bestimmten Kundenauftrag angefertigt wird. Sie sind direkt dem Auftrag zuordenbar (Einzelkosten), aber unabhängig von der produzierten Stückzahl dieses Auftrags (fix).",
+      "Akkordlöhne, da diese unabhängig von der Produktionsmenge immer exakt konstant als Gesamtsumme anfallen."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Eine beliebte IHK-Transferfrage zielt auf die Kombination „Einzelkosten, aber fix“ ab. Sondereinzelkosten der Fertigung – wie ein Spezialwerkzeug für eine Sonderserie – lassen sich dem Kostenträger direkt und verursachungsgerecht zuordnen (Einzelkosten). Da die Kosten für das Werkzeug jedoch einmalig anfallen, egal ob danach 10 oder 100 Stück damit geprägt werden, handelt es sich um fixe Kosten."
+  },
+  {
+    "id": "rewe_ls04_q4",
+    "modul": "rewe",
+    "ls": "rewe_ls04",
+    "frage": "Ein Fertigungsbetrieb verzeichnet eine spürbare Belebung der Nachfrage und erhöht seine Ausbringungsmenge von 50 auf 250 Stück. Die absolut-fixen Gesamtkosten bleiben unverändert bei 3.000,00 €. Wie verhalten sich die fixen Stückkosten mathematisch bei diesem Produktionsanstieg?",
+    "optionen": [
+      "Die Stückkosten steigen proportional von 12,00 € auf 60,00 € an.",
+      "Die Stückkosten bleiben völlig konstant bei 15,00 € je Stück.",
+      "Die Stückkosten sinken kontinuierlich von 60,00 € (bei 50 Stück) auf 12,00 € (bei 250 Stück), da sich die unveränderten Bereitschaftskosten auf mehr Einheiten verteilen.",
+      "Die Stückkosten halbieren sich bei jedem zusätzlichen Stück unabhängig von der mathematischen Ausgangslage."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Dieses Verhalten wird als Fixkostendegression bezeichnet. Da die absoluten Bereitschaftskosten von 3.000,00 € starr bleiben, sinkt der auf das einzelne Produkt entfallende Fixkostenanteil mit steigender Ausbringungsmenge (3.000 ÷ 50 = 60,00 € und 3.000 ÷ 250 = 12,00 €)."
+  },
+  {
+    "id": "rewe_ls04_q5",
+    "modul": "rewe",
+    "ls": "rewe_ls04",
+    "frage": "Ab einer bestimmten Produktionsmenge stoßen Maschinen und Belegschaft an ihre Kapazitätsgrenzen. Wenn diese wirtschaftliche Kapazitätsgrenze überschritten wird, verändern sich die variablen Gesamtkosten und Stückkosten in eine bestimmte Richtung. Welches Verhalten und welche Ursachen kennzeichnen progressive variable Kosten jenseits dieser Grenze?",
+    "optionen": [
+      "Die Gesamtkosten steigen unterproportional, während die Stückkosten sinken, da Mengenrabatte beim Energiebezug greifen.",
+      "Die Gesamtkosten steigen überproportional und die Stückkosten steigen an. Ursachen hierfür sind unter anderem Überstundenzuschläge, erhöhter Maschinenverschleiß sowie Qualitätsmängel und Ausschuss.",
+      "Die Stückkosten bleiben absolut konstant, da progressive Verläufe mathematisch unmöglich sind.",
+      "Die Gesamtkosten sinken sprunghaft auf null, da die Maschinen automatisch abschalten."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Im proportionalen Normalfall bleiben variable Stückkosten konstant. Wird jedoch die wirtschaftliche Kapazitätsgrenze überschritten (Überlastung), steigen die Kosten überproportional (progressiv). In der Praxis und in IHK-Prüfungen wird dies durch unwirtschaftliche Zusatzeffekte wie teure Überstundenzuschläge, vermehrten Ausschuss (Nacharbeit) oder intensiven Maschinenverschleiß begründet."
+  },
+  {
+    "id": "rewe_ls04_q6",
+    "modul": "rewe",
+    "ls": "rewe_ls04",
+    "frage": "Ein Lagerleiter stellt fest, dass das aktuelle Außenlager bei einer Ausbringung von mehr als 1.000 Einheiten physisch voll ausgelastet ist. Für jede weitere Einheit muss eine zusätzliche Lagerhalle für pauschal 2.000 € im Monat angemietet werden. Um welche Kostenart handelt es sich hierbei und wie verhält sie sich laut Skript rewe_ls04.html?",
+    "optionen": [
+      "Um proportionale variable Kosten, da die Miete pro Stück exakt gleichmäßig steigt.",
+      "Um degressive variable Kosten, da die Kostenbelastung mit der Zeit geringer wird.",
+      "Um intervall-fixe (sprungfixe) Kosten. Sie bleiben innerhalb eines bestimmten Beschäftigungsbereichs konstant und steigen bei Kapazitätsüberschreitung sprunghaft an.",
+      "Um kalkulatorische Zusatzkosten, da einer Hallenmiete in der Fibu niemals ein echter Aufwand gegenübersteht."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Kosten, die nicht völlig starr verlaufen, sondern stufenförmig ansteigen, nennt man intervall-fix oder sprungfix. Das Skript nennt hierzu als typische Praxisbeispiele die Anmietung zusätzlicher Hallenkapazitäten oder notwendige Neueinstellungen bei einer Kapazitätserweiterung."
+  },
+  {
+    "id": "rewe_ls04_q7",
+    "modul": "rewe",
+    "ls": "rewe_ls04",
+    "frage": "Ein Werkstofflager verzeichnet folgende Bewegungen: Anfangsbestand 200 Stück zu je 10,00 € (Gesamtwert 2.000,00 €); Zugang 1: 100 Stück zu je 13,00 € (Gesamtwert 1.300,00 €). Zu welchem rechnerischen Durchschnittspreis müssen nachfolgende Materialabgänge bewertet werden, wenn das prüfungsrelevante Verfahren des gewogenen gleitenden Mittelwerts angewendet wird?",
+    "optionen": [
+      "Zu 11,50 €, da einfach der arithmetische Mittelwert aus den beiden Preisen (10 € + 13 €) ÷ 2 gebildet wird.",
+      "Zu 11,00 €, da der neue Durchschnittspreis durch die Formel (Wert Altbestand + Wert Zugang) ÷ (Menge Altbestand + Menge Zugang) ermittelt wird.",
+      "Zu 13,00 €, da nach dem FiFo-Prinzip immer der Preis des neuesten Zugangs gilt.",
+      "Zu 10,00 €, da Abgänge grundsätzlich immer nur zum historischen Anfangspreis bewertet werden dürfen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Der gewogene gleitende Mittelwert berücksichtigt im Gegensatz zum einfachen arithmetischen Mittelwert die jeweiligen Mengen gewichtend. Die Berechnung lautet: (2.000,00 € + 1.300,00 €) ÷ (200 Stk. + 100 Stk.) = 3.300,00 € ÷ 300 Stk. = 11,00 € pro Stück. Dieser ermittelte ⌀-Preis gilt nun so lange für alle Abgänge, bis ein neuer Zugang erfolgt."
+  },
+  {
+    "id": "rewe_ls04_q8",
+    "modul": "rewe",
+    "ls": "rewe_ls04",
+    "frage": "In einem Betrieb wird ausschließlich eine reine Istkostenrechnung auf Basis der tatsächlich in der Vergangenheit angefallenen Werte durchgeführt. Welcher gravierende Nachteil ergibt sich aus diesem System für das Controlling, wenn es um die Überwachung der Wirtschaftlichkeit geht?",
+    "optionen": [
+      "Es gibt keinen Nachteil, da Istkosten die einzig zulässige Basis für Budgetierungen und Soll-Ist-Vergleiche darstellen.",
+      "Die Datenbasis ist zu zukunftsorientiert und lässt sich rückwirkend nicht mehr kontrollieren.",
+      "Die Istkostenrechnung ist für Kontrollzwecke ungeeignet, da sie keinen echten Sollwert (Vergleichsmaßstab) bietet. Bei einem Kostenanstieg weiß man nicht, ob dieser auf höheren Verbrauch, Ineffizienz oder reine Marktpreiserhöhungen zurückzuführen ist.",
+      "Der einzige Nachteil besteht darin, dass Istkosten gesetzlich vom Finanzamt für das interne Rechnungswesen streng verboten sind."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Istkostenrechnung blickt ausschließlich in die Vergangenheit und bildet reale, abgelaufene Werte ab. Da jedoch ein standardisierter, bereinigter Vergleichsmaßstab fehlt, lassen sich Abweichungsursachen im Nachhinein kaum isolieren. Das Skript hebt hervor, dass erst die Plankostenrechnung diese Einflüsse durch einen echten Soll-Ist-Vergleich systematisch trennen kann."
+  },
+  {
+    "id": "rewe_ls04_q9",
+    "modul": "rewe",
+    "ls": "rewe_ls04",
+    "frage": "Um die starken, zufälligen Preisschwankungen der Vergangenheit in den Kalkulationen auszugleichen und stabilere, langfristige Preisuntergrenzen ermitteln zu können, empfiehlt sich ein bestimmtes Kostenrechnungssystem. Welches System nutzt hierfür geglättete Durchschnittswerte mehrerer abgelaufener Perioden?",
+    "optionen": [
+      "Die Plankostenrechnung",
+      "Die Istkostenrechnung",
+      "Die Normalkostenrechnung",
+      "Das arithmetische Stichprobenverfahren"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Normalkostenrechnung greift auf Vergangenheitswerte zurück, glättet diese jedoch, indem sie den Durchschnitt (Mittelwert) aus mehreren zurückliegenden Istkosten-Perioden bildet. Ihr Hauptzweck ist das Bereitstellen einer stabilen Kalkulationsbasis und das Ermitteln langfristiger Preisuntergrenzen, wenngleich ihr der echte Zukunftsbezug fehlt."
+  },
+  {
+    "id": "rewe_ls04_q10",
+    "modul": "rewe",
+    "ls": "rewe_ls04",
+    "frage": "Ein modernes Industrieunternehmen fordert ein Kostenrechnungssystem, das sich optimal für die Budgetierung, eine fundierte Soll-Ist-Analyse sowie eine detaillierte Abweichungsanalyse eignet. Welches System erfüllt diese Kriterien und worauf basiert dessen Datenbasis laut Datei rewe_ls04.html?",
+    "optionen": [
+      "Die Plankostenrechnung; sie blickt in die Zukunft und basiert auf vorab geplanten Mengen multipliziert mit geplanten Preisen.",
+      "Die Normalkostenrechnung, da sie ausschließlich auf geschätzten Wiederbeschaffungswerten der übernächsten Periode aufbaut.",
+      "Die Istkostenrechnung, da sie die Zukunft mittels tatsächlicher Monatsabschlüsse perfekt vorausberechnen kann.",
+      "Das System der unbewerteten Güterverbräuche, bei dem Geldbeträge bewusst keine Rolle spielen."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Die Plankostenrechnung ist das einzige zukunftsbezogene System im Vergleich. Ihre Datenbasis wird vorab über die mathematische Verknüpfung von Plan-Mengen und Plan-Preisen generiert. Dadurch liefert sie exakte Vorgabewerte (Sollwerte), die eine präzise Abweichungsanalyse und Budgetierung im Rahmen des Controllings ermöglichen, erfordert im Vorfeld jedoch auch den höchsten Planungsaufwand."
+  },
+  {
+    "id": "rewe_ls05_q1",
+    "modul": "rewe",
+    "ls": "rewe_ls05",
+    "frage": "Ein Industrieunternehmen richtet abteilungsübergreifende Verantwortungsbereiche ein. Um die Wirtschaftlichkeit im Blick zu behalten, soll die zweite Stufe der KLR sauber definiert werden. Welche Aussage beschreibt die Definition und die Aufgaben der Kostenstellenrechnung laut Datei rewe_ls05.html korrekt?",
+    "optionen": [
+      "Die Kostenstellenrechnung ordnet Kosten direkt den Endprodukten zu, ohne Betriebsbereiche zu betrachten.",
+      "Sie ist die zweite Stufe der KLR, ermittelt den Ort der Kostenentstehung und verfolgt zwei Hauptaufgaben: die Kostenkontrolle (Budgetüberwachung) sowie die Vorbereitung der Kalkulation (Ermittlung von Zuschlagssätzen).",
+      "Ihre einzige Aufgabe ist es, die gesamten Einzelkosten des Unternehmens im Betriebsabrechnungsbogen zu addieren.",
+      "Sie befasst sich ausschließlich mit externen Adressaten wie Banken und dem Finanzamt, um die Körperschaftsteuer zu berechnen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Kostenstellenrechnung ist die 2. Stufe der KLR und befasst sich mit dem „Wo“ der Kostenentstehung. Eine Kostenstelle ist ein organisatorisch abgegrenzter Bereich. Das Lernskript nennt explizit zwei tragende Aufgaben: Zum einen die operative Kostenkontrolle der Verantwortungsbereiche und zum anderen das Ermitteln von Gemeinkostenzuschlagssätzen zur Vorbereitung der Kostenträgerrechnung."
+  },
+  {
+    "id": "rewe_ls05_q2",
+    "modul": "rewe",
+    "ls": "rewe_ls05",
+    "frage": "In einer IHK-Übungsaufgabe hat ein Mitarbeiter die Positionen „Fertigungsmaterial (FM)“ und „Fertigungslöhne (FL)“ als Kostenzeilen in die Verteilungsmatrix des Betriebsabrechnungsbogens eingetragen. Wie ist dieses Vorgehen anhand der Warnhinweise in der Datei rewe_ls05.html zu beurteilen?",
+    "optionen": [
+      "Das Vorgehen ist völlig korrekt, da alle Kostenarten ausnahmslos im BAB aufgeteilt werden müssen.",
+      "Es ist ein schwerer Fehler. Einzelkosten erscheinen niemals im BAB, da sie direkt auf die Kostenträger verrechnet werden; sie dienen nach der Kostenverteilung lediglich als Zuschlagsbasis.",
+      "Einzelkosten dürfen nur im einstufigen BAB eingetragen werden, im mehrstufigen BAB sind sie dagegen verboten.",
+      "Die Eintragung ist optional und hängt davon ab, ob es sich um einen Einprodukt- oder einen Mehrproduktbetrieb handelt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Skript markiert dies als eine der folgenschwersten Prüfungsfallen im BAB. Der Betriebsabrechnungsbogen ist ein reines Instrument zur Verteilung von Gemeinkosten. Einzelkosten (wie Fertigungsmaterial und Fertigungslöhne) können per Definition direkt und verursachungsgerecht dem Produkt zugeordnet werden, weshalb eine Umlage im BAB überflüssig ist. Sie werden am Fuß des BABs ausschließlich als Basiswerte (Nenner) für die Prozentrechnung herangezogen."
+  },
+  {
+    "id": "rewe_ls05_q3",
+    "modul": "rewe",
+    "ls": "rewe_ls05",
+    "frage": "Ein Betrieb gliedert seine Kostenstellen strukturell auf. Dabei wird zwischen Bereichen unterschieden, deren Kosten am Ende direkt auf die Produkte aufgeschlagen werden, und solchen, die als interne Dienstleister fungieren. Welche Zuordnung entspricht der Systematik der Datei rewe_ls05.html?",
+    "optionen": [
+      "Hilfskostenstellen stehen am Ende jeder Verteilung; Beispiele sind ausschließlich Verwaltung und Vertrieb.",
+      "Hauptkostenstellen erbringen reine interne Vorleistungen (z. B. die Kantine) und werden im BAB als Erstes eliminiert.",
+      "Hauptkostenstellen entsprechen den vier Funktionsbereichen (Material, Fertigung, Verwaltung, Vertrieb), und ihre Gemeinkosten fließen direkt in die Kalkulation ein. Hilfskostenstellen (z. B. IT, Fuhrpark) erbringen interne Dienstleistungen und werden über die ILV umgelegt.",
+      "Es gibt im modernen Praxisstandard des mehrstufigen BABs überhaupt keinen Unterschied mehr zwischen den Kostenstellenarten."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Hauptkostenstellen spiegeln die klassischen Kernfunktionen eines Industriebetriebs wider; sie stehen am Ende der Kette und ihre summierten Gemeinkosten fließen direkt in die Zuschlagsformeln ein. Hilfskostenstellen sind hingegen vorgeschaltete Servicebereiche (z. B. Reparaturabteilung oder Kantine). Ihre Kosten müssen erst via innerbetrieblicher Leistungsverrechnung (ILV) auf die verbrauchenden Stellen abgewälzt werden."
+  },
+  {
+    "id": "rewe_ls05_q4",
+    "modul": "rewe",
+    "ls": "rewe_ls05",
+    "frage": "Große Unternehmen nutzen standardmäßig einen mehrstufigen Betriebsabrechnungsbogen, um wechselseitige Leistungsbeziehungen sauber abzubilden. Welche beiden Phasen müssen hierbei zwingend in der richtigen Reihenfolge durchlaufen werden?",
+    "optionen": [
+      "Phase 1: Zuschlagssätze berechnen | Phase 2: Primärkosten ignorieren.",
+      "Phase 1: Sekundärkostenverteilung über das Anbauverfahren | Phase 2: Ergebnistabelle der Fibu löschen.",
+      "Phase 1 (Primärkostenverteilung): Verteilung der Gemeinkosten auf alle Haupt- und Hilfskostenstellen. Phase 2 (Sekundärkostenverteilung): Umlage der Hilfskostenstellen-Kosten auf die Hauptkostenstellen mittels ILV.",
+      "Phase 1: Selbstkosten kalkulieren | Phase 2: Istkosten in Plankosten umschreiben."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Der Praxisstandard sieht eine klare Chronologie vor, die auch in Prüfungen exakt eingehalten werden muss: Zuerst werden in der Primärkostenverteilung alle Gemeinkostenarten per Beleg oder Schlüssel auf sämtliche Kostenstellen verteilt. Erst danach erfolgt in der Sekundärkostenverteilung die Entlastung der Hilfskostenstellen (ILV), sodass am Ende alle Kosten auf den Hauptkostenstellen konzentriert sind. Eine Missachtung dieser Reihenfolge gilt als typischer Rechenfehler."
+  },
+  {
+    "id": "rewe_ls05_q5",
+    "modul": "rewe",
+    "ls": "rewe_ls05",
+    "frage": "Für die Umlage der Hilfskostenstellen stehen im Controlling verschiedene mathematische Methoden zur Verfügung. Welche Aussage beschreibt die Eigenschaften dieser Verfahren laut Datei rewe_ls05.html zutreffend?",
+    "optionen": [
+      "Das Gleichungsverfahren ignoriert wechselseitige Beziehungen komplett und ist daher sehr ungenau.",
+      "Das Stufenleiterverfahren rechnet alle Kosten simultan in einer einzigen Matrix rückwärts ab.",
+      "Das Anbauverfahren ist das einfachste Verfahren, vernachlässigt jedoch gegenseitige Leistungsbeziehungen zwischen Hilfskostenstellen. Das Gleichungsverfahren erfasst wechselseitige Beziehungen über ein simultanes Gleichungssystem mathematisch exakt.",
+      "Das Anbauverfahren ist mathematisch das präziseste Verfahren und wird bei hochkomplexen Verflechtungen zwingend vorgeschrieben."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das Anbauverfahren schaut nur einseitig von den Hilfskostenstellen in Richtung Hauptkostenstellen; Verflechtungen der Serviceabteilungen untereinander fallen unter den Tisch. Das Stufenleiterverfahren bildet eine stufenweise Hierarchie ab. Das Gleichungsverfahren ist die mathematisch exakteste Variante, da es Leistungsströme in beide Richtungen mittels Gleichungssystem simultan auflöst."
+  },
+  {
+    "id": "rewe_ls05_q6",
+    "modul": "rewe",
+    "ls": "rewe_ls05",
+    "frage": "Ein Buchhalter schließt die Sekundärkostenverteilung im BAB ab und prüft die verbleibenden Salden der Hilfskostenstellen „Kantine“ und „Instandhaltung“. Welche fundamentale Kontrollregel muss nach einer korrekt durchgeführten ILV zwingend erfüllt sein?",
+    "optionen": [
+      "Auf den Hilfskostenstellen müssen exakt 50 % der ursprünglichen Kosten stehen bleiben.",
+      "Die Hilfskostenstellen müssen nach der ILV einen positiven Gewinn ausgewiesen haben.",
+      "Nach der ILV dürfen keine Kosten mehr auf den Hilfskostenstellen stehen; ihr Saldo muss exakt 0 € betragen, da alle Kosten vollständig auf die Hauptkostenstellen umgelegt wurden.",
+      "Die Summe der Hilfskostenstellen muss exakt der Summe der Herstellkosten des Umsatzes entsprechen."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das Skript warnt unmissverständlich: „Verbleibende Kosten auf einer Hilfskostenstelle sind ein Rechenfehler.“ Da Hilfskostenstellen nur zu dem Zweck existieren, den Hauptbereichen zuzuarbeiten, müssen ihre primären und sekundären Kosten restlos auf die Hauptkostenstellen abgewälzt werden."
+  },
+  {
+    "id": "rewe_ls05_q7",
+    "modul": "rewe",
+    "ls": "rewe_ls05",
+    "frage": "Innerhalb einer Kostenstelle wird präzise unterschieden, wie die Kosten dorthin gelangt sind. Welche Zuordnung von Kostenkategorie und Erfassungsart ist laut Datei rewe_ls05.html korrekt?",
+    "optionen": [
+      "Kostenstellen-Einzelkosten können nur über pauschale Quadratmeter-Schlüssel geschätzt werden.",
+      "Kostenstellen-Einzelkosten sind direkt durch Belege (z. B. Personalkosten per Lohnliste, Maschinenabschreibungen per Anlagenkartei) einer spezifischen Kostenstelle zurechenbar. Kostenstellen-Gemeinkosten erfordern Verteilungsschlüssel (z. B. Miete nach m²).",
+      "Mietaufwendungen sind immer Kostenstellen-Einzelkosten, da sie ohne Beleg direkt bar gezahlt werden.",
+      "Büromaterial lässt sich prinzipiell nur über die installierten Stromzähler exakt abrechnen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Man darf die Begriffe nicht verwechseln: Während Kostenträger-Einzelkosten direkt im Produkt landen, landen Kostenstellen-Einzelkosten direkt in einer bestimmten Abteilung (z. B. der Lohn des Meisters im Bereich Fertigung via Lohnliste). Kostenstellen-Gemeinkosten hingegen betreffen mehrere Abteilungen gleichzeitig (z. B. das gesamte Gebäude) und müssen über Schlüssel wie die Raumfläche (m²) aufgeteilt werden."
+  },
+  {
+    "id": "rewe_ls05_q8",
+    "modul": "rewe",
+    "ls": "rewe_ls05",
+    "frage": "Das Herzstück des BABs ist das Ermitteln der Zuschlagssätze für die vier Hauptkostenstellen. Hierbei wird die jeweilige Gemeinkostensumme durch eine spezifische Zuschlagsbasis dividiert. Welcher Merksatz definiert die korrekten Zuschlagsbasen für die Bereiche Material und Fertigung?",
+    "optionen": [
+      "Der Materialzuschlag (MGK) bezieht sich auf die gesamten Verwaltungskosten; der Fertigungszuschlag (FGK) auf den HK-Umsatz.",
+      "MGK wird auf die Herstellkosten berechnet; FGK wird auf den kalkulatorischen Unternehmerlohn aufgeschlagen.",
+      "Der MGK-Zuschlag wird auf das Fertigungsmaterial (FM) bezogen, der FGK-Zuschlag auf die Fertigungslöhne (FL). Hilfslöhne oder andere Lohnkomponenten gehören als Gemeinkosten in den BAB und nicht in die Basis.",
+      "Beide Zuschläge nutzen als starre Basis immer die Anzahl der beschäftigten Mitarbeiter Köpfe."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Zuschlagsbasen stammen aus der Kostenartenrechnung. Um das Verursachungsprinzip zu wahren, werden die Materialgemeinkosten (MGK) prozentual auf das eingesetzte Fertigungsmaterial (FM) bezogen. Die Fertigungsgemeinkosten (FGK) werden auf die echten Fertigungslöhne (FL) aufgeschlagen. Eine klassische Prüfungsfalle besteht darin, fälschlicherweise die gesamten Material- oder Lohnkosten (inklusive Gemeinkostenkomponenten wie Gehälter oder Hilfslöhne) in den Nenner zu packen."
+  },
+  {
+    "id": "rewe_ls05_q9",
+    "modul": "rewe",
+    "ls": "rewe_ls05",
+    "frage": "Die Gemeinkosten für Verwaltung (VwGK) und Vertrieb (VtGK) können logischerweise nicht mehr auf das reine Material oder die Fertigungslöhne bezogen werden, da das Produkt bereits alle Produktionsstufen durchlaufen hat. Welche Zuschlagsbasis wird für diese beiden Bereiche laut Kalkulationsschema verwendet?",
+    "optionen": [
+      "Das Fertigungsmaterial (FM)",
+      "Die Fertigungslöhne (FL)",
+      "Die Herstellkosten des Umsatzes (HK-Umsatz)",
+      "Die kalkulatorischen Abschreibungen der Anlagenkartei."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Laut dem Merksatz und dem Kalkulationsschema im Lernskript bilden die Herstellkosten (die Summe aus Materialkosten und Fertigungskosten) die gemeinsame Basis für die Verwaltungsgemeinkosten und Vertriebsgemeinkosten. Da sich diese auf den Absatz beziehen, spricht man präzise von den Herstellkosten des Umsatzes."
+  },
+  {
+    "id": "rewe_ls05_q10",
+    "modul": "rewe",
+    "ls": "rewe_ls05",
+    "frage": "In der Praxis arbeiten die Stufen der Kosten- und Leistungsrechnung nicht isoliert, sondern bauen nahtlos aufeinander auf, um am Ende die Selbstkosten eines Produkts zu ermitteln. Wie sieht die funktionale Verbindung der drei Stufen aus?",
+    "optionen": [
+      "Die Kostenträgerrechnung liefert Daten an die Kostenartenrechnung, welche wiederum den BAB komplett löscht.",
+      "Die Kostenartenrechnung liefert Gemeinkosten für den BAB und Einzelkosten für die Kalkulation. Die Kostenstellenrechnung (BAB) verteilt diese Gemeinkosten und ermittelt Zuschlagssätze. Die Kostenträgerrechnung wendet diese Zuschlagssätze auf die Einzelkosten an, um die Selbstkosten zu berechnen.",
+      "Der BAB läuft völlig autark und hat keinerlei Berührungspunkte mit der Kostenarten- oder Kostenträgerrechnung.",
+      "Die KLR-Stufen dienen ausschließlich der Bilanzierung nach HGB und spielen für die Preiskalkulation keine Rolle."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die drei Stufen bilden eine geschlossene Kette: Die Kostenartenrechnung filtert heraus, welche Kosten angefallen sind, und trennt sie in Einzel- und Gemeinkosten. Die Kostenstellenrechnung nimmt die Gemeinkosten und ermittelt über den BAB, wo sie entstanden sind, um daraus prozentuale Zuschlagssätze zu formen. Die Kostenträgerrechnung führt schließlich Einzelkosten und Zuschlagssätze zusammen, um zu klären, wofür (Selbstkosten des Produkts) der Aufwand betrieben wurde."
+  },
+  {
+    "id": "rewe_ls06_q1",
+    "modul": "rewe",
+    "ls": "rewe_ls06",
+    "frage": "Im Controlling soll eine klare Trennung der Aufgaben vorgenommen werden. Ein Mitarbeiter fragt, welche Kernfrage die dritte Stufe der Kosten- und Leistungsrechnung im Vergleich zu den anderen Stufen beantwortet. Welche Aussage beschreibt die Funktion der Kostenträgerrechnung laut Datei rewe_ls06.html korrekt?",
+    "optionen": [
+      "Sie stellt fest, welche Kostenarten in welcher Höhe insgesamt angefallen sind.",
+      "Sie beantwortet die Frage „Wofür sind die Kosten angefallen?“ und rechnet die Kosten einer Periode den Erzeugnissen oder Produkten zu.",
+      "Sie ermittelt ausschließlich, wo im Betrieb (in welcher Abteilung) die Gemeinkosten entstanden sind.",
+      "Sie dient der steuerlichen Bilanzierung für das Finanzamt und ermittelt den steuerlichen Gewinn."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Kostenträgerrechnung ist die 3. Stufe der KLR. Während die Kostenartenrechnung fragt, welche Kosten entstanden sind, und die Kostenstellenrechnung (BAB) klärt, wo sie anfielen, ordnet die Kostenträgerrechnung die Kosten den konkreten Produkten (Kostenträgern) zu, um die Selbstkosten pro Stück oder Periode zu ermitteln."
+  },
+  {
+    "id": "rewe_ls06_q2",
+    "modul": "rewe",
+    "ls": "rewe_ls06",
+    "frage": "Ein Wirtschaftsfachwirt muss für verschiedene Betriebstypen das jeweils passende Kalkulationsverfahren auswählen. Welche Zuordnung von Fertigungsart und Kalkulationsverfahren entspricht der Systematik in der Datei rewe_ls06.html?",
+    "optionen": [
+      "Einproduktbetrieb mit homogener Massenfertigung → Differenzierende Zuschlagskalkulation",
+      "Heterogene Einzel- und Serienfertigung → Divisionskalkulation",
+      "Sortenfertigung (ähnliche Produkte wie Pils und Weizen) → Äquivalenzziffernkalkulation",
+      "Hoch automatisierte Fertigung → Einfache Divisionskalkulation ohne Berücksichtigung von Maschinenzeiten"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Laut dem Skript wird die Äquivalenzziffernkalkulation bei einer Sortenfertigung angewendet, bei der sich die Produkte stark ähneln (z. B. in einer Brauerei). Für homogene Massenfertigung nutzt man die Divisionskalkulation, für heterogene Aufträge die Zuschlagskalkulation und für hoch automatisierte Bereiche den Maschinenstundensatz."
+  },
+  {
+    "id": "rewe_ls06_q3",
+    "modul": "rewe",
+    "ls": "rewe_ls06",
+    "frage": "In einer Prüfungsaufgabe tauchen „Sondereinzelkosten der Fertigung (SEK Fertigung)“ auf. Ein Kollege möchte diese pauschal als Gemeinkosten in den Betriebsabrechnungsbogen (BAB) einpflegen. Wie ist dieser Schritt auf Basis der Warnhinweise in der Datei rewe_ls06.html zu bewerten?",
+    "optionen": [
+      "Das ist korrekt, da alle Kosten mit dem Wort „Gemeinkosten“ oder „Sonder-“ über den BAB geschlüsselt werden müssen.",
+      "Es ist ein Fehler. Sondereinzelkosten sind Einzelkosten; sie werden direkt in das Kalkulationsschema eingetragen und erscheinen nicht im BAB.",
+      "SEK Fertigung dürfen im BAB verrechnet werden, SEK Vertrieb hingegen nicht.",
+      "Sondereinzelkosten werden grundsätzlich erst vom Nettoverkaufspreis abgezogen, bevor man die Materialkosten berechnet."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Skript warnt ausdrücklich vor dieser Prüfungsfalle: Sondereinzelkosten (wie Spezialwerkzeuge für einen Auftrag oder Sonderverpackungen für Kunden) sind echte Einzelkosten. Sie werden direkt einem bestimmten Auftrag zugeordnet und fließen unmittelbar in das Kalkulationsschema ein, anstatt im BAB verteilt zu werden."
+  },
+  {
+    "id": "rewe_ls06_q4",
+    "modul": "rewe",
+    "ls": "rewe_ls06",
+    "frage": "Bei der Kalkulation der Selbstkosten stellt sich die Frage, auf welcher Grundlage die prozentualen Zuschläge für Verwaltung (VwGK) und Vertrieb (VtGK) berechnet werden. Welche Basis ist laut Datei rewe_ls06.html zwingend zu wählen?",
+    "optionen": [
+      "Die reinen Fertigungslöhne (FL)",
+      "Das eingesetzte Fertigungsmaterial (FM)",
+      "Die Herstellkosten des Umsatzes (HK-Umsatz)",
+      "Der Nettoverkaufspreis (NVP)"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Verwaltungsgemeinkosten und Vertriebsgemeinkosten werden auf die Herstellkosten des Umsatzes (HK-Umsatz) aufgeschlagen. Der Grund dafür ist, dass Verwaltungs- und Vertriebstätigkeiten nur für die tatsächlich verkaufte Menge anfallen. Bestandsveränderungen (Minderungen oder Mehrungen) müssen daher vorab berücksichtigt werden."
+  },
+  {
+    "id": "rewe_ls06_q5",
+    "modul": "rewe",
+    "ls": "rewe_ls06",
+    "frage": "Ein Kalkulator berechnet den Zielverkaufspreis (ZVP) ausgehend vom Barverkaufspreis (BVP). Kundenskonto beträgt 2% und die Vertreterprovision 5%. Wie muss die Berechnung laut der Prüfungsfalle in der Datei rewe_ls06.html exakt durchgeführt werden?",
+    "optionen": [
+      "Man dividiert den BVP nacheinander schrittweise: erst durch 0,98 und das Zwischenergebnis dann durch 0,95.",
+      "Skonto und Provision werden addiert (2% + 5% = 7%). Der BVP entspricht dem Restprozentsatz von 93% des ZVP. Skonto wird berechnet als: BVP × 2 ÷ 93.",
+      "Man schlägt einfach pauschal 7% direkt auf den Nettoverkaufspreis auf.",
+      "Skonto wird von den Selbstkosten berechnet und Provision vom Einstandspreis abgezogen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Bei der Kalkulation vom BVP aufwärts zum ZVP darf keinesfalls schrittweise dividiert werden, da dies mathematisch falsche Werte erzeugt. Skonto- und Provisionsprozentsatz müssen addiert werden; der BVP bildet den verbleibenden Restprozentsatz zum ZVP (100% Basis). Die Einzelbeträge werden folglich mit der Formel BVP × jeweiliger % ÷ Restprozent % bestimmt."
+  },
+  {
+    "id": "rewe_ls06_q6",
+    "modul": "rewe",
+    "ls": "rewe_ls06",
+    "frage": "Je nach Informationslage und Marktsituation ändert sich die Richtung, in der das Kalkulationsschema durchgerechnet wird. Welcher Merksatz beschreibt die drei Formen laut Datei rewe_ls06.html richtig?",
+    "optionen": [
+      "Vorwärts: Preis vorgegeben → Material gesucht | Rückwärts: Kosten bekannt → Gewinn gesucht.",
+      "Vorwärts: Kosten bekannt → Preis gesucht | Rückwärts: Preis vorgegeben → Kostenspielraum gesucht | Differenz: Kosten und Preis bekannt → Gewinn/Verlust gesucht.",
+      "Vorwärts- und Rückwärtskalkulation führen immer zum exakt gleichen Einstandspreis auf der Einkaufsseite.",
+      "Die Differenzkalkulation findet ausschließlich im Handel Anwendung und ignoriert die Selbstkosten vollständig."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Skript fasst die Logik prägnant zusammen: Stehen die Kosten fest, rechnet man vorwärts zum Angebotspreis. Gibt der Markt den Preis vor, rechnet man rückwärts, um das maximal zulässige Fertigungsmaterial zu ermitteln. Sind Preis und Kosten fix, ermittelt man per Differenzkalkulation den verbleibenden Gewinn oder Verlust."
+  },
+  {
+    "id": "rewe_ls06_q7",
+    "modul": "rewe",
+    "ls": "rewe_ls06",
+    "frage": "In Zeiten konjunktureller Engpässe fragt die Geschäftsführung nach dem absoluten Mindestpreis für einen Zusatzauftrag bei vorhandenen freien Kapazitäten. Wie ist die kurzfristige Preisuntergrenze laut Datei rewe_ls06.html definiert?",
+    "optionen": [
+      "KPUG = Gesamte Selbstkosten pro Stück (fixe + variable Kosten).",
+      "KPUG = Nur das Fertigungsmaterial, sämtliche Gemeinkosten werden ignoriert.",
+      "KPUG = Variable Stückkosten (Einzelkosten + variable Gemeinkosten pro Stück); Fixkosten werden hierbei kurzfristig nicht gedeckt.",
+      "KPUG = Nettoverkaufspreis abzüglich des maximalen Kundenrabatts."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die KPUG deckt lediglich die variablen Stückkosten ab. Da die Fixkosten in voller Höhe ohnehin anfallen, ist die Annahme eines solchen Auftrags bei freien Kapazitäten sinnvoll, solange der angebotene Preis die KPUG übersteigt und somit einen positiven Deckungsbeitrag liefert. Wichtig ist, die variablen Gemeinkosten (z. B. Energie) nicht zu vergessen."
+  },
+  {
+    "id": "rewe_ls06_q8",
+    "modul": "rewe",
+    "ls": "rewe_ls06",
+    "frage": "Ein Prüfling liest in einer IHK-Klausur das bloße Wort „Preisuntergrenze“, ohne dass die Begriffe „kurzfristig“ oder „langfristig“ genannt werden. Welche Auslegungsregel gibt die Datei rewe_ls06.html für diesen Fall vor?",
+    "optionen": [
+      "Es ist automatisch immer die kurzfristige Preisuntergrenze (variable Kosten) zu berechnen.",
+      "Es ist immer die langfristige Preisuntergrenze gemeint, welche den vollen Selbstkosten entspricht. Nur bei expliziten Hinweisen auf Krisen oder Zusatzaufträge gilt die KPUG.",
+      "Man darf sich die Grenze aussuchen, beide führen zum selben kalkulatorischen Ergebnis.",
+      "Ohne genaue Angabe ist die Aufgabe unlösbar und wird mit null Punkten bewertet."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Lernskript weist explizit auf diese typische IHK-Prüfungsfalle hin. Wird nach der allgemeinen „Preisuntergrenze“ gefragt, verlangt die Prüfungskommission die langfristige Preisuntergrenze, also die vollen Selbstkosten pro Stück. Ein Unternehmen muss mittelfristig alle Kosten decken, um nicht illiquide zu werden."
+  },
+  {
+    "id": "rewe_ls06_q9",
+    "modul": "rewe",
+    "ls": "rewe_ls06",
+    "frage": "In einem modernisierten, robotergestützten Produktionsbereich stoßen die klassischen prozentualen Fertigungsgemeinkostenzuschläge (FGK) an ihre Grenzen. Warum wird dort der Maschinenstundensatz eingeführt und wie funktioniert er laut Datei rewe_ls06.html?",
+    "optionen": [
+      "Weil die Fertigungslöhne durch die Automatisierung so stark sinken, dass sie als Basis für prozentuale Zuschläge zu klein werden. Die FGK werden daher in maschinenabhängige Kosten (MSS) und lohnabhängige Restgemeinkosten aufgeteilt.",
+      "Der MSS ersetzt den gesamten BAB und macht die Materialgemeinkosten überflüssig.",
+      "Durch den MSS werden sämtliche variable Kosten eliminiert, sodass nur noch Fixkosten übrig bleiben.",
+      "Der MSS rechnet die Maschinenlaufzeiten direkt in die Vertreterprovision auf der Verkaufsseite um."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Bei hoher Automatisierung steigen die maschinenabhängigen Kosten (wie Abschreibungen und Energie), während die direkten Fertigungslöhne sinken. Würde man die riesigen Gemeinkostenblöcke weiterhin rein prozentual auf die kleinen Restlöhne aufschlagen, käme es zu völlig verzerrten, unrealistischen Zuschlagssätzen. Die Aufteilung in MSS (für die Maschine) und Rest-FGK (für lohnabhängige Kosten wie Meisterlöhne) löst dieses Problem."
+  },
+  {
+    "id": "rewe_ls06_q10",
+    "modul": "rewe",
+    "ls": "rewe_ls06",
+    "frage": "Ein Facheinkäufer im Großhandel berechnet die Preise für ein neues Sortiment. Er muss den Gewinnzuschlag prozentual korrekt ansetzen. Worauf wird der Gewinnzuschlag in der Handelskalkulation laut Datei rewe_ls06.html berechnet?",
+    "optionen": [
+      "Auf den Einstandspreis (Bezugspreis)",
+      "Auf die Selbstkosten",
+      "Auf den Nettoverkaufspreis (NVP)",
+      "Auf den Bruttoverkaufspreis inklusive Umsatzsteuer"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Auch in der Handelskalkulation gilt laut dem Schema im Lernskript: Der Gewinnzuschlag wird auf die Selbstkosten (Einstandspreis + Handlungskosten) aufgeschlagen – nicht auf den Einstandspreis oder den Verkaufspreis. Das Skript warnt hier ausdrücklich vor Rechenfehlern."
+  },
+  {
+    "id": "rewe_ls07_q1",
+    "modul": "rewe",
+    "ls": "rewe_ls07",
+    "frage": "In einer Controlling-Sitzung wird kritisiert, dass die Vollkostenrechnung bei schwankenden Produktionsmengen zu Fehlentscheidungen führen kann. Welcher systemimmanente Fehler der Vollkostenrechnung wird in der Datei rewe_ls07.html beschrieben?",
+    "optionen": [
+      "Sie erfasst die variablen Kosten unvollständig und schlägt sie fälschlicherweise den Fixkosten zu.",
+      "Sie behandelt Fixkosten so, als wären sie variabel, indem sie diese auf die Stückzahlen umlegt und somit proportionalisiert.",
+      "Sie berücksichtigt ausschließlich die Produktionsmenge null und vernachlässigt die Vollauslastung.",
+      "Sie teilt die Kosten streng in Nutz- und Leerkosten auf, was im Handel unzulässig ist."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Vollkostenrechnung verteilt sämtliche Kosten (fixe und variable) auf die Kostenträger. Da Fixkosten jedoch beschäftigungsunabhängig sind, führt das Umlegen auf Stückzahlen dazu, dass sie sich rechnerisch wie variable Kosten verhalten (Proportionalisierung). Dies verzerrt die Stückkosten bei Mengenänderungen."
+  },
+  {
+    "id": "rewe_ls07_q2",
+    "modul": "rewe",
+    "ls": "rewe_ls07",
+    "frage": "Ein Produktionsbetrieb halbiert seine hergestellte Menge aufgrund eines Markteinbruchs. Der Produktionsleiter stellt fest, dass die kalkulatorischen Stückkosten dadurch massiv gestiegen sind. Wie ist dieses Phänomen laut der Datei rewe_ls07.html mathematisch und organisatorisch zu erklären?",
+    "optionen": [
+      "Die Erhöhung der Stückkosten zeigt eine akute Ineffizienz der Arbeiter in der Fertigung.",
+      "Die variablen Stückkosten steigen bei sinkender Beschäftigung automatisch an.",
+      "Es handelt sich um reine Mathematik (Fixkostendegression): Der konstante Fixkostenblock verteilt sich auf weniger Stücke, wodurch die fixen Stückkosten steigen.",
+      "Durch den Mengenrückgang sinken die Gesamtkosten der Periode auf null."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Fixe Kosten bleiben in Summe konstant. Bei sinkender Produktionsmenge verteilen sich diese unveränderten Kosten auf weniger Einheiten, weshalb die fixen Stückkosten steigen. Das Skript warnt ausdrücklich davor, diesen rein mathematischen Effekt mit einer veränderten betrieblichen Effizienz zu verwechseln."
+  },
+  {
+    "id": "rewe_ls07_q3",
+    "modul": "rewe",
+    "ls": "rewe_ls07",
+    "frage": "Ein Unternehmen analysiert die Kostenstruktur einer Fertigungsanlage, die aktuell nicht voll ausgelastet ist. Wie werden Leerkosten laut den Formeln in der Datei rewe_ls07.html definiert und berechnet?",
+    "optionen": [
+      "Leerkosten sind der Teil der variablen Kosten, die bei Überbeschäftigung anfallen.",
+      "Leerkosten entstehen nur bei Vollauslastung und entsprechen den gesamten Selbstkosten.",
+      "Leerkosten sind der Teil der Fixkosten, der auf die nicht genutzte Kapazität entfällt (Leerkosten = Fixkosten − Nutzkosten).",
+      "Leerkosten entsprechen dem absoluten Deckungsbeitrag der Periode abzüglich des Gewinns."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Leerkosten repräsentieren den ungenutzten Teil der Fixkosten bei Unterbeschäftigung. Sie werden ermittelt, indem man die Nutzkosten (Fixkosten × Auslastungsgrad in Prozent) von den gesamten Fixkosten abzieht. Bei Vollauslastung gibt es keine Leerkosten."
+  },
+  {
+    "id": "rewe_ls07_q4",
+    "modul": "rewe",
+    "ls": "rewe_ls07",
+    "frage": "Ein Produkt weist in der Vollkostenrechnung nach Abzug aller Kosten einen Verlust aus. Die Teilkostenrechnung zeigt jedoch einen Stückdeckungsbeitrag von db = +10 €. Welche Entscheidungsempfehlung gibt die Datei rewe_ls07.html für diese Situation vor?",
+    "optionen": [
+      "Das Produkt muss sofort eliminiert werden, da jedes Stück den Gesamtverlust des Unternehmens vergrößert.",
+      "Das Produkt sollte im Sortiment bleiben, da es einen positiven Beitrag zur Deckung der Fixkosten leistet, die ohnehin anfallen.",
+      "Der Verkaufspreis muss zwingend auf die KPUG abgesenkt werden, um mehr Menge abzusetzen.",
+      "Das Produkt muss durch ein Kuppelprodukt ersetzt werden, dessen variabler DB bei null liegt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Solange der Stückdeckungsbeitrag positiv ist (db > 0), trägt jede verkaufte Einheit dazu bei, den Block der fixen Kosten zu verringern. Würde man das Produkt eliminieren, blieben die Fixkosten aufgrund der Fixkostenremanenz bestehen, und das Betriebsergebnis würde sich verschlechtern."
+  },
+  {
+    "id": "rewe_ls07_q5",
+    "modul": "rewe",
+    "ls": "rewe_ls07",
+    "frage": "Bei der Berechnung der Gewinnschwelle für ein neues Produkt ergibt die mathematische Formel einen Wert von x(BEP) = 452,1 Stück. Wie muss das Ergebnis laut den Vorgaben in der Datei rewe_ls07.html in der IHK-Prüfung gerundet werden?",
+    "optionen": [
+      "Abgerundet auf 452 Stück, da man kaufmännisch abrundet.",
+      "Es muss exakt als Dezimalzahl 452,1 stehen bleiben, da Bruchstücke von Produkten im Controlling zulässig sind.",
+      "Immer aufrunden auf 453 Stück, da erst ab der nächsten vollen Einheit die Gewinnschwelle tatsächlich überschritten ist.",
+      "Es wird auf die nächste Hunderterstelle aufgerundet (also 500 Stück)."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das Skript hebt dies als wichtige Prüfungsfalle hervor: Da keine halben oder geviertelten Produkte verkauft werden können, muss das Ergebnis der Break-Even-Menge immer aufgerundet werden. Bei genau 452 Stück wäre der Fixkostenblock rechnerisch noch nicht vollständig gedeckt."
+  },
+  {
+    "id": "rewe_ls07_q6",
+    "modul": "rewe",
+    "ls": "rewe_ls07",
+    "frage": "Ein Unternehmen stellt drei Produkte (A, B, C) mit jeweils positivem Deckungsbeitrag her. Die Kapazität der Hauptmaschine ist in dieser Periode jedoch auf wenige Stunden begrenzt (Engpass). Nach welchem Kriterium muss das optimale Produktionsprogramm laut Datei rewe_ls07.html zusammengestellt werden?",
+    "optionen": [
+      "Ausschließlich nach dem höchsten Verkaufspreis (p).",
+      "Nach dem höchsten absoluten Stückdeckungsbeitrag (db).",
+      "Nach den geringsten variablen Kosten (kv).",
+      "Nach dem höchsten relativen Deckungsbeitrag (db_rel = db ÷ Fertigungszeit pro Stück)."
+    ],
+    "correctIndex": 3,
+    "erklaerung": "Liegt ein Engpass vor, reicht der absolute Deckungsbeitrag nicht aus. Entscheidend ist stattdessen, welches Produkt die knappe Ressource (z. B. Maschinenstunden) am effizientesten nutzt. Das wird über den relativen Deckungsbeitrag ermittelt, der angibt, wie viel Euro Deckungsbeitrag das Produkt pro Engpasseinheit (z. B. pro Stunde) erwirtschaftet."
+  },
+  {
+    "id": "rewe_ls07_q7",
+    "modul": "rewe",
+    "ls": "rewe_ls07",
+    "frage": "Ein Betrieb streicht ein unrentables Produkt komplett aus dem Fertigungsprogramm. Die Geschäftsführung wundert sich, dass der Gesamtverlust im darauffolgenden Monat nicht im erhofften Maße sinkt. Welches Phänomen aus der Datei rewe_ls07.html erklärt diesen Effekt?",
+    "optionen": [
+      "Die Fixkostenremanenz: Fixkosten können bei sinkender Beschäftigung meist nicht sofort abgebaut werden, da Verträge oder Kündigungsfristen weiterlaufen.",
+      "Der Proportionalisierungsfehler, der die Fixkosten künstlich auf null sinken lässt.",
+      "Die Fixkostendegression, die bei Eliminierung eines Produkts die variablen Stückkosten verdoppelt.",
+      "Das Auftreten von Nutzkosten, die den Gewinn blockieren."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Fixkosten „bleiben kleben“ (Remanenz). Wenn ein Produkt wegfällt, schrumpfen zwar dessen variable Kosten sofort, aber Mietverträge, Abschreibungen oder Gehaltsverpflichtungen laufen zunächst unverändert weiter. Diese Fixkosten verteilen sich dann auf die verbleibenden Produkte."
+  },
+  {
+    "id": "rewe_ls07_q8",
+    "modul": "rewe",
+    "ls": "rewe_ls07",
+    "frage": "Ein Controller betrachtet das Break-Even-Diagramm eines Produkts. Er vergleicht die Steigung der Erlösgerade mit der Steigung der Gesamtkostengerade. Was lässt sich aus diesen Steigungen im Diagramm laut Datei rewe_ls07.html ableiten?",
+    "optionen": [
+      "Die Steigung der Erlösgerade entspricht den Fixkosten, die Gesamtkostengerade entspricht dem Gewinn.",
+      "Die Erlösgerade startet bei den Fixkosten und fällt mit der Steigung des relativen Deckungsbeitrags.",
+      "Die Steigung der Erlösgerade wird durch den Verkaufspreis (p) bestimmt, die der Gesamtkostengerade durch die variablen Stückkosten (kv). Rechts vom Schnittpunkt liegt die Gewinnzone.",
+      "Die Steigung zeigt direkt den Auslastungsgrad der Leerkosten an."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Erlösgerade beginnt im Koordinatenursprung (0) und steigt pro Mengeneinheit um den Verkaufspreis p. Die Gesamtkostengerade startet auf der Höhe der Fixkosten (Kfix) und steigt mit jeder Einheit um den Betrag der variablen Stückkosten kv. Der Schnittpunkt markiert den Break-Even-Point, rechts davon übersteigen die Erlöse die Kosten (Gewinnzone)."
+  },
+  {
+    "id": "rewe_ls07_q9",
+    "modul": "rewe",
+    "ls": "rewe_ls07",
+    "frage": "Ein Mitarbeiter versucht, die Fixkosten der Periode anteilig auf Produkt A und Produkt B in der Deckungsbeitragsrechnung umzulegen. Wie ist dieses Vorgehen laut dem Kalkulationsschema in der Datei rewe_ls07.html zu beurteilen?",
+    "optionen": [
+      "Das ist vollkommen richtig, jede Produktart muss ihren prozentualen Fixkostenanteil ausweisen.",
+      "Es ist falsch. In der Teilkostenrechnung werden Fixkosten nicht auf Produkte verteilt, sondern als geschlossener Block vom Gesamt-Deckungsbeitrag abgezogen.",
+      "Fixkosten werden in der Deckungsbeitragsrechnung grundsätzlich ignoriert und gar nicht erfasst.",
+      "Die Fixkosten müssen vorab mit dem Produktionskoeffizienten multipliziert werden."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Schema der Deckungsbeitragsrechnung trennt die Fixkosten strikt von den einzelnen Produkten. Die Produkte weisen lediglich ihren jeweiligen Deckungsbeitrag aus (Umsatz minus variable Kosten). Der Fixkostenblock wird erst am Ende von der Summe aller Deckungsbeiträge abgezogen, um das Betriebsergebnis zu ermitteln."
+  },
+  {
+    "id": "rewe_ls07_q10",
+    "modul": "rewe",
+    "ls": "rewe_ls07",
+    "frage": "Es entbrennt eine Diskussion darüber, ob die Vollkostenrechnung durch die Einführung der modernen Teilkostenrechnung komplett abgeschafft werden sollte. Welches Fazit zieht die Datei rewe_ls07.html bezüglich der Existenzberechtigung beider Systeme?",
+    "optionen": [
+      "Die Vollkostenrechnung ist komplett veraltet und besitzt keinerlei Praxisrelevanz mehr.",
+      "Beide Systeme ergänzen sich: Die Vollkostenrechnung ist wichtig für die langfristige Preisfindung; die Teilkostenrechnung ist unverzichtbar für kurzfristige Entscheidungen.",
+      "Die Teilkostenrechnung eignet sich nur für den Handel, die Vollkostenrechnung nur für die Industrie.",
+      "Die Teilkostenrechnung deckt langfristig alle Kosten ab und ersetzt die Angebotskalkulation."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Skript schließt mit dem wichtigen Merksatz ab, dass beide Systeme ihre Daseinsberechtigung haben und unterschiedliche Fragen beantworten. Für die langfristige Existenzsicherung und Vollkostendeckung braucht man die Vollkostenrechnung; für operative, kurzfristige Optimierungen (Zusatzaufträge, Engpässe) liefert die Teilkostenrechnung die passenden Antworten."
+  },
+  {
+    "id": "rewe_ls08_q1",
+    "modul": "rewe",
+    "ls": "rewe_ls08",
+    "frage": "Ein externer Analyst einer Bank möchte die Wirtschaftlichkeit eines Kreditnehmers prüfen und fordert dafür die Deckungsbeitragsrechnung einzelner Produktgruppen an. Wie ist diese Anforderung auf Basis der Datei rewe_ls08.html zu beurteilen?",
+    "optionen": [
+      "Die Bank hat ein gesetzliches Recht darauf, da alle KLR-Daten zwingend Bestandteil des veröffentlichten Jahresabschlusses sind.",
+      "Interne Kostendaten wie Deckungsbeiträge bleiben vertraulich; externe Adressaten erhalten ausschließlich den Jahresabschluss (Bilanz, GuV, Anhang).",
+      "Das Unternehmen muss die Daten offenlegen, da die KLR eine gesetzlich vorgeschriebene Pflichtrechnung nach HGB ist.",
+      "Die Daten dürfen weitergegeben werden, da es zwischen externer und interner Analyse keinen Unterschied im Datenzugriff gibt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Externe Adressaten wie Banken oder Investoren erhalten ausschließlich Einblick in den gesetzlich vorgeschriebenen Jahresabschluss. Interne Detaildaten aus der Kosten- und Leistungsrechnung (KLR), wie etwa die Deckungsbeiträge einzelner Produkte, sind vertraulich und dienen nur der internen Steuerung."
+  },
+  {
+    "id": "rewe_ls08_q2",
+    "modul": "rewe",
+    "ls": "rewe_ls08",
+    "frage": "In der Buchhaltung wird über den rechtlichen Status der Kosten- und Leistungsrechnung (KLR) im Vergleich zum Jahresabschluss diskutiert. Welcher Grundsatz wird dazu in der Datei rewe_ls08.html als Prüfungsfalle hervorgehoben?",
+    "optionen": [
+      "Sowohl der Jahresabschluss als auch die KLR sind freiwillige Instrumente ohne gesetzliche Basis.",
+      "Die KLR ist nach HGB strengstens vorgeschrieben, während der Jahresabschluss eine freiwillige Ergänzung darstellt.",
+      "Der Jahresabschluss ist gesetzlich vorgeschrieben (HGB) und öffentlich zugänglich; die KLR ist freiwillig und erscheint nie im Jahresabschluss.",
+      "Die KLR ersetzt bei Kapitalgesellschaften den rechtlichen Jahresabschluss vollständig."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Der Jahresabschluss ist eine gesetzliche Pflichtaufgabe nach dem Handelsgesetzbuch (HGB) und für die Öffentlichkeit bestimmt. Die Kosten- und Leistungsrechnung hingegen wird vollkommen freiwillig und rein für interne Zwecke betrieben; sie fließt niemals in den offiziellen Jahresabschluss ein."
+  },
+  {
+    "id": "rewe_ls08_q3",
+    "modul": "rewe",
+    "ls": "rewe_ls08",
+    "frage": "Das Controlling berechnet die Eigenkapitalquote, indem es das Eigenkapital durch das Gesamtkapital dividiert. Um welche Art von Verhältniszahl handelt es sich hierbei laut der Systematik in der Datei rewe_ls08.html?",
+    "optionen": [
+      "Gliederungszahl",
+      "Beziehungszahl",
+      "Indexzahl",
+      "Absolute Grundzahl"
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Eine Gliederungszahl setzt einen Teil ins Verhältnis zum Ganzen (Teil ÷ Ganzes), wie es bei der Eigenkapitalquote (Eigenkapital ÷ Gesamtkapital) der Fall ist. Beziehungszahlen verknüpfen zwei unterschiedliche sachlogische Größen (z. B. Umsatz ÷ Gesamtkapital), während Indexzahlen zeitliche Entwicklungen zu einem Basisjahr abbilden."
+  },
+  {
+    "id": "rewe_ls08_q4",
+    "modul": "rewe",
+    "ls": "rewe_ls08",
+    "frage": "Bei der Analyse der aufbereiteten Strukturbilanz stellt der Analyst fest, dass die Eigenkapitalquote im Berichtsjahr von 35% auf 45% gestiegen ist, während die Vorräte von 43% auf 30% gesunken sind. Welche betriebswirtschaftliche Schlussfolgerung lässt sich daraus laut Datei rewe_ls08.html ableiten?",
+    "optionen": [
+      "Die finanzielle Stabilität hat sich verschlechtert und die Abhängigkeit von Fremdkapitalgebern ist gestiegen.",
+      "Es liegt eine verbesserte finanzielle Stabilität vor, und der Rückgang der Vorräte deutet auf eine mögliche Effizienzverbesserung im Lager hin.",
+      "Das Unternehmen steht kurz vor der Zahlungsunfähigkeit, da weniger Kapital im Umlaufvermögen gebunden ist.",
+      "Die Fristenkongruenz hat sich durch den Abbau des Eigenkapitals massiv verschlechtert."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Ein Anstieg der Eigenkapitalquote bedeutet eine verbesserte finanzielle Stabilität und eine geringere Abhängigkeit von Fremdkapital. Der sinkende prozentuale Anteil der Vorräte kann eine Effizienzverbesserung im Rahmen der Lagerhaltung widerspiegeln, wobei alternativ Lieferprobleme geprüft werden sollten."
+  },
+  {
+    "id": "rewe_ls08_q5",
+    "modul": "rewe",
+    "ls": "rewe_ls08",
+    "frage": "Ein Unternehmen erzielt im Berichtsjahr eine ungewöhnlich hohe Umsatzrentabilität und weist einen hohen Jahresüberschuss aus. Dennoch gerät es unterjährig in akute Zahlungsschwierigkeiten. Welche fundamentale Prüfungsfalle aus der Datei rewe_ls08.html erklärt diese Situation?",
+    "optionen": [
+      "Hohe Rentabilität führt mathematisch immer automatisch zu hoher Liquidität.",
+      "Eine hohe Rentabilität bedeutet nicht automatisch hohe Liquidität; Gewinne können in Forderungen oder Vorräten gebunden sein statt in flüssigen Mitteln.",
+      "Gewinne werden in der Bilanzaufbereitung grundsätzlich als flüssige Mittel bar in der Kasse hinterlegt.",
+      "Liquidität misst die langfristige Ertragskraft, während Rentabilität die kurzfristige Zahlungsfähigkeit prüft."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Rentabilität und Liquidität sind zwei völlig verschiedene Paare Schuhe. Ein Unternehmen kann auf dem Papier sehr profitabel sein (hohe Rentabilität), aber wenn diese Gewinne in noch nicht bezahlten Kundenforderungen oder massiven Lagerbeständen (Vorräten) feststecken, fehlt das Bargeld auf dem Konto, um fällige Rechnungen zu begleichen."
+  },
+  {
+    "id": "rewe_ls08_q6",
+    "modul": "rewe",
+    "ls": "rewe_ls08",
+    "frage": "Bei der Berechnung der Gesamtkapitalrentabilität werden im Zähler die Fremdkapitalzinsen zum Jahresergebnis addiert. Warum ist diese Addition laut der Datei rewe_ls08.html zwingend erforderlich?",
+    "optionen": [
+      "Weil Fremdkapitalzinsen den Reingewinn der Eigentümer nachträglich erhöhen.",
+      "Damit die Kennzahl die Leistungsfähigkeit des Unternehmens unabhängig von der gewählten Finanzierungsstruktur zeigt.",
+      "Weil Fremdkapitalzinsen in der GuV als Ertrag gebucht wurden und korrigiert werden müssen.",
+      "Um den Leverage-Effekt künstlich aus der Formel zu eliminieren."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Da die Fremdkapitalzinsen in der GuV bereits als Aufwand abgezogen wurden, haben sie das Jahresergebnis gemindert. Um die Ertragskraft des gesamten eingesetzten Kapitals (unabhängig davon, ob es von Eigenkapitalgebern oder Banken stammt) finanzierungsneutral zu messen, müssen diese Zinsen wieder hinzugerechnet werden."
+  },
+  {
+    "id": "rewe_ls08_q7",
+    "modul": "rewe",
+    "ls": "rewe_ls08",
+    "frage": "Ein Investor berechnet für ein potenzielles Beteiligungsunternehmen eine Eigenkapitalrentabilität (EKR) von 3,5%. Der langfristige Zinssatz für eine risikofreie Kapitalanlage am Markt liegt aktuell bei 4,5%. Wie ist diese Investition laut den Richtlinien in der Datei rewe_ls08.html zu beurteilen?",
+    "optionen": [
+      "Die Investition ist absolut vorteilhaft, da jede positive EKR einen wirtschaftlichen Erfolg darstellt.",
+      "Liegt die EKR unter dem langfristigen Zinssatz einer sicheren Kapitalanlage, ist das Unternehmertum ökonomisch fragwürdig.",
+      "Die Investition ist sinnvoll, da das Risiko des Unternehmertums durch den niedrigen Prozentsatz vollständig eliminiert wird.",
+      "Der Zinssatz am Kapitalmarkt ist für den Vergleich mit der EKR grundsätzlich irrelevant."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Skript hebt hervor, dass unternehmerische Tätigkeit immer mit Risiken verbunden ist. Erzielt man mit seinem eingesetzten Eigenkapital eine geringere Rendite (EKR) als bei einer sicheren, risikolosen Kapitalanlage am Markt, ist die Investition ökonomisch nicht sinnvoll."
+  },
+  {
+    "id": "rewe_ls08_q8",
+    "modul": "rewe",
+    "ls": "rewe_ls08",
+    "frage": "Die Geschäftsführung plant, vermehrt Fremdkapital aufzunehmen, um die Rentabilität des Eigenkapitals gezielt nach oben zu schrauben (Leverage-Effekt). Welche mathematische Grundvoraussetzung muss dafür laut Datei rewe_ls08.html zwingend erfüllt sein?",
+    "optionen": [
+      "Der Fremdkapitalzinssatz muss exakt dem doppelten Wert der Umsatzrentabilität entsprechen.",
+      "Die Gesamtkapitalrentabilität (GKR) muss größer sein als der Fremdkapitalzinssatz (GKR > Fremdkapitalzinssatz).",
+      "Die Eigenkapitalquote darf den Wert von 10% zu keinem Zeitpunkt überschreiten.",
+      "Der absolute Reingewinn muss bei steigendem Fremdkapital proportional mitsinken."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Ein positiver Leverage-Effekt (Hebelwirkung des Fremdkapitals) funktioniert nur dann, wenn das Unternehmen mit dem geliehenen Geld eine höhere Gesamtrendite (GKR) erwirtschaftet, als es an Zinsen für das Fremdkapital bezahlen muss. Liegt die GKR unter dem Zinssatz, schlägt der Effekt ins Negative um."
+  },
+  {
+    "id": "rewe_ls08_q9",
+    "modul": "rewe",
+    "ls": "rewe_ls08",
+    "frage": "Ein Unternehmen erhöht seinen Fremdkapitalanteil drastisch, wodurch sich die Eigenkapitalrentabilität plangemäß von 16% auf 48% verdreifacht. Welche Kehrseite bzw. welches Risiko muss laut Datei rewe_ls08.html bei dieser Strategie zwingend berücksichtigt werden?",
+    "optionen": [
+      "Mit steigendem Fremdkapitalanteil sinken die Zinslasten automatisch auf null.",
+      "Die Eigenkapitalrentabilität fällt bei steigendem Verschuldungsgrad unkontrollierbar in die Verlustzone.",
+      "Ein hoher Verschuldungsgrad lässt die fixen Zinslasten und das Insolvenzrisiko steigen; zudem wirkt der Effekt nur bei konstantem oder steigendem Gewinn.",
+      "Der absolute Reingewinn steigt immer im gleichen Maße wie die prozentuale EKR."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Der Leverage-Effekt bringt erhebliche Risiken mit sich. Durch die Aufnahme von viel Fremdkapital steigen die fixen Zinsverpflichtungen, was bei einem Gewinnrückgang das Insolvenzrisiko massiv erhöht. Zudem zeigt das Rechenbeispiel im Skript, dass bei extrem hohem Fremdkapitalanteil der absolute Reingewinn trotz steigender EKR sinken kann."
+  },
+  {
+    "id": "rewe_ls08_q10",
+    "modul": "rewe",
+    "ls": "rewe_ls08",
+    "frage": "Das Controlling registriert, dass der Umsatz in einer wichtigen Vertriebsregion plötzlich um 20% unter den Planwert gefallen ist. Es wird unverzüglich ein außerordentlicher Bericht erstellt. Welcher Berichtsart ist dieser Vorgang laut den Definitionen in der Datei rewe_ls08.html zuzuordnen?",
+    "optionen": [
+      "Standardbericht, da Umsatzkontrollen fest im Monatsrhythmus verankert sind.",
+      "Abweichungsbericht, da er ad-hoc bei gravierenden Soll-Ist-Abweichungen außerhalb definierter Toleranzgrenzen ausgelöst wird.",
+      "Bedarfsbericht, da es sich um eine einmalige Anfrage des Vorstands für eine strategische Investition handelt.",
+      "Gliederungsbericht, da hier Teilbereiche des Umsatzes analysiert werden."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Standardberichte erscheinen regelmäßig und zu festen Terminen (z. B. monatlicher BAB). Bedarfsberichte werden einmalig auf explizite Anfrage hin erstellt. Abweichungsberichte hingegen werden anlassbezogen (ad-hoc) generiert, sobald operative Ist-Werte vordefinierte Toleranzgrenzen verletzen (wie ein plötzlicher, schwerer Umsatzeinbruch)."
+  },
+  {
+    "id": "rewe_ls09_q1",
+    "modul": "rewe",
+    "ls": "rewe_ls09",
+    "frage": "In einer IHK-Klausur wird nach der zeitlichen Abgrenzung der verschiedenen Planungsebenen gefragt. Wie ist der Begriff „operativ“ im spezifischen Kontext der Planungsrechnung laut Datei rewe_ls09.html definiert?",
+    "optionen": [
+      "Er beschreibt die langfristige Ausrichtung des gesamten Konzerns über einen Zeitraum von mehr als 5 Jahren.",
+      "Er bezieht sich ausschließlich auf die laufende Betriebstätigkeit im Rahmen der Bilanzanalyse, unabhängig von der Zeit.",
+      "Er bezeichnet den kurzfristigen Zeithorizont von weniger als einem Jahr (z. B. 1–3 Monate) zur detaillierten Steuerung und Festlegung von Budgets.",
+      "Er umfasst die mittelfristige Kapazitäts- und Personalplanung für einen Zeitraum von 1 bis 3 Jahren."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das Skript warnt ausdrücklich vor einer bekannten Prüfungsfalle: Im Kontext der Planungsrechnung orientiert sich die Einordnung strikt am Zeithorizont. Während strategische Planung langfristig (> 3–10 Jahre) und taktische Planung mittelfristig (1–3 Jahre) angelegt sind, umfasst die operative Budgetplanung immer den kurzfristigen Zeitraum von unter einem Jahr."
+  },
+  {
+    "id": "rewe_ls09_q2",
+    "modul": "rewe",
+    "ls": "rewe_ls09",
+    "frage": "Ein Industrieunternehmen stellt seine Budgetpläne für das kommende Geschäftsjahr auf. Die Abteilungsleiter streiten darüber, welcher Teilplan zuerst finalisiert werden muss. Welche Reihenfolge ist laut den Festlegungen in der Datei rewe_ls09.html zwingend einzuhalten?",
+    "optionen": [
+      "Die Kostenplanung steht an erster Stelle, um den maximalen Rahmen für den Einkauf zu definieren.",
+      "Die Finanzplanung treibt alle anderen Pläne an, gefolgt von der Personal- und Produktionsplanung.",
+      "Der Absatzplan steht ganz am Anfang und bildet die unverzichtbare Grundlage für alle Folgepläne.",
+      "Der Ergebnisplan muss vor dem Absatzplan stehen, damit die Gewinnziele von vornherein feststehen."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Der Absatz- bzw. Umsatzplan treibt alle anderen betrieblichen Teilpläne an („Absatz zuerst“). Ohne zu wissen, welche Mengen zu welchen Preisen abgesetzt werden können, lässt sich weder ein Produktionsplan aufstellen noch eine fundierte Personal-, Beschaffungs- oder Kostenplanung ableiten. Fehler im Absatzplan wirken sich fatal auf die gesamte nachgelagerte Kette aus."
+  },
+  {
+    "id": "rewe_ls09_q3",
+    "modul": "rewe",
+    "ls": "rewe_ls09",
+    "frage": "Der Vertrieb korrigiert seine Erwartungen im laufenden Planungsprozess kurzfristig nach unten und reduziert die geplanten Absatzmengen um 15%. Welche Auswirkung hat dies laut Datei rewe_ls09.html auf das Gesamtsystem der Planung?",
+    "optionen": [
+      "Keine, da die Teilpläne vollkommen unabhängig voneinander addiert werden und der Ergebnisplan unverändert bleibt.",
+      "Es muss lediglich der Umsatzplan angepasst werden; Produktions- und Kostenpläne bleiben hiervon unberührt.",
+      "Eine Änderung im Absatzplan zieht automatisch Anpassungen in der Produktions-, Personal-, Beschaffungs- und Kostenplanung nach sich.",
+      "Der Finanzplan gleicht die Mengenminderung automatisch durch eine Erhöhung der kalkulatorischen Zinsen aus."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Ergebnisplanung ist kein statisches Nebeneinander, sondern ein vernetztes System. Wenn weniger Absatz geplant wird, sinkt das Produktionsvolumen. Dies mindert wiederum den Materialbedarf (Beschaffung), beeinflusst die Schichtplanung (Personal) und verändert die variablen Kosten (Kostenplanung)."
+  },
+  {
+    "id": "rewe_ls09_q4",
+    "modul": "rewe",
+    "ls": "rewe_ls09",
+    "frage": "Große Unternehmen nutzen häufig das Gegenstromverfahren für ihre jährliche Budgetierung. Wie wird dieser Planungsstil in der IHK-Terminologie laut Datei rewe_ls09.html noch bezeichnet und wie läuft er ab?",
+    "optionen": [
+      "Rein progressive Planung, die in einem einzigen, schnellen Durchlauf von unten nach oben vollzogen wird.",
+      "Kombination aus retrograder (Top-Down) und progressiver (Bottom-Up) Planung, die in mehreren Abstimmungsrunden abläuft.",
+      "Rein retrograde Planung, bei der die Kostenstellenleiter die Ziele der Geschäftsführung ohne Rückmeldung ausführen.",
+      "Stochastische Planung, die auf Basis von Zufallswerten rein mathematische Prognosen erstellt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Gegenstromverfahren verknüpft beide klassischen Ansätze: Die Führungsebene gibt retrograde Eckwerte vor (Top-Down), während die ausführenden Ebenen progressive Detailpläne nach oben melden (Bottom-Up). Der entscheidende Prüfungsaspekt ist, dass dieser Prozess in mehreren iterativen Runden abläuft, bis eine Deckung zwischen Vorgabe und Realität erzielt wird."
+  },
+  {
+    "id": "rewe_ls09_q5",
+    "modul": "rewe",
+    "ls": "rewe_ls09",
+    "frage": "In einer Controlling-Besprechung wird diskutiert, ab wann ein einfacher Kostenplan die Qualität eines echten Budgets besitzt. Welches Merkmal unterscheidet ein Budget laut Datei rewe_ls09.html maßgeblich von einem einfachen Plan?",
+    "optionen": [
+      "Ein Budget ist im Gegensatz zum Plan stets unverbindlich und beschreibt lediglich eine vage Absicht.",
+      "Pläne gelten nur für Investitionen, während Budgets ausschließlich für Fertigungslöhne verwendet werden dürfen.",
+      "Ein Budget ist ein formalisierter, genehmigter Rahmen, der für eine Organisationseinheit verbindlich gilt und als Maßstab für Kontrollen dient.",
+      "Ein Budget benötigt im Gegensatz zum Plan niemals eine anschließende Soll-Ist-Kontrolle."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Während ein Plan oft als unverbindliche Absichtsbekundung oder Zielbeschreibung startet, wird ein Budget durch die formelle Genehmigung der Unternehmensleitung zu einer verbindlichen Handlungsgrundlage. Es teilt Ressourcen fest zu und fungiert als verbindlicher Maßstab für die spätere Leistungskontrolle im Controlling."
+  },
+  {
+    "id": "rewe_ls09_q6",
+    "modul": "rewe",
+    "ls": "rewe_ls09",
+    "frage": "Das Controlling stellt am Monatsende fest, dass die Istkosten einer Abteilung die Plankosten deutlich überschritten haben. Was ist laut dem Regelkreis der Planung in der Datei rewe_ls09.html der nächste zwingende Schritt?",
+    "optionen": [
+      "Das Erhöhen des Sollwerts für den nächsten Monat, damit die Abweichung mathematisch verschwindet.",
+      "Die reine Dokumentation der Zahl, da der Regelkreis mit der Feststellung des Soll-Ist-Vergleichs bereits abgeschlossen ist.",
+      "Die Durchführung einer Ursachenanalyse und die anschließende Ableitung konkreter Gegensteuerungsmaßnahmen.",
+      "Die sofortige Kündigung der betroffenen Kostenstellenleiter ohne weitere Prüfung."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Ein Soll-Ist-Vergleich ohne Konsequenz ist nutzlos. Das primäre Ziel der Abweichungsanalyse im Regelkreis ist es nicht, Schuldige zu finden oder Zahlen zu verwalten, sondern die genauen Ursachen (z. B. Störgrößen) zu ergründen und konkrete Maßnahmen einzuleiten, um das System wieder auf Kurs zu bringen."
+  },
+  {
+    "id": "rewe_ls09_q7",
+    "modul": "rewe",
+    "ls": "rewe_ls09",
+    "frage": "Bei der Auswertung einer Kostenstelle wird die mathematische Formel für die Kostenabweichung angewendet: Kostenabweichung = Istkosten − Plankosten. Wie werden die Ergebnisse laut Datei rewe_ls09.html betriebswirtschaftlich gedeutet?",
+    "optionen": [
+      "Ein positives Vorzeichen steht für Minderkosten und ist somit als günstig zu bewerten.",
+      "Ein negatives Vorzeichen steht für Mehrkosten und ist somit als ungünstig zu bewerten.",
+      "Ein positives Vorzeichen signalisiert Mehrkosten (ungünstig), ein negatives Vorzeichen bedeutet Minderkosten (günstig).",
+      "Das Vorzeichen hat im modernen Berichtswesen keine inhaltliche Bedeutung mehr."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Da die Plankosten (Sollkosten) von den tatsächlichen Istkosten abgezogen werden, führt ein höherer Ist-Verbrauch zu einem positiven Ergebnis – es sind also ungeplante Mehrkosten entstanden (ungünstig). Sind die Istkosten niedriger als geplant, ist das Ergebnis negativ, was einer Einsparung bzw. Minderkosten entspricht (günstig)."
+  },
+  {
+    "id": "rewe_ls09_q8",
+    "modul": "rewe",
+    "ls": "rewe_ls09",
+    "frage": "Die Fertigung meldet für das abgelaufene Quartal ungeplante Mehrkosten im Bereich der Materialaufwendungen. Als Ursache wird identifiziert, dass der Stammlieferant die Preise für den Kernrohstoff drastisch erhöht hat. Um welche spezifische Abweichungsart handelt es sich hierbei laut Datei rewe_ls09.html?",
+    "optionen": [
+      "Verbrauchsabweichung",
+      "Beschäftigungsabweichung",
+      "Preisabweichung",
+      "Strukturabweichung"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Eine Preisabweichung liegt immer dann vor, wenn sich die rein monetären Beschaffungspreise der Produktionsfaktoren verändern (z. B. gestiegene Materialpreise, Tariferhöhungen beim Personal oder gestiegene Energiekosten). Mengenmäßige Mehrverbräuche fallen hingegen unter die Verbrauchsabweichung."
+  },
+  {
+    "id": "rewe_ls09_q9",
+    "modul": "rewe",
+    "ls": "rewe_ls09",
+    "frage": "In einer Kostenstelle bleiben die Materialpreise und die tatsächlichen Verbrauchsmengen pro Stück exakt auf dem geplanten Niveau. Dennoch steigen die kalkulierten Stückkosten spürbar an, weil die Gesamtauslastung (Stückzahl) der Fabrik stark rückläufig war. Wie erklärt die Datei rewe_ls09.html diese Abweichung?",
+    "optionen": [
+      "Es handelt sich um eine Verbrauchsabweichung, da pro Stunde unproduktiver gearbeitet wurde.",
+      "Es handelt sich um eine Beschäftigungsabweichung, bei der fixe Kosten auf eine geringere Stückzahl verteilt werden (Fixkostenfehlverrechnung).",
+      "Es handelt sich um eine reine Preisabweichung der Fertigungslöhne.",
+      "Die Abweichung basiert auf einer fehlerhaften Erfassung der variablen Akkordlöhne."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Beschäftigungsabweichung ist eine reine Fixkostenfehlverrechnung. Wenn die Auslastung (Ist-Beschäftigung) hinter den Planungen zurückbleibt, bleiben die absoluten Fixkosten dennoch gleich hoch. Da sie nun auf weniger Produkteinheiten verteilt werden müssen, steigen die Kosten je Stück (Leerkosten entstehen), ohne dass real mehr Material oder Zeit verschwendet wurde."
+  },
+  {
+    "id": "rewe_ls09_q10",
+    "modul": "rewe",
+    "ls": "rewe_ls09",
+    "frage": "Bei der Budgetplanung der Kostenstelle „Dreherei“ werden die verschiedenen Kostenarten nach ihrem Verhalten bei Beschäftigungsänderungen kategorisiert. Welche Zuordnung entspricht den praxisnahen Vorgaben der Datei rewe_ls09.html?",
+    "optionen": [
+      "Gehälter verhalten sich vollständig variabel, da sie direkt mit den produzierten Einheiten schwanken.",
+      "Fertigungslöhne sind immer vollständig fix, da Monatsgehälter unabhängig von der Beschäftigung gezahlt werden.",
+      "Hilfslöhne und Personalzusatzkosten weisen häufig ein gemischtes Kostenverhalten (fixe und variable Bestandteile) auf.",
+      "Hilfsstoffe sind zu 100% fix, da ihr Grundverbrauch niemals durch die Produktionsmenge beeinflusst wird."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Laut Skript weisen viele Kostenarten Mischstrukturen auf: Hilfslöhne enthalten oft eine fixe Grundbelegschaft und variable Zusatzstunden. Personalzusatzkosten haben fixe Anteile (Arbeitgeberbeiträge auf fixe Gehälter) sowie variable Komponenten (Zuschläge auf variable Fertigungslöhne). Gehälter hingegen sind rein fix, während Fertigungslöhne (z. B. im Akkord) als vollständig variabel eingestuft werden."
   }
 ]
