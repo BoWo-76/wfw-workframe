@@ -3,6 +3,11 @@
     "datum": "01.07.2026",
     "eintraege": [
       {
+        "modul": "basics",
+        "titel": "Quiz LS01 · Dreisatz & LS02 · Durchschnittsrechnung (je 10 Fragen)",
+        "aktion": "neu"
+      },
+      {
         "modul": "finanz",
         "titel": "Quiz LS01 · Investitionsrechnung (10 Fragen)",
         "aktion": "neu"

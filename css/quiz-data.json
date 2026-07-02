@@ -140,6 +140,286 @@
     "erklaerung": "Nach der statischen Amortisationsrechnung ist die kürzere Kapitalrückflusszeit vorteilhaft."
   },
   {
+    "id": "basics_ls01_q1",
+    "modul": "basics",
+    "ls": "basics_ls01",
+    "frage": "Was ist der erste Schritt der Bruchstrichmethode?",
+    "optionen": [
+      "Größere Zahl nach oben setzen.",
+      "Den Zielwert und dessen Einheit bestimmen.",
+      "Alle Faktoren multiplizieren.",
+      "Auf 1 herunterrechnen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Zuerst wird der bekannte Wert der gesuchten Einheit als Startwert bestimmt."
+  },
+  {
+    "id": "basics_ls01_q2",
+    "modul": "basics",
+    "ls": "basics_ls01",
+    "frage": "Wann steht die größere Zahl im Zähler?",
+    "optionen": [
+      "Immer.",
+      "Nur bei proportionalen Aufgaben.",
+      "Wenn der gesuchte Wert größer wird.",
+      "Nie."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Entscheidend ist die Logik-Frage, nicht die Zahlenhöhe."
+  },
+  {
+    "id": "basics_ls01_q3",
+    "modul": "basics",
+    "ls": "basics_ls01",
+    "frage": "Welche Aussage beschreibt antiproportionale Zusammenhänge?",
+    "optionen": [
+      "Je mehr, desto mehr.",
+      "Je mehr, desto weniger.",
+      "Immer gleiche Werte.",
+      "Nur bei Preisen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Größen verändern sich entgegengesetzt."
+  },
+  {
+    "id": "basics_ls01_q4",
+    "modul": "basics",
+    "ls": "basics_ls01",
+    "frage": "Wodurch unterscheiden sich proportionaler und antiproportionaler Dreisatz?",
+    "optionen": [
+      "Durch die Formel.",
+      "Durch den Startwert.",
+      "Nur durch die Antwort auf die Logik-Frage.",
+      "Gar nicht."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das Schema bleibt identisch."
+  },
+  {
+    "id": "basics_ls01_q5",
+    "modul": "basics",
+    "ls": "basics_ls01",
+    "frage": "Was gilt beim zusammengesetzten Dreisatz?",
+    "optionen": [
+      "Nur ein Faktor wird betrachtet.",
+      "Alle Faktoren werden gemeinsam ohne Prüfung eingesetzt.",
+      "Für jeden Faktor wird die Logik-Frage einzeln gestellt.",
+      "Es wird immer antiproportional gerechnet."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Jeder Faktor wird separat beurteilt."
+  },
+  {
+    "id": "basics_ls01_q6",
+    "modul": "basics",
+    "ls": "basics_ls01",
+    "frage": "Warum sollte vor dem Rechnen gekürzt werden?",
+    "optionen": [
+      "Es ändert das Ergebnis.",
+      "Es spart Rechenaufwand und vermeidet Fehler.",
+      "Es ist Pflicht.",
+      "Damit der Nenner 1 wird."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Kürzen vereinfacht die Rechnung."
+  },
+  {
+    "id": "basics_ls01_q7",
+    "modul": "basics",
+    "ls": "basics_ls01",
+    "frage": "Welcher Fehler tritt häufig auf?",
+    "optionen": [
+      "Der Zielwert wird zuerst bestimmt.",
+      "Die Logik-Frage bezieht sich auf die falsche Größe.",
+      "Es wird gekürzt.",
+      "Der Startwert steht oben."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Entscheidend ist immer der gesuchte Wert."
+  },
+  {
+    "id": "basics_ls01_q8",
+    "modul": "basics",
+    "ls": "basics_ls01",
+    "frage": "Mehr Mitarbeiter erledigen dieselbe Arbeit. Was passiert mit der benötigten Zeit?",
+    "optionen": [
+      "Sie steigt.",
+      "Sie bleibt gleich.",
+      "Sie sinkt.",
+      "Nicht bestimmbar."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das ist antiproportional."
+  },
+  {
+    "id": "basics_ls01_q9",
+    "modul": "basics",
+    "ls": "basics_ls01",
+    "frage": "Wofür lässt sich die Bruchstrichmethode laut Skript ebenfalls nutzen?",
+    "optionen": [
+      "ROI.",
+      "Zinsrechnung.",
+      "Abschreibung.",
+      "Deckungsbeitrag."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Zinsformel folgt demselben Prinzip."
+  },
+  {
+    "id": "basics_ls01_q10",
+    "modul": "basics",
+    "ls": "basics_ls01",
+    "frage": "Welche Plausibilitätsprüfung ist sinnvoll?",
+    "optionen": [
+      "Ergebnis muss immer größer sein.",
+      "Ergebnis mit der Logik vergleichen.",
+      "Immer runden.",
+      "Nenner muss größer sein."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Passt das Ergebnis nicht zur Logik, ist der Bruch meist vertauscht."
+  },
+  {
+    "id": "basics_ls02_q1",
+    "modul": "basics",
+    "ls": "basics_ls02",
+    "frage": "Welche Grundformel gilt für alle Durchschnittsverfahren?",
+    "optionen": [
+      "Summe/Anzahl",
+      "Gesamtsumme/Gesamtgewicht",
+      "Wert×Gewicht",
+      "Gewicht/Summe"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Nur das Gewicht unterscheidet sich."
+  },
+  {
+    "id": "basics_ls02_q2",
+    "modul": "basics",
+    "ls": "basics_ls02",
+    "frage": "Wann ist der einfache Durchschnitt korrekt?",
+    "optionen": [
+      "Immer.",
+      "Bei gleichen Mengen und Zeiträumen.",
+      "Bei unterschiedlichen Mengen.",
+      "Bei Zeitreihen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Sonst wird gewichtet."
+  },
+  {
+    "id": "basics_ls02_q3",
+    "modul": "basics",
+    "ls": "basics_ls02",
+    "frage": "Was ist das Gewicht beim gewichteten Durchschnitt?",
+    "optionen": [
+      "Zeit.",
+      "Fenstergröße.",
+      "Menge.",
+      "Anzahl Gruppen."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Menge bestimmt die Gewichtung."
+  },
+  {
+    "id": "basics_ls02_q4",
+    "modul": "basics",
+    "ls": "basics_ls02",
+    "frage": "Wozu dient der gleitende Durchschnitt?",
+    "optionen": [
+      "Lagerbewertung.",
+      "Trendanalyse.",
+      "Zinsrechnung.",
+      "Abschreibung."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Er glättet Schwankungen."
+  },
+  {
+    "id": "basics_ls02_q5",
+    "modul": "basics",
+    "ls": "basics_ls02",
+    "frage": "Wann wird der zeitlich gewichtete Durchschnitt verwendet?",
+    "optionen": [
+      "Bei unterschiedlichen Zeiträumen.",
+      "Bei gleichen Mengen.",
+      "Immer.",
+      "Nur im Lager."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Die Zeit ist das Gewicht."
+  },
+  {
+    "id": "basics_ls02_q6",
+    "modul": "basics",
+    "ls": "basics_ls02",
+    "frage": "Welcher Fehler ist beim gewichteten Durchschnitt typisch?",
+    "optionen": [
+      "Durch Gesamtmenge teilen.",
+      "Durch Anzahl der Gruppen teilen.",
+      "Mit Mengen multiplizieren.",
+      "Gewichte addieren."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Der Teiler ist die Summe der Gewichte."
+  },
+  {
+    "id": "basics_ls02_q7",
+    "modul": "basics",
+    "ls": "basics_ls02",
+    "frage": "Warum ist bei gerader Fensterbreite eine Zentrierung nötig?",
+    "optionen": [
+      "Damit mehr Werte entstehen.",
+      "Weil der Durchschnitt sonst keiner Periode zugeordnet ist.",
+      "Zur Rundung.",
+      "Für den Zeitfaktor."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Der Mittelpunkt liegt zwischen zwei Perioden."
+  },
+  {
+    "id": "basics_ls02_q8",
+    "modul": "basics",
+    "ls": "basics_ls02",
+    "frage": "Welche Aussage zum gleitenden Durchschnitt ist richtig?",
+    "optionen": [
+      "Fensterbreite darf wechseln.",
+      "Fensterbreite bleibt konstant.",
+      "Zeit ist das Gewicht.",
+      "Er liefert exakte Kalkulationswerte."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Fenster bleibt gleich groß."
+  },
+  {
+    "id": "basics_ls02_q9",
+    "modul": "basics",
+    "ls": "basics_ls02",
+    "frage": "Eine Aufgabe enthält unterschiedliche Einkaufsmengen. Welches Verfahren?",
+    "optionen": [
+      "Einfacher Durchschnitt.",
+      "Gewichteter Durchschnitt.",
+      "Gleitender Durchschnitt.",
+      "Zeitlich gewichteter Durchschnitt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Unterschiedliche Mengen erfordern Gewichtung."
+  },
+  {
+    "id": "basics_ls02_q10",
+    "modul": "basics",
+    "ls": "basics_ls02",
+    "frage": "Welche Kontrolle gehört zum zeitlich gewichteten Durchschnitt?",
+    "optionen": [
+      "Alle Tage ergeben den Gesamtzeitraum.",
+      "Alle Preise sind gleich.",
+      "Fensterbreite prüfen.",
+      "Gewinne addieren."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Die Summe der Zeiträume muss stimmen."
+  },
+  {
     "id": "recht_ls04_q1",
     "modul": "recht",
     "ls": "recht_ls04",
