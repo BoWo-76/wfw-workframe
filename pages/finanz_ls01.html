@@ -31,7 +31,7 @@
       <h1>LS01 · Investitionsrechnung</h1>
       <div class="meta">
         <span>Investitionsarten · Investitionsentscheidungen · Statische und dynamische Verfahren · Wirtschaftliche Nutzungsdauer</span>
-        <span>Stand: 29.06.2026</span>
+        <span>Stand: 02.07.2026</span>
         <span><span class="badge ok">Fertig</span></span>
       </div>
     </div>
@@ -242,6 +242,32 @@
       Steinhofs Skript nennt beim Abschreibungszähler: „Wiederbeschaffungswert <em>bzw.</em> Anschaffungs- oder Herstellungskosten". Bei der Kostenvergleichsrechnung wird der <strong>WBW bevorzugt</strong>, wenn bekannt (zukunftsorientiert). Fehlt der WBW, werden AHK verwendet. In der Prüfung gilt: <strong>Was in der Aufgabe gegeben ist, das verwenden.</strong>
     </div>
 
+    <div class="notice info">
+      <strong>Rechenbeispiel – Kostenvergleichsrechnung</strong><br>
+      Ein Betrieb vergleicht zwei Maschinen mit identischer Kapazität (10.000 Stück/Jahr), Nutzungsdauer 5 Jahre, Restwert 0 €, Kalkulationszinssatz 8 %.
+      <table style="margin-top:0.5rem">
+        <thead><tr><th></th><th>Maschine A</th><th>Maschine B</th></tr></thead>
+        <tbody>
+          <tr><td>AHK</td><td>100.000 €</td><td>60.000 €</td></tr>
+          <tr><td>Laufende Kosten p.a.</td><td>15.000 €</td><td>25.000 €</td></tr>
+        </tbody>
+      </table>
+      <p style="margin:0.5rem 0 0">
+        Kalk. AfA A = 100.000 / 5 = <strong>20.000 €</strong> &nbsp;|&nbsp; Kalk. AfA B = 60.000 / 5 = <strong>12.000 €</strong><br>
+        Kalk. Zinsen A = (100.000 + 0) / 2 × 0,08 = <strong>4.000 €</strong> &nbsp;|&nbsp; Kalk. Zinsen B = (60.000 + 0) / 2 × 0,08 = <strong>2.400 €</strong>
+      </p>
+      <table style="margin-top:0.5rem">
+        <thead><tr><th>Kostenart</th><th>Maschine A</th><th>Maschine B</th></tr></thead>
+        <tbody>
+          <tr><td>Kalk. AfA</td><td>20.000 €</td><td>12.000 €</td></tr>
+          <tr><td>Kalk. Zinsen</td><td>4.000 €</td><td>2.400 €</td></tr>
+          <tr><td>Laufende Kosten</td><td>15.000 €</td><td>25.000 €</td></tr>
+          <tr><td><strong>Gesamtkosten p.a.</strong></td><td><strong>39.000 €</strong></td><td><strong>39.400 €</strong></td></tr>
+        </tbody>
+      </table>
+      <strong>Ergebnis:</strong> Maschine A ist mit 39.000 € knapp kostengünstiger als Maschine B (39.400 €) → Maschine A wählen.
+    </div>
+
     <h3 id="kap4-2">4.2 Gewinnvergleichsrechnung</h3>
     <p>Ergänzt die Kostenvergleichsrechnung um die <strong>Erlöse</strong>. Gewählt wird die Alternative mit dem <strong>höchsten Gewinn</strong>.</p>
 
@@ -262,6 +288,20 @@
         <tr><td>Auswahlentscheidung (Kapazität unbekannt)</td><td>Ermittle Gewinn in Abhängigkeit von der voraussichtlichen Kapazitätsnutzung</td></tr>
       </tbody>
     </table>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Gewinnvergleichsrechnung (Fortsetzung Kostenvergleich)</strong><br>
+      Beide Maschinen aus dem Beispiel in 4.1 produzieren dieselbe Menge (10.000 Stück/Jahr) zum selben Verkaufspreis von 5,40 €/Stück → Erlös = 54.000 € p.a. bei beiden.
+      <table style="margin-top:0.5rem">
+        <thead><tr><th></th><th>Maschine A</th><th>Maschine B</th></tr></thead>
+        <tbody>
+          <tr><td>Erlös</td><td>54.000 €</td><td>54.000 €</td></tr>
+          <tr><td>− Gesamtkosten (aus 4.1)</td><td>39.000 €</td><td>39.400 €</td></tr>
+          <tr><td><strong>= Gewinn</strong></td><td><strong>15.000 €</strong></td><td><strong>14.600 €</strong></td></tr>
+        </tbody>
+      </table>
+      <strong>Ergebnis:</strong> Maschine A liefert mit 15.000 € auch den höheren Gewinn → Bestätigung der Entscheidung aus 4.1.
+    </div>
 
     <h3 id="kap4-3">4.3 Rentabilitätsrechnung</h3>
     <p>Setzt den Gewinn ins Verhältnis zum eingesetzten Kapital. Besonders sinnvoll beim Vergleich von Investitionen <strong>unterschiedlicher Kapitaleinsätze</strong>.</p>
@@ -287,6 +327,22 @@
         <tr><td>Auswahlentscheidung</td><td>Wähle Alternative mit <strong>höchster Rentabilität</strong></td></tr>
       </tbody>
     </table>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Rentabilitätsrechnung (Fortsetzung Gewinnvergleich)</strong><br>
+      Die kalk. Zinsen wurden in 4.1 bereits als Kosten abgezogen und müssen für die Rentabilität wieder hinzugerechnet werden.
+      <table style="margin-top:0.5rem">
+        <thead><tr><th></th><th>Maschine A</th><th>Maschine B</th></tr></thead>
+        <tbody>
+          <tr><td>Gewinn (aus 4.2)</td><td>15.000 €</td><td>14.600 €</td></tr>
+          <tr><td>+ kalk. Zinsen (aus 4.1)</td><td>4.000 €</td><td>2.400 €</td></tr>
+          <tr><td><strong>= Zähler</strong></td><td><strong>19.000 €</strong></td><td><strong>17.000 €</strong></td></tr>
+          <tr><td>Ø gebundenes Kapital = AHK / 2</td><td>50.000 €</td><td>30.000 €</td></tr>
+          <tr><td><strong>Rentabilität</strong></td><td><strong>19.000 × 100 / 50.000 = 38,0 %</strong></td><td><strong>17.000 × 100 / 30.000 = 56,7 %</strong></td></tr>
+        </tbody>
+      </table>
+      <strong>Ergebnis:</strong> Obwohl Maschine A den höheren absoluten Gewinn erzielt, ist Maschine B <strong>deutlich rentabler</strong> (56,7 % vs. 38,0 %) — sie benötigt für ihr Ergebnis viel weniger eingesetztes Kapital. Genau das zeigt, warum die reine Gewinnbetrachtung bei unterschiedlichem Kapitaleinsatz irreführend sein kann.
+    </div>
 
     <h3 id="kap4-4">4.4 Amortisationsrechnung (statisch)</h3>
     <p>Auch: Kapitalrückflussmethode / Payback-Methode. Misst die Vorteilhaftigkeit einer Investition anhand der <strong>Kapitalrückflusszeit (Amortisationsdauer)</strong>.</p>
@@ -363,6 +419,39 @@
       Abzinsungsfaktor = 1 / q<sup>n</sup> (immer &lt; 1) ; Aufzinsungsfaktor = q<sup>n</sup> (immer &gt; 1)
     </div>
 
+    <div class="two-col">
+      <div class="content-card">
+        <strong>Aufzinsen — die Denkrichtung</strong>
+        <p style="margin:0.4rem 0 0">„Was ist ein <strong>heutiger</strong> Betrag in der <strong>Zukunft</strong> wert?" Man rechnet den Zinseszinseffekt <strong>hinzu</strong> — der Betrag wird größer. Zeitpfeil: 0 → n.</p>
+      </div>
+      <div class="content-card">
+        <strong>Abzinsen — die Denkrichtung</strong>
+        <p style="margin:0.4rem 0 0">„Was ist ein <strong>zukünftiger</strong> Betrag <strong>heute</strong> wert?" Man rechnet den Zinseszinseffekt <strong>heraus</strong> — der Betrag wird kleiner. Zeitpfeil: n → 0.</p>
+      </div>
+    </div>
+
+    <div class="notice ok">
+      <strong>Merksatz</strong><br>
+      Aufzinsen = <strong>multiplizieren</strong> mit q<sup>n</sup> (mal etwas Größerem als 1) → Ergebnis wird größer.<br>
+      Abzinsen = <strong>dividieren</strong> durch q<sup>n</sup> (bzw. multiplizieren mit einem Faktor kleiner als 1) → Ergebnis wird kleiner.
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Aufzinsung</strong><br>
+      Ein Sparbetrag von 10.000 € wird 5 Jahre lang zu 4 % p. a. angelegt. Wie hoch ist das Endkapital?<br><br>
+      Gegeben: K₀ = 10.000 € ; i = 0,04 ; q = 1,04 ; n = 5<br>
+      K₅ = 10.000 × 1,04⁵ = 10.000 × 1,21665 = <strong>12.166,53 €</strong><br>
+      → Der Zinseszinseffekt hat aus 10.000 € über 5 Jahre 12.166,53 € gemacht (Zuwachs: 2.166,53 €).
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Abzinsung</strong><br>
+      In 5 Jahren soll eine Maschine für 15.000 € ersetzt werden. Kalkulationszinssatz 4 %. Wie viel müsste heute zurückgelegt werden, um diesen Betrag zu erreichen?<br><br>
+      Gegeben: K₅ = 15.000 € ; i = 0,04 ; q = 1,04 ; n = 5<br>
+      K₀ = 15.000 / 1,04⁵ = 15.000 / 1,21665 = <strong>12.328,91 €</strong><br>
+      → 12.328,73 € heute entsprechen bei 4 % Verzinsung in 5 Jahren genau 15.000 €. Das ist exakt das Prinzip, mit dem in Kapitel 5.2 alle zukünftigen Zahlungsüberschüsse auf den heutigen Zeitpunkt (t = 0) umgerechnet werden.
+    </div>
+
     <h3 id="kap5-2">5.2 Kapitalwertmethode</h3>
 
     <div class="def-box">
@@ -399,6 +488,27 @@
       </tbody>
     </table>
 
+    <div class="notice info">
+      <strong>Rechenbeispiel – Kapitalwertmethode</strong><br>
+      Anschaffungsauszahlung I₀ = 50.000 €, Nutzungsdauer 4 Jahre, Kalkulationszinssatz i = 6 % (q = 1,06), Liquidationserlös L₄ = 5.000 €.<br>
+      Geschätzte jährliche Einzahlungsüberschüsse (Eₙ − Aₙ):
+      <table style="margin-top:0.5rem">
+        <thead><tr><th>Jahr n</th><th>Einzahlungsüberschuss</th><th>Abzinsungsfaktor 1/qⁿ</th><th>Barwert</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>15.000 €</td><td>0,9434</td><td>14.150,94 €</td></tr>
+          <tr><td>2</td><td>18.000 €</td><td>0,8900</td><td>16.019,94 €</td></tr>
+          <tr><td>3</td><td>20.000 €</td><td>0,8396</td><td>16.792,39 €</td></tr>
+          <tr><td>4</td><td>12.000 €</td><td>0,7921</td><td>9.505,12 €</td></tr>
+          <tr><td>4 (Liquidationserlös)</td><td>5.000 €</td><td>0,7921</td><td>3.960,47 €</td></tr>
+        </tbody>
+      </table>
+      <p style="margin:0.5rem 0 0">
+        Σ Barwerte = 14.150,94 + 16.019,94 + 16.792,39 + 9.505,12 + 3.960,47 = <strong>60.428,86 €</strong><br>
+        C₀ = 60.428,86 € − 50.000 € = <strong>+10.428,86 €</strong>
+      </p>
+      <strong>Ergebnis:</strong> C₀ &gt; 0 → die Investition erwirtschaftet mehr als die geforderte Mindestverzinsung von 6 % — die 50.000 € Anschaffungsauszahlung werden gedeckt und zusätzlich ein Überschuss von 10.428,86 € (heutiger Wert) erzielt. <strong>Investition vorteilhaft.</strong>
+    </div>
+
     <h3 id="kap5-3">5.3 Annuitätenmethode</h3>
 
     <div class="def-box">
@@ -426,6 +536,16 @@
     <div class="notice info">
       <strong>Hinweis</strong><br>
       Die Annuitätenmethode ist eine <strong>Umrechnung des Kapitalwerts</strong> auf gleichmäßige Jahresbeträge — sie führt bei gleichen Laufzeiten zur selben Entscheidung wie die Kapitalwertmethode.
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Annuitätenmethode (Fortsetzung Kapitalwertbeispiel)</strong><br>
+      Aus 5.2: C₀ = 10.428,86 € ; n = 4 Jahre ; q = 1,06<br><br>
+      KWF = (q⁴ × (q−1)) / (q⁴ − 1) = (1,26248 × 0,06) / 0,26248 = 0,075749 / 0,26248 = <strong>0,28859</strong><br>
+      ANN = C₀ × KWF = 10.428,86 € × 0,28859 = <strong>3.009,68 €</strong>
+      <p style="margin:0.5rem 0 0">
+        <strong>Ergebnis:</strong> Der einmalige Kapitalwert von 10.428,86 € entspricht — gleichmäßig auf die 4 Nutzungsjahre verteilt — einer jährlichen Annuität von 3.009,68 €. Da ANN &gt; 0 ist, bestätigt sich die Vorteilhaftigkeit aus 5.2.
+      </p>
     </div>
 
     <h3 id="kap5-4">5.4 Methode des internen Zinsfußes</h3>
@@ -470,6 +590,25 @@
       Für die Interpolation werden <strong>zwei Versuchszinssätze</strong> benötigt: einer mit positivem Kapitalwert (i₁) und einer mit negativem Kapitalwert (i₂). Die Wahl der Versuchszinssätze beeinflusst die Genauigkeit des Ergebnisses.
     </div>
 
+    <div class="notice info">
+      <strong>Rechenbeispiel – Interpolation des internen Zinsfußes</strong><br>
+      Für eine Investition wurde der Kapitalwert bei zwei Versuchszinssätzen berechnet:
+      <table style="margin-top:0.5rem">
+        <thead><tr><th>Versuchszinssatz</th><th>Kapitalwert</th></tr></thead>
+        <tbody>
+          <tr><td>i₁ = 10 %</td><td>C₀₁ = +1.200 €</td></tr>
+          <tr><td>i₂ = 14 %</td><td>C₀₂ = −800 €</td></tr>
+        </tbody>
+      </table>
+      <p style="margin:0.5rem 0 0">
+        r = i₁ − C₀₁ × (i₂ − i₁) / (C₀₂ − C₀₁)<br>
+        r = 10 − 1.200 × (14 − 10) / (−800 − 1.200)<br>
+        r = 10 − 1.200 × 4 / (−2.000)<br>
+        r = 10 − (−2,4) = <strong>12,4 %</strong>
+      </p>
+      <strong>Ergebnis:</strong> Der interne Zinsfuß liegt bei ca. 12,4 % — zwischen den beiden Versuchszinssätzen, näher an i₁, da C₀₁ betragsmäßig kleiner war als C₀₂. Liegt die geforderte Mindestverzinsung z. B. bei 8 %, ist die Investition vorteilhaft (r &gt; i).
+    </div>
+
 
     <!-- ══════════════════════════════════════════════
          KAPITEL 6 – WIRTSCHAFTLICHE NUTZUNGSDAUER
@@ -489,6 +628,22 @@
     <div class="notice info">
       <strong>Hinweis (nicht Bestandteil des Dozentenskripts)</strong><br>
       Das Fachbuch unterscheidet zwischen <strong>einmaliger Investition</strong> (optimale ND = Jahr des maximalen Kapitalwerts) und <strong>Investitionsketten</strong> (optimale ND = Jahr des maximalen durchschnittlichen Kapitalwerts nach Annuität). Steinhofs Skript nennt nur die Grundregel.
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Wirtschaftliche Nutzungsdauer</strong><br>
+      Für eine Anlage wurde der kumulierte Kapitalwert C₀ für jedes mögliche Nutzungsjahr berechnet:
+      <table style="margin-top:0.5rem">
+        <thead><tr><th>Nutzungsjahr</th><th>Kapitalwert C₀</th></tr></thead>
+        <tbody>
+          <tr><td>1 Jahr</td><td>8.000 €</td></tr>
+          <tr><td>2 Jahre</td><td>15.000 €</td></tr>
+          <tr><td>3 Jahre</td><td><strong>19.500 € ← Maximum</strong></td></tr>
+          <tr><td>4 Jahre</td><td>17.000 €</td></tr>
+          <tr><td>5 Jahre</td><td>12.000 €</td></tr>
+        </tbody>
+      </table>
+      <strong>Ergebnis:</strong> Der Kapitalwert steigt bis zum 3. Jahr an und fällt danach wieder (ab Jahr 4 überwiegen die Wertminderung und steigende Reparaturkosten den zusätzlichen Nutzen). Die <strong>wirtschaftliche Nutzungsdauer beträgt somit 3 Jahre</strong> — auch wenn die Anlage technisch länger nutzbar wäre.
     </div>
 
 
@@ -535,7 +690,7 @@
 
 <footer class="page-footer">
   <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
-  <div>Finanzmanagement LS01 · Stand: 29.06.2026</div>
+  <div>Finanzmanagement LS01 · Stand: 02.07.2026</div>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>

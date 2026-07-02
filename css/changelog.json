@@ -1,26 +1,32 @@
 [
   {
+    "datum": "02.07.2026",
+    "eintraege": [
+      {
+        "modul": "finanz",
+        "titel": "LS01 · Investitionsrechnung – Rechenbeispiele & Rechenschemata in allen Kapiteln ergänzt (Kostenvergleich, Gewinnvergleich, Rentabilität, Auf-/Abzinsung, Kapitalwert, Annuität, interner Zinsfuß, wirtschaftliche Nutzungsdauer)",
+        "aktion": "neu"
+      }
+    ]
+  },
+  {
     "datum": "01.07.2026",
     "eintraege": [
       {
         "modul": "rewe",
-        "titel": "Quiz LS01–LS09 · Grundlagen Rechnungswesen bis Planungsrechnung (komplettes Modul, 90 Fragen)",
-        "aktion": "neu"
+        "titel": "Quiz LS01–LS09 · Grundlagen Rechnungswesen bis Planungsrechnung (komplettes Modul, 90 Fragen)"
       },
       {
         "modul": "recht",
-        "titel": "Quiz LS01–LS08 · Grundlagen des Rechts bis Weitere Steuerarten & AO (komplettes Modul, 80 Fragen)",
-        "aktion": "neu"
+        "titel": "Quiz LS01–LS08 · Grundlagen des Rechts bis Weitere Steuerarten & AO (komplettes Modul, 80 Fragen)"
       },
       {
         "modul": "bm",
-        "titel": "Quiz LS01-E · Gegenstromverfahren, LS02 · Betriebsstatistik, LS03 · Wissensmanagement & LS04 · IT im Betrieb (je 10 Fragen)",
-        "aktion": "neu"
+        "titel": "Quiz LS01-E · Gegenstromverfahren, LS02 · Betriebsstatistik, LS03 · Wissensmanagement & LS04 · IT im Betrieb (je 10 Fragen)"
       },
       {
         "modul": "bm",
-        "titel": "Quiz LS01 · Strategische & operative Planungsgrundlagen (10 Fragen)",
-        "aktion": "neu"
+        "titel": "Quiz LS01 · Strategische & operative Planungsgrundlagen (10 Fragen)"
       },
       {
         "modul": "basics",
@@ -29,18 +35,15 @@
       },
       {
         "modul": "basics",
-        "titel": "Quiz LS10 · Darlehen/Disagio, LS11 · Jahresabschluss, LS12 · KLR & LS13 · Bewertungsgrundsätze (je 12 Fragen)",
-        "aktion": "neu"
+        "titel": "Quiz LS10 · Darlehen/Disagio, LS11 · Jahresabschluss, LS12 · KLR & LS13 · Bewertungsgrundsätze (je 12 Fragen)"
       },
       {
         "modul": "basics",
-        "titel": "Quiz LS07 · Privatkonten, LS08 · Nachlässe & LS09 · Leasing (je 10 Fragen)",
-        "aktion": "neu"
+        "titel": "Quiz LS07 · Privatkonten, LS08 · Nachlässe & LS09 · Leasing (je 10 Fragen)"
       },
       {
         "modul": "basics",
-        "titel": "Quiz LS05 · GWG & LS06 · Bezugskosten (je 10 Fragen)",
-        "aktion": "neu"
+        "titel": "Quiz LS05 · GWG & LS06 · Bezugskosten (je 10 Fragen)"
       },
       {
         "modul": null,
@@ -54,8 +57,7 @@
       },
       {
         "modul": "basics",
-        "titel": "Quiz LS03 · Buchungskreislauf EBK–SBK & LS04 · Umsatzsteuer (je 10 Fragen)",
-        "aktion": "neu"
+        "titel": "Quiz LS03 · Buchungskreislauf EBK–SBK & LS04 · Umsatzsteuer (je 10 Fragen)"
       },
       {
         "modul": null,
@@ -64,18 +66,15 @@
       },
       {
         "modul": "basics",
-        "titel": "Quiz LS01 · Dreisatz & LS02 · Durchschnittsrechnung (je 10 Fragen)",
-        "aktion": "neu"
+        "titel": "Quiz LS01 · Dreisatz & LS02 · Durchschnittsrechnung (je 10 Fragen)"
       },
       {
         "modul": "finanz",
-        "titel": "Quiz LS01 · Investitionsrechnung (10 Fragen)",
-        "aktion": "neu"
+        "titel": "Quiz LS01 · Investitionsrechnung (10 Fragen)"
       },
       {
         "modul": null,
-        "titel": "❓ Quiz (Multiple Choice) – neues Lernwerkzeug, 5 Beispielfragen",
-        "aktion": "neu"
+        "titel": "❓ Quiz (Multiple Choice) – neues Lernwerkzeug, 5 Beispielfragen"
       },
       {
         "modul": null,
@@ -84,8 +83,7 @@
       },
       {
         "modul": null,
-        "titel": "🎴 Karteikarten (Leitner-System) – neues Lernwerkzeug",
-        "aktion": "neu"
+        "titel": "🎴 Karteikarten (Leitner-System) – neues Lernwerkzeug"
       },
       {
         "modul": null,
@@ -94,8 +92,7 @@
       },
       {
         "modul": "methodik",
-        "titel": "LS01 · Lernmethoden im Überblick (Eigenrecherche)",
-        "aktion": "neu"
+        "titel": "LS01 · Lernmethoden im Überblick (Eigenrecherche)"
       },
       {
         "modul": null,
@@ -104,103 +101,83 @@
       },
       {
         "modul": "basics",
-        "titel": "LS20 · Mathematische Grundlagen",
-        "aktion": "neu"
+        "titel": "LS20 · Mathematische Grundlagen"
       },
       {
         "modul": "basics",
-        "titel": "LS19 · Rentenrechnung",
-        "aktion": "neu"
+        "titel": "LS19 · Rentenrechnung"
       },
       {
         "modul": "basics",
-        "titel": "LS18 · Darlehenstilgung",
-        "aktion": "neu"
+        "titel": "LS18 · Darlehenstilgung"
       },
       {
         "modul": "basics",
-        "titel": "LS16 · Prozentrechnen – Grundlagen & Prüfungsrelevanz",
-        "aktion": "neu"
+        "titel": "LS16 · Prozentrechnen – Grundlagen & Prüfungsrelevanz"
       },
       {
         "modul": "basics",
-        "titel": "LS15 · GuV-Auswertung & Kennzahlenanalyse",
-        "aktion": "neu"
+        "titel": "LS15 · GuV-Auswertung & Kennzahlenanalyse"
       },
       {
         "modul": "basics",
-        "titel": "LS14 · Bilanzanalyse & Bilanzkritik",
-        "aktion": "neu"
+        "titel": "LS14 · Bilanzanalyse & Bilanzkritik"
       },
       {
         "modul": "basics",
-        "titel": "LS13 · Bewertungsgrundsätze nach § 252 HGB",
-        "aktion": "neu"
+        "titel": "LS13 · Bewertungsgrundsätze nach § 252 HGB"
       },
       {
         "modul": "basics",
-        "titel": "LS12 · Kosten-Leistungsrechnung (KLR) – Grundlagen",
-        "aktion": "neu"
+        "titel": "LS12 · Kosten-Leistungsrechnung (KLR) – Grundlagen"
       },
       {
         "modul": "basics",
-        "titel": "LS11 · Grundlagen des Jahresabschlusses (HGB)",
-        "aktion": "neu"
+        "titel": "LS11 · Grundlagen des Jahresabschlusses (HGB)"
       },
       {
         "modul": "basics",
-        "titel": "LS10 · Darlehen und Disagio – Buchung und Abgrenzung",
-        "aktion": "neu"
+        "titel": "LS10 · Darlehen und Disagio – Buchung und Abgrenzung"
       },
       {
         "modul": "basics",
-        "titel": "LS09 · Leasing im Rechnungswesen",
-        "aktion": "neu"
+        "titel": "LS09 · Leasing im Rechnungswesen"
       },
       {
         "modul": "basics",
-        "titel": "LS08 · Absatz: Nachlässe und Anzahlungen",
-        "aktion": "neu"
+        "titel": "LS08 · Absatz: Nachlässe und Anzahlungen"
       },
       {
         "modul": "basics",
-        "titel": "LS07 · Privatkonten im Rechnungswesen",
-        "aktion": "neu"
+        "titel": "LS07 · Privatkonten im Rechnungswesen"
       },
       {
         "modul": "basics",
-        "titel": "LS06 · Bezugskosten im Beschaffungsbereich",
-        "aktion": "neu"
+        "titel": "LS06 · Bezugskosten im Beschaffungsbereich"
       },
       {
         "modul": "basics",
-        "titel": "LS05 · Geringwertige Wirtschaftsgüter (GWG) – Abschreibung",
-        "aktion": "neu"
+        "titel": "LS05 · Geringwertige Wirtschaftsgüter (GWG) – Abschreibung"
       },
       {
         "modul": "basics",
-        "titel": "LS04 · Die Umsatzsteuer im Buchungskreislauf",
-        "aktion": "neu"
+        "titel": "LS04 · Die Umsatzsteuer im Buchungskreislauf"
       },
       {
         "modul": "basics",
-        "titel": "LS17 · Zinsrechnung – Von den Grundlagen zum Zinseszins",
-        "aktion": "neu"
+        "titel": "LS17 · Zinsrechnung – Von den Grundlagen zum Zinseszins"
       },
       {
         "modul": "basics",
-        "titel": "LS03 · Buchungskreislauf EBK–SBK",
-        "aktion": "neu"
+        "titel": "LS03 · Buchungskreislauf EBK–SBK"
       },
       {
         "modul": "basics",
-        "titel": "LS02 · Durchschnittsrechnung",
-        "aktion": "neu"
+        "titel": "LS02 · Durchschnittsrechnung"
       },
       {
         "modul": "basics",
-        "titel": "LS01 · Dreisatz – Bruchstrichmethode",
-        "aktion": "neu"
+        "titel": "LS01 · Dreisatz – Bruchstrichmethode"
       },
       {
         "modul": "vwlbwl",

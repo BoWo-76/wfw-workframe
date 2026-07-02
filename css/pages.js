@@ -94,7 +94,7 @@ const WIKI_CONFIG = {
     // ── Finanzmanagement ─────────────────────────────────────
     {
       id: "finanz_ls01", module: "finanz", title: "LS01 · Investitionsrechnung",
-      file: "pages/finanz_ls01.html", status: "fertig", updated: "29.06.2026",
+      file: "pages/finanz_ls01.html", status: "fertig", updated: "02.07.2026",
       keywords: ["investition", "finanzierung", "investitionsarten", "statische verfahren", "dynamische verfahren", "kostenvergleichsrechnung", "kapitalwertmethode", "kapitalwert", "annuitätenmethode", "interner zinsfuß", "abzinsung", "aufzinsung", "wirtschaftliche nutzungsdauer", "amortisationsdauer"]
     },
 
