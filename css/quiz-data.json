@@ -698,5 +698,285 @@
     ],
     "correctIndex": 1,
     "erklaerung": "Brutto wird durch 1,19 geteilt."
+  },
+  {
+    "id": "basics_ls05_q1",
+    "modul": "basics",
+    "ls": "basics_ls05",
+    "frage": "Welche vier Voraussetzungen muss ein GWG erfüllen?",
+    "optionen": [
+      "Beweglich, selbständig nutzungsfähig, abnutzbar, Anlagevermögen",
+      "Beweglich, Umlaufvermögen, abnutzbar, teuer",
+      "Nur beweglich und abnutzbar",
+      "Nur unter 800 €"
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Alle vier Kriterien müssen erfüllt sein."
+  },
+  {
+    "id": "basics_ls05_q2",
+    "modul": "basics",
+    "ls": "basics_ls05",
+    "frage": "Auf welche Werte beziehen sich die GWG-Grenzen?",
+    "optionen": [
+      "Bruttowerte",
+      "Nettowerte",
+      "Zeitwerte",
+      "Buchwerte"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Maßgeblich ist immer der Nettowert."
+  },
+  {
+    "id": "basics_ls05_q3",
+    "modul": "basics",
+    "ls": "basics_ls05",
+    "frage": "Bis zu welchem Nettowert ist die Sofortabschreibung möglich?",
+    "optionen": [
+      "250 €",
+      "800 €",
+      "1.000 €",
+      "1.190 €"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Bis einschließlich 800 € netto."
+  },
+  {
+    "id": "basics_ls05_q4",
+    "modul": "basics",
+    "ls": "basics_ls05",
+    "frage": "Welches Verfahren ist zwischen 800,01 € und 1.000 € ausgeschlossen?",
+    "optionen": [
+      "Sammelposten",
+      "Planmäßige AfA",
+      "Sofortabschreibung",
+      "Keine Abschreibung"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Hier ist keine Sofortabschreibung mehr zulässig."
+  },
+  {
+    "id": "basics_ls05_q5",
+    "modul": "basics",
+    "ls": "basics_ls05",
+    "frage": "Wie lange wird ein Sammelposten abgeschrieben?",
+    "optionen": [
+      "3 Jahre",
+      "4 Jahre",
+      "5 Jahre",
+      "10 Jahre"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Immer 5 Jahre mit 20 % pro Jahr."
+  },
+  {
+    "id": "basics_ls05_q6",
+    "modul": "basics",
+    "ls": "basics_ls05",
+    "frage": "Was gilt beim Sammelposten im Abgangsjahr?",
+    "optionen": [
+      "Monatsgenau",
+      "Halbes Jahr",
+      "Volle Jahres-AfA",
+      "Keine AfA"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Es gibt keine zeitanteilige Abschreibung."
+  },
+  {
+    "id": "basics_ls05_q7",
+    "modul": "basics",
+    "ls": "basics_ls05",
+    "frage": "Welche Aussage zum Wahlrecht ist richtig?",
+    "optionen": [
+      "Für jedes GWG frei wählbar",
+      "Gilt unternehmensweit für das Wirtschaftsjahr",
+      "Jeden Monat neu",
+      "Nur für Maschinen"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Entscheidung gilt einheitlich."
+  },
+  {
+    "id": "basics_ls05_q8",
+    "modul": "basics",
+    "ls": "basics_ls05",
+    "frage": "Ein USB-Kabel ist ...",
+    "optionen": [
+      "ein GWG",
+      "kein GWG wegen fehlender Selbstständigkeit",
+      "immer Sammelposten",
+      "planmäßig abzuschreiben"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Es ist nicht selbständig nutzungsfähig."
+  },
+  {
+    "id": "basics_ls05_q9",
+    "modul": "basics",
+    "ls": "basics_ls05",
+    "frage": "Formel der linearen AfA?",
+    "optionen": [
+      "AK × ND",
+      "AK ÷ ND",
+      "AK − RW",
+      "RW ÷ ND"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Anschaffungskosten geteilt durch Nutzungsdauer."
+  },
+  {
+    "id": "basics_ls05_q10",
+    "modul": "basics",
+    "ls": "basics_ls05",
+    "frage": "Welcher Fehler ist typisch?",
+    "optionen": [
+      "Nettowert verwenden",
+      "Bruttowert für Wertgrenze verwenden",
+      "GWG prüfen",
+      "Vorsteuer buchen"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Wertgrenzen gelten netto."
+  },
+  {
+    "id": "basics_ls06_q1",
+    "modul": "basics",
+    "ls": "basics_ls06",
+    "frage": "Was sind Bezugskosten?",
+    "optionen": [
+      "Rabatte",
+      "Anschaffungsnebenkosten",
+      "Skonti",
+      "Abschreibungen"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Sie fallen zusätzlich zum Warenwert an."
+  },
+  {
+    "id": "basics_ls06_q2",
+    "modul": "basics",
+    "ls": "basics_ls06",
+    "frage": "Welche Kontenklasse nutzt die bestandsorientierte Methode?",
+    "optionen": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Bestände werden aktiviert."
+  },
+  {
+    "id": "basics_ls06_q3",
+    "modul": "basics",
+    "ls": "basics_ls06",
+    "frage": "Welche Kontenklasse nutzt die aufwandsorientierte Methode?",
+    "optionen": [
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Aufwand wird sofort gebucht."
+  },
+  {
+    "id": "basics_ls06_q4",
+    "modul": "basics",
+    "ls": "basics_ls06",
+    "frage": "Wann entsteht bei der bestandsorientierten Methode Aufwand?",
+    "optionen": [
+      "Sofort",
+      "Erst beim Verbrauch",
+      "Gar nicht",
+      "Beim Einkauf"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Der Einkauf erhöht zunächst den Bestand."
+  },
+  {
+    "id": "basics_ls06_q5",
+    "modul": "basics",
+    "ls": "basics_ls06",
+    "frage": "Wie werden Bezugskosten bei der aufwandsorientierten Methode behandelt?",
+    "optionen": [
+      "Aktiviert",
+      "Sofort als Aufwand",
+      "Gar nicht",
+      "Als Eigenkapital"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Sie folgen der Methode."
+  },
+  {
+    "id": "basics_ls06_q6",
+    "modul": "basics",
+    "ls": "basics_ls06",
+    "frage": "Welchen Steuersatz haben Bezugskosten i.d.R.?",
+    "optionen": [
+      "7 %",
+      "19 % unabhängig",
+      "Wie die Hauptleistung",
+      "Keine USt"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Nebenleistung teilt das Schicksal der Hauptleistung."
+  },
+  {
+    "id": "basics_ls06_q7",
+    "modul": "basics",
+    "ls": "basics_ls06",
+    "frage": "Was ist eine typische Prüfungsfalle?",
+    "optionen": [
+      "Vorsteuer buchen",
+      "Methode verwechseln",
+      "Soll an Haben",
+      "Netto rechnen"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Immer zuerst die Methode prüfen."
+  },
+  {
+    "id": "basics_ls06_q8",
+    "modul": "basics",
+    "ls": "basics_ls06",
+    "frage": "Was passiert mit dem Unterkonto am Jahresende?",
+    "optionen": [
+      "Direkt ins SBK",
+      "Über das Hauptkonto abschließen",
+      "Löschen",
+      "In die GuV"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Unterkonto wird über das Hauptkonto abgeschlossen."
+  },
+  {
+    "id": "basics_ls06_q9",
+    "modul": "basics",
+    "ls": "basics_ls06",
+    "frage": "Welche Aussage ist richtig?",
+    "optionen": [
+      "Bestandsorientiert mindert sofort den Gewinn",
+      "Aufwandsorientiert mindert sofort den Gewinn",
+      "Beide nie",
+      "Keine"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Nur aufwandsorientiert wirkt sofort erfolgswirksam."
+  },
+  {
+    "id": "basics_ls06_q10",
+    "modul": "basics",
+    "ls": "basics_ls06",
+    "frage": "Erster Schritt der Checkliste?",
+    "optionen": [
+      "Vorsteuer berechnen",
+      "Methode klären",
+      "Abschluss buchen",
+      "Steuersatz suchen"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Buchungsmethode bestimmt alle Konten."
   }
 ]

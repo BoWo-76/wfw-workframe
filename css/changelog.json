@@ -3,6 +3,11 @@
     "datum": "01.07.2026",
     "eintraege": [
       {
+        "modul": "basics",
+        "titel": "Quiz LS05 · GWG & LS06 · Bezugskosten (je 10 Fragen)",
+        "aktion": "neu"
+      },
+      {
         "modul": null,
         "titel": "Quiz: Gesamtstatistik auf Dashboard (gestellt/richtig/falsch/Quote)",
         "aktion": "update"
