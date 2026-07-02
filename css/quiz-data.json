@@ -278,5 +278,565 @@
     ],
     "correctIndex": 3,
     "erklaerung": "Das Unternehmen nutzt eine interne Stärke (automatisierte Anlage), um eine externe Chance (Nachfrage nach Same-Day-Delivery) auszuschöpfen. Das entspricht der SO-Strategie."
+  },
+  {
+    "id": "bm_ls01e_q1",
+    "modul": "bm",
+    "ls": "bm_ls01e",
+    "frage": "Welches planerische Werkzeug eignet sich am besten, wenn strategische Rahmenziele der Geschäftsführung so heruntergebrochen werden sollen, dass sie in der Praxis sowohl realistisch umsetzbar als auch von den Mitarbeitern akzeptiert sind?",
+    "optionen": [
+      "Reine Top-Down-Planung",
+      "SWOT-Analyse",
+      "Gegenstromverfahren",
+      "SMART-Formel"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das Gegenstromverfahren verbindet die Zielorientierung von oben (Top-Down) mit der Realisierbarkeit und Akzeptanz von unten (Bottom-Up)."
+  },
+  {
+    "id": "bm_ls01e_q2",
+    "modul": "bm",
+    "ls": "bm_ls01e",
+    "frage": "Ein Transportunternehmen möchte seine CO₂-Emissionen senken. Die Geschäftsleitung gibt das Rahmenziel „−15 % bis 2028“ an den Fuhrpark aus. Welcher Phase des Gegenstromverfahrens entspricht dieser Schritt?",
+    "optionen": [
+      "Bottom-Up (Aufstrom)",
+      "Koordination & Freigabe",
+      "Top-Down (Abstrom)",
+      "Operative Rückmeldung"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Wenn die Vorgaben, Budgets oder Rahmenziele von der Unternehmensleitung nach unten an die nachgelagerten Hierarchieebenen ausgegeben werden, spricht man vom Top-Down-Abstrom."
+  },
+  {
+    "id": "bm_ls01e_q3",
+    "modul": "bm",
+    "ls": "bm_ls01e",
+    "frage": "Was passiert in der „Bottom-Up-Phase“ (Aufstrom) des Gegenstromverfahrens?",
+    "optionen": [
+      "Die Geschäftsführung verabschiedet den finalen Gesamtplan im Alleingang.",
+      "Nachgelagerte Stellen prüfen die Vorgaben auf Machbarkeit und melden konkrete Teilpläne oder Anpassungswünsche zurück.",
+      "Externe Berater analysieren die Marktchancen des Unternehmens.",
+      "Die Abteilungsleiter definieren die langfristige Vision für die nächsten 10 Jahre."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Im Bottom-Up-Strom melden die operativen Einheiten basierend auf ihren tatsächlichen Ressourcen zurück, was in der Praxis realisierbar ist."
+  },
+  {
+    "id": "bm_ls01e_q4",
+    "modul": "bm",
+    "ls": "bm_ls01e",
+    "frage": "Ein Speditionsleiter stellt fest: „Die von oben diktierten Sparziele sind im Alltag völlig unrealistisch, und das Team fühlt sich bei der Planung komplett übergangen.“ Welches Verfahren löst diese beiden Probleme gezielt?",
+    "optionen": [
+      "Das Gegenstromverfahren",
+      "Reine Top-Down-Budgetierung",
+      "Einseitige Kennzahlenoptimierung",
+      "Die SWOT-Analyse"
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Die Kernstärken des Gegenstromverfahrens sind die hohe Realisierbarkeit (da die operative Ebene Kapazitäten einbringt) und die hohe Mitarbeiterakzeptanz (durch die aktive Beteiligung)."
+  },
+  {
+    "id": "bm_ls01e_q5",
+    "modul": "bm",
+    "ls": "bm_ls01e",
+    "frage": "Ein Lagerleiter führt Schichtkürzungen durch, um kurzfristig die Personalkosten zu senken. In der Folge steigt die Fehlkommissionierquote drastisch und die Kundenzufriedenheit sinkt. Welcher Management-Fehler liegt hier vor?",
+    "optionen": [
+      "Ein Verstoß gegen das Niederstwertprinzip",
+      "Ein unausgewogenes Zielsystem (Fokus auf nur eine Perspektive)",
+      "Die Anwendung der SMART-Formel",
+      "Ein reines Bottom-Up-Verfahren"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Ein ausgewogenes Zielsystem darf keine Perspektive einseitig dominieren lassen. Hier wurde die Finanzperspektive auf Kosten der Prozess- und Kundenqualität optimiert."
+  },
+  {
+    "id": "bm_ls01e_q6",
+    "modul": "bm",
+    "ls": "bm_ls01e",
+    "frage": "Ein Logistikunternehmen führt Ergonomie-Schulungen im Umschlagslager durch, um die Fluktuation und den Krankenstand der Mitarbeiter zu senken. Welcher Perspektive des ausgewogenen Zielsystems ist diese Primärmaßnahme zuzuordnen?",
+    "optionen": [
+      "Finanzperspektive",
+      "Kundenperspektive",
+      "Prozessperspektive",
+      "Mitarbeiterperspektive"
+    ],
+    "correctIndex": 3,
+    "erklaerung": "Maßnahmen wie Schulungen, die Steigerung der Zufriedenheit oder das Wissensmanagement betreffen direkt die Mitarbeiterperspektive (Zukunftspotenzial)."
+  },
+  {
+    "id": "bm_ls01e_q7",
+    "modul": "bm",
+    "ls": "bm_ls01e",
+    "frage": "Ein Disponent senkt durch die Optimierung der Tourenplanung die Pick-and-Pack-Zeiten sowie die Durchlaufzeiten im Lager. Welche Perspektive des Zielsystems wird hierdurch primär verbessert?",
+    "optionen": [
+      "Kundenperspektive",
+      "Prozessperspektive",
+      "Mitarbeiterperspektive",
+      "Finanzperspektive"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Effizienz, Qualität und Schnelligkeit von internen Abläufen (wie Kommissionierung oder Durchlaufzeiten) gehören zur Prozessperspektive."
+  },
+  {
+    "id": "bm_ls01e_q8",
+    "modul": "bm",
+    "ls": "bm_ls01e",
+    "frage": "Das Management erhöht das Budget für die Qualifikation der Beschäftigten. Welcher typischen Wirkungskette folgt ein ausgewogenes Zielsystem im Regelfall?",
+    "optionen": [
+      "Finanzen → Kunden → Prozesse → Mitarbeiter",
+      "Mitarbeiter → Prozesse → Kunden → Finanzen",
+      "Kunden → Finanzen → Mitarbeiter → Prozesse",
+      "Prozesse → Finanzen → Kunden → Mitarbeiter"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die logische Kette besagt: Besser qualifizierte Mitarbeiter optimieren die internen Prozesse, was die Servicequalität für den Kunden erhöht und letztlich den finanziellen Erfolg sichert."
+  },
+  {
+    "id": "bm_ls01e_q9",
+    "modul": "bm",
+    "ls": "bm_ls01e",
+    "frage": "Eine Spedition gibt als Ziel aus: „Die Termintreue in der Niederlassung Trier soll bis zum Jahresende spürbar verbessert werden.“ Warum ist dieses Ziel laut SMART-Formel fehlerhaft?",
+    "optionen": [
+      "Es ist nicht terminiert.",
+      "Es ist nicht spezifisch genug, da der Standort fehlt.",
+      "Es fehlt ein konkreter Zielwert oder eine Kennzahl, womit es nicht messbar ist.",
+      "Es enthält zwei konkurrierende Ziele in einer Formulierung."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Trotz Angabe eines Termins („Jahresende“) ist die Formulierung „spürbar verbessert“ vage und nicht messbar. Es fehlt ein exakter Zielwert (z. B. „auf mindestens 98 %“)."
+  },
+  {
+    "id": "bm_ls01e_q10",
+    "modul": "bm",
+    "ls": "bm_ls01e",
+    "frage": "Welche der folgenden Zielformulierungen ist im Sinne der operativen Planung vollständig SMART-konform?",
+    "optionen": [
+      "Wir müssen im nächsten Jahr im Lager einfach sorgfältiger arbeiten und die Fehler abstellen.",
+      "Die Treibstoffkosten der Niederlassung Trier sind im Geschäftsjahr 2026 durch Routenplanung um 5 % gegenüber dem Vorjahr zu senken.",
+      "Die Kundenzufriedenheit im Fernverkehr soll bis zum 31.12.2027 deutlich erhöht werden.",
+      "Die Auslastung der Fahrzeuge soll schnellstmöglich optimiert werden."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Diese Option erfüllt alle Kriterien: Spezifisch (Treibstoffkosten, Trier, Routenplanung), Messbar (5 %), Realistisch, und klar Terminiert (Geschäftsjahr 2026). Alle anderen Optionen enthalten vage Begriffe wie „sorgfältiger“ oder „deutlich“."
+  },
+  {
+    "id": "bm_ls02_q1",
+    "modul": "bm",
+    "ls": "bm_ls02",
+    "frage": "Welches Instrument der Vergleichsrechnung liegt vor, wenn ein Logistikunternehmen seine aktuellen Lagerkosten pro Quadratmeter mit dem offiziellen Branchendurchschnitt oder direkten Mitbewerbern vergleicht?",
+    "optionen": [
+      "Zeitvergleich",
+      "Soll-Ist-Vergleich",
+      "Planungsrechnung",
+      "Betriebsvergleich (interbetrieblich)"
+    ],
+    "correctIndex": 3,
+    "erklaerung": "Der interbetriebliche Betriebsvergleich (auch Benchmarking genannt) vergleicht die eigenen Kennzahlen mit Wettbewerbern oder dem Branchendurchschnitt, um die eigene Wettbewerbsposition zu bestimmen."
+  },
+  {
+    "id": "bm_ls02_q2",
+    "modul": "bm",
+    "ls": "bm_ls02",
+    "frage": "Ein Controller stellt fest: „Unser Gewinn im ersten Quartal lag bei genau 72.000 €.“ Um welche Art von Kennzahl handelt es sich hierbei und wie ist deren Aussagekraft isoliert zu bewerten?",
+    "optionen": [
+      "Es ist eine Verhältniskennzahl; sie ist sofort uneingeschränkt aussagekräftig.",
+      "Es ist eine absolute Kennzahl; sie besitzt isoliert betrachtet kaum Aussagekraft über die wirtschaftliche Lage.",
+      "Es ist ein mathematisches Kennzahlensystem mit hoher Aussagekraft.",
+      "Es ist eine Richtwertkennzahl für die Liquidität."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Absolute Kennzahlen sind unverbundene Einzelwerte. Sie sagen allein wenig aus – erst die Relation zu einer Bezugsgröße (z. B. dem eingesetzten Kapital als Rentabilität) macht sie vergleichbar."
+  },
+  {
+    "id": "bm_ls02_q3",
+    "modul": "bm",
+    "ls": "bm_ls02",
+    "frage": "Nach welchem statistischen Verfahren werden Güter im Lager so klassifiziert, dass die Klasse mit dem höchsten Wertanteil (ca. 70–80 %) den geringsten Mengenanteil (ca. 10–20 %) aufweist?",
+    "optionen": [
+      "XYZ-Analyse",
+      "Soll-Ist-Vergleich",
+      "ABC-Analyse",
+      "DuPont-Kennzahlenbaum"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die ABC-Analyse klassifiziert Datenmengen nach ihrer ökonomischen Bedeutung. A-Güter haben einen hohen Wertanteil (70–80 %), aber einen geringen Mengenanteil (10–20 %)."
+  },
+  {
+    "id": "bm_ls02_q4",
+    "modul": "bm",
+    "ls": "bm_ls02",
+    "frage": "Warum werden bei der Berechnung der Gesamtkapitalrentabilität die Fremdkapitalzinsen dem Gewinn (Jahresüberschuss) wieder hinzugerechnet?",
+    "optionen": [
+      "Weil Fremdkapitalzinsen steuerlich nicht absetzbar sind.",
+      "Weil sie den Ertrag des Fremdkapitals darstellen und vor dem Abfluss an die Gläubiger mit dem gesamten Kapital erwirtschaftet wurden.",
+      "Um den Kapitalumschlag künstlich zu erhöhen.",
+      "Weil die Goldene Bilanzregel dies zwingend vorschreibt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Gesamtkapitalrentabilität misst die Ertragskraft des gesamten Kapitals. Da die FK-Zinsen der Ertrag für die Fremdkapitalgeber sind und im Betrieb erwirtschaftet wurden, gehören sie in die Zähler-Formel."
+  },
+  {
+    "id": "bm_ls02_q5",
+    "modul": "bm",
+    "ls": "bm_ls02",
+    "frage": "Ein Transportunternehmen benötigt für die exakt gleiche Menge an erbrachten Tonnenkilometern (tkm) im aktuellen Monat mehr Arbeitsstunden als im Vormonat. Wie haben sich Produktivität und Wirtschaftlichkeit im Regelfall entwickelt?",
+    "optionen": [
+      "Die Produktivität ist gesunken; ohne Euro-Beträge ist die Wirtschaftlichkeit nicht direkt ablesbar, hat sich bei gleichen Stundensätzen aber verschlechtert.",
+      "Die Wirtschaftlichkeit ist gestiegen, während die Produktivität konstant geblieben ist.",
+      "Beide Kennzahlen sind völlig unverändert geblieben.",
+      "Die Produktivität ist gestiegen, da mehr Input geleistet wurde."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Produktivität ist eine reine mengenmäßige Relation (Menge/Menge). Wenn für den gleichen Output mehr Input (Stunden) nötig war, sinkt die Produktivität. Wirtschaftlichkeit betrifft die wertmäßige Relation (Euro/Euro)."
+  },
+  {
+    "id": "bm_ls02_q6",
+    "modul": "bm",
+    "ls": "bm_ls02",
+    "frage": "Welcher Richtwert gilt in IHK-Klausuren üblicherweise als anzustrebende Zielgröße für den Liquiditätsgrad 2 (Einzugsliquidität)?",
+    "optionen": [
+      "10–20 %",
+      "Genau 50 %",
+      "> 100 %",
+      "150–200 %"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Für den Liquiditätsgrad 2 gilt der feste Richtwert von über 100 %, damit die kurzfristigen Verbindlichkeiten durch flüssige Mittel und kurzfristige Forderungen gedeckt sind."
+  },
+  {
+    "id": "bm_ls02_q7",
+    "modul": "bm",
+    "ls": "bm_ls02",
+    "frage": "Ein Unternehmen erhöht seine Kassenbestände massiv, um die Zahlungsfähigkeit absolut abzusichern. Welcher klassische Zielkonflikt wird hierbei im Finanzmanagement berührt?",
+    "optionen": [
+      "Der Konflikt zwischen Produktivität und Wirtschaftlichkeit",
+      "Der Rentabilitäts-Liquiditäts-Konflikt",
+      "Der Konflikt zwischen Sachzielen und Formalzielen",
+      "Der Konflikt des Gegenstromverfahrens"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Hohe Barbestände sichern zwar die Liquidität (Sicherheit), werfen aber keine Erträge ab. Dadurch sinkt die Rentabilität, weil das Kapital nicht wertschöpfend arbeitet."
+  },
+  {
+    "id": "bm_ls02_q8",
+    "modul": "bm",
+    "ls": "bm_ls02",
+    "frage": "Was besagt die „Goldene Bilanzregel“ bezüglich des Anlagendeckungsgrades 2?",
+    "optionen": [
+      "Das Umlaufvermögen muss größer sein als das Anlagevermögen.",
+      "Das kurzfristige Fremdkapital muss die flüssigen Mittel zu 100 % decken.",
+      "Das langfristig im Unternehmen gebundene Anlagevermögen sollte vollständig durch langfristiges Kapital (EK + langfr. FK) gedeckt sein (Wert ≥ 100 %).",
+      "Der Gewinn muss mindestens 15 % des Eigenkapitals betragen."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Nach der Goldenen Bilanzregel muss der Anlagendeckungsgrad 2 mindestens 100 % betragen. Langfristig gebundenes Vermögen muss auch langfristig finanziert sein."
+  },
+  {
+    "id": "bm_ls02_q9",
+    "modul": "bm",
+    "ls": "bm_ls02",
+    "frage": "Wie unterscheidet sich die Planungsrechnung methodisch von der Betriebsstatistik?",
+    "optionen": [
+      "Die Planungsrechnung nutzt nur externe Daten, die Betriebsstatistik nur interne.",
+      "Die Betriebsstatistik blickt zurück (Vergangenheit/Gegenwart), während die Planungsrechnung zukunftsorientiert ist und Prognosen vorbereitet.",
+      "Es gibt keinen Unterschied, beide Begriffe beschreiben dasselbe Werkzeug.",
+      "Die Planungsrechnung erfasst nur Mengen, die Betriebsstatistik nur Euro-Werte."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Betriebsstatistik bereitet die Daten der Vergangenheit und Gegenwart auf. Auf dieser Basis baut die Planungsrechnung auf, um zukünftige Entwicklungen und Budgets abzufragen."
+  },
+  {
+    "id": "bm_ls02_q10",
+    "modul": "bm",
+    "ls": "bm_ls02",
+    "frage": "Ein Logistikleiter vergleicht die geplanten Transportkosten des ersten Quartals (Soll: 45.000 €) mit den tatsächlich angefallenen Kosten (Ist: 49.500 €). Welchen Zweck erfüllt dieser spezifische Vergleich primär?",
+    "optionen": [
+      "Er dient dem interbetrieblichen Benchmarking mit der Konkurrenz.",
+      "Er dient der Ermittlung von langfristigen Trends über 5 Jahre.",
+      "Er dient als Basis für die Kontrolle und das operative Controlling, um Abweichungen sichtbar zu machen.",
+      "Er dient der Berechnung des Return on Investment (ROI)."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Ein Soll-Ist-Vergleich stellt Planwerte den Realwerten gegenüber und liefert damit die entscheidende Datenbasis für das operative Controlling, um Abweichungen zu analysieren."
+  },
+  {
+    "id": "bm_ls03_q1",
+    "modul": "bm",
+    "ls": "bm_ls03",
+    "frage": "Ein Logistikunternehmen verankert im Leitbild, dass Wissen als strategische Ressource gilt. Die Geschäftsführung entscheidet daraufhin, in den nächsten drei Jahren gezielt Kompetenzen im Bereich Gefahrgut (ADR) aufzubauen. Welche Ebenen des Wissensmanagements werden hier nacheinander angesprochen?",
+    "optionen": [
+      "Operativ, danach strategisch",
+      "Normativ, danach strategisch",
+      "Strategisch, danach operativ",
+      "Normativ, danach operativ"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Grundsätzliche Werthaltungen, Leitlinien und die Unternehmenskultur betreffen die normative Ebene (das „Warum“). Die Festlegung langfristiger Wissensfelder und Schwerpunkte für die nächsten Jahre entspricht der strategischen Ebene (das „Was“)."
+  },
+  {
+    "id": "bm_ls03_q2",
+    "modul": "bm",
+    "ls": "bm_ls03",
+    "frage": "Welches übergeordnete Ziel verfolgt das strategische Führungskonzept des Wissensmanagements in Bezug auf die langfristige Entwicklung des Gesamtunternehmens?",
+    "optionen": [
+      "Es dient als einmaliges IT-Projekt zur Serverbereinigung.",
+      "Es leistet einen wesentlichen Beitrag zur Veränderungskompetenz des Unternehmens.",
+      "Es soll ausschließlich die Anzahl der wöchentlichen Meetings reduzieren.",
+      "Es bezweckt die vollständige Automatisierung aller Abteilungen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Wissensmanagement ist kein reines IT-Thema und kein einmaliges Projekt, sondern eine dauerhafte Führungstask. Das übergeordnete Ziel ist es, die Veränderungskompetenz der Organisation zu stärken."
+  },
+  {
+    "id": "bm_ls03_q3",
+    "modul": "bm",
+    "ls": "bm_ls03",
+    "frage": "Ein Ordnungsmodell im Wissensmanagement unterscheidet Wissen entlang dreier Achsen: implizit/explizit, individuell/kollektiv und intern/extern. Wie wird dieses Modell genannt?",
+    "optionen": [
+      "Wissensaudit",
+      "Der Wissenswürfel",
+      "Die Wissenslandkarte",
+      "Der Managementregelkreis"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Der Wissenswürfel ist ein Ordnungsmodell, das Wissen anhand dieser drei Dimensionen systematisiert, um daraus passende Ziele und Maßnahmen abzuleiten."
+  },
+  {
+    "id": "bm_ls03_q4",
+    "modul": "bm",
+    "ls": "bm_ls03",
+    "frage": "Eine Spedition führt bis zum Ende des Quartals eine konkrete Schulungsmaßnahme für zehn neue Disponenten durch, um Doppelarbeiten in der Tourenplanung zu vermeiden. Welcher Ebene des Wissensmanagements ist diese Maßnahme zuzuordnen?",
+    "optionen": [
+      "Normative Ebene",
+      "Strategische Ebene",
+      "Operative Ebene",
+      "Wissenskultur"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Konkrete Maßnahmen im Alltag, die festlegen, „wer, was, bis wann und wie“ umsetzt, gehören zur operativen Ebene."
+  },
+  {
+    "id": "bm_ls03_q5",
+    "modul": "bm",
+    "ls": "bm_ls03",
+    "frage": "Eine erfahrene Zollsachbearbeiterin löst hochkomplexe Verzollungsfälle routiniert mit viel „Fingerspitzengefühl“, hat ihr Vorgehen jedoch nie aufgeschrieben. Um welche Wissensart handelt es sich primär?",
+    "optionen": [
+      "Explizites Wissen",
+      "Strukturelles Wissen",
+      "Implizites Wissen",
+      "Externes Wissen"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Implizites Wissen (stilles Wissen oder Erfahrungswissen) entsteht durch persönliche Erfahrung. Es ist fest im Unterbewusstsein verankert, nicht ohne Weiteres verbalisierbar und nicht dokumentiert."
+  },
+  {
+    "id": "bm_ls03_q6",
+    "modul": "bm",
+    "ls": "bm_ls03",
+    "frage": "Warum scheitert der Versuch, das tiefe Erfahrungswissen eines ausscheidenden Experten ausschließlich über die Einführung eines Dokumentenmanagementsystems (DMS) im Unternehmen zu sichern?",
+    "optionen": [
+      "Ein DMS kann nur innerhalb von Netzwerken zwischen Unternehmen genutzt werden.",
+      "Ein DMS erzeugt kein neues Wissen, sondern verwaltet lediglich bereits explizites (dokumentiertes) Wissen.",
+      "Ein DMS ist nur für die normative Ebene der Unternehmenspolitik geeignet.",
+      "Weil ein DMS ausschließlich für Marktstudien und Patente verwendet werden darf."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Ein DMS verwaltet und speichert nur explizites Wissen. Implizites, personengebundenes Erfahrungswissen muss zuerst durch Methoden wie Mentoring, Wissenswerkstätten oder Storytelling in Worte gefasst und „explizit gemacht“ werden."
+  },
+  {
+    "id": "bm_ls03_q7",
+    "modul": "bm",
+    "ls": "bm_ls03",
+    "frage": "Wie unterscheidet sich Coaching methodisch vom klassischen Mentoring?",
+    "optionen": [
+      "Der Coach gibt sein Fachwissen und seine Kontakte direkt und aktiv an den Mitarbeiter weiter.",
+      "Beim Coaching führt der Coach den Mitarbeiter durch gezielte Fragen zur eigenen Lösung (Hilfe zur Selbsthilfe), ohne Inhalte direkt vorzugeben.",
+      "Coaching befasst sich ausschließlich mit der Einführung in informelle Netzwerke des Betriebs.",
+      "Mentoring ist im Gegensatz zu Coaching eine reine Online-Schulung."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Während ein Mentor sein Wissen und seine Erfahrungen direkt und aktiv weitergibt, nimmt ein Coach eine neutrale Position ein und gibt keine Lösungen vor, sondern regt zur Selbstreflexion an („Hilfe zur Selbsthilfe“)."
+  },
+  {
+    "id": "bm_ls03_q8",
+    "modul": "bm",
+    "ls": "bm_ls03",
+    "frage": "Welche zwei Kernvoraussetzungen müssen zwingend erfüllt sein, damit ein Wissensnetzwerk zwischen verschiedenen Unternehmen in einer Region erfolgreich funktionieren kann?",
+    "optionen": [
+      "Ein hohes Budget für TV-Werbung und die Nutzung derselben Software.",
+      "Das Engagement der Unternehmensleitung für das Netzwerk sowie gemeinsame Interessen der teilnehmenden Betriebe.",
+      "Der vollständige Verzicht auf eine eigene Unternehmenskultur und die Löschung aller Patente.",
+      "Eine identische Mitarbeiteranzahl und die Rechtsform einer AG."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Laut Skript sind das Engagement der Unternehmensleitung und das Vorliegen gemeinsamer Interessen die grundlegenden Voraussetzungen für interbetriebliche Netzwerke."
+  },
+  {
+    "id": "bm_ls03_q9",
+    "modul": "bm",
+    "ls": "bm_ls03",
+    "frage": "Ein Unternehmen versteht unter „kollektivem Wissen“ fälschlicherweise einfach die „Summe des Wissens aller Mitarbeiter“. Was beschreibt kollektives Wissen in der betrieblichen Praxis tatsächlich?",
+    "optionen": [
+      "Die persönlichen Profile der Mitarbeiter auf Plattformen wie LinkedIn oder Xing.",
+      "Den mathematischen Durchschnitt aller Schulungsnoten im Betrieb.",
+      "Gemeinsame Prozesse, Routinen, Praktiken und Normen innerhalb von Arbeitsgruppen oder des gesamten Unternehmens.",
+      "Das rein theoretische Regel- und Faktenwissen in externen Gesetzesbüchern."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Kollektives Wissen bezieht sich nicht auf die bloße Anzahl von Personen oder angehäuftes Einzelwissen, sondern auf die geteilten Routinen, Praktiken und gemeinsamen Prozesse einer Gruppe oder Organisation."
+  },
+  {
+    "id": "bm_ls03_q10",
+    "modul": "bm",
+    "ls": "bm_ls03",
+    "frage": "In welcher Reihenfolge durchläuft ein systematischer Aufbau des Wissensmanagements die klassischen 5 Stufen?",
+    "optionen": [
+      "Wissenserwerb → Wissensnutzung → Wissensziele → Wissensbewertung → Weiterentwicklung",
+      "Wissensziele → Wissenserwerb → Weiterentwicklung & Anpassung → Wissensnutzung → Wissensbewertung",
+      "Wissensbewertung → Wissensnutzung → Weiterentwicklung → Wissenserwerb → Wissensziele",
+      "Weiterentwicklung → Wissensziele → Wissenserwerb → Wissensbewertung → Wissensnutzung"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Der korrekte Ablauf startet mit der Definition der Wissensziele (Ziel setzen), gefolgt vom Wissenserwerb, der Weiterentwicklung/Anpassung, der eigentlichen Wissensnutzung im Alltag und schließt mit der Wissensbewertung ab."
+  },
+  {
+    "id": "bm_ls04_q1",
+    "modul": "bm",
+    "ls": "bm_ls04",
+    "frage": "Welches Element gehört laut der spezifischen Dozentenfolie zur IT-Infrastruktur, obwohl es sich methodisch eher um eine reine Kommunikationsanwendung als um einen klassischen IT-Basisbaustein handelt?",
+    "optionen": [
+      "Data-Warehouse",
+      "Enterprise Resource Planning (ERP)",
+      "Fax",
+      "Management-Informationssystem (MIS)"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Laut Dozentenfolie setzt sich die IT-Infrastruktur aus sieben Elementen zusammen: Hardware, Datenbanken, Netzwerke, Software, Sicherungssysteme, Fax und Video. Fax und Video werden hier explizit als Infrastrukturelemente aufgeführt."
+  },
+  {
+    "id": "bm_ls04_q2",
+    "modul": "bm",
+    "ls": "bm_ls04",
+    "frage": "Die IT-Leiterin der WordingArt-GmbH soll dem Geschäftsführer erklären, warum das Unternehmen überhaupt Geld in ein modernes IT-System investieren sollte. Welche Antwort deckt die geforderten Aspekte der IHK-Prüfungsfalle vollständig ab?",
+    "optionen": [
+      "Ein IT-System dient ausschließlich dem Zweck, die Hardware-Komponenten im Büro zu erneuern.",
+      "Die Antwort muss sowohl die konkreten Ziele (z. B. Verdichtung von Daten, aktuelle Darlegung) als auch die Einsatzmöglichkeiten (z. B. Auftragsbearbeitung) abdecken.",
+      "Ein IT-System wird nur benötigt, um die gesetzlichen Vorgaben der Marktforschungsinstitute zu erfüllen.",
+      "Die Antwort beschränkt sich rein auf die Reduzierung der laufenden Betriebskosten."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Vorsicht vor der Prüfungsfalle: Bei der Frage nach der Notwendigkeit eines IT-Systems verlangt die IHK eine Kombination aus den Zielen (Erhöhung der Effizienz, Datenverdichtung) und den konkreten Einsatzmöglichkeiten (Datenbanken, Auftragsbearbeitung)."
+  },
+  {
+    "id": "bm_ls04_q3",
+    "modul": "bm",
+    "ls": "bm_ls04",
+    "frage": "Die WordingArt-GmbH möchte für ihre intelligenten Textilien Daten über neue Markttrends einholen. Welche der folgenden Quellen stellt eine „externe Informationsquelle“ dar?",
+    "optionen": [
+      "Die Personalabteilung mit den Arbeitszeiten der 3.000 Mitarbeiter.",
+      "Die Entwicklungsabteilung (F & E) mit den internen Projektdaten.",
+      "Ein unabhängiges Marktforschungsinstitut oder das Statistische Bundesamt.",
+      "Die Bestandsdaten aus dem eigenen Beschaffungslager."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Interne Quellen stammen direkt aus den eigenen Unternehmensprozessen. Externe Quellen wie Behörden, Verbände, Internetrecherchen oder Marktforschungsinstitute liefern Daten von außerhalb des Unternehmens."
+  },
+  {
+    "id": "bm_ls04_q4",
+    "modul": "bm",
+    "ls": "bm_ls04",
+    "frage": "Worin liegt der wesentliche Unterschied zwischen einem Warenwirtschaftssystem (WWS) und einem Enterprise-Resource-Planning-System (ERP)?",
+    "optionen": [
+      "Ein WWS ist plattformunabhängig, während ein ERP-System nur auf mobilen Endgeräten läuft.",
+      "Ein WWS verwaltet primär die reinen Warenströme, während ein ERP-System alle Unternehmensbereiche (Finanzen, Personal, Produktion etc.) integriert auf einer gemeinsamen Datenbasis steuert.",
+      "Das WWS ist dem ERP-System hierarchisch übergeordnet und steuert dieses.",
+      "Es gibt keinen Unterschied, beide Begriffe beschreiben exakt dieselbe Softwarefunktion."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Ein WWS beschränkt sich auf den Material- und Warenfluss (Einkauf, Lager, Verkauf). Ein ERP-System hingegen ist ganzheitlich und integriert sämtliche Ressourcen und Funktionsbereiche des gesamten Betriebs."
+  },
+  {
+    "id": "bm_ls04_q5",
+    "modul": "bm",
+    "ls": "bm_ls04",
+    "frage": "Ein Controller erklärt: „Das Data-Warehouse sammelt und konsolidiert die Daten aus verschiedenen Quellen, während das Management-Informationssystem (MIS) diese Daten gezielt für das Management auswertet.“ Ist diese Aussage korrekt?",
+    "optionen": [
+      "Nein, das MIS sammelt die Rohdaten und das Data-Warehouse erstellt die Berichte.",
+      "Ja, die Kurzlogik lautet: Das Data-Warehouse sammelt und das MIS wertet die Daten für Führungsentscheidungen aus.",
+      "Nein, beide Systeme steuern ausschließlich die operativen Maschinen in der Textilproduktion.",
+      "Ja, allerdings funktioniert das MIS vollständig ohne jede Datenbasis."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Gemäß dem IHK-Merksatz gilt die feste Kurzlogik: Das Data-Warehouse fungiert als zentrale Sammelstelle und konsolidiert Daten. Das MIS greift darauf zu, verdichtet sie zu Kennzahlen und Dashboards und bereitet sie für das Management auf."
+  },
+  {
+    "id": "bm_ls04_q6",
+    "modul": "bm",
+    "ls": "bm_ls04",
+    "frage": "Die WordingArt-GmbH stellt fest, dass in der Übergangsphase der IT-Modernisierung die alten Prozesse parallel weiterlaufen und Mitarbeiter Daten doppelt eingeben müssen. Welcher Aufwandsposition ist dies zuzuordnen?",
+    "optionen": [
+      "Einmalige Einführungskosten für den Softwarekauf.",
+      "Technische Programmpflege durch den Hersteller.",
+      "Kosten für Doppelarbeit während der Umstellungsphase.",
+      "Laufende Update-Gebühren für das Betriebssystem."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Während der Umstellungsphase auf EDV entstehen häufig temporäre Kosten durch Doppelarbeiten, da Alt- und Neusysteme zeitweise parallel betrieben werden müssen."
+  },
+  {
+    "id": "bm_ls04_q7",
+    "modul": "bm",
+    "ls": "bm_ls04",
+    "frage": "Der Geschäftsführer von WordingArt bemängelt: „Die Belegschaft klickt nur noch im neuen System herum, anstatt sich auf die Textilentwicklungen zu konzentrieren.“ Welches spezifische Risiko der IT-Einführung hat sich hier realisiert?",
+    "optionen": [
+      "Die Software ist unterdimensioniert.",
+      "Das IT-System rückt zu sehr in den Vordergrund und wird zum Selbstzweck statt zum Werkzeug.",
+      "Es sind unerwartete Hardware-Anschaffungskosten aufgetreten.",
+      "Die externen Informationsquellen wurden falsch ausgewählt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Ein typisches organisatorisches Risiko bei der Einführung besteht darin, dass die Beschäftigten das System als Selbstzweck wahrnehmen und die eigentliche wertschöpfende Arbeit durch den administrativen Systemaufwand in den Hintergrund gedrängt wird."
+  },
+  {
+    "id": "bm_ls04_q8",
+    "modul": "bm",
+    "ls": "bm_ls04",
+    "frage": "Warum dürfen im Rahmen einer IHK-Prüfung „Risiken“ und „Kosten“ bei einem IT-Projekt nicht miteinander vermischt werden?",
+    "optionen": [
+      "Risiken betreffen ausschließlich die Finanzplanung, Kosten hingegen nur das Personal.",
+      "Kosten beschreiben die rein finanziellen Aufwände im Lebenszyklus; Risiken hingegen beschreiben organisatorische und prozessuale Gefahren der Einführung.",
+      "Risiken treten nur vor dem Projekt auf, Kosten erst nach dem Projektabschluss.",
+      "Es handelt sich um dieselbe Kategorie, sie werden in der Prüfung nie separat abgefragt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Vorsicht vor der Prüfungsfalle: Kosten (finanzieller Aufwand wie Softwarelizenzen, Schulungen) und Risiken (prozessuale Gefahren wie lange Einarbeitungszeiten, Überdimensionierung) sind sauber voneinander zu trennen."
+  },
+  {
+    "id": "bm_ls04_q9",
+    "modul": "bm",
+    "ls": "bm_ls04",
+    "frage": "Zu welcher Kostenkategorie gehören Ausgaben für regelmäßige Software-Updates, den laufenden technischen Support und die kontinuierliche Programmpflege?",
+    "optionen": [
+      "Einmalige Einführungskosten",
+      "Externe Informationskosten",
+      "Laufende Betriebskosten",
+      "Auswahlprozesskosten"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Während Anschaffung und Daten-Ersterfassung zu den einmaligen Einführungskosten zählen, gehören Pflege, Wartung, Updates und technischer Support zu den wiederkehrenden, laufenden Betriebskosten des IT-Lebenszyklus."
+  },
+  {
+    "id": "bm_ls04_q10",
+    "modul": "bm",
+    "ls": "bm_ls04",
+    "frage": "Welche Kernfrage lässt sich nutzen, um ein Management-Informationssystem (MIS) trennscharf von einem Warenwirtschaftssystem (WWS) abzugrenzen?",
+    "optionen": [
+      "WWS: „Wie viel kostet das System?“ | MIS: „Wer bedient das System?“",
+      "WWS: „Welche Patente haben wir?“ | MIS: „Welche Mitarbeiter fehlen?“",
+      "WWS: „Was haben wir?“ (Bestände) | MIS: „Was bedeutet das für das Management?“ (Entscheidungskennzahlen)",
+      "WWS: „Wie steuern wir das gesamte Unternehmen?“ | MIS: „Was produzieren wir?“"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Merkhilfe zur Abgrenzung lautet: Das WWS beantwortet die Frage nach den Warenströmen und Beständen („Was haben wir?“). Das übergeordnete ERP beantwortet das „Wie steuern wir?“. Das MIS liefert die verdichtete Antwort auf: „Was bedeutet das für das Management?“ (Kennzahlen)."
   }
 ]

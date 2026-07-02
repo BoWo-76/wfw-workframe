@@ -4,6 +4,11 @@
     "eintraege": [
       {
         "modul": "bm",
+        "titel": "Quiz LS01-E · Gegenstromverfahren, LS02 · Betriebsstatistik, LS03 · Wissensmanagement & LS04 · IT im Betrieb (je 10 Fragen)",
+        "aktion": "neu"
+      },
+      {
+        "modul": "bm",
         "titel": "Quiz LS01 · Strategische & operative Planungsgrundlagen (10 Fragen)",
         "aktion": "neu"
       },
