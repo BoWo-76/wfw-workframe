@@ -4,6 +4,11 @@
     "eintraege": [
       {
         "modul": "basics",
+        "titel": "Quiz LS10 · Darlehen/Disagio, LS11 · Jahresabschluss, LS12 · KLR & LS13 · Bewertungsgrundsätze (je 12 Fragen)",
+        "aktion": "neu"
+      },
+      {
+        "modul": "basics",
         "titel": "Quiz LS07 · Privatkonten, LS08 · Nachlässe & LS09 · Leasing (je 10 Fragen)",
         "aktion": "neu"
       },

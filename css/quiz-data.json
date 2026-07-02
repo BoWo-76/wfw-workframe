@@ -1398,5 +1398,677 @@
     ],
     "correctIndex": 0,
     "erklaerung": ""
+  },
+  {
+    "id": "basics_ls10_q1",
+    "modul": "basics",
+    "ls": "basics_ls10",
+    "frage": "Ein Unternehmen nimmt ein Darlehen über 100.000 € auf. Die Bank behält 5 % Disagio ein. Welche Aussage ist richtig?",
+    "optionen": [
+      "Es entsteht eine Bankgutschrift von 100.000 € und ein Zinsaufwand von 5.000 €.",
+      "Es entsteht eine Bankgutschrift von 95.000 €, ein ARAP von 5.000 € und eine Verbindlichkeit von 100.000 €.",
+      "Es entsteht nur eine Verbindlichkeit von 95.000 €, weil nur dieser Betrag ausgezahlt wurde.",
+      "Das Disagio wird sofort vollständig als Aufwand gebucht."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Schuld beträgt die volle Darlehenssumme. Das Disagio wird als aktiver Rechnungsabgrenzungsposten erfasst und über die Laufzeit verteilt."
+  },
+  {
+    "id": "basics_ls10_q2",
+    "modul": "basics",
+    "ls": "basics_ls10",
+    "frage": "Warum darf ein Disagio nicht sofort vollständig als Zinsaufwand gebucht werden?",
+    "optionen": [
+      "Weil Zinsen grundsätzlich erfolgsneutral sind.",
+      "Weil das Disagio wirtschaftlich Aufwand für mehrere zukünftige Perioden ist.",
+      "Weil ein Disagio keine Beziehung zum Darlehen hat.",
+      "Weil das Disagio eine Tilgung darstellt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Disagio ist eine Zinsvorauszahlung für die gesamte Laufzeit. Deshalb erfolgt die periodengerechte Verteilung über den ARAP."
+  },
+  {
+    "id": "basics_ls10_q3",
+    "modul": "basics",
+    "ls": "basics_ls10",
+    "frage": "Eine Darlehensrate besteht aus 20.000 € Tilgung und 3.000 € Zinsen. Welche Wirkung ist korrekt?",
+    "optionen": [
+      "23.000 € mindern den Gewinn.",
+      "Nur 20.000 € mindern den Gewinn.",
+      "Nur 3.000 € mindern den Gewinn.",
+      "Weder Tilgung noch Zinsen berühren die GuV."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Tilgung ist erfolgsneutral und mindert nur die Verbindlichkeit. Zinsen sind Aufwand und mindern den Gewinn."
+  },
+  {
+    "id": "basics_ls10_q4",
+    "modul": "basics",
+    "ls": "basics_ls10",
+    "frage": "Welcher Buchungssatz passt zur laufenden Darlehensrate mit Tilgung und Zinsen?",
+    "optionen": [
+      "Zinsaufwand an Bank",
+      "Verbindlichkeiten an Bank",
+      "Bank an Verbindlichkeiten und Zinsaufwand",
+      "Verbindlichkeiten / Zinsaufwand an Bank"
+    ],
+    "correctIndex": 3,
+    "erklaerung": "Die Verbindlichkeit sinkt im Soll, der Zinsaufwand entsteht im Soll und die Bank nimmt im Haben ab."
+  },
+  {
+    "id": "basics_ls10_q5",
+    "modul": "basics",
+    "ls": "basics_ls10",
+    "frage": "Was ist die Tilgung eines Darlehens buchhalterisch?",
+    "optionen": [
+      "Ein Aufwand",
+      "Ein Ertrag",
+      "Eine erfolgsneutrale Rückzahlung der Schuld",
+      "Eine Rechnungsabgrenzung"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Tilgung verändert Verbindlichkeit und Bankbestand, aber nicht den Gewinn."
+  },
+  {
+    "id": "basics_ls10_q6",
+    "modul": "basics",
+    "ls": "basics_ls10",
+    "frage": "Ein Disagio von 6.000 € wird bei einer Darlehenslaufzeit von 4 Jahren linear abgegrenzt. Welche Buchung erfolgt am Jahresende?",
+    "optionen": [
+      "ARAP an Zinsaufwendungen 1.500 €",
+      "Zinsaufwendungen an ARAP 1.500 €",
+      "Verbindlichkeiten an ARAP 1.500 €",
+      "Bank an ARAP 1.500 €"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Der ARAP wird im Haben gemindert, gleichzeitig entsteht anteiliger Zinsaufwand im Soll."
+  },
+  {
+    "id": "basics_ls10_q7",
+    "modul": "basics",
+    "ls": "basics_ls10",
+    "frage": "Was bedeutet der Merksatz „ARAP = Aufwand gehört in Zukunft“?",
+    "optionen": [
+      "Ein bereits gezahlter Aufwand betrifft wirtschaftlich eine spätere Periode.",
+      "Ein zukünftiger Aufwand wird bereits bezahlt, obwohl er nie gebucht wird.",
+      "Ein zukünftiger Ertrag wird ins alte Jahr verschoben.",
+      "Eine Verbindlichkeit wird aufgelöst."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Beim ARAP wurde bereits gezahlt oder ein Aufwand abgegrenzt, der wirtschaftlich erst später entsteht."
+  },
+  {
+    "id": "basics_ls10_q8",
+    "modul": "basics",
+    "ls": "basics_ls10",
+    "frage": "Welche Aussage zum Disagio ist wirtschaftlich richtig?",
+    "optionen": [
+      "Es ist eine zusätzliche Tilgung.",
+      "Es ist ein vorweggenommener Zins.",
+      "Es ist ein außerordentlicher Ertrag.",
+      "Es ist eine Umsatzsteuerkorrektur."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Disagio senkt häufig den laufenden Nominalzins und stellt wirtschaftlich Zinsaufwand dar."
+  },
+  {
+    "id": "basics_ls10_q9",
+    "modul": "basics",
+    "ls": "basics_ls10",
+    "frage": "Welche Prüfungsaussage wäre falsch?",
+    "optionen": [
+      "Die Darlehensverbindlichkeit steht auf der Passivseite.",
+      "Zinsen sind Aufwand.",
+      "Tilgung ist Aufwand.",
+      "Das Disagio wird über die Laufzeit verteilt."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Tilgung ist keine Aufwandsbuchung, sondern Rückzahlung einer Schuld."
+  },
+  {
+    "id": "basics_ls10_q10",
+    "modul": "basics",
+    "ls": "basics_ls10",
+    "frage": "Ein Darlehen über 200.000 € wird mit 4 % Disagio ausgezahlt. Wie hoch ist der Auszahlungsbetrag?",
+    "optionen": [
+      "8.000 €",
+      "192.000 €",
+      "200.000 €",
+      "208.000 €"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "4 % von 200.000 € sind 8.000 € Disagio. Ausgezahlt werden 200.000 € − 8.000 € = 192.000 €."
+  },
+  {
+    "id": "basics_ls10_q11",
+    "modul": "basics",
+    "ls": "basics_ls10",
+    "frage": "Was ist bei der Ratenzahlung zwingend zu trennen?",
+    "optionen": [
+      "Bank und Kasse",
+      "ARAP und PRAP",
+      "Zinsanteil und Tilgungsanteil",
+      "Soll und Haben dürfen zusammengefasst werden"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Nur der Zinsanteil ist Aufwand. Der Tilgungsanteil mindert die Verbindlichkeit."
+  },
+  {
+    "id": "basics_ls10_q12",
+    "modul": "basics",
+    "ls": "basics_ls10",
+    "frage": "Welche typische Prüfungsfalle gehört zu Darlehen mit Disagio?",
+    "optionen": [
+      "Das Disagio wird als ARAP aktiviert.",
+      "Die Tilgung wird als Verbindlichkeitsminderung gebucht.",
+      "Der ARAP wird am Jahresende anteilig aufgelöst.",
+      "Das Disagio wird sofort vollständig als Zinsaufwand gebucht."
+    ],
+    "correctIndex": 3,
+    "erklaerung": "Das wäre periodengerecht falsch. Das Disagio muss über die Laufzeit verteilt werden."
+  },
+  {
+    "id": "basics_ls11_q1",
+    "modul": "basics",
+    "ls": "basics_ls11",
+    "frage": "Welche Aussage beschreibt den Jahresabschluss nach HGB korrekt?",
+    "optionen": [
+      "Er besteht immer nur aus der GuV.",
+      "Er besteht im Kern aus Bilanz und GuV; bei Kapitalgesellschaften kommt mindestens ein Anhang hinzu.",
+      "Er ist ausschließlich ein internes Controllinginstrument.",
+      "Er ersetzt die Inventur."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Bilanz und GuV sind Kernbestandteile. Kapitalgesellschaften haben zusätzliche Pflichten wie den Anhang."
+  },
+  {
+    "id": "basics_ls11_q2",
+    "modul": "basics",
+    "ls": "basics_ls11",
+    "frage": "Was ist der Unterschied zwischen Bilanz und GuV?",
+    "optionen": [
+      "Bilanz ist Zeitraumrechnung, GuV Zeitpunktrechnung.",
+      "Beide sind reine Zeitpunktrechnungen.",
+      "Bilanz ist Zeitpunktrechnung, GuV Zeitraumrechnung.",
+      "Die GuV zeigt Vermögen und Schulden."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Bilanz zeigt Vermögen und Kapital zu einem Stichtag. Die GuV zeigt Aufwendungen und Erträge eines Geschäftsjahres."
+  },
+  {
+    "id": "basics_ls11_q3",
+    "modul": "basics",
+    "ls": "basics_ls11",
+    "frage": "Warum ist das SBK kein Bestandteil des Jahresabschlusses?",
+    "optionen": [
+      "Weil es nur ein Hilfskonto zum Abschluss der Bestandskonten ist.",
+      "Weil es nur bei Kapitalgesellschaften verwendet wird.",
+      "Weil es die GuV ersetzt.",
+      "Weil es ausschließlich Steuerzwecken dient."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Das SBK dient intern dem Abschluss der Konten. Die Bilanz ist das offizielle externe Abschlussdokument."
+  },
+  {
+    "id": "basics_ls11_q4",
+    "modul": "basics",
+    "ls": "basics_ls11",
+    "frage": "Ein Unternehmen zahlt im Dezember die Versicherung für das nächste Jahr. Welche Abgrenzung ist einschlägig?",
+    "optionen": [
+      "Passiver RAP",
+      "Aktiver RAP",
+      "Sonstige Verbindlichkeit",
+      "Rückstellung"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Ausgabe jetzt, Aufwand später: Das ist ein aktiver Rechnungsabgrenzungsposten."
+  },
+  {
+    "id": "basics_ls11_q5",
+    "modul": "basics",
+    "ls": "basics_ls11",
+    "frage": "Ein Kunde zahlt im Dezember Miete für Januar des Folgejahres. Wie ist das abzugrenzen?",
+    "optionen": [
+      "Aktiver RAP",
+      "Passiver RAP",
+      "Sonstige Forderung",
+      "Rückstellung"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Einnahme jetzt, Ertrag später: Das ist ein passiver Rechnungsabgrenzungsposten."
+  },
+  {
+    "id": "basics_ls11_q6",
+    "modul": "basics",
+    "ls": "basics_ls11",
+    "frage": "Eine Rechnung für Dezember-Miete wird erst im Januar bezahlt; Höhe und Fälligkeit stehen fest. Was ist zu bilden?",
+    "optionen": [
+      "Sonstige Verbindlichkeit",
+      "Aktiver RAP",
+      "Rückstellung",
+      "Passiver RAP"
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Die Leistung gehört ins alte Jahr, die Zahlung erfolgt sicher im neuen Jahr. Das ist antizipative Abgrenzung über sonstige Verbindlichkeiten."
+  },
+  {
+    "id": "basics_ls11_q7",
+    "modul": "basics",
+    "ls": "basics_ls11",
+    "frage": "Wann ist eine Rückstellung statt einer sonstigen Verbindlichkeit zu bilden?",
+    "optionen": [
+      "Wenn die Zahlung im alten Jahr erfolgte.",
+      "Wenn Höhe oder Zeitpunkt der künftigen Verpflichtung unsicher sind.",
+      "Wenn ein Ertrag im neuen Jahr entsteht.",
+      "Wenn die Rechnung bereits bezahlt wurde."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Rückstellungen betreffen wirtschaftlich verursachte Aufwendungen des alten Jahres mit Unsicherheit hinsichtlich Höhe oder Zeitpunkt."
+  },
+  {
+    "id": "basics_ls11_q8",
+    "modul": "basics",
+    "ls": "basics_ls11",
+    "frage": "Welche Aussage zu den Aufstellungsfristen ist richtig?",
+    "optionen": [
+      "Kleine Kapitalgesellschaften: 3 Monate; große: 6 Monate.",
+      "Alle Kapitalgesellschaften: 12 Monate.",
+      "Kleine Kapitalgesellschaften: 6 Monate; mittelgroße und große: 3 Monate.",
+      "Es gibt keine Fristen."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Aufstellung muss deutlich vor der Offenlegung erfolgen. Kleine Kapitalgesellschaften haben längere Aufstellungsfrist."
+  },
+  {
+    "id": "basics_ls11_q9",
+    "modul": "basics",
+    "ls": "basics_ls11",
+    "frage": "Welche Prüfungsfalle wird im Skript ausdrücklich genannt?",
+    "optionen": [
+      "Aufstellungsfrist und Offenlegungsfrist werden verwechselt.",
+      "Bilanz und Inventar sind identisch.",
+      "GuV wird als Bestandskonto behandelt.",
+      "Rückstellungen werden immer aktiv gebucht."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Die Offenlegung hat eine andere Frist als die Aufstellung des Jahresabschlusses."
+  },
+  {
+    "id": "basics_ls11_q10",
+    "modul": "basics",
+    "ls": "basics_ls11",
+    "frage": "Was bedeutet das Vorsichtsprinzip vereinfacht?",
+    "optionen": [
+      "Aktiva eher hoch, Passiva eher niedrig bewerten.",
+      "Aktiva eher niedrig, Passiva eher hoch bewerten.",
+      "Alle Werte zum Marktwert erhöhen.",
+      "Gewinne immer sofort erfassen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das HGB dient dem Gläubigerschutz. Das Unternehmen soll sich nicht zu reich darstellen."
+  },
+  {
+    "id": "basics_ls11_q11",
+    "modul": "basics",
+    "ls": "basics_ls11",
+    "frage": "Was ist das Anschaffungswertprinzip?",
+    "optionen": [
+      "Vermögensgegenstände dürfen über die Anschaffungskosten hinaus aufgewertet werden.",
+      "Die Anschaffungs- oder Herstellungskosten bilden die Wertobergrenze.",
+      "Alle Gegenstände werden zum Liquidationswert bewertet.",
+      "Nur Schulden werden bewertet."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Auch wenn der Marktwert steigt, dürfen Vermögensgegenstände handelsrechtlich nicht beliebig höher angesetzt werden."
+  },
+  {
+    "id": "basics_ls11_q12",
+    "modul": "basics",
+    "ls": "basics_ls11",
+    "frage": "Was beschreibt der Begriff Jahresfehlbetrag?",
+    "optionen": [
+      "Ein positives Ergebnis.",
+      "Ein negativer Erfolg nach HGB.",
+      "Eine Rückstellung.",
+      "Den Umsatz des Jahres."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Der handelsrechtliche Begriff für Verlust ist Jahresfehlbetrag."
+  },
+  {
+    "id": "basics_ls12_q1",
+    "modul": "basics",
+    "ls": "basics_ls12",
+    "frage": "Warum wird die KLR zusätzlich zur Finanzbuchhaltung benötigt?",
+    "optionen": [
+      "Weil die FiBu keine gesetzlichen Vorschriften kennt.",
+      "Weil die KLR das Betriebsergebnis für interne Entscheidungen ermittelt.",
+      "Weil die KLR den Jahresabschluss ersetzt.",
+      "Weil die KLR nur für das Finanzamt bestimmt ist."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die KLR ist internes Steuerungsinstrument und fragt nach den tatsächlichen Kosten des Betriebszwecks."
+  },
+  {
+    "id": "basics_ls12_q2",
+    "modul": "basics",
+    "ls": "basics_ls12",
+    "frage": "Welche Rechengrößen gehören zum Rechnungskreis I und II?",
+    "optionen": [
+      "RK I: Kosten/Leistungen; RK II: Aufwendungen/Erträge",
+      "RK I: Aufwendungen/Erträge; RK II: Kosten/Leistungen",
+      "Beide verwenden nur Aufwendungen.",
+      "Beide verwenden nur Leistungen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die FiBu arbeitet mit Aufwendungen und Erträgen, die KLR mit Kosten und Leistungen."
+  },
+  {
+    "id": "basics_ls12_q3",
+    "modul": "basics",
+    "ls": "basics_ls12",
+    "frage": "Welche drei Kriterien müssen Kosten in der KLR erfüllen?",
+    "optionen": [
+      "Betriebsbedingt, periodengerecht, ordentlich",
+      "Privat, neutral, außerordentlich",
+      "Betriebsfremd, periodenfremd, unregelmäßig",
+      "Zahlungswirksam, steuerlich, extern"
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Nur solche Aufwendungen werden in der KLR als Kosten berücksichtigt."
+  },
+  {
+    "id": "basics_ls12_q4",
+    "modul": "basics",
+    "ls": "basics_ls12",
+    "frage": "Eine Spende wird in der FiBu als Aufwand erfasst. Wie wird sie in der KLR behandelt?",
+    "optionen": [
+      "Als Einzelkosten",
+      "Als kalkulatorische Kosten",
+      "Als neutraler Aufwand",
+      "Als Leistung"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Spenden sind betriebsfremd und gehören nicht in die Kostenrechnung."
+  },
+  {
+    "id": "basics_ls12_q5",
+    "modul": "basics",
+    "ls": "basics_ls12",
+    "frage": "Was sind Anderskosten?",
+    "optionen": [
+      "Kosten ohne entsprechenden Aufwand in der FiBu.",
+      "Aufwand in der FiBu existiert, aber die KLR setzt einen anderen Wert an.",
+      "Betriebsfremde Kosten.",
+      "Kosten, die nie kalkuliert werden dürfen."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Kalkulatorische Abschreibungen sind ein typisches Beispiel für Anderskosten."
+  },
+  {
+    "id": "basics_ls12_q6",
+    "modul": "basics",
+    "ls": "basics_ls12",
+    "frage": "Was sind Zusatzkosten?",
+    "optionen": [
+      "Kosten, denen kein Aufwand in der FiBu gegenübersteht.",
+      "Kosten, die immer neutral sind.",
+      "Kosten, die ausschließlich im Steuerrecht vorkommen.",
+      "Kosten, die direkt dem Produkt zugerechnet werden."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Der kalkulatorische Unternehmerlohn ist ein klassisches Beispiel."
+  },
+  {
+    "id": "basics_ls12_q7",
+    "modul": "basics",
+    "ls": "basics_ls12",
+    "frage": "Warum wird der kalkulatorische Unternehmerlohn angesetzt?",
+    "optionen": [
+      "Weil Einzelunternehmer sich ein Gehalt als Aufwand buchen.",
+      "Weil die Tätigkeit des Unternehmers für die Preiskalkulation berücksichtigt werden muss.",
+      "Weil er eine Verbindlichkeit gegenüber dem Finanzamt ist.",
+      "Weil er immer in Kapitalgesellschaften entsteht."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Bei Einzelunternehmen gibt es kein echtes Geschäftsführergehalt in der FiBu, für die Kalkulation muss die Arbeitsleistung aber bewertet werden."
+  },
+  {
+    "id": "basics_ls12_q8",
+    "modul": "basics",
+    "ls": "basics_ls12",
+    "frage": "Welche Aussage zum kalkulatorischen Unternehmerlohn ist eine Prüfungsfalle?",
+    "optionen": [
+      "Er darf bei Einzelunternehmen angesetzt werden.",
+      "Er darf bei Personengesellschaften angesetzt werden.",
+      "Er darf bei einer GmbH zusätzlich angesetzt werden.",
+      "Er ist Zusatzkosten."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Bei der GmbH erhält der Geschäftsführer ein echtes Gehalt, das bereits als Aufwand erfasst ist."
+  },
+  {
+    "id": "basics_ls12_q9",
+    "modul": "basics",
+    "ls": "basics_ls12",
+    "frage": "Welche Reihenfolge beschreibt die drei Stufen der KLR richtig?",
+    "optionen": [
+      "Kostenstellenrechnung → Kostenartenrechnung → Kostenträgerrechnung",
+      "Kostenträgerrechnung → Kostenartenrechnung → Kostenstellenrechnung",
+      "Kostenartenrechnung → Kostenstellenrechnung → Kostenträgerrechnung",
+      "GuV → Bilanz → BAB"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Erst wird geklärt, welche Kosten entstanden sind, dann wo, dann wofür."
+  },
+  {
+    "id": "basics_ls12_q10",
+    "modul": "basics",
+    "ls": "basics_ls12",
+    "frage": "Wozu dient der BAB hauptsächlich?",
+    "optionen": [
+      "Zur Verteilung von Gemeinkosten auf Kostenstellen.",
+      "Zur Ermittlung der Umsatzsteuer.",
+      "Zum Abschluss der Bilanz.",
+      "Zur Berechnung des Jahresüberschusses nach HGB."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Gemeinkosten können Produkten nicht direkt zugerechnet werden und werden über Kostenstellen verteilt."
+  },
+  {
+    "id": "basics_ls12_q11",
+    "modul": "basics",
+    "ls": "basics_ls12",
+    "frage": "Welche Aussage zu Einzelkosten und Gemeinkosten ist richtig?",
+    "optionen": [
+      "Einzelkosten können direkt dem Kostenträger zugerechnet werden.",
+      "Gemeinkosten sind immer variabel.",
+      "Einzelkosten werden immer über den BAB verteilt.",
+      "Gemeinkosten entstehen nur im Vertrieb."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Einzelkosten sind verursachungsgerecht direkt zurechenbar, z. B. Fertigungsmaterial."
+  },
+  {
+    "id": "basics_ls12_q12",
+    "modul": "basics",
+    "ls": "basics_ls12",
+    "frage": "Was passiert mit den fixen Stückkosten bei steigender Produktionsmenge?",
+    "optionen": [
+      "Sie steigen.",
+      "Sie sinken.",
+      "Sie bleiben immer gleich.",
+      "Sie werden zu variablen Kosten."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Fixkosten verteilen sich auf mehr Stücke. Das ist Fixkostendegression."
+  },
+  {
+    "id": "basics_ls13_q1",
+    "modul": "basics",
+    "ls": "basics_ls13",
+    "frage": "Was ist das oberste Ziel der handelsrechtlichen Bewertungsgrundsätze?",
+    "optionen": [
+      "Steuervermeidung",
+      "Gläubigerschutz",
+      "Maximierung des ausgewiesenen Gewinns",
+      "Interne Kalkulation"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das HGB will verhindern, dass Unternehmen sich reicher darstellen, als sie sind."
+  },
+  {
+    "id": "basics_ls13_q2",
+    "modul": "basics",
+    "ls": "basics_ls13",
+    "frage": "Was bedeutet Bilanzidentität?",
+    "optionen": [
+      "Aktiva müssen immer größer als Passiva sein.",
+      "Die Eröffnungsbilanz muss mit der Schlussbilanz des Vorjahres übereinstimmen.",
+      "GuV und Bilanz müssen dieselbe Summe haben.",
+      "Alle Konten müssen erfolgswirksam abgeschlossen werden."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "EBK des neuen Jahres entspricht dem SBK des Vorjahres."
+  },
+  {
+    "id": "basics_ls13_q3",
+    "modul": "basics",
+    "ls": "basics_ls13",
+    "frage": "Ein Betrieb läuft normal weiter. Eine Maschine hat Buchwert 100.000 €, Liquidationswert 20.000 €. Welcher Grundsatz spricht gegen die Bewertung mit 20.000 €?",
+    "optionen": [
+      "Bilanzidentität",
+      "Going-Concern-Prinzip",
+      "Periodenabgrenzung",
+      "Bewertungsstetigkeit"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Solange keine Liquidation droht, wird von Unternehmensfortführung ausgegangen."
+  },
+  {
+    "id": "basics_ls13_q4",
+    "modul": "basics",
+    "ls": "basics_ls13",
+    "frage": "Was verhindert die Einzelbewertung?",
+    "optionen": [
+      "Die Bewertung einzelner Vermögensgegenstände",
+      "Die Saldierung von Wertsteigerungen und Wertminderungen verschiedener Posten",
+      "Die Bildung von Rückstellungen",
+      "Die Abschreibung beschädigter Vermögensgegenstände"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Gewinne eines Postens dürfen nicht mit Verlusten eines anderen verrechnet werden."
+  },
+  {
+    "id": "basics_ls13_q5",
+    "modul": "basics",
+    "ls": "basics_ls13",
+    "frage": "Ein Kunde meldet im Februar Insolvenz an; die Zahlungsprobleme bestanden bereits am 31.12. Was gilt?",
+    "optionen": [
+      "Wertbegründend, nicht berücksichtigen",
+      "Wertaufhellend, berücksichtigen",
+      "Nie berücksichtigen",
+      "Nur im Folgejahr buchen"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Tatsache bestand bereits am Stichtag und wurde nur später bekannt."
+  },
+  {
+    "id": "basics_ls13_q6",
+    "modul": "basics",
+    "ls": "basics_ls13",
+    "frage": "Ein Lager brennt am 05.01. ab. Am 31.12. war es noch intakt. Was gilt für den alten Jahresabschluss?",
+    "optionen": [
+      "Abwertung zum 31.12.",
+      "Rückstellung zum 31.12.",
+      "Nicht berücksichtigen, da wertbegründend.",
+      "Gewinn erhöhen."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Das Ereignis entstand erst nach dem Stichtag und betrifft nicht die Verhältnisse am 31.12."
+  },
+  {
+    "id": "basics_ls13_q7",
+    "modul": "basics",
+    "ls": "basics_ls13",
+    "frage": "Was besagt das Realisationsprinzip?",
+    "optionen": [
+      "Gewinne dürfen erst bei Realisation ausgewiesen werden.",
+      "Verluste dürfen erst bei Zahlung gebucht werden.",
+      "Alle Wertsteigerungen sind sofort Gewinn.",
+      "Aufwendungen werden nach Zahlungsdatum erfasst."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Nicht realisierte Gewinne dürfen noch nicht ausgewiesen werden."
+  },
+  {
+    "id": "basics_ls13_q8",
+    "modul": "basics",
+    "ls": "basics_ls13",
+    "frage": "Was besagt das Imparitätsprinzip?",
+    "optionen": [
+      "Gewinne und Verluste werden gleich behandelt.",
+      "Vorhersehbare Verluste werden bereits berücksichtigt.",
+      "Gewinne werden vor Verkauf gebucht.",
+      "Bewertungsmethoden dürfen frei wechseln."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Drohende Verluste und Risiken sind nach dem Vorsichtsprinzip früh zu erfassen."
+  },
+  {
+    "id": "basics_ls13_q9",
+    "modul": "basics",
+    "ls": "basics_ls13",
+    "frage": "Aktien wurden für 10.000 € gekauft und sind am 31.12. 15.000 € wert. Was ist richtig?",
+    "optionen": [
+      "5.000 € Gewinn buchen.",
+      "Nicht aufwerten, solange kein Verkauf erfolgt ist.",
+      "Rückstellung bilden.",
+      "ARAP bilden."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Nach dem Realisationsprinzip wird der Gewinn erst bei Verkauf realisiert."
+  },
+  {
+    "id": "basics_ls13_q10",
+    "modul": "basics",
+    "ls": "basics_ls13",
+    "frage": "Aktien wurden für 10.000 € gekauft und sind am 31.12. nur noch 7.000 € wert. Was ist richtig?",
+    "optionen": [
+      "Verlust ignorieren, solange nicht verkauft wurde.",
+      "Wertminderung berücksichtigen.",
+      "Gewinn buchen.",
+      "Bewertungsstetigkeit verbietet jede Änderung."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Nach Imparitäts- und Niederstwertprinzip müssen drohende Verluste berücksichtigt werden."
+  },
+  {
+    "id": "basics_ls13_q11",
+    "modul": "basics",
+    "ls": "basics_ls13",
+    "frage": "Was verlangt die Periodenabgrenzung?",
+    "optionen": [
+      "Aufwendungen und Erträge werden nach Zahlungszeitpunkt erfasst.",
+      "Aufwendungen und Erträge werden dem wirtschaftlich richtigen Geschäftsjahr zugeordnet.",
+      "Nur Auszahlungen werden berücksichtigt.",
+      "Nur Erträge werden abgegrenzt."
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Entscheidend ist die wirtschaftliche Zugehörigkeit, nicht der Geldfluss."
+  },
+  {
+    "id": "basics_ls13_q12",
+    "modul": "basics",
+    "ls": "basics_ls13",
+    "frage": "Was bedeutet Bewertungsstetigkeit?",
+    "optionen": [
+      "Bewertungsmethoden sollen beibehalten werden.",
+      "Jedes Jahr muss eine neue Methode gewählt werden.",
+      "Nur Liquidationswerte sind zulässig.",
+      "Es dürfen keine Abschreibungen vorgenommen werden."
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Stetigkeit dient der Vergleichbarkeit der Jahresabschlüsse. Abweichungen sind nur begründet zulässig."
   }
 ]
