@@ -733,7 +733,7 @@ a { color: var(--primary); }
 .notice.warn { background: var(--warn-soft); border-color: var(--warn); }
 .notice.danger { background: var(--danger-soft); border-color: var(--danger); }
 .notice.ok { background: var(--ok-soft); border-color: var(--ok); }
-.notice strong { display: block; margin-bottom: 2px; color: inherit; }
+.notice strong:first-child { display: block; margin-bottom: 2px; color: inherit; }
 
 /* TABLES */
 table {
