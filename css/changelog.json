@@ -4,6 +4,16 @@
     "eintraege": [
       {
         "modul": "basics",
+        "titel": "Quiz LS03 · Buchungskreislauf EBK–SBK & LS04 · Umsatzsteuer (je 10 Fragen)",
+        "aktion": "neu"
+      },
+      {
+        "modul": null,
+        "titel": "Quiz: 5 anfängliche Musterfragen entfernt",
+        "aktion": "update"
+      },
+      {
+        "modul": "basics",
         "titel": "Quiz LS01 · Dreisatz & LS02 · Durchschnittsrechnung (je 10 Fragen)",
         "aktion": "neu"
       },

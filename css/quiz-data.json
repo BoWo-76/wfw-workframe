@@ -420,73 +420,283 @@
     "erklaerung": "Die Summe der Zeiträume muss stimmen."
   },
   {
-    "id": "recht_ls04_q1",
-    "modul": "recht",
-    "ls": "recht_ls04",
-    "frage": "Welche Aussage zur Körperschaftsteuer (KSt) trifft zu?",
+    "id": "basics_ls03_q1",
+    "modul": "basics",
+    "ls": "basics_ls03",
+    "frage": "Welche Reihenfolge führt zu den Anfangsbeständen?",
     "optionen": [
-      "Sie wird auf das Einkommen natürlicher Personen erhoben.",
-      "Sie wird auf das zu versteuernde Einkommen von Kapitalgesellschaften erhoben.",
-      "Sie ersetzt die Umsatzsteuer bei Kapitalgesellschaften.",
-      "Sie wird nur bei Verlustausschüttung fällig."
+      "Bilanz→Inventar→Inventur",
+      "Inventur→Inventar→Bilanz",
+      "EBK→Bilanz→Inventur",
+      "Inventar→EBK→SBK"
     ],
     "correctIndex": 1,
-    "erklaerung": "Die Körperschaftsteuer ist das Pendant zur Einkommensteuer für juristische Personen (z. B. GmbH, AG) und wird auf das zu versteuernde Einkommen (zvE) der Kapitalgesellschaft erhoben."
+    "erklaerung": "Inventur bildet die Grundlage für Inventar und Bilanz."
   },
   {
-    "id": "basics_ls13_q1",
+    "id": "basics_ls03_q2",
     "modul": "basics",
-    "ls": "basics_ls13",
-    "frage": "Ein Unternehmen bucht einen Gewinn aus Wertsteigerung eines Wertpapiers, obwohl es noch nicht verkauft wurde. Gegen welchen Grundsatz wird verstoßen?",
+    "ls": "basics_ls03",
+    "frage": "Wie wird ein aktives Bestandskonto eröffnet?",
     "optionen": [
-      "Grundsatz der Bilanzidentität",
-      "Grundsatz der Bewertungsstetigkeit",
-      "Realisationsprinzip",
-      "Grundsatz der Periodenabgrenzung"
+      "EBK an Aktivkonto",
+      "Aktivkonto an EBK",
+      "SBK an Aktivkonto",
+      "GuV an Aktivkonto"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Aktivkonten werden im Soll eröffnet."
+  },
+  {
+    "id": "basics_ls03_q3",
+    "modul": "basics",
+    "ls": "basics_ls03",
+    "frage": "Wo stehen Zugänge auf Aktivkonten?",
+    "optionen": [
+      "Soll",
+      "Haben",
+      "GuV",
+      "SBK"
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Aktivkonten: Zugang Soll, Abgang Haben."
+  },
+  {
+    "id": "basics_ls03_q4",
+    "modul": "basics",
+    "ls": "basics_ls03",
+    "frage": "Wie lautet der Abschluss eines Aufwandskontos?",
+    "optionen": [
+      "Aufwand an GuV",
+      "GuV an Aufwand",
+      "SBK an Aufwand",
+      "EK an Aufwand"
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Aufwendungen werden über die GuV abgeschlossen."
+  },
+  {
+    "id": "basics_ls03_q5",
+    "modul": "basics",
+    "ls": "basics_ls03",
+    "frage": "Welcher Buchungssatz gilt bei Gewinn?",
+    "optionen": [
+      "EK an GuV",
+      "GuV an EK",
+      "SBK an EK",
+      "EBK an EK"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Gewinn erhöht das Eigenkapital."
+  },
+  {
+    "id": "basics_ls03_q6",
+    "modul": "basics",
+    "ls": "basics_ls03",
+    "frage": "Welcher Bilanzvorgang ist 'Maschine auf Ziel kaufen'?",
+    "optionen": [
+      "Aktivtausch",
+      "Passivtausch",
+      "Aktiv-Passiv-Mehrung",
+      "Aktiv-Passiv-Minderung"
     ],
     "correctIndex": 2,
-    "erklaerung": "Das Realisationsprinzip (Teil des Vorsichtsprinzips, § 252 Abs. 1 Nr. 4 HGB) besagt: Gewinne dürfen erst bei tatsächlichem Verkauf gebucht werden, nicht bei bloßer Wertsteigerung."
+    "erklaerung": "Aktiva und Passiva steigen."
   },
   {
-    "id": "basics_ls13_q2",
+    "id": "basics_ls03_q7",
     "modul": "basics",
-    "ls": "basics_ls13",
-    "frage": "Was passiert mit einer Forderung, deren Kunde im Februar Insolvenz anmeldet, wenn die finanzielle Schieflage nachweislich schon im Dezember bestand?",
+    "ls": "basics_ls03",
+    "frage": "Welche Konten haben keinen Anfangsbestand?",
     "optionen": [
-      "Die Forderung bleibt unverändert, da die Insolvenz erst 2026 bekannt wurde.",
-      "Die Forderung muss zum 31.12. abgeschrieben werden (wertaufhellend).",
-      "Die Forderung darf erst im Folgejahr abgeschrieben werden (wertbegründend).",
-      "Die Forderung wird automatisch storniert."
+      "Bestandskonten",
+      "Erfolgskonten",
+      "Aktivkonten",
+      "Passivkonten"
     ],
     "correctIndex": 1,
-    "erklaerung": "Da die Schieflage objektiv schon am Stichtag (31.12.) bestand, handelt es sich um eine wertaufhellende Tatsache — sie muss in der Bilanz zum 31.12. berücksichtigt werden."
+    "erklaerung": "Aufwand und Ertrag starten bei 0."
   },
   {
-    "id": "basics_ls18_q1",
+    "id": "basics_ls03_q8",
     "modul": "basics",
-    "ls": "basics_ls18",
-    "frage": "Welche Aussage zur Annuitätentilgung ist korrekt?",
+    "ls": "basics_ls03",
+    "frage": "Wie werden Aktivkonten abgeschlossen?",
     "optionen": [
-      "Die Tilgung bleibt über die Laufzeit konstant, die Rate sinkt.",
-      "Die Gesamtrate bleibt konstant, der Tilgungsanteil steigt mit der Zeit.",
-      "Der Zinsanteil steigt mit der Zeit, weil die Restschuld wächst.",
-      "Annuitätentilgung wird ausschließlich bei Maschinenfinanzierungen eingesetzt."
+      "Aktivkonto an SBK",
+      "SBK an Aktivkonto",
+      "GuV an Aktivkonto",
+      "EBK an Aktivkonto"
     ],
     "correctIndex": 1,
-    "erklaerung": "Bei der Annuitätentilgung bleibt die Gesamtrate (Annuität) konstant. Da die Restschuld sinkt, sinkt der Zinsanteil und der Tilgungsanteil steigt entsprechend."
+    "erklaerung": "SBK steht im Soll."
   },
   {
-    "id": "methodik_ls01_q1",
-    "modul": "methodik",
-    "ls": "methodik_ls01",
-    "frage": "Welche Lernmethode nutzt gezielt den 'Testing-Effekt' — also das aktive Abrufen von Wissen ohne Vorlage?",
+    "id": "basics_ls03_q9",
+    "modul": "basics",
+    "ls": "basics_ls03",
+    "frage": "Welche Merkhilfe gilt für Aufwand?",
     "optionen": [
-      "SQ3R-Methode",
-      "Cornell-Methode",
-      "Active Recall",
-      "Loci-Methode"
+      "Macht reich → Haben",
+      "Macht arm → Soll",
+      "Immer Haben",
+      "Immer Aktiv"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Aufwand mindert Gewinn."
+  },
+  {
+    "id": "basics_ls03_q10",
+    "modul": "basics",
+    "ls": "basics_ls03",
+    "frage": "Was folgt nach dem SBK?",
+    "optionen": [
+      "Neue GuV",
+      "Neue Eröffnungsbilanz",
+      "Inventur",
+      "Abschluss"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das SBK bildet die Grundlage des nächsten Jahres."
+  },
+  {
+    "id": "basics_ls04_q1",
+    "modul": "basics",
+    "ls": "basics_ls04",
+    "frage": "Warum ist die Umsatzsteuer erfolgsneutral?",
+    "optionen": [
+      "Sie ist Aufwand",
+      "Sie ist Ertrag",
+      "Sie wird nur treuhänderisch verwaltet",
+      "Sie wird abgeschrieben"
     ],
     "correctIndex": 2,
-    "erklaerung": "Active Recall zwingt das Gehirn, Informationen aktiv aus dem Gedächtnis abzurufen statt sie passiv zu lesen — das ist der Kern des Testing-Effekts und nachweislich effektiver als wiederholtes Lesen."
+    "erklaerung": "Sie beeinflusst den Gewinn nicht."
+  },
+  {
+    "id": "basics_ls04_q2",
+    "modul": "basics",
+    "ls": "basics_ls04",
+    "frage": "Welches Konto wird beim Einkauf verwendet?",
+    "optionen": [
+      "Umsatzsteuer",
+      "Vorsteuer",
+      "GuV",
+      "Eigenkapital"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Vorsteuer ist eine Forderung."
+  },
+  {
+    "id": "basics_ls04_q3",
+    "modul": "basics",
+    "ls": "basics_ls04",
+    "frage": "Vorsteuer ist ein ...",
+    "optionen": [
+      "Passivkonto",
+      "Aktivkonto",
+      "Ertragskonto",
+      "Aufwandskonto"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Vorsteuer ist Forderung ans Finanzamt."
+  },
+  {
+    "id": "basics_ls04_q4",
+    "modul": "basics",
+    "ls": "basics_ls04",
+    "frage": "Wie wird beim Verkauf gebucht?",
+    "optionen": [
+      "Brutto auf Umsatzerlöse",
+      "Netto auf Umsatzerlöse, Steuer separat",
+      "Alles netto",
+      "Alles brutto"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Ertragskonto netto, Forderung brutto."
+  },
+  {
+    "id": "basics_ls04_q5",
+    "modul": "basics",
+    "ls": "basics_ls04",
+    "frage": "Was passiert steuerlich bei Skonto?",
+    "optionen": [
+      "Keine Änderung",
+      "Steuer wird korrigiert",
+      "Steuer steigt",
+      "Vorsteuer entfällt"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Das Entgelt sinkt."
+  },
+  {
+    "id": "basics_ls04_q6",
+    "modul": "basics",
+    "ls": "basics_ls04",
+    "frage": "Wann entsteht eine Zahllast?",
+    "optionen": [
+      "Vorsteuer > USt",
+      "USt > Vorsteuer",
+      "Immer",
+      "Nie"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Dann ist ans Finanzamt zu zahlen."
+  },
+  {
+    "id": "basics_ls04_q7",
+    "modul": "basics",
+    "ls": "basics_ls04",
+    "frage": "Wann entsteht ein Vorsteuerüberhang?",
+    "optionen": [
+      "USt > VSt",
+      "VSt > USt",
+      "Immer",
+      "Nur bei Skonto"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Dann erfolgt Erstattung."
+  },
+  {
+    "id": "basics_ls04_q8",
+    "modul": "basics",
+    "ls": "basics_ls04",
+    "frage": "Welcher Betrag wird meist auf Bank gebucht?",
+    "optionen": [
+      "Netto",
+      "Brutto",
+      "Nur Steuer",
+      "Nur Skonto"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Zahlungskonten enthalten den Bruttobetrag."
+  },
+  {
+    "id": "basics_ls04_q9",
+    "modul": "basics",
+    "ls": "basics_ls04",
+    "frage": "Welche Rohstoffbuchung ist häufiger?",
+    "optionen": [
+      "Bestandsorientiert",
+      "Aufwandsorientiert",
+      "Gar keine",
+      "Nur GWG"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Im Skript als häufigster Fall genannt."
+  },
+  {
+    "id": "basics_ls04_q10",
+    "modul": "basics",
+    "ls": "basics_ls04",
+    "frage": "Wie rechnet man brutto in netto um (19%)?",
+    "optionen": [
+      "×1,19",
+      "÷1,19",
+      "×0,19",
+      "÷0,19"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Brutto wird durch 1,19 geteilt."
   }
 ]
