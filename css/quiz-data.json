@@ -138,5 +138,145 @@
     ],
     "correctIndex": 0,
     "erklaerung": "Nach der statischen Amortisationsrechnung ist die kürzere Kapitalrückflusszeit vorteilhaft."
+  },
+  {
+    "id": "bm_ls01_q1",
+    "modul": "bm",
+    "ls": "bm_ls01",
+    "frage": "Ein Unternehmen möchte seinen gegenwärtigen Zweck und den aktuellen Nutzen für die Kunden klar kommunizieren. Welcher Begriff beschreibt diesen Auftrag im „Hier und Jetzt“?",
+    "optionen": [
+      "Vision",
+      "Unternehmensphilosophie",
+      "Mission",
+      "Unternehmenskultur"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Die Mission beschreibt den Auftrag im Hier und Jetzt („Wozu sind wir da?“), während die Vision ein langfristiges Zukunftsbild darstellt."
+  },
+  {
+    "id": "bm_ls01_q2",
+    "modul": "bm",
+    "ls": "bm_ls01",
+    "frage": "Ein Logistikdienstleister führt einheitliche Arbeitskleidung mit Firmenlogo ein und schult seine Fahrer auf einen verbindlichen Verhaltenskodex im Umgang mit Kunden bei Reklamationen. Welche Säulen der Corporate Identity (CI) werden hier angesprochen?",
+    "optionen": [
+      "Corporate Design und Corporate Communication",
+      "Corporate Design und Corporate Behavior",
+      "Corporate Communication und Corporate Behavior",
+      "Ausschließlich Corporate Design"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Arbeitskleidung und das Logo gehören zum visuellen Erscheinungsbild (Corporate Design), das Verhalten bei Reklamationen regelt das Auftreten gegenüber Dritten (Corporate Behavior)."
+  },
+  {
+    "id": "bm_ls01_q3",
+    "modul": "bm",
+    "ls": "bm_ls01",
+    "frage": "Was steht am logischen Anfang jedes betrieblichen Planungsprozesses im Management-Regelkreis?",
+    "optionen": [
+      "Die Ist-Analyse (Information)",
+      "Die Entscheidung",
+      "Die Zieldefinition",
+      "Die Entwicklung von Alternativen"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Ohne Ziel gibt es keine sinnvolle Informationsbeschaffung und keine Bewertung von Alternativen. Die Zieldefinition steht am Anfang."
+  },
+  {
+    "id": "bm_ls01_q4",
+    "modul": "bm",
+    "ls": "bm_ls01",
+    "frage": "Welchen Zeithorizont sieht die Dozentenvorgabe für die „strategische Planung“ vor?",
+    "optionen": [
+      "Mittelfristig (1 bis 5 Jahre)",
+      "Langfristig (> 5 Jahre)",
+      "Kurzfristig (< 1 Jahr)",
+      "Flexibel (je nach Unternehmensgröße)"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Laut Skript gilt für die Ebenen die feste Skala: strategisch ist > 5 Jahre, taktisch ist 1–5 Jahre und operativ ist < 1 Jahr."
+  },
+  {
+    "id": "bm_ls01_q5",
+    "modul": "bm",
+    "ls": "bm_ls01",
+    "frage": "Ein Betrieb plant den Aufbau eines neuen Distributionszentrums in Polen innerhalb der nächsten 3 Jahre. Welcher Planungsebene ist dieses Vorhaben primär zuzuordnen?",
+    "optionen": [
+      "Operative Planung",
+      "Normative Planung",
+      "Strategische Planung",
+      "Taktische Planung"
+    ],
+    "correctIndex": 3,
+    "erklaerung": "Der Zeithorizont von 1–5 Jahren und die Konkretisierung von Ressourcen (Abteilungs-/Standortaufbau) fallen unter die taktische Planung."
+  },
+  {
+    "id": "bm_ls01_q6",
+    "modul": "bm",
+    "ls": "bm_ls01",
+    "frage": "In welcher Reihenfolge verläuft der vollständige Strategieentwicklungsprozess laut den Dozentenvorgaben?",
+    "optionen": [
+      "Vision → Strategie → Analyse → Operative Ziele → Controlling",
+      "Werte/Mission/Leitbild → Interne & externe Analyse → Vision → Strategie → Strategische Ziele → Operative Ziele",
+      "Strategie → Vision → Maßnahmen → Werte → Analyse",
+      "Analyse → Vision → Werte/Mission → Strategische Ziele → Maßnahmen"
+    ],
+    "correctIndex": 1,
+    "erklaerung": "Die Werte/Mission bilden die normative Basis. Die Vision wird erst nach der internen/externen Analyse formuliert, da ein realistisches Zukunftsbild die Kenntnis des Marktes und der eigenen Stärken voraussetzt."
+  },
+  {
+    "id": "bm_ls01_q7",
+    "modul": "bm",
+    "ls": "bm_ls01",
+    "frage": "Ein Logistikunternehmen optimiert seine Transportrouten. Dadurch sinken die Treibstoffkosten und gleichzeitig wird der CO₂-Ausstoß reduziert. Um welche Zielbeziehung handelt es sich hierbei?",
+    "optionen": [
+      "Konkurrierende Ziele",
+      "Indifferente Ziele",
+      "Komplementäre Ziele",
+      "Neutrale Ziele"
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Komplementär bedeutet gegenseitige Förderung – die Erreichung von Ziel A (Kostensenkung) unterstützt direkt die Erreichung von Ziel B (CO₂-Reduktion)."
+  },
+  {
+    "id": "bm_ls01_q8",
+    "modul": "bm",
+    "ls": "bm_ls01",
+    "frage": "Ein Zielsystem soll im Gleichgewicht sein und darf nicht nur einseitig monetär ausgerichtet sein. Welche vier Bereiche müssen nach dem im Unterricht behandelten Modell abgedeckt werden?",
+    "optionen": [
+      "Finanzen, Kunden, Prozesse, Mitarbeiter",
+      "Einkauf, Lager, Transport, Vertrieb",
+      "Umsatz, Gewinn, Kosten, Rentabilität",
+      "Strategie, Taktik, Operative, Controlling"
+    ],
+    "correctIndex": 0,
+    "erklaerung": "Das ausgewogene Zielsystem betrachtet die vier Kernbereiche Finanzen, Kunden, interne Prozesse und Mitarbeiter (Wissensbasis/Potenzial)."
+  },
+  {
+    "id": "bm_ls01_q9",
+    "modul": "bm",
+    "ls": "bm_ls01",
+    "frage": "Welche der folgenden Formulierungen erfüllt alle Kriterien eines SMART-Ziels?",
+    "optionen": [
+      "Die Lieferqualität im Hauptlager Trier soll schnellstmöglich verbessert werden.",
+      "Wir wollen die Lagerkosten senken und gleichzeitig die Lieferbereitschaft erhöhen.",
+      "80 % der Lageristen sind bis zum 30.06.2027 in SAP-WM zu zertifizieren.",
+      "Die Fehlerquote in der Kommissionierung muss spürbar sinken."
+    ],
+    "correctIndex": 2,
+    "erklaerung": "Diese Option ist spezifisch (Lageristen/SAP-WM), messbar (80 %), realistisch/akzeptiert und klar terminiert (30.06.2027). Die anderen Optionen sind nicht messbar oder verletzen die Eindeutigkeit."
+  },
+  {
+    "id": "bm_ls01_q10",
+    "modul": "bm",
+    "ls": "bm_ls01",
+    "frage": "Ein starkes Logistikunternehmen verfügt über eine hochmoderne, automatisierte Kommissionieranlage und nutzt diese gezielt, um die am Markt stark wachsende Nachfrage nach Same-Day-Delivery zu bedienen. Welche SWOT-Normstrategie wird hier angewendet?",
+    "optionen": [
+      "WO-Strategie (Aufholen / Umwandeln)",
+      "ST-Strategie (Absichern / Neutralisieren)",
+      "WT-Strategie (Vermeiden / Abbauen)",
+      "SO-Strategie (Ausbauen / Match)"
+    ],
+    "correctIndex": 3,
+    "erklaerung": "Das Unternehmen nutzt eine interne Stärke (automatisierte Anlage), um eine externe Chance (Nachfrage nach Same-Day-Delivery) auszuschöpfen. Das entspricht der SO-Strategie."
   }
 ]

@@ -3,6 +3,11 @@
     "datum": "01.07.2026",
     "eintraege": [
       {
+        "modul": "bm",
+        "titel": "Quiz LS01 · Strategische & operative Planungsgrundlagen (10 Fragen)",
+        "aktion": "neu"
+      },
+      {
         "modul": "basics",
         "titel": "Quiz: alle 138 Fragen zu Basics Wirtschaftsrechnen entfernt",
         "aktion": "update"
