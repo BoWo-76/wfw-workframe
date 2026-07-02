@@ -189,6 +189,31 @@ function qzSelectModule(modId) {
   renderQZDashboard();
 }
 
+// ── GESAMTSTATISTIK (über alle Sessions hinweg) ──────────────
+const QZ_STATS_KEY = 'wfw_qz_lifetime_stats';
+
+function loadLifetimeStats() {
+  try {
+    return JSON.parse(localStorage.getItem(QZ_STATS_KEY) || '{"total":0,"richtig":0,"falsch":0}');
+  } catch (e) {
+    return { total: 0, richtig: 0, falsch: 0 };
+  }
+}
+function saveLifetimeStats(stats) {
+  try { localStorage.setItem(QZ_STATS_KEY, JSON.stringify(stats)); } catch (e) {}
+}
+function recordAnswer(correct) {
+  const stats = loadLifetimeStats();
+  stats.total++;
+  if (correct) stats.richtig++; else stats.falsch++;
+  saveLifetimeStats(stats);
+}
+function qzResetStats() {
+  if (!confirm('Gesamtstatistik wirklich zurücksetzen? Das betrifft nur die Zähler, keine Fragen.')) return;
+  saveLifetimeStats({ total: 0, richtig: 0, falsch: 0 });
+  renderQZDashboard();
+}
+
 // ── DASHBOARD ────────────────────────────────────────────────
 const QZ_COUNT_PREF_KEY = 'wfw_qz_count_pref';
 
@@ -212,6 +237,9 @@ function renderQZDashboard() {
   const storedPref = parseInt(localStorage.getItem(QZ_COUNT_PREF_KEY), 10);
   const defaultCount = (storedPref && countOpts.includes(storedPref)) ? storedPref : (countOpts.includes(10) ? 10 : countOpts[0]);
 
+  const lifetime = loadLifetimeStats();
+  const quote = lifetime.total > 0 ? Math.round((lifetime.richtig / lifetime.total) * 100) : null;
+
   let html = `
     <div class="page-header" style="margin-bottom:18px">
       <div class="kicker">Quiz</div>
@@ -222,6 +250,15 @@ function renderQZDashboard() {
       <div class="qz-stat-card"><div class="qz-stat-num">${questions.length}</div><div class="qz-stat-label">Fragen verfügbar</div></div>
       <div class="qz-stat-card"><div class="qz-stat-num">${lsCount}</div><div class="qz-stat-label">Lernskripte abgedeckt</div></div>
     </div>
+
+    <h3>Gesamtstatistik <span style="font-weight:400;color:var(--muted);font-size:12px">(alle Module, alle Sessions)</span></h3>
+    <div class="qz-stats-grid">
+      <div class="qz-stat-card"><div class="qz-stat-num">${lifetime.total}</div><div class="qz-stat-label">Fragen gestellt</div></div>
+      <div class="qz-stat-card"><div class="qz-stat-num" style="color:var(--ok)">${lifetime.richtig}</div><div class="qz-stat-label">Richtig beantwortet</div></div>
+      <div class="qz-stat-card"><div class="qz-stat-num" style="color:var(--danger)">${lifetime.falsch}</div><div class="qz-stat-label">Falsch beantwortet</div></div>
+      <div class="qz-stat-card"><div class="qz-stat-num">${quote !== null ? quote + '%' : '–'}</div><div class="qz-stat-label">Trefferquote</div></div>
+    </div>
+    ${lifetime.total > 0 ? `<button class="qz-btn secondary" style="font-size:12px;padding:6px 12px;margin-bottom:10px" onclick="qzResetStats()">Statistik zurücksetzen</button>` : ''}
 
     ${questions.length > 0 ? `
     <div class="qz-count-row">
@@ -319,6 +356,7 @@ function qzAnswer(selectedIdx) {
 
   if (selectedIdx === q.correctIndex) quizStats.richtig++;
   else quizStats.falsch++;
+  recordAnswer(selectedIdx === q.correctIndex);
 
   if (q.erklaerung) {
     document.getElementById('qz-explanation-text').textContent = q.erklaerung;

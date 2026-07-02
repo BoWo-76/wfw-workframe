@@ -4,6 +4,11 @@
     "eintraege": [
       {
         "modul": null,
+        "titel": "Quiz: Gesamtstatistik auf Dashboard (gestellt/richtig/falsch/Quote)",
+        "aktion": "update"
+      },
+      {
+        "modul": null,
         "titel": "Quiz: Fragenanzahl-Auswahl vor Sessionstart (10/20/30/Alle)",
         "aktion": "update"
       },
