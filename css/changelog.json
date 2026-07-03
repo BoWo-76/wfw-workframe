@@ -1,5 +1,15 @@
 [
   {
+    "datum": "03.07.2026",
+    "eintraege": [
+      {
+        "modul": "finanz",
+        "titel": "LS01 · Investitionsrechnung – Annuitätenmethode um Barwertfaktor-Rechenweg ergänzt (Alternative zum KWF), Nutzen-Erklärung beim internen Zinsfuß ergänzt, Rundungsfehler in Abzinsungsbeispiel korrigiert",
+        "aktion": "neu"
+      }
+    ]
+  },
+  {
     "datum": "02.07.2026",
     "eintraege": [
       {
@@ -9,8 +19,7 @@
       },
       {
         "modul": null,
-        "titel": "✉️ Feedback-Button (mailto) in Topbar aller Seiten",
-        "aktion": "neu"
+        "titel": "✉️ Feedback-Button (mailto) in Topbar aller Seiten"
       },
       {
         "modul": null,
@@ -19,8 +28,7 @@
       },
       {
         "modul": "finanz",
-        "titel": "LS01 · Investitionsrechnung – Rechenbeispiele & Rechenschemata in allen Kapiteln ergänzt (Kostenvergleich, Gewinnvergleich, Rentabilität, Auf-/Abzinsung, Kapitalwert, Annuität, interner Zinsfuß, wirtschaftliche Nutzungsdauer)",
-        "aktion": "neu"
+        "titel": "LS01 · Investitionsrechnung – Rechenbeispiele & Rechenschemata in allen Kapiteln ergänzt (Kostenvergleich, Gewinnvergleich, Rentabilität, Auf-/Abzinsung, Kapitalwert, Annuität, interner Zinsfuß, wirtschaftliche Nutzungsdauer)"
       }
     ]
   },

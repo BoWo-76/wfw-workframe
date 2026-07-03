@@ -31,7 +31,7 @@
       <h1>LS01 · Investitionsrechnung</h1>
       <div class="meta">
         <span>Investitionsarten · Investitionsentscheidungen · Statische und dynamische Verfahren · Wirtschaftliche Nutzungsdauer</span>
-        <span>Stand: 02.07.2026</span>
+        <span>Stand: 03.07.2026</span>
         <span><span class="badge ok">Fertig</span></span>
       </div>
     </div>
@@ -540,7 +540,7 @@
       In 5 Jahren soll eine Maschine für 15.000 € ersetzt werden. Kalkulationszinssatz 4 %. Wie viel müsste heute zurückgelegt werden, um diesen Betrag zu erreichen?<br><br>
       Gegeben: K₅ = 15.000 € ; i = 0,04 ; q = 1,04 ; n = 5<br>
       K₀ = 15.000 / 1,04⁵ = 15.000 / 1,21665 = <strong>12.328,91 €</strong><br>
-      → 12.328,73 € heute entsprechen bei 4 % Verzinsung in 5 Jahren genau 15.000 €. Das ist exakt das Prinzip, mit dem in Kapitel 5.2 alle zukünftigen Zahlungsüberschüsse auf den heutigen Zeitpunkt (t = 0) umgerechnet werden.
+      → 12.328,91 € heute entsprechen bei 4 % Verzinsung in 5 Jahren genau 15.000 €. Das ist exakt das Prinzip, mit dem in Kapitel 5.2 alle zukünftigen Zahlungsüberschüsse auf den heutigen Zeitpunkt (t = 0) umgerechnet werden.
     </div>
 
     <h3 id="kap5-2">5.2 Kapitalwertmethode</h3>
@@ -638,14 +638,28 @@
     <div class="notice info">
       <strong>Rechenbeispiel – Annuitätenmethode (Fortsetzung Kapitalwertbeispiel)</strong><br>
       Aus 5.2: C₀ = 10.428,86 € ; n = 4 Jahre ; q = 1,06<br><br>
+      <strong>Weg 1 — über den Kapitalwiedergewinnungsfaktor (KWF):</strong><br>
       KWF = (q⁴ × (q−1)) / (q⁴ − 1) = (1,26248 × 0,06) / 0,26248 = 0,075749 / 0,26248 = <strong>0,28859</strong><br>
       ANN = C₀ × KWF = 10.428,86 € × 0,28859 = <strong>3.009,68 €</strong>
+
+      <p style="margin:0.8rem 0 0.3rem"><strong>Weg 2 — über den Barwertfaktor (BWF, auch Rentenbarwertfaktor genannt):</strong></p>
+      BWF = (q⁴ − 1) / (q⁴ × (q−1)) = 0,26248 / 0,075749 = <strong>3,46511</strong><br>
+      ANN = C₀ / BWF = 10.428,86 € / 3,46511 = <strong>3.009,68 €</strong>
+
       <p style="margin:0.5rem 0 0">
-        <strong>Ergebnis:</strong> Der einmalige Kapitalwert von 10.428,86 € entspricht — gleichmäßig auf die 4 Nutzungsjahre verteilt — einer jährlichen Annuität von 3.009,68 €. Da ANN &gt; 0 ist, bestätigt sich die Vorteilhaftigkeit aus 5.2.
+        <strong>Ergebnis:</strong> Beide Wege liefern exakt dasselbe Ergebnis — der Barwertfaktor ist einfach der Kehrwert des KWF (BWF = 1/KWF). Der einmalige Kapitalwert von 10.428,86 € entspricht — gleichmäßig auf die 4 Nutzungsjahre verteilt — einer jährlichen Annuität von 3.009,68 €. Da ANN &gt; 0 ist, bestätigt sich die Vorteilhaftigkeit aus 5.2.
+      </p>
+      <p style="margin:0.5rem 0 0">
+        <strong>Wann welchen Weg nehmen?</strong> Reine Rechentechnik — nimm den Faktor, der dir vorliegt (z. B. aus einer Finanztabelle). Manche Tabellenwerke listen nur KWF-Werte, andere nur Rentenbarwertfaktoren. Beide führen zwingend zum selben Ergebnis.
       </p>
     </div>
 
     <h3 id="kap5-4">5.4 Methode des internen Zinsfußes</h3>
+
+    <div class="notice ok">
+      <strong>Warum diese Methode? (Nutzen)</strong><br>
+      Kapitalwert- und Annuitätenmethode setzen einen <strong>festen Kalkulationszinssatz voraus</strong>, den man vorher kennen muss. Der interne Zinsfuß dreht die Frage um: Er liefert direkt <strong>die tatsächliche Effektivverzinsung der Investition selbst</strong> — als Prozentsatz, den man ohne Umweg mit anderen Anlagemöglichkeiten, dem Kreditzins oder der eigenen Renditeerwartung vergleichen kann. Besonders praktisch, wenn der „richtige" Kalkulationszinssatz selbst unsicher oder umstritten ist.
+    </div>
 
     <div class="def-box">
       <strong>Definition – Interner Zinsfuß (r)</strong><br>
@@ -788,7 +802,7 @@
 
 <footer class="page-footer">
   <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
-  <div>Finanzmanagement LS01 · Stand: 02.07.2026</div>
+  <div>Finanzmanagement LS01 · Stand: 03.07.2026</div>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
