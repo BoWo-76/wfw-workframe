@@ -11,7 +11,7 @@ Kein CMS, keine Datenbank — läuft lokal und auf GitHub Pages.
 - GitHub: Repository `BoWo-76/wfw-wiki1` (public)
 - Hosting: GitHub Pages — `https://bowo-76.github.io/wfw-wiki1/`
 - Netlify wurde aufgegeben (Build-Credits aufgebraucht)
-- **Sicherheitsthema (offen, Stand 02.07.2026):** Wiki ist bei Google auffindbar ("wfw wiki github" → erster Treffer). Boris möchte den Kursleuten aus dem WhatsApp-Kurs, die den aktuellen Link haben, den Zugriff entziehen, ohne Fremde stärker zu blockieren als bisher. Lösung besprochen: **Repository umbenennen** (Settings → Repository name → Rename). Alte Pages-URL wird NICHT automatisch weitergeleitet (anders als bei normalen Git-Links) → alte Links sterben (404). Den neuen Link dann an niemanden weitergeben — weder Kursgruppe noch sonst wen —, dann ist er für alle unerreichbar, bis Boris ihn selbst wieder teilt. **Noch nicht umgesetzt**, evtl. am Wochenende.
+- **Sicherheitsthema — ERLEDIGT (03.07.2026):** Wiki war bei Google auffindbar ("wfw wiki github" → erster Treffer). Repository wurde umbenannt (Settings → Repository name → Rename), um den Kursleuten aus dem WhatsApp-Kurs (die den alten Link hatten) den Zugriff zu entziehen, ohne aktiv neue Blockaden für Fremde einzubauen. Alte Pages-URL leitet NICHT automatisch weiter (anders als bei normalen Git-Links) → alte Links sind jetzt tot (404). Neuer Link wurde bewusst an niemanden weitergegeben. **Bislang keine Rückmeldungen von Kursleuten, dass der Zugriff fehlt** — entweder wurde das Wiki kaum genutzt, oder es ist niemandem eine Meldung wert gewesen. ⚠️ **Die GitHub-Pages-URL in dieser Datei (unten, "Bekannte technische Details") ist damit veraltet** — neuer Link müsste bei Bedarf von Boris nachgetragen werden, falls in einem künftigen Chat die genaue URL wieder gebraucht wird (z.B. für Weiterleitungen/Erwähnungen).
 
 ---
 
@@ -497,7 +497,7 @@ WK IV (aus WK IV PPTX):
 - `build-index.bat` nach jeder neuen Wiki-Seite ausführen (Node.js erforderlich) — NICHT bei Werkzeugkasten/Karteikarten/Quiz (kein pages.js-Eintrag für diese drei Standalone-Seiten)
 - `.notice { display: block }` — verhindert Flex-Layout-Fehler bei Merksätzen
 - `.notice strong:first-child { display: block }` — NEU (02.07.2026), siehe Bugfix-Hinweis oben
-- GitHub Pages URL: `https://bowo-76.github.io/wfw-wiki1/` — **evtl. bald geändert, siehe Sicherheitsthema oben**
+- GitHub Pages URL: ~~`https://bowo-76.github.io/wfw-wiki1/`~~ **veraltet seit 03.07.2026 (Repo umbenannt, siehe Sicherheitsthema oben) — neue URL bei Bedarf von Boris erfragen**
 - `index.html` muss `<link rel="stylesheet" href="css/tiles.css">` enthalten
 - **Niemals `localStorage`/`sessionStorage` in Claude-Artifacts verwenden** — im echten Wiki ist das problemlos möglich und wird für Notizzettel, Panel-Status, Sidebar-Status, Werkzeugkasten-Sidebar, Karteikarten (Fortschritt + eigene Karten) und Quiz (Statistik + Präferenzen) aktiv genutzt
 - **WIKI_CONFIG als `window.WIKI_CONFIG =`** (nicht `const`) — wichtig für zuverlässige cross-browser/file://-Verfügbarkeit, gilt für alle Standalone-Seiten, die `pages.js` mitladen (Karteikarten, Quiz)
@@ -510,8 +510,7 @@ WK IV (aus WK IV PPTX):
 - **Werkzeugkasten PNG-Exporte** weiterhin ausstehend — Boris exportiert aus WK I–IV PPTX als PNG und legt sie in `images/wk/` ab (Dateinamenliste vollständig oben dokumentiert)
 - **Grafiken** für „📷 Grafik einfügen"-Platzhalter nachliefern (betrifft uf_ls01, uf_ls02, uf_ls04–uf_ls07: Eisberg-Modell, BCG-Matrix, Organigramm-Darstellungen, PDCA-Kreislauf, VUKA/BANI-Grafiken, Mintzberg-Strategiebrücke, Du-Pont-Pyramide, Kano-Diagramm, Maslow-Pyramide, Herzberg-Diagramm, Grid-Konzept-Gitter, Tuckman-Kurve, Nettopersonalbedarfsrad, Personalportfolio-Matrix)
 - **Kapitel 7** in `uf_ls02` (Personalwirtschaftliche Organisation) ergänzen, sobald Dozent das Thema behandelt hat
-- **Repository umbenennen** (Sicherheitsthema, siehe oben) — evtl. am Wochenende
-- **LogiBase-Wiki-Demo** (Fiverr-Portfolio) — Boris möchte sich am Wochenende evtl. wieder darum kümmern, siehe Fiverr-Kontext unten
+- **LogiBase-Wiki-Demo** (Fiverr-Portfolio) — Boris nimmt sich am Wochenende (04./05.07.2026) die Fiverr-Demo vor, siehe Fiverr-Kontext unten
 
 ### Roadmap-Ideen (vorgeschlagen 01.07.2026, teils bereits umgesetzt)
 - ✅ Karteikarten-Widget mit Spaced Repetition/Leitner-System — **umgesetzt**
@@ -524,6 +523,7 @@ WK IV (aus WK IV PPTX):
 - ⬜ „Zuletzt angesehen"-Liste (unabhängig von der bereits vorhandenen Sidebar-Historie, ggf. redundant — prüfen)
 - ⬜ JSON-Backup/Export für Notizzettel (und jetzt auch Karteikarten/Quiz-Statistik) — bei Verlust/Browserwechsel sonst alles weg
 - ⬜ Dark Mode via CSS-Variablen-Toggle
+- ⬜ Durchsuchbare Formelsammlung (vorgeschlagen 03.07.2026, zurückgestellt — "später Gedanken machen"): komplette Formeln (nicht nur Symbole wie im bestehenden Σ-Glossar) mit Rücksprung zur Ursprungsseite. Idee: zweiter Tab im bestehenden Σ-Panel statt neuem Topbar-Icon, um die Icon-Leiste nicht weiter zu überladen. Datenstruktur analog `formelzeichen.json`. Aufwand liegt im Extrahieren der Formeln aus ~70 bestehenden Seiten, nicht in der Technik — bei Bedarf modulweise starten (finanz/rewe/recht/bm, die bereits ein Formelzeichen-Glossar haben).
 
 ---
 
