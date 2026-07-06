@@ -102,6 +102,11 @@ const WIKI_CONFIG = {
       file: "pages/finanz_ls02.html", status: "fertig", updated: "03.07.2026",
       keywords: ["finanzierung", "kapitalbedarfsplanung", "kapitalbedarf", "anlagekapital", "umlaufkapital", "kumulative methode", "elektive methode", "lieferantenziel", "kapitalbindungsdauer", "bilanzgleichung", "investition und finanzierung"]
     },
+    {
+      id: "finanz_ls03", module: "finanz", title: "LS03 · Finanzierungsplanung, Fremd- und Eigenfinanzierung, Mezzanines Kapital",
+      file: "pages/finanz_ls03.html", status: "fertig", updated: "03.07.2026",
+      keywords: ["finanzierungsplanung", "magisches viereck", "liquidität", "rentabilität", "sicherheit", "unabhängigkeit", "fremdfinanzierung", "eigenfinanzierung", "mezzanine", "mezzanines kapital", "nachrangdarlehen", "partiarisches darlehen", "genussrechte", "wandelschuldverschreibung", "optionsschuldverschreibung", "stille beteiligung", "haftungsrisiko", "ausfallrisiko"]
+    },
 
     // ── Recht und Steuern ────────────────────────────────────
     {
