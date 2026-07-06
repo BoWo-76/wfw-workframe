@@ -97,6 +97,11 @@ const WIKI_CONFIG = {
       file: "pages/finanz_ls01.html", status: "fertig", updated: "03.07.2026",
       keywords: ["investition", "finanzierung", "investitionsarten", "statische verfahren", "dynamische verfahren", "kostenvergleichsrechnung", "kapitalwertmethode", "kapitalwert", "annuitätenmethode", "interner zinsfuß", "abzinsung", "aufzinsung", "wirtschaftliche nutzungsdauer", "amortisationsdauer"]
     },
+    {
+      id: "finanz_ls02", module: "finanz", title: "LS02 · Finanzierung – Grundlagen & Kapitalbedarfsplanung",
+      file: "pages/finanz_ls02.html", status: "fertig", updated: "03.07.2026",
+      keywords: ["finanzierung", "kapitalbedarfsplanung", "kapitalbedarf", "anlagekapital", "umlaufkapital", "kumulative methode", "elektive methode", "lieferantenziel", "kapitalbindungsdauer", "bilanzgleichung", "investition und finanzierung"]
+    },
 
     // ── Recht und Steuern ────────────────────────────────────
     {

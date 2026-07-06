@@ -4,6 +4,11 @@
     "eintraege": [
       {
         "modul": "finanz",
+        "titel": "LS02 · Finanzierung – Grundlagen & Kapitalbedarfsplanung (neues Themengebiet innerhalb Finanzmanagement)",
+        "aktion": "neu"
+      },
+      {
+        "modul": "finanz",
         "titel": "LS01 · Investitionsrechnung – Annuitätenmethode um Barwertfaktor-Rechenweg ergänzt (Alternative zum KWF), Nutzen-Erklärung beim internen Zinsfuß ergänzt, Rundungsfehler in Abzinsungsbeispiel korrigiert",
         "aktion": "neu"
       }
