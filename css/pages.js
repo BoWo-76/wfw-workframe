@@ -107,6 +107,11 @@ const WIKI_CONFIG = {
       file: "pages/finanz_ls03.html", status: "fertig", updated: "03.07.2026",
       keywords: ["finanzierungsplanung", "magisches viereck", "liquidität", "rentabilität", "sicherheit", "unabhängigkeit", "fremdfinanzierung", "eigenfinanzierung", "mezzanine", "mezzanines kapital", "nachrangdarlehen", "partiarisches darlehen", "genussrechte", "wandelschuldverschreibung", "optionsschuldverschreibung", "stille beteiligung", "haftungsrisiko", "ausfallrisiko"]
     },
+    {
+      id: "finanz_ls04", module: "finanz", title: "LS04 · Sicherheiten und Leverage-Effekt",
+      file: "pages/finanz_ls04.html", status: "fertig", updated: "03.07.2026",
+      keywords: ["sicherheiten", "sicherungsnehmer", "sicherungsgeber", "bürgschaft", "ausfallbürgschaft", "selbstschuldnerische bürgschaft", "patronatserklärung", "avalkredit", "hypothek", "grundschuld", "verpfändung", "sicherungsübereignung", "eigentumsvorbehalt", "verlängerter eigentumsvorbehalt", "erweiterter eigentumsvorbehalt", "kontokorrentvorbehalt", "zession", "mantelzession", "globalzession", "leverage-effekt", "leverage-risk", "verschuldungsgrad", "eigenkapitalrentabilität", "gesamtkapitalrentabilität"]
+    },
 
     // ── Recht und Steuern ────────────────────────────────────
     {

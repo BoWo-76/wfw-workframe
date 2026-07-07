@@ -4,6 +4,11 @@
     "eintraege": [
       {
         "modul": "finanz",
+        "titel": "LS04 · Sicherheiten und Leverage-Effekt",
+        "aktion": "neu"
+      },
+      {
+        "modul": "finanz",
         "titel": "LS03 · Finanzierungsplanung, Fremd- und Eigenfinanzierung, Mezzanines Kapital",
         "aktion": "neu"
       },
