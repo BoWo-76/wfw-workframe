@@ -112,6 +112,11 @@ const WIKI_CONFIG = {
       file: "pages/finanz_ls04.html", status: "fertig", updated: "03.07.2026",
       keywords: ["sicherheiten", "sicherungsnehmer", "sicherungsgeber", "bürgschaft", "ausfallbürgschaft", "selbstschuldnerische bürgschaft", "patronatserklärung", "avalkredit", "hypothek", "grundschuld", "verpfändung", "sicherungsübereignung", "eigentumsvorbehalt", "verlängerter eigentumsvorbehalt", "erweiterter eigentumsvorbehalt", "kontokorrentvorbehalt", "zession", "mantelzession", "globalzession", "leverage-effekt", "leverage-risk", "verschuldungsgrad", "eigenkapitalrentabilität", "gesamtkapitalrentabilität"]
     },
+    {
+      id: "finanz_ls05", module: "finanz", title: "LS05 · Liquiditätsplanung",
+      file: "pages/finanz_ls05.html", status: "fertig", updated: "03.07.2026",
+      keywords: ["liquidität", "liquiditätsplanung", "fristenkongruenz", "liquiditätsgrade", "barliquidität", "einzugsliquidität", "umsatzliquidität", "working capital", "anlagedeckungsgrad", "goldene bilanzregel", "eigenkapitalquote", "fremdkapitalquote", "verschuldungskoeffizient", "cashflow", "dynamischer liquiditätsplan", "zahlungsströme"]
+    },
 
     // ── Recht und Steuern ────────────────────────────────────
     {
