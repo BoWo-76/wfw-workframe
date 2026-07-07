@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LS01 · Komplettschema Investitionsrechnung (A vs. B) – WFW Wiki</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+  /* Schema-spezifisches Layout — nur hier gültig, Farben auf Wiki-Variablen gemappt */
+  .schema-sheet {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 22px 26px 30px 26px;
+    margin: 1rem 0;
+    overflow-x: auto;
+  }
+  .schema-subtitle { color: var(--muted); font-size: 0.8rem; margin-bottom: 1.2rem; }
+
+  .schema-basiswerte table { width: 100%; border-collapse: collapse; margin-bottom: 1.4rem; font-size: 0.78rem; }
+  .schema-basiswerte td, .schema-basiswerte th { border: 1px solid var(--line); padding: 5px 10px; }
+  .schema-basiswerte th { background: var(--danger-soft); text-align: left; width: 26%; }
+  .schema-basiswerte td { text-align: right; }
+
+  table.schema-main { width: 100%; border-collapse: collapse; font-size: 0.72rem; margin-bottom: 0.3rem; min-width: 900px; }
+  table.schema-main th, table.schema-main td { border: 1px solid var(--line); padding: 4px 7px; vertical-align: middle; }
+  table.schema-main th { background: var(--ink); color: #fff; font-size: 0.68rem; text-align: center; }
+  table.schema-main td.label { text-align: left; width: 17%; }
+  table.schema-main td.formula { text-align: left; width: 20%; font-size: 0.65rem; color: var(--muted); font-style: italic; }
+  table.schema-main td.val { text-align: right; width: 10%; font-family: "Courier New", monospace; }
+  table.schema-main td.formula-filled { text-align: left; width: 21%; font-size: 0.65rem; font-family: "Courier New", monospace; color: var(--primary-dark); }
+
+  tr.schema-method-header td { background: var(--danger); color: #fff; font-weight: bold; font-size: 0.8rem; padding: 7px 10px; font-style: normal; }
+  tr.schema-sub-header td { background: var(--line); font-weight: bold; font-size: 0.7rem; font-style: normal; }
+  tr.schema-decision td { background: var(--ok-soft); font-weight: bold; }
+  tr.schema-highlight td { background: var(--warn-soft); font-weight: bold; }
+  tr.schema-sum-row td { background: var(--bg); font-weight: bold; }
+  tr.schema-negative td.val { color: var(--danger); }
+  tr.schema-km-row td { background: var(--danger-soft); }
+
+  tr.schema-connector td { background: var(--danger-soft); text-align: center; color: var(--danger); font-weight: bold; font-size: 0.75rem; padding: 5px 0; }
+  tr.schema-connector .schema-connector-text { font-size: 0.62rem; font-weight: normal; color: var(--muted); font-style: italic; }
+
+  .schema-note-box { background: var(--info-soft); border-left: 4px solid var(--info); padding: 8px 12px; margin: 0.6rem 0 1.2rem 0; font-size: 0.75rem; }
+  .schema-footer-note { margin-top: 1.2rem; font-size: 0.65rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 8px; }
+  .schema-sheet sup { font-size: 0.7em; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../index.html">WFW<span>Wiki</span></a>
+  <div class="search-wrap">
+    <input id="search-input" type="search" placeholder="Thema suchen …" autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+</div>
+
+<div class="layout">
+  <nav class="sidebar"></nav>
+
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="../index.html">Startseite</a> › <a href="modul_finanz.html">Finanzmanagement</a> › LS01 · Komplettschema
+    </div>
+
+    <div class="page-header">
+      <div class="kicker">Finanzmanagement · Investitionsrechnung · Ergänzung zu LS01</div>
+      <h1>Komplettschema Investitionsrechnung (Alt. A vs. B)</h1>
+      <div class="meta">
+        <span>Alle 8 Verfahren in einem durchgehenden Rechenbeispiel</span>
+        <span>Stand: 03.07.2026</span>
+        <span><span class="badge ok">Fertig</span></span>
+      </div>
+    </div>
+
+    <div class="notice info">
+      Dieses Schema führt <strong>ein einziges Zahlenbeispiel</strong> (Alternative A vs. B) durch alle acht Verfahren der Investitionsrechnung — von der Kostenvergleichsrechnung bis zur wirtschaftlichen Nutzungsdauer. Ideal, um den kompletten Rechenweg am Stück nachzuvollziehen und zu sehen, wie die Ergebnisse einer Methode in die nächste einfließen. Ergänzt <a href="finanz_ls01.html">LS01 · Investitionsrechnung</a>, ersetzt es aber nicht — dort stehen die Definitionen, Entscheidungsregeln und Einzelbeispiele.
+    </div>
+
+    <div class="schema-sheet">
+      <div class="schema-subtitle">Statische + dynamische Verfahren, mit Formel, eingesetzten Werten und kritischer Menge</div>
+
+      <div class="schema-basiswerte">
+        <table>
+          <tr><th>Sachverhalt</th><td>Alternative A</td><td>Alternative B</td></tr>
+          <tr><th>Anschaffungskosten in T(0)</th><td>200.000,00 €</td><td>260.000,00 €</td></tr>
+          <tr><th>Kalkulationszinssatz (i)</th><td>8,00 %</td><td>8,00 %</td></tr>
+          <tr><th>Nutzungsdauer (ND)</th><td>6 Jahre</td><td>6 Jahre</td></tr>
+          <tr><th>Restwert am Ende der ND</th><td>20.000,00 €</td><td>32.000,00 €</td></tr>
+          <tr><th>Preis je ME</th><td>10,00 €</td><td>9,60 €</td></tr>
+          <tr><th>Variable Kosten je ME (kv)</th><td>4,00 €</td><td>3,20 €</td></tr>
+          <tr><th>Sonstige fixe Kosten</th><td>20.000,00 €</td><td>25.000,00 €</td></tr>
+          <tr><th>Planabsatz (statisch, konstant)</th><td>15.000 ME</td><td>15.000 ME</td></tr>
+        </table>
+      </div>
+
+      <table class="schema-main">
+        <tr><th>Bezeichnung</th><th>Formel</th><th>Wert A</th><th>Gefüllte Formel A</th><th>Wert B</th><th>Gefüllte Formel B</th></tr>
+
+        <tr class="schema-method-header"><td colspan="6">① Kostenvergleichsrechnung</td></tr>
+        <tr><td class="label">Abschreibung</td><td class="formula">(AK − Restwert) / ND</td><td class="val">30.000,00</td><td class="formula-filled">(200.000−20.000)/6</td><td class="val">38.000,00</td><td class="formula-filled">(260.000−32.000)/6</td></tr>
+        <tr><td class="label">Zinsen</td><td class="formula">(AK + Restwert) / 2 × i</td><td class="val">8.800,00</td><td class="formula-filled">(200.000+20.000)/2×0,08</td><td class="val">11.680,00</td><td class="formula-filled">(260.000+32.000)/2×0,08</td></tr>
+        <tr><td class="label">Sonstige fixe Kosten</td><td class="formula">gegeben</td><td class="val">20.000,00</td><td class="formula-filled">–</td><td class="val">25.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label"><strong>Fixkosten gesamt</strong></td><td class="formula">Abschr. + Zinsen + sonst. Fix</td><td class="val"><strong>58.800,00</strong></td><td class="formula-filled">30.000+8.800+20.000</td><td class="val"><strong>74.680,00</strong></td><td class="formula-filled">38.000+11.680+25.000</td></tr>
+        <tr><td class="label">Variable Kosten</td><td class="formula">kv × Planabsatz</td><td class="val">60.000,00</td><td class="formula-filled">4,00×15.000</td><td class="val">48.000,00</td><td class="formula-filled">3,20×15.000</td></tr>
+        <tr><td class="label"><strong>Gesamtkosten</strong></td><td class="formula">Fixkosten + variable Kosten</td><td class="val"><strong>118.800,00</strong></td><td class="formula-filled">58.800+60.000</td><td class="val"><strong>122.680,00</strong></td><td class="formula-filled">74.680+48.000</td></tr>
+        <tr class="schema-km-row schema-highlight"><td class="label" colspan="2"><strong>Kritische Menge (Kostenvergleich)</strong></td><td colspan="4" style="text-align:center;"><strong>19.850,00 ME</strong> &nbsp;|&nbsp; Formel: (Fixkosten_B − Fixkosten_A)/(kv_A − kv_B) &nbsp;=&nbsp; (74.680−58.800)/(4,00−3,20)</td></tr>
+        <tr class="schema-decision"><td class="label" colspan="2">Entscheidung Kostenvergleich</td><td colspan="4" style="text-align:center;">Planabsatz 15.000 ME liegt <strong>unter</strong> der kritischen Menge (19.850) → <strong>A</strong> ist günstiger</td></tr>
+
+        <tr class="schema-connector"><td colspan="6">↓ <span class="schema-connector-text">Gesamtkosten fließen in den Gewinnvergleich ein</span></td></tr>
+
+        <tr class="schema-method-header"><td colspan="6">② Gewinnvergleichsrechnung</td></tr>
+        <tr><td class="label">Erlöse</td><td class="formula">Preis × Planabsatz</td><td class="val">150.000,00</td><td class="formula-filled">10,00×15.000</td><td class="val">144.000,00</td><td class="formula-filled">9,60×15.000</td></tr>
+        <tr><td class="label"><strong>Gewinn (Saldo)</strong></td><td class="formula">Erlöse − Gesamtkosten</td><td class="val"><strong>31.200,00</strong></td><td class="formula-filled">150.000−118.800</td><td class="val"><strong>21.320,00</strong></td><td class="formula-filled">144.000−122.680</td></tr>
+        <tr><td class="label">Deckungsbeitrag/ME</td><td class="formula">Preis − kv</td><td class="val">6,00</td><td class="formula-filled">10,00−4,00</td><td class="val">6,40</td><td class="formula-filled">9,60−3,20</td></tr>
+        <tr><td class="label">Gewinnschwelle (ME)</td><td class="formula">Fixkosten / DB je ME</td><td class="val">9.800,00</td><td class="formula-filled">58.800/6,00</td><td class="val">11.668,75</td><td class="formula-filled">74.680/6,40</td></tr>
+        <tr class="schema-km-row schema-highlight"><td class="label" colspan="2"><strong>Kritische Menge (Gewinnvergleich)</strong></td><td colspan="4" style="text-align:center;"><strong>39.700,00 ME</strong> &nbsp;|&nbsp; Formel: (Fixkosten_A − Fixkosten_B)/(DB_A − DB_B) &nbsp;=&nbsp; (58.800−74.680)/(6,00−6,40)</td></tr>
+        <tr class="schema-decision"><td class="label" colspan="2">Entscheidung Gewinnvergleich</td><td colspan="4" style="text-align:center;">Planabsatz 15.000 ME liegt <strong>unter</strong> der kritischen Menge (39.700) → <strong>A</strong> bleibt vorteilhafter</td></tr>
+
+        <tr class="schema-connector"><td colspan="6">↓ <span class="schema-connector-text">Gewinn + Zinsen fließen in die Rentabilität ein</span></td></tr>
+
+        <tr class="schema-method-header"><td colspan="6">③ Rentabilitätsvergleich</td></tr>
+        <tr><td class="label">Gewinn + kalk. Zinsen</td><td class="formula">Gewinn + Zinsen</td><td class="val">40.000,00</td><td class="formula-filled">31.200+8.800</td><td class="val">33.000,00</td><td class="formula-filled">21.320+11.680</td></tr>
+        <tr><td class="label">Durchschn. gebund. Kapital</td><td class="formula">(AK + Restwert) / 2</td><td class="val">110.000,00</td><td class="formula-filled">(200.000+20.000)/2</td><td class="val">146.000,00</td><td class="formula-filled">(260.000+32.000)/2</td></tr>
+        <tr><td class="label"><strong>Kapitalrentabilität</strong></td><td class="formula">(Gewinn+Zinsen)/Kapital×100%</td><td class="val"><strong>36,36 %</strong></td><td class="formula-filled">40.000/110.000×100</td><td class="val"><strong>22,60 %</strong></td><td class="formula-filled">33.000/146.000×100</td></tr>
+        <tr class="schema-decision"><td class="label" colspan="2">Entscheidung Rentabilität</td><td colspan="4" style="text-align:center;">Höhere Rentabilität → <strong>A</strong> vorteilhafter</td></tr>
+
+        <tr class="schema-connector"><td colspan="6">↓ <span class="schema-connector-text">Gewinn + Abschreibung ergeben den Jahresrückfluss</span></td></tr>
+
+        <tr class="schema-method-header"><td colspan="6">④ Amortisationsvergleich</td></tr>
+        <tr><td class="label">Kapitaleinsatz</td><td class="formula">AK − Restwert</td><td class="val">180.000,00</td><td class="formula-filled">200.000−20.000</td><td class="val">228.000,00</td><td class="formula-filled">260.000−32.000</td></tr>
+        <tr><td class="label">Jahresrückfluss</td><td class="formula">Gewinn + Abschreibung</td><td class="val">61.200,00</td><td class="formula-filled">31.200+30.000</td><td class="val">59.320,00</td><td class="formula-filled">21.320+38.000</td></tr>
+        <tr><td class="label"><strong>Amortisationsdauer</strong></td><td class="formula">Kapitaleinsatz / Jahresrückfluss</td><td class="val"><strong>2,94 Jahre</strong></td><td class="formula-filled">180.000/61.200</td><td class="val"><strong>3,84 Jahre</strong></td><td class="formula-filled">228.000/59.320</td></tr>
+        <tr class="schema-decision"><td class="label" colspan="2">Entscheidung Amortisation</td><td colspan="4" style="text-align:center;">Kürzere Amortisationsdauer → <strong>A</strong> vorteilhafter</td></tr>
+      </table>
+
+      <div class="schema-note-box">
+        <strong>Zwischenfazit statisch:</strong> Alle vier statischen Verfahren sprechen für A. Der Planabsatz (15.000 ME) liegt bei beiden kritischen Mengen unterhalb des Schnittpunkts — erst bei deutlich höherem Absatz würde B vorteilhafter. Ab hier wechseln wir von der Ein-Perioden-Betrachtung (konstanter Planabsatz) zur Mehrperioden-Betrachtung mit tatsächlichen Jahreszahlungen.
+      </div>
+
+      <table class="schema-main">
+        <tr><th>Bezeichnung</th><th>Formel</th><th>Wert A</th><th>Gefüllte Formel A</th><th>Wert B</th><th>Gefüllte Formel B</th></tr>
+
+        <tr class="schema-method-header"><td colspan="6">⑤ Kapitalwertmethode</td></tr>
+        <tr class="schema-sub-header"><td colspan="6">Absatz und Einzahlungen je Jahr (Absatz variiert hier — anders als im statischen Planabsatz)</td></tr>
+        <tr><td class="label">Absatz T(1)</td><td class="formula">Einzahlung(1) / Preis</td><td class="val">9.000 ME</td><td class="formula-filled">90.000/10,00</td><td class="val">9.896 ME</td><td class="formula-filled">95.000/9,60</td></tr>
+        <tr><td class="label">Einzahlung T(1)</td><td class="formula">Preis × Absatz(1)</td><td class="val">90.000,00</td><td class="formula-filled">10,00×9.000</td><td class="val">95.000,00</td><td class="formula-filled">9,60×9.896</td></tr>
+        <tr><td class="label">Auszahlung T(1)</td><td class="formula">gegeben</td><td class="val">20.000,00</td><td class="formula-filled">–</td><td class="val">25.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Einzahlung T(2)</td><td class="formula">gegeben</td><td class="val">85.000,00</td><td class="formula-filled">–</td><td class="val">92.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Auszahlung T(2)</td><td class="formula">gegeben</td><td class="val">22.000,00</td><td class="formula-filled">–</td><td class="val">27.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Einzahlung T(3)</td><td class="formula">gegeben</td><td class="val">78.000,00</td><td class="formula-filled">–</td><td class="val">88.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Auszahlung T(3)</td><td class="formula">gegeben</td><td class="val">25.000,00</td><td class="formula-filled">–</td><td class="val">29.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Einzahlung T(4)</td><td class="formula">gegeben</td><td class="val">70.000,00</td><td class="formula-filled">–</td><td class="val">82.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Auszahlung T(4)</td><td class="formula">gegeben</td><td class="val">28.000,00</td><td class="formula-filled">–</td><td class="val">32.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Einzahlung T(5)</td><td class="formula">gegeben</td><td class="val">60.000,00</td><td class="formula-filled">–</td><td class="val">75.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Auszahlung T(5)</td><td class="formula">gegeben</td><td class="val">32.000,00</td><td class="formula-filled">–</td><td class="val">36.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Einzahlung T(6)</td><td class="formula">gegeben</td><td class="val">50.000,00</td><td class="formula-filled">–</td><td class="val">66.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Auszahlung T(6)</td><td class="formula">gegeben</td><td class="val">38.000,00</td><td class="formula-filled">–</td><td class="val">40.000,00</td><td class="formula-filled">–</td></tr>
+
+        <tr class="schema-sub-header"><td colspan="6">Ein-/Auszahlungsüberschuss und Barwerte</td></tr>
+        <tr><td class="label">Überschuss T(1)</td><td class="formula">Einzahlung − Auszahlung</td><td class="val">70.000,00</td><td class="formula-filled">90.000−20.000</td><td class="val">70.000,00</td><td class="formula-filled">95.000−25.000</td></tr>
+        <tr><td class="label">Barwert T(1)</td><td class="formula">Überschuss / (1+i)<sup>1</sup></td><td class="val">64.814,81</td><td class="formula-filled">70.000/1,08<sup>1</sup></td><td class="val">64.814,81</td><td class="formula-filled">70.000/1,08<sup>1</sup></td></tr>
+        <tr><td class="label">Überschuss T(2)</td><td class="formula">Einzahlung − Auszahlung</td><td class="val">63.000,00</td><td class="formula-filled">85.000−22.000</td><td class="val">65.000,00</td><td class="formula-filled">92.000−27.000</td></tr>
+        <tr><td class="label">Barwert T(2)</td><td class="formula">Überschuss / (1+i)<sup>2</sup></td><td class="val">54.012,35</td><td class="formula-filled">63.000/1,08<sup>2</sup></td><td class="val">55.727,02</td><td class="formula-filled">65.000/1,08<sup>2</sup></td></tr>
+        <tr><td class="label">Überschuss T(3)</td><td class="formula">Einzahlung − Auszahlung</td><td class="val">53.000,00</td><td class="formula-filled">78.000−25.000</td><td class="val">59.000,00</td><td class="formula-filled">88.000−29.000</td></tr>
+        <tr><td class="label">Barwert T(3)</td><td class="formula">Überschuss / (1+i)<sup>3</sup></td><td class="val">42.073,11</td><td class="formula-filled">53.000/1,08<sup>3</sup></td><td class="val">46.836,10</td><td class="formula-filled">59.000/1,08<sup>3</sup></td></tr>
+        <tr><td class="label">Überschuss T(4)</td><td class="formula">Einzahlung − Auszahlung</td><td class="val">42.000,00</td><td class="formula-filled">70.000−28.000</td><td class="val">50.000,00</td><td class="formula-filled">82.000−32.000</td></tr>
+        <tr><td class="label">Barwert T(4)</td><td class="formula">Überschuss / (1+i)<sup>4</sup></td><td class="val">30.871,25</td><td class="formula-filled">42.000/1,08<sup>4</sup></td><td class="val">36.751,49</td><td class="formula-filled">50.000/1,08<sup>4</sup></td></tr>
+        <tr><td class="label">Überschuss T(5)</td><td class="formula">Einzahlung − Auszahlung</td><td class="val">28.000,00</td><td class="formula-filled">60.000−32.000</td><td class="val">39.000,00</td><td class="formula-filled">75.000−36.000</td></tr>
+        <tr><td class="label">Barwert T(5)</td><td class="formula">Überschuss / (1+i)<sup>5</sup></td><td class="val">19.056,33</td><td class="formula-filled">28.000/1,08<sup>5</sup></td><td class="val">26.542,74</td><td class="formula-filled">39.000/1,08<sup>5</sup></td></tr>
+        <tr><td class="label">Überschuss T(6)</td><td class="formula">Einzahlung − Auszahlung</td><td class="val">12.000,00</td><td class="formula-filled">50.000−38.000</td><td class="val">26.000,00</td><td class="formula-filled">66.000−40.000</td></tr>
+        <tr><td class="label">Barwert T(6)</td><td class="formula">Überschuss / (1+i)<sup>6</sup></td><td class="val">7.562,04</td><td class="formula-filled">12.000/1,08<sup>6</sup></td><td class="val">16.384,41</td><td class="formula-filled">26.000/1,08<sup>6</sup></td></tr>
+        <tr class="schema-sum-row"><td class="label">Summe Barwerte</td><td class="formula">Σ aller Barwerte</td><td class="val">218.389,89</td><td class="formula-filled">64.814,81+…+7.562,04</td><td class="val">247.056,59</td><td class="formula-filled">64.814,81+…+16.384,41</td></tr>
+
+        <tr class="schema-negative schema-highlight"><td class="label"><strong>Kapitalwert</strong></td><td class="formula">− AK + Summe Barwerte</td><td class="val"><strong>18.389,89</strong></td><td class="formula-filled">−200.000+218.389,89</td><td class="val"><strong>−12.943,41</strong></td><td class="formula-filled">−260.000+247.056,59</td></tr>
+        <tr class="schema-decision"><td class="label" colspan="2">Entscheidung Kapitalwert</td><td colspan="4" style="text-align:center;"><strong>A</strong> positiv, <strong>B</strong> negativ → A eindeutig vorteilhaft</td></tr>
+
+        <tr class="schema-connector"><td colspan="6">↓ <span class="schema-connector-text">Kapitalwert wird mit dem Annuitätenfaktor in eine gleichbleibende Jahresgröße umgerechnet</span></td></tr>
+
+        <tr class="schema-method-header"><td colspan="6">⑥ Annuitätenmethode</td></tr>
+        <tr><td class="label">Annuitätenfaktor (KWF)</td><td class="formula">i×(1+i)<sup>n</sup> / [(1+i)<sup>n</sup> − 1]</td><td class="val">0,2163153862</td><td class="formula-filled">0,08×1,08<sup>6</sup>/(1,08<sup>6</sup>−1)</td><td class="val">0,2163153862</td><td class="formula-filled">0,08×1,08<sup>6</sup>/(1,08<sup>6</sup>−1)</td></tr>
+        <tr class="schema-negative schema-highlight"><td class="label"><strong>Annuität</strong></td><td class="formula">Kapitalwert × KWF</td><td class="val"><strong>3.978,02</strong></td><td class="formula-filled">18.389,89×0,2163153862</td><td class="val"><strong>−2.799,86</strong></td><td class="formula-filled">−12.943,41×0,2163153862</td></tr>
+        <tr class="schema-decision"><td class="label" colspan="2">Entscheidung Annuität</td><td colspan="4" style="text-align:center;">Gleiche Aussage wie Kapitalwert: <strong>A</strong> positiv, <strong>B</strong> negativ</td></tr>
+
+        <tr class="schema-connector"><td colspan="6">↓ <span class="schema-connector-text">Gesucht: Zinssatz, bei dem der Kapitalwert genau null wird</span></td></tr>
+
+        <tr class="schema-method-header"><td colspan="6">⑦ Interner Zinsfuß</td></tr>
+        <tr><td class="label">Versuchszins I</td><td class="formula">Zinssatz nahe erwartetem Zinsfuß</td><td class="val">11 %</td><td class="formula-filled">–</td><td class="val">6 %</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Kapitalwert bei Versuchszins I</td><td class="formula">wie ⑤, mit i = Versuchszins I</td><td class="val">3.647,45</td><td class="formula-filled">−200.000+Σ BW bei i=0,11</td><td class="val">501,77</td><td class="formula-filled">−260.000+Σ BW bei i=0,06</td></tr>
+        <tr><td class="label">Versuchszins II</td><td class="formula">ein Prozentpunkt höher</td><td class="val">12 %</td><td class="formula-filled">–</td><td class="val">7 %</td><td class="formula-filled">–</td></tr>
+        <tr class="schema-negative"><td class="label">Kapitalwert bei Versuchszins II</td><td class="formula">wie ⑤, mit i = Versuchszins II</td><td class="val">−893,15</td><td class="formula-filled">−200.000+Σ BW bei i=0,12</td><td class="val">−6.368,23</td><td class="formula-filled">−260.000+Σ BW bei i=0,07</td></tr>
+        <tr class="schema-highlight"><td class="label"><strong>Interner Zinsfuß</strong></td><td class="formula">i₁ + KW₁/(KW₁−KW₂)×(i₂−i₁)</td><td class="val"><strong>11,80 %</strong></td><td class="formula-filled">11+3.647,45/(3.647,45+893,15)×1</td><td class="val"><strong>6,07 %</strong></td><td class="formula-filled">6+501,77/(501,77+6.368,23)×1</td></tr>
+        <tr class="schema-decision"><td class="label" colspan="2">Entscheidung Zinsfuß</td><td colspan="4" style="text-align:center;"><strong>A</strong> (11,80 %) liegt über, <strong>B</strong> (6,07 %) liegt unter dem Kalkulationszins von 8 % → A vorteilhaft, B abzulehnen</td></tr>
+
+        <tr class="schema-connector"><td colspan="6">↓ <span class="schema-connector-text">Restwert wird jetzt für jedes Jahr direkt angegeben, nicht mehr nur am Ende der ND</span></td></tr>
+
+        <tr class="schema-method-header"><td colspan="6">⑧ Wirtschaftliche Nutzungsdauer</td></tr>
+        <tr class="schema-sub-header"><td colspan="6">Restwert je Jahr (gegeben)</td></tr>
+        <tr><td class="label">Restwert T(1)</td><td class="formula">gegeben</td><td class="val">160.000,00</td><td class="formula-filled">–</td><td class="val">210.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Restwert T(2)</td><td class="formula">gegeben</td><td class="val">125.000,00</td><td class="formula-filled">–</td><td class="val">165.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Restwert T(3)</td><td class="formula">gegeben</td><td class="val">95.000,00</td><td class="formula-filled">–</td><td class="val">128.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Restwert T(4)</td><td class="formula">gegeben</td><td class="val">70.000,00</td><td class="formula-filled">–</td><td class="val">98.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Restwert T(5)</td><td class="formula">gegeben</td><td class="val">45.000,00</td><td class="formula-filled">–</td><td class="val">72.000,00</td><td class="formula-filled">–</td></tr>
+        <tr><td class="label">Restwert T(6)</td><td class="formula">gegeben</td><td class="val">20.000,00</td><td class="formula-filled">–</td><td class="val">50.000,00</td><td class="formula-filled">–</td></tr>
+
+        <tr class="schema-sub-header"><td colspan="6">Kapitalwert je möglichem Nutzungsjahr</td></tr>
+        <tr><td class="label">Kapitalwert T(1)</td><td class="formula">−AK + BW Übersch.(1) + BW Restwert(1)</td><td class="val">12.962,96</td><td class="formula-filled">−200.000+64.814,81+148.148,15</td><td class="val">−740,74</td><td class="formula-filled">−260.000+64.814,81+194.444,44</td></tr>
+        <tr><td class="label">Kapitalwert T(2)</td><td class="formula">−AK + Σ BW Übersch.(1–2) + BW Restwert(2)</td><td class="val">25.994,51</td><td class="formula-filled">−200.000+118.827,16+107.167,35</td><td class="val">2.002,74</td><td class="formula-filled">−260.000+120.541,84+141.460,91</td></tr>
+        <tr><td class="label">Kapitalwert T(3)</td><td class="formula">−AK + Σ BW Übersch.(1–3) + BW Restwert(3)</td><td class="val">36.314,33</td><td class="formula-filled">−200.000+160.900,27+75.414,06</td><td class="val">8.988,47</td><td class="formula-filled">−260.000+167.377,94+101.610,53</td></tr>
+        <tr class="schema-highlight"><td class="label"><strong>Kapitalwert T(4) ← Max. A</strong></td><td class="formula">−AK + Σ BW Übersch.(1–4) + BW Restwert(4)</td><td class="val"><strong>43.223,61</strong></td><td class="formula-filled">−200.000+191.771,52+51.452,09</td><td class="val">16.162,36</td><td class="formula-filled">−260.000+204.129,43+72.032,93</td></tr>
+        <tr class="schema-highlight"><td class="label"><strong>Kapitalwert T(5) ← Max. B</strong></td><td class="formula">−AK + Σ BW Übersch.(1–5) + BW Restwert(5)</td><td class="val">41.454,10</td><td class="formula-filled">−200.000+210.827,85+30.626,24</td><td class="val"><strong>19.674,17</strong></td><td class="formula-filled">−260.000+230.672,18+49.001,99</td></tr>
+        <tr><td class="label">Kapitalwert T(6)</td><td class="formula">−AK + Σ BW Übersch.(1–6) + BW Restwert(6)</td><td class="val">30.993,28</td><td class="formula-filled">−200.000+218.389,89+12.603,39</td><td class="val">18.565,07</td><td class="formula-filled">−260.000+247.056,59+31.508,48</td></tr>
+
+        <tr class="schema-decision"><td class="label">Wirtschaftliche Nutzungsdauer</td><td class="formula">Jahr mit maximalem Kapitalwert(t)</td><td class="val"><strong>4 Jahre</strong></td><td class="formula-filled">43.223,61 € ist Höchstwert</td><td class="val"><strong>5 Jahre</strong></td><td class="formula-filled">19.674,17 € ist Höchstwert</td></tr>
+      </table>
+
+      <div class="schema-note-box">
+        <strong>Gesamtfazit:</strong> A ist in allen acht Verfahren vorteilhaft. B wird bei voller Nutzungsdauer (Kapitalwert, Annuität, Zinsfuß) klar abgelehnt — interessant ist aber, dass B bei einem Ausstieg nach 5 statt 6 Jahren einen positiven Kapitalwert erzielen würde (19.674,17 € statt 18.565,07 €). Das ändert an der Gesamtentscheidung nichts (A bleibt in jedem Fall besser), zeigt aber, dass die Nutzungsdaueroptimierung auch bei einer eindeutig unterlegenen Alternative noch wertvolle Zusatzinformation liefert.
+      </div>
+
+      <div class="schema-footer-note">
+        Investitionsrechnung – Komplettschema Alternative A vs. B, ND=6 Jahre für beide | Kalkulationszinssatz 8 % | Werte in Euro, sofern nicht anders angegeben
+      </div>
+    </div>
+
+    <div class="related-topics">
+      <h3>Verwandte Themen</h3>
+      <ul>
+        <li><a href="finanz_ls01.html">Finanzmanagement LS01 · Investitionsrechnung</a> – Definitionen, Entscheidungsregeln und Einzelbeispiele zu allen acht Verfahren</li>
+      </ul>
+    </div>
+
+  </main>
+</div>
+
+<footer class="page-footer">
+  <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
+  <div>Finanzmanagement LS01 · Komplettschema · Stand: 03.07.2026</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script src="../css/pages.js"></script>
+<script src="../css/engine.js"></script>
+</body>
+</html>
