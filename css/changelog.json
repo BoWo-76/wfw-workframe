@@ -4,6 +4,11 @@
     "eintraege": [
       {
         "modul": "finanz",
+        "titel": "LS06 · Finanzierungsarten-Systematik",
+        "aktion": "neu"
+      },
+      {
+        "modul": "finanz",
         "titel": "LS01 · Komplettschema Investitionsrechnung (A vs. B) – neue Seite als Sidebar-Unterpunkt zu LS01, alle 8 Verfahren in einem durchgehenden Beispiel",
         "aktion": "neu"
       },

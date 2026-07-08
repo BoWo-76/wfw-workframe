@@ -122,6 +122,11 @@ const WIKI_CONFIG = {
       file: "pages/finanz_ls05.html", status: "fertig", updated: "03.07.2026",
       keywords: ["liquidität", "liquiditätsplanung", "fristenkongruenz", "liquiditätsgrade", "barliquidität", "einzugsliquidität", "umsatzliquidität", "working capital", "anlagedeckungsgrad", "goldene bilanzregel", "eigenkapitalquote", "fremdkapitalquote", "verschuldungskoeffizient", "cashflow", "dynamischer liquiditätsplan", "zahlungsströme"]
     },
+    {
+      id: "finanz_ls06", module: "finanz", title: "LS06 · Finanzierungsarten-Systematik",
+      file: "pages/finanz_ls06.html", status: "fertig", updated: "03.07.2026",
+      keywords: ["finanzierungsarten", "kapitalherkunft", "rechtsstellung", "fristigkeit", "anlässe", "innenfinanzierung", "außenfinanzierung", "eigenfinanzierung", "fremdfinanzierung", "kurzfristig", "mittelfristig", "langfristig", "unbefristet", "abschreibungsgegenwerte", "rückstellungen", "kontokorrentkredit", "orthogonale merkmale"]
+    },
 
     // ── Recht und Steuern ────────────────────────────────────
     {
