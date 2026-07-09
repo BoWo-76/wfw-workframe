@@ -137,6 +137,11 @@ const WIKI_CONFIG = {
       file: "pages/finanz_ls08.html", status: "fertig", updated: "03.07.2026",
       keywords: ["außenfinanzierung", "beteiligungsfinanzierung", "kapitalerhöhung", "ordentliche kapitalerhöhung", "genehmigte kapitalerhöhung", "bedingte kapitalerhöhung", "aktienarten", "stückaktien", "vinkulierte aktien", "kontokorrentkredit", "lieferantenkredit", "avalkredit", "wechselkredit", "skonto", "fälligkeitsdarlehen", "tilgungsdarlehen", "annuitätendarlehen", "kapitaldienst", "anleihen", "wandelschuldverschreibung", "optionsschuldverschreibung", "nullkuponanleihe", "gewinnschuldverschreibung"]
     },
+    {
+      id: "finanz_ls09", module: "finanz", title: "LS09 · Sonderformen: Factoring und Leasing",
+      file: "pages/finanz_ls09.html", status: "fertig", updated: "03.07.2026",
+      keywords: ["factoring", "faktor", "echtes factoring", "unechtes factoring", "offenes factoring", "stilles factoring", "delkredere", "leasing", "direktes leasing", "indirektes leasing", "operatives leasing", "finanzierungsleasing", "sale-and-lease-back", "40-90-regel", "grundmietzeit", "wirtschaftliches eigentum", "bmf-leasing-erlasse"]
+    },
 
     // ── Recht und Steuern ────────────────────────────────────
     {
