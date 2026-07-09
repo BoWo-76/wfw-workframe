@@ -127,6 +127,11 @@ const WIKI_CONFIG = {
       file: "pages/finanz_ls06.html", status: "fertig", updated: "03.07.2026",
       keywords: ["finanzierungsarten", "kapitalherkunft", "rechtsstellung", "fristigkeit", "anlässe", "innenfinanzierung", "außenfinanzierung", "eigenfinanzierung", "fremdfinanzierung", "kurzfristig", "mittelfristig", "langfristig", "unbefristet", "abschreibungsgegenwerte", "rückstellungen", "kontokorrentkredit", "orthogonale merkmale"]
     },
+    {
+      id: "finanz_ls07", module: "finanz", title: "LS07 · Innenfinanzierung",
+      file: "pages/finanz_ls07.html", status: "fertig", updated: "03.07.2026",
+      keywords: ["innenfinanzierung", "selbstfinanzierung", "offene selbstfinanzierung", "stille selbstfinanzierung", "stille reserven", "kapitalfreisetzungseffekt", "kapazitätserweiterungseffekt", "lohmann-ruchti", "rückstellungen", "kapitalfreistellung", "vermögensumschichtung", "sale-and-lease-back", "factoring", "umlaufvermögen"]
+    },
 
     // ── Recht und Steuern ────────────────────────────────────
     {
