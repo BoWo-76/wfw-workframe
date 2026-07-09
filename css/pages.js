@@ -132,6 +132,11 @@ const WIKI_CONFIG = {
       file: "pages/finanz_ls07.html", status: "fertig", updated: "03.07.2026",
       keywords: ["innenfinanzierung", "selbstfinanzierung", "offene selbstfinanzierung", "stille selbstfinanzierung", "stille reserven", "kapitalfreisetzungseffekt", "kapazitätserweiterungseffekt", "lohmann-ruchti", "rückstellungen", "kapitalfreistellung", "vermögensumschichtung", "sale-and-lease-back", "factoring", "umlaufvermögen"]
     },
+    {
+      id: "finanz_ls08", module: "finanz", title: "LS08 · Außenfinanzierung: Beteiligungen und Kredite",
+      file: "pages/finanz_ls08.html", status: "fertig", updated: "03.07.2026",
+      keywords: ["außenfinanzierung", "beteiligungsfinanzierung", "kapitalerhöhung", "ordentliche kapitalerhöhung", "genehmigte kapitalerhöhung", "bedingte kapitalerhöhung", "aktienarten", "stückaktien", "vinkulierte aktien", "kontokorrentkredit", "lieferantenkredit", "avalkredit", "wechselkredit", "skonto", "fälligkeitsdarlehen", "tilgungsdarlehen", "annuitätendarlehen", "kapitaldienst", "anleihen", "wandelschuldverschreibung", "optionsschuldverschreibung", "nullkuponanleihe", "gewinnschuldverschreibung"]
+    },
 
     // ── Recht und Steuern ────────────────────────────────────
     {
