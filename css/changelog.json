@@ -4,6 +4,11 @@
     "eintraege": [
       {
         "modul": "finanz",
+        "titel": "LS05 · Übungsaufgabe: Dynamischer Liquiditätsplan (Soll/Ist) – neue Seite als Sidebar-Unterpunkt zu LS05",
+        "aktion": "neu"
+      },
+      {
+        "modul": "finanz",
         "titel": "LS09 · Sonderformen: Factoring und Leasing – Finanzierungs-Skriptreihe damit abgeschlossen (LS02–LS09)",
         "aktion": "neu"
       },

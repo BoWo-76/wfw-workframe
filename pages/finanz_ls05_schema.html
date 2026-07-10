@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LS05 · Übungsaufgabe: Dynamischer Liquiditätsplan – WFW Wiki</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+  .lqp-steps { counter-reset: lqp-step; list-style:none; padding-left:0; }
+  .lqp-steps li {
+    position: relative; padding: 10px 14px 10px 46px; margin-bottom: 10px;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 6px;
+  }
+  .lqp-steps li::before {
+    counter-increment: lqp-step; content: counter(lqp-step);
+    position: absolute; left: 10px; top: 10px; width: 24px; height: 24px;
+    background: var(--danger); color: #fff; border-radius: 50%;
+    font-family: Arial, sans-serif; font-size: 13px; font-weight: bold;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .lqp-steps li h4 { margin: 0 0 4px 0; font-size: 14px; color: var(--danger); }
+
+  .lqp-table th, .lqp-table td { text-align: right; }
+  .lqp-table td:first-child, .lqp-table th:first-child { text-align: left; }
+  .lqp-table tr.lqp-sum td { font-weight: bold; background: var(--bg); }
+  .lqp-table tr.lqp-result td { font-weight: bold; background: var(--ok-soft); }
+  .lqp-table tr.lqp-result-neg td { font-weight: bold; background: var(--danger-soft); }
+  .lqp-table tr.lqp-section td { text-align: left; background: var(--line); font-family: Arial, sans-serif; font-size: 12px; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../index.html">WFW<span>Wiki</span></a>
+  <div class="search-wrap">
+    <input id="search-input" type="search" placeholder="Thema suchen …" autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+</div>
+
+<div class="layout">
+  <nav class="sidebar"></nav>
+
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="../index.html">Startseite</a> › <a href="modul_finanz.html">Finanzmanagement</a> › LS05 · Übungsaufgabe
+    </div>
+
+    <div class="page-header">
+      <div class="kicker">Finanzmanagement · Liquiditätsplanung · Ergänzung zu LS05</div>
+      <h1>Übungsaufgabe: Dynamischer Liquiditätsplan (Soll/Ist)</h1>
+      <div class="meta">
+        <span>Übung 6.2.3.3 – Finanzplanung und Finanzbedarf · Soll-Ist-Vergleich Juni–August</span>
+        <span>Stand: 03.07.2026</span>
+        <span><span class="badge ok">Fertig</span></span>
+      </div>
+    </div>
+
+    <div class="notice info">
+      Diese Seite rechnet eine vollständige Übungsaufgabe zum dynamischen Liquiditätsplan aus <a href="finanz_ls05.html">LS05</a> durch — inklusive Soll-/Ist-Vergleich über drei Monate. Ergänzt LS05, ersetzt es aber nicht — dort stehen Definition, Kennzahlen und die übrigen Kapitel zur Liquiditätsplanung.
+    </div>
+
+    <div class="two-col">
+      <div class="def-box">
+        <strong>Definition</strong><br>
+        Der dynamische Liquiditätsplan zeigt monatsweise, ob ein Unternehmen zahlungsfähig ist. Er verknüpft die Monate miteinander: Der <strong>Schlussbestand</strong> eines Monats wird automatisch zum <strong>Anfangsbestand</strong> des Folgemonats. Dadurch wirken sich Abweichungen (Soll/Ist) über mehrere Monate fort — daher „dynamisch".
+      </div>
+      <div class="notice info">
+        <strong>Sachverhalt der Übung</strong><br>
+        Anfangsbestand 01.06.: Soll 100.000 € / Ist 110.000 €. Monatliche Auszahlungen: Material 50.000 €, Personal 40.000 € (Soll = Ist). Weitere Auszahlungen: Soll 20.000 € / Ist 21.000 €. Kredittilgung im Juli: 10.000 €. Kreditaufnahme im August: 12.000 €. Kundenanzahlung im Juli: 5.000 €. Verkauf gebrauchtes Anlagevermögen nur im Ist (Juni): 4.500 €.
+      </div>
+    </div>
+
+    <div class="def-box">
+      <strong>Formel</strong><br>
+      Schlussbestand (Monat t) = Anfangsbestand (Monat t) + Einzahlungen (Monat t) − Auszahlungen (Monat t)<br>
+      Anfangsbestand (Monat t+1) = Schlussbestand (Monat t)
+    </div>
+
+    <div class="notice danger">
+      ⛔ <strong>Prüfungsfalle – was gehört NICHT in den Plan?</strong><br>
+      Nicht jede Position aus dem Sachverhalt ist zahlungswirksam! <strong>Auflösung von Rückstellungen</strong> (10.000 €/12.000 €) und <strong>Abschreibungen auf BGA</strong> (8.000 €) fließen <u>nicht</u> in den Liquiditätsplan ein — es handelt sich um rein bilanzielle Vorgänge, bei denen kein Geld fließt. Der Liquiditätsplan fragt ausschließlich: „Fließt in diesem Monat tatsächlich Geld?"
+    </div>
+
+    <h2>Schritt-für-Schritt-Vorgehen</h2>
+    <p style="color:var(--muted);font-size:0.85rem;font-style:italic">Am Beispiel der Ist-Werte aus der Übung</p>
+
+    <ol class="lqp-steps">
+      <li>
+        <h4>Relevante Positionen filtern</h4>
+        Aus den 11 Sachverhalten nur die zahlungswirksamen übernehmen: Forderungseingänge, Verkauf Anlagevermögen, Kundenanzahlung, Kreditaufnahme (Einzahlungen) sowie Material, Personal, sonstige Ausgaben, Kredittilgung (Auszahlungen). Rückstellungsauflösung und Abschreibungen werden gestrichen.
+      </li>
+      <li>
+        <h4>Zeitliche Zuordnung exakt beachten</h4>
+        Jede Zahlung wird genau in dem Monat erfasst, in dem sie laut Aufgabe tatsächlich stattfindet: Kredittilgung nur im Juli (10.000 €), Kreditaufnahme nur im August (12.000 €), Kundenanzahlung erst ab Juli (5.000 €), Verkauf Anlagevermögen nur im Juni-Ist (4.500 €).
+      </li>
+      <li>
+        <h4>Juni berechnen (Ist)</h4>
+        Anfangsbestand: 110.000 € (gegeben)<br>
+        Einzahlungen: Forderungen 30.000 € + Verkauf AV 4.500 € = <strong>34.500 €</strong><br>
+        Auszahlungen: Material 50.000 € + Personal 40.000 € + sonstige 21.000 € = <strong>111.000 €</strong><br>
+        Schlussbestand: 110.000 + 34.500 − 111.000 = <strong>33.500 €</strong>
+      </li>
+      <li>
+        <h4>Juli: Anfangsbestand aus Juni übernehmen</h4>
+        Anfangsbestand Juli = Schlussbestand Juni = <strong>33.500 €</strong><br>
+        Einzahlungen: Forderungen 41.000 € + Kundenanzahlung 5.000 € = <strong>46.000 €</strong><br>
+        Auszahlungen: Material 50.000 € + Personal 40.000 € + sonstige 21.000 € + Kredittilgung 10.000 € = <strong>121.000 €</strong><br>
+        Schlussbestand: 33.500 + 46.000 − 121.000 = <strong>−41.500 €</strong>
+      </li>
+      <li>
+        <h4>August: Kreditaufnahme berücksichtigen</h4>
+        Anfangsbestand August = Schlussbestand Juli = <strong>−41.500 €</strong><br>
+        Einzahlungen: Forderungen 48.000 € + Kreditaufnahme 12.000 € = <strong>60.000 €</strong><br>
+        Auszahlungen: Material 50.000 € + Personal 40.000 € + sonstige 21.000 € = <strong>111.000 €</strong><br>
+        Schlussbestand: −41.500 + 60.000 − 111.000 = <strong>−92.500 €</strong>
+      </li>
+    </ol>
+
+    <div class="notice ok">
+      <strong>Merksatz</strong><br>
+      Ein negativer Schlussbestand bedeutet nicht automatisch Zahlungsunfähigkeit — er zeigt aber einen Finanzierungsbedarf an (z. B. über einen Kontokorrentkredit), der rechtzeitig gedeckt werden muss.
+    </div>
+
+    <h2>Vollständiger Liquiditätsplan — Soll/Ist im Vergleich</h2>
+
+    <table class="lqp-table">
+      <thead>
+        <tr>
+          <th rowspan="2">Position</th>
+          <th colspan="2">Juni</th>
+          <th colspan="2">Juli</th>
+          <th colspan="2">August</th>
+        </tr>
+        <tr>
+          <th>Soll</th><th>Ist</th><th>Soll</th><th>Ist</th><th>Soll</th><th>Ist</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>A. Anfangsbestand</td>
+          <td>100.000</td><td>110.000</td>
+          <td>20.000</td><td>33.500</td>
+          <td>−55.000</td><td>−41.500</td>
+        </tr>
+        <tr class="lqp-section"><td colspan="7">B. Einzahlungen</td></tr>
+        <tr>
+          <td>1. Ausgleich Forderungen</td>
+          <td>30.000</td><td>30.000</td>
+          <td>40.000</td><td>41.000</td>
+          <td>50.000</td><td>48.000</td>
+        </tr>
+        <tr>
+          <td>2. Verkauf gebrauchtes AV</td>
+          <td>0</td><td>4.500</td>
+          <td>0</td><td>0</td>
+          <td>0</td><td>0</td>
+        </tr>
+        <tr>
+          <td>3. Kundenanzahlung</td>
+          <td>0</td><td>0</td>
+          <td>5.000</td><td>5.000</td>
+          <td>0</td><td>0</td>
+        </tr>
+        <tr>
+          <td>4. Kreditaufnahme</td>
+          <td>0</td><td>0</td>
+          <td>0</td><td>0</td>
+          <td>12.000</td><td>12.000</td>
+        </tr>
+        <tr class="lqp-sum">
+          <td>Summe Einzahlungen</td>
+          <td>30.000</td><td>34.500</td>
+          <td>45.000</td><td>46.000</td>
+          <td>62.000</td><td>60.000</td>
+        </tr>
+        <tr class="lqp-section"><td colspan="7">C. Auszahlungen</td></tr>
+        <tr>
+          <td>1. Fertigungsmaterial</td>
+          <td>50.000</td><td>50.000</td>
+          <td>50.000</td><td>50.000</td>
+          <td>50.000</td><td>50.000</td>
+        </tr>
+        <tr>
+          <td>2. Personalausgaben</td>
+          <td>40.000</td><td>40.000</td>
+          <td>40.000</td><td>40.000</td>
+          <td>40.000</td><td>40.000</td>
+        </tr>
+        <tr>
+          <td>3. Urlaubsgeld</td>
+          <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+        </tr>
+        <tr>
+          <td>4. sonstige Ausgaben</td>
+          <td>20.000</td><td>21.000</td>
+          <td>20.000</td><td>21.000</td>
+          <td>20.000</td><td>21.000</td>
+        </tr>
+        <tr>
+          <td>5. Kredittilgung</td>
+          <td>0</td><td>0</td>
+          <td>10.000</td><td>10.000</td>
+          <td>0</td><td>0</td>
+        </tr>
+        <tr class="lqp-sum">
+          <td>Summe Auszahlungen</td>
+          <td>110.000</td><td>111.000</td>
+          <td>120.000</td><td>121.000</td>
+          <td>110.000</td><td>111.000</td>
+        </tr>
+        <tr class="lqp-result">
+          <td>D. Schlussbestand (Juni)</td>
+          <td>20.000</td><td>33.500</td>
+          <td></td><td></td><td></td><td></td>
+        </tr>
+        <tr class="lqp-result-neg">
+          <td>D. Schlussbestand (Juli/August)</td>
+          <td></td><td></td>
+          <td>−55.000</td><td>−41.500</td>
+          <td>−103.000</td><td>−92.500</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Kontrollrechnung Soll, Juli</strong><br>
+      Anfangsbestand (= Schlussbestand Juni Soll) 20.000 € + Einzahlungen 45.000 € − Auszahlungen 120.000 € = <strong>−55.000 €</strong> ✓ stimmt mit dem Plan überein.
+    </div>
+
+    <div class="notice warn">
+      <strong>Zusatzwissen</strong><br>
+      Die Soll- und Ist-Reihe driften über die Monate zunehmend auseinander (Juni: 13.500 € Differenz → August: 10.500 € Differenz), weil sich einmalige Ist-Abweichungen (z. B. der außerplanmäßige Anlagenverkauf im Juni) über die Anfangsbestände in die Folgemonate fortpflanzen. Das ist der eigentliche Sinn der dynamischen Betrachtung: Man erkennt, wie sich kleine Planabweichungen kumulativ auswirken.
+    </div>
+
+    <div class="related-topics">
+      <h3>Verwandte Themen</h3>
+      <ul>
+        <li><a href="finanz_ls05.html">Finanzmanagement LS05 · Liquiditätsplanung</a> – Definitionen, Kennzahlen und die übrigen Kapitel zur Liquiditätsplanung</li>
+      </ul>
+    </div>
+
+  </main>
+</div>
+
+<footer class="page-footer">
+  <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
+  <div>Finanzmanagement LS05 · Übungsaufgabe · Stand: 03.07.2026</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script src="../css/pages.js"></script>
+<script src="../css/engine.js"></script>
+</body>
+</html>
