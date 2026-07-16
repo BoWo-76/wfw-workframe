@@ -1,5 +1,30 @@
 [
   {
+    "datum": "16.07.2026",
+    "eintraege": [
+      {
+        "modul": "rewe",
+        "titel": "LS07 · Voll- und Teilkostenrechnung – überarbeitet um WQ-Teil (Schmolke/Deitermann): Leer-/Nutzkosten, mehrstufige Deckungsbeitragsrechnung, Break-Even-Analyse, Engpassoptimierung (relativer DB), Eigenfertigung/Fremdbezug und Fixkostenremanenz ergänzt",
+        "aktion": "update"
+      },
+      {
+        "modul": "rewe",
+        "titel": "LS06 · Kostenträgerrechnung & Kalkulation – überarbeitet um WQ-Teil (Schmolke/Deitermann): Divisions- und Äquivalenzziffernkalkulation, Maschinenstundensatz, Handelskalkulation, Preisuntergrenzen (KPUG/LPUG) sowie Kostenüber-/-unterdeckung ergänzt",
+        "aktion": "update"
+      },
+      {
+        "modul": "rewe",
+        "titel": "LS04 · Kostenartenrechnung – überarbeitet um WQ-Teil (Schmolke/Deitermann): Mischkosten-Auflösung (Hoch-Tiefpunkt-Methode), Ist-/Normal-/Plankostenrechnung, gewogener Mittelwert, Materialverbrauch (Inventur-/Skontrations-/Rückrechnungsmethode, Fifo/Lifo) und Personalzusatzkosten ergänzt",
+        "aktion": "update"
+      },
+      {
+        "modul": "rewe",
+        "titel": "LS03 · Grundlagen KLR – überarbeitet um WQ-Teil (Schmolke/Deitermann): kalkulatorische Kosten (Abschreibung, Zinsen, Wagnisse, Miete, Unternehmerlohn) mit Rechenbeispielen, vollständige Abgrenzungsrechnung als Ergebnistabelle (Rechnungskreis I/II), Prüfungs-Checkliste erweitert",
+        "aktion": "update"
+      }
+    ]
+  },
+  {
     "datum": "03.07.2026",
     "eintraege": [
       {

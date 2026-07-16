@@ -45,7 +45,7 @@ wfw-wiki1/
     handbuch.html          ← Nutzerhandbuch (Meta-Seite, module: null) — jetzt 10 Kapitel
     modul_[id].html        ← Modul-Übersichtsseiten (auto-generiert)
     rewe_ls01.html … rewe_ls09.html
-    finanz_ls01.html
+    finanz_ls01.html, finanz_ls01_schema.html, finanz_ls02.html … finanz_ls09.html, finanz_ls05_schema.html
     recht_ls01.html … recht_ls08.html
     bm_ls01.html, bm_ls01e.html, bm_ls02.html … bm_ls04.html
     uf_ls01.html … uf_ls07.html
@@ -152,7 +152,7 @@ const WIKI_CONFIG = {
 
 ---
 
-## Fertige Skripte (Stand: 02.07.2026)
+## Fertige Skripte (Stand: 03.07.2026)
 
 ### Basics Wirtschaftsrechnen (basics) — ABGESCHLOSSEN ✅ (LS01–LS20, komplett, Dozent Kreß & Steinhof)
 LS01 Dreisatz – Bruchstrichmethode ✅ · LS02 Durchschnittsrechnung ✅ · LS03 Buchungskreislauf EBK–SBK ✅
@@ -171,8 +171,31 @@ LS04 Kostenartenrechnung · LS05 Kostenstellenrechnung & BAB
 LS06 Kostenträgerrechnung & Kalkulation · LS07 Voll- und Teilkostenrechnung
 LS08 Auswertung betriebswirtschaftlicher Zahlen · LS09 Planungsrechnung
 
-### Finanzmanagement (finanz) — in Arbeit, Dozent Steinhof (läuft bis 24.07.2026)
-LS01 Investitionsrechnung ✅ — **02.07.2026 überarbeitet:** Rechenbeispiele/Rechenschemata in allen Kapiteln ergänzt (Kostenvergleich, Gewinnvergleich, Rentabilität, Auf-/Abzinsung, Kapitalwert, Annuität, interner Zinsfuß, wirtschaftliche Nutzungsdauer). Zusätzlich neuer Unterabschnitt **„Sonderfall: unterschiedliche Kapazitäten"** in Kapitel 4.1 mit echtem IHK-Prüfungsbeispiel (Angebot 1/2, 8.500/9.500 Stück Kapazität, 8.000 Stück Absatzmenge) inkl. Fixkosten-Proportionalisierungs-Prüfungsfalle und Verlinkung auf externe Quelle (controllingportal.de). Weitere LS folgen, sobald Boris neue Skripte liefert.
+### Finanzmanagement (finanz) — ABGESCHLOSSEN ✅ (LS01–LS09 + 2 Übungsaufgaben-Unterseiten, Dozent Steinhof, läuft bis 24.07.2026)
+LS01 Investitionsrechnung ✅ — **02.07.2026 überarbeitet:** Rechenbeispiele/Rechenschemata in allen Kapiteln ergänzt (Kostenvergleich, Gewinnvergleich, Rentabilität, Auf-/Abzinsung, Kapitalwert, Annuität, interner Zinsfuß, wirtschaftliche Nutzungsdauer). Zusätzlich neuer Unterabschnitt **„Sonderfall: unterschiedliche Kapazitäten"** in Kapitel 4.1 mit echtem IHK-Prüfungsbeispiel (Angebot 1/2, 8.500/9.500 Stück Kapazität, 8.000 Stück Absatzmenge) inkl. Fixkosten-Proportionalisierungs-Prüfungsfalle und Verlinkung auf externe Quelle (controllingportal.de). **03.07.2026:** Annuitätenmethode um Barwertfaktor-Rechenweg ergänzt (Alternative zum KWF, beide führen zum selben Ergebnis), Nutzen-Erklärung beim internen Zinsfuß ergänzt.
+**LS01 · Komplettschema (A vs. B)** ✅ — eigenständige Seite `finanz_ls01_schema.html`, Sidebar-Unterpunkt direkt unter LS01 (siehe „Sidebar-Unterpunkt-Muster" unten). Alle 8 Verfahren der Investitionsrechnung in einem durchgehenden Rechenbeispiel (Alternative A vs. B), 1:1 übernommen aus Boris' Originaldatei (139 Zahlenwerte automatisiert gegengeprüft), nur Farbgebung auf Wiki-CSS-Variablen umgestellt.
+LS02 Finanzierung – Grundlagen & Kapitalbedarfsplanung ✅ — Bilanzidentität Investition/Finanzierung, Kapitalbedarfsplanung (Anlage-/Umlaufkapital), kumulative vs. elektive Methode mit Rechenbeispiel
+LS03 Finanzierungsplanung, Fremd- und Eigenfinanzierung, Mezzanines Kapital ✅ — magisches Viereck (Liquidität/Rentabilität/Sicherheit/Unabhängigkeit), Fremd- vs. Eigenfinanzierung im Vergleich, Mezzanine-Instrumente (Nachrangdarlehen, partiarisches Darlehen, Genussrechte, Wandel-/Optionsschuldverschreibung, stille Beteiligung)
+LS04 Sicherheiten und Leverage-Effekt ✅ — Bürgschaftsformen (Ausfall-/selbstschuldnerisch), Hypothek/Grundschuld, Verpfändung/Sicherungsübereignung/Eigentumsvorbehalt als Spiegelbilder, Zession, Leverage-Effekt (Formel, positiv/negativ, Rechenbeispiel)
+LS05 Liquiditätsplanung ✅ — Fristenkongruenz, Liquiditätsgrade 1–3 (Bar-/Einzugs-/Umsatzliquidität), Anlagedeckungsgrade I–III (goldene Bilanzregeln), Kapitalstruktur (Eigenkapitalquote/Fremdkapitalquote/Verschuldungskoeffizient), Cashflow-Exkurs, dynamischer Liquiditätsplan
+**LS05 · Übungsaufgabe: Dynamischer Liquiditätsplan (Soll/Ist)** ✅ — eigenständige Seite `finanz_ls05_schema.html`, Sidebar-Unterpunkt direkt unter LS05. Vollständige 3-Monats-Übungsaufgabe (Übung 6.2.3.3) mit 5 Rechenschritten und kompletter Soll/Ist-Tabelle, alle Zahlen vorab mit Python gegengerechnet.
+LS06 Finanzierungsarten-Systematik ✅ — vier orthogonale Klassifikationsmerkmale (Kapitalherkunft, Rechtsstellung, Fristigkeit, Anlass), Innen-/Außenfinanzierung, Eigen-/Fremdfinanzierung, vollständige Einordnungsbeispiele (inkl. Sonderfall Abschreibungsgegenwerte mit uneinheitlicher Literaturmeinung)
+LS07 Innenfinanzierung ✅ — Selbstfinanzierung (offen/still), Abschreibungen (Kapitalfreisetzungs-/Kapazitätserweiterungseffekt/Lohmann-Ruchti mit durchgerechnetem Beispiel), Rückstellungen (GAP-Effekt), Kapitalfreistellung (Vermögensumschichtung, Sale-and-lease-back, Umlaufvermögen-Abbau)
+LS08 Außenfinanzierung: Beteiligungen und Kredite ✅ — Beteiligungsfinanzierung (Einzelunternehmen/PersG, GmbH, AG mit 3 Kapitalerhöhungsformen + Aktienarten), kurzfristige Kredite (Kontokorrent/Lieferanten/Aval/Wechsel, inkl. Skonto-Rechenbeispiel mit 36% effektivem Jahreszins), langfristige Kredite (Fälligkeits-/Tilgungs-/Annuitätendarlehen mit vollständigem Tilgungsplanvergleich), Anleihen
+LS09 Sonderformen: Factoring und Leasing ✅ — Factoring (3 Funktionen, 4 Formen echt/unecht × offen/still), Leasing (direkt/indirekt, operativ/Finanzierungsleasing, 40/90-%-Regel), inkl. Gesamtübersichtstabelle über die komplette Finanzierungs-Skriptreihe LS02–LS09
+
+⚠️ **Namenskonvention wichtig:** Der Dozent nummeriert die "Finanzierung"-Unterreihe intern eigenständig ab 1 ("Finanzierung – LS01" = Kapitalbedarf, "Finanzierung – LS05" = Finanzierungsarten-Systematik usw.) — das ist NICHT die Wiki-ID! Die interne Zählung liegt durchgängig **−1 versetzt** zur Wiki-ID (interne "LS0N" = Wiki `finanz_ls0(N+1)`), weil `finanz_ls01` bereits für Investitionsrechnung vergeben ist. Bei künftigen Lieferungen aus dieser Reihe (z. B. eine etwaige "Finanzierung – LS09") diese Verschiebung beachten und als `finanz_ls10` einordnen.
+
+⚠️ **Offenes Thema „Erfolgsplanung" (Stand 03.07.2026, noch NICHT umgesetzt):** Dozent Steinhof erwähnte im Unterricht beiläufig "Erfolgsplanung" als angeblich bereits in rewe behandelt — im Kurs konnte das aber niemand bestätigen ("hatten wir nicht"). Boris hat einen Kurssprecher gebeten, im offiziellen Lehrplan nachzuschauen, ob der Begriff dort explizit als eigener Punkt steht. Fachlich ist ein Erfolgsplan eine **Plan-GuV** (Ertrag/Aufwand-Prognose für künftige Perioden, Pendant zum Liquiditätsplan aus LS05 — Erfolgsplan = Gewinn/Verlust erfolgswirksam, Liquiditätsplan = tatsächliche Zahlungsströme). Falls das Thema doch offiziell ansteht und ein Dozentenskript dazu kommt: eher in **rewe** verankern (passt zu `rewe_ls09` Planungsrechnung) oder alternativ als `finanz_ls10` (Pendant zu LS05 Liquiditätsplanung) — je nachdem, in welchem Baustein es laut Lehrplan tatsächlich verortet ist. Noch keine Entscheidung, nur besprochen.
+
+### Sidebar-Unterpunkt-Muster (etabliert 03.07.2026, für beliebige Module wiederverwendbar)
+Wenn Boris ein Zusatzschema/eine Übungsaufgabe zu einem bestehenden LS "als eigenen Eintrag in der Sidebar unter LS0X" haben möchte (nicht als Abschnitt innerhalb der LS-Seite selbst):
+1. Neue eigenständige Seite erstellen (eigenes HTML, lädt normal `engine.js`/`pages.js` für volle Sidebar/Suche/Notizzettel-Funktionalität)
+2. ID-Konvention: `<modul>_ls0X_schema` (oder ähnlich sprechend), Titel beginnt mit `"LS0X · ..."`
+3. **Wichtig:** Der Eintrag in `pages.js` muss direkt NACH dem `<modul>_ls0X`-Eintrag und VOR dem nächsten LS-Eintrag stehen — die Sidebar ist eine flache Liste, folgt aber exakt der Array-Reihenfolge, wodurch der Effekt eines "Unterpunkts" entsteht
+4. Rückverlinkung von der Haupt-LS-Seite auf die neue Seite ergänzen (related-topics)
+5. Am Inhalt/an den Zahlen nichts ändern, wenn es ein vorgefertigtes Schema ist — nur Farbgebung von hartcodierten Hex-Werten auf Wiki-CSS-Variablen (`var(--danger)`, `var(--ok-soft)` etc.) umstellen, damit es sich ins Design einfügt
+6. Bereits umgesetzt für: `finanz_ls01_schema` (Komplettschema Investitionsrechnung A vs. B), `finanz_ls05_schema` (Übungsaufgabe Dynamischer Liquiditätsplan)
 
 ### Recht und Steuern (recht) — ABGESCHLOSSEN ✅ (Baustein Recht: LS01–LS03; Baustein Steuern: LS04–LS08, fortlaufend nummeriert)
 LS01 Grundlagen des Rechts · LS02 Schuldrecht & AGB · LS03 Kaufvertrag & Vertragsarten
@@ -507,6 +530,7 @@ WK IV (aus WK IV PPTX):
 ## Geplante Erweiterungen / Offene Punkte
 
 ### Direkt ausstehend
+- **Nächstes Thema unmittelbar bevorstehend:** Boris kündigt ~12 neue Skripte zu einem neuen Themenblock an (Thema/Modul zum Zeitpunkt dieser Übergabe noch nicht bekannt — wird im nächsten Chat hochgeladen). Dieser Chat wurde bewusst bei diesem Punkt beendet und in einen neuen Chat übergeben, um Kontext-Spielraum für die 12 Skripte zu sichern.
 - **Werkzeugkasten PNG-Exporte** weiterhin ausstehend — Boris exportiert aus WK I–IV PPTX als PNG und legt sie in `images/wk/` ab (Dateinamenliste vollständig oben dokumentiert)
 - **Grafiken** für „📷 Grafik einfügen"-Platzhalter nachliefern (betrifft uf_ls01, uf_ls02, uf_ls04–uf_ls07: Eisberg-Modell, BCG-Matrix, Organigramm-Darstellungen, PDCA-Kreislauf, VUKA/BANI-Grafiken, Mintzberg-Strategiebrücke, Du-Pont-Pyramide, Kano-Diagramm, Maslow-Pyramide, Herzberg-Diagramm, Grid-Konzept-Gitter, Tuckman-Kurve, Nettopersonalbedarfsrad, Personalportfolio-Matrix)
 - **Kapitel 7** in `uf_ls02` (Personalwirtschaftliche Organisation) ergänzen, sobald Dozent das Thema behandelt hat

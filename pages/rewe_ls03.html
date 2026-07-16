@@ -27,8 +27,8 @@
       <div class="kicker">Rechnungswesen · Lernskript</div>
       <h1>LS03 · Grundlagen der Kosten- und Leistungsrechnung</h1>
       <div class="meta">
-        <span>Selbstkosten · Deckungsbeiträge · Einzel-/Gemeinkosten · Aufwand vs. Kosten</span>
-        <span>Stand: April 2026</span>
+        <span>Selbstkosten · Deckungsbeiträge · Einzel-/Gemeinkosten · Aufwand vs. Kosten · Kalkulatorische Kosten</span>
+        <span>Stand: Juli 2026</span>
         <span><span class="badge ok">Fertig</span></span>
       </div>
     </div>
@@ -42,7 +42,11 @@
 
     <div class="def-box">
       <div class="def-term">Kosten- und Leistungsrechnung (KLR)</div>
-      Internes Rechnungswesen. Erfasst und verrechnet Kosten und Leistungen — eigene Größen die sich von Aufwand und Ertrag der Fibu systemisch unterscheiden. Hauptziel: periodenbezogene Gegenüberstellung von Kosten und Leistungen → Betriebsergebnis.
+      Internes Rechnungswesen. Erfasst, gliedert und verrechnet Kosten und Leistungen — eigene Rechengrößen, die sich von Aufwand und Ertrag der Fibu systemisch unterscheiden. Ziele: periodenbezogene Gegenüberstellung von Kosten und Leistungen → Betriebsergebnis, sowie Bereitstellung von Informationen für Planung, Kontrolle und betriebliche Entscheidungen.
+    </div>
+
+    <div class="content-card" style="text-align:center">
+      <img src="../images/PLATZHALTER_Grafik-KLR-Systemaufbau.png" alt="Systemaufbau: Aufwand → Abgrenzung → Kosten → Kostenartenrechnung → Kostenstellenrechnung → Kostenträgerrechnung" style="max-width:100%;border-radius:6px">
     </div>
 
     <h3>Fibu vs. KLR im Vergleich</h3>
@@ -81,13 +85,13 @@
         </tr>
         <tr>
           <td><strong>Deckungsbeitrag (DB)</strong></td>
-          <td>Überschuss nach Abzug variabler Kosten vom Umsatz. Dient zur Deckung der Fixkosten.</td>
-          <td>DB = Umsatz − variable Kosten</td>
-          <td><strong>Kurzfristig</strong> — Produkt sollte mindestens positiven DB liefern</td>
+          <td>Beitrag eines Produkts zur Deckung der Fixkosten — kein Gewinn, sondern der Betrag, der nach Abzug der variablen Kosten vom Umsatz übrig bleibt.</td>
+          <td>Gesamt-DB = Umsatz − variable Kosten<br>Stück-db = Preis − variable Stückkosten</td>
+          <td><strong>Kurzfristig</strong> — ein Auftrag muss mindestens einen positiven Deckungsbeitrag liefern, damit er zur Deckung der Fixkosten beiträgt</td>
         </tr>
         <tr>
           <td><strong>Wirtschaftlichkeit</strong></td>
-          <td>Verhältnis von Leistung zu Kosten. Relative Kennzahl — sagt nichts über absolute Höhe von Gewinn/Verlust.</td>
+          <td>Verhältnis von Leistung zu Kosten — beschreibt die Effizienz des Mitteleinsatzes. Relative Erfolgskennzahl — sagt nichts über absolute Höhe von Gewinn/Verlust.</td>
           <td>w = Leistung / Kosten</td>
           <td>w &gt; 1 = wirtschaftlich / w = 1 = kostendeckend / w &lt; 1 = ineffizient</td>
         </tr>
@@ -103,6 +107,11 @@
     <div class="notice danger">
       <div>⛔</div>
       <div><strong>Prüfungsfalle — KLR vs. Fibu</strong>In der Fibu: Aufwand und Ertrag. In der KLR: Kosten und Leistungen. Die Begriffe sind nicht deckungsgleich — das ist systemisch begründet. Wer Aufwand und Kosten gleichsetzt, verliert Punkte.</div>
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Wirtschaftlichkeit ≠ Produktivität</strong>Wirtschaftlichkeit (w = Leistung / Kosten) ist eine <em>wertmäßige</em> Kennzahl — bewertet mit Preisen und Kosten in €. Produktivität (Ausbringungsmenge / Einsatzmenge) ist dagegen eine rein <em>mengenmäßige</em> (technische) Kennzahl, z. B. Stück pro Stunde. Steigt die Produktivität, muss die Wirtschaftlichkeit nicht zwangsläufig mitsteigen — wenn z. B. gleichzeitig die Einkaufspreise für Rohstoffe drastisch steigen, kann mehr Output pro Stunde trotzdem zu schlechterer Wirtschaftlichkeit führen. Ausführlicher Vergleich inkl. Rentabilität und Liquidität: siehe LS01.</div>
     </div>
 
     <h3>Die drei Bereiche der KLR</h3>
@@ -126,16 +135,31 @@
           <td><strong>Einzelkosten</strong></td>
           <td>Direkt und verursachungsgerecht einem Produkt zuordenbar. Kein Schlüssel nötig.</td>
           <td>Fertigungsmaterial, Fertigungslöhne, Verpackungen</td>
-          <td>BAB – Zuschlagskalkulation</td>
+          <td>Direkt in die Kalkulation</td>
+        </tr>
+        <tr>
+          <td><strong>Sondereinzelkosten (SEK)</strong></td>
+          <td>Einem einzelnen Auftrag direkt zurechenbar, tauchen aber nicht im BAB auf.</td>
+          <td>SEK Fertigung: Lizenzgebühren, Spezialwerkzeuge · SEK Vertrieb: Ausgangsfrachten, Provisionen für diesen Auftrag</td>
+          <td>Direkt in die Kalkulation, wie Einzelkosten</td>
         </tr>
         <tr>
           <td><strong>Gemeinkosten</strong></td>
-          <td>Nicht direkt zurechenbar. Fallen für den Gemeinbetrieb an, werden über Schlüssel (Zuschlagssätze im BAB) auf Kostenstellen verteilt.</td>
-          <td>Miete, Gehälter, Strom, Abschreibungen, Steuern</td>
-          <td>BAB – Zuschlagssätze</td>
+          <td>Nicht direkt zurechenbar. Werden zunächst den Kostenstellen zugeordnet (direkt oder über Verteilungsschlüssel); erst von dort über die BAB-Zuschlagssätze auf die Kostenträger verrechnet.</td>
+          <td>Miete, Gehälter, Strom, Abschreibungen, betriebliche Steuern (z. B. Grundsteuer, Kfz-Steuer)</td>
+          <td>Kostenstellen → BAB-Zuschlagssätze → Kostenträger</td>
         </tr>
       </tbody>
     </table>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Nicht jede Steuer ist eine Kostenart</strong>Betriebliche Steuern mit Sachbezug zum Betrieb (Grundsteuer, Kfz-Steuer) sind Gemeinkosten. Ertragsabhängige Unternehmenssteuern (Körperschaftsteuer, Gewerbesteuer) sind dagegen neutraler Aufwand — sie hängen vom Gewinn ab, nicht vom betrieblichen Leistungserstellungsprozess, und gehören nicht in die KLR.</div>
+    </div>
+
+    <div class="content-card" style="text-align:center">
+      <img src="../images/PLATZHALTER_Grafik-Einzelkosten-Gemeinkosten-Fix-Variabel-Matrix.png" alt="Matrix: Einzel-/Gemeinkosten unabhängig von Fix-/variablen Kosten" style="max-width:100%;border-radius:6px">
+    </div>
 
     <div class="notice danger">
       <div>⛔</div>
@@ -144,6 +168,7 @@
           <li>Miete = Gemeinkosten UND Fixkosten</li>
           <li>Fertigungsmaterial = Einzelkosten UND variable Kosten</li>
           <li>Stromkosten Produktion = Gemeinkosten UND variabel</li>
+          <li>Lizenzgebühr nur für Produkt A = Einzelkosten UND Fixkosten (fällt unabhängig von der produzierten Menge in gleicher Höhe an)</li>
         </ul>
       </div>
     </div>
@@ -223,7 +248,7 @@
         <tr>
           <td><strong>Neutraler Aufwand</strong></td>
           <td>✅ Ja</td><td>❌ Nein</td>
-          <td>Aufwand der nicht dem Kerngeschäft dient. In der KLR nicht als Kosten erfasst.</td>
+          <td>Aufwand ohne Zusammenhang zur eigentlichen betrieblichen Leistungserstellung (auch wenn er aus dem Kerngeschäft stammt, aber periodenfremd oder außerordentlich ist). In der KLR nicht als Kosten erfasst.</td>
           <td>Spenden, Steuernachzahlungen, Forderungsverluste, Schadensfälle</td>
         </tr>
         <tr>
@@ -234,8 +259,8 @@
         </tr>
         <tr>
           <td><strong>Anderskosten</strong></td>
-          <td>In anderer Höhe</td><td>In anderer Höhe</td>
-          <td>Zweckaufwand der in der KLR in abweichender Höhe angesetzt wird.</td>
+          <td>✅ Ja (Grundhöhe)</td><td>✅ Ja, aber in anderer Höhe</td>
+          <td>Zweckaufwand, dem in der KLR derselbe Posten gegenübersteht — nur in abweichender Höhe angesetzt.</td>
           <td>Kalk. Abschreibungen (auf Wiederbeschaffungswert), kalk. Zinsen</td>
         </tr>
       </tbody>
@@ -260,6 +285,15 @@
       <div><strong>Prüfungsfalle — Anderskosten erkennen</strong>Entscheidend: Liegt derselbe Posten in beiden Rechnungen vor — aber in unterschiedlicher Höhe? → Anderskosten. Liegt er nur in einer Rechnung vor → neutraler Aufwand oder Zusatzkosten.</div>
     </div>
 
+    <div class="notice ok">
+      <strong>Merksatz — Anderskosten vs. Zusatzkosten</strong><br>
+      Anderskosten haben immer einen entsprechenden Aufwand in der Fibu (nur in anderer Höhe). Zusatzkosten entstehen dagegen ausschließlich in der KLR — ihnen steht in der Fibu überhaupt kein Aufwand gegenüber.
+    </div>
+
+    <div class="content-card" style="text-align:center">
+      <img src="../images/PLATZHALTER_Grafik-Abgrenzungsschema-Flussdiagramm.png" alt="Flussdiagramm: Aufwand → Grundkosten → Anderskosten → Zusatzkosten → Kosten" style="max-width:100%;border-radius:6px">
+    </div>
+
     <!-- ══════════════════════════════════════════════════════ -->
     <h2>Kapitel 4 · Leistungen</h2>
 
@@ -269,7 +303,7 @@
 
     <div class="def-box">
       <div class="def-term">Leistung (KLR)</div>
-      In Geld bewerteter Output aus der betrieblichen Tätigkeit. Gegenstück zu Kosten — genau wie Ertrag das Gegenstück zu Aufwand in der Fibu ist. In der KLR werden nur Grundleistungen (Zweckerträge) erfasst. Neutrale Erträge (z.B. Wertpapiererträge) sind keine Leistungen in der KLR.
+      In Geld bewerteter Output aus der betrieblichen Tätigkeit. Gegenstück zu Kosten — genau wie Ertrag das Gegenstück zu Aufwand in der Fibu ist. Die KLR berücksichtigt ausschließlich betriebliche Leistungen — diese bestehen aus Absatzleistungen, Lagerleistungen und innerbetrieblichen Leistungen. Neutrale Erträge (z.B. Wertpapiererträge) sind keine Leistungen in der KLR.
     </div>
 
     <h3>Leistung vs. Ertrag</h3>
@@ -311,7 +345,192 @@
 
     <div class="notice danger">
       <div>⛔</div>
-      <div><strong>Prüfungsfalle — Lagerleistung ist eine Leistung, kein Ertrag!</strong>Bestandserhöhung erscheint in der Fibu als Ertrag (Bestandsveränderung in der GuV). In der KLR ist sie eine Lagerleistung. Bestandsminderung verringert die Leistung. IHK fragt: „Das Unternehmen produziert mehr als es verkauft. Was ist die Differenz in der KLR?" → Lagerleistung.</div>
+      <div><strong>Prüfungsfalle — Lagerleistung ist eine Leistung, kein Ertrag!</strong>Bestandserhöhung erscheint in der Fibu als Ertrag (Bestandsveränderung in der GuV). In der KLR ist sie eine Lagerleistung. Bestandsminderung verringert die Leistung. IHK fragt: „Das Unternehmen produziert mehr als es verkauft. Was ist die Differenz in der KLR?" → Lagerleistung. Wichtig: Die Lagerleistung erhöht das Betriebsergebnis bereits, obwohl noch gar kein Verkauf stattgefunden hat — sie wird zu Herstellkosten bewertet, nicht zu Verkaufspreisen.</div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <h2>Kapitel 5 · Kalkulatorische Kosten im Detail (Abgrenzungsrechnung)</h2>
+
+    <div class="pruef-box">
+      Kapitel 3 hat Anders- und Zusatzkosten nur an je einem Beispiel gezeigt. Die IHK-Prüfung verlangt aber die vier kalkulatorischen Kostenarten <strong>einzeln mit Rechenweg</strong> — und zusätzlich die komplette Abgrenzungsrechnung als Tabelle (Aufwand → Kosten). Genau das folgt jetzt.
+    </div>
+
+    <h3>Die vier kalkulatorischen Kostenarten im Überblick</h3>
+    <table>
+      <thead><tr><th>Kalk. Kostenart</th><th>Typ</th><th>Ersetzt in der Fibu</th><th>Bemessungsgrundlage</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Kalk. Abschreibungen</strong></td><td>Anderskosten</td><td>Bilanzielle AfA (AK/AHK)</td><td>Wiederbeschaffungswert ÷ Nutzungsdauer</td></tr>
+        <tr><td><strong>Kalk. Zinsen</strong></td><td>Anderskosten</td><td>Nur Fremdkapitalzinsen (Aufwand)</td><td>Gebundenes Kapital × Zinssatz</td></tr>
+        <tr><td><strong>Kalk. Wagnisse</strong></td><td>Zusatzkosten</td><td>Kein Aufwand (außer Schadensfall selbst)</td><td>Erfahrungswert in % von Bezugsgröße</td></tr>
+        <tr><td><strong>Kalk. Miete/Unternehmerlohn</strong></td><td>Zusatzkosten</td><td>Kein Aufwand (Eigentum/Privatentnahme)</td><td>Ortsübliche Marktmiete / fiktives Gehalt</td></tr>
+      </tbody>
+    </table>
+
+    <!-- --- Kalk. Abschreibungen --- -->
+    <h3>1) Kalkulatorische Abschreibungen</h3>
+    <div class="content-card">
+      <h4>🎯 Anwendungsanker</h4>
+      Immer wenn eine Aufgabe von „Wiederbeschaffungswert", „Wiederbeschaffungspreis" oder „aktuellem Marktpreis" eines Anlageguts spricht — nicht vom historischen Kaufpreis. Auch wenn nach dem „kalkulatorischen Ergebnis" statt dem „bilanziellen Ergebnis" gefragt wird.
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Kalkulatorische Abschreibung</div>
+      Bemisst sich am Wiederbeschaffungswert (aktueller Marktpreis für ein gleichwertiges Gut), nicht an den historischen Anschaffungskosten. Zweck: Kapitalerhaltung — die KLR soll den tatsächlichen Werteverzehr abbilden, damit ausreichend Mittel für eine Ersatzbeschaffung angesammelt werden, auch bei Preissteigerungen.
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Kalk. Abschreibung Gabelstapler</strong><br>
+      Ein Gabelstapler wurde vor 4 Jahren für 32.000 € angeschafft (lineare AfA, Nutzungsdauer 8 Jahre). Ein baugleiches Modell kostet heute 38.000 €.<br><br>
+      Bilanzielle (Fibu-)Abschreibung: 32.000 € ÷ 8 Jahre = <strong>4.000 €/Jahr</strong><br>
+      Kalkulatorische Abschreibung: 38.000 € ÷ 8 Jahre = <strong>4.750 €/Jahr</strong><br>
+      Differenz (Anderskosten): 4.750 € − 4.000 € = <strong>750 €</strong> zusätzliche Kosten in der KLR
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Nutzungsdauer bleibt im Grundfall gleich</strong>Im einfachen Fall ändert sich nur der Wertansatz (AK → Wiederbeschaffungswert), nicht die Nutzungsdauer. In komplexeren IHK-Aufgaben können sich steuerliche Nutzungsdauer (nach amtlicher AfA-Tabelle, für die Fibu bindend) und tatsächliche wirtschaftliche Nutzungsdauer (für die KLR maßgeblich) unterscheiden — dann ändern sich Wertansatz UND Nutzungsdauer gleichzeitig. Genau lesen, welche Nutzungsdauer in der Aufgabe für welche Rechnung angegeben ist.</div>
+    </div>
+
+    <div class="content-card">
+      <h4>✍️ Formulierungsbaustein</h4>
+      „Da nach dem <em>Wiederbeschaffungswert</em> gefragt ist, handelt es sich um eine <em>kalkulatorische Abschreibung</em>, weil die KLR den tatsächlichen Werteverzehr zu aktuellen Marktpreisen abbilden soll, um die Substanz des Anlageguts zu erhalten."
+    </div>
+
+    <!-- --- Kalk. Zinsen --- -->
+    <h3>2) Kalkulatorische Zinsen</h3>
+    <div class="content-card">
+      <h4>🎯 Anwendungsanker</h4>
+      Immer wenn nach den „Kosten des eingesetzten Kapitals" gefragt wird — unabhängig davon, ob das Kapital dem Unternehmen selbst gehört (Eigenkapital) oder geliehen ist. Stichwort in der Aufgabe: „betriebsnotwendiges Kapital" oder „gebundenes Kapital".
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Kalkulatorische Zinsen</div>
+      Die Fibu erfasst nur tatsächlich gezahlte Fremdkapitalzinsen als Aufwand. Die KLR verzinst dagegen das <strong>gesamte</strong> betriebsnotwendige Kapital (Eigen- <em>und</em> Fremdkapital) — denn auch Eigenkapital hat Opportunitätskosten (entgangene Anlagemöglichkeit).
+    </div>
+
+    <h4>Vollständiges Schema: Betriebsnotwendiges Kapital</h4>
+    <table>
+      <thead><tr><th></th><th>Erläuterung</th></tr></thead>
+      <tbody>
+        <tr><td>Betriebsnotwendiges Anlagevermögen</td><td>Abnutzbares AV — zwei mögliche Methoden: <strong>Restwertmethode</strong> (Standardfall im großen BAB): Durchschnittlicher Restwert = (Restwert Periodenbeginn + Restwert Periodenende) ÷ 2. <strong>Durchschnittsmethode</strong> (vereinfacht): AK ÷ 2, wenn Restwerte nicht bekannt sind oder das Gut kalkulatorisch bereits voll abgeschrieben, aber noch im Einsatz ist. Nicht abnutzbares AV (Grundstücke): voller Wert, keine Halbierung.</td></tr>
+        <tr><td>+ Betriebsnotwendiges Umlaufvermögen</td><td>Vorräte, Forderungen, betriebsnotwendige flüssige Mittel — voller Wert, kein Durchschnittsverfahren</td></tr>
+        <tr><td>= Betriebsnotwendiges Vermögen</td><td></td></tr>
+        <tr><td>− Abzugskapital</td><td>Zinsfrei zur Verfügung stehendes Kapital: erhaltene Anzahlungen von Kunden, Verbindlichkeiten aus Lieferungen und Leistungen, kurzfristige zinsfreie Rückstellungen (z. B. Steuer-, Urlaubsrückstellungen). Pensionsrückstellungen zählen i. d. R. NICHT dazu — sie sind langfristig und wirken intern wie Eigenkapital.</td></tr>
+        <tr><td><strong>= Betriebsnotwendiges Kapital</strong></td><td>Bemessungsgrundlage für die kalk. Zinsen</td></tr>
+      </tbody>
+    </table>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Kalk. Zinsen Lagerhalle (vereinfachter Fall: nur abnutzbares AV)</strong><br>
+      Anschaffungskosten der Lagerhalle: 600.000 €. Kalkulatorischer Zinssatz: 6 %.<br><br>
+      Gebundenes Kapital = 600.000 € ÷ 2 = <strong>300.000 €</strong><br>
+      Kalk. Zinsen = 300.000 € × 6 % = <strong>18.000 €/Jahr</strong><br>
+      Diese 18.000 € sind vollständig Zusatzkosten bzw. Anderskosten (je nachdem ob und wie viel Fremdkapitalzins in der Fibu bereits als Aufwand erfasst war).
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — AK ÷ 2 ist nur die vereinfachte Methode</strong>Die Durchschnittsmethode (AK ÷ 2) gilt nur, wenn Restwerte nicht bekannt oder nicht relevant sind. Sind Restwert zu Periodenbeginn und -ende gegeben, verlangt die IHK die genauere Restwertmethode: (Restwert Beginn + Restwert Ende) ÷ 2 — das kann von AK ÷ 2 spürbar abweichen. Zusätzlich gilt: Sobald eine Aufgabe Grundstücke, Vorräte oder Forderungen nennt, muss das vollständige Schema (siehe oben) verwendet werden — diese Positionen werden NICHT halbiert.</div>
+    </div>
+
+    <div class="content-card">
+      <h4>✍️ Formulierungsbaustein</h4>
+      „Da das <em>gesamte betriebsnotwendige Kapital</em> verzinst werden soll und nicht nur das Fremdkapital, handelt es sich um <em>kalkulatorische Zinsen</em>, weil auch das eingesetzte Eigenkapital Opportunitätskosten verursacht."
+    </div>
+
+    <!-- --- Kalk. Wagnisse --- -->
+    <h3>3) Kalkulatorische Wagnisse</h3>
+    <div class="content-card">
+      <h4>🎯 Anwendungsanker</h4>
+      Immer wenn ein branchentypisches Risiko (Forderungsausfall, Schwund, Garantiefälle, Fehlplanung) über einen <strong>Erfahrungswert in Prozent</strong> kalkulatorisch vorweg berücksichtigt werden soll — nicht der tatsächlich eingetretene Einzelschaden.
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Kalkulatorische Wagnisse</div>
+      Vorwegnahme spezieller, quantifizierbarer Verlustrisiken über einen aus der Erfahrung abgeleiteten Prozentsatz einer Bezugsgröße (z. B. Umsatz, Wareneinsatz). Tritt der Schaden tatsächlich ein und bewegt er sich im Rahmen des kalkulierten Wagnisses, ist er in der Fibu Zweckaufwand, dem in der KLR das kalkulatorische Wagnis gegenübersteht. Nur ein Schaden, der außergewöhnlich hoch, nicht kalkulierbar oder nicht versichert war, wird als neutraler Aufwand abgegrenzt.
+    </div>
+
+    <table>
+      <thead><tr><th>Wagnisart</th><th>Beispiel</th><th>Bezugsgröße</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Beständewagnis</strong></td><td>Schwund, Verderb, Diebstahl im Lager</td><td>Lagerbestand / Wareneinsatz</td></tr>
+        <tr><td><strong>Vertriebswagnis (Debitorenwagnis)</strong></td><td>Forderungsausfälle, Skonto-/Rabattverluste</td><td>Umsatz</td></tr>
+        <tr><td><strong>Fertigungswagnis</strong></td><td>Ausschuss, Nacharbeit, Maschinenschäden</td><td>Fertigungskosten</td></tr>
+        <tr><td><strong>Gewährleistungswagnis</strong></td><td>Garantie- und Kulanzleistungen</td><td>Umsatz</td></tr>
+      </tbody>
+    </table>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Beständewagnis Distributionslager</strong><br>
+      Jahres-Wareneinsatz: 2.400.000 €. Erfahrungswert Schwund/Bruch: 0,8 %.<br><br>
+      Kalk. Wagnis = 2.400.000 € × 0,8 % = <strong>19.200 €/Jahr</strong><br>
+      Dieser Betrag wird unabhängig davon angesetzt, ob im aktuellen Jahr tatsächlich 19.200 €, mehr oder weniger Schwund auftritt — er glättet das Risiko über mehrere Perioden.
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Allgemeines Unternehmerwagnis ist NICHT kalkulierbar</strong>Das allgemeine Unternehmerrisiko (Konjunktur, Marktentwicklung, Fehlentscheidungen der Geschäftsleitung) wird durch den <em>Gewinn</em> abgegolten — es ist kein eigener Kostenbestandteil und darf nicht kalkulatorisch angesetzt werden. Nur die genannten <em>speziellen</em> Einzelwagnisse sind kalkulierbar.</div>
+    </div>
+
+    <div class="content-card">
+      <h4>✍️ Formulierungsbaustein</h4>
+      „Da ein branchentypisches Einzelrisiko über einen Erfahrungswert vorweg berücksichtigt wird, handelt es sich um ein <em>kalkulatorisches Wagnis</em>, weil das tatsächliche Schadensereignis sonst die Kosten einzelner Perioden ungleichmäßig belasten würde."
+    </div>
+
+    <!-- --- Kalk. Miete / Unternehmerlohn --- -->
+    <h3>4) Kalkulatorische Miete &amp; kalkulatorischer Unternehmerlohn</h3>
+    <div class="content-card">
+      <h4>🎯 Anwendungsanker</h4>
+      Kalk. Miete: wenn ein Unternehmen eigene Räume nutzt, statt sie zu mieten. Kalk. Unternehmerlohn: wenn ein Einzelunternehmer oder Personengesellschafter selbst mitarbeitet, ohne ein Gehalt zu beziehen.
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Kalk. Miete Logistikzentrum</strong><br>
+      Ein Einzelunternehmer nutzt eine eigene Lagerhalle (2.000 m²) für den Betrieb. Ortsübliche Miete für vergleichbare Logistikflächen: 5,50 €/m² monatlich.<br><br>
+      Kalk. Miete = 2.000 m² × 5,50 € × 12 Monate = <strong>132.000 €/Jahr</strong><br>
+      Ohne diesen Ansatz würde die Nutzung der eigenen Immobilie fälschlich als „kostenlos" erscheinen — im Vergleich zu einem Wettbewerber, der Miete zahlen muss.
+    </div>
+
+    <div class="notice ok">
+      <strong>Merksatz – Gemeinsamkeit aller vier kalk. Kostenarten</strong><br>
+      Alle vier sorgen dafür, dass die KLR unabhängig von der individuellen Finanzierungs- und Eigentumsstruktur eines Betriebs vergleichbare Kosten ausweist — ob Eigentum oder Miete, Eigen- oder Fremdkapital, Fremd- oder Eigenarbeit macht kalkulatorisch keinen Unterschied.
+    </div>
+
+    <!-- --- Abgrenzungs-/Ergebnistabelle --- -->
+    <h3>Die Abgrenzungsrechnung als Ergebnistabelle</h3>
+    <div class="pruef-box">
+      Die IHK verlangt oft nicht nur einzelne Begriffe, sondern die <strong>vollständige Überleitung</strong> vom Fibu-Ergebnis zum KLR-Betriebsergebnis in Tabellenform. Diese Ergebnistabelle ist das Handwerkszeug dafür.
+    </div>
+
+    <div class="notice warn">
+      <strong>Formales IHK-Schema — zwei Rechnungskreise</strong><br>
+      Die Ergebnistabelle gliedert sich offiziell in <strong>Rechnungskreis I</strong> (Fibu-Ergebnis lt. GuV) und <strong>Rechnungskreis II</strong> mit zwei Spaltenblöcken: (a) <em>unternehmensbezogene Abgrenzung</em> — neutraler Aufwand/Ertrag wird herausgerechnet — und (b) <em>kostenrechnerische Korrektur</em> — bilanzielle Werte (AfA, Fremdkapitalzinsen) werden komplett herausgerechnet und die kalkulatorischen Werte komplett hineingerechnet, jeweils in eigenen Spalten statt als eine Differenz. Das Rechenbeispiel unten zeigt das vereinfacht als eine durchlaufende Summenspalte — für Komplexaufgaben mit mehrspaltiger Tabelle bitte die Spaltentrennung beachten.
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Vollständige Abgrenzungsrechnung</strong><br>
+      Ausgangslage: handelsrechtlicher Gesamtaufwand 850.000 €, Gesamtertrag 920.000 € → handelsrechtliches Ergebnis 70.000 €. Im Beispiel fallen keine neutralen Erträge an.
+      <table style="margin-top:0.5rem">
+        <thead><tr><th></th><th>Betrag</th><th>Erläuterung</th></tr></thead>
+        <tbody>
+          <tr><td>Gesamtaufwand (Fibu)</td><td>850.000 €</td><td>lt. GuV</td></tr>
+          <tr><td>− Neutraler Aufwand</td><td>− 12.000 €</td><td>Spende + Forderungsverlust (betriebsfremd)</td></tr>
+          <tr><td>= Zweckaufwand (Grundkosten)</td><td>838.000 €</td><td>fließt unverändert in die KLR</td></tr>
+          <tr><td>+ Anderskosten-Differenz</td><td>+ 4.750 €</td><td>kalk. Abschreibung über bilanzieller AfA (s.o.)</td></tr>
+          <tr><td>+ Zusatzkosten</td><td>+ 18.000 € + 19.200 € + 132.000 €</td><td>kalk. Zinsen + kalk. Wagnis + kalk. Miete</td></tr>
+          <tr><td><strong>= Kosten (KLR)</strong></td><td><strong>1.011.950 €</strong></td><td>Summe für Betriebsergebnis-Rechnung</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Zwei getrennte Ergebnisse</strong>Unternehmensergebnis = Betriebsergebnis + neutrales Ergebnis. Das <em>Betriebsergebnis</em> (aus Leistungen − Kosten) zeigt die reine betriebliche Leistungsfähigkeit; das <em>neutrale Ergebnis</em> (aus neutralem Ertrag − neutralem Aufwand) bildet außerordentliche/betriebsfremde Effekte separat ab. Wer beide vermischt, kann die betriebliche Situation nicht mehr beurteilen — genau das ist der Sinn der Trennung.</div>
+    </div>
+
+    <div class="content-card">
+      <h4>✍️ Formulierungsbaustein</h4>
+      „Da vom handelsrechtlichen Ergebnis auf das Betriebsergebnis übergeleitet werden soll, empfiehlt sich die <em>Abgrenzungsrechnung</em>, weil nur so neutrale Posten heraus- und kalkulatorische Kosten hineingerechnet werden, um ein rein betriebsbezogenes Ergebnis zu erhalten."
     </div>
 
     <!-- ══════════════════════════════════════════════════════ -->
@@ -320,6 +539,7 @@
       <li>Unterschied Fibu (extern) und KLR (intern) mit je zwei Merkmalen erklären</li>
       <li>Selbstkosten, Wirtschaftlichkeit, Angebotspreis und Deckungsbeitrag mit Formel definieren</li>
       <li>Einzel- von Gemeinkosten unterscheiden — warum können Gemeinkosten auch variabel sein?</li>
+      <li>Sondereinzelkosten (SEK Fertigung/Vertrieb) erklären und von normalen Einzelkosten abgrenzen (SEK erscheinen nicht im BAB)</li>
       <li>Fix- vs. variable Kosten und Stückkosten-Effekt bei steigender Ausbringung erklären</li>
       <li>Sachverhalt korrekt einordnen: neutraler Aufwand / Zweckaufwand / Zusatzkosten / Anderskosten</li>
       <li>Je ein Beispiel für Zusatzkosten und Anderskosten nennen und Unterschied erklären</li>
@@ -327,12 +547,22 @@
       <li>Erklären warum Lagerleistung eine Leistung ist und was das in der KLR bedeutet</li>
     </ul>
 
+    <h3>Kapitel 5 — Kalkulatorische Kosten</h3>
+    <ul>
+      <li>Kalk. Abschreibung berechnen (Wiederbeschaffungswert ÷ Nutzungsdauer) und von der bilanziellen AfA abgrenzen</li>
+      <li>Kalk. Zinsen berechnen — sowohl mit der vereinfachten AK ÷ 2-Formel als auch mit dem vollständigen Schema des betriebsnotwendigen Kapitals (inkl. Abzugskapital)</li>
+      <li>Mindestens drei Wagnisarten nennen und erklären, warum das allgemeine Unternehmerwagnis NICHT kalkulierbar ist</li>
+      <li>Kalk. Miete und kalk. Unternehmerlohn an einem Beispiel berechnen</li>
+      <li>Vollständige Abgrenzungsrechnung als Ergebnistabelle aufstellen: Aufwand → Zweckaufwand → Kosten</li>
+      <li>Unternehmensergebnis = Betriebsergebnis + neutrales Ergebnis erklären und begründen, warum die Trennung nötig ist</li>
+    </ul>
+
   </main>
 </div>
 
 <footer class="page-footer">
   <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
-  <div>REWE LS03 · Stand: April 2026</div>
+  <div>REWE LS03 · Stand: Juli 2026</div>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>

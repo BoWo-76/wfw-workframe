@@ -27,8 +27,8 @@
       <div class="kicker">Rechnungswesen · Lernskript</div>
       <h1>LS04 · Kostenartenrechnung</h1>
       <div class="meta">
-        <span>Kostengliederung · Beschäftigungsabhängigkeit · Mittelwerte · Systeme</span>
-        <span>Stand: April 2026</span>
+        <span>Kostengliederung · Beschäftigungsabhängigkeit · Mittelwerte · Systeme · Materialverbrauch · Personalkosten</span>
+        <span>Stand: Juli 2026</span>
         <span><span class="badge ok">Fertig</span></span>
       </div>
     </div>
@@ -37,12 +37,12 @@
     <h2>Kapitel 1 · Grundlagen der Kostenartenrechnung</h2>
 
     <div class="pruef-box">
-      Kostenartenrechnung ist die erste Stufe der KLR — beantwortet: „Welche Kosten sind entstanden?" Prüfungsrelevant: Welche Kostenarten gibt es? Was sind Einzel- vs. Gemeinkosten? Nach welchen Kriterien werden Kosten eingeteilt?
+      Kostenartenrechnung ist die erste Stufe der KLR — beantwortet: „Welche Kosten sind angefallen?" Prüfungsrelevant: Welche Kostenarten gibt es? Was sind Einzel- vs. Gemeinkosten? Nach welchen Kriterien werden Kosten eingeteilt?
     </div>
 
     <div class="def-box">
       <div class="def-term">Kostenartenrechnung — Einordnung</div>
-      Erste von drei Stufen der KLR. Erfasst und gliedert systematisch alle betriebsbedingten, bewerteten Güterverbräuche (Kosten) einer Abrechnungsperiode.
+      Erste von drei Stufen der KLR. Erfasst und gliedert systematisch alle betriebsbedingten, bewerteten Güter- und Dienstleistungsverbräuche (Kosten) einer Abrechnungsperiode.
     </div>
 
     <h3>Die drei KLR-Stufen</h3>
@@ -59,7 +59,7 @@
     <table>
       <thead><tr><th>Kriterium</th><th>Kostenarten</th><th>Beispiele</th></tr></thead>
       <tbody>
-        <tr><td><strong>(1) Nach Entstehungsursache</strong></td><td>Materialkosten, Personalkosten, Abschreibungen, Kommunikationskosten, betriebliche Steuern</td><td>Stahlverbrauch, Löhne, AfA Maschinen, Telefon, Cloud-Dienste, Grundsteuer</td></tr>
+        <tr><td><strong>(1) Nach Entstehungsursache</strong></td><td>Materialkosten, Personalkosten, Abschreibungen, Kommunikationskosten, betriebliche Steuern</td><td>Stahlverbrauch, Löhne, AfA Maschinen, Telekommunikation und IT-Dienstleistungen, Grundsteuer</td></tr>
         <tr><td><strong>(2) Nach Verrechenbarkeit</strong></td><td>Einzelkosten, Gemeinkosten</td><td>Fertigungslohn (direkt), Hallenmiete (indirekt)</td></tr>
         <tr><td><strong>(3) Nach Beschäftigungsverhalten</strong></td><td>Fixkosten, variable Kosten</td><td>Gebäude-AfA (fix), Rohstoff (variabel)</td></tr>
         <tr><td><strong>(4) Nach Ermittlungsart</strong></td><td>Istkosten, Normalkosten, Plankosten</td><td>→ Kapitel 4</td></tr>
@@ -80,7 +80,7 @@
       </div>
       <div class="content-card">
         <h4>Gemeinkosten</h4>
-        <p>Nicht direkt dem Produkt zurechenbar. Fallen für den Gesamtbetrieb an — Verteilung über Schlüssel (BAB).</p>
+        <p>Nicht direkt dem Produkt zurechenbar. Fallen für den Gesamtbetrieb an — zunächst Kostenstellen zugeordnet (direkt oder über Verteilungsschlüssel), von dort über BAB-Zuschlagssätze auf die Kostenträger verrechnet.</p>
         <ul>
           <li>Gehälter der Verwaltung</li>
           <li>Stromkosten der Produktionshalle</li>
@@ -88,6 +88,11 @@
           <li>Reparatur- und Wartungskosten</li>
         </ul>
       </div>
+    </div>
+
+    <div class="notice warn">
+      <strong>Feinunterscheidung — Fertigungslöhne: Akkordlohn vs. Zeitlohn</strong><br>
+      In der klassischen Zuschlagskalkulation gelten Fertigungslöhne standardmäßig als Einzelkosten ("Fertigungseinzelkosten") — so wird in Kalkulationsaufgaben gerechnet. Fachlich genauer: Nur <strong>Akkordlöhne</strong> variieren unmittelbar mit der Produktionsmenge und sind damit zweifelsfrei Einzelkosten. <strong>Zeitlöhne</strong> (Stundenlohn unabhängig von der Stückzahl) sind kurzfristig fix und werden in theoretischen Fragen zur Kostenstruktur eher als Gemeinkosten diskutiert. Für Kalkulationsaufgaben: Fertigungslohn = Einzelkosten. Für Verständnisfragen zur Kostenstruktur: Akkordlohn = Einzelkosten, Zeitlohn = eher Gemeinkosten.
     </div>
 
     <div class="notice danger">
@@ -132,10 +137,14 @@
     </table>
     <div class="notice info">
       <div>ℹ️</div>
-      <div>Gesamtkosten konstant bei 3.000 €. Stückkosten sinken von 60,00 € auf 10,00 € — Fixkostendegression.</div>
+      <div>Die Gesamtkosten bestehen hier ausschließlich aus Fixkosten und bleiben deshalb bei 3.000 € konstant. Stückkosten sinken von 60,00 € auf 10,00 € — Fixkostendegression.</div>
     </div>
 
     <h3>Variable Kosten — drei Unterarten</h3>
+    <div class="notice ok">
+      <strong>Merksatz</strong><br>
+      Proportionale Kosten sind der Regelfall in IHK-Rechenaufgaben — degressive und progressive Verläufe kommen meist nur in Verständnisfragen oder Grafik-Aufgaben vor.
+    </div>
     <table>
       <thead><tr><th>Art</th><th>Gesamtkosten</th><th>Stückkosten</th><th>Beispiele</th></tr></thead>
       <tbody>
@@ -163,10 +172,46 @@
       <div><strong>Drei klassische Prüfungsfallen</strong>
         <ul style="margin-top:6px">
           <li><strong>Einzelkosten können fix sein:</strong> Sondereinzelkosten der Fertigung (Spezialwerkzeug für Auftrag) = direkt zurechenbar (Einzelkosten) aber mengenunabhängig (fix).</li>
-          <li><strong>Fixkosten sind nicht immer konstant:</strong> Sprungfixe Kosten bleiben nur innerhalb eines Kapazitätsbereichs konstant — „fix" bedeutet „nicht beschäftigungsabhängig", nicht „niemals veränderlich".</li>
+          <li><strong>Fixkosten sind nicht immer konstant:</strong> Sprungfixe (intervallfixe) Kosten bleiben nur innerhalb eines Kapazitätsbereichs konstant — „fix" bedeutet „nicht beschäftigungsabhängig", nicht „niemals veränderlich".</li>
           <li><strong>Mittelwerte sind keine Einstandspreise:</strong> Der gewogene Mittelwert ist eine rechnerische Hilfsgröße — nicht der tatsächliche Einkaufspreis einer Charge.</li>
         </ul>
       </div>
+    </div>
+
+    <h3>Mischkosten &amp; Kostenauflösung</h3>
+    <div class="content-card">
+      <h4>🎯 Anwendungsanker</h4>
+      Immer wenn eine Kostenart sowohl eine Grundgebühr (unabhängig von der Nutzung) als auch einen nutzungsabhängigen Anteil hat — Stichwort „Mischkosten" oder „semivariable Kosten". Typisch: Energiekosten, Telefon-/Internetverträge, manche Wartungsverträge.
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Mischkosten (semivariable Kosten)</div>
+      Kosten, die einen fixen Grundbetrag UND einen mit der Beschäftigung variierenden Anteil enthalten (z. B. Grundgebühr + Verbrauchspreis). Für die KLR müssen Mischkosten in ihre fixen und variablen Bestandteile zerlegt werden — das nennt man Kostenauflösung.
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Differenzen-Quotienten-Verfahren (Hoch-Tiefpunkt-Methode)</div>
+      Nutzt zwei bekannte Beschäftigungspunkte (den Punkt mit der höchsten und den mit der niedrigsten Ausbringung samt jeweiliger Gesamtkosten), um daraus den variablen Kostensatz und die Fixkosten zu ermitteln.<br><br>
+      k<sub>v</sub> = (Kosten Höchstpunkt − Kosten Tiefpunkt) ÷ (Beschäftigung Höchstpunkt − Beschäftigung Tiefpunkt)<br>
+      K<sub>fix</sub> = Gesamtkosten (an einem der beiden Punkte) − (k<sub>v</sub> × Beschäftigung an diesem Punkt)
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Energiekosten Distributionszentrum</strong><br>
+      Tiefpunkt: 1.000 Sendungen/Monat, Gesamtkosten 5.000 €. Höchstpunkt: 2.500 Sendungen/Monat, Gesamtkosten 8.000 €.<br><br>
+      k<sub>v</sub> = (8.000 € − 5.000 €) ÷ (2.500 − 1.000) = 3.000 € ÷ 1.500 = <strong>2,00 €/Sendung</strong><br>
+      K<sub>fix</sub> = 5.000 € − (2,00 € × 1.000) = 5.000 € − 2.000 € = <strong>3.000 €</strong><br>
+      Kontrollrechnung Höchstpunkt: 3.000 € + (2,00 € × 2.500) = 3.000 € + 5.000 € = 8.000 € ✓
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Nur zwei Punkte, aber Linearität unterstellt</strong>Das Verfahren unterstellt einen linear-proportionalen variablen Kostenverlauf zwischen den beiden Punkten. Liegen zwischen Tief- und Höchstpunkt tatsächlich degressive oder progressive Kostensprünge (z. B. Mengenrabattstufen), verzerrt das Ergebnis — die Methode ist eine Näherung, kein exaktes Verfahren.</div>
+    </div>
+
+    <div class="content-card">
+      <h4>✍️ Formulierungsbaustein</h4>
+      „Da die Kostenart einen fixen und einen variablen Bestandteil enthält, handelt es sich um <em>Mischkosten</em>, die mittels <em>Hoch-Tiefpunkt-Methode</em> aufzulösen sind, weil so aus zwei bekannten Beschäftigungspunkten der variable Kostensatz und die Fixkosten getrennt ermittelt werden können."
     </div>
 
     <!-- ══════════════════════════════════════════════════════ -->
@@ -191,12 +236,22 @@
           <td>Sehr genau. Nachteil: Rechenintensiv bei vielen Zugängen.</td>
         </tr>
         <tr>
-          <td><strong>Gewogener gleitender Mittelwert</strong></td>
-          <td>Neuberechnung bei jedem Zugang unter Berücksichtigung der Mengen</td>
-          <td>Berücksichtigt Mengen. Verhindert Ergebnisverzerrungen durch Preisschwankungen. <strong>Prüfungsrelevant!</strong></td>
+          <td><strong>Periodendurchschnitt (Periodenverfahren)</strong></td>
+          <td>Ein einziger Durchschnittspreis für die GESAMTE Abrechnungsperiode, erst am Periodenende aus Anfangsbestand + allen Zugängen ermittelt</td>
+          <td>Einfach, aber erst nachträglich verfügbar. Einzelne Abgänge während der Periode werden ignoriert — alle Abgänge der Periode werden rückwirkend zum selben Preis bewertet.</td>
+        </tr>
+        <tr>
+          <td><strong>Gewogener gleitender Mittelwert (permanentes Verfahren)</strong></td>
+          <td>Neuberechnung bei jedem Zugang unter Berücksichtigung der Mengen — laufend während der Periode verfügbar</td>
+          <td>Berücksichtigt Mengen. Verhindert Ergebnisverzerrungen durch Preisschwankungen. Auch bezeichnet als <em>gleitender gewogener Durchschnittspreis</em>. <strong>Prüfungsrelevant!</strong></td>
         </tr>
       </tbody>
     </table>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Periodenverfahren vs. permanentes Verfahren führen zu unterschiedlichen Werten</strong>Beide Verfahren aus obiger Tabelle sind „gewogene" Durchschnittsverfahren — sie unterscheiden sich aber im <em>Zeitpunkt</em> der Neuberechnung. Das Periodenverfahren rechnet nur einmal am Ende, das permanente Verfahren nach jedem Zugang. Bei schwankenden Preisen ergeben beide unterschiedliche Bewertungen derselben Abgänge. Die Aufgabe muss explizit sagen, welches Verfahren gefordert ist — das Rechenbeispiel unten zeigt das <strong>permanente</strong> Verfahren.</div>
+    </div>
 
     <h3>Formel: Gewogener gleitender Mittelwert</h3>
     <div class="def-box">
@@ -263,10 +318,19 @@
       <div><strong>Prüfungsfalle — Istkosten für Kontrolle ungeeignet</strong>Vergleicht man zwei Perioden auf Basis von Istkosten, weiß man nicht ob ein Kostenanstieg auf höhere Preise, mehr Verbrauch oder mehr Produktion zurückzuführen ist. Die Plankostenrechnung trennt diese Einflüsse systematisch durch den Soll-Ist-Vergleich.</div>
     </div>
 
+    <div class="notice ok">
+      <strong>Merksatz — Normalkosten</strong><br>
+      Normalkosten sind durchschnittliche Istkosten vergangener Perioden — sie glätten zufällige Schwankungen einzelner Perioden, bleiben aber ein Vergangenheitswert und damit kein echter Planwert.
+    </div>
+
+    <div class="content-card" style="text-align:center">
+      <img src="../images/PLATZHALTER_Grafik-Ist-Normal-Plan-Zeitachse.png" alt="Zeitachse: Istkosten (Vergangenheit) – Normalkosten (geglättete Vergangenheit) – Plankosten (Zukunft)" style="max-width:100%;border-radius:6px">
+    </div>
+
     <h3>Wirtschaftliche Kapazitätsgrenze</h3>
     <div class="def-box">
       <div class="def-term">Wirtschaftliche Kapazitätsgrenze</div>
-      Der Auslastungspunkt an dem ein Betrieb am effizientesten produziert. Bis zu diesem Punkt sinken die Stückkosten kontinuierlich (Fixkostendegression). Wird die Grenze überschritten, steigen die Kosten überproportional an.
+      Der Punkt der optimalen wirtschaftlichen Kapazität. Bis zu diesem Punkt sinken die Stückkosten kontinuierlich (Fixkostendegression). Wird die Grenze überschritten, steigen die Kosten überproportional an.
     </div>
 
     <h3>Ursachen der Kostensteigerung jenseits der Kapazitätsgrenze</h3>
@@ -277,12 +341,144 @@
     </ul>
 
     <!-- ══════════════════════════════════════════════════════ -->
+    <h2>Kapitel 5 · Materialverbrauch &amp; Personalkosten im Detail</h2>
+
+    <div class="pruef-box">
+      Kapitel 3 hat gezeigt, <em>wie</em> Materialabgänge bewertet werden (Mittelwertverfahren). Vorher steht aber die Frage, <em>wie viel</em> überhaupt verbraucht wurde — und wie man diesen Verbrauch alternativ zum Mittelwert bewerten kann (Fifo/Lifo). Dazu kommt die zweite große Kostenart neben Material: Personalkosten mit ihren Zusatzkosten.
+    </div>
+
+    <h3>A) Materialverbrauch ermitteln — drei Methoden</h3>
+    <div class="content-card">
+      <h4>🎯 Anwendungsanker</h4>
+      Immer wenn eine Aufgabe fragt, <em>woher</em> die Verbrauchsmenge stammt (nicht wie sie bewertet wird) — Stichworte: „körperliche Inventur", „laufende Lagerkartei", „Sollverbrauch aus Stückliste".
+    </div>
+
+    <table>
+      <thead><tr><th>Methode</th><th>Vorgehen</th><th>Vor-/Nachteil</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Inventurmethode</strong></td>
+          <td>Verbrauch ergibt sich rechnerisch: Anfangsbestand + Zugänge − Schlussbestand (Schlussbestand durch körperliche Inventur ermittelt)</td>
+          <td>Sehr genau, erfasst automatisch auch Schwund. Nachteil: aufwendig, nur periodisch (meist jährlich) möglich.</td>
+        </tr>
+        <tr>
+          <td><strong>Skontrationsmethode (Fortschreibung)</strong></td>
+          <td>Jede Entnahme wird sofort in der Lagerkartei fortgeschrieben — Verbrauch ergibt sich laufend aus den Entnahmebelegen</td>
+          <td>Jederzeit aktueller Buchbestand verfügbar. Nachteil: Schwund/Diebstahl wird NICHT erfasst — Buchbestand kann vom tatsächlichen Bestand abweichen.</td>
+        </tr>
+        <tr>
+          <td><strong>Rückrechnungsmethode (retrograde Methode)</strong></td>
+          <td>Verbrauch wird aus der produzierten Menge und der Stückliste/Rezeptur zurückgerechnet (Soll-Verbrauch je Einheit × produzierte Menge)</td>
+          <td>Deckt Differenzen zwischen Soll- und Ist-Verbrauch auf (z. B. Schwund, Verschnitt). Nachteil: setzt exakte, aktuelle Stücklisten voraus.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Rückrechnungsmethode Verpackungsmaterial</strong><br>
+      Stückliste: 1 Versandkarton benötigt 0,8 kg Wellpappe. In der Periode wurden 12.500 Kartons verpackt.<br><br>
+      Soll-Verbrauch (Rückrechnung) = 12.500 × 0,8 kg = <strong>10.000 kg</strong><br>
+      Skontrierter (gebuchter) Verbrauch laut Lagerkartei: 10.350 kg<br>
+      Differenz = 10.350 − 10.000 = <strong>350 kg Schwund/Verschnitt</strong>, der über die Skontrationsmethode allein nicht aufgefallen wäre.
+    </div>
+
+    <div class="content-card">
+      <h4>✍️ Formulierungsbaustein</h4>
+      „Da der Verbrauch aus der produzierten Menge und der Stückliste rückgerechnet werden soll, handelt es sich um die <em>Rückrechnungsmethode</em>, weil so Differenzen zum tatsächlich entnommenen Material sichtbar werden."
+    </div>
+
+    <div class="content-card" style="text-align:center">
+      <img src="../images/PLATZHALTER_Grafik-Materialverbrauch-Entscheidungsbaum.png" alt="Entscheidungsbaum: Inventurmethode – Skontrationsmethode – Rückrechnungsmethode" style="max-width:100%;border-radius:6px">
+    </div>
+
+    <h3>B) Verbrauchsfolgeverfahren: Fifo &amp; Lifo</h3>
+    <div class="content-card">
+      <h4>🎯 Anwendungsanker</h4>
+      Immer wenn eine Aufgabe explizit „Fifo", „Lifo" oder „Verbrauchsfolge" nennt — im Unterschied zum gewogenen Mittelwert (Kapitel 3) wird hier nicht gemischt, sondern eine bestimmte Reihenfolge der Bestände unterstellt.
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Fifo (First In – First Out)</div>
+      Unterstellt, dass die zuerst eingelagerten (ältesten) Mengen zuerst verbraucht werden. Abgänge werden zu den ältesten noch vorhandenen Einstandspreisen bewertet.
+    </div>
+    <div class="def-box">
+      <div class="def-term">Lifo (Last In – First Out)</div>
+      Unterstellt, dass die zuletzt eingelagerten (neuesten) Mengen zuerst verbraucht werden. Abgänge werden zu den jüngsten Einstandspreisen bewertet. Handelsrechtlich in Deutschland nur eingeschränkt zulässig (§ 256 HGB, beschränkt auf gleichartige Vermögensgegenstände des Vorratsvermögens) — für die interne KLR-Kalkulation aber uneingeschränkt nutzbar.
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Fifo vs. Lifo, permanentes Verfahren (gleiche Ausgangsdaten wie Kapitel 3)</strong><br>
+      Chronologie: Anfangsbestand 200 Stück à 10,00 €, DANACH Zugang 100 Stück à 13,00 €, DANACH Abgang 150 Stück. Da der Abgang zeitlich nach dem Zugang liegt, zählt der Zugang bereits zum verfügbaren Bestand.<br><br>
+      <strong>Fifo:</strong> Die 150 Stück stammen aus dem ältesten Bestand → 150 × 10,00 € = <strong>1.500,00 €</strong><br>
+      <strong>Lifo:</strong> Die 150 Stück stammen zuerst aus dem jüngsten Zugang (100 Stück à 13,00 €), der Rest (50 Stück) aus dem Altbestand à 10,00 € → (100 × 13,00 €) + (50 × 10,00 €) = 1.300,00 € + 500,00 € = <strong>1.800,00 €</strong><br>
+      <strong>Gewogener Mittelwert (Kapitel 3):</strong> 150 × 11,00 € = <strong>1.650,00 €</strong> — liegt erwartungsgemäß zwischen Fifo und Lifo.
+    </div>
+
+    <div class="notice warn">
+      <strong>Wichtig — permanent vs. periodisch deklarieren</strong><br>
+      Dieses Beispiel rechnet <strong>permanent</strong> (laufend, in der zeitlichen Reihenfolge der Buchungen — wie der gewogene gleitende Mittelwert in Kapitel 3). Wäre stattdessen das <strong>Periodenverfahren</strong> gefordert (alle Zugänge der Periode zusammengefasst, unabhängig von der genauen Chronologie), könnten sich bei mehreren Zugängen/Abgängen andere Werte ergeben. IHK-Aufgaben sollten immer explizit sagen, welches Verfahren gilt — wenn nicht, im Zweifel das permanente/laufende Verfahren rechnen.
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Bei steigenden Preisen: Lifo bewertet teurer</strong>Bei steigenden Einstandspreisen (wie im Beispiel) liefert Lifo den höchsten Verbrauchswert (und damit die niedrigsten Kosten fürs Endlager), Fifo den niedrigsten Verbrauchswert. Bei fallenden Preisen kehrt sich das Verhältnis um. Der gewogene Mittelwert liegt immer dazwischen.</div>
+    </div>
+
+    <div class="content-card">
+      <h4>✍️ Formulierungsbaustein</h4>
+      „Da eine bestimmte Verbrauchsreihenfolge unterstellt werden soll und keine Durchschnittsbildung, handelt es sich um <em>Fifo/Lifo</em>, weil diese Verfahren die Bestände nicht mischen, sondern sequenziell abbauen."
+    </div>
+
+    <div class="content-card" style="text-align:center">
+      <img src="../images/PLATZHALTER_Grafik-Fifo-Lifo-Lagerprinzip.png" alt="Fifo: Lager von unten abtragen (älteste Ware zuerst) – Lifo: Lager von oben abtragen (neueste Ware zuerst)" style="max-width:100%;border-radius:6px">
+    </div>
+
+    <h3>C) Personalkosten &amp; Personalzusatzkosten</h3>
+    <div class="content-card">
+      <h4>🎯 Anwendungsanker</h4>
+      Immer wenn eine Aufgabe nach der „Personalzusatzkostenquote", „Lohnnebenkosten" oder dem „tatsächlichen Kostenaufwand pro Mitarbeiter" fragt — der Bruttolohn allein reicht dann nicht.
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Personalkosten</div>
+      Bruttolohn/-gehalt (Einzelkosten bei direkt zurechenbarem Fertigungslohn, sonst Gemeinkosten bei Gehältern in Verwaltung/Vertrieb) <strong>plus</strong> Personalzusatzkosten.
+    </div>
+
+    <table>
+      <thead><tr><th>Personalzusatzkosten</th><th>Charakter</th><th>Beispiele</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Gesetzliche Zusatzkosten</strong></td><td>Pflicht — Arbeitgeberanteil</td><td>Renten-, Kranken-, Pflege-, Arbeitslosenversicherung, gesetzliche Unfallversicherung (Berufsgenossenschaft)</td></tr>
+        <tr><td><strong>Freiwillige/tarifliche Zusatzkosten</strong></td><td>Nicht gesetzlich vorgeschrieben, aber betriebs- oder tarifüblich</td><td>Urlaubs-/Weihnachtsgeld, betriebliche Altersvorsorge, Fahrtkostenzuschuss, Kantinenzuschuss</td></tr>
+      </tbody>
+    </table>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Personalzusatzkostenquote Lagerteam</strong><br>
+      Bruttolohnsumme Lagermitarbeiter: 480.000 €/Jahr. Personalzusatzkosten insgesamt: 216.000 €/Jahr.<br><br>
+      Personalzusatzkostenquote = 216.000 € ÷ 480.000 € × 100 = <strong>45 %</strong><br>
+      Tatsächliche Personalkosten = 480.000 € + 216.000 € = <strong>696.000 €/Jahr</strong> — nicht nur die 480.000 € Bruttolohn.
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Bruttolohn ≠ tatsächliche Personalkosten</strong>Wird in einer Kalkulation nur der Bruttolohn angesetzt, ohne die Personalzusatzkosten (im Beispiel oben +45 %) einzurechnen, werden die Selbstkosten systematisch unterschätzt — mit der Folge, dass zu niedrige Angebotspreise kalkuliert werden.</div>
+    </div>
+
+    <div class="content-card">
+      <h4>✍️ Formulierungsbaustein</h4>
+      „Da nach den vollständigen Personalkosten gefragt ist, müssen zum Bruttolohn zusätzlich die <em>Personalzusatzkosten</em> addiert werden, weil gesetzliche und freiwillige Arbeitgeberleistungen sonst in der Kalkulation fehlen würden."
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
     <h2>Prüfungs-Checkliste</h2>
     <ul>
       <li>Drei Stufen der KLR erklären und Kostenartenrechnung korrekt einordnen</li>
       <li>Einzel- von Gemeinkosten unterscheiden — warum Gemeinkosten ≠ Fixkosten?</li>
+      <li>Akkordlohn und Zeitlohn unterscheiden und begründen, warum Fertigungslöhne in Kalkulationsaufgaben trotzdem als Einzelkosten gelten</li>
       <li>Fixkostendegression erklären und Stückkosten aus Gesamtkosten und Ausbringung berechnen</li>
       <li>Alle drei Arten variabler Kosten (proportional, degressiv, progressiv) mit Beispiel und Stückkostenverhalten</li>
+      <li>Mischkosten mit der Hoch-Tiefpunkt-Methode in Fixkosten und variablen Kostensatz auflösen</li>
+      <li>Periodenverfahren und permanentes (gleitendes) Verfahren unterscheiden — wann führen sie zu unterschiedlichen Werten?</li>
       <li>Gewogenen gleitenden Mittelwert aus Lagerkarteikarte berechnen</li>
       <li>Unterschied arithmetischer vs. gewogener Mittelwert erklären</li>
       <li>Ist-, Normal- und Plankostenrechnung unterscheiden — Hauptzweck jedes Systems</li>
@@ -290,12 +486,21 @@
       <li>Wirtschaftliche Kapazitätsgrenze erklären — drei Ursachen für progressive Kosten jenseits</li>
     </ul>
 
+    <h3>Kapitel 5 — Materialverbrauch &amp; Personalkosten</h3>
+    <ul>
+      <li>Inventur-, Skontrations- und Rückrechnungsmethode unterscheiden — welche deckt Schwund auf?</li>
+      <li>Fifo und Lifo an einer Lagerkarteikarte rechnen und mit dem gewogenen Mittelwert vergleichen</li>
+      <li>Erklären, warum Lifo bei steigenden Preisen zum höchsten Verbrauchswert führt</li>
+      <li>Personalzusatzkostenquote berechnen und gesetzliche von freiwilligen Zusatzkosten abgrenzen</li>
+      <li>Erklären, warum der Bruttolohn allein die tatsächlichen Personalkosten unterschätzt</li>
+    </ul>
+
   </main>
 </div>
 
 <footer class="page-footer">
   <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
-  <div>REWE LS04 · Stand: April 2026</div>
+  <div>REWE LS04 · Stand: Juli 2026</div>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
