@@ -30,7 +30,7 @@
       <div class="kicker">Rechnungswesen · LS07</div>
       <h1>LS07 · Voll- und Teilkostenrechnung</h1>
       <div class="meta">
-        <span>Deckungsbeitragsrechnung · Break-Even-Analyse · Engpassoptimierung · Eigenfertigung/Fremdbezug · Fixkostenremanenz</span>
+        <span>Deckungsbeitragsrechnung · Break-Even-Analyse · Engpassoptimierung · Eigenfertigung/Fremdbezug · Mehrstufige DBR (DB I–IV) · Fixkostenremanenz</span>
         <span>Stand: Juli 2026</span>
         <span><span class="badge ok">Fertig</span></span>
       </div>
@@ -502,45 +502,62 @@
     <h3 id="kap5-4">5.4 Mehrstufige Deckungsbeitragsrechnung (Fixkostendeckungsrechnung)</h3>
 
     <div class="pruef-box">
-      Die einstufige DB-Rechnung aus Kapitel 5.3 zieht alle Fixkosten in einem Block ab. Die IHK verlangt in den meisten Prüfungsaufgaben jedoch die <strong>mehrstufige</strong> Variante: Die Fixkosten werden in Schichten zerlegt, um zu erkennen, auf welcher Ebene (Erzeugnis, Erzeugnisgruppe, Unternehmen) sie tatsächlich verursacht werden.
+      Die einstufige DB-Rechnung aus Kapitel 5.3 zieht alle Fixkosten in einem Block ab. Die IHK verlangt in den meisten Prüfungsaufgaben jedoch die <strong>mehrstufige</strong> Variante: Die Fixkosten werden in Schichten zerlegt, um zu erkennen, auf welcher Ebene sie tatsächlich verursacht werden. Je nach Aufgabenstellung sind das <strong>drei bis vier Ebenen</strong>: Produkt → Produktgruppe → (Bereich) → Unternehmen.
     </div>
 
     <div class="content-card">
       <h4>🎯 Anwendungsanker</h4>
-      Immer wenn eine Aufgabe mehrere Produkte <strong>und</strong> mehrere Fixkosten-Ebenen nennt (z. B. "Fixkosten des Erzeugnisses", "Fixkosten der Erzeugnisgruppe", "Unternehmens-Fixkosten") — dann ist die mehrstufige DB-Rechnung gefragt, nicht die einstufige.
+      Immer wenn eine Aufgabe mehrere Produkte <strong>und</strong> mehrere Fixkosten-Ebenen nennt (z. B. "produktfixe Kosten", "produktgruppenfixe Kosten", "bereichsfixe Kosten", "unternehmensfixe Kosten") — dann ist die mehrstufige DB-Rechnung gefragt, nicht die einstufige. Wie viele Stufen tatsächlich gebraucht werden, hängt davon ab, welche Fixkosten-Ebenen die Aufgabe konkret nennt.
     </div>
 
     <div class="def-box">
       <strong>Prinzip der Fixkostenschichtung</strong><br>
-      Jede Fixkosten-Schicht wird von dem DB abgezogen, der ihr eindeutig zurechenbar ist: Erzeugnis-Fixkosten (z. B. produktspezifische Werbung, Spezialmaschine) vom DB I je Erzeugnis; Erzeugnisgruppen-Fixkosten (z. B. Gruppenleiter-Gehalt) von der Summe der DB II je Gruppe; Unternehmens-Fixkosten (z. B. Geschäftsführung, allgemeine Verwaltung) zuletzt vom Gesamt-DB III.
+      Jede Fixkosten-Schicht wird von dem DB abgezogen, der ihr eindeutig zurechenbar ist:<br>
+      <strong>Produktfixe Kosten</strong> (z. B. produktspezifische Werbung, Spezialmaschine) vom DB I je Produkt → ergibt DB II.<br>
+      <strong>Produktgruppenfixe Kosten</strong> (z. B. Gruppenleiter-Gehalt) von der Summe der DB II je Produktgruppe → ergibt DB III.<br>
+      <strong>Bereichsfixe Kosten</strong> (z. B. Kosten einer Sparte oder eines Geschäftsbereichs, dem mehrere Produktgruppen zugeordnet sind) von der Summe der DB III je Bereich → ergibt DB IV. Diese Ebene kommt nur vor, wenn die Aufgabe tatsächlich eine Bereichs-/Spartengliederung oberhalb der Produktgruppen nennt — sonst endet die Rechnung bereits bei DB III.<br>
+      <strong>Unternehmensfixe Kosten</strong> (Geschäftsführung, allgemeine Verwaltung) zuletzt vom höchsten verfügbaren DB (III oder IV) → ergibt das <strong>Betriebsergebnis</strong>.
+    </div>
+
+    <div class="notice warn">
+      <strong>Terminologie-Hinweis</strong><br>
+      Das Schmolke/Deitermann-Lehrbuch spricht von „erzeugnisfixen" und „erzeugnisgruppenfixen" Kosten und kennt nur drei Stufen (DB I–III). Eure Übungsunterlagen verwenden die Begriffe <strong>produktfixe</strong> und <strong>produktgruppenfixe Kosten</strong> und ergänzen die vierte Stufe <strong>bereichsfixe Kosten</strong> (DB IV). Beide Varianten meinen dasselbe Prinzip — nur mit unterschiedlicher Begrifflichkeit bzw. einer zusätzlichen Ebene. Maßgeblich sind die Begriffe eurer Übungsunterlagen.
     </div>
 
     <div class="notice info">
-      <strong>Rechenbeispiel – Mehrstufige DB-Rechnung (zwei Erzeugnisgruppen)</strong>
+      <strong>Rechenbeispiel – Mehrstufige DB-Rechnung mit Bereichsebene (zwei Produktgruppen, ein Bereich)</strong>
       <table style="margin-top:0.5rem">
         <thead><tr><th>Position</th><th>Produkt A1 (€)</th><th>Produkt A2 (€)</th><th>Produkt B1 (€)</th><th>Gesamt (€)</th></tr></thead>
         <tbody>
           <tr><td>Umsatzerlöse</td><td>100.000</td><td>120.000</td><td>200.000</td><td>420.000</td></tr>
           <tr><td>− Variable Kosten</td><td>60.000</td><td>70.000</td><td>110.000</td><td>240.000</td></tr>
           <tr><td><strong>= Deckungsbeitrag I (DB I)</strong></td><td><strong>40.000</strong></td><td><strong>50.000</strong></td><td><strong>90.000</strong></td><td><strong>180.000</strong></td></tr>
-          <tr><td>− Erzeugnis-Fixkosten</td><td>15.000</td><td>20.000</td><td>30.000</td><td>65.000</td></tr>
+          <tr><td>− Produktfixe Kosten</td><td>15.000</td><td>20.000</td><td>30.000</td><td>65.000</td></tr>
           <tr><td><strong>= Deckungsbeitrag II (DB II)</strong></td><td><strong>25.000</strong></td><td><strong>30.000</strong></td><td><strong>60.000</strong></td><td><strong>115.000</strong></td></tr>
-          <tr><td>− Erzeugnisgruppen-Fixkosten</td><td colspan="2" style="text-align:center">25.000 (Gruppe A)</td><td>15.000 (Gruppe B)</td><td>40.000</td></tr>
+          <tr><td>− Produktgruppenfixe Kosten</td><td colspan="2" style="text-align:center">25.000 (Gruppe A)</td><td>15.000 (Gruppe B)</td><td>40.000</td></tr>
           <tr><td><strong>= Deckungsbeitrag III (DB III)</strong></td><td colspan="2" style="text-align:center"><strong>30.000</strong></td><td><strong>45.000</strong></td><td><strong>75.000</strong></td></tr>
-          <tr><td>− Unternehmens-Fixkosten</td><td colspan="3" style="text-align:center;color:#888;font-style:italic">nicht auf Gruppen verteilt</td><td>40.000</td></tr>
+          <tr><td>− Bereichsfixe Kosten</td><td colspan="3" style="text-align:center;color:#888;font-style:italic">Gruppe A + B gehören zum selben Bereich „Möbelproduktion"</td><td>10.000</td></tr>
+          <tr><td><strong>= Deckungsbeitrag IV (DB IV)</strong></td><td colspan="3"></td><td><strong>65.000</strong></td></tr>
+          <tr><td>− Unternehmensfixe Kosten</td><td colspan="3" style="text-align:center;color:#888;font-style:italic">nicht auf Bereiche verteilt</td><td>30.000</td></tr>
           <tr><td><strong>= Betriebsergebnis</strong></td><td colspan="3"></td><td><strong>35.000</strong></td></tr>
         </tbody>
       </table>
+      Zum Vergleich mit Kapitel 5.3/vorheriger Fassung: Hier wurden 10.000 € der bisherigen Unternehmens-Fixkosten (vorher 40.000 €) als eigene Bereichsebene herausgelöst (jetzt 30.000 € Unternehmensfixkosten + 10.000 € Bereichsfixkosten). Das Betriebsergebnis bleibt mit 35.000 € unverändert — nur die Kostenstruktur wird transparenter.
     </div>
 
     <div class="notice danger">
       <div>⛔</div>
-      <div><strong>Prüfungsfalle — Wann wird eliminiert?</strong>Ein Produkt wird erst eliminiert, wenn sein <strong>DB I</strong> negativ ist — dann deckt es nicht einmal seine eigenen variablen Kosten. Ist nur der DB II negativ (DB I aber positiv), hilft das Produkt trotzdem, die übergeordneten Erzeugnisgruppen- und Unternehmens-Fixkosten mitzudecken — eine Elimination lohnt sich nur, wenn die zugehörigen Erzeugnis-Fixkosten dadurch tatsächlich abbaubar sind (sonst Fixkostenremanenz, siehe Kapitel 5.2). Ein positiver DB I hilft <strong>immer</strong>, übergeordnete Fixkosten zu decken.</div>
+      <div><strong>Prüfungsfalle — DB IV nur bei tatsächlicher Bereichsgliederung</strong>Nennt eine Aufgabe keine bereichsfixen Kosten, gibt es auch kein DB IV — die Rechnung endet dann bei DB III, von dem direkt die unternehmensfixen Kosten abgezogen werden (wie in Kapitel 5.3 gezeigt). Ein DB IV künstlich einzuführen, wo keine Bereichsebene genannt ist, ist ein ebenso häufiger Fehler wie eine vorhandene Bereichsebene zu ignorieren. Genau prüfen, welche Fixkosten-Kategorien die Aufgabe nennt.</div>
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Wann wird eliminiert?</strong>Ein Produkt wird erst eliminiert, wenn sein <strong>DB I</strong> negativ ist — dann deckt es nicht einmal seine eigenen variablen Kosten. Ist nur ein höherer DB negativ (DB I aber positiv), hilft das Produkt trotzdem, die übergeordneten Fixkosten mitzudecken — eine Elimination lohnt sich nur, wenn die zugehörigen Fixkosten dieser Ebene dadurch tatsächlich abbaubar sind (sonst Fixkostenremanenz, siehe Kapitel 5.2). Ein positiver DB I hilft <strong>immer</strong>, übergeordnete Fixkosten zu decken.</div>
     </div>
 
     <div class="content-card">
       <h4>✍️ Formulierungsbaustein</h4>
-      „Da die Fixkosten mehreren Ebenen (Erzeugnis, Gruppe, Unternehmen) eindeutig zurechenbar sind, empfiehlt sich die <em>mehrstufige Deckungsbeitragsrechnung</em>, weil so sichtbar wird, auf welcher Ebene ein Produkt tatsächlich noch zur Fixkostendeckung beiträgt."
+      „Da die Fixkosten mehreren Ebenen (Produkt, Produktgruppe, ggf. Bereich, Unternehmen) eindeutig zurechenbar sind, empfiehlt sich die <em>mehrstufige Deckungsbeitragsrechnung</em>, weil so sichtbar wird, auf welcher Ebene ein Produkt tatsächlich noch zur Fixkostendeckung beiträgt."
     </div>
 
 
@@ -584,6 +601,7 @@
     <h3>Block 5 – Mehrstufige DB-Rechnung &amp; Preisuntergrenzen im Detail</h3>
     <ol start="13">
       <li>Zwei Erzeugnisse einer Gruppe: Erzeugnis I hat DB I = 30.000 € und Erzeugnis-Fixkosten von 45.000 €. Erzeugnis II hat DB I = 80.000 € und Erzeugnis-Fixkosten von 20.000 €. Berechne DB II je Erzeugnis. Sollte Erzeugnis I eliminiert werden? Begründe anhand von DB I und DB II. <em>(Mehrstufige DB-Rechnung, Eliminationsentscheidung)</em></li>
+      <li>Ein Unternehmen gliedert seine fünf Produkte A–E in Produktgruppen und einen gemeinsamen Bereich. Produkt C hat DB III = 45.000 €, Produkt D hat DB III = −5.000 €. Der Bereich, dem beide angehören, hat bereichsfixe Kosten von 60.000 € und insgesamt (alle Produkte) DB III = 180.000 €. Berechne DB IV des Bereichs. Sollte Produkt D allein wegen des negativen DB III aus dem Programm genommen werden? Begründe. <em>(Vierstufige DB-Rechnung mit Bereichsebene)</em></li>
       <li>Ein Unternehmen befindet sich in einer akuten Liquiditätskrise. Die variablen Stückkosten eines Produkts betragen 55 €, davon 9 € kalk. Abschreibung. Ein Kunde bietet 48 €. Ist das Angebot nach der liquiditätsorientierten PUG akzeptabel? <em>(Liquiditätsorientierte Preisuntergrenze)</em></li>
     </ol>
 
