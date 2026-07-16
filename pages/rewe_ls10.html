@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LS10 · Prozesskostenrechnung – WFW Wiki</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../index.html">WFW<span>Wiki</span></a>
+  <div class="search-wrap">
+    <input id="search-input" type="search" placeholder="Thema suchen …" autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+  <a href="../pages/about.html" class="topbar-logo">
+    <img src="../images/bowo-logo.svg" alt="BoWo – Boris Wolff" height="36">
+  </a>
+</div>
+
+<div class="layout">
+  <nav class="sidebar"></nav>
+
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="../index.html">Startseite</a> › Rechnungswesen › LS10 Prozesskostenrechnung
+    </div>
+    <div class="page-header">
+      <div class="kicker">Rechnungswesen · LS10</div>
+      <h1>LS10 · Prozesskostenrechnung</h1>
+      <div class="meta">
+        <span>Teilprozess · Kostentreiber · lmi/lmn · Prozesskostensatz · Komplexitätsfalle</span>
+        <span>Stand: Juli 2026</span>
+        <span><span class="badge ok">Fertig</span></span>
+      </div>
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 1 – GRUNDIDEE & ENTSTEHUNGSHINTERGRUND
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap1">1 · Grundidee &amp; Entstehungshintergrund</h2>
+
+    <div class="pruef-box">
+      Die Prozesskostenrechnung entstand als Antwort auf eine Schwäche der klassischen Zuschlagskalkulation: Je mehr Gemeinkosten in indirekten Bereichen entstehen (Einkauf, Logistik, Auftragsabwicklung), desto ungenauer wird eine Verteilung nur über Fertigungslöhne oder Fertigungsmaterial.
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Prozesskostenrechnung (PKR)</div>
+      Verrechnet Gemeinkosten der indirekten Bereiche (z. B. Einkauf, Logistik, Auftragsabwicklung, Qualitätssicherung) nicht über pauschale Zuschlagssätze auf Fertigungslöhne, sondern über die tatsächliche <strong>Inanspruchnahme betrieblicher Prozesse</strong>. Grundgedanke: Nicht das Produkt verursacht die Gemeinkosten, sondern die Prozesse, die zu seiner Erstellung nötig sind.
+    </div>
+
+    <h3 id="kap1-1">1.1 Warum die traditionelle Zuschlagskalkulation an ihre Grenzen stößt</h3>
+
+    <div class="two-col">
+      <div class="content-card">
+        <h4>Traditionelle Zuschlagskalkulation</h4>
+        <p>Verteilt Gemeinkosten der Verwaltung/des Vertriebs pauschal über einen Prozentsatz auf HK des Umsatzes. Unterstellt: Je größer/teurer ein Auftrag, desto mehr Gemeinkosten verursacht er.</p>
+      </div>
+      <div class="content-card">
+        <h4>Das Problem in der Praxis</h4>
+        <p>Ein kleiner, aber komplexer Sonderauftrag (viele Rückfragen, Sonderanfertigung, aufwendige Abwicklung) verursacht oft <strong>mehr</strong> Gemeinkosten in Einkauf/Logistik als ein großer Standardauftrag — die Zuschlagskalkulation zeigt aber das Gegenteil.</p>
+      </div>
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Die Komplexitätsfalle</strong>Traditionelle Zuschlagskalkulation verteilt Gemeinkosten proportional zur Zuschlagsbasis (z. B. Fertigungslöhne). Komplexe Kleinaufträge werden dadurch <strong>unterkalkuliert</strong> (zu billig verkauft), einfache Großaufträge <strong>überkalkuliert</strong> (zu teuer angeboten, Gefahr des Auftragsverlusts an Wettbewerber). Die Prozesskostenrechnung soll genau das korrigieren.</div>
+    </div>
+
+    <h3 id="kap1-2">1.2 Wann lohnt sich die Prozesskostenrechnung?</h3>
+    <p>Besonders relevant bei: hohem Gemeinkostenanteil in indirekten Bereichen, großer Produkt-/Auftragsvielfalt (Sortimentsbreite), heterogenen Auftragsgrößen und -komplexitäten. Bei homogener Massenfertigung mit wenig indirekten Gemeinkosten bringt die Prozesskostenrechnung kaum Zusatznutzen gegenüber der einfacheren Zuschlagskalkulation.</p>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 2 – GRUNDBEGRIFFE
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap2">2 · Grundbegriffe der Prozesskostenrechnung</h2>
+
+    <h3 id="kap2-1">2.1 Teilprozess, Hauptprozess &amp; Kostentreiber</h3>
+
+    <div class="content-card">
+      <h4>🎯 Anwendungsanker</h4>
+      Immer wenn eine Aufgabe von „Tätigkeiten", „Prozessen" oder „Kostentreibern" in einem indirekten Bereich (Einkauf, Logistik, Auftragsabwicklung) spricht — nicht von Kostenstellen im klassischen BAB-Sinn.
+    </div>
+
+    <table>
+      <thead><tr><th>Begriff</th><th>Definition</th><th>Beispiel</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Teilprozess</strong></td><td>Eine gleichartige, wiederkehrende Tätigkeit innerhalb einer Kostenstelle</td><td>„Bestellungen auslösen" in der Einkaufsabteilung</td></tr>
+        <tr><td><strong>Hauptprozess</strong></td><td>Verdichtung mehrerer, kostenstellenübergreifender Teilprozesse zu einem größeren, sachlich zusammenhängenden Prozess</td><td>„Material beschaffen" (verdichtet aus mehreren Teilprozessen in Einkauf, Wareneingang, Qualitätsprüfung)</td></tr>
+        <tr><td><strong>Kostentreiber (Cost Driver)</strong></td><td>Die Maßgröße, die die Kosten eines Teilprozesses auslöst und seine Beanspruchung misst</td><td>Anzahl Bestellungen, Anzahl Angebote, Anzahl Reklamationen</td></tr>
+      </tbody>
+    </table>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Kostentreiber ≠ Kostenart</strong>Der Kostentreiber ist keine Kostenart (wie „Personalkosten" oder „Miete"), sondern die <strong>Bezugsgröße</strong>, die die Prozessmenge misst — meist eine Anzahl oder ein Vorgang (z. B. Anzahl Bestellungen), nicht ein Geldbetrag.</div>
+    </div>
+
+    <h3 id="kap2-2">2.2 Leistungsmengeninduzierte (lmi) vs. leistungsmengenneutrale (lmn) Kosten</h3>
+
+    <div class="def-box">
+      <div class="def-term">Leistungsmengeninduzierte Kosten (lmi)</div>
+      Kosten, die sich proportional zur Prozessmenge (Anzahl der Wiederholungen) verändern. Beispiel: Je mehr Bestellungen ausgelöst werden, desto mehr Personalzeit im Einkauf wird gebunden. Für lmi-Kosten wird ein <strong>Prozesskostensatz</strong> ermittelt.
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Leistungsmengenneutrale Kosten (lmn)</div>
+      Kosten, die unabhängig von der Anzahl der Wiederholungen anfallen — z. B. Kosten der Abteilungsleitung, allgemeine Verwaltungsaufgaben. Für lmn-Kosten wird <strong>kein</strong> Prozesskostensatz gebildet; sie werden pauschal (meist als Zuschlag auf die lmi-Prozesskosten) verrechnet.
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — lmn-Kosten nicht vergessen, aber nicht verrechnungssatzfähig</strong>Ein häufiger Fehler: lmn-Kosten werden komplett ignoriert. Richtig ist: lmn-Kosten fließen weiterhin in die Gesamtkalkulation ein — nur eben nicht über einen mengenproportionalen Prozesskostensatz, sondern über einen pauschalen Zuschlag auf die lmi-Prozesskosten.</div>
+    </div>
+
+    <div class="content-card">
+      <h4>✍️ Formulierungsbaustein</h4>
+      „Da sich die Kosten dieser Tätigkeit proportional zur Anzahl der Vorgänge verändern, handelt es sich um <em>leistungsmengeninduzierte Kosten</em>, für die ein Prozesskostensatz gebildet werden kann."
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 3 – ABLAUF DER PROZESSKOSTENRECHNUNG
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap3">3 · Ablauf der Prozesskostenrechnung</h2>
+
+    <div class="pruef-box">
+      Die Prozesskostenrechnung läuft in fünf Schritten ab. Die Reihenfolge ist prüfungsrelevant: Erst die Tätigkeiten analysieren, dann verdichten, erst danach kalkulieren.
+    </div>
+
+    <table>
+      <thead><tr><th>Schritt</th><th>Bezeichnung</th><th>Inhalt</th></tr></thead>
+      <tbody>
+        <tr><td>①</td><td><strong>Tätigkeitsanalyse</strong></td><td>Erfassen, welche Tätigkeiten in den indirekten Kostenstellen tatsächlich ausgeführt werden (häufig per Interview/Zeitaufschreibung)</td></tr>
+        <tr><td>②</td><td><strong>Teilprozesse bilden</strong></td><td>Gleichartige Tätigkeiten zu Teilprozessen zusammenfassen, passende Kostentreiber festlegen</td></tr>
+        <tr><td>③</td><td><strong>lmi/lmn trennen &amp; Prozesskostensatz ermitteln</strong></td><td>Für lmi-Teilprozesse: Prozesskosten ÷ Prozessmenge = Prozesskostensatz</td></tr>
+        <tr><td>④</td><td><strong>Hauptprozesse verdichten</strong></td><td>Kostenstellenübergreifende Teilprozesse mit gleichem/ähnlichem Kostentreiber zu Hauptprozessen zusammenfassen</td></tr>
+        <tr><td>⑤</td><td><strong>Kalkulation</strong></td><td>Prozesskostensätze der Hauptprozesse auf die Kostenträger anwenden, je nachdem wie oft ein Auftrag den Hauptprozess beansprucht</td></tr>
+      </tbody>
+    </table>
+
+    <div class="notice ok">
+      <strong>Merksatz — Reihenfolge</strong><br>
+      Tätigkeitsanalyse → Teilprozess → Prozesskostensatz → Hauptprozess → Kalkulation. Wer die Kalkulation vor der Tätigkeitsanalyse beginnt, hat das Prinzip nicht verstanden — die PKR baut von unten (Tätigkeit) nach oben (Kalkulation) auf.
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 4 – PROZESSKOSTENSATZ BERECHNEN
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap4">4 · Prozesskostensatz berechnen</h2>
+
+    <div class="content-card">
+      <h4>🎯 Anwendungsanker</h4>
+      Immer wenn Prozesskosten (in €) und eine Prozessmenge (Anzahl Kostentreiber-Vorgänge) gegeben sind und nach den „Kosten pro Vorgang" gefragt wird.
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Prozesskostensatz (lmi)</div>
+      <code>Prozesskostensatz = lmi-Prozesskosten ÷ Prozessmenge</code><br>
+      Gesamt-Prozesskostensatz (inkl. lmn-Zuschlag) = Prozesskostensatz (lmi) + anteiliger lmn-Zuschlag
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Teilprozess „Bestellungen auslösen" (Einkauf)</strong><br>
+      Kosten des Teilprozesses (lmi, z. B. anteilige Personalkosten der Sachbearbeiter): 156.000 €/Jahr. Kostentreiber: Anzahl Bestellungen. Prozessmenge: 2.400 Bestellungen/Jahr.<br><br>
+      Prozesskostensatz (lmi) = 156.000 € ÷ 2.400 = <strong>65,00 €/Bestellung</strong><br><br>
+      Zusätzlich: lmn-Kosten der Einkaufsleitung (Abteilungsleitung, allgemeine Aufgaben): 31.200 €/Jahr. lmn-Zuschlagssatz = 31.200 € ÷ 156.000 € × 100 = <strong>20 %</strong> auf die lmi-Prozesskosten.<br>
+      Gesamt-Prozesskostensatz je Bestellung = 65,00 € × 1,20 = <strong>78,00 €/Bestellung</strong>
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — lmn-Zuschlag wird auf lmi-Kosten berechnet, nicht auf die Prozessmenge</strong>Der lmn-Zuschlagssatz bezieht sich auf die lmi-<strong>Kosten</strong> (156.000 €), nicht auf die Prozessmenge (2.400 Bestellungen). Wird versehentlich durch die Menge geteilt, entsteht ein falscher Zuschlagssatz.</div>
+    </div>
+
+    <div class="content-card">
+      <h4>✍️ Formulierungsbaustein</h4>
+      „Da die lmi-Prozesskosten durch die Prozessmenge geteilt werden, ergibt sich der <em>Prozesskostensatz</em>, der anschließend um den lmn-Zuschlag zu einem Gesamt-Prozesskostensatz ergänzt wird."
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 5 – PROZESSKOSTENRECHNUNG VS. ZUSCHLAGSKALKULATION
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap5">5 · Prozesskostenrechnung vs. Zuschlagskalkulation (Komplexitätsfalle)</h2>
+
+    <div class="pruef-box">
+      Der klassische IHK-Aufgabentyp: Zwei Produkte werden einmal mit der traditionellen Zuschlagskalkulation und einmal mit der Prozesskostenrechnung kalkuliert — das Ergebnis zeigt die Kostenverzerrung der traditionellen Methode.
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Standardprodukt vs. Sonderprodukt (Vergleichsrechnung)</strong><br>
+      Zwei Produkte durchlaufen dieselbe Fertigung. Fertigungsmaterial und Fertigungslöhne sind für beide identisch (je 500 €). VwGK-Zuschlagssatz traditionell: 40 % auf HK. Beide Produkte verursachen dieselben HK von 500 € (Annahme: kein FGK-Unterschied).<br><br>
+      <strong>Traditionelle Zuschlagskalkulation:</strong> Beide Produkte erhalten denselben VwGK-Zuschlag: 500 € × 40 % = <strong>200 € VwGK für beide</strong> — die Kalkulation kann nicht zwischen Standard- und Sonderprodukt unterscheiden.<br><br>
+      <strong>Prozesskostenrechnung:</strong> Das Standardprodukt benötigt 1 Bestellung, 1 Angebot. Das Sonderprodukt (individuelle Anfertigung) benötigt 4 Bestellungen, 3 Angebote (Rückfragen, Sonderteile). Gesamt-Prozesskostensatz: 78,00 €/Bestellung, 120,00 €/Angebot.
+      <table style="margin-top:0.5rem">
+        <thead><tr><th></th><th>Standardprodukt</th><th>Sonderprodukt</th></tr></thead>
+        <tbody>
+          <tr><td>Bestellungen × Kostensatz</td><td>1 × 78,00 € = 78,00 €</td><td>4 × 78,00 € = 312,00 €</td></tr>
+          <tr><td>Angebote × Kostensatz</td><td>1 × 120,00 € = 120,00 €</td><td>3 × 120,00 € = 360,00 €</td></tr>
+          <tr><td><strong>Prozesskosten gesamt</strong></td><td><strong>198,00 €</strong></td><td><strong>672,00 €</strong></td></tr>
+        </tbody>
+      </table>
+      Ergebnis: Die traditionelle Kalkulation weist für beide Produkte 200 € Gemeinkosten aus — die Prozesskostenrechnung zeigt, dass das Sonderprodukt tatsächlich 672 € statt nur 198 € beim Standardprodukt verursacht. Das Sonderprodukt war in der traditionellen Kalkulation massiv <strong>unterkalkuliert</strong>.
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Nicht jedes Produkt profitiert gleich</strong>Bei der Umstellung auf Prozesskostenrechnung werden komplexe/kleine Aufträge in der Regel <strong>teurer</strong> kalkuliert (vorher unterkalkuliert), einfache/große Standardaufträge <strong>günstiger</strong> (vorher überkalkuliert). Das ist keine allgemeine Kostensenkung, sondern eine <strong>Umverteilung</strong> der Gemeinkosten entsprechend der tatsächlichen Verursachung.</div>
+    </div>
+
+    <div class="notice ok">
+      <strong>Merksatz — Wann welches System?</strong><br>
+      Zuschlagskalkulation: einfach, schnell, ausreichend genau bei homogenem Sortiment und geringem indirekten Gemeinkostenanteil. Prozesskostenrechnung: aufwendiger in der Einführung, aber verursachungsgerechter bei heterogenem Sortiment und hohem Gemeinkostenanteil in indirekten Bereichen — deckt die Komplexitätsfalle auf.
+    </div>
+
+    <div class="content-card">
+      <h4>✍️ Formulierungsbaustein</h4>
+      „Da das Sonderprodukt deutlich mehr Bestellungen und Angebote benötigt als das Standardprodukt, empfiehlt sich die <em>Prozesskostenrechnung</em>, weil sie die unterschiedliche Prozessbeanspruchung verursachungsgerecht abbildet, während die Zuschlagskalkulation beide Produkte gleich behandelt."
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 6 – PRÜFUNGSFRAGEN
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap6">6 · Prüfungsfragen</h2>
+
+    <div class="notice warn">
+      Keine Musterlösungen – aktiv erarbeiten!
+    </div>
+
+    <h3>Block 1 – Grundlagen &amp; Begriffe</h3>
+    <ol>
+      <li>Warum stößt die traditionelle Zuschlagskalkulation bei hohem Gemeinkostenanteil in indirekten Bereichen an ihre Grenzen? Erkläre die Komplexitätsfalle an einem eigenen Beispiel. <em>(Begriffserklärung)</em></li>
+      <li>Erkläre den Unterschied zwischen Teilprozess und Hauptprozess. Nenne ein Beispiel für einen Kostentreiber. <em>(Definition)</em></li>
+      <li>Was unterscheidet leistungsmengeninduzierte von leistungsmengenneutralen Kosten? Warum wird für lmn-Kosten kein Prozesskostensatz gebildet? <em>(Prüfungsfalle)</em></li>
+    </ol>
+
+    <h3>Block 2 – Prozesskostensatz &amp; Kalkulation</h3>
+    <ol start="4">
+      <li>Ein Teilprozess „Reklamationen bearbeiten" verursacht lmi-Kosten von 84.000 €/Jahr bei 1.200 Reklamationen. Berechne den Prozesskostensatz. Die lmn-Kosten der Abteilungsleitung betragen 16.800 €/Jahr. Berechne den lmn-Zuschlagssatz und den Gesamt-Prozesskostensatz. <em>(Prozesskostensatz-Berechnung)</em></li>
+      <li>Ein Standardauftrag benötigt 2 Bestellungen, ein Sonderauftrag 6 Bestellungen (Prozesskostensatz je 45,00 €). Berechne die Prozesskosten je Auftrag. Was folgt daraus für den Angebotspreis des Sonderauftrags im Vergleich zur traditionellen Zuschlagskalkulation? <em>(Komplexitätsfalle)</em></li>
+      <li>Nenne zwei Voraussetzungen, unter denen sich die Einführung einer Prozesskostenrechnung besonders lohnt, und zwei, unter denen die klassische Zuschlagskalkulation ausreicht. <em>(Bewertung)</em></li>
+    </ol>
+
+    <h3>Transferaufgaben</h3>
+    <div class="notice warn">
+      <strong>T1 – Vollständige Prozesskostenrechnung (Logistikdienstleister)</strong><br>
+      Teilprozess „Sendungen disponieren": lmi-Kosten 240.000 €/Jahr, Prozessmenge 6.000 Sendungen/Jahr. lmn-Kosten der Abteilungsleitung: 48.000 €/Jahr.<br>
+      (a) Berechne den Prozesskostensatz (lmi) und den lmn-Zuschlagssatz. (b) Berechne den Gesamt-Prozesskostensatz je Sendung. (c) Ein Standardkunde verursacht 3 Sendungen/Monat, ein Sonderkunde mit Sonderkonditionen 9 Sendungen/Monat bei gleichem Auftragswert. Vergleiche die Prozesskosten beider Kunden und beurteile, was das für die Preisgestaltung bedeutet.
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         VERWANDTE THEMEN
+    ══════════════════════════════════════════════ -->
+    <div class="related-topics">
+      <h3>Verwandte Themen</h3>
+      <ul>
+        <li><a href="rewe_ls06.html">LS06 · Kostenträgerrechnung &amp; Kalkulation</a> – Traditionelle Zuschlagskalkulation als Vergleichsmaßstab</li>
+        <li><a href="rewe_ls05.html">LS05 · Kostenstellenrechnung &amp; BAB</a> – Grundlage der Gemeinkostenverteilung</li>
+        <li><a href="rewe_ls07.html">LS07 · Voll- und Teilkostenrechnung</a> – Entscheidungsorientierung als gemeinsames Prinzip</li>
+      </ul>
+    </div>
+
+  </main>
+</div>
+
+<footer class="page-footer">
+  <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
+  <div>REWE LS10 · Stand: Juli 2026</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script src="../css/pages.js"></script>
+<script src="../css/engine.js"></script>
+</body>
+</html>

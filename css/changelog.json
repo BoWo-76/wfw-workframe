@@ -4,6 +4,21 @@
     "eintraege": [
       {
         "modul": "rewe",
+        "titel": "LS10 · Prozesskostenrechnung – neues Skript (Teilprozess/Hauptprozess, Kostentreiber, lmi/lmn-Kosten, Prozesskostensatz, Komplexitätsfalle im Vergleich zur Zuschlagskalkulation)",
+        "aktion": "neu"
+      },
+      {
+        "modul": "rewe",
+        "titel": "LS09 · Planungsrechnung – angereichert um WQ-Teil (Schmolke/Deitermann): Planungsebenen, Ablauf der Ergebnisplanung, Regelkreis, Abweichungsanalyse (Preis-/Verbrauchs-/Beschäftigungsabweichung) und klassische Budgetierung vs. Zero-Base-Budgeting ergänzt",
+        "aktion": "update"
+      },
+      {
+        "modul": "rewe",
+        "titel": "LS05 · Kostenstellenrechnung & BAB – angereichert um ausführliche Rechenwege (Stufenleiter- und Gleichungsverfahren zur Sekundärkostenverteilung, vollständiges Zuschlagssatz-Beispiel, Kalkulationsschema bis Selbstkosten)",
+        "aktion": "update"
+      },
+      {
+        "modul": "rewe",
         "titel": "LS07 · Voll- und Teilkostenrechnung – überarbeitet um WQ-Teil (Schmolke/Deitermann): Leer-/Nutzkosten, mehrstufige Deckungsbeitragsrechnung, Break-Even-Analyse, Engpassoptimierung (relativer DB), Eigenfertigung/Fremdbezug und Fixkostenremanenz ergänzt",
         "aktion": "update"
       },

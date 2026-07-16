@@ -90,6 +90,11 @@ const WIKI_CONFIG = {
       file: "pages/rewe_ls09.html", status: "fertig", updated: "29.06.2026",
       keywords: ["planungsrechnung", "planungsebenen", "strategische planung", "taktische planung", "operative planung", "ergebnisplanung", "absatzplanung", "top-down", "bottom-up", "gegenstromverfahren", "regelkreis", "abweichungsanalyse", "budgetierung", "budget"]
     },
+    {
+      id: "rewe_ls10", module: "rewe", title: "LS10 · Prozesskostenrechnung",
+      file: "pages/rewe_ls10.html", status: "fertig", updated: "16.07.2026",
+      keywords: ["prozesskostenrechnung", "pkr", "teilprozess", "hauptprozess", "kostentreiber", "lmi", "lmn", "leistungsmengeninduziert", "leistungsmengenneutral", "prozesskostensatz", "komplexitätsfalle", "cost driver"]
+    },
 
     // ── Finanzmanagement ─────────────────────────────────────
     {
