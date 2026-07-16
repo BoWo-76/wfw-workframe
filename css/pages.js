@@ -95,6 +95,11 @@ const WIKI_CONFIG = {
       file: "pages/rewe_ls10.html", status: "fertig", updated: "16.07.2026",
       keywords: ["prozesskostenrechnung", "pkr", "teilprozess", "hauptprozess", "kostentreiber", "lmi", "lmn", "leistungsmengeninduziert", "leistungsmengenneutral", "prozesskostensatz", "komplexitätsfalle", "cost driver"]
     },
+    {
+      id: "rewe_ls11", module: "rewe", title: "LS11 · Kostenmanagement & Target Costing",
+      file: "pages/rewe_ls11.html", status: "fertig", updated: "16.07.2026",
+      keywords: ["kostenmanagement", "target costing", "zielkostenmanagement", "market into company", "zielpreis", "zielgewinn", "zielkosten", "zielkostenlücke", "zielkostenspaltung", "zielkostenindex", "value control chart", "life cycle costing", "wertanalyse"]
+    },
 
     // ── Finanzmanagement ─────────────────────────────────────
     {

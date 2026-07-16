@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LS11 · Kostenmanagement &amp; Target Costing – WFW Wiki</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../index.html">WFW<span>Wiki</span></a>
+  <div class="search-wrap">
+    <input id="search-input" type="search" placeholder="Thema suchen …" autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+  <a href="../pages/about.html" class="topbar-logo">
+    <img src="../images/bowo-logo.svg" alt="BoWo – Boris Wolff" height="36">
+  </a>
+</div>
+
+<div class="layout">
+  <nav class="sidebar"></nav>
+
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="../index.html">Startseite</a> › Rechnungswesen › LS11 Kostenmanagement &amp; Target Costing
+    </div>
+    <div class="page-header">
+      <div class="kicker">Rechnungswesen · LS11</div>
+      <h1>LS11 · Kostenmanagement &amp; Target Costing</h1>
+      <div class="meta">
+        <span>Market into Company · Zielkosten · Zielkostenlücke · Zielkostenindex · Life Cycle Costing</span>
+        <span>Stand: Juli 2026</span>
+        <span><span class="badge ok">Fertig</span></span>
+      </div>
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 1 – KOSTENMANAGEMENT: GRUNDIDEE
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap1">1 · Kostenmanagement – Grundidee &amp; Abgrenzung</h2>
+
+    <div class="pruef-box">
+      Klassische Kostenrechnung (KLR, BAB, Zuschlagskalkulation) ist überwiegend vergangenheits- und gegenwartsorientiert — sie dient der Erfassung, Verrechnung und Auswertung bereits geplanter oder entstandener Kosten. Kostenmanagement setzt früher an: Es will Kosten <strong>beeinflussen, bevor sie entstehen</strong> — insbesondere in der Entwicklungs- und Konstruktionsphase eines Produkts.
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Kostenmanagement</div>
+      Sammelbegriff für Instrumente, die Kosten nicht nur erfassen und verrechnen, sondern aktiv gestalten und senken sollen — mit besonderem Fokus auf die frühen Phasen der Produktentstehung, in denen der überwiegende Teil der späteren Kosten bereits festgelegt wird (Konstruktion, Materialwahl, Fertigungsverfahren).
+    </div>
+
+    <div class="notice info">
+      <div>ℹ️</div>
+      <div><strong>Die 80/20-Logik der Kostenfestlegung</strong>In der Entwicklungs- und Konstruktionsphase werden häufig bereits 70–90 % der späteren Herstellkosten eines Produkts festgelegt (die genaue Spanne variiert je nach Quelle/Lehrbuch) — obwohl in dieser Phase selbst erst ein kleiner Teil der Kosten tatsächlich anfällt. Kostenmanagement setzt deshalb möglichst früh an, nicht erst wenn die Fertigung längst läuft.</div>
+    </div>
+
+    <h3 id="kap1-1">1.1 Zwei Denkrichtungen im Vergleich</h3>
+    <div class="two-col">
+      <div class="content-card">
+        <h4>Traditionell: Cost-Plus (Kosten → Preis)</h4>
+        <p>Erst wird kalkuliert, was das Produkt kostet (Selbstkosten). Dann wird ein Gewinnzuschlag aufgeschlagen: <code>Selbstkosten + Gewinn = Verkaufspreis</code> (vgl. Angebotspreis in LS06). Der Markt hat auf die Kostenseite keinen unmittelbaren Einfluss.</p>
+      </div>
+      <div class="content-card">
+        <h4>Target Costing: Market into Company (Preis → Kosten)</h4>
+        <p>Der Verkaufspreis wird zuerst vom Markt her bestimmt (was der Kunde zu zahlen bereit ist). Von diesem Marktpreis wird <strong>retrograd</strong> zurückgerechnet, wie hoch die Kosten maximal sein dürfen — die Konstruktion muss sich an diese Zielkosten anpassen.</p>
+      </div>
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Reihenfolge ist der Kern des Konzepts</strong>Beim Target Costing bestimmt <strong>nicht</strong> die Kostenseite den Preis, sondern der Markt bestimmt den Preis, und daraus werden die <em>erlaubten</em> Kosten abgeleitet. Wer die Reihenfolge umdreht (Kosten → Preis), hat die Grundidee des Market-into-Company-Prinzips nicht verstanden.</div>
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 2 – TARGET COSTING: DEFINITION & ABLAUF
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap2">2 · Target Costing – Definition &amp; Ablauf</h2>
+
+    <div class="def-box">
+      <div class="def-term">Target Costing (Zielkostenmanagement)</div>
+      Verfahren, bei dem die zulässigen Kosten eines Produkts (Zielkosten) retrograd aus dem am Markt erzielbaren Verkaufspreis und dem geforderten Zielgewinn abgeleitet werden — <strong>bevor</strong> das Produkt konstruiert und gefertigt wird.
+    </div>
+
+    <h3 id="kap2-1">2.1 Die vier Schritte des Target Costing</h3>
+    <table>
+      <thead><tr><th>Schritt</th><th>Bezeichnung</th><th>Inhalt</th></tr></thead>
+      <tbody>
+        <tr><td>①</td><td><strong>Zielpreis ermitteln</strong></td><td>Marktforschung, Kundenbefragung, Wettbewerbsanalyse — was ist der Kunde bereit zu zahlen?</td></tr>
+        <tr><td>②</td><td><strong>Zielgewinn festlegen</strong></td><td>Meist aus der Unternehmensstrategie oder Renditevorgabe abgeleitet (z. B. % vom Umsatz)</td></tr>
+        <tr><td>③</td><td><strong>Zielkosten ableiten</strong></td><td>Zielkosten = Zielpreis − Zielgewinn — die maximal zulässigen Kosten</td></tr>
+        <tr><td>④</td><td><strong>Zielkostenspaltung &amp; -erreichung</strong></td><td>Zielkosten auf Komponenten/Funktionen aufteilen, mit Standardkosten abgleichen, Kostensenkungsmaßnahmen einleiten</td></tr>
+      </tbody>
+    </table>
+
+    <div class="content-card">
+      <h4>🎯 Anwendungsanker</h4>
+      Immer wenn eine Aufgabe einen <strong>Marktpreis</strong> (nicht die eigenen Kosten) als Ausgangspunkt nennt und nach den „erlaubten Kosten" oder der „Zielkostenlücke" fragt.
+    </div>
+
+    <h3 id="kap2-2">2.2 Die fünf strategischen Wege zur Zielkostenfindung</h3>
+    <table>
+      <thead><tr><th>Konzept</th><th>Grundidee</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Market into Company</strong> (Klassiker)</td><td>Zielkosten rein retrograd aus Marktpreis abzüglich Zielgewinn ermittelt</td></tr>
+        <tr><td><strong>Out of Company</strong></td><td>Zielkosten auf Basis eigener technologischer Fähigkeiten und interner Optimierungspotenziale geschätzt (Gegenentwurf zu Market into Company)</td></tr>
+        <tr><td><strong>Into the Company</strong></td><td>Marktorientierter Zielpreis festgelegt, aber interne Barrieren verhindern das Erreichen — Anpassung durch Zukauf von Fremdlösungen</td></tr>
+        <tr><td><strong>Out of Competitor</strong></td><td>Kostenstrukturen des stärksten Wettbewerbers als Zielmaßstab (Competitive Benchmarking)</td></tr>
+        <tr><td><strong>Out of Technology</strong></td><td>Kostenstrukturen durch Einsatz völlig neuartiger Technologien/Verfahren radikal neu definiert</td></tr>
+      </tbody>
+    </table>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 3 – ZIELKOSTEN ERMITTELN
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap3">3 · Zielkosten ermitteln (Rechenbeispiel)</h2>
+
+    <div class="def-box">
+      <div class="def-term">Zielkostenlücke (Kostenlücke)</div>
+      <code>Zielkostenlücke = Standardkosten (Ist-Plankosten laut eigener Kalkulation) − Zielkosten</code><br>
+      Zeigt, wie viel noch eingespart werden muss, damit das Produkt zum Marktpreis <strong>und</strong> mit dem geforderten Gewinn verkauft werden kann. Eine <strong>negative</strong> Zielkostenlücke bedeutet, dass die Zielkosten bereits unterschritten werden — das Produkt könnte den geforderten Zielgewinn übertreffen oder günstiger angeboten werden. Das kommt in der Praxis selten vor.
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Zielkostenermittlung Gabelstapler-Zubehörteil</strong><br>
+      Marktforschung ergibt einen durchsetzbaren Nettoverkaufspreis von <strong>450,00 €</strong>. Zielgewinn (Unternehmensvorgabe): 15 % vom Zielpreis.<br><br>
+      Zielgewinn = 450,00 € × 15 % = <strong>67,50 €</strong><br>
+      Zielkosten = 450,00 € − 67,50 € = <strong>382,50 €</strong><br><br>
+      Die eigene Standardkalkulation (auf Basis bisheriger Konstruktion) ergibt Selbstkosten von <strong>430,00 €</strong>.<br>
+      Zielkostenlücke = 430,00 € − 382,50 € = <strong>47,50 €</strong><br>
+      Das Produkt muss um 47,50 € (≈ 11 % der Standardkosten) günstiger werden, um sowohl den Marktpreis als auch den Zielgewinn zu erfüllen.
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Zielkosten sind kein Rabatt auf die eigenen Kosten</strong>Die Zielkosten werden <strong>ausschließlich</strong> vom Markt und Zielgewinn abgeleitet — sie haben zunächst nichts mit der eigenen Standardkalkulation zu tun. Die Standardkosten dienen nur als Vergleichsmaßstab, um die Lücke zu bestimmen. Wer die Zielkosten aus den Standardkosten ableitet (z. B. "10 % Rabatt auf die Standardkosten"), verwechselt die Denkrichtung.</div>
+    </div>
+
+    <div class="content-card">
+      <h4>✍️ Formulierungsbaustein</h4>
+      „Da der Marktpreis und der Zielgewinn vorgegeben sind, ergeben sich die <em>Zielkosten</em> retrograd als Differenz; die <em>Zielkostenlücke</em> zeigt, wie viel gegenüber der aktuellen Standardkalkulation noch eingespart werden muss."
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 4 – ZIELKOSTENSPALTUNG & ZIELKOSTENINDEX
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap4">4 · Zielkostenspaltung &amp; Zielkostenindex</h2>
+
+    <div class="pruef-box">
+      Die Zielkosten des Gesamtprodukts (382,50 €) müssen auf die einzelnen Komponenten/Funktionen heruntergebrochen werden — sonst weiß niemand in der Konstruktion, wo genau gespart werden muss. Dafür dient die Zielkostenspaltung.
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Zielkostenspaltung (funktionsorientiert)</div>
+      Die Zielkosten werden im Verhältnis des <strong>vom Kunden wahrgenommenen Nutzens</strong> einer Funktion/Komponente auf diese verteilt — nicht im Verhältnis der bisherigen technischen Kostenanteile. Grundlage: Kundenbefragungen zur Bedeutung einzelner Funktionen (z. B. Conjoint-Analyse — Hintergrundwissen, in der Prüfung selten konkret verlangt).
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Zielkostenindex</div>
+      <code>Zielkostenindex = Nutzenanteil (%) ÷ Standard-Kostenanteil (%)</code><br>
+      Der <strong>Standard-Kostenanteil</strong> (auch „Drifting-Cost-Anteil" genannt) ist der Kostenanteil, den die Komponente nach der <em>bisherigen</em> Konstruktion tatsächlich bindet — nicht der Zielkosten-Anteil. Würde man stattdessen den Zielkosten-Anteil verwenden, wäre der Index per Definition immer exakt 1 (da die Zielkosten ja gerade im Verhältnis des Nutzens verteilt werden) — der Vergleich mit dem Standard-Kostenanteil macht die Lücke erst sichtbar.<br><br>
+      Index = 1: Standard-Kostenanteil entspricht dem Kundennutzen — im Gleichgewicht.<br>
+      Index &lt; 1: Komponente verursacht <strong>mehr</strong> Kosten, als ihr Kundennutzen rechtfertigt → Kosten senken.<br>
+      Index &gt; 1: Komponente verursacht <strong>weniger</strong> Kosten als ihr Kundennutzen — Spielraum zur Qualitäts- oder Funktionsverbesserung (kein Muss — die Komponente besitzt lediglich Potenzial, nicht zwangsläufig einen Handlungsbedarf).
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Zielkostenkontrolldiagramm (dieselben Zahlen wie Kapitel 3: Zielkosten gesamt 382,50 €, Standardkosten gesamt 430,00 €)</strong><br>
+      Das Zubehörteil aus Kapitel 3 gliedert sich in drei Komponenten: Antrieb, Gehäuse, Bedienelemente.
+      <table style="margin-top:0.5rem">
+        <thead><tr><th>Komponente</th><th>Nutzenanteil (%)</th><th>Standard-Kostenanteil (%)</th><th>Standardkosten (€)</th><th>Zielkosten (€)</th><th>Zielkostenindex</th><th>Beurteilung</th></tr></thead>
+        <tbody>
+          <tr><td>Antrieb</td><td>50 %</td><td>35 %</td><td>430,00 × 0,35 = 150,50</td><td>382,50 × 0,50 = 191,25</td><td>50 ÷ 35 = <strong>1,43</strong></td><td>Spielraum, aktuell unterproportional ausgestattet</td></tr>
+          <tr><td>Gehäuse</td><td>20 %</td><td>40 %</td><td>430,00 × 0,40 = 172,00</td><td>382,50 × 0,20 = 76,50</td><td>20 ÷ 40 = <strong>0,50</strong></td><td>Deutlich zu teuer — Kosten senken</td></tr>
+          <tr><td>Bedienelemente</td><td>30 %</td><td>25 %</td><td>430,00 × 0,25 = 107,50</td><td>382,50 × 0,30 = 114,75</td><td>30 ÷ 25 = <strong>1,20</strong></td><td>Leicht im Vorteil, weitgehend im Gleichgewicht</td></tr>
+          <tr><td><strong>Summe</strong></td><td>100 %</td><td>100 %</td><td><strong>430,00</strong></td><td><strong>382,50</strong></td><td></td><td></td></tr>
+        </tbody>
+      </table>
+      Das Gehäuse ist der klare Handlungsschwerpunkt: Es bindet aktuell 172,00 € (40 % der Standardkosten), dürfte nach der Zielkostenspaltung aber nur noch 76,50 € (20 % der Zielkosten) kosten — eine Lücke von <strong>95,50 €</strong> allein bei dieser Komponente. Der Antrieb dagegen dürfte sogar von 150,50 € auf 191,25 € „aufgewertet" werden, ohne die Gesamtzielkosten zu sprengen.
+    </div>
+
+    <div class="notice info">
+      <div>💡</div>
+      <div><strong>Visualisierungstipp fürs Zielkostenkontrolldiagramm (Value Control Chart)</strong>Im Diagramm liegt die ideale Komponente auf der Winkelhalbierenden (Index = 1). Ein Punkt <strong>oberhalb</strong> der Linie (hoher Nutzen, geringe Kosten) ist ein „Schnäppchen" für den Kunden — möglicherweise sogar unterkonstruiert. Ein Punkt <strong>unterhalb</strong> der Linie (geringer Nutzen, hohe Kosten) ist ein „Kostengrab" — hier besteht dringender Handlungsbedarf (z. B. Design vereinfachen, Material wechseln).</div>
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Toleranzzone beachten</strong>In der Praxis wird nicht jede Abweichung von Index = 1 sofort als Handlungsbedarf gewertet — es gibt eine <strong>Toleranzzone</strong> um die Diagonale (Index ≈ 1) im Zielkostenkontrolldiagramm, innerhalb derer die Verteilung als akzeptabel gilt. Nur deutliche Abweichungen (wie beim Gehäuse mit 0,50) erfordern zwingend Gegenmaßnahmen.</div>
+    </div>
+
+    <div class="content-card">
+      <h4>✍️ Formulierungsbaustein</h4>
+      „Da der Zielkostenindex der Komponente deutlich unter 1 liegt, bindet sie mehr Kosten, als ihr Kundennutzen rechtfertigt — hier sollte die Konstruktion vorrangig ansetzen, um die Zielkostenlücke zu schließen."
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 5 – WEITERE INSTRUMENTE DES KOSTENMANAGEMENTS
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap5">5 · Weitere Instrumente des Kostenmanagements</h2>
+
+    <h3 id="kap5-1">5.1 Life Cycle Costing (Lebenszykluskostenrechnung)</h3>
+    <div class="def-box">
+      <div class="def-term">Life Cycle Costing</div>
+      Betrachtet nicht nur die Herstellkosten, sondern <strong>alle Kosten über den gesamten Produktlebenszyklus</strong> — Herstellerkosten und (je nach Lehrmeinung) teilweise auch Kosten auf Kundenseite. Ziel: Vermeidung von Fehlentscheidungen, die zwar die Herstellkosten senken, aber die Lebenszykluskosten (z. B. durch höhere Wartungskosten) insgesamt erhöhen.
+    </div>
+
+    <table>
+      <thead><tr><th>Phase</th><th>Typische Kostenblöcke</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Vorentscheidungs-/Entstehungsphase</strong></td><td>Forschung &amp; Entwicklung, Konstruktion, Design, Prototypenbau, Produktionsvorbereitung — hohe Kostenfestlegung, aber noch kaum tatsächliche Ausgaben</td></tr>
+        <tr><td><strong>Markt-/Betriebsphase</strong></td><td>Produktion, Vertrieb, Marketing, Kundendienst, Gewährleistung, Wartung</td></tr>
+        <tr><td><strong>Nachbereitungs-/Entsorgungsphase</strong></td><td>Rücknahme, Recycling, Demontage, umweltgerechte Entsorgung</td></tr>
+      </tbody>
+    </table>
+
+    <div class="notice ok">
+      <strong>Merksatz — Herstellkosten ≠ Lebenszykluskosten</strong><br>
+      Eine billigere Komponente kann die Herstellkosten senken, aber durch häufigere Ausfälle die Wartungs- und Garantiekosten so stark erhöhen, dass die Lebenszykluskosten insgesamt steigen. Life Cycle Costing deckt genau solche Fehlanreize auf.
+    </div>
+
+    <h3 id="kap5-2">5.2 Wertanalyse</h3>
+    <div class="def-box">
+      <div class="def-term">Wertanalyse</div>
+      Systematische Untersuchung der Funktionen eines Produkts mit dem Ziel, den geforderten Kundennutzen zu minimalen Kosten zu erreichen. Nicht Kosten senken um jeden Preis, sondern Funktionen wirtschaftlicher erfüllen. Fragt für jede Funktion: Ist sie notwendig? Kann sie günstiger realisiert werden, ohne den Kundennutzen zu beeinträchtigen?
+    </div>
+
+    <h3 id="kap5-3">5.3 Abgrenzung zur Prozesskostenrechnung</h3>
+    <div class="notice info">
+      <div>ℹ️</div>
+      <div><strong>Zwei unterschiedliche Blickwinkel</strong>Die Prozesskostenrechnung (siehe LS10) verrechnet <em>bereits entstehende</em> Gemeinkosten verursachungsgerechter — sie setzt in der laufenden Fertigung an. Target Costing und die übrigen Kostenmanagement-Instrumente setzen dagegen <em>vor</em> der Kostenentstehung an, in der Entwicklungs- und Konstruktionsphase. Beide Ansätze ergänzen sich, beantworten aber unterschiedliche Fragen: „Wie verteile ich entstandene Kosten korrekt?" (PKR) vs. „Wie verhindere ich von vornherein zu hohe Kosten?" (Kostenmanagement). Beide Verfahren können im selben Unternehmen gleichzeitig eingesetzt werden — es ist keine Entweder-oder-Entscheidung.</div>
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         KAPITEL 6 – PRÜFUNGSFRAGEN
+    ══════════════════════════════════════════════ -->
+    <h2 id="kap6">6 · Prüfungsfragen</h2>
+
+    <div class="notice warn">
+      Keine Musterlösungen – aktiv erarbeiten!
+    </div>
+
+    <h3>Block 1 – Grundidee &amp; Ablauf</h3>
+    <ol>
+      <li>Erkläre das Market-into-Company-Prinzip und grenze es von der traditionellen Cost-Plus-Kalkulation ab. <em>(Prüfungsfalle)</em></li>
+      <li>Nenne die vier Schritte des Target Costing in der richtigen Reihenfolge. <em>(Definition)</em></li>
+      <li>Warum setzt Kostenmanagement bevorzugt in der Entwicklungs- und Konstruktionsphase an? <em>(Begriffserklärung)</em></li>
+    </ol>
+
+    <h3>Block 2 – Zielkosten &amp; Zielkostenlücke</h3>
+    <ol start="4">
+      <li>Ein Produkt soll am Markt für 620 € netto verkauft werden. Zielgewinn: 12 % vom Zielpreis. Die aktuelle Standardkalkulation weist Selbstkosten von 580 € aus. Berechne Zielkosten und Zielkostenlücke. <em>(Zielkostenermittlung)</em></li>
+      <li>Warum sind die Zielkosten kein „Rabatt" auf die eigenen Standardkosten? Erkläre den Denkrichtungsfehler. <em>(Prüfungsfalle)</em></li>
+    </ol>
+
+    <h3>Block 3 – Zielkostenspaltung &amp; Zielkostenindex</h3>
+    <ol start="6">
+      <li>Eine Komponente hat einen Nutzenanteil von 15 % und einen Standard-Kostenanteil von 28 %. Berechne den Zielkostenindex und beurteile das Ergebnis. <em>(Zielkostenindex-Berechnung)</em></li>
+      <li>Was zeigt die Toleranzzone im Zielkostenkontrolldiagramm, und warum ist nicht jede Abweichung von Index = 1 ein Alarmsignal? <em>(Prüfungsfalle)</em></li>
+    </ol>
+
+    <h3>Block 4 – Weitere Instrumente</h3>
+    <ol start="8">
+      <li>Erkläre den Unterschied zwischen Herstellkosten und Lebenszykluskosten an einem eigenen Beispiel. <em>(Life Cycle Costing)</em></li>
+      <li>Grenze Target Costing und Prozesskostenrechnung anhand ihres jeweiligen Zeitbezugs voneinander ab. <em>(Systemvergleich)</em></li>
+    </ol>
+
+    <h3>Transferaufgaben</h3>
+    <div class="notice warn">
+      <strong>T1 – Vollständiges Target Costing (Lager-Regalsystem)</strong><br>
+      Marktforschung ergibt einen Zielpreis von 850 € netto pro Regalmodul. Zielgewinn: 18 % vom Zielpreis. Standardkalkulation: 790 €.<br>
+      (a) Berechne Zielkosten und Zielkostenlücke. (b) Drei Komponenten haben folgende Nutzen-/Standard-Kostenanteile: Tragrahmen (Nutzen 45 %, Standard-Kosten 30 %), Regalböden (Nutzen 35 %, Standard-Kosten 45 %), Verbindungstechnik (Nutzen 20 %, Standard-Kosten 25 %). Berechne die Zielkostenindizes und identifiziere die kritischste Komponente. (c) Formuliere eine konkrete Handlungsempfehlung für die Konstruktion.
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════
+         VERWANDTE THEMEN
+    ══════════════════════════════════════════════ -->
+    <div class="related-topics">
+      <h3>Verwandte Themen</h3>
+      <ul>
+        <li><a href="rewe_ls10.html">LS10 · Prozesskostenrechnung</a> – verursachungsgerechte Verteilung bereits entstandener Gemeinkosten</li>
+        <li><a href="rewe_ls06.html">LS06 · Kostenträgerrechnung &amp; Kalkulation</a> – traditionelle Cost-Plus-Kalkulation als Gegenmodell</li>
+        <li><a href="rewe_ls09.html">LS09 · Planungsrechnung</a> – Budgetierung und Zielvorgaben im Planungsprozess</li>
+      </ul>
+    </div>
+
+  </main>
+</div>
+
+<footer class="page-footer">
+  <div>WFW Wiki · IHK Wirtschaftsfachwirt</div>
+  <div>REWE LS11 · Stand: Juli 2026</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script src="../css/pages.js"></script>
+<script src="../css/engine.js"></script>
+</body>
+</html>

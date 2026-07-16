@@ -4,6 +4,11 @@
     "eintraege": [
       {
         "modul": "rewe",
+        "titel": "LS11 · Kostenmanagement & Target Costing – neues Skript (Market into Company, Zielkosten/-lücke/-spaltung, Zielkostenindex mit Value Control Chart, Life Cycle Costing, Wertanalyse)",
+        "aktion": "neu"
+      },
+      {
+        "modul": "rewe",
         "titel": "LS10 · Prozesskostenrechnung – neues Skript (Teilprozess/Hauptprozess, Kostentreiber, lmi/lmn-Kosten, Prozesskostensatz, Komplexitätsfalle im Vergleich zur Zuschlagskalkulation)",
         "aktion": "neu"
       },
