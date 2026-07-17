@@ -369,6 +369,51 @@
       <div><strong>Prüfungsfalle — Ohne Engpass keine Opportunitätskosten ansetzen</strong>Der Opportunitätskosten-Aufschlag gilt nur, wenn die freiwerdende Kapazität tatsächlich durch ein anderes, DB-bringendes Produkt genutzt werden kann. Bei freier Kapazität (kein Engpass, keine Alternativverwendung) bleibt der einfache Vergleich variable Kosten vs. Fremdbezugspreis maßgeblich — sonst wird das Ergebnis künstlich zugunsten des Fremdbezugs verzerrt.</div>
     </div>
 
+    <h4>Erweiterte Methode: Kostenvergleichsrechnung mit kritischer Menge</h4>
+    <div class="content-card">
+      <h4>🎯 Anwendungsanker</h4>
+      Immer wenn eine Aufgabe für die Eigenfertigung <strong>eigene Fixkosten</strong> nennt (Abschreibungen, kalkulatorische Zinsen auf die Fertigungsanlage) — nicht nur einen einfachen Stückkostenvergleich. Dann sind für Eigenfertigung UND Fremdbezug jeweils vollständige lineare Kostenfunktionen aufzustellen und ihr Schnittpunkt (die <strong>kritische Menge</strong>) gesucht.
+    </div>
+
+    <div class="def-box">
+      <strong>Kostenfunktionen &amp; kritische Menge</strong><br>
+      K(EF) = k<sub>v</sub>(EF) × x + K<sub>fix</sub>(EF) — Gesamtkosten der Eigenfertigung<br>
+      K(FB) = k<sub>v</sub>(FB) × x + K<sub>fix</sub>(FB) — Gesamtkosten des Fremdbezugs<br>
+      Die <strong>kritische Menge</strong> ist die Absatz-/Bedarfsmenge, bei der beide Kostenfunktionen gleich hoch sind (K(EF) = K(FB)):<br>
+      <code>Kritische Menge = (K<sub>fix</sub>(EF) − K<sub>fix</sub>(FB)) ÷ (k<sub>v</sub>(FB) − k<sub>v</sub>(EF))</code>
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Kritische Menge (Zulieferteil mit eigener Fertigungsanlage)</strong><br>
+      Jahresbedarf: 4.000 ME. Eigenfertigung: Anschaffungswert (AW) 440.000 €, Nutzungsdauer (ND) 8 Jahre, Restwert (RW) 40.000 €, kalk. Zinssatz 6 %, sonstige fixe Kosten (unternehmensbezogen, fallen in <strong>beiden</strong> Szenarien gleichermaßen an) 20.800 €/Jahr, variable Kosten 36,00 €/ME. Fremdbezug: Einkaufspreis 40,00 €/ME.<br><br>
+      <strong>Schritt 1 — Fixkosten der Eigenfertigung ermitteln:</strong><br>
+      Kalk. Abschreibung = (AW − RW) ÷ ND = (440.000 − 40.000) ÷ 8 = <strong>50.000,00 €</strong><br>
+      Kalk. Zinsen = (AW + RW) ÷ 2 × 6 % = (440.000 + 40.000) ÷ 2 × 0,06 = <strong>14.400,00 €</strong> (Restwertmethode — genauer als die vereinfachte AK÷2-Formel, vgl. LS03)<br>
+      + sonstige fixe Kosten 20.800,00 €<br>
+      <strong>K<sub>fix</sub>(EF) = 50.000 + 14.400 + 20.800 = 85.200,00 €</strong><br><br>
+      <strong>Schritt 2 — Kostenvergleich bei 4.000 ME:</strong><br>
+      K(EF) = 36 € × 4.000 + 85.200 € = <strong>229.200,00 €</strong><br>
+      K(FB) = 40 € × 4.000 + 20.800 € = <strong>180.800,00 €</strong> (die 20.800 € sonstigen Fixkosten fallen auch beim Fremdbezug an — nur die anlagenbezogenen 64.400 € entfallen)<br>
+      Vorteil des Fremdbezugs bei 4.000 ME = 229.200 − 180.800 = <strong>48.400,00 €</strong><br><br>
+      <strong>Schritt 3 — Kritische Menge:</strong><br>
+      Kritische Menge = (85.200 − 20.800) ÷ (40 − 36) = 64.400 ÷ 4 = <strong>16.100 ME</strong><br>
+      Bis zu einem Jahresbedarf von 16.100 ME ist der Fremdbezug günstiger; darüber hinaus lohnt sich die Eigenfertigung, weil sich die höheren Fixkosten der eigenen Anlage auf mehr Einheiten verteilen und der niedrigere variable Kostensatz (36 € statt 40 €) den Ausschlag gibt.
+    </div>
+
+    <div class="content-card" style="text-align:center">
+      <img src="../images/PLATZHALTER_Grafik-Kritische-Menge-Ermittlung.png" alt="Graphische Ermittlung der kritischen Menge: Schnittpunkt der Gesamtkostengeraden K(EF) und K(FB)" style="max-width:100%;border-radius:6px">
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Nur entscheidungsrelevante Fixkosten in K<sub>fix</sub>(EF)</strong>Fixkosten, die in <strong>beiden</strong> Szenarien gleich hoch anfallen (hier: die 20.800 € „sonstigen fixen Kosten"), sind für den Vergleich eigentlich irrelevant — sie kürzen sich in der Differenz K<sub>fix</sub>(EF) − K<sub>fix</sub>(FB) ohnehin heraus. Nur die <strong>zusätzlichen</strong> Fixkosten der Eigenfertigung (hier: Abschreibung + Zinsen = 64.400 €) sind wirklich entscheidungsrelevant. Werden sie versehentlich in beiden Kostenfunktionen unterschiedlich berücksichtigt oder vergessen, verschiebt sich die kritische Menge falsch.</div>
+    </div>
+
+    <div class="content-card">
+      <h4>✍️ Formulierungsbaustein</h4>
+      „Da für die Eigenfertigung eigene anlagenbezogene Fixkosten anfallen, empfiehlt sich der Vergleich über vollständige <em>Kostenfunktionen</em>; die <em>kritische Menge</em> zeigt, ab welcher Bedarfsmenge sich die Rangfolge zwischen Eigenfertigung und Fremdbezug umkehrt."
+    </div>
+
     <div class="content-card">
       <h4>✍️ Formulierungsbaustein</h4>
       „Da bei freier Kapazität nur die variablen Kosten der Eigenfertigung mit dem Fremdbezugspreis verglichen werden müssen, empfiehlt sich der <em>Fremdbezug</em>, weil er günstiger ist und die Fixkosten ohnehin unverändert anfallen. Bei Engpass sind zusätzlich die Opportunitätskosten der freiwerdenden Kapazität zu berücksichtigen."
@@ -378,10 +423,8 @@
       <strong>Über die reine Kostenrechnung hinaus — qualitative Make-or-Buy-Kriterien</strong><br>
       Neben dem reinen Kostenvergleich fragt die IHK häufig auch nach nicht-monetären Entscheidungskriterien, die für langfristige Make-or-Buy-Entscheidungen ebenso relevant sind:
       <ul style="margin-top:6px">
-        <li><strong>Abhängigkeit vom Lieferanten</strong> — Lieferzuverlässigkeit, Risiko künftiger Preiserhöhungen</li>
-        <li><strong>Know-how-Verlust</strong> — Gefahr von Plagiaten, Verlust eigener Kernkompetenzen</li>
-        <li><strong>Qualitätsrisiko</strong> — entspricht die zugekaufte Ware den eigenen Standards?</li>
-        <li><strong>Auslastung der eigenen Belegschaft</strong> — Risiko von Kurzarbeit oder Entlassungen bei dauerhaftem Fremdbezug</li>
+        <li><strong>Eigenfertigung:</strong> Sicherung der unternehmenseigenen Qualität · keine Preisgabe des eigenen Know-hows (keine Weitergabe sensibler Produktionsdaten oder Patente an externe Lieferanten) · höhere Kapazitätsauslastung · größere Unabhängigkeit von Lieferanten · höhere Flexibilität</li>
+        <li><strong>Fremdbezug:</strong> schlankere material- und produktionswirtschaftliche Prozesse · Nutzung von externem Know-how · Minderung der Lagerkosten · Reduzierung von Produktionsrisiken (z. B. Ausschuss)</li>
       </ul>
     </div>
 
@@ -596,6 +639,7 @@
       <li>Drei Produkte: X (db = 60 €, 0,4 Std./Stück), Y (db = 45 €, 0,25 Std./Stück), Z (db = 30 €, 0,15 Std./Stück). Kapazität: 2.000 Std. Ermittle die relativen DB und die Rangfolge. <em>(Relativer DB bei Engpass)</em></li>
       <li>Was ist Fixkostenremanenz? Nenne zwei konkrete Beispiele und erkläre, warum die Teilkostenrechnung dieses Problem transparenter macht als die Vollkostenrechnung. <em>(Begriffserklärung + Systemvergleich)</em></li>
       <li>Ein Bauteil kostet in Eigenfertigung 24 €/Stück (variabel), ein Lieferant bietet es für 21 €/Stück an. Bei freier Kapazität: Wie entscheidest du? Ändert sich die Entscheidung, wenn die Fertigung 0,4 Std. Engpasszeit benötigt, die alternativ für ein Produkt mit relativem DB von 25 €/Std. genutzt werden könnte? <em>(Make-or-Buy mit und ohne Engpass)</em></li>
+      <li>Eine Fertigungsanlage für ein Zulieferteil kostet 300.000 € (AW), Restwert 20.000 €, Nutzungsdauer 5 Jahre, kalk. Zinssatz 8 %. Variable Kosten der Eigenfertigung: 18 €/Stück. Ein Lieferant bietet dasselbe Teil für 22 €/Stück an. Berechne die Fixkosten der Eigenfertigung und die kritische Menge. Ab welcher Jahresmenge lohnt sich die Eigenfertigung? <em>(Kritische Menge / Kostenvergleichsrechnung)</em></li>
     </ol>
 
     <h3>Block 5 – Mehrstufige DB-Rechnung &amp; Preisuntergrenzen im Detail</h3>
