@@ -87,8 +87,8 @@ const WIKI_CONFIG = {
     },
     {
       id: "rewe_ls09", module: "rewe", title: "LS09 · Planungsrechnung",
-      file: "pages/rewe_ls09.html", status: "fertig", updated: "29.06.2026",
-      keywords: ["planungsrechnung", "planungsebenen", "strategische planung", "taktische planung", "operative planung", "ergebnisplanung", "absatzplanung", "top-down", "bottom-up", "gegenstromverfahren", "regelkreis", "abweichungsanalyse", "budgetierung", "budget"]
+      file: "pages/rewe_ls09.html", status: "fertig", updated: "21.07.2026",
+      keywords: ["planungsrechnung", "planungsebenen", "strategische planung", "taktische planung", "operative planung", "ergebnisplanung", "absatzplanung", "top-down", "bottom-up", "gegenstromverfahren", "regelkreis", "budgetierung", "budget", "zero-base-budgeting", "nullbasisbudgetierung"]
     },
     {
       id: "rewe_ls10", module: "rewe", title: "LS10 · Prozesskostenrechnung",
@@ -99,6 +99,11 @@ const WIKI_CONFIG = {
       id: "rewe_ls11", module: "rewe", title: "LS11 · Kostenmanagement & Target Costing",
       file: "pages/rewe_ls11.html", status: "fertig", updated: "16.07.2026",
       keywords: ["kostenmanagement", "target costing", "zielkostenmanagement", "market into company", "zielpreis", "zielgewinn", "zielkosten", "zielkostenlücke", "zielkostenspaltung", "zielkostenindex", "value control chart", "life cycle costing", "wertanalyse"]
+    },
+    {
+      id: "rewe_ls12", module: "rewe", title: "LS12 · Plankostenrechnung",
+      file: "pages/rewe_ls12.html", status: "fertig", updated: "21.07.2026",
+      keywords: ["plankostenrechnung", "starre plankostenrechnung", "flexible plankostenrechnung", "plankostenverrechnungssatz", "sollkosten", "verrechnete plankosten", "preisabweichung", "verbrauchsabweichung", "beschäftigungsabweichung", "gesamtabweichung", "regelkreis", "gegensteuerung"]
     },
 
     // ── Finanzmanagement ─────────────────────────────────────

@@ -30,7 +30,7 @@
       <div class="kicker">Rechnungswesen · LS09</div>
       <h1>LS09 · Planungsrechnung</h1>
       <div class="meta">
-        <span>Planungsebenen · Ergebnisplanung · Top-Down / Bottom-Up · Regelkreis · Planbezugsgröße · Budgetierung</span>
+        <span>Planungsebenen · Ergebnisplanung · Top-Down / Bottom-Up / Gegenstromverfahren · Budgetierung · Zero-Base-Budgeting</span>
         <span>Stand: Juli 2026</span>
         <span><span class="badge ok">Fertig</span></span>
       </div>
@@ -198,140 +198,10 @@
     <!-- ══════════════════════════════════════════════
          KAPITEL 4 – REGELKREIS & ABWEICHUNGSANALYSE
     ══════════════════════════════════════════════ -->
-    <h2 id="kap4">4 · Regelkreis der Planung &amp; Abweichungsanalyse</h2>
-
-    <div class="pruef-box">
-      <strong>Regelkreis</strong><br>
-      Ziel (Sollwert) → Kontrolle (Soll-Ist-Vergleich) → Abweichungsanalyse → Gegensteuerungsmaßnahme (Korrektur) → zurück zu Ziel<br>
-      ↑ Störgröße (externe Einflüsse: Preissteigerungen, Marktveränderungen, techn. Probleme)
-    </div>
-
-    <div class="notice ok">
-      <strong>Merksatz – Ziel der Abweichungsanalyse</strong><br>
-      Ziel ist nicht die bloße Feststellung einer Abweichung, sondern die <strong>Ursachenanalyse und die Ableitung konkreter Maßnahmen</strong>. Eine Abweichung ohne Reaktion ist wirkungslos – erst die Gegensteuerung schließt den Regelkreis.
-    </div>
-
-    <h3 id="kap4-1">4.1 Soll-Ist-Vergleich</h3>
-
-    <div class="pruef-box">
-      <strong>Kostenabweichung = Istkosten − Sollkosten</strong><br>
-      Bei der flexiblen Plankostenrechnung werden statt der ursprünglichen Plankosten die an die Ist-Beschäftigung angepassten <strong>Sollkosten</strong> als Vergleichsmaßstab verwendet (siehe Kapitel 4.2) — das vermeidet Begriffsüberschneidungen zwischen Plan- und Sollkosten.<br>
-      Positives Vorzeichen = Mehrkosten (ungünstig) · Negatives Vorzeichen = Minderkosten (günstig)
-    </div>
-
-    <h3 id="kap4-2">4.2 Systematik der Kostenabweichungen</h3>
-
-    <table>
-      <thead><tr><th>Abweichungsart</th><th>Ursache</th><th>Beispiele</th></tr></thead>
-      <tbody>
-        <tr>
-          <td><strong>Preisabweichung</strong></td>
-          <td>Höhere Faktorpreise</td>
-          <td>Materialpreise gestiegen · Lohnsätze erhöht (Tarif) · höhere Energiekosten</td>
-        </tr>
-        <tr>
-          <td><strong>Verbrauchsabweichung</strong><br><em>(Teil der Mengenabweichung)</em></td>
-          <td>Höhere Mengenverbräuche</td>
-          <td>Längere Fertigungszeiten · geringere Materialausbeute · höherer Ausschuss</td>
-        </tr>
-        <tr>
-          <td><strong>Beschäftigungsabweichung</strong><br><em>(Teil der Mengenabweichung)</em></td>
-          <td>Fixkostenfehlverrechnung bei abweichender Auslastung</td>
-          <td>Gesamtkosten gleich – nur Verteilung auf Stückzahl verändert sich → Leerkosten</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <div class="def-box">
-      <strong>Definition – Beschäftigungsabweichung</strong><br>
-      Entsteht, wenn die tatsächliche Auslastung von der geplanten abweicht. Fixkosten werden auf eine geringere Stückzahl verteilt → Fixkostenfehlverrechnung. Die Gesamtkosten bleiben gleich – nur die Verteilung auf die Stückzahl verändert sich. Das treibt die Stückkosten nach oben, ohne dass tatsächlich mehr verbraucht wurde.<br><br>
-      <code>B.-Abw. = Fixkosten × (Plan-Beschäftigung − Ist-Beschäftigung) ÷ Plan-Beschäftigung</code> — vereinfachte Darstellung.<br>
-      Positives Ergebnis = Leerkosten. Ausführlich (und rechnerisch gleichbedeutend) wird die Beschäftigungsabweichung in Kapitel 4.2 über <strong>Sollkosten − verrechnete Plankosten</strong> hergeleitet.
-    </div>
-
-    <div class="notice danger">
-      ⛔ <strong>Prüfungsfalle – Beschäftigungs- vs. Verbrauchsabweichung</strong><br>
-      Bei der <strong>Verbrauchsabweichung</strong> wird tatsächlich mehr Material oder Zeit verbraucht. Bei der <strong>Beschäftigungsabweichung</strong> bleibt der Verbrauch gleich, aber die Fixkosten werden auf weniger Einheiten verteilt → Stückkosten steigen ohne Mehrverbrauch.
-    </div>
-
-    <div class="notice ok">
-      <strong>Merksatz – Verantwortungsbereiche</strong><br>
-      <strong>Verbrauchsabweichung</strong> (Istkosten vs. Sollkosten): eine echte Abweichung im Verantwortungsbereich des <em>Kostenstellenleiters</em> — z. B. Ineffizienz, Verschwendung, Defekte.<br>
-      <strong>Beschäftigungsabweichung</strong> (Sollkosten vs. verrechnete Plankosten): eine reine Verrechnungsdifferenz, primär im Verantwortungsbereich des <em>Vertriebs</em> (Auslastungsschwankungen durch Absatzrückgang). Der Kostenstellenleiter kann dafür in der Regel nicht verantwortlich gemacht werden.
-    </div>
-
-    <div class="content-card">
-      <h4>🎯 Anwendungsanker</h4>
-      Immer wenn eine Aufgabe eine <strong>Planbezugsgröße</strong> (geplante Menge/Stunden), einen <strong>Plan-Lohnsatz oder Plan-Preis</strong> UND Fixkosten getrennt von variablen Kosten nennt — dann ist der systematische BAB-Ansatz der flexiblen Plankostenrechnung gefragt, nicht nur die grobe Gesamtabweichung.
-    </div>
-
-    <div class="def-box">
-      <div class="def-term">Die drei Bezugsgrößen der Abweichungsanalyse</div>
-      <strong>Plankosten</strong> = Fixkosten + (Planpreis × Planmenge) — gültig bei Planbeschäftigung.<br>
-      <strong>Sollkosten</strong> = Fixkosten + (Planpreis × Ist-Menge) — die Kosten, die bei der tatsächlichen Beschäftigung <em>planmäßig</em> hätten anfallen dürfen.<br>
-      <strong>Verrechnete Plankosten</strong> = Plankostenverrechnungssatz (Plankosten ÷ Planmenge) × Ist-Menge — der Betrag, der über den BAB-Zuschlagssatz auf die Kostenträger verrechnet wird.
-    </div>
-
-    <div class="notice info">
-      <strong>Rechenbeispiel – Vollständige Abweichungsanalyse (Kostenstelle Dreherei)</strong><br>
-      <strong>Planwerte:</strong> Planbeschäftigung 50.000 Std. · Plan-Lohnsatz 14,00 €/Std. · Fixkosten (Kostenstelle) 25.000 € · Plan-Fertigungslöhne (variabel) = 50.000 × 14,00 = 700.000 € · Plankosten gesamt = 700.000 + 25.000 = <strong>725.000 €</strong><br>
-      Plankostenverrechnungssatz = 725.000 € ÷ 50.000 Std. = <strong>14,50 €/Std.</strong> (glatter Wert — bewusst so gewählt, damit sich beim Nachrechnen keine Rundungsdifferenzen einschleichen)<br><br>
-      <strong>Istwerte:</strong> Ist-Beschäftigung 47.000 Std. · Ist-Lohnsatz 14,80 €/Std. (Tariferhöhung) · Ist-Fertigungslöhne = 47.000 × 14,80 = 695.600 € · Ist-Fixkosten 28.500 € (zusätzliche Instandhaltung) · Istkosten gesamt = <strong>724.100 €</strong>
-      <table style="margin-top:0.5rem">
-        <thead><tr><th>Schritt</th><th>Rechnung</th><th>Betrag (€)</th></tr></thead>
-        <tbody>
-          <tr><td>Sollkosten (Fixkosten Plan + Planpreis × Ist-Menge)</td><td>25.000 + (14,00 × 47.000)</td><td>683.000</td></tr>
-          <tr><td>Verrechnete Plankosten (Verrechnungssatz × Ist-Menge)</td><td>14,50 × 47.000</td><td>681.500</td></tr>
-          <tr><td><strong>= Beschäftigungsabweichung</strong> (Sollkosten − Verrechnete Plankosten)</td><td>683.000 − 681.500</td><td><strong>+ 1.500</strong></td></tr>
-          <tr><td>Istkosten − Sollkosten (Preis- + Verbrauchsabweichung zusammen)</td><td>724.100 − 683.000</td><td>41.100</td></tr>
-          <tr><td>davon <strong>Preisabweichung</strong> (Ist-Menge × (Ist-Preis − Plan-Preis))</td><td>47.000 × (14,80 − 14,00)</td><td><strong>37.600</strong></td></tr>
-          <tr><td>davon <strong>Verbrauchsabweichung</strong> (Rest, hier: Mehrkosten Fixblock)</td><td>41.100 − 37.600 (= Ist-Fix 28.500 − Plan-Fix 25.000)</td><td><strong>3.500</strong></td></tr>
-          <tr><td><strong>= Gesamtabweichung</strong> (Istkosten − Verrechnete Plankosten)</td><td>724.100 − 681.500</td><td><strong>+ 42.600</strong></td></tr>
-        </tbody>
-      </table>
-      Kontrolle: Preisabweichung (37.600) + Verbrauchsabweichung (3.500) + Beschäftigungsabweichung (1.500) = <strong>42.600 €</strong> = Gesamtabweichung ✓<br>
-      Didaktischer Hinweis: Die Verbrauchsabweichung entsteht in diesem Beispiel ausschließlich durch die gestiegenen Fixkosten (28.500 − 25.000 €). Das ist ein Sonderfall dieses Beispiels — Verbrauchsabweichungen können ebenso gut aus Mehrverbrauch bei variablen Kostenbestandteilen entstehen und haben nicht grundsätzlich mit Fixkosten zu tun.
-    </div>
-
-    <div class="notice danger">
-      <div>⛔</div>
-      <div><strong>Prüfungsfalle — Sollkosten ≠ Verrechnete Plankosten</strong>Beide Werte basieren auf der Ist-Menge, aber unterschiedlich: Sollkosten rechnen die <strong>Fixkosten in voller Höhe</strong> plus variable Planpreise × Ist-Menge. Verrechnete Plankosten nutzen den <strong>Gesamt-Verrechnungssatz</strong> (der die Fixkosten bereits anteilig auf die Planmenge verteilt hat) × Ist-Menge. Die Differenz zwischen beiden ist genau die Beschäftigungsabweichung — sie entsteht rein rechnerisch aus der Fixkostenverteilung, nicht aus echtem Mehrverbrauch.</div>
-    </div>
-
-    <div class="content-card">
-      <h4>✍️ Formulierungsbaustein</h4>
-      „Da Planbezugsgröße, Planpreis und Fixkosten getrennt gegeben sind, empfiehlt sich die <em>vollständige Abweichungsanalyse</em> über Sollkosten und verrechnete Plankosten, weil sich so Preis-, Verbrauchs- und Beschäftigungsabweichung sauber trennen lassen."
-    </div>
-
-    <h3 id="kap4-2b">4.2b Kurzform: Gesamtabweichung ohne Fixkosten-Trennung</h3>
-    <p>Sind keine Fixkosten gesondert genannt (z. B. bei einer rein variablen Kostenart), entfällt die Beschäftigungsabweichung — es bleibt nur die Aufteilung in Preis- und Verbrauchsabweichung:</p>
-
-    <div class="notice info">
-      <strong>Rechenbeispiel – Rein variable Kostenart (Fremdverpackung)</strong><br>
-      Plan: 8.000 Verpackungseinheiten × 4,00 €/Stück = 32.000 €. Ist: 8.600 Einheiten × 4,30 €/Stück = 36.980 €.<br><br>
-      Gesamtabweichung = 36.980 − 32.000 = <strong>+ 4.980 €</strong><br>
-      Preisabweichung = Ist-Menge × (Ist-Preis − Plan-Preis) = 8.600 × (4,30 − 4,00) = <strong>+ 2.580 €</strong><br>
-      Verbrauchsabweichung (Mengenabweichung) = Plan-Preis × (Ist-Menge − Plan-Menge) = 4,00 × (8.600 − 8.000) = <strong>+ 2.400 €</strong><br>
-      Kontrolle: 2.580 + 2.400 = <strong>4.980 €</strong> ✓
-    </div>
-
-    <h3 id="kap4-3">4.3 Gegensteuerungsmaßnahmen</h3>
-
-    <table>
-      <thead><tr><th>Abweichungsart</th><th>Ursache</th><th>Gegensteuerung</th></tr></thead>
-      <tbody>
-        <tr><td>Preisabweichung (Material)</td><td>Materialpreise gestiegen</td><td>Einkauf: Lieferantenverhandlung, Substitution, Lagerhaltung optimieren</td></tr>
-        <tr><td>Preisabweichung (Personal)</td><td>Tariflohnerhöhung</td><td>Kalkulation/Vertrieb: Kalkulation anpassen, Verkaufspreise prüfen</td></tr>
-        <tr><td>Verbrauchsabweichung</td><td>Ausschuss, längere Fertigungszeiten</td><td>Produktion: Qualitätssicherung, Schulung, Prozessoptimierung</td></tr>
-        <tr><td>Beschäftigungsabweichung</td><td>Rückläufige Auslastung</td><td>Vertrieb/Kapazität: Absatzförderung, Kapazitätsanpassung, Leerkosten reduzieren</td></tr>
-      </tbody>
-    </table>
-
-
     <!-- ══════════════════════════════════════════════
-         KAPITEL 5 – BUDGETIERUNG
+         KAPITEL 4 – BUDGETIERUNG
     ══════════════════════════════════════════════ -->
-    <h2 id="kap5">5 · Budgetierung &amp; Budgetkontrolle</h2>
+    <h2 id="kap4">4 · Budgetierung &amp; Budgetkontrolle</h2>
 
     <div class="def-box">
       <strong>Definition – Budget</strong><br>
@@ -344,7 +214,7 @@
       Klassische IHK-Frage: Warum ist das Budget mehr als nur ein Plan? → Weil es <em>genehmigt, verbindlich und kontrollfähig</em> ist.
     </div>
 
-    <h3 id="kap5-1">5.1 Budgetplanung – Kostenstelle Dreherei</h3>
+    <h3 id="kap4-1">4.1 Budgetplanung – Kostenstelle Dreherei</h3>
 
     <table>
       <thead>
@@ -368,7 +238,7 @@
       </tbody>
     </table>
 
-    <h3 id="kap5-2">5.2 Kostenverhalten der Kostenarten</h3>
+    <h3 id="kap4-2">4.2 Kostenverhalten der Kostenarten</h3>
 
     <table>
       <thead><tr><th>Kostenart</th><th>Kostenverhalten</th><th>Begründung</th></tr></thead>
@@ -381,7 +251,7 @@
       </tbody>
     </table>
 
-    <h3 id="kap5-3">5.3 Ursachen der Budgetänderung 2020 → 2021</h3>
+    <h3 id="kap4-3">4.3 Ursachen der Budgetänderung 2020 → 2021</h3>
     <p>Planbezugsgröße steigt von 58.000 auf 60.000 Stunden (+2.000 Std.). Drei Hauptursachen:</p>
     <ul>
       <li><strong>+ Beschäftigung:</strong> Mehr Stunden → höhere variable Fertigungslöhne (750.000 → 780.000 €)</li>
@@ -394,7 +264,7 @@
       Das Budget ist nur dann ein Steuerungsinstrument, wenn es konsequent mit den Istkosten verglichen wird. <strong>Kein Budget ohne Budgetkontrolle</strong> – sonst entsteht keine Rückkopplung in den Regelkreis der Planung.
     </div>
 
-    <h3 id="kap5-4">5.4 Klassische Budgetierung vs. Zero-Base-Budgeting</h3>
+    <h3 id="kap4-4">4.4 Klassische Budgetierung vs. Zero-Base-Budgeting</h3>
 
     <div class="content-card">
       <h4>🎯 Anwendungsanker</h4>
@@ -432,7 +302,7 @@
     <!-- ══════════════════════════════════════════════
          KAPITEL 6 – PRÜFUNGSFRAGEN
     ══════════════════════════════════════════════ -->
-    <h2 id="kap6">6 · Prüfungsfragen &amp; Transferaufgaben</h2>
+    <h2 id="kap5">5 · Prüfungsfragen &amp; Transferaufgaben</h2>
 
     <div class="notice warn">Keine Musterlösung – Lösungshinweise im PDF</div>
 
@@ -451,16 +321,8 @@
       <li>Mit der Planverabschiedung wird der Plan zur „gültigen Handlungsgrundlage". Was folgt daraus für die Zielvereinbarungen im Betrieb, und was passiert, wenn das Planergebnis die strategischen Vorgaben nicht erfüllt? <em>(Prüfungsfalle)</em></li>
     </ol>
 
-    <h3>Block C – Regelkreis &amp; Abweichungsanalyse</h3>
+    <h3>Block C – Budgetierung</h3>
     <ol start="8">
-      <li>Erkläre den Regelkreis der Planung und Kontrolle. Welche vier Elemente enthält er, und was versteht man unter einer Störgröße? <em>(Definition)</em></li>
-      <li>Eine Kostenstelle meldet eine Gesamtabweichung von +35.000 €. Wie unterscheiden sich Preis-, Verbrauchs- und Beschäftigungsabweichung voneinander? Nenne für jede Abweichungsart eine typische Ursache. <em>(Prüfungsfalle)</em></li>
-      <li>Warum entsteht eine Beschäftigungsabweichung auch dann, wenn weder Materialpreise noch Mengenverbräuche gestiegen sind? Erkläre das Konzept der Leerkosten. <em>(Prüfungsfalle)</em></li>
-      <li>Eine Kostenstelle plant mit 40.000 Std. Planbeschäftigung, Plan-Lohnsatz 15,00 €/Std. und Fixkosten von 30.000 €. Ist-Beschäftigung: 37.000 Std., Ist-Lohnsatz 15,60 €/Std., Ist-Fixkosten 30.000 € (unverändert). Berechne Sollkosten, verrechnete Plankosten sowie Preis-, Verbrauchs- und Beschäftigungsabweichung. <em>(Vollständige Abweichungsanalyse)</em></li>
-    </ol>
-
-    <h3>Block D – Budgetierung</h3>
-    <ol start="11">
       <li>Im Kostenplan 2021 (Kostenstelle Dreherei) stiegen die Fertigungslöhne von 750.000 € auf 780.000 € bei einer Bezugsgrößenerhöhung von 58.000 auf 60.000 Stunden. Welche Ursachen kommen in Betracht, und wie würdest du die Änderung im Rahmen der Budgetkontrolle beurteilen? <em>(Analyse)</em></li>
       <li>Erkläre den Unterschied zwischen klassischer (fortschreibender) Budgetierung und Zero-Base-Budgeting. Nenne je einen Vor- und Nachteil des Zero-Base-Ansatzes. <em>(Begriffserklärung + Bewertung)</em></li>
     </ol>
@@ -471,15 +333,11 @@
       (a) Eintritt in südostasiatischen Markt in 5 Jahren · (b) Anschaffung CNC-Fräsmaschine 280.000 € nächstes Jahr · (c) Monatsbudget Kostenstelle Zerspanung Jan–Mrz · (d) Wachstumsziele 2 Jahre: Umsatz +12 %<br>
       Ordne jedes Vorhaben der passenden Planungsebene zu und begründe die Zuordnung.
     </div>
-    <div class="notice warn">
-      <strong>T2 – Abweichungsanalyse &amp; Gegensteuerung (Kostenstelle Dreherei 2021)</strong><br>
-      Fertigungslöhne: Plan 780.000 €, Ist 820.000 €, Abw. +40.000 €. Tatsächliche Beschäftigung: 57.000 Std. statt 60.000 Std.<br>
-      (a) Welche Abweichungsarten könnten die Fertigungs-Mehrkosten erklären? (b) Welche Abweichungsart ist durch die geringere Beschäftigung zusätzlich relevant? (c) Formuliere zwei konkrete Gegensteuerungsmaßnahmen. (d) Wie beeinflusst die rückläufige Beschäftigung die Fixkostenverrechnung?
-    </div>
 
     <div class="related-topics">
       <h3>Verwandte Themen</h3>
       <ul>
+        <li><a href="rewe_ls12.html">LS12 · Plankostenrechnung</a> – starre &amp; flexible Plankostenrechnung, Abweichungsanalyse, Regelkreis</li>
         <li><a href="rewe_ls08.html">LS08 · Auswertung betriebswirtschaftlicher Zahlen</a> – Soll-Ist-Vergleich, Berichtswesen</li>
         <li><a href="rewe_ls05.html">LS05 · Kostenstellenrechnung &amp; BAB</a> – Grundlage der Budgetplanung je Kostenstelle</li>
         <li><a href="rewe_ls07.html">LS07 · Voll- und Teilkostenrechnung</a> – Leerkosten, Fixkostendegression</li>

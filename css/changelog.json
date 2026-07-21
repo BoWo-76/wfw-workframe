@@ -1,5 +1,20 @@
 [
   {
+    "datum": "21.07.2026",
+    "eintraege": [
+      {
+        "modul": "rewe",
+        "titel": "LS12 · Plankostenrechnung – neues Skript, aus LS09 herausgetrennt (Planungsrechnung ≠ Plankostenrechnung): starre und flexible Plankostenrechnung, Plankostenverrechnungssatz, Soll-/Verrechnete-Plankosten, Preis-/Verbrauchs-/Beschäftigungsabweichung, Gegensteuerungsmaßnahmen",
+        "aktion": "neu"
+      },
+      {
+        "modul": "rewe",
+        "titel": "LS09 · Planungsrechnung – Plankostenrechnung ausgelagert nach LS12; Skript jetzt reine Planungsrechnung (Planungsebenen, Ablauf Ergebnisplanung, Top-Down/Bottom-Up/Gegenstromverfahren, Budgetierung inkl. Zero-Base-Budgeting)",
+        "aktion": "update"
+      }
+    ]
+  },
+  {
     "datum": "16.07.2026",
     "eintraege": [
       {
