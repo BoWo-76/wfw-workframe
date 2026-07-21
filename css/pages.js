@@ -92,13 +92,13 @@ const WIKI_CONFIG = {
     },
     {
       id: "rewe_ls10", module: "rewe", title: "LS10 · Prozesskostenrechnung",
-      file: "pages/rewe_ls10.html", status: "fertig", updated: "16.07.2026",
-      keywords: ["prozesskostenrechnung", "pkr", "teilprozess", "hauptprozess", "kostentreiber", "lmi", "lmn", "leistungsmengeninduziert", "leistungsmengenneutral", "prozesskostensatz", "komplexitätsfalle", "cost driver"]
+      file: "pages/rewe_ls10.html", status: "fertig", updated: "21.07.2026",
+      keywords: ["prozesskostenrechnung", "pkr", "teilprozess", "hauptprozess", "kostentreiber", "lmi", "lmn", "leistungsmengeninduziert", "leistungsmengenneutral", "prozesskostensatz", "komplexitätsfalle", "cost driver", "warenstelle", "gemischte bezugsgrößen"]
     },
     {
       id: "rewe_ls11", module: "rewe", title: "LS11 · Kostenmanagement & Target Costing",
-      file: "pages/rewe_ls11.html", status: "fertig", updated: "16.07.2026",
-      keywords: ["kostenmanagement", "target costing", "zielkostenmanagement", "market into company", "zielpreis", "zielgewinn", "zielkosten", "zielkostenlücke", "zielkostenspaltung", "zielkostenindex", "value control chart", "life cycle costing", "wertanalyse"]
+      file: "pages/rewe_ls11.html", status: "fertig", updated: "21.07.2026",
+      keywords: ["kostenmanagement", "target costing", "zielkostenmanagement", "market into company", "zielpreis", "zielgewinn", "zielkosten", "zielkostenlücke", "zielkostenspaltung", "zielkostenindex", "komponenten-nutzen-matrix", "value control chart", "life cycle costing", "wertanalyse"]
     },
     {
       id: "rewe_ls12", module: "rewe", title: "LS12 · Plankostenrechnung",

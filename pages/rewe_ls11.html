@@ -30,7 +30,7 @@
       <div class="kicker">Rechnungswesen · LS11</div>
       <h1>LS11 · Kostenmanagement &amp; Target Costing</h1>
       <div class="meta">
-        <span>Market into Company · Zielkosten · Zielkostenlücke · Zielkostenindex · Life Cycle Costing</span>
+        <span>Market into Company · Zielkosten · Zielkostenlücke · Komponenten-Nutzen-Matrix · Zielkostenindex · Life Cycle Costing</span>
         <span>Stand: Juli 2026</span>
         <span><span class="badge ok">Fertig</span></span>
       </div>
@@ -154,9 +154,58 @@
       Die Zielkosten des Gesamtprodukts (382,50 €) müssen auf die einzelnen Komponenten/Funktionen heruntergebrochen werden — sonst weiß niemand in der Konstruktion, wo genau gespart werden muss. Dafür dient die Zielkostenspaltung.
     </div>
 
+    <h3 id="kap4-1">4.1 Nutzenanteil herleiten: die Komponenten-Nutzen-Matrix</h3>
+
+    <div class="content-card">
+      <h4>🎯 Anwendungsanker</h4>
+      Immer wenn eine Aufgabe <strong>nicht direkt</strong> den Nutzenanteil je Komponente angibt, sondern zunächst eine Tabelle mit Nutzenaspekten (z. B. Lautstärke, Reichweite, Handhabung) UND deren Aufteilung auf die Komponenten liefert. Dann muss der Nutzenanteil je Komponente erst über eine Matrix-Rechnung hergeleitet werden, bevor der Zielkostenindex überhaupt berechnet werden kann.
+    </div>
+
+    <div class="def-box">
+      <div class="def-term">Komponentengewicht</div>
+      Für jede Komponente wird ihr Anteil an jedem Nutzenaspekt mit dem Gesamtnutzen-Gewicht dieses Aspekts multipliziert. Die Summe dieser Teilgewichte über alle Nutzenaspekte ergibt das <strong>Komponentengewicht</strong>. Der Nutzenanteil einer Komponente ist ihr Komponentengewicht im Verhältnis zur Summe aller Komponentengewichte.
+    </div>
+
+    <div class="notice info">
+      <strong>Rechenbeispiel – Elektrischer Rasenmäher (3 Komponenten, 3 Nutzenaspekte)</strong><br>
+      Nutzenaspekte und ihr Anteil am Gesamtnutzen: Lautstärke 40 %, Reichweite 30 %, Handhabung 30 %.<br>
+      Anteil jeder Komponente am jeweiligen Teilnutzen:
+      <table style="margin-top:0.5rem">
+        <thead><tr><th>Komponente</th><th>Lautstärke (40 %)</th><th>Reichweite (30 %)</th><th>Handhabung (30 %)</th></tr></thead>
+        <tbody>
+          <tr><td>Schneidewerk</td><td>40 %</td><td>10 %</td><td>50 %</td></tr>
+          <tr><td>E-Motor</td><td>60 %</td><td>20 %</td><td>20 %</td></tr>
+          <tr><td>Fahrwerk</td><td>50 %</td><td>10 %</td><td>40 %</td></tr>
+        </tbody>
+      </table>
+      Teilgewicht je Zelle = Anteil am Teilnutzen × Anteil des Nutzenaspekts am Gesamtnutzen. Beispiel Schneidewerk/Lautstärke: 40 % × 40 % = <strong>16</strong>.
+      <table style="margin-top:0.5rem">
+        <thead><tr><th>Komponente</th><th>Lautstärke</th><th>Reichweite</th><th>Handhabung</th><th>Komponentengewicht</th><th>Nutzenanteil</th></tr></thead>
+        <tbody>
+          <tr><td>Schneidewerk</td><td>40×40%=16</td><td>10×30%=3</td><td>50×30%=15</td><td><strong>34</strong></td><td>34÷105=<strong>32,38 %</strong></td></tr>
+          <tr><td>E-Motor</td><td>60×40%=24</td><td>20×30%=6</td><td>20×30%=6</td><td><strong>36</strong></td><td>36÷105=<strong>34,29 %</strong></td></tr>
+          <tr><td>Fahrwerk</td><td>50×40%=20</td><td>10×30%=3</td><td>40×30%=12</td><td><strong>35</strong></td><td>35÷105=<strong>33,33 %</strong></td></tr>
+          <tr><td><strong>Summe</strong></td><td></td><td></td><td></td><td><strong>105</strong></td><td><strong>100,00 %</strong></td></tr>
+        </tbody>
+      </table>
+      Bei Zielkosten von 1.620,00 € ergeben sich daraus die maximal erlaubten Kosten je Komponente: Schneidewerk 1.620,00 € × 32,38 % = <strong>524,55 €</strong>, E-Motor 1.620,00 € × 34,29 % = <strong>555,50 €</strong>, Fahrwerk 1.620,00 € × 33,33 % = <strong>539,95 €</strong> (kleine Rundungsdifferenzen möglich).
+    </div>
+
+    <div class="notice danger">
+      <div>⛔</div>
+      <div><strong>Prüfungsfalle — Nutzenaspekt-Gewichtung nicht vergessen</strong>Der reine Anteil am Teilnutzen (z. B. "E-Motor macht 60 % der Lautstärke aus") ist noch <strong>nicht</strong> der Nutzenanteil der Komponente — er muss zuerst mit dem Gesamtnutzen-Gewicht des jeweiligen Aspekts multipliziert werden. Wer die Prozentsätze der drei Nutzenaspekte einfach ungewichtet aufaddiert, ignoriert, dass Lautstärke (40 %) dem Kunden wichtiger ist als Reichweite oder Handhabung (je 30 %).</div>
+    </div>
+
+    <div class="content-card">
+      <h4>✍️ Formulierungsbaustein</h4>
+      „Da der Nutzenanteil je Komponente nicht direkt gegeben ist, wird er über die <em>Komponenten-Nutzen-Matrix</em> hergeleitet: Anteil am Teilnutzen × Gewicht des Nutzenaspekts = Teilgewicht, aufsummiert zum Komponentengewicht, ins Verhältnis gesetzt zur Gesamtsumme aller Komponentengewichte."
+    </div>
+
+    <h3 id="kap4-2">4.2 Vom Nutzenanteil zum Zielkostenindex</h3>
+
     <div class="def-box">
       <div class="def-term">Zielkostenspaltung (funktionsorientiert)</div>
-      Die Zielkosten werden im Verhältnis des <strong>vom Kunden wahrgenommenen Nutzens</strong> einer Funktion/Komponente auf diese verteilt — nicht im Verhältnis der bisherigen technischen Kostenanteile. Grundlage: Kundenbefragungen zur Bedeutung einzelner Funktionen (z. B. Conjoint-Analyse — Hintergrundwissen, in der Prüfung selten konkret verlangt).
+      Die Zielkosten werden im Verhältnis des <strong>vom Kunden wahrgenommenen Nutzens</strong> einer Funktion/Komponente auf diese verteilt — nicht im Verhältnis der bisherigen technischen Kostenanteile. Grundlage: Kundenbefragungen zur Bedeutung einzelner Funktionen (z. B. Conjoint-Analyse — Hintergrundwissen, in der Prüfung selten konkret verlangt), oder wie in Kapitel 4.1 gezeigt über eine Komponenten-Nutzen-Matrix.
     </div>
 
     <div class="def-box">
@@ -261,12 +310,13 @@
 
     <h3>Block 3 – Zielkostenspaltung &amp; Zielkostenindex</h3>
     <ol start="6">
+      <li>Ein Produkt besteht aus zwei Komponenten. Zwei Nutzenaspekte sind für den Kunden relevant: Aspekt X (Gewicht 70 %) und Aspekt Y (Gewicht 30 %). Komponente 1 deckt 60 % von X und 20 % von Y ab, Komponente 2 entsprechend 40 % von X und 80 % von Y. Berechne die Komponentengewichte und die Nutzenanteile beider Komponenten. <em>(Komponenten-Nutzen-Matrix)</em></li>
       <li>Eine Komponente hat einen Nutzenanteil von 15 % und einen Standard-Kostenanteil von 28 %. Berechne den Zielkostenindex und beurteile das Ergebnis. <em>(Zielkostenindex-Berechnung)</em></li>
       <li>Was zeigt die Toleranzzone im Zielkostenkontrolldiagramm, und warum ist nicht jede Abweichung von Index = 1 ein Alarmsignal? <em>(Prüfungsfalle)</em></li>
     </ol>
 
     <h3>Block 4 – Weitere Instrumente</h3>
-    <ol start="8">
+    <ol start="9">
       <li>Erkläre den Unterschied zwischen Herstellkosten und Lebenszykluskosten an einem eigenen Beispiel. <em>(Life Cycle Costing)</em></li>
       <li>Grenze Target Costing und Prozesskostenrechnung anhand ihres jeweiligen Zeitbezugs voneinander ab. <em>(Systemvergleich)</em></li>
     </ol>

@@ -4,6 +4,16 @@
     "eintraege": [
       {
         "modul": "rewe",
+        "titel": "LS11 · Kostenmanagement & Target Costing – erweitert um Komponenten-Nutzen-Matrix zur Herleitung des Nutzenanteils aus gewichteten Nutzenaspekten (Beispiel aus dem Dozentenbuch)",
+        "aktion": "update"
+      },
+      {
+        "modul": "rewe",
+        "titel": "LS10 · Prozesskostenrechnung – Gliederung von 5 auf 6 Kapitel an Dozentenbuch angeglichen, Warenstelle-Beispiel und Hauptprozess mit gemischten Bezugsgrößen (pro Auftrag vs. pro Erzeugniseinheit) ergänzt",
+        "aktion": "update"
+      },
+      {
+        "modul": "rewe",
         "titel": "LS12 · Plankostenrechnung – neues Skript, aus LS09 herausgetrennt (Planungsrechnung ≠ Plankostenrechnung): starre und flexible Plankostenrechnung, Plankostenverrechnungssatz, Soll-/Verrechnete-Plankosten, Preis-/Verbrauchs-/Beschäftigungsabweichung, Gegensteuerungsmaßnahmen",
         "aktion": "neu"
       },
