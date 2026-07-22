@@ -162,6 +162,11 @@ const WIKI_CONFIG = {
       file: "pages/finanz_ls09.html", status: "fertig", updated: "03.07.2026",
       keywords: ["factoring", "faktor", "echtes factoring", "unechtes factoring", "offenes factoring", "stilles factoring", "delkredere", "leasing", "direktes leasing", "indirektes leasing", "operatives leasing", "finanzierungsleasing", "sale-and-lease-back", "40-90-regel", "grundmietzeit", "wirtschaftliches eigentum", "bmf-leasing-erlasse"]
     },
+    {
+      id: "finanz_ls10", module: "finanz", title: "LS10 · Controlling",
+      file: "pages/finanz_ls10.html", status: "fertig", updated: "22.07.2026",
+      keywords: ["controlling", "controller", "management-regelkreis", "aufbauorganisation", "ablauforganisation", "zentrales controlling", "dezentrales controlling", "stabsstelle", "linienstelle", "strategisches controlling", "operatives controlling", "gap-analyse", "du-pont-system", "roi", "controller vs manager"]
+    },
 
     // ── Recht und Steuern ────────────────────────────────────
     {
